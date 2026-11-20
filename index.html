@@ -278,32 +278,46 @@
     <!-- Right Stage: Context Strip (Photo + Map + Dossier + Timeline) & LinkedArtViewer -->
     <section class="lg:col-span-8 xl:col-span-9 space-y-3">
 
-      <!-- Active Asset Header -->
-      <div id="activeHeaderCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3 flex flex-wrap items-center justify-between gap-3">
-        <div class="min-w-0">
-          <div class="flex items-center gap-2">
-            <span id="activeGrade" class="px-2 py-0.5 text-[11px] font-semibold rounded bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300">Grade II</span>
-            <h2 id="activeTitle" class="font-semibold text-sm sm:text-base truncate">The Market House</h2>
-            <span id="imageBadge" class="hidden px-2 py-0.5 text-[11px] font-medium rounded bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300">
-              Commons Image
-            </span>
+      <!-- Active Asset Header + Materials & Periods Ribbon -->
+      <div id="activeHeaderCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3 space-y-2.5">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div class="min-w-0">
+            <div class="flex items-center gap-2">
+              <span id="activeGrade" class="px-2 py-0.5 text-[11px] font-semibold rounded bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300">Grade II</span>
+              <h2 id="activeTitle" class="font-semibold text-sm sm:text-base truncate">The Market House</h2>
+              <span id="imageBadge" class="hidden px-2 py-0.5 text-[11px] font-medium rounded bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300">
+                Commons Image
+              </span>
+            </div>
+            <div id="outboundLinks" class="flex flex-wrap items-center gap-1.5 mt-1.5 text-xs"></div>
           </div>
-          <div id="outboundLinks" class="flex flex-wrap items-center gap-1.5 mt-1.5 text-xs"></div>
+
+          <div class="flex items-center gap-2 shrink-0">
+            <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+              Hide Context Panel
+            </button>
+            <button id="copyLinkBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy shareable HTML page link for this entity">
+              Share Link
+            </button>
+            <button id="copyUriBtn" type="button" class="px-2.5 py-1.5 text-xs font-mono rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy Linked Art JSON-LD URI">
+              Copy JSON URI
+            </button>
+            <button id="downloadJsonBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded bg-sky-700 hover:bg-sky-600 text-white">
+              Download JSON-LD
+            </button>
+          </div>
         </div>
 
-        <div class="flex items-center gap-2 shrink-0">
-          <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
-            Hide Context Panel
-          </button>
-          <button id="copyLinkBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy shareable HTML page link for this entity">
-            Share Link
-          </button>
-          <button id="copyUriBtn" type="button" class="px-2.5 py-1.5 text-xs font-mono rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy Linked Art JSON-LD URI">
-            Copy JSON URI
-          </button>
-          <button id="downloadJsonBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded bg-sky-700 hover:bg-sky-600 text-white">
-            Download JSON-LD
-          </button>
+        <!-- Entity Materials & Periods Ribbon -->
+        <div id="entityFacetsRibbon" class="pt-2 border-t border-slate-100 dark:border-slate-800/90 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-slate-400">Materials:</span>
+            <div id="ribbonMaterials" class="flex flex-wrap items-center gap-1"></div>
+          </div>
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-slate-400">Periods:</span>
+            <div id="ribbonPeriods" class="flex flex-wrap items-center gap-1"></div>
+          </div>
         </div>
       </div>
 
@@ -799,6 +813,67 @@
       });
     }
 
+
+    function renderEntityRibbon(doc) {
+      const matContainer = document.getElementById('ribbonMaterials');
+      const perContainer = document.getElementById('ribbonPeriods');
+      const catItem = catalog.find(c => c.id === activeId);
+
+      // Materials from Linked Art `made_of` (or catalog fallback)
+      const docMats = (doc.made_of || []).map(m => ({ label: m._label, uri: m.id }));
+      const mats = docMats.length
+        ? docMats
+        : ((catItem?.materials || []).map(label => ({ label, uri: '' })));
+
+      matContainer.innerHTML = mats.length
+        ? mats.map(m => `<button type="button" data-mat="${m.label.replace(/"/g, '&quot;')}" class="ribbon-mat-chip inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-amber-50 dark:bg-amber-950/50 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800/70 hover:border-amber-500 transition-colors" title="Filter catalog by material: ${m.label}${m.uri ? ' (' + m.uri + ')' : ''}">${m.label}</button>`).join('')
+        : '<span class="text-[11px] text-slate-400 italic">None recorded</span>';
+
+      // Periods from catalog index + Linked Art `produced_by` / `modified_by` timespans
+      const periodSet = new Set(catItem?.periods || []);
+      if (periodSet.has('Unassigned Period') && periodSet.size > 1) {
+        periodSet.delete('Unassigned Period');
+      }
+      if (periodSet.size === 0) {
+        if (doc.produced_by?.timespan?._label) periodSet.add(doc.produced_by.timespan._label);
+        (doc.modified_by || []).forEach(m => {
+          if (m.timespan?._label) periodSet.add(m.timespan._label);
+        });
+      }
+      const periods = [...periodSet].filter(p => p && p !== 'Unassigned Period');
+
+      perContainer.innerHTML = periods.length
+        ? periods.map(p => `<button type="button" data-period="${p.replace(/"/g, '&quot;')}" class="ribbon-period-chip inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-indigo-50 dark:bg-indigo-950/50 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800/70 hover:border-indigo-500 transition-colors" title="Filter catalog by period: ${p}">${p}</button>`).join('')
+        : '<span class="text-[11px] text-slate-400 italic">Unassigned</span>';
+
+      document.querySelectorAll('.ribbon-mat-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const val = btn.dataset.mat;
+          state.material = (state.material === val) ? '' : val;
+          const sel = document.getElementById('materialSelect');
+          if (sel) sel.value = state.material;
+          renderLimit = 100;
+          renderList();
+        });
+      });
+
+      document.querySelectorAll('.ribbon-period-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const val = btn.dataset.period;
+          const sel = document.getElementById('periodSelect');
+          if (sel && [...sel.options].some(o => o.value === val)) {
+            state.period = (state.period === val) ? '' : val;
+            sel.value = state.period;
+          } else {
+            state.q = val;
+            document.getElementById('searchInput').value = val;
+          }
+          renderLimit = 100;
+          renderList();
+        });
+      });
+    }
+
     function updateHeaderMeta(doc) {
       if (!doc) return;
       const primaryName = (doc.identified_by || []).find(i => i.type === 'Name')?.content || doc._label;
@@ -838,6 +913,7 @@
 
       linksEl.innerHTML = pills.join('');
 
+      renderEntityRibbon(doc);
       renderMediaCard(doc, primaryName);
       renderMiniMap(doc);
       renderDossierCard(doc);
