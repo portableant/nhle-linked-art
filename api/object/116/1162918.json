@@ -102,6 +102,12 @@
       "_label": "Barn At Great Pednor Manor To East Of House (Q26456497)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

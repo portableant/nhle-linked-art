@@ -113,6 +113,12 @@
       "_label": "Barn At Broughton Farm (Q26500011)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Weston Turville)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

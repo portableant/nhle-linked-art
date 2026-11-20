@@ -128,8 +128,22 @@
       "_label": "1845",
       "begin_of_the_begin": "1845-01-01T00:00:00Z",
       "end_of_the_end": "1845-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1162947",
+        "type": "Place",
+        "_label": "Cholesbury-cum-St Leonards (SP 90998 07065)",
+        "defined_by": "POINT(-0.683076 51.754894)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Cholesbury-cum-St Leonards)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1162947-1",

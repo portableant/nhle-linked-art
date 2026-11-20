@@ -113,6 +113,12 @@
       "_label": "Barn At Grove Farm (30 Metres To North East Of House) (Q26631842)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Flamstead)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

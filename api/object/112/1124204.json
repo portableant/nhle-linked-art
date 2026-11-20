@@ -102,6 +102,12 @@
       "_label": "Moat Farmhouse (Q26417282)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

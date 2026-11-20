@@ -102,6 +102,12 @@
       "_label": "Great Pednor Manor (Q26417946)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

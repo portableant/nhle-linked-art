@@ -102,6 +102,12 @@
       "_label": "Building Nos 6, 7 And 8-13 (Groves Barracks) And 14,15 And 16-21 (Henderson Barracks) (Q26672238)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

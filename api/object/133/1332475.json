@@ -122,8 +122,22 @@
       "_label": "C16",
       "begin_of_the_begin": "1500-01-01T00:00:00Z",
       "end_of_the_end": "1599-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332475",
+        "type": "Place",
+        "_label": "The Lee (SP 90503 03728)",
+        "defined_by": "POINT(-0.691112 51.724978)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (The Lee)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332475-1",

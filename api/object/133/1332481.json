@@ -102,6 +102,12 @@
       "_label": "Barn To North West Of Bellingdon Farmhouse (Q26617287)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

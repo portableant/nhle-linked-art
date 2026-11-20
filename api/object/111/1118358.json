@@ -135,8 +135,22 @@
       "_label": "1860",
       "begin_of_the_begin": "1860-01-01T00:00:00Z",
       "end_of_the_end": "1860-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118358",
+        "type": "Place",
+        "_label": "Weston Turville (SP 85930 10287)",
+        "defined_by": "POINT(-0.755683 51.784664)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Weston Turville)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118358-1",

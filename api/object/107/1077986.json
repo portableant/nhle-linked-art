@@ -128,8 +128,22 @@
       "_label": "1857–1861",
       "begin_of_the_begin": "1857-01-01T00:00:00Z",
       "end_of_the_end": "1861-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077986",
+        "type": "Place",
+        "_label": "Wigginton (SP 94048 10316)",
+        "defined_by": "POINT(-0.638024 51.783612)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Wigginton)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-1",

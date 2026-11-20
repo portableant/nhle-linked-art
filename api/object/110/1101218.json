@@ -102,6 +102,12 @@
       "_label": "Two Adjacent Barns At Roe End Farm (45 Metres To South West Of House) (Q26394400)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

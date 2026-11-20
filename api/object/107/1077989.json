@@ -129,8 +129,22 @@
       "_label": "1935",
       "begin_of_the_begin": "1935-01-01T00:00:00Z",
       "end_of_the_end": "1935-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077989",
+        "type": "Place",
+        "_label": "Aldbury (SP9647712401)",
+        "defined_by": "POINT(-0.602243 51.80194)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Aldbury)"
+    }
+  ],
   "representation": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1077989",

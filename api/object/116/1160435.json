@@ -128,8 +128,22 @@
       "_label": "1853",
       "begin_of_the_begin": "1853-01-01T00:00:00Z",
       "end_of_the_end": "1853-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160435",
+        "type": "Place",
+        "_label": "Bierton With Broughton (SP 83616 15261)",
+        "defined_by": "POINT(-0.788022 51.829726)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Bierton With Broughton)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160435-1",

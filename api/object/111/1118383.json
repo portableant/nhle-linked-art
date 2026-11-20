@@ -102,6 +102,12 @@
       "_label": "Cottage Formerly Barn To North East Of Smalldeam Farmhouse (Q26411833)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

@@ -128,8 +128,22 @@
       "_label": "1880",
       "begin_of_the_begin": "1880-01-01T00:00:00Z",
       "end_of_the_end": "1880-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078004",
+        "type": "Place",
+        "_label": "Tring (SP 91956 11040)",
+        "defined_by": "POINT(-0.66815 51.790467)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Tring)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078004-1",

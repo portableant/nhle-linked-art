@@ -122,8 +122,22 @@
       "_label": "1930",
       "begin_of_the_begin": "1930-01-01T00:00:00Z",
       "end_of_the_end": "1930-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1347268",
+        "type": "Place",
+        "_label": "St Stephen (TL 12188 04306)",
+        "defined_by": "POINT(-0.377097 51.726259)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (St Stephen)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347268-1",

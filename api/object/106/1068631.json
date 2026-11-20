@@ -122,8 +122,22 @@
       "_label": "Late C18",
       "begin_of_the_begin": "1767-01-01T00:00:00Z",
       "end_of_the_end": "1799-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1068631",
+        "type": "Place",
+        "_label": "Tring (SP 92182 11300)",
+        "defined_by": "POINT(-0.664805 51.792767)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Civic / Municipal Stewardship (Tring)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1068631-1",

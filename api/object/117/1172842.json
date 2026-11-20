@@ -102,6 +102,12 @@
       "_label": "Three Barns And Covered Gateway Adjacent At Hill Farm (45 Metres To East Of House) (Q26467608)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

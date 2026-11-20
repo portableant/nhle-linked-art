@@ -113,6 +113,12 @@
       "_label": "Barn To North Of Smalldeam Farmhouse (Q26411832)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Wendover)"
+    }
+  ],
   "representation": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1118382",

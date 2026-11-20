@@ -129,8 +129,22 @@
       "_label": "1911",
       "begin_of_the_begin": "1911-01-01T00:00:00Z",
       "end_of_the_end": "1911-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348054",
+        "type": "Place",
+        "_label": "Nettleden With (TL 01055 08609)",
+        "defined_by": "POINT(-0.536977 51.767049)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Nettleden With)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

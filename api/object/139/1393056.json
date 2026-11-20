@@ -102,6 +102,12 @@
       "_label": "Building No 29 (Groves Mess) Groves And Henderson Barracks (Q26672244)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

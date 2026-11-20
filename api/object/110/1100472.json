@@ -122,8 +122,22 @@
       "_label": "C15",
       "begin_of_the_begin": "1400-01-01T00:00:00Z",
       "end_of_the_end": "1499-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100472",
+        "type": "Place",
+        "_label": "Bovingdon (TL 01129 02778)",
+        "defined_by": "POINT(-0.537598 51.714626)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Bovingdon)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100472-1",

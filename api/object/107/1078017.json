@@ -124,6 +124,12 @@
       "end_of_the_end": "1833-12-31T23:59:59Z"
     }
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "representation": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078017",

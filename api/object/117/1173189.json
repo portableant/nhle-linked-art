@@ -128,8 +128,22 @@
       "_label": "1880",
       "begin_of_the_begin": "1880-01-01T00:00:00Z",
       "end_of_the_end": "1880-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173189",
+        "type": "Place",
+        "_label": "Abbots Langley (TL 09868 03891)",
+        "defined_by": "POINT(-0.410804 51.722988)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Abbots Langley)"
+    }
+  ],
   "representation": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1173189",

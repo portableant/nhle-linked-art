@@ -102,6 +102,12 @@
       "_label": "Marsh Farm And Attached Courtyard Of Outbuildings To West, Along Track 250 Metres From Lane (Q26394411)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

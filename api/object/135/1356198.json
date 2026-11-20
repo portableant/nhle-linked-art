@@ -122,8 +122,22 @@
       "_label": "C17",
       "begin_of_the_begin": "1600-01-01T00:00:00Z",
       "end_of_the_end": "1699-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1356198",
+        "type": "Place",
+        "_label": "Tring (SP 92421 11415)",
+        "defined_by": "POINT(-0.66131 51.793761)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Tring)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1356198-1",

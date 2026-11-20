@@ -128,8 +128,22 @@
       "_label": "1730",
       "begin_of_the_begin": "1730-01-01T00:00:00Z",
       "end_of_the_end": "1730-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348470",
+        "type": "Place",
+        "_label": "Northchurch (SP 97440 08833)",
+        "defined_by": "POINT(-0.589283 51.769703)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Northchurch)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-1",

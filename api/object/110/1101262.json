@@ -135,8 +135,22 @@
       "_label": "1230",
       "begin_of_the_begin": "1230-01-01T00:00:00Z",
       "end_of_the_end": "1230-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101262",
+        "type": "Place",
+        "_label": "Great Gaddesden (TL 02868 11263)",
+        "defined_by": "POINT(-0.509928 51.790574)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Great Gaddesden)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-1",

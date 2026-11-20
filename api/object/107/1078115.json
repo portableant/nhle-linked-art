@@ -113,6 +113,12 @@
       "_label": "Boxted Dairy Farmhouse (Q26347025)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300011914",

@@ -128,8 +128,22 @@
       "_label": "1854–1871",
       "begin_of_the_begin": "1854-01-01T00:00:00Z",
       "end_of_the_end": "1871-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125881",
+        "type": "Place",
+        "_label": "Ellesborough (SP 83637 06739)",
+        "defined_by": "POINT(-0.78977 51.753109)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Ellesborough)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-1",

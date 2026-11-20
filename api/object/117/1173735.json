@@ -102,6 +102,12 @@
       "_label": "Wellhouse At St Margaret's Farm 10 Metres To West Of Farmhouse (Q26468479)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

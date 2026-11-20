@@ -102,6 +102,12 @@
       "_label": "North Barn At Bulstrode Farm (40 Metres To North West Of House) (Q26392717)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

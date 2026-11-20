@@ -113,6 +113,12 @@
       "_label": "East Barn At Bulstrode Farm (20 Metres To North Of House) (Q26392719)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Chipperfield)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

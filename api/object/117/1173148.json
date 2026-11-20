@@ -102,6 +102,12 @@
       "_label": "Barn And Outbuildings To The North Of Hyde Lane Farm House (Q26467924)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

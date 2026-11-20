@@ -113,6 +113,12 @@
       "_label": "Barn At Grist House Farm 25 Metres To South South East Of House (Q26631474)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Great Gaddesden)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

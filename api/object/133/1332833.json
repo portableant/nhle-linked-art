@@ -113,6 +113,12 @@
       "_label": "Spencer Cottage (Q26617616)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Stoke Mandeville)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

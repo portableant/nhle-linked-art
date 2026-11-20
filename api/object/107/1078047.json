@@ -135,8 +135,22 @@
       "_label": "1203",
       "begin_of_the_begin": "1203-01-01T00:00:00Z",
       "end_of_the_end": "1203-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078047",
+        "type": "Place",
+        "_label": "Aldbury (SP 96351 12471)",
+        "defined_by": "POINT(-0.604051 51.802591)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Aldbury)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-1",

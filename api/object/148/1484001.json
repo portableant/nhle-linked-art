@@ -119,6 +119,12 @@
       "end_of_the_end": "1865-12-31T23:59:59Z"
     }
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "English Heritage"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-1",

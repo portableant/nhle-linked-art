@@ -128,8 +128,22 @@
       "_label": "1531",
       "begin_of_the_begin": "1531-01-01T00:00:00Z",
       "end_of_the_end": "1531-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124210",
+        "type": "Place",
+        "_label": "Drayton Beauchamp (SP 90160 11884)",
+        "defined_by": "POINT(-0.693964 51.798346)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Drayton Beauchamp)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-1",

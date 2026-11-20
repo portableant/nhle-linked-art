@@ -122,8 +122,22 @@
       "_label": "Late C18",
       "begin_of_the_begin": "1767-01-01T00:00:00Z",
       "end_of_the_end": "1799-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125887",
+        "type": "Place",
+        "_label": "Ellesborough (SP 84811 03830)",
+        "defined_by": "POINT(-0.773474 51.726784)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Ellesborough)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125887-1",

@@ -113,6 +113,12 @@
       "_label": "Boundary Walls And Railings To South And East Of Dancers End House (Q26417287)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Buckland)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300011692",

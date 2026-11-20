@@ -122,8 +122,22 @@
       "_label": "C18",
       "begin_of_the_begin": "1700-01-01T00:00:00Z",
       "end_of_the_end": "1799-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124232",
+        "type": "Place",
+        "_label": "Aston Clinton (SP 88302 11982)",
+        "defined_by": "POINT(-0.720875 51.799523)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Aston Clinton)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124232-1",

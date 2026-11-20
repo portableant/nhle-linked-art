@@ -128,8 +128,22 @@
       "_label": "1886",
       "begin_of_the_begin": "1886-01-01T00:00:00Z",
       "end_of_the_end": "1886-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332869",
+        "type": "Place",
+        "_label": "Stoke Mandeville (SP 83446 10442)",
+        "defined_by": "POINT(-0.791648 51.786424)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Stoke Mandeville)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332869-1",

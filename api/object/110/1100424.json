@@ -155,8 +155,22 @@
       "_label": "1819",
       "begin_of_the_begin": "1819-01-01T00:00:00Z",
       "end_of_the_end": "1819-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100424",
+        "type": "Place",
+        "_label": "Little Gaddesden (SP 99788 13820)",
+        "defined_by": "POINT(-0.553834 51.814114)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Little Gaddesden)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-1",

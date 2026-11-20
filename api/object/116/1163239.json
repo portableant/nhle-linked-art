@@ -135,8 +135,22 @@
       "_label": "1867–1869",
       "begin_of_the_begin": "1867-01-01T00:00:00Z",
       "end_of_the_end": "1869-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1163239",
+        "type": "Place",
+        "_label": "The Lee (SP 89871 04375)",
+        "defined_by": "POINT(-0.700093 51.730896)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (The Lee)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1163239-1",

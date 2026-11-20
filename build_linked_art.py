@@ -238,6 +238,94 @@ def extract_build_timespan(text: str) -> Optional[Dict[str, str]]:
     return None
 
 
+def extract_provenance_chain(text: str, name: str, locality: str, list_entry: str, base_url: str, prod_timespan: Optional[Dict[str, str]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """
+    Extracts Linked Art `changed_ownership_through` (Acquisition events) and `current_owner`
+    from Historic England listing text so `@micropasts/provenance-timeline` can render a
+    complete chain of custody alongside `produced_by`.
+    """
+    acquisitions: List[Dict[str, Any]] = []
+    owners: List[Dict[str, Any]] = []
+    cleaned = re.sub(r"Listing NGR:.*$", "", text)
+    clauses = re.split(r"(?<=[\.;])\s+", cleaned)
+
+    transfer_rules = [
+        (r"\b(?:presented by|given by|gift of|donated by)\s+((?:Sir\s+|Lord\s+|Lady\s+)?[A-Z][a-z]+(?:\s+(?:de|van|von|[A-Z]\.|[A-Z][a-z]+)){0,3})", "Gift"),
+        (r"\b(?:bequeathed by|left by|inherited from)\s+((?:Sir\s+|Lord\s+|Lady\s+)?[A-Z][a-z]+(?:\s+(?:de|van|von|[A-Z]\.|[A-Z][a-z]+)){0,3})", "Inheritance"),
+        (r"\b(?:sold to|purchased by|bought by|acquired by)\s+((?:the\s+)?(?:National Trust|English Heritage|Crown|[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}))", "Sales"),
+    ]
+
+    idx = 1
+    for clause in clauses:
+        c_clean = re.sub(r"\s+", " ", clause).strip()
+        if not c_clean:
+            continue
+
+        year_match = re.search(r"\b(1[0-9]{3})\b", c_clean)
+        ts_obj = None
+        if year_match:
+            yr = year_match.group(1)
+            ts_obj = {
+                "type": "TimeSpan",
+                "_label": yr,
+                "begin_of_the_begin": f"{yr}-01-01T00:00:00Z",
+                "end_of_the_end": f"{yr}-12-31T23:59:59Z",
+            }
+        elif prod_timespan:
+            ts_obj = prod_timespan
+
+        for pat, method_label in transfer_rules:
+            m = re.search(pat, c_clean)
+            if m:
+                party_name = m.group(1).strip().rstrip(".,;:")
+                acq: Dict[str, Any] = {
+                    "id": f"{base_url}/api/acquisition/nhle-{list_entry}-{idx}",
+                    "type": "Acquisition",
+                    "_label": f"{method_label}: {c_clean[:120]}",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417642" if method_label == "Gift" else "http://vocab.getty.edu/aat/300417644",
+                            "type": "Type",
+                            "_label": method_label,
+                        }
+                    ],
+                    "referred_to_by": [
+                        {
+                            "type": "LinguisticObject",
+                            "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Provenance Statement"}],
+                            "content": c_clean,
+                        }
+                    ],
+                }
+                if ts_obj:
+                    acq["timespan"] = ts_obj
+
+                if method_label in ("Gift", "Inheritance"):
+                    acq["transferred_title_from"] = [{"type": "Person", "_label": party_name}]
+                    acq["transferred_title_to"] = [{"type": "Group", "_label": f"Public / Trust Stewards ({locality})"}]
+                else:
+                    acq["transferred_title_from"] = [{"type": "Person", "_label": "Unknown"}]
+                    acq["transferred_title_to"] = [{"type": "Group", "_label": party_name}]
+
+                acquisitions.append(acq)
+                idx += 1
+
+    # Determine current steward / owner
+    lower_all = cleaned.lower()
+    if "national trust" in lower_all:
+        owners.append({"type": "Group", "_label": "The National Trust"})
+    elif "english heritage" in lower_all:
+        owners.append({"type": "Group", "_label": "English Heritage"})
+    elif "now offices" in lower_all or "council chamber" in lower_all or "town hall" in lower_all:
+        owners.append({"type": "Group", "_label": f"Civic / Municipal Stewardship ({locality})"})
+    elif "parish church" in lower_all:
+        owners.append({"type": "Group", "_label": f"Parochial Church Council ({locality})"})
+    else:
+        owners.append({"type": "Group", "_label": f"Statutory Listed Property Steward ({locality})"})
+
+    return acquisitions, owners
+
+
 def extract_chronology_phases(text: str) -> List[Dict[str, Any]]:
     """
     Extracts ordered historical construction & alteration phases (both explicit years like
@@ -592,7 +680,17 @@ def row_to_linked_art(
             ]
         if timespan:
             prod["timespan"] = timespan
+        if locality and locality != "Unassigned Locality":
+            prod["took_place_at"] = [place_node]
         doc["produced_by"] = prod
+
+    acquisitions, current_owners = extract_provenance_chain(
+        combined_text, name, locality, list_entry, base_url, timespan
+    )
+    if acquisitions:
+        doc["changed_ownership_through"] = acquisitions
+    if current_owners:
+        doc["current_owner"] = current_owners
 
     # Subsequent historical phases -> Linked Art `modified_by` (`Modification` nodes with `TimeSpan`)
     if len(phases) > 1:

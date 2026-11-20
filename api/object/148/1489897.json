@@ -119,6 +119,12 @@
       "end_of_the_end": "1920-12-31T23:59:59Z"
     }
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Unassigned Locality)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1489897-1",

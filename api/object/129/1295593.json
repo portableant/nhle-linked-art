@@ -122,8 +122,22 @@
       "_label": "1732",
       "begin_of_the_begin": "1732-01-01T00:00:00Z",
       "end_of_the_end": "1732-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1295593",
+        "type": "Place",
+        "_label": "Redbourn (TL0997111572)",
+        "defined_by": "POINT(-0.406886 51.792001)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Redbourn)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295593-1",

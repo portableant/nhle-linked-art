@@ -102,6 +102,12 @@
       "_label": "Upper Wood Farmhouse Along Track 600 Metres From Road (Q26467855)"
     }
   ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Unassigned Locality)"
+    }
+  ],
   "attributed_by": [
     {
       "type": "AttributeAssignment",

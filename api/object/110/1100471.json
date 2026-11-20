@@ -122,8 +122,22 @@
       "_label": "C20",
       "begin_of_the_begin": "1900-01-01T00:00:00Z",
       "end_of_the_end": "1999-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100471",
+        "type": "Place",
+        "_label": "Bovingdon (TL 01230 02903)",
+        "defined_by": "POINT(-0.5361 51.715731)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Bovingdon)"
+    }
+  ],
   "made_of": [
     {
       "id": "http://vocab.getty.edu/aat/300010463",

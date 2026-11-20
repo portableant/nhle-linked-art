@@ -128,8 +128,67 @@
       "_label": "1895",
       "begin_of_the_begin": "1895-01-01T00:00:00Z",
       "end_of_the_end": "1895-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101192",
+        "type": "Place",
+        "_label": "Nettleden With (TL 01999 10474)",
+        "defined_by": "POINT(-0.522754 51.78365)"
+      }
+    ]
   },
+  "changed_ownership_through": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/acquisition/nhle-1101192-1",
+      "type": "Acquisition",
+      "_label": "Gift: Chamfered square oak pulpit on fat circular base with vigorous carving in high relief presented by Lady Marion Alford in",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417642",
+          "type": "Type",
+          "_label": "Gift"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435416",
+              "type": "Type",
+              "_label": "Provenance Statement"
+            }
+          ],
+          "content": "Chamfered square oak pulpit on fat circular base with vigorous carving in high relief presented by Lady Marion Alford in memory of Rev G.S."
+        }
+      ],
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1895",
+        "begin_of_the_begin": "1895-01-01T00:00:00Z",
+        "end_of_the_end": "1895-12-31T23:59:59Z"
+      },
+      "transferred_title_from": [
+        {
+          "type": "Person",
+          "_label": "Lady Marion Alford"
+        }
+      ],
+      "transferred_title_to": [
+        {
+          "type": "Group",
+          "_label": "Public / Trust Stewards (Nettleden With)"
+        }
+      ]
+    }
+  ],
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Nettleden With)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101192-1",

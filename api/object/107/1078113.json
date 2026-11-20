@@ -122,8 +122,22 @@
       "_label": "1906",
       "begin_of_the_begin": "1906-01-01T00:00:00Z",
       "end_of_the_end": "1906-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078113",
+        "type": "Place",
+        "_label": "Berkhamsted (TL 00374 08728)",
+        "defined_by": "POINT(-0.546807 51.768241)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Statutory Listed Property Steward (Berkhamsted)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078113-1",

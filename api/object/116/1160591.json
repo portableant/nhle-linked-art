@@ -128,8 +128,22 @@
       "_label": "C13",
       "begin_of_the_begin": "1200-01-01T00:00:00Z",
       "end_of_the_end": "1299-12-31T23:59:59Z"
-    }
+    },
+    "took_place_at": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160591",
+        "type": "Place",
+        "_label": "Buckland (SP 88790 12446)",
+        "defined_by": "POINT(-0.713681 51.803616)"
+      }
+    ]
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Parochial Church Council (Buckland)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160591-1",

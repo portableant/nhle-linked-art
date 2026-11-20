@@ -136,6 +136,12 @@
       "end_of_the_end": "1851-12-31T23:59:59Z"
     }
   },
+  "current_owner": [
+    {
+      "type": "Group",
+      "_label": "Civic / Municipal Stewardship (Unassigned Locality)"
+    }
+  ],
   "modified_by": [
     {
       "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342196-1",
