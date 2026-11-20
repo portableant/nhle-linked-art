@@ -293,6 +293,12 @@
           </div>
 
           <div class="flex items-center gap-2 shrink-0">
+            <button id="openDescriptionBtn" type="button" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 hover:border-sky-500 hover:text-sky-600 dark:hover:text-sky-400 transition-colors" title="Read full official NHLE description sections">
+              <svg class="w-3.5 h-3.5 text-sky-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              <span>Full Description</span>
+            </button>
             <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
               Hide Context Panel
             </button>
@@ -362,7 +368,12 @@
                 <div id="aatMaterialsList" class="flex flex-wrap gap-1 mt-1"></div>
               </div>
               <div>
-                <div class="text-[10px] font-mono uppercase text-slate-400">referred_to_by</div>
+                <div class="flex items-center justify-between">
+                  <span class="text-[10px] font-mono uppercase text-slate-400">referred_to_by</span>
+                  <button id="dossierExpandBtn" type="button" class="text-[11px] font-medium text-sky-600 dark:text-sky-400 hover:underline">
+                    Read full text &rarr;
+                  </button>
+                </div>
                 <p id="dossierText" class="text-[11px] leading-relaxed text-slate-600 dark:text-slate-300 mt-0.5 line-clamp-4"></p>
               </div>
             </div>
@@ -391,6 +402,46 @@
       <div id="viewer" class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm"></div>
     </section>
   </main>
+
+  <!-- Full Description Modal Overlay (`referred_to_by` + Identifiers) -->
+  <div id="descriptionModal" role="dialog" aria-modal="true" aria-labelledby="descModalTitle" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-xs items-center justify-center p-4">
+    <div class="max-w-3xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl overflow-hidden flex flex-col max-h-[86vh]">
+      <div class="px-5 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-3 bg-slate-50/70 dark:bg-slate-900">
+        <div class="min-w-0">
+          <div class="flex items-center gap-2">
+            <span id="descModalGrade" class="px-2 py-0.5 text-[11px] font-semibold rounded bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300 shrink-0">Grade II</span>
+            <h2 id="descModalTitle" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-slate-100 truncate">Asset Description</h2>
+          </div>
+          <p id="descModalMeta" class="text-xs font-mono text-slate-500 dark:text-slate-400 truncate mt-0.5"></p>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="copyDescTextBtn" type="button" class="px-2.5 py-1 text-xs font-medium rounded border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            Copy Text
+          </button>
+          <button id="closeDescModalBtn" type="button" aria-label="Close full description" class="p-1.5 rounded text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Structured Identifiers Strip (`identified_by`) -->
+      <div id="descModalIdentifiers" class="px-5 py-2.5 bg-slate-50 dark:bg-slate-950/60 border-b border-slate-200 dark:border-slate-800 flex flex-wrap items-center gap-2 text-xs"></div>
+
+      <!-- Scrollable Linked Art `referred_to_by` Sections -->
+      <div id="descModalBody" class="p-5 overflow-y-auto space-y-5 text-xs sm:text-sm text-slate-700 dark:text-slate-200 leading-relaxed flex-1"></div>
+
+      <div class="px-5 py-3 bg-slate-50 dark:bg-slate-950/60 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs">
+        <a id="descModalHeLink" href="#" target="_blank" rel="noopener noreferrer" class="text-sky-600 dark:text-sky-400 font-medium hover:underline">
+          View Official Entry on Historic England &nearr;
+        </a>
+        <button id="closeDescModalFooterBtn" type="button" class="px-3.5 py-1.5 font-medium rounded-md bg-slate-800 dark:bg-slate-700 text-white hover:bg-slate-700 dark:hover:bg-slate-600 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- Image Lightbox Modal -->
   <div id="imageLightbox" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-xs items-center justify-center p-4">
@@ -1285,6 +1336,97 @@
       }
     }
 
+
+
+    // =========================================================================
+    // Full Description Modal Overlay (`referred_to_by` + `identified_by`)
+    // =========================================================================
+    const descModal = document.getElementById('descriptionModal');
+
+    function openDescriptionModal() {
+      const doc = docsCache[activeId];
+      if (!doc) return;
+
+      const primaryName = (doc.identified_by || []).find(i => i.type === 'Name')?.content || doc._label;
+      const gradeConcept = (doc.classified_as || []).find(c => c.id && c.id.includes('/concept/'));
+      document.getElementById('descModalTitle').textContent = primaryName;
+      document.getElementById('descModalGrade').textContent = gradeConcept ? gradeConcept._label.replace(' Listed Building', '') : 'Listed';
+      document.getElementById('descModalMeta').textContent = `${doc.current_location?._label || ''} • NHLE #${activeId}`;
+
+      // Identifiers (`identified_by`)
+      const idContainer = document.getElementById('descModalIdentifiers');
+      const ids = (doc.identified_by || []).filter(i => i.type === 'Identifier');
+      idContainer.innerHTML = ids.length
+        ? ids.map(i => {
+            const kind = i.classified_as?.[0]?._label || 'Identifier';
+            return `<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 font-mono text-[11px]"><span class="text-slate-400">${kind}:</span> <strong class="text-slate-800 dark:text-slate-100">${i.content}</strong></span>`;
+          }).join('')
+        : '<span class="text-slate-400">No additional identifiers</span>';
+
+      // Description sections (`referred_to_by`)
+      const bodyEl = document.getElementById('descModalBody');
+      const refs = doc.referred_to_by || [];
+      if (refs.length) {
+        bodyEl.innerHTML = refs.map(r => {
+          const heading = r.classified_as?.[0]?._label || 'Official List Text';
+          const paras = String(r.content || '')
+            .split(/\n+/)
+            .map(p => p.trim())
+            .filter(Boolean)
+            .map(p => `<p class="whitespace-pre-line">${p.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`)
+            .join('');
+          return `
+            <section class="space-y-2">
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-sky-700 dark:text-sky-400 border-b border-slate-100 dark:border-slate-800 pb-1">
+                ${heading}
+              </h3>
+              <div class="space-y-2 text-slate-700 dark:text-slate-200">${paras}</div>
+            </section>
+          `;
+        }).join('');
+      } else {
+        bodyEl.innerHTML = '<p class="text-slate-400 italic">No full-text description blocks are embedded in this Linked Art record. Use the Historic England link below to view the statutory entry.</p>';
+      }
+
+      const heUrl = (doc.subject_of || []).find(s => s.id && s.id.includes('historicengland.org.uk'))?.id
+        || `https://historicengland.org.uk/listing/the-list/list-entry/${activeId}`;
+      document.getElementById('descModalHeLink').href = heUrl;
+
+      descModal.classList.remove('hidden');
+      descModal.classList.add('flex');
+    }
+
+    function closeDescriptionModal() {
+      descModal.classList.add('hidden');
+      descModal.classList.remove('flex');
+    }
+
+    document.getElementById('openDescriptionBtn').addEventListener('click', openDescriptionModal);
+    document.getElementById('dossierExpandBtn').addEventListener('click', openDescriptionModal);
+    document.getElementById('closeDescModalBtn').addEventListener('click', closeDescriptionModal);
+    document.getElementById('closeDescModalFooterBtn').addEventListener('click', closeDescriptionModal);
+    descModal.addEventListener('click', (e) => {
+      if (e.target === descModal) closeDescriptionModal();
+    });
+
+    document.getElementById('copyDescTextBtn').addEventListener('click', async () => {
+      const doc = docsCache[activeId];
+      if (!doc) return;
+      const fullText = (doc.referred_to_by || [])
+        .map(r => `${r.classified_as?.[0]?._label || 'Description'}:\n${r.content}`)
+        .join('\n\n');
+      if (!fullText) return;
+      await navigator.clipboard.writeText(fullText);
+      const btn = document.getElementById('copyDescTextBtn');
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = 'Copy Text', 1400);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !descModal.classList.contains('hidden')) {
+        closeDescriptionModal();
+      }
+    });
 
     // =========================================================================
     // OGL v3.0 & Historic England Non-Endorsement Dismissible Modal
