@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -278,21 +278,23 @@
     <!-- Right Stage: Context Strip (Photo + Map + Dossier + Timeline) & LinkedArtViewer -->
     <section class="lg:col-span-8 xl:col-span-9 space-y-3">
 
-      <!-- Active Asset Header + Materials & Periods Ribbon -->
-      <div id="activeHeaderCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3 space-y-2.5">
-        <div class="flex flex-wrap items-center justify-between gap-3">
-          <div class="min-w-0">
-            <div class="flex items-center gap-2">
+      <!-- Unified Entity Information Strip (Header + Outbound Links + Production/Listing Meta + Materials/Periods + Description Snippet) -->
+      <div id="activeHeaderCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3.5 space-y-3">
+        <!-- Row 1: Title, Grade Badge, Outbound Links & Action Buttons -->
+        <div class="flex flex-wrap items-start justify-between gap-3">
+          <div class="min-w-0 space-y-1.5">
+            <div class="flex flex-wrap items-center gap-2">
               <span id="activeGrade" class="px-2 py-0.5 text-[11px] font-semibold rounded bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300">Grade II</span>
               <h2 id="activeTitle" class="font-semibold text-sm sm:text-base truncate">The Market House</h2>
               <span id="imageBadge" class="hidden px-2 py-0.5 text-[11px] font-medium rounded bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300">
                 Commons Image
               </span>
+              <span id="designationDateLabel" class="text-[11px] font-mono text-slate-500 dark:text-slate-400"></span>
             </div>
-            <div id="outboundLinks" class="flex flex-wrap items-center gap-1.5 mt-1.5 text-xs"></div>
+            <div id="outboundLinks" class="flex flex-wrap items-center gap-1.5 text-xs"></div>
           </div>
 
-          <div class="flex items-center gap-2 shrink-0">
+          <div class="flex flex-wrap items-center gap-2 shrink-0">
             <button id="openDescriptionBtn" type="button" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 hover:border-sky-500 hover:text-sky-600 dark:hover:text-sky-400 transition-colors" title="Read full official NHLE description sections">
               <svg class="w-3.5 h-3.5 text-sky-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
@@ -300,7 +302,7 @@
               <span>Full Description</span>
             </button>
             <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
-              Hide Context Panel
+              Hide Media &amp; Map
             </button>
             <button id="copyLinkBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy shareable HTML page link for this entity">
               Share Link
@@ -314,10 +316,14 @@
           </div>
         </div>
 
-        <!-- Entity Materials & Periods Ribbon -->
-        <div id="entityFacetsRibbon" class="pt-2 border-t border-slate-100 dark:border-slate-800/90 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
+        <!-- Row 2: Merged Linked Art Dossier (`produced_by` Architect/Origin + Getty AAT Materials + Periods) -->
+        <div id="entityFacetsRibbon" class="pt-2.5 border-t border-slate-100 dark:border-slate-800/90 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
+          <div id="productionRow" class="hidden flex items-center gap-1.5">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-slate-400">Architect / Origin:</span>
+            <span id="productionValue" class="font-medium text-slate-800 dark:text-slate-200"></span>
+          </div>
           <div class="flex flex-wrap items-center gap-1.5">
-            <span class="text-[10px] font-mono uppercase tracking-wider text-slate-400">Materials:</span>
+            <span class="text-[10px] font-mono uppercase tracking-wider text-slate-400">Materials (AAT):</span>
             <div id="ribbonMaterials" class="flex flex-wrap items-center gap-1"></div>
           </div>
           <div class="flex flex-wrap items-center gap-1.5">
@@ -325,62 +331,43 @@
             <div id="ribbonPeriods" class="flex flex-wrap items-center gap-1"></div>
           </div>
         </div>
+
+        <!-- Row 3: Official NHLE Description Preview (`referred_to_by`) -->
+        <div class="pt-2 border-t border-slate-100 dark:border-slate-800/90 flex items-start justify-between gap-3 text-xs">
+          <p id="dossierText" class="text-slate-600 dark:text-slate-300 leading-relaxed line-clamp-2 flex-1"></p>
+          <button id="dossierExpandBtn" type="button" class="shrink-0 text-[11px] font-medium text-sky-600 dark:text-sky-400 hover:underline whitespace-nowrap pt-0.5">
+            Read full text &rarr;
+          </button>
+        </div>
       </div>
 
-      <!-- Collapsible Context Panel: 3-Card Top Row + Interactive Linked Art Chronology Timeline -->
+      <!-- Collapsible Visual & Spatial Context Panel: 2-Column Media + Place Map + Chronology Timeline -->
       <div id="contextStrip" class="space-y-3">
 
-        <!-- Top 3 Cards: Media + Place Map + Linked Art Dossier -->
+        <!-- Top 2 Cards: Wikimedia Commons Media (6 cols) + Spatial Place Map (6 cols) -->
         <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
           <!-- Card 1: Wikimedia Commons Representation (`representation`) -->
-          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
-            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
-              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">VisualItem (Commons)</span>
+          <div class="md:col-span-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+            <div class="px-3.5 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
+              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">VisualItem (Wikimedia Commons)</span>
               <a id="commonsFileLink" href="#" target="_blank" rel="noopener noreferrer" class="hidden text-sky-600 dark:text-sky-400 hover:underline font-medium">
                 File &amp; License &nearr;
               </a>
             </div>
-            <div id="mediaBody" class="relative flex-1 min-h-[180px] bg-slate-100 dark:bg-slate-950 flex items-center justify-center overflow-hidden"></div>
+            <div id="mediaBody" class="relative flex-1 min-h-[190px] bg-slate-100 dark:bg-slate-950 flex items-center justify-center overflow-hidden"></div>
           </div>
 
           <!-- Card 2: Spatial Location (`current_location.defined_by`) -->
-          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
-            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
+          <div class="md:col-span-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+            <div class="px-3.5 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
               <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Place (WGS84 / OSGB36)</span>
-              <span id="wktCoordsLabel" class="font-mono text-slate-400 truncate max-w-[150px]"></span>
+              <span id="wktCoordsLabel" class="font-mono text-slate-400 truncate max-w-[180px]"></span>
             </div>
-            <div id="miniMap" class="w-full flex-1 min-h-[180px]"></div>
-          </div>
-
-          <!-- Card 3: Linked Art Semantic Dossier -->
-          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
-            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
-              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Linked Art Dossier</span>
-              <span id="designationDateLabel" class="font-mono text-slate-400"></span>
-            </div>
-            <div class="p-3 space-y-2.5 flex-1 overflow-y-auto max-h-[200px] text-xs">
-              <div id="productionRow" class="hidden">
-                <div class="text-[10px] font-mono uppercase text-slate-400">produced_by</div>
-                <div id="productionValue" class="font-medium text-slate-800 dark:text-slate-200 mt-0.5"></div>
-              </div>
-              <div>
-                <div class="text-[10px] font-mono uppercase text-slate-400">made_of (Getty AAT)</div>
-                <div id="aatMaterialsList" class="flex flex-wrap gap-1 mt-1"></div>
-              </div>
-              <div>
-                <div class="flex items-center justify-between">
-                  <span class="text-[10px] font-mono uppercase text-slate-400">referred_to_by</span>
-                  <button id="dossierExpandBtn" type="button" class="text-[11px] font-medium text-sky-600 dark:text-sky-400 hover:underline">
-                    Read full text &rarr;
-                  </button>
-                </div>
-                <p id="dossierText" class="text-[11px] leading-relaxed text-slate-600 dark:text-slate-300 mt-0.5 line-clamp-4"></p>
-              </div>
-            </div>
+            <div id="miniMap" class="w-full flex-1 min-h-[190px]"></div>
           </div>
         </div>
 
-        <!-- Card 4: Linked Art Chronology & Lifecycle Timeline (`produced_by`, `modified_by`, `attributed_by`) -->
+        <!-- Card 3: Linked Art Chronology & Lifecycle Timeline (`produced_by`, `modified_by`, `attributed_by`) -->
         <div id="timelineCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div class="flex items-center gap-2">
@@ -502,7 +489,7 @@
     document.getElementById('toggleContextBtn').addEventListener('click', () => {
       contextVisible = !contextVisible;
       document.getElementById('contextStrip').classList.toggle('hidden', !contextVisible);
-      document.getElementById('toggleContextBtn').textContent = contextVisible ? 'Hide Context Panel' : 'Show Context Panel';
+      document.getElementById('toggleContextBtn').textContent = contextVisible ? 'Hide Media & Map' : 'Show Media & Map';
       if (contextVisible && mapInstance) {
         setTimeout(() => mapInstance.resize(), 50);
       }
@@ -720,7 +707,7 @@
     function renderDossierCard(doc) {
       const ts = (doc.attributed_by || [])[0]?.timespan;
       const begin = ts?.begin_of_the_begin ? ts.begin_of_the_begin.slice(0, 10) : '';
-      document.getElementById('designationDateLabel').textContent = begin ? `Listed ${begin}` : '';
+      document.getElementById('designationDateLabel').textContent = begin ? `• Listed ${begin}` : '';
 
       const prodRow = document.getElementById('productionRow');
       const prodVal = document.getElementById('productionValue');
@@ -733,20 +720,6 @@
       } else {
         prodRow.classList.add('hidden');
       }
-
-      const matsEl = document.getElementById('aatMaterialsList');
-      const mats = doc.made_of || [];
-      matsEl.innerHTML = mats.length
-        ? mats.map(m => `<button type="button" data-mat="${m._label}" class="aat-chip px-2 py-0.5 rounded text-[11px] bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:border-emerald-500 transition-colors" title="Filter by ${m._label} (${m.id})">${m._label}</button>`).join('')
-        : '<span class="text-[11px] text-slate-400">None tagged</span>';
-
-      document.querySelectorAll('.aat-chip').forEach(btn => {
-        btn.addEventListener('click', () => {
-          state.material = btn.dataset.mat;
-          document.getElementById('materialSelect').value = state.material;
-          renderList();
-        });
-      });
 
       const refs = doc.referred_to_by || [];
       const primaryRef = refs.find(r => r.classified_as?.[0]?._label === 'Summary') || refs[0];
@@ -1478,7 +1451,7 @@
       if (!contextVisible) {
         contextVisible = true;
         document.getElementById('contextStrip').classList.remove('hidden');
-        document.getElementById('toggleContextBtn').textContent = 'Hide Context Panel';
+        document.getElementById('toggleContextBtn').textContent = 'Hide Media & Map';
         if (mapInstance) setTimeout(() => mapInstance.resize(), 50);
       }
 
