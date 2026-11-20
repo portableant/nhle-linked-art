@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1117849.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Manor (Marsworth)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Manor"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1117849"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 91938 14495"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42080"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26411335"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1117849",
+    "type": "Place",
+    "_label": "Marsworth (SP 91938 14495)",
+    "defined_by": "POINT(-0.667496 51.821526)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1117849",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1117849",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26411335",
+      "type": "HumanMadeObject",
+      "_label": "The Old Manor (Q26411335)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1117849",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Manor (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C16",
+      "begin_of_the_begin": "1567-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1117849-1",
+      "type": "Modification",
+      "_label": "C17: Late C16, extended one bay to left C17-C18, slightly altered.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1117849-2",
+      "type": "Modification",
+      "_label": "C18: Late C16, extended one bay to left C17-C18, slightly altered.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1117849-3",
+      "type": "Modification",
+      "_label": "C19: Right bay and ground floor of second bay have 3-light casements, the upper right with a C19 Tudor wooden hoodmould.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SW                  MARSWORTH           CHURCH LANE 6/95                                          The Old Manor 26.9.51 GV                                            II House.  Late C16, extended one bay to left C17-C18, slightly altered. Timber frame with whitewashed brick infill, the ground floor partly rebuilt in whitewashed brick.  Similar plinth with some flint, partly rendered.  Old tile roof, rebuilt brick chimneys between outer bays. 3 bays to left are of 1 ½ storeys with 2-storey gabled cross wing to right. Left bay is blank, remainder have casements with diamond leading, mostly renewed, and heavy timber sills.  Right bay and ground floor of second bay have 3-light casements, the upper right with a C19 Tudor wooden hoodmould.  Centre bays have half-hipped eaves-line dormers with 4-light casements, the outer lights triangular.  Old board door in second bay has half-hipped timber-framed porch and flanking 2-light casements.  Later single storey extension to rear of cross wing is of whitewashed brick.  Interior:  large double-sided chimney stack between right bays; stop-chamfered spine beam in centre bays; moulded and stopped spine beam in right bay; large wind-braces.  Formerly known as Russell's Farmhouse. RCHM II p. 195  Mon. 3. Listing NGR: SP9193814495"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-26T00:00:00Z"
+      }
+    }
+  ]
+}

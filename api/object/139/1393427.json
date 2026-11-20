@@ -1,0 +1,256 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1393427.json",
+  "type": "HumanMadeObject",
+  "_label": "Lock Keepers Cottage",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Lock Keepers Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1393427"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00543 07266"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "506912"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26688591"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1393427",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 00543 07266)",
+    "defined_by": "POINT(-0.544782 51.75507)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1393427",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1393427",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26688591",
+      "type": "HumanMadeObject",
+      "_label": "Lock Keepers Cottage, 102 Bank Mill Lane (Q26688591)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1393427",
+    "type": "Production",
+    "_label": "Origin / Construction of Lock Keepers Cottage (1792)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1960",
+      "begin_of_the_begin": "1960-01-01T00:00:00Z",
+      "end_of_the_end": "1960-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393427-1",
+      "type": "Modification",
+      "_label": "Early C19: Early C19 with C20 addition to the rear.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393427-2",
+      "type": "Modification",
+      "_label": "C19: Despite having undergone reconstruction work in the C19, it remains operational today.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393427-3",
+      "type": "Modification",
+      "_label": "1805: HISTORY The Grand Union Canal, formerly the Grand Junction Canal, which connects the Midlands with London was begun in 1792 and completed in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1805",
+        "begin_of_the_begin": "1805-01-01T00:00:00Z",
+        "end_of_the_end": "1805-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393427-4",
+      "type": "Modification",
+      "_label": "C20: Early C19 with C20 addition to the rear.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393427-5",
+      "type": "Modification",
+      "_label": "1960: The building has a central ridge-stack and an external eaves-stack to the rear between the junction with the 1960's extension.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1393427",
+      "type": "VisualItem",
+      "_label": "Photograph of Lock Keepers Cottage (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1393427",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Lock Keepers Cottage",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Union%20Canal%2C%20Berkhamsted%2C%20November%202021%2002.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BERKHAMSTED 814/0/10037                             BANK MILL LANE                           19-AUG-09                               102                                                                              Lock Keepers Cottage II                                        Former canal lock keeper's cottage, now a private dwelling. Early C19 with C20 addition to the rear.   MATERIALS Painted brick and smooth render finished walls, under a plain tile, pitched roof. PLAN  Originally the building had a simple rectangular plan-form. It now has an L shaped plan due to the small C20 wing that has been added to the rear. EXTERIOR  Two-storey building with entrance from raised level of lockside with rear entry at lower level, now through C20 single-storey extension. The canal elevation contains a range of 3 double-hung, horned sash windows with 3 over 3 pane frames, flanking a simple 4-panel door. The rear elevation has a bow-fronted 3 light casement window at ground floor with a half-glazed door, and a single 2-light casement at first floor, all of which are later additions. The gable ends are blind. The building has a central ridge-stack and an external eaves-stack to the rear between the junction with the 1960's extension. The rear extension is constructed of unpainted orange brick under a plain tile, pitched roof, and has modern, side-hung casement windows and a modern door. There is a single-storey detached lean-to outbuilding set against the canal retaining wall, which is separated from the cottage by a flight of steps that lead up to the canal towpath and front of the cottage. INTERIOR Not inspected, but current survey drawings and photographs indicate that the interior plan comprises 3 interlinked rooms at upper level, with the central stack separating the two principal rooms to the west end of the cottage, this element of separation being repeated in the two lower ground rooms. The cottage retains its original staircase which is intact and features a full height newel post and solid balustrading. Original panel and planked doors also remain in the interior. The C20 extension contains a kitchen and bathroom of no historic interest. HISTORY The Grand Union Canal, formerly the Grand Junction Canal, which connects the Midlands with London was begun in 1792 and completed in 1805, suggesting an early C19 date for the cottage. The waterway followed the course of the river Bulbourne through Berkhamsted, and its wharf at Castle Street was known as the Port of Berkhamstead, such was its importance to the town's trade and economy. The canal remained commercially operational until the 1960s. SETTING The associated lock remains in situ beside the cottage as part of its historic context, providing a visual reference point for the building's function. Despite having undergone reconstruction work in the C19, it remains operational today. REASONS FOR DESIGNATION The lock keepers cottage at 102 Bank Mill Lane, is designated at Grade II for the following principal reasons. *\tThe building has a distinctive architectural split level form and is associated with clearly identified canal structures. *\tThe building is part of a nationally significant canal development which linked London and Birmingham by 1805 and which remained commercially operational until the 1960's. *\tThe building has undergone little external or internal alteration and retains its functional and locational significance, in relation to the management of the local waterways. *\tThe setting of the building alongside the lock complex remains unchanged, such that the functional relationship between the two structures remains clearly legible. TL0054307266"
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Lock Keeper's Cottage at Bank Mill Lane, Berkhamsted is designated at Grade II for the following principal reasons: * The building possesses a distinct architectural split level form, and remains clearly identifiable as a canal-related structure. * The building is part of a nationally significant canal development which linked London and Birmingham by 1805, and which remained commercially operational until the 1960s. * Other than an extension in the C20, the building has undergone little external or internal alteration and retains its functional and locational significance, in relation to navigational management of the local waterways. * The setting of the building in the context of the lock complex remains unchanged, such that the functional relationship between the two structures remains clearly legible."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2009-08-19T00:00:00Z"
+      }
+    }
+  ]
+}

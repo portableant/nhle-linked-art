@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101258.json",
+  "type": "HumanMadeObject",
+  "_label": "Ragged Hall (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ragged Hall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101258"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06107 12037"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157865"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394481"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101258",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 06107 12037)",
+    "defined_by": "POINT(-0.462747 51.796926)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101258",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101258",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394481",
+      "type": "HumanMadeObject",
+      "_label": "Ragged  Hall (Q26394481)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101258",
+    "type": "Production",
+    "_label": "Origin / Construction of Ragged Hall (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1960",
+      "begin_of_the_begin": "1960-01-01T00:00:00Z",
+      "end_of_the_end": "1960-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101258-1",
+      "type": "Modification",
+      "_label": "Mid C17: C16, internal chimney mid C17, projecting W wing c.1960.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101258-2",
+      "type": "Modification",
+      "_label": "c. 1960: C16, internal chimney mid C17, projecting W wing c.1960.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101258-3",
+      "type": "Modification",
+      "_label": "1962: E extension 1962.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1962",
+        "begin_of_the_begin": "1962-01-01T00:00:00Z",
+        "end_of_the_end": "1962-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GADDESDEN ROW TL 01 SE                                         (North side) 4/84                                    Ragged Hall - GV                                      II House.  C16, internal chimney mid C17, projecting W wing c.1960.  E extension 1962. Timber frame cased in red brick, red brick extensions with tilehung upper part to W wing. Steep old red tile roofs, W wing hipped. Old part in middle of 1 1/2-storeys facing S with central narrow chimney-bay flanked by a wider bay to E and W, each with one window and one gabled dormer at eaves to front and rear. E extension of similar form with one window and front dormer. Entrance into W bay by battened door under gabled open timber porch. Large chimney of narrow brick with triangular projecting rib or front, rises in front slope of roof against the ridge. 2-light flush casement leaded windows with segmental arches to ground floor. Wide, rectangular 2-storeys W wing has external side chimney, and projects to front and rear. Interior has exposed timber frame with curved tension braces, wide-spaced studs, chamfered beams and squared joists, clasped-purlin roof on collar-and-queen-strut trusses with  curved  wind-braces.  Evidence  for  inserted  floor,  and  later lobby-entry by chimney. Listing NGR: TL0610712037"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

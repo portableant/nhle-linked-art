@@ -1,0 +1,293 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/115/1158762.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Mary Magdalene (Great And Little Hampden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Mary Magdalene"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1158762"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84845 02369"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46301"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17540974"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1158762",
+    "type": "Place",
+    "_label": "Great And Little Hampden (SP 84845 02369)",
+    "defined_by": "POINT(-0.773338 51.713646)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1158762",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1158762",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Mary_Magdalene_Church%2C_Great_Hampden",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17540974",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Mary Magdalene (Q17540974)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1158762",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Mary Magdalene (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1643",
+      "begin_of_the_begin": "1643-01-01T00:00:00Z",
+      "end_of_the_end": "1643-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-1",
+      "type": "Modification",
+      "_label": "C14: Interior: nave has C14 arcades, the N.arcade of 4 bays and the S.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-2",
+      "type": "Modification",
+      "_label": "Late C14: Aisles have late C14-C15 3-light traceried windows, mostly restored.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C14",
+        "begin_of_the_begin": "1367-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-3",
+      "type": "Modification",
+      "_label": "C15: C13-C15, much restored C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-4",
+      "type": "Modification",
+      "_label": "Late C15: Late C15 Clerestory with 4 bays of 2-light traceried windows, all with 4-centred heads and hoodmoulds, those to S.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C15",
+        "begin_of_the_begin": "1467-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-5",
+      "type": "Modification",
+      "_label": "Early C16: early C16 pews with linenfold panels and moulded top rail in nave;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1533-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-6",
+      "type": "Modification",
+      "_label": "1597: Small brass inscription panels and coats of arms to William Hampden 1597 and William Hampden 1612.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1597",
+        "begin_of_the_begin": "1597-01-01T00:00:00Z",
+        "end_of_the_end": "1597-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158762-7",
+      "type": "Modification",
+      "_label": "C17: C17 altar-table with turned baluster legs;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1158762",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Mary Magdalene (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1158762",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Mary Magdalene",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Gt%20Hampden%20Church.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 SW             GREAT AND LITTLE HAMPDEN     GREAT HAMPDEN 5/31                                              Church of St Mary                                                   Magdalene 21.6.55 GV                                                II * Parish Church.  C13-C15, much restored C19.  Flint with stone dressings, C20 tile roofs to nave and chancel, leaded aisles.  Nave, aisles, tower in W. bay of S. aisle, S. porch, chancel.  Tower much rebuilt C19, of 2 stages with battlemented parapet.  Bell-chamber has C19 2-light traceried openings, each with pair of quatrefoils above; lower stage has lancets.  At W.end of nave is a 3-light window with reticulated tracery, partly old.  Late C15 Clerestory with 4 bays of 2-light traceried windows, all with 4-centred heads and hoodmoulds, those to S. of clunch.  Aisles have late C14-C15 3-light traceried windows, mostly restored.  N.aisle has sill course broken up over moulded doorway.  C13 S. doorway with small 2-centred chamfered arch and stoun to right.  C15 S. porch has double chamfered arch, small rectangular openings to sides, stone benches, and fine roof with moulded timbers, queen struts and arched wind-braces. Moulded wooden cornice with carved rosettes and heraldic shields.  2-bay chancel also has 3-light traceried windows, larger to east with sill course below.  C18 memorial tablet with flanking pilasters and arched cornice to centre of N. Mall.  Interior: nave has C14 arcades, the N.arcade of 4 bays and the S. of 3 bays, all arches moulded on quatrefoil piers with moulded caps, the label with restored carved head stops.  C15 roof with traceried spandrels on restored carved stone angel corbels.  S. aisle has moulded arch to tower, carved stone corbels flanking E. window, and cinquefoil piscina.  Both aisles have long squints to chancel. Moulded chancel arch on moulded piers with similar imposts.  Trefoil piscina; canopied niches flanking altar renewed C19.  Fittings: fine C13 font, the round bowl with shallow scallops, fleuron frieze and cable mouldings at base, the broad central cable with interlace ornament; early C16 pews with linenfold panels and moulded top rail in nave; C17 altar-table with turned baluster legs; painted hatchments; C19 and C20 dado panels, some carved; C19 and C20 glass.  Monuments:  1) to John Hampden d. 1643, erected by Robert Hampden 1756: marble wall monument with sarcophagus, mourning putti and oval panel above showing oak tree with coats of arms and John Hampden fatally wounded at battle of Chalgrove Field.  2) marble wall monument to Thomas Kempthorne 1736 and wife Anne (Hampden), with profile portrait medallions and Rococo swags.  3) tall wall tablet by Nicholas Stone, inscribed with John Hampden's epitaph to his wife Elizabeth d. 1634. 4) wall tablet to Richard Hampden and wife 1662 with flanking Ionic columns, carved side scrolls and segmental pediment.  5) C18-early C19 memorial to mother of Thomas and John Trevor.  Small brass inscription panels and coats of arms to William Hampden 1597 and William Hampden 1612.  Detached brass panels of children. John Hampden, Parliamentarian, is supposed to be buried in the churchyard. RCHMI p. 160-162 Mon.l. Records of Bucks. XX p.525-7 Listing NGR: SP8484502369"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1955-06-21T00:00:00Z"
+      }
+    }
+  ]
+}

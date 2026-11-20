@@ -1,0 +1,185 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100404.json",
+  "type": "HumanMadeObject",
+  "_label": "North And West Ranges Of Farm Buildings At Marlin Chapel Farm (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "North And West Ranges Of Farm Buildings At Marlin Chapel Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100404"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96383 07147"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157759"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392603"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100404",
+    "type": "Place",
+    "_label": "Northchurch (SP 96383 07147)",
+    "defined_by": "POINT(-0.605063 51.754731)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100404",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100404",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392603",
+      "type": "HumanMadeObject",
+      "_label": "North And  West Ranges Of Farm Buildings At Marlin Chapel Farm (Q26392603)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100404",
+    "type": "Production",
+    "_label": "Origin / Construction of North And West Ranges Of Farm Buildings At Marlin Chapel Farm (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1828",
+      "begin_of_the_begin": "1828-01-01T00:00:00Z",
+      "end_of_the_end": "1828-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100404-1",
+      "type": "Modification",
+      "_label": "1828: Former 2-storeys timber framed house shown in Buckler drawing of 1828 in HRO.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1828",
+        "begin_of_the_begin": "1828-01-01T00:00:00Z",
+        "end_of_the_end": "1828-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tMARLIN CHAPEL FARM SP 90 NE  \t\t\t\t\t(North side)                                        3/227                                   \tNorth and West Ranges 6.11.86                                \t\tof Farm Buildings at                                        \t\tMarlin Chapel Farm GV                                      \tII Farm buildings. C16 and later. Timber frames on flint and brick sills, dark weatherboarded. Steep red tiled roofs hipped ends to N range and barn in W range. The older N and W ranges of a courtyard group within a moated manorial site with former entrance passage central in N range with cellar and masonry W wall  of  a  former  late medieval house incorporated in buildings to E of central passage. W range is a tall 4-bay C16 barn with double doors on E in 2nd bay from N. Heavy jowled posts  with  curved  and  straight  braces  to  cambered  tie  beam and wallplates. Clasped purlin roof with one purlin in each slope, wind braces,  curved  inclined  queen-posts,  no  collar,  and  diminished principles. Wall on E side of blocked entrance passage in N range incorporates  moulded  stonework  presumably  from  nearby  Chapel  of St.  Mary Magdalene.  Former  2-storeys timber framed house shown in Buckler drawing of 1828 in HRO. Farmhouse not included in this list. Listing NGR: SP9638307147"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-11-06T00:00:00Z"
+      }
+    }
+  ]
+}

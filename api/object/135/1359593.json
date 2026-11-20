@@ -1,0 +1,240 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/135/1359593.json",
+  "type": "HumanMadeObject",
+  "_label": "Main House At Rossway",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Main House At Rossway"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1359593"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9597807303"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "488456"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26641818"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1359593",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9597807303)",
+    "defined_by": "POINT(-0.610886 51.756203)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1359593",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1359593",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Rossway_House",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26641818",
+      "type": "HumanMadeObject",
+      "_label": "Main House At Rossway (Q26641818)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1359593",
+    "type": "Production",
+    "_label": "Origin / Construction of Main House At Rossway (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1777",
+      "begin_of_the_begin": "1777-01-01T00:00:00Z",
+      "end_of_the_end": "1777-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1359593-1",
+      "type": "Modification",
+      "_label": "1777: Main House At Rossway 1777/0/10009 18-FEB-02 NORTHCHURCH ROSSWAY PARK Main House at Rossway GV II House.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1777",
+        "begin_of_the_begin": "1777-01-01T00:00:00Z",
+        "end_of_the_end": "1777-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1359593-2",
+      "type": "Modification",
+      "_label": "C19: a later-C19 flat-roofed entrance porch;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1359593-3",
+      "type": "Modification",
+      "_label": "1864: 1864/5 commission;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1864",
+        "begin_of_the_begin": "1864-01-01T00:00:00Z",
+        "end_of_the_end": "1864-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1359593-4",
+      "type": "Modification",
+      "_label": "1867: construction completed 1867.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1867",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1867-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1359593-5",
+      "type": "Modification",
+      "_label": "1889: 1889 alterations designed by Evans.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1889",
+        "begin_of_the_begin": "1889-01-01T00:00:00Z",
+        "end_of_the_end": "1889-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1777/0/10009 18-FEB-02 NORTHCHURCH ROSSWAY PARK Main House at Rossway GV II House.  1864/5 commission; construction completed 1867.  Robert Evans of Hine and Evans (Nottingham), architect; Robert Young (Lincoln), builder.  1889 alterations designed by Evans.  Luton blue brick, openings with stone surrounds, slate roof. PLAN: Two main floors with partial cellar to east end of house.  Projecting central entrance in main facade (north) to large hall with stairs to west right and main rooms to east and south.  Projecting wing at west side of north front, and service rooms to west end of house.  Garden elevation to south with row of bedrooms to first floor and rooms with large windows. FACADE: Main facade block (north) with hipped roof and central projecting entrance bay with its own shallow hipped roof.  Stone portico projects at ground floor with a Palladian style arrangement with round-headed door surround flanked by slender columns with foliated capitals and by recessed rectangular windows; porthole windows to both top corners; boot scraper to both sides.  Humourous and foliated carved face to top of roll moulding on sides of portico. First floor room to this entrance bay has matching Venetian window with stone surrounds.  Various windows to the 5 windows bays at this main facade block, paired at ground and first floors and with same eared architrave stone surrounds, reading from left to right: rectangular sash (blind at ground floor), round-headed, the entrance bay already described, two round-headed, paired smaller round-headed within one surround.  Stone belt-course and wooden cornice with alternating brackets and square cut-outs.  Pair of chimneys at front and back to east side of this block. West end of main north elevation is two-storey projecting wing with hipped roof, central chimney and 3 window bays of tall sashes at ground and first floor.  Belt-course and plain cornice. East elevation continues the belt-course and bracketed cornice with three rectangular sashes and a two-storey, three-sided projecting bay.  Ground floor of this bay has full-height, round-headed windows flanked by slender columns with foliated capitals. South (garden) elevation continues the full width of house with 7 rectangular sash windows to first floor.  Ground floor has row of 4 full-height, round-headed windows in one stone surround with eared architrave; a later-C19 flat-roofed entrance porch; and a large, flat-roof polygonal bay to sitting room.  West end of garden elevation has lower two-storey wing with 4 sashes in same surrounds. West elevation accommodates the service end of the house with some lower later additions, plain cornices and simple brick lintels and stone cills to windows.  Pair of round-headed windows at central, most recessed section. INTERIOR:  Entrance hall with double stone arcade of 4 marble columns with elaborate stone foliated capitals.  Stone foliated cornice in entrance hall.  Large re-used wood chimney-piece with C17 elements to entrance hall.  Tiled floor. Three marble columns up the stairs decreasing in height as they ascend and with same capitals.  Service bell system.  Water Closet with panelled mahogany surround.  Hot press.  Victorian porcelain sinks to workshop.  Good quality joinery throughout including staircase with punched quatrefoil motif.  Several elaborate marble chimney-pieces.  Wood chimney-pieces re-used from the earlier house on the site.  Several rooms with foliated cornices.  Extensive brick barrel-vaulted cellar rooms. HISTORY:  Charles Stanton Hadden, Ceylon coffee planter demolished most of the earlier house on the C17 estate to build the present Rossdale. A fine Italianate style Victorian country house of the 1860s with well-preserved interiors."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2002-02-18T00:00:00Z"
+      }
+    }
+  ]
+}

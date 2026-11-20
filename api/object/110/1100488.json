@@ -1,0 +1,186 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100488.json",
+  "type": "HumanMadeObject",
+  "_label": "Barn At Honours Farm (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Barn At Honours Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100488"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01258 03963"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157566"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392794"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100488",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01258 03963)",
+    "defined_by": "POINT(-0.535387 51.725254)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100488",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100488",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392794",
+      "type": "HumanMadeObject",
+      "_label": "Barn At Honours Farm (Q26392794)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100488",
+    "type": "Production",
+    "_label": "Origin / Construction of Barn At Honours Farm (Early C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1838",
+      "begin_of_the_begin": "1838-01-01T00:00:00Z",
+      "end_of_the_end": "1838-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100488-1",
+      "type": "Modification",
+      "_label": "1838: Early C19 (on 1838 Tithe Map).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1838",
+        "begin_of_the_begin": "1838-01-01T00:00:00Z",
+        "end_of_the_end": "1838-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100488-2",
+      "type": "Modification",
+      "_label": "1975: (Roberts(1975)No.35).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tNEWHOUSE ROAD TL 0103 \t\t\t\t\t(North side)                                        10/39                                   \tBarn at -                                      \t\tHonours Farm GV                                      \tII Barn. Early C19 (on 1838 Tithe Map). Timber frame on red brick sill, red brick infill to frame, steep shingled roof. A 3-bays barn facing onto road with boarded double doors in middle bay and low winnowing door to rear. Included for group value. (Roberts(1975)No.35). Listing NGR: TL0125903964"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

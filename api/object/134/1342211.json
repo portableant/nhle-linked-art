@@ -1,0 +1,201 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342211.json",
+  "type": "HumanMadeObject",
+  "_label": "Stocks Dovecot (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Stocks Dovecot"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342211"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96458 13397"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355648"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626238"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342211",
+    "type": "Place",
+    "_label": "Aldbury (SP 96458 13397)",
+    "defined_by": "POINT(-0.602242 51.810904)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342211",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342211",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626238",
+      "type": "HumanMadeObject",
+      "_label": "Stocks Dovecot (Q26626238)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342211",
+    "type": "Production",
+    "_label": "Origin / Construction of Stocks Dovecot (1753)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1753",
+      "begin_of_the_begin": "1753-01-01T00:00:00Z",
+      "end_of_the_end": "1753-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342211-1",
+      "type": "Modification",
+      "_label": "C19: '1753' in blue bricks on S front, (possibly restored in C19), for Duncombe family as owners of Stocks Manor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342211",
+      "type": "VisualItem",
+      "_label": "Photograph of Stocks Dovecot (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342211",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Stocks Dovecot",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Stock%27s%20Farm%20Dovecote%2C%20Aldbury.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 91 SE                                         (East side) 5/12                                    Stocks Dovecot - GV                                      II Dovecot. '1753' in blue bricks on S front, (possibly restored in C19),  for Duncombe family as owners of Stocks Manor. Red brick with blue brick diaper and date on S front, steep red tile roof and white weatherboarded tiled central turret. A tall, single-storey rectangular building facing S beside the road. Roof ridged N-S but building wider than depth. Projecting plinth and eaves band. Central boarded door in heavy frame with 2-light unglazed rectangular fanlight over and no arch in the brickwork. Small 2-light unglazed windows in heavy frame set high in middle of E side. Pilaster at E end of N wall and N and W walls plain. Square weatherboarded turret at centre of ridge with pitched tiled roof and 3 pidgeon openings with shelves on S end. Interior walls lined with twin nesting boxes in brick up to eaves level. Corner posts of turret rise from 2 beams resting on the 2 purlins. Timber lintols to inside of door and window. Listing NGR: SP9645713267"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

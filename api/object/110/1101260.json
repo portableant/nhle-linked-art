@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101260.json",
+  "type": "HumanMadeObject",
+  "_label": "The Golden Parsonage and garden walls attached on North-East",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Golden Parsonage and garden walls attached on North-East"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101260"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0505212525"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157873"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q14949356"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101260",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0505212525)",
+    "defined_by": "POINT(-0.477892 51.801511)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101260",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101260",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Golden_Parsonage",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Golden Parsonage",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Golden_Parsonage",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q14949356",
+      "type": "HumanMadeObject",
+      "_label": "Golden Parsonage (Q14949356)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101260",
+    "type": "Production",
+    "_label": "Origin / Construction of The Golden Parsonage and garden walls attached on North-East (c. 1600)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1705",
+      "begin_of_the_begin": "1705-01-01T00:00:00Z",
+      "end_of_the_end": "1705-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-1",
+      "type": "Modification",
+      "_label": "C18: Garden walls C18 or earlier.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-2",
+      "type": "Modification",
+      "_label": "Early C18: Interior and staircase in early C18 style largely created in c.1935, but incorporates some adapted bolection moulded panelling, some panelle…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-3",
+      "type": "Modification",
+      "_label": "1705: 1705 date (formerly on windvane over entrance: VCH (1908)205) for Thomas Halsey formerly adjoining older house to South East pulled down c.1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1705",
+        "begin_of_the_begin": "1705-01-01T00:00:00Z",
+        "end_of_the_end": "1705-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-4",
+      "type": "Modification",
+      "_label": "c. 1760: 1705 date (formerly on windvane over entrance: VCH (1908)205) for Thomas Halsey formerly adjoining older house to South East pulled down c.1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1760",
+        "begin_of_the_begin": "1760-01-01T00:00:00Z",
+        "end_of_the_end": "1760-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-5",
+      "type": "Modification",
+      "_label": "1766: Roof structure of great interest showing wide-span C18 timber engineering using 12\" square oak or chestnut timbers, king-posts, queen-posts,…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1766",
+        "begin_of_the_begin": "1766-01-01T00:00:00Z",
+        "end_of_the_end": "1766-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-6",
+      "type": "Modification",
+      "_label": "c. 1774: 1705 date (formerly on windvane over entrance: VCH (1908)205) for Thomas Halsey formerly adjoining older house to South East pulled down c.1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1774",
+        "begin_of_the_begin": "1774-01-01T00:00:00Z",
+        "end_of_the_end": "1774-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101260-7",
+      "type": "Modification",
+      "_label": "Early C19: 1705 date (formerly on windvane over entrance: VCH (1908)205) for Thomas Halsey formerly adjoining older house to South East pulled down c.1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101260",
+      "type": "VisualItem",
+      "_label": "Photograph of The Golden Parsonage and garden walls attached on North-East (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101260",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Golden Parsonage and garden walls attached on North-East",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden%20Parsonage.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 28 May 2025 to correct a typo in the name and address and to reformat the text to current standards TL 01 SE 4/94 GREAT GADDESDEN GADDESDEN ROW (South side) The Golden Parsonage and garden walls attached on North-East (Formerly listed as Golden Parsonage) 22.10.52 GV II* Country house and attached garden walls. 1705 date (formerly on windvane over entrance: VCH (1908)205) for Thomas Halsey formerly adjoining older house to South East pulled down c.1774, altered c.1760 and in early C19, North West wing dated 1874 on terra cotta panel with crest. Garden walls C18 or earlier. Extensive interior alterations by Waring and Gillows c.1935 (before and after photos in NMR). Very high quality red brickwork in header bond with gauged and moulded dressings to main house. Low pitched roofs concealed by parapets,  slate roof to 1874 block, tiled roofs to North extensions. A large two-storeys square block with giant order grey brick pilasters of Roman Doric clasping each corner with corner entablature, cornice continuous around block surmounted by a moulded parapet. Similar pilaster in middle of six windows East elevation. More elaborate five-windows South elevation has triglyphs in parapet over each window, stepped keystones, and brick aprons to first floor windows. Plainer four windows Westfront has projecting central brick porch remodelled c.1935 and no keystones to windows. Recessed tall segmental arched sash windows with 9/9 or 6/6 panes, with corbelled sills on East front and cut down to ground on South front. Triple sash window replaces two ground floor windows on East front. Two-storeys North West wing with two windows to each floor copying those of house, and half octagonal ground floor bay in middle with slate roof. Steep roofed North extension has arcaded loggia to front and tower with blunt pyrammidal roof. Interior and staircase in early C18 style largely created in c.1935, but incorporates some adapted bolection moulded panelling, some panelled doors of c.1600 with cockspur hinges, and a fireplace  with  green  Wedgewood  plaques  inset  moved  here  from  a demolished pavillion of Gaddesden Place (q.v.) by James Wyatt. White marble  fire  surround  in  Dining  Room with  Ionic  pilasters,  full entablature and centre block. Roof structure of great interest showing wide-span C18 timber engineering using  12\"  square oak or chestnut timbers, king-posts, queen-posts, cross-bracing, and painted inscription presumably by carpenter, 'Jo Grove Sept 19: 1766', on one truss. There is an inscription beside the entrance porch outside 'SL 1766'. Extensive service buildings linked to North East-facing arm of tall garden walls has near South end blocked windows on two storey-levels with flat gauged arches and blocked doorways as if part of the demolished older house. The North part of this wall has very tall, narrow, close-set, blocked windows as if for an orangery, and the walling between has later, blocked, wider windows of C19 character, some intersecting the older blocked windows. (VCH (1908)204-5: Pevsner (1977)151-2: RCHM Typescript). Listing NGR: TL0505212525"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

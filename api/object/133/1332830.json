@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332830.json",
+  "type": "HumanMadeObject",
+  "_label": "Oak Tree House (Stoke Mandeville)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Oak Tree House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332830"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 83434 10348"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42698"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26617613"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332830",
+    "type": "Place",
+    "_label": "Stoke Mandeville (SP 83434 10348)",
+    "defined_by": "POINT(-0.791844 51.785581)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332830",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332830",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26617613",
+      "type": "HumanMadeObject",
+      "_label": "Oak Tree House (Q26617613)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332830",
+    "type": "Production",
+    "_label": "Origin / Construction of Oak Tree House (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332830-1",
+      "type": "Modification",
+      "_label": "C19: Tiled roofs, C19 block with shallower pitch and flanking chimneys, rear range with steep pitch, tall central brick chimney and another proje…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332830-2",
+      "type": "Modification",
+      "_label": "Mid C19: Early-mid C19 with earlier, possibly C17, parallel rear range.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SW           STOKE MANDEVILLE             LOWER ROAD                                                 s.w. side 4/128                                           Oak Tree House GV                                              II House. Early-mid C19 with earlier, possibly C17, parallel rear range. White painted brick. Tiled roofs, C19 block with shallower pitch and flanking chimneys, rear range with steep pitch, tall central brick chimney and another projecting from the south gable. 2 storeys. Front elevation has 3 bays of sash windows, each sash divided into 3 panes, with splayed gauged brick flat arches. Central open gabled porch with cogged brick eaves, semicircular      arch, impost band and plinth. Half glazed door with reeded flush panels below and semicircular fanlight above. Rear elevation has 4 bays of 3-light wood casements, LH bay in wing with roof at slightly lower level. Listing NGR: SP8343410348"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

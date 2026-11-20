@@ -1,0 +1,201 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174821.json",
+  "type": "HumanMadeObject",
+  "_label": "Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174821"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 95839 10350"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157749"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469482"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174821",
+    "type": "Place",
+    "_label": "Northchurch (SP 95839 10350)",
+    "defined_by": "POINT(-0.612059 51.783614)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174821",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174821",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469482",
+      "type": "HumanMadeObject",
+      "_label": "Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal (Q26469482)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174821",
+    "type": "Production",
+    "_label": "Origin / Construction of Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal (Mid C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1929",
+      "begin_of_the_begin": "1929-01-01T00:00:00Z",
+      "end_of_the_end": "1929-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174821-1",
+      "type": "Modification",
+      "_label": "1929: Early/mid C19, for Grand Junction Canal Company (became Grand Union by amalgamation in 1929).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1929",
+        "begin_of_the_begin": "1929-01-01T00:00:00Z",
+        "end_of_the_end": "1929-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1174821",
+      "type": "VisualItem",
+      "_label": "Photograph of Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1174821",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Lock House And Adjoining Lock Cottage At Lock No 46 On Grand Union Canal",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Union%20Canal%2C%20Cow%20Roast%20Lock%20No%2046%20-%20geograph.org.uk%20-%201514928.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tCOW ROAST SP 91 SE   \t\t\t\t\t(North side)                                       1/246                                    \tLock House and adjoining -                                        \tLock Cottage at Lock No.46                                         \ton Grand Union Canal GV                                       \tII 2 adjoining Lock Keepers' houses. Early/mid C19, for Grand Junction Canal Company (became Grand Union by amalgamation in 1929). Painted red brick with hipped slate roof. 2 storeys and basements, facing S, entered from raised level of lockside with rear entry at lower level. Larger W house (No.  111 on door) has 2 windows to each floor and door in middle. 2-light casement windows with segmental arches to 1st floor. Recessed sash window with 2/2 panes on left, and segmental bay window to right of 4-panel flush-beaded door with gabled trellis porch, E house formerly 2 small houses with handed plans, shared internal stack, doors together at front (W doorway blocked) and a window to each house on each floor. Recessed sash windows with 3/3 panes. E gable stuccoed and lined as ashlar, with a central door at basement level and one sash window to each floor. Listing NGR: SP9583910350"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

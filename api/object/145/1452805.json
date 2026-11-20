@@ -1,0 +1,248 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/145/1452805.json",
+  "type": "HumanMadeObject",
+  "_label": "Buckland War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Buckland War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1452805"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8882012447"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66479334"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1452805",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8882012447)",
+    "defined_by": "POINT(-0.713246 51.80362)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1452805",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1452805",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Buckland_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66479334",
+      "type": "HumanMadeObject",
+      "_label": "Buckland War Memorial (Q66479334)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1452805",
+    "type": "Production",
+    "_label": "Origin / Construction of Buckland War Memorial (C20)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/messrs-newman-and-harper",
+        "type": "Person",
+        "_label": "Messrs Newman and Harper"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1452805-1",
+      "type": "Modification",
+      "_label": "1914–1919: INSCRIPTION: the west face of the plinth is inscribed with: THIS CROSS WAS ERECTED BY/ THE INHABITANTS OF BUCKLAND/ TO/ THE GLORY OF GOD/ AN…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1919",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1452805-2",
+      "type": "Modification",
+      "_label": "1920: Buckland War Memorial First World War memorial, erected in 1920, with later additions commemorating the fallen of the Second World War.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1452805-3",
+      "type": "Modification",
+      "_label": "1939–1945: The north and south faces of the plinth are inscribed with the names of the fallen, and the east face is inscribed with ALSO IN MEMORY OF TH…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1452805",
+      "type": "VisualItem",
+      "_label": "Photograph of Buckland War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1452805",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Buckland War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Buckland%20War%20Memorial%20-%20geograph.org.uk%20-%201201474.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial, erected in 1920, with later additions commemorating the fallen of the Second World War."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "War memorial built in 1920 by Messrs Newman and Harper. MATERIALS: Bath Stone. DESCRIPTION: This memorial stands within the grounds of All Saints Church, which is listed at Grade II* (List No. 1160591). The memorial consists of a Latin cross on a plinth, which stands on a three stepped base. INSCRIPTION: the west face of the plinth is inscribed with: THIS CROSS WAS ERECTED BY/ THE INHABITANTS OF BUCKLAND/ TO/ THE GLORY OF GOD/ AND/ IN PROUD AND GRATEFUL MEMORY/ OF THOSE WHO WERE KILLED IN/ THE GREAT WAR/ 1914-1919. The top step reads: THEIR NAME LIVETH FOREVER MORE. The north and south faces of the plinth are inscribed with the names of the fallen, and the east face is inscribed with ALSO IN MEMORY OF THE FOLLOWING/ WHO GAVE THEIR LIVES IN THE WAR/ 1939-1945/ (NAMES)/ R.I.P."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Buckland War Memorial, erected in 1920 by Messrs Newman and Harper, is listed at Grade II for the following principal reasons: Historic interest: *     as an eloquent witness to the tragic impact of world events on this local community, and the sacrifice it has made in the conflicts of the C20. Architectural interest: *     as a simple, yet poignant Latin cross. Group value: *     with the adjacent All Saints Church, listed at Grade II*."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw the biggest single wave of public commemoration ever with tens of thousands of memorials erected across England. This was the result of both the huge impact on communities of the loss of three quarters of a million British lives, and also the official policy of not repatriating the dead which meant that the memorials provided the main focus of the grief felt at this great loss. One such memorial was raised at Buckland, as a permanent testament to the sacrifice made by the members of the local community who lost their lives in the First World War. The memorial was built in 1920 by Messrs Newman and Harper, and dedicated by the Bishop Suffragan of Buckingham."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2018-01-29T00:00:00Z"
+      }
+    }
+  ]
+}

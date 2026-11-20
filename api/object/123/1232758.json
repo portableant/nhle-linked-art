@@ -1,0 +1,208 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/123/1232758.json",
+  "type": "HumanMadeObject",
+  "_label": "Grand Union Canal Aylesbury Arm Bridge Number 14 (Bierton And Broughton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Grand Union Canal Aylesbury Arm Bridge Number 14"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1232758"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84605 14258"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42932"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26526269"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1232758",
+    "type": "Place",
+    "_label": "Bierton And Broughton (SP 84605 14258)",
+    "defined_by": "POINT(-0.773919 51.820552)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1232758",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1232758",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Bridge_14%2C_Grand_Union_Canal_%28Aylesbury_Arm%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26526269",
+      "type": "HumanMadeObject",
+      "_label": "Grand Union Canal Aylesbury Arm Bridge Number 14 (Q26526269)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1232758",
+    "type": "Production",
+    "_label": "Origin / Construction of Grand Union Canal Aylesbury Arm Bridge Number 14 (1811–1813)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1811–1813",
+      "begin_of_the_begin": "1811-01-01T00:00:00Z",
+      "end_of_the_end": "1813-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1232758-1",
+      "type": "Modification",
+      "_label": "1815: The Aylesbury Arm was opened in 1815 and this bridge carried a farm track over the canal.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1815",
+        "begin_of_the_begin": "1815-01-01T00:00:00Z",
+        "end_of_the_end": "1815-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1232758-2",
+      "type": "Modification",
+      "_label": "C20: C20 patching.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1232758",
+      "type": "VisualItem",
+      "_label": "Photograph of Grand Union Canal Aylesbury Arm Bridge Number 14 (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1232758",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Grand Union Canal Aylesbury Arm Bridge Number 14",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Bierton%20with%20Broughton%20-%20Grand%20Union%20Canal%20Aylesbury%20Arm%20Bridge%20Number%2014%20-%2020231125103649.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BIERTON AND BROUGHTON SP 81 SW                                          GRAND UNION CANAL                                                   AYLESBURY ARM 4/190                                             BRIDGE NO 14 II                                                GV Bridge over canal. 1811-13; engineer Henry Provis for Grand Junction Canal Company; C20 patching. Red brick, mostly in English bond. Battered plinth. Round arch with number plate over. Raised brick band below parapet which is mostly rebuilt and has rounded brick and brick-on-edge coping with endstones. Square projecting end piers on stepped, battered, plinths terminate outswept ends of parapet. The Aylesbury Arm was opened in 1815 and this bridge carried a farm track over the canal. Listing NGR: SP8460514258"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1990-07-18T00:00:00Z"
+      }
+    }
+  ]
+}

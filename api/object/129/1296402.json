@@ -1,0 +1,267 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1296402.json",
+  "type": "HumanMadeObject",
+  "_label": "Abbot'S House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Abbot'S House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1296402"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09464 02103"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158679"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26584063"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1296402",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 09464 02103)",
+    "defined_by": "POINT(-0.417211 51.706997)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1296402",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1296402",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26584063",
+      "type": "HumanMadeObject",
+      "_label": "Abbot's House (Q26584063)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1296402",
+    "type": "Production",
+    "_label": "Origin / Construction of Abbot'S House (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1700",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1700-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-1",
+      "type": "Modification",
+      "_label": "C17: C17 ridge stack to right of centre with cornice, 3 clustered octagonal shafts.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-2",
+      "type": "Modification",
+      "_label": "Mid C17: C16, altered and heated mid C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-3",
+      "type": "Modification",
+      "_label": "c. 1700: Largely rebuilt c.1700, extended late C19 and c.1900.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1700",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1700-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-4",
+      "type": "Modification",
+      "_label": "Early C19: Interior: ground floor stop ovolo moulded binding beam in original cross wing, main stair is early C19 with moulded newel posts and hand rai…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-5",
+      "type": "Modification",
+      "_label": "Late C19: Largely rebuilt c.1700, extended late C19 and c.1900.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-6",
+      "type": "Modification",
+      "_label": "c. 1900: Largely rebuilt c.1700, extended late C19 and c.1900.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296402-7",
+      "type": "Modification",
+      "_label": "Early C20: To left and projecting less is an early C20 gabled block with a 1 storey hipped projection.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1296402",
+      "type": "VisualItem",
+      "_label": "Photograph of Abbot'S House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1296402",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Abbot'S House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbot%27s%20House%2C%20Abbots%20Langley%2C%20March%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 0902            ABBOTS LANGLEY          HIGH STREET                                            (Northwest side)                                            Abbots Langley 11/33                                      No. 10 1.9.53                                     (Abbot's House) GV                                         II House. C16, altered and heated mid C17. Largely rebuilt c.1700, extended late C19 and c.1900. Originally timber framed, rebuilt and cased in red brick,  some rendering and sham timber framing.  Hipped tiled roof. Originally a hall with cross wing to left. Rebuilt as symmetrical 3 window front, double depth house. Roof raised, 2 storeys and attic. Central  entrance  in  original  screens  passage  position:  6  fielded panelled door, semi-circular traceried fanlight, panelled round headed  reveal,  Roman  Doric  doorcase with  half-columns,  entablature,  open pediment. Broadly spaced glazing bar sashes, flush frames, gauged brick flat arched heads, tripartite on outer bays. Modillioned eaves cornice. Abbot medallion inserted to centre below eaves. C17 ridge stack to right of centre with cornice, 3 clustered octagonal shafts. C17 stack to left end. Left return has ground floor French doors, first floor 3 light casement with arched heads to each light, cambered outer head, a gabled 2 light dormer.  Extruded stack towards rear,  some original framing exposed to rear of this stack. Rear elevation has projecting gable end of original cross wing. Ground floor conservatory. First floor and attic 3 light casements, sham timber framing which continues across rear elevation.  To centre a large 16 pane staircase sash.  To left and projecting less is an early C20 gabled block with a 1 storey hipped projection. Right return from front has French doors, a sash in a reveal and towards rear a c.1900 rendered rectangular bay. Interior: ground floor stop ovolo moulded binding beam in original cross wing, main stair is early C19 with moulded newel posts and hand rail. Some C17 cigar balusters re-used in secondary stair in wing. (RCHM Typescript: Pevsner 1977). Listing NGR: TL0946402103"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1953-09-01T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078034.json",
+  "type": "HumanMadeObject",
+  "_label": "23, High Street",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "23, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078034"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9239311387"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355710"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346655"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078034",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9239311387)",
+    "defined_by": "POINT(-0.661724 51.793514)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078034",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078034",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346655",
+      "type": "HumanMadeObject",
+      "_label": "23, High Street (Q26346655)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078034",
+    "type": "Production",
+    "_label": "Origin / Construction of 23, High Street (Early C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Early C18",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1733-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078034-1",
+      "type": "Modification",
+      "_label": "C18: 3-light C18 plate casement window in 1½ storeys rear part of wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078034-2",
+      "type": "Modification",
+      "_label": "Early C19: Early C18 rear parts but early C19 front.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078034",
+      "type": "VisualItem",
+      "_label": "Photograph of 23, High Street (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078034",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 23, High Street",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/23%20High%20Street%2C%20Tring%2C%20June%202022.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 9211 11/74 21.9.51 TRING HIGH STREET (South side) No. 23 GV II House, now surgery. Early C18 rear parts but early C19 front. Brick with rendered E gable to front range and buff brick front. A 3-storeys and cellar house fronting the pavement facing N. Rear range stepping down in height along W side of plot. Front has low stucco plinth, painted stone string  course as sill to 4  1st  floor windows,  parapet with deep corbelled band below stone coping. Band has pairs of projecting upright bricks over each jamb of 4 2nd floor windows with single projecting brick at each corner of front. Recessed sashes with flat gauged arches, plastered reveals, 6/6 panes on ground and 1st floors and 3/3 in square windows on 2nd floor. Wide round arched doorway under 2nd window from right with lobed fanlight over 6-panel door with side panels and stone step. Fine 2-storeys triple-sashed bow window to rear. 2-storeys and attic rear wing with fine moulded brick cornice and early C18 Venetian sashed window with broad glazing bars.  Early C18 6-panel door with carved consoles to moulded hood. 3-light C18 plate casement window in 1½ storeys rear part of wing. The house was used by the Rothschilds as the centre of their estate's medical services. Listing NGR: SP9239311387"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-21T00:00:00Z"
+      }
+    }
+  ]
+}

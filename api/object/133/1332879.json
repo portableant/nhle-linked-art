@@ -1,0 +1,219 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332879.json",
+  "type": "HumanMadeObject",
+  "_label": "Shoulder Of Mutton Hotel",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Shoulder Of Mutton Hotel"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332879"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8667007702"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42848"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26617661"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332879",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8667007702)",
+    "defined_by": "POINT(-0.745603 51.761305)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332879",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332879",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Shoulder_of_Mutton%2C_Wendover",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26617661",
+      "type": "HumanMadeObject",
+      "_label": "Shoulder Of Mutton Hotel (Q26617661)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332879",
+    "type": "Production",
+    "_label": "Origin / Construction of Shoulder Of Mutton Hotel (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C18",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1799-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332879-1",
+      "type": "Modification",
+      "_label": "C20: 2 storeys, LH house has 1st floor band and 5 bays of sash windows with flat gauged brick arches, central door in C20 glazed porch.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332879-2",
+      "type": "Modification",
+      "_label": "Early C20: RH house has 3 bays, 4 pane upper sashes flanking 3-pane central sash, central early C20 door in older wood doorcase having pilasters and fl…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1332879",
+      "type": "VisualItem",
+      "_label": "Photograph of Shoulder Of Mutton Hotel (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1332879",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Shoulder Of Mutton Hotel",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoulder%20of%20Mutton%2C%20Wendover%20-%20geograph.org.uk%20-%204490165.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 8607 10/274 25/10/51 WENDOVER POUND STREET north side No.20 Shoulder of Mutton Hotel (formerly listed as Railway or Shoulder of Mutton Hotel) GV II Hotel, formed from two houses. C18, incorporating earlier timber framed fabric. Red brick, tiled roof, LH house higher with flanking chimneys with panels, front parapet and 2 flat roofed dormers. RH house has lower roof with moulded wood eaves cornice. 2 storeys, LH house has 1st floor band and 5 bays of sash windows with flat gauged brick arches, central door in C20 glazed porch. 2 sashes to RH 3-light window and narrow sash to LH. RH house has 3 bays, 4 pane upper sashes flanking 3-pane central sash, central early C20 door in older wood doorcase having pilasters and flat hood, flanked by tripartite sashes with gauged flat arches. RH gable has exposed timber framing. RCHM.I. p.306 MON.7. Listing NGR: SP8667007702"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z",
+        "end_of_the_end": "1985-10-11T23:59:59Z"
+      }
+    }
+  ]
+}

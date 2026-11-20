@@ -1,0 +1,234 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172770.json",
+  "type": "HumanMadeObject",
+  "_label": "Marchants Farmhouse (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Marchants Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172770"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99949 02577"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157567"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467541"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172770",
+    "type": "Place",
+    "_label": "Bovingdon (SP 99949 02577)",
+    "defined_by": "POINT(-0.554729 51.71304)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172770",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172770",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467541",
+      "type": "HumanMadeObject",
+      "_label": "Marchants Farmhouse (Q26467541)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172770",
+    "type": "Production",
+    "_label": "Origin / Construction of Marchants Farmhouse (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1611",
+      "begin_of_the_begin": "1611-01-01T00:00:00Z",
+      "end_of_the_end": "1611-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172770-1",
+      "type": "Modification",
+      "_label": "C17: Early C17 front range, later C17 rear wing, front range cased in flint and brick in C19 with new porches and windows.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172770-2",
+      "type": "Modification",
+      "_label": "1611: Owner has deeds, the earliest said to be of 1611.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1611",
+        "begin_of_the_begin": "1611-01-01T00:00:00Z",
+        "end_of_the_end": "1611-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172770-3",
+      "type": "Modification",
+      "_label": "C19: Early C17 front range, later C17 rear wing, front range cased in flint and brick in C19 with new porches and windows.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172770-4",
+      "type": "Modification",
+      "_label": "C20: Chimney inserted in rear wing only in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172770-5",
+      "type": "Modification",
+      "_label": "1975: (Roberts(1975)No.38).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON              \tLEY HILL ROAD SP 90 SE   \t\t\t\t\t(West side)                                      5/40                                    \tMarchants Farmhouse - GV                                      \tII Farmhouse. Early C17 front range, later C17 rear wing, front range cased in flint and brick in C19 with new porches and windows. Timber frames, front facade of flint with brick dressings, N end roughcast above flint ground floor, red brick with some blue headers to ground floor of rear wing with exposed timber frame above with square panels and cill height rail. Steep old red tile roofs. A 2-storeys T-plan house facing E set back  from  road.  The  front  range  has  a  2-cells,  central-chimney, lobby-entry plan.  The  lower rear service wing  originally unheated provided a new entrance and staircase against the older house entered from the N, a buttery, dairy and milk house, with ladder access to space over to accommodate farm hands.  E front almost symmetrical with 2 windows to each floor and central porch. Upper windows are 3-light corbelled  oriels  with  small  gables  over.  3-light  flush  transomed casements to ground fooor. Gabled part-glazed porch to Gothick front door. Axial 3-flue chimney with corbelled top. 3 structural bays to rear wing with small-pane sash windows to timbered 1st floor. Casements below. Gabled hood to door in N angle with front range. Dairy at NW has window with top-hung external shutter. SW part has stable door for use for horses in C19 entered from farmyard to S. Interior has axial floor beams in front range chamfered and stopped, wide open fireplace in hall, cupboards in part of narrowed fireplace of smaller parlour. One heated chamber on 1st floor. Chimney inserted in rear wing only in C20. Owner has deeds, the earliest said to be of 1611. (Roberts(1975)No.38). Listing NGR: SP9994502578"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1167711.json",
+  "type": "HumanMadeObject",
+  "_label": "Rent Street Barn (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Rent Street Barn"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1167711"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02130 03208"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157542"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542543"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1167711",
+    "type": "Place",
+    "_label": "Bovingdon (TL 02130 03208)",
+    "defined_by": "POINT(-0.522988 51.71831)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1167711",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1167711",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542543",
+      "type": "HumanMadeObject",
+      "_label": "Rent Street Barn (Q17542543)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1167711",
+    "type": "Production",
+    "_label": "Origin / Construction of Rent Street Barn (C16)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/edmund-wimperis",
+        "type": "Person",
+        "_label": "Edmund Wimperis"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1930",
+      "begin_of_the_begin": "1930-01-01T00:00:00Z",
+      "end_of_the_end": "1930-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1167711-1",
+      "type": "Modification",
+      "_label": "1911: (RCHM(1911)66 no.3: Roberts(1975)no.14: Pevsner(1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1167711-2",
+      "type": "Modification",
+      "_label": "c. 1930: C16 with lower E part later than W part, W crosswing and hall to W of it and alterations c.1930 by Edmund Wimperis.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1930",
+        "begin_of_the_begin": "1930-01-01T00:00:00Z",
+        "end_of_the_end": "1930-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1167711-3",
+      "type": "Modification",
+      "_label": "1975: (RCHM(1911)66 no.3: Roberts(1975)no.14: Pevsner(1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1167711-4",
+      "type": "Modification",
+      "_label": "1977: (RCHM(1911)66 no.3: Roberts(1975)no.14: Pevsner(1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON              \tCHIPPERFIELD ROAD TL 00 SW \t\t\t\t\t(South side)                                         6/13                                    \tRent Street Barns - GV                                      \tII* Farmhouse, now a private house. C16 with lower E part later than W part, W crosswing and hall to W of it and alterations c.1930 by Edmund Wimperis. Timber frames on brick sills, with plastered or painted brick infill. Steep old red tile roofs. C16,  2-storeys, 3-bays, end cross-passage plan house facing N with continuous N side jetty and 1½ storeys 3-bays structure added in C16 to E end, possibly a byre in the long-house tradition but probably service wing to house. 2 close-studded bays on ground floor and jettied gabled W crosswing and separate W hall open to roof c.1930 in antiquarian taste. Original walls have 4 or 5 wide panels to each bay. Entrance moved from E bay of hall, where passage was behind large chimney to gain entry to hall, to W bay of E part. Each of 6 bays has a window and there are 2 gabled dormers at the eaves to the E part. 2-light small square casement windows, but 2 3-light transomed windows inserted below jetty. Jetty has main beams carried on brackets and bull-nosed  joists  between.  Interior  has  exposed  timbers  with  2 longitudinal beams to middle bay jettied part and the narrower E bay containing great chimney and cross passage. Trimming possibly for a stair in SW corner of hall. Parlour a step down in W bay has a single axial beam. All beams and joists on ground floor chamfered and hollow stopped.  Large ogee-and-roll shaped bracket over wide fireplace to carry a floor beam in hall. Heavy jowled posts and quadrant curved tension braces. Wattle and daub infill in E wall in attic. Clasped- purlin roof with collar and struts and wind braces. Chamfered joists and beams carry floor of former attic. Structure of lower E part of roof  open to  stairwell with curved braces  to cambered tie-beams, clasped purlin roof on inclined curved queen-posts with wind braces to purlins.  At SE corner of jettied post are the mortices under the wallplates of a 4-light diamond mullioned window. Circular cast iron Boxmoor grazing rights plaque no. 588 (with no. 589 preserved inside). (RCHM(1911)66 no.3: Roberts(1975)no.14: Pevsner(1977)107). Listing NGR: TL0213003208"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

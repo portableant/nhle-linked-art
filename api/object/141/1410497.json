@@ -1,0 +1,246 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/141/1410497.json",
+  "type": "HumanMadeObject",
+  "_label": "Long Marston War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Long Marston War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1410497"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8959815715"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26676163"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1410497",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8959815715)",
+    "defined_by": "POINT(-0.701121 51.832871)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1410497",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1410497",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Long_Marston_War_Memorial%2C_Hertfordshire",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26676163",
+      "type": "HumanMadeObject",
+      "_label": "Long Marston War Memorial (Q26676163)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1410497",
+    "type": "Production",
+    "_label": "Origin / Construction of Long Marston War Memorial (1914–1918)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1410497-1",
+      "type": "Modification",
+      "_label": "1921: Long Marston War Memorial War Memorial, built by Messrs Newman and Harper, unveiled by Lord Rothschild and dedicated in August 1921.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1410497-2",
+      "type": "Modification",
+      "_label": "1939–1945: IN MEMORY OF/THE GALLANT MEN/OF THIS VILLAGE WHO FOUGHT AND FELL IN/ THE GREAT WAR/1914-1918/ (NAMES)/ THEY DID THEIR DUTY FOR KING AND COUN…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1410497-3",
+      "type": "Modification",
+      "_label": "1945: In May 2011 a memorial to three US airmen killed in 1945 was placed adjacent to the war memorial.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1945",
+        "begin_of_the_begin": "1945-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1410497",
+      "type": "VisualItem",
+      "_label": "Photograph of Long Marston War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1410497",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Long Marston War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/War%20memorial%2C%20Long%20Marston%20-%20geograph.org.uk%20-%204135453.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "War Memorial, built by Messrs Newman and Harper, unveiled by Lord Rothschild and dedicated in August 1921."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "War Memorial, built by Messrs Newman and Harper on a raised mound surrounded by a chain link and granite post fence, unveiled by Lord Rothschild and dedicated in August 1921. MATERIALS. Granite. EXTERIOR. The memorial takes the form of a Celtic cross, approximately 5.8m high. The memorial is approached from the ground level by a flight of three steps and comprises a stone plinth with a three-tiered base, surmounted by a cross. The cross has a tapered base on which the following inscription and the names of the 10 World War I dead, and one from World War II, are carved. IN MEMORY OF/THE GALLANT MEN/OF THIS VILLAGE WHO FOUGHT AND FELL IN/ THE GREAT WAR/1914-1918/ (NAMES)/ THEY DID THEIR DUTY FOR KING AND COUNTRY/ 1939-1945/(NAME). The cross has a tapering shaft, with a band of carved lattice decoration at the bottom. The arms of the cross have carved, interlacing circular and cruciform motifs, encircled by a guilloche band. This list entry was subject to a Minor Amendment on 14/12/2012 This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 12 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The War Memorial at Long Marston is designated at Grade II for the following principal reasons. *     Architectural interest: this bespoke memorial is constructed with craftsmanship from good quality materials and has design interest; *    Historic interest: it is a poignant reminder of the impact of world events on the local community and the sacrifice made for the defence of the country; *    Group Value: it has considerable group value with six Grade II listed buildings in the historic core of the village."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The War Memorial at Long Marston was built at a cost of £400 raised by public subscription and manufactured by Messrs. Jas Chandler. The memorial was built by Messrs Newman & Harper. It was unveiled by Lord Rothschild and dedicated by local clergy on 7th August 1921 in a service attended by local residents and the Long Marston brass band. In 2006, a grant was awarded for the cleaning and repair of the Memorial, the repointing of stonework and refurbishment of the chain link and granite post fence. In May 2011 a memorial to three US airmen killed in 1945 was placed adjacent to the war memorial."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2012-12-14T00:00:00Z"
+      }
+    }
+  ]
+}

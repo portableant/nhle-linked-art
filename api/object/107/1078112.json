@@ -1,0 +1,240 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078112.json",
+  "type": "HumanMadeObject",
+  "_label": "125, High Street",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "125, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078112"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99338 07718"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355496"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26347015"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078112",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99338 07718)",
+    "defined_by": "POINT(-0.562104 51.759348)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078112",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078112",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26347015",
+      "type": "HumanMadeObject",
+      "_label": "125, High Street (Q26347015)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078112",
+    "type": "Production",
+    "_label": "Origin / Construction of 125, High Street (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078112-1",
+      "type": "Modification",
+      "_label": "C18: Room above with C18 large panelling, and comer hearth with brick oven behind.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078112-2",
+      "type": "Modification",
+      "_label": "C19: Carriage entry with C19 3-light casement at eaves level.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078112-3",
+      "type": "Modification",
+      "_label": "Mid C19: C16, incorporating parts of a medieval open hall of at least 2 bays, refaced in brick mid C19, and with late C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078112-4",
+      "type": "Modification",
+      "_label": "C20: End bay to right with 2 storey canted bay, formerly an entry, now with C20 doors below rectangular overlight, approached by flight of 4 curv…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078112-5",
+      "type": "Modification",
+      "_label": "Late C20: C16, incorporating parts of a medieval open hall of at least 2 bays, refaced in brick mid C19, and with late C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C20",
+        "begin_of_the_begin": "1967-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078112",
+      "type": "VisualItem",
+      "_label": "Photograph of 125, High Street (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078112",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 125, High Street",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/125%20High%20Street%2C%20Berkhamsted%2C%20June%202022.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "5P9907NW           BERKHAMSTED                 HIGH STREET                                                (south side) 1/10005                                         No 125                                                 II House, now partially occupied as commercial premises. C16, incorporating parts of a medieval open hall of at least 2 bays, refaced in brick mid C19, and with late C20 alterations. Timber- framing behind painted brickwork, brick chimneys and a Welsh slated roof 'L' plan house, of at least 3 phases, with remodelled street frontage range, and rear range to west of yard accessed by means of wide arched opening at east end of frontage range. STREET ELEVATION; 4-bay, 2 storey range, the bays delineated by pilasters with plainly- moulded capitals. End bay to right with 2 storey canted bay, formerly an entry, now with C20 doors below rectangular overlight, approached by flight of 4 curved steps with splayed handrails. End bay to left with carriage entry below shallow segmental arch with keyblock. Centre bays occupied by C20 advanced double fronted shop window with plain fascia, elaborate cornice and inset part- glazed door. Above are 3 glazing bar sashes, 8 over 8 panes, without horns, set between truncated pilasters. Fixed side lights and 2-light casement to canted bay. REAR RANGE; 4 bays, 2 storeys, with C20 2 storey lean to extension to south, substantially remodelled, with replacement C20 sashes. Carriage entry with C19 3-light casement at eaves level. INTERIOR; front range with exposed framing to first floor of modest scantling, and with straight angle bracing. Rear range with remains of 2 trusses of an earlier, open hall structure, including substantialjowel posts, arch braced tie beam, and steeply-set principal rafters. Most ofthe upper roofstructure has been replaced. Room to rear at ground floor level with substantial cross-beams. Room above with C18 large panelling, and comer hearth with brick oven behind. Within, and to east side of the carriage arch, substantial vertical and horizontal timbers, set back behind the later brick front, suggest a framed end wall, and a jettied first floor , the latter now concealed by, or destroyed at the insertion of the brick front. An important remnant of an early, high status house which stood at the end of the medieval market place, now enclosed within a C19 remodelling, which itself forms an important frontage component of the central part ofBerkhamsted's principal street. Listing NGR: SP9933807718"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1995-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

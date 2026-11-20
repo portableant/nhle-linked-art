@@ -1,0 +1,241 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342213.json",
+  "type": "HumanMadeObject",
+  "_label": "47, 49 and 51, Stocks Road",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "47, 49 and 51, Stocks Road"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342213"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96524 12621"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355658"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626240"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342213",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 96524 12621)",
+    "defined_by": "POINT(-0.601501 51.803909)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342213",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342213",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Glad%27s_Cottage%2C_Aldbury",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626240",
+      "type": "HumanMadeObject",
+      "_label": "Glad's Cottage (Q26626240)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342213",
+    "type": "Production",
+    "_label": "Origin / Construction of 47, 49 and 51, Stocks Road (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1933",
+      "begin_of_the_begin": "1933-01-01T00:00:00Z",
+      "end_of_the_end": "1933-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342213-1",
+      "type": "Modification",
+      "_label": "C17: Later C17, on the site of the Town House supported by a charity of C15 or earlier.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342213-2",
+      "type": "Modification",
+      "_label": "C19: Two-light C19 flush casement windows with taller two-light small-paned casements in the three dormers.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342213-3",
+      "type": "Modification",
+      "_label": "1933: Alterations and rear extensions 1933.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1933",
+        "begin_of_the_begin": "1933-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342213-4",
+      "type": "Modification",
+      "_label": "1980: (RCHM Typescript: Davis(1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342213",
+      "type": "VisualItem",
+      "_label": "Photograph of 47, 49 and 51, Stocks Road (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342213",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 47, 49 and 51, Stocks Road",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Thatched%20Cottages%2C%20Aldbury%20-%20geograph.org.uk%20-%201578017.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011898",
+      "type": "Material",
+      "_label": "Thatch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 24 August 2022 to update the name and address and to reformat the text to current standards SP 9612 12/22 ALDBURY STOCKS ROAD (west side) Nos. 47 , 49, and 51 (Formerly listed as Nos. 47 (Glad's Cottage), 49, and 51, previously listed as Nos 47, 49 and 51) 30.11.66 II Four almshouses, now three houses. Later C17, on the site of the Town House supported by a charity of C15 or earlier. No. 47 a little later, and north lean-to extension was formerly a separate cottage. Alterations and rear extensions 1933. Timber frames on tarred brick plinths. Painted brick infill to frame and casing to No. 47. Steep thatched roof with three large swept dormers at eaves and fancy cresting. Hipped thatched roof to low north end lean-to extension. A block of three picturesque one and a half storeys houses facing east with chimney to No. 49 in rear roof slope, and external north gable chimney to No. 51. Built with one room and bedroom over for each house. East front has three windows, three plank doors to left hand of each window, small window to north extension, wide-spaced timbers to No. 49 and No. 51 and straight angle braces to No. 51. Two-light C19 flush casement windows with taller two-light small-paned casements in the three dormers. Small upper floor window in south gable of No. 47. No. 49 has a wide fireplace and clasped-purlin roof structure. (RCHM Typescript: Davis(1980) No. 7). Listing NGR: SP9651812618"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

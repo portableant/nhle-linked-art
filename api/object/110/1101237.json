@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101237.json",
+  "type": "HumanMadeObject",
+  "_label": "4, 5/6 And 7, Leighton Buzzard Road (A4146) (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "4, 5/6 And 7, Leighton Buzzard Road (A4146)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101237"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03652 10607"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157910"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394437"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101237",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03652 10607)",
+    "defined_by": "POINT(-0.49876 51.784533)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101237",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101237",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394437",
+      "type": "HumanMadeObject",
+      "_label": "4, 5/6 And 7, Leighton Buzzard Road (A4146) (Q26394437)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101237",
+    "type": "Production",
+    "_label": "Origin / Construction of 4, 5/6 And 7, Leighton Buzzard Road (A4146) (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101237-1",
+      "type": "Modification",
+      "_label": "C17: C16 or earlier hall range, W bay C17, E crosswing late C17 or C18, NE extension C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101237-2",
+      "type": "Modification",
+      "_label": "Late C17: C16 or earlier hall range, W bay C17, E crosswing late C17 or C18, NE extension C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101237-3",
+      "type": "Modification",
+      "_label": "C18: C16 or earlier hall range, W bay C17, E crosswing late C17 or C18, NE extension C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101237-4",
+      "type": "Modification",
+      "_label": "C20: C16 or earlier hall range, W bay C17, E crosswing late C17 or C18, NE extension C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN         LEIGHTON BUZZARD ROAD (A4146) TL 0310                                          (East side) 10/131                                   Nos. 4, 5/6, and 7 26.1.67                                  (formerly listed as No.                                          4/5 Water End and No. 5/6                                          Water End) GV                                          II House, now 3 houses. C16 or earlier hall range, W bay C17, E crosswing late C17 or C18, NE extension C20. Timber frame exposed on red brick sill with red brick infill and rebuilding of ground floor of crosswing. Steep old red tile roofs. A T-shaped 2-storeys house facing S. Hall range originally of 3 bays (the middle bay wider), with an extension to W end of 2-storeys and cellar. Unusually wide 2-bays projecting E crosswing altered in C18 by insertion of central chimney, brick ground floor and hip in place of front gable. Irregular windows in hall range with 3 2-light casements on each floor and 2 plank doors under lean-to tiled hoods with brick steps. Crosswing S front has 2 2-light windows to 1st floor, and a 3-light and 2-light window flanking the gabled rustic porch and battened entrance doors up 3 steps. Rear part of cross wing now a separate house (No. 7) entered by single-storey NE extension. Hall range has clasped-purlin roof with curved wind-braces, and collar and cambered tie-beam in closed full-height partition at each end of middle (hall) bay with wide-spaced studs. Former W end wall has very wide cranked tension braces. The C17 W end-bay extension has curved-jowl posts, straight braces to wallplate, clasped-purlin roof, and gabled rear dormer. Listing NGR: TL0365210607"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100374.json",
+  "type": "HumanMadeObject",
+  "_label": "The Dell (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Dell"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100374"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05359 15039"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157783"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392539"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100374",
+    "type": "Place",
+    "_label": "Flamstead (TL 05359 15039)",
+    "defined_by": "POINT(-0.472678 51.824049)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100374",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100374",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392539",
+      "type": "HumanMadeObject",
+      "_label": "The Dell (Q26392539)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100374",
+    "type": "Production",
+    "_label": "Origin / Construction of The Dell (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1960",
+      "begin_of_the_begin": "1960-01-01T00:00:00Z",
+      "end_of_the_end": "1960-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100374-1",
+      "type": "Modification",
+      "_label": "Early C18: C16, W bay early C18 and brick infill, 2 E bays restored after a fire c.1960, later C20 flat roofed N rear extensions not of special interes…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100374-2",
+      "type": "Modification",
+      "_label": "C20: C16, W bay early C18 and brick infill, 2 E bays restored after a fire c.1960, later C20 flat roofed N rear extensions not of special interes…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100374-3",
+      "type": "Modification",
+      "_label": "c. 1960: C16, W bay early C18 and brick infill, 2 E bays restored after a fire c.1960, later C20 flat roofed N rear extensions not of special interes…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             CHEVERELLS GREEN TL 01 NE                                        (East side) 2/7                                    The Dell 26.1.67 -                                      II House. C16, W bay early C18 and brick infill, 2 E bays restored after a fire c.1960, later C20 flat roofed N rear extensions not of special interest.  Timber  frame,  red  brick with black headers  as  infill, chequered pattern in RH middle bay. W bay faced in red brick in English-bond. Steep old red tile roofs. A 2-storeys house, 4 windows long, facing S, halfway down a hillside with the rear terraced into the slope. Circular well with winding gear in front. Tiled lean-to against E end. Flush casement windows with small panes, of 4, 3, or 2 lights. 3-light similar casement window in cast iron on ground floor. Plank door with flat hood.  Interior has  exposed  timbers,  axial beams,  lobby entrance beside large internal chimney stack, 3-centred chamfered brick arched fireplace in one room, change of level into W bay, clasped-purlin roof on collar-and-queen struts trusses with curved wind-braces. Listing NGR: TL0535915039"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

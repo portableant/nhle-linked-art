@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1125876.json",
+  "type": "HumanMadeObject",
+  "_label": "Seytons Manor",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Seytons Manor"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1125876"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8351608029"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46271"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26418872"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125876",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8351608029)",
+    "defined_by": "POINT(-0.791213 51.764723)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1125876",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1125876",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26418872",
+      "type": "HumanMadeObject",
+      "_label": "Seytons Manor (Q26418872)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1125876",
+    "type": "Production",
+    "_label": "Origin / Construction of Seytons Manor (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C16",
+      "begin_of_the_begin": "1567-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125876-1",
+      "type": "Modification",
+      "_label": "Early C18: 2 centre bays are late C16, refronted early C18 and rebuilt to rear early C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125876-2",
+      "type": "Modification",
+      "_label": "C18: C18 extensions to each end and to front, forming U-plan.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125876-3",
+      "type": "Modification",
+      "_label": "Early C19: 2 centre bays are late C16, refronted early C18 and rebuilt to rear early C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125876-4",
+      "type": "Modification",
+      "_label": "C20: C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 NW 2/2 ELLESBOROUGH AYLESBURY ROAD (TERRICK) Seytons Manor II House.  2 centre bays are late C16, refronted early C18 and rebuilt to rear early C19.  C18 extensions to each end and to front, forming U-plan.  C20 alterations.  Brick, old tile roofs, central rebuilt chimney of thin brick, another chimney to right side with narrow pilaster.  2 storeys, 4 bays.  C20 oak mullion and transom windows with leaded lights.  Narrow centre bays have gauged brick to ground floor, broken first floor band course and flush pilasters of gauged brick flanking upper storey. Ground floor has cross windows, the right more altered. Another cross window to first floor right. Central C20 door with moulded brick pediment. Hipped wing to right has front end with moulded first floor band course and similar flush pilasters of gauged brick, the other brickwork partly irregular and altered.  2-light casement to ground floor, 3-light above.  C20 single storey brick extension projects from front right corner.  Left wing is gabled to front and has irregularly bonded brickwork, first floor band course and flint plinth. Gable has 3-light windows with segmental heads, and C20 door to cellar. Blocked cellar opening with depressed brick arch in right return wall. Interior:  centre bays have timber framing in end walls, and central truss with curved brace to tie beam;  heavy chamfered spine beams with wide stop- chamfered joists. RCMH 1 p,140 Mon.7 Listing NGR: SP8351608029"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-04-26T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100413.json",
+  "type": "HumanMadeObject",
+  "_label": "The Rose And Crown Public House (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Rose And Crown Public House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100413"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07236 02504"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157683"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392623"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100413",
+    "type": "Place",
+    "_label": "Kings Langley (TL 07236 02504)",
+    "defined_by": "POINT(-0.449319 51.71103)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100413",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100413",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Rose_and_Crown%2C_Kings_Langley",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392623",
+      "type": "HumanMadeObject",
+      "_label": "The Rose and Crown Public House (Q26392623)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100413",
+    "type": "Production",
+    "_label": "Origin / Construction of The Rose And Crown Public House (Late C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C17",
+      "begin_of_the_begin": "1667-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100413-1",
+      "type": "Modification",
+      "_label": "Early C18: Late C17 or early C18, early C19 parallel rear range at SW, mid C19 single-storey addition at SE, C20 conservatory over rear courtyard linki…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100413-2",
+      "type": "Modification",
+      "_label": "Early C19: Late C17 or early C18, early C19 parallel rear range at SW, mid C19 single-storey addition at SE, C20 conservatory over rear courtyard linki…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100413-3",
+      "type": "Modification",
+      "_label": "C19: 2/2 panes with broad glazing bars, name board at top RH corner with fine painted lettering 'KING'S LANGLEY', and twin C19 sash windows to lo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100413-4",
+      "type": "Modification",
+      "_label": "Mid C19: Late C17 or early C18, early C19 parallel rear range at SW, mid C19 single-storey addition at SE, C20 conservatory over rear courtyard linki…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100413-5",
+      "type": "Modification",
+      "_label": "C20: Late C17 or early C18, early C19 parallel rear range at SW, mid C19 single-storey addition at SE, C20 conservatory over rear courtyard linki…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100413",
+      "type": "VisualItem",
+      "_label": "Photograph of The Rose And Crown Public House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100413",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Rose And Crown Public House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Rose%20and%20Crown%20Pub%20Kings%20Langley%20-%20geograph.org.uk%20-%2027964.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tHIGH STREET TL 0702  \t\t\t\t\t(West side)                                        13/152                                  \tNo. 60 -                                        \t(The Rose and Crown PH) GV                                      \tII House, now a Public House. Late C17 or early C18, early C19 parallel rear range at SW, mid C19 single-storey addition at SE, C20 conservatory over rear courtyard linking outbuildings. Red brick with black headers in chequer pattern, plum brick rear range, wooden cornice to steep hipped old red tile roof.  2 storeys and attics,  2-cells,  central passage, rear wall chimneys house facing E with a raised terrace in front. E front has a plinth, a tented roof verandah hipped at: ends on fluted slender cast iron columns, 2 flat topped dormers on roof slope, 2 wide spaced recessed sash windows with flat gauged arches and 8/8 panes, a narrow 4/4 panes window in middle, 2 wider sash windows with 8/8 panes and external shutters, to ground floor flanking the central door. Heavy frame and rectangular fanlight to half-glazed door. Later door cut through near RH corner. Cellar trap to RH of central door. Rear wall of verandah white washed. Ornate wrought iron bracket with hanging sign fixed to moulded jowled stock beside narrow upper window. Rectangular single-storey bay window. On N end with hipped tile roof and sash window over with 8/8 panes. S end has a triple boxed sash window with 2/2: 6/6; 2/2 panes with broad glazing bars, name board at top RH corner with fine painted lettering 'KING'S LANGLEY', and twin C19 sash windows to low extension with cast iron column between. Rear range S end has a sash window with 10/10 panes. Interior has exposed floor structure of squared joists and chamfered axial beams with bar and triangle stops. Listing NGR: TL0723602504"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

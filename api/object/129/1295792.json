@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1295792.json",
+  "type": "HumanMadeObject",
+  "_label": "Church House (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1295792"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01979 10509"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158000"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26583494"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1295792",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01979 10509)",
+    "defined_by": "POINT(-0.523034 51.783959)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1295792",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1295792",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26583494",
+      "type": "HumanMadeObject",
+      "_label": "Church House (Q26583494)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1295792",
+    "type": "Production",
+    "_label": "Origin / Construction of Church House (1700)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1700",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1700-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295792-1",
+      "type": "Modification",
+      "_label": "C19: A large, 2-storeys attics and cellar house facing N with tiled C19 lean-to against E end set back.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1295792",
+      "type": "VisualItem",
+      "_label": "Photograph of Church House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1295792",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20House%2C%20Nettleden%2C%20Hertfordshire%2C%20May%202024%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 01 SW         NETTLEDEN WITH         NETTLEDEN                  POTTEN END             (South side) 3/219                                   Church House 30.11.66 GV                                      II House.  Circa  1700,  little altered.  Red brick chequered with blue headers,  front painted, exposed timber frame brick nogged in gable triangles, steep old red tile roof. A large, 2-storeys attics and cellar house facing N with tiled C19 lean-to against E end set back. Formerly symmetrical 5 windows wide front with central door, now has 1st window from W on each floor blocked and 2nd window from E on ground floor. Plinth and brick floor-band.  Cross windows  slightly recessed with lattice leaded glazing. Rustic gabled porch. Blocked 1st floor cross window on E end with soldier-arch of red and blue headers alternately. 2 gabled dormers set high on roof slope with 2-light lattice leaded casements. 2 main rooms on each floor with stair between off entrance lobby. E room larger with rear-wall chimney, served as hall and kitchen. W room with cross-beam and projecting W gable chimney the parlour. (RCHM Typescript). Listing NGR: TL0197710512"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

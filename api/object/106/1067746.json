@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/106/1067746.json",
+  "type": "HumanMadeObject",
+  "_label": "The Cottage Building At Dickinson'S Mill",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Cottage Building At Dickinson'S Mill"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1067746"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06264 04976"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355586"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26320543"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1067746",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 06264 04976)",
+    "defined_by": "POINT(-0.462629 51.733433)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1067746",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1067746",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26320543",
+      "type": "HumanMadeObject",
+      "_label": "The Cottage Building At Dickinson's Mill (Q26320543)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1067746",
+    "type": "Production",
+    "_label": "Origin / Construction of The Cottage Building At Dickinson'S Mill (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1809",
+      "begin_of_the_begin": "1809-01-01T00:00:00Z",
+      "end_of_the_end": "1809-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067746-1",
+      "type": "Modification",
+      "_label": "C19: Ground floor has 4 small windows 2 pentice roofed C19 sash bay windows.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067746-2",
+      "type": "Modification",
+      "_label": "1809: Part of larger block, of paper mill, converted C18 from corn mill Bought by Dickinson, 1809, supplied cartridge paper for British army durin…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1809",
+        "begin_of_the_begin": "1809-01-01T00:00:00Z",
+        "end_of_the_end": "1809-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1067746",
+      "type": "VisualItem",
+      "_label": "Photograph of The Cottage Building At Dickinson'S Mill (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1067746",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Cottage Building At Dickinson'S Mill",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Cottage%20Building%20at%20Dickinson%27s%20Mill%2C%20Apsley%2C%20April%202022%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LONDON ROAD 1. 5252                                                   (North Side)                                                   The Cottage Building                                                   at Dickinson's Mill TL 00 SE 11/177 II 2 C18 or earlier cottage, much altered and now used as offices.  Part of larger block, of paper mill, converted C18 from corn mill  Bought by Dickinson, 1809, supplied cartridge paper for British army during Napoleonic Wars.  Whitewashed brick ground floor, vertical boarding to timber framed 1st floor.  Old tiled roof.  2 storeys.  1st floor has 2 lattice casement windows, 5 casement windows with glazing bars.  Ground floor has 4 small windows 2 pentice roofed C19 sash bay windows.  Listed partly for historical interest. Listing NGR: TL0242106303"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-02-17T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1175452.json",
+  "type": "HumanMadeObject",
+  "_label": "Range Of Barns On North Side Of Plaistowes Farm (St Stephen)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Range Of Barns On North Side Of Plaistowes Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1175452"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 12050 04648"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163861"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26493771"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1175452",
+    "type": "Place",
+    "_label": "St Stephen (TL 12050 04648)",
+    "defined_by": "POINT(-0.378984 51.72936)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1175452",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1175452",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26493771",
+      "type": "HumanMadeObject",
+      "_label": "Range Of Barns On North Side Of Plaistowes Farm (Q26493771)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1175452",
+    "type": "Production",
+    "_label": "Origin / Construction of Range Of Barns On North Side Of Plaistowes Farm (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C18",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1799-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 SW                    ST STEPHEN           FURZEBUSHES LANE                                                  (south side)                                                  CHISWELL GREEN 12/317                                           Range of barns on N side                                                  of Plaistowes Farm II Two barns in a continuous range, backing onto Furzebushes Lane. C18, the E barn probably earlier C18.   Weatherboarded.   Road elevation in corrugated iron.  Plain tile roofs.  The E barn is slightly larger and has, on the S side, a central gabled porch with lean-to ranges either side.  W barn is 4 bays with a similar porch on the penultimate bay.  Lean to continuous with E barn; interior with clasped purlin roof. Listing NGR: TL1205004648"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-09-27T00:00:00Z"
+      }
+    }
+  ]
+}

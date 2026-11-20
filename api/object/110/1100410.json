@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100410.json",
+  "type": "HumanMadeObject",
+  "_label": "44, High Street (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "44, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100410"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07205 02594"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157680"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392620"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100410",
+    "type": "Place",
+    "_label": "Kings Langley (TL 07205 02594)",
+    "defined_by": "POINT(-0.44974 51.711845)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100410",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100410",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392620",
+      "type": "HumanMadeObject",
+      "_label": "44, High Street (Q26392620)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100410",
+    "type": "Production",
+    "_label": "Origin / Construction of 44, High Street (Late C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1838–1842",
+      "begin_of_the_begin": "1838-01-01T00:00:00Z",
+      "end_of_the_end": "1842-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100410-1",
+      "type": "Modification",
+      "_label": "Early C19: Half-glazed panelled door with etched glass panel surrounded by bullions in early C19 surround with panelled pilasters, paterae and full ent…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100410-2",
+      "type": "Modification",
+      "_label": "1838–1842: Late C17, renovated, brick cased and extended to N 1838-42 for John Kemp as a house and baker's shop.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1838–1842",
+        "begin_of_the_begin": "1838-01-01T00:00:00Z",
+        "end_of_the_end": "1842-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100410-3",
+      "type": "Modification",
+      "_label": "1870: Altered 1870 to one house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1870",
+        "begin_of_the_begin": "1870-01-01T00:00:00Z",
+        "end_of_the_end": "1870-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tHIGH STREET TL 0702 \t\t\t\t\t(West side)                                        13/149                                  \tNo. 44 -                                       \t(Village House) GV                                     \t\tII House. Late C17, renovated, brick cased and extended to N 1838-42 for John Kemp as a house and baker's shop. Altered 1870 to one house. Timber framed S part plastered at rear but red brick cased at front uniform with red brick N part which is of flint and brick at rear. Yellow brick rear wing at NW. Steep old red tile hipped roofs, but gabled SW wing. An irregular, 2 storeys, 4 windows wide house facing E with S part recessed and carriageway with double doors at N end. Recessed sash windows with 8/8 panes and segmental arches to 1st floor. Triple sash with plastered flat arch keystone, and apron to right of door. Canted sashed bay window to S part. Half-glazed panelled door with etched glass panel surrounded by bullions in early C19 surround with panelled pilasters, paterae and full entablature. Timber frame exposed in SW wing with unjowled posts and clasped-purlin roof with angled queen-posts and no collars. Wide panelled framing with brick nogging. Cellar under this wing and external S  lateral chimney.  Unusual  internal sliding shutters  to Yorkshire sliding casement in S wall on 1st floor. (KLLHMS report in NMR). Listing NGR: TL0720502594"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/137/1373846.json",
+  "type": "HumanMadeObject",
+  "_label": "The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1373846"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 89834 15620"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355783"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26654765"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1373846",
+    "type": "Place",
+    "_label": "Tring Rural (SP 89834 15620)",
+    "defined_by": "POINT(-0.697722 51.83198)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1373846",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1373846",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Queens_Head%2C_Long_Marston",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26654765",
+      "type": "HumanMadeObject",
+      "_label": "The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn (Q26654765)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1373846",
+    "type": "Production",
+    "_label": "Origin / Construction of The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1836",
+      "begin_of_the_begin": "1836-01-01T00:00:00Z",
+      "end_of_the_end": "1836-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-1",
+      "type": "Modification",
+      "_label": "Late C16: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C16",
+        "begin_of_the_begin": "1567-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-2",
+      "type": "Modification",
+      "_label": "Early C17: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-3",
+      "type": "Modification",
+      "_label": "Late C17: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-4",
+      "type": "Modification",
+      "_label": "C18: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-5",
+      "type": "Modification",
+      "_label": "C19: 3-light C19 casements slightly recessed with segmental arches, and cross-bars, smooth stucco plinth, door surround, window arches on ground …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-6",
+      "type": "Modification",
+      "_label": "Mid C19: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1373846-7",
+      "type": "Modification",
+      "_label": "1836: Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1836",
+        "begin_of_the_begin": "1836-01-01T00:00:00Z",
+        "end_of_the_end": "1836-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1373846",
+      "type": "VisualItem",
+      "_label": "Photograph of The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1373846",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Queens Head Public House With Attached East Barn,Linked South Block And Automobile Association Village Sign On Barn",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Queens%20Head%2C%20Long%20Marston%20-%20geograph.org.uk%20-%204013954.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL           TRING ROAD SP 8915                                        (East side)                                        Long Marston 8/146                                  No. 38 (The Queens Head PH), -                                      with attached E barn, linked                                        S block, and AA village sign                                        on barn GV                                     II Inn, now a PH. Late C16 or early C17, remodelled and heightened in late C17 and linked to late C16 or early C17 taller barn at E, C18 brick S block built leaving carriageway to N, brick casing to inn with 'HH 1836' over S entrance, mid C19 NW wing and new W front, low entrance link blocking carriageway later C20. Timber frame cased in red brickwork, E part and barn dark weatherboarded, stuccoed brick W front block, red and black chequered brick S block. Steep red tiled roofs, slate roof to W block. An irregular L-shaped 2-storeys group at the crossroads facing W with separate S block now linked to main range leaving a front courtyard between. W front 2 storeys, 2 windows to each floor with door in middle and RH ground floor window offset to right.  3-light C19 casements slightly recessed with segmental arches, and cross-bars, smooth stucco plinth,  door surround, window arches on ground floor, and corners. Dentilled eaves. Red brick rear wall to NW extension. Small N gable chimney. Moulded capping to beam projecting at front to carry inn sign. The large internal S gable chimney is in fact an C18 stack serving the W room of the older range enclosed behind the C19 W front and extending as a lower 2 storeys range to rear. This has irregular fenestration with 3-light C18 leaded casements to 1st floor and lean-to tiled brick porch. S wall has older brickwork with black headers in its lower part with C19 dated brickwork to 1st floor. Rear wall on N has exposed timber frame brick nogged and 2-light C18 leaded casement with segmental head above roof of lean-to beer store. Rear wall chimneys and dark weatherboarded E part links to higher and wider, half-hipped, weatherboarded barn, with circular enamelled steel yellow with black lettering, early AA village sign for Long Marston, on E end. 2-storeys S block has W gable to road, possibly a brewhouse with heated room above reached by separate stair. W front has one window to each floor, black and red brickwork with wide red brick quoins and vertical brick bands, plinth and segmental arches. Red tilehung gable above 3-light old casement to 1st floor. 2-light C20 casement replacement of ground floor window. Old painted metal sign on wall 'YE OLDE QUEENS HEAD STABLES'. Regular red brick S side along boundary. Entrances on N side with 3-light C18 leaded casement window central over wide single doorway with segmental gauged arch. Plank door to stair at NE corner hung from timber corner post. Vertical timbers in plastered E gable with large chimney serving both floors. Lower and later extension to E. Brick and tile single-storey link to main range with central doors. Interior of pub shows it was a single-storey C16 building with gable to road and 2 bays on each side of a narrower central bay where the S entrance now is. A central chimney and stair at rear were probably removed from this narrow bay when the walls were heightened by 2' and separate lateral chimneys provided for each end. Both new and old wall-plates are exposed on the 1st floor and continue in a partition wall through the C19 front block. Butt jointed scarf in upper wallplate, and straight braces to older framing. Axial chamfered floor beams and exposed joists. Tall 2-bays barn with jowled posts, unjowled mid-bay posts, mid-height rails jointed in-line, thin curved tension  braces.  Clasped-purlin  roof  with  one  purlin,  straight wind-braces and inclined curved queen-posts but no collars. Double doors to road in W bay. Listing NGR: SP8983415620"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

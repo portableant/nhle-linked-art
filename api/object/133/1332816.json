@@ -1,0 +1,167 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332816.json",
+  "type": "HumanMadeObject",
+  "_label": "Thatched Cottage And Old Seven Stars Cottage",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Thatched Cottage And Old Seven Stars Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332816"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84555 13922"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42610"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26617600"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332816",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 84555 13922)",
+    "defined_by": "POINT(-0.774726 51.817539)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332816",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332816",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26617600",
+      "type": "HumanMadeObject",
+      "_label": "Thatched Cottage And Old Seven Stars Cottage (Q26617600)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332816",
+    "type": "Production",
+    "_label": "Origin / Construction of Thatched Cottage And Old Seven Stars Cottage (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011898",
+      "type": "Material",
+      "_label": "Thatch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SW 4/43 BIERTON WITH BROUGHTON BROUGHTON LANE Thatched Cottage and Old Seven Stars Cottage. (Formerly listed as Thatched Cottage and Old Seven Stars Cottage) II Two cottages, formerly an inn. C17 altered, timber framed with colourwashed brick infill and part refacing. Thatched roof, half hipped at E. end. Central chimney stack of old thin bricks; second projecting stack at W. end with string courses and weathered offsets and projecting semicircular bake oven at base. 1 storey and attic, N. front has 2 doors. Irregular mocern casements, one 3-light upper casement and 2 casements breaking up into thatch. S. front has 2 small modern flat roofed extensions. Attached weatherboarded outbuilding at E. end under continuation of main roof. Listing NGR: SP8455513922"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

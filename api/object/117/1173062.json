@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173062.json",
+  "type": "HumanMadeObject",
+  "_label": "7, High Street",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "7, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173062"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09549 02192"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158683"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467839"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173062",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 09549 02192)",
+    "defined_by": "POINT(-0.415954 51.70778)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173062",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173062",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467839",
+      "type": "HumanMadeObject",
+      "_label": "7, High Street (Q26467839)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173062",
+    "type": "Production",
+    "_label": "Origin / Construction of 7, High Street (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C16",
+      "begin_of_the_begin": "1567-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173062-1",
+      "type": "Modification",
+      "_label": "C19: Mid to late C16, altered C19 and C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173062-2",
+      "type": "Modification",
+      "_label": "C20: Mid to late C16, altered C19 and C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1173062",
+      "type": "VisualItem",
+      "_label": "Photograph of 7, High Street (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1173062",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 7, High Street",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/7%20High%20Street%2C%20Abbots%20Langley%2C%20Hertfordshire%2C%20March%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 0902             ABBOTS LANGLEY         HIGH STREET                                            (Southeast side)                                            Abbots Langley 11/37                                      No. 7 GV                                         II Former house, now used as storage for shop. Mid to late C16, altered C19 and C20. Timber frame, whitewashed brick infill. Tiled roof. 2 bays with gable end to road.  2 storeys.  Entrance to left with original moulded 4-centred arched head with carved spandrels, exposed corner posts.  Ground floor right C19 canted bay.  First floor jettied on brackets, 3 light casement. Jowled posts to tilehung half-hipped gable. Right return has exposed mid rail and close studding on first floor. To rear exposed framing in half-hipped gable. Interior: jowled posts to cambered tie beams with queen struts to collars clasping purlins, curved windbraces, tension braces in walling. 1 storey brick addition to rear not of special interest. To left adjoins No. 5 (q.v.). Listing NGR: TL0954902192"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-03T00:00:00Z"
+      }
+    }
+  ]
+}

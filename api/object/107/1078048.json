@@ -1,0 +1,213 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078048.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Cottages (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Cottages"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078048"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96390 12403"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355641"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346712"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078048",
+    "type": "Place",
+    "_label": "Aldbury (SP 96390 12403)",
+    "defined_by": "POINT(-0.603504 51.801973)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078048",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078048",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346712",
+      "type": "HumanMadeObject",
+      "_label": "Church Cottages (Q26346712)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078048",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Cottages (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078048-1",
+      "type": "Modification",
+      "_label": "C17: C16 crosswing, C17 taller hall range to W, lower C18 W kitchen extension, mid C19 E gabled extension.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078048-2",
+      "type": "Modification",
+      "_label": "C18: C16 crosswing, C17 taller hall range to W, lower C18 W kitchen extension, mid C19 E gabled extension.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078048-3",
+      "type": "Modification",
+      "_label": "Mid C19: C16 crosswing, C17 taller hall range to W, lower C18 W kitchen extension, mid C19 E gabled extension.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078048-4",
+      "type": "Modification",
+      "_label": "1980: (Davis (1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY                       STATION ROAD SP 9612                                                   (South side) 12/5                                                      Nos. 1, and 2 30.11.66                                                  Church Cottages GV II House, now 2 houses. C16 crosswing, C17 taller hall range to W, lower C18 W kitchen extension, mid C19 E gabled extension. Timber frame exposed with red brick sill and infill. Chequered red and black brick W end extension. Red brick E extension. Steep old red tile roofs. A T-shaped hall and crosswing plan now 2 storeys throughout with door into hall range next E crosswing and W gable chimney. Lower and shallower W kitchen extension with rear wing. E extension adds a 2 window gable to front. 2-light sliding casement windows to each part. Hall range and W extension now form No. 1. Glazed door with crosswing and hipped tiled shared open porch. (Davis (1980) No. 32). Listing NGR: SP9639012403"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

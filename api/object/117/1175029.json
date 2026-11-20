@@ -1,0 +1,250 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1175029.json",
+  "type": "HumanMadeObject",
+  "_label": "Beech Hyde Cottage (Redbourn)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Beech Hyde Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1175029"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 11110 08908"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163759"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469679"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1175029",
+    "type": "Place",
+    "_label": "Redbourn (TL 11110 08908)",
+    "defined_by": "POINT(-0.391229 51.767834)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1175029",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1175029",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469679",
+      "type": "HumanMadeObject",
+      "_label": "Beech Hyde Cottage (Q26469679)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1175029",
+    "type": "Production",
+    "_label": "Origin / Construction of Beech Hyde Cottage (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1800",
+      "begin_of_the_begin": "1800-01-01T00:00:00Z",
+      "end_of_the_end": "1800-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-1",
+      "type": "Modification",
+      "_label": "C17: C17 wing red brick with stone quoins.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-2",
+      "type": "Modification",
+      "_label": "1600: Circa 1600 ridge chimney stack, the roof line higher to left and right, possibly a hall in this position.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1600",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1600-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-3",
+      "type": "Modification",
+      "_label": "Mid- C17: C16 timber frame, extended away from road with a gabled mid-C17 wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-4",
+      "type": "Modification",
+      "_label": "c. 1800: Further extended c.1800.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1800",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1800-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-5",
+      "type": "Modification",
+      "_label": "C19: 2 C19/20 glazing bar casements, the one next to the door with segmental head.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175029-6",
+      "type": "Modification",
+      "_label": "C20: C20 rear extension, possibly incorporating early timber frame.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 NW                    REDBOURN             HOGG END LANE                                                  (north side) 9/219                                            Nos 1 and 3 Beech Hyde                                                  Cottage II Pair of houses, formerly one large farmhouse.  C16 timber frame, extended away from road with a gabled mid-C17 wing.  Further extended c.1800.  C20 rear extension, possibly  incorporating early timber frame.  Exposed framing to early part;  C17 wing red brick with stone quoins.  Plain tile roofs. Early part is 3 bays with 3 C20 glazing bar casements.  Circa 1600 ridge chimney stack, the roof line higher to left and right, possibly a hall in this position.   C17 wing has floor band and wide 3-light casement.  Circa 1800 block has good doorcase with moulded panels and reveals.  Leaded fan with husk swags.  Plain pilasters with dentilled capitals.  Dentilled and modillioned open pediment.   2 C19/20 glazing bar casements,  the one next to the door with segmental head.  Dentilled brick eaves.  Low slate roof. Listing NGR: TL1111008908"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-09-27T00:00:00Z"
+      }
+    }
+  ]
+}

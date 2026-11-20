@@ -1,0 +1,225 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1175529.json",
+  "type": "HumanMadeObject",
+  "_label": "Old Cuckmans (St Stephen)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Old Cuckmans"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1175529"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 13037 05177"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163884"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26493842"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1175529",
+    "type": "Place",
+    "_label": "St Stephen (TL 13037 05177)",
+    "defined_by": "POINT(-0.364528 51.733916)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1175529",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1175529",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26493842",
+      "type": "HumanMadeObject",
+      "_label": "Old Cuckmans (Q26493842)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1175529",
+    "type": "Production",
+    "_label": "Origin / Construction of Old Cuckmans (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175529-1",
+      "type": "Modification",
+      "_label": "Early C16: C15 or early C16 hall house, floored in C16-17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1533-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175529-2",
+      "type": "Modification",
+      "_label": "C16: C15 or early C16 hall house, floored in C16-17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175529-3",
+      "type": "Modification",
+      "_label": "C17: Later C17 extensions to N elevation.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175529-4",
+      "type": "Modification",
+      "_label": "Early C19: Early C19 stuccoed S elevation, formerly the front.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175529-5",
+      "type": "Modification",
+      "_label": "C20: 3 C20 glazing bar casements.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 NW                    ST STEPHEN           RAGGED HALL LANE                                                  (south side)                                                  CHISWELL GREEN 9/340                                            Old Cuckman's                                                  (formerly listed as Old 19.10.53                                         Cuckman's Farmhouse) II Farmhouse, now house.  C15 or early C16 hall house, floored in C16-17.  Later C17 extensions to N elevation.  Early C19 stuccoed S elevation, formerly the front.  Timber frame, exposed on N side.   Plaster and painted brick walls.   Plain tile roof.   2 storeys.  Double pile range.  N side has 3 gable ends in a line, the right 2 with thinner box framing.   3 C20 glazing bar casements.  Deeper rear range contains the former hall and C16 wing.    Half  hipped  plain  tile  roof  of  clasped  purlin construction.  On right end is a large C17 external stack with tall sloping stack and oven at base.  Rear elevation has 5 C20 glazing bar casements  and a central half-glazed  door.  Central C17 ridge stack.  Internally this part is 3 bays, the W 2 bays once a deep hall.   Large truss visible on 1st floor.   Collar purlin exposed in W bay.   N wall of hall exposed on ground floor of W bay, and holes for diamond mullioned window visible.  The N extensions have chamfer-stopped beams to ground floor. Listing NGR: TL1303705177"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1953-10-19T00:00:00Z",
+        "end_of_the_end": "1984-09-27T23:59:59Z"
+      }
+    }
+  ]
+}

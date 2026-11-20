@@ -1,0 +1,289 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101228.json",
+  "type": "HumanMadeObject",
+  "_label": "Gaddesden Hall",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gaddesden Hall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101228"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 04304 09597"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157891"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542505"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101228",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 04304 09597)",
+    "defined_by": "POINT(-0.489615 51.775334)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101228",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101228",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Gaddesden_Hall",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Gaddesden Hall",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Gaddesden_Hall",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542505",
+      "type": "HumanMadeObject",
+      "_label": "Gaddesden Hall (Q17542505)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101228",
+    "type": "Production",
+    "_label": "Origin / Construction of Gaddesden Hall (1200)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1832",
+      "begin_of_the_begin": "1832-01-01T00:00:00Z",
+      "end_of_the_end": "1832-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-1",
+      "type": "Modification",
+      "_label": "1448: Originally called Southall, then Oliver's Place after Robert Oliver who held it in 1448, but Gaddesden Hall since C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1448",
+        "begin_of_the_begin": "1448-01-01T00:00:00Z",
+        "end_of_the_end": "1448-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-2",
+      "type": "Modification",
+      "_label": "C16: S wing has late medieval crosswing and hall range rebuilt in last quarter of C16 with flint walling, large rear chimneys and stair tower, pr…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-3",
+      "type": "Modification",
+      "_label": "C17: E wing a separate hall and crosswing house in C17 when hall floored over, brick cased and extended to N in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-4",
+      "type": "Modification",
+      "_label": "Late C17: Attic storey created and stair heightened in late C17, porch removed and crosswing altered for new entrance in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-5",
+      "type": "Modification",
+      "_label": "Early C18: Early C18 panelled entrance hall with fielded panels and corner fireplace.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-6",
+      "type": "Modification",
+      "_label": "1832: 2-storeys gabled porch formerly at RH end of N front of S range shown on Buckler dwg of 1832 in HRO.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1832",
+        "begin_of_the_begin": "1832-01-01T00:00:00Z",
+        "end_of_the_end": "1832-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101228-7",
+      "type": "Modification",
+      "_label": "C20: Attic storey created and stair heightened in late C17, porch removed and crosswing altered for new entrance in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101228",
+      "type": "VisualItem",
+      "_label": "Photograph of Gaddesden Hall (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101228",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Gaddesden Hall",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaddesden%20Hall%20%28geograph%202044451%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAfGADDESDEN        LEIGHTON BUZZARD ROAD(A4146) TL 00 NW                                        (West side)                                        Water End 5/112                                  Gaddesden Hall 22.10.52 -                                      II* Manor house. S wing has late medieval crosswing and hall range rebuilt in last quarter of C16 with flint walling, large rear chimneys and stair tower,  probably for Martha Jermyn.  Attic  storey  created and stair heightened in late C17, porch removed and crosswing altered for new entrance in C20. E wing a separate hall and crosswing house in C17 when hall floored over, brick cased and extended to N in C20. Originally all timber framed but now S wing of uncoursed flint with brick dressings, and E wing cased in C20 red brick. Steep old red tile roofs. A large, irregular L-shaped house facing N, with 2-storeys and attics S range entered by lower gabled E crosswing. Adjoining E range has small gable marking the former hall and N crosswing adjoining E side of crosswing of S range. The gabled C20 N end of the E range has a window on each floor and a 3-shafts external chimney. 2 2-light casement windows to each floor of S range, on the ground floor deeper with transoms. Battened door up 3 steps with side lights, label, and window over. Tall 2-shafts chimney on front wall to RH of door. 2-storeys gabled porch formerly at RH end of N front of S range shown on Buckler dwg of 1832 in HRO. Large C16 chimney stack projects from rear of S range with 3 diagonally set square shafts and plinth course which continues round stair tower projecting to E of it with corbelled course marking its original height and gabled top part added in C17 with 2 similar chimney shafts in its E wall serving the crosswing. Interior has timber framing exposed in E wing, chamfered beams,  and fine 4-centred arched stone moulded C16 fireplaces  in  S  range  hall,  and more  elaborate with vine-scroll spandrels and roll-mouldings in S range parlour. Early C18 panelled entrance hall with fielded panels and corner fireplace. E wing has double-ovolo  moulded  ceiling  beam,  serpentine  splat  balustrade  to staircase, and evidence of heightening. Main roof of 3-bays with clasped purlins and convex-curved wind-braces. This was the manor-house of the manor of Southall (a sub-manor of Great Gaddesden) first recorded in 1200.  Originally called Southall,  then Oliver's Place after Robert Oliver who held it in 1448, but Gaddesden Hall since C17. A farmhouse up to 1914.  (VCH (1908)203-4: RCHM (1911)101: Pevsner (1977)151: Bryant (1982) I, 5-6: RCHM Typescript). Listing NGR: TL0430409597"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z"
+      }
+    }
+  ]
+}

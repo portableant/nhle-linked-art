@@ -1,0 +1,218 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342168.json",
+  "type": "HumanMadeObject",
+  "_label": "Three Gables",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Three Gables"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342168"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05622 06140"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355514"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542697"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342168",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 05622 06140)",
+    "defined_by": "POINT(-0.471569 51.744016)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342168",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342168",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Three_Gables%2C_Hemel_Hempstead",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542697",
+      "type": "HumanMadeObject",
+      "_label": "Three Gables (Q17542697)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342168",
+    "type": "Production",
+    "_label": "Origin / Construction of Three Gables (Late C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C15",
+      "begin_of_the_begin": "1467-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342168-1",
+      "type": "Modification",
+      "_label": "C16: C16 or late C15 house, altered early C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342168-2",
+      "type": "Modification",
+      "_label": "Early C17: C16 or late C15 house, altered early C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342168",
+      "type": "VisualItem",
+      "_label": "Photograph of Three Gables (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342168",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Three Gables",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20Gables%2C%20Hemel%20Hempstead%20%28geograph%204248569%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "CORNER HAIL 1. 5252                                                   (South Side)                                                   Three Gables TL 0506 2/39              18.6.48. II*                       GV 2. C16 or late C15 house, altered early C17.  Timber frame, tiled roof with 2 red brick chimneystacks of 3 and 4 diagonally set shafts.  2 storeys, oversailing lst floor on moulded wallplate.  Ground floor rebuilt with colour washed cement rendering nearly flush with upper storey.  Close vertical studding with plaster infilling to let floor.  Casement windows. Nos 9 to 11 (consec) form a group with Three Gables. Garden Wall to Three Gables and No 5O, Lawn Lane. Listing NGR: TL0562206140"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1948-06-18T00:00:00Z"
+      }
+    }
+  ]
+}

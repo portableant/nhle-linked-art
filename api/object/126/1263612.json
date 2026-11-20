@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/126/1263612.json",
+  "type": "HumanMadeObject",
+  "_label": "Berkhamsted Baptist Church Sunday School Attached To Berkhamsted Baptist Church",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Berkhamsted Baptist Church Sunday School Attached To Berkhamsted Baptist Church"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1263612"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99576 07650"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "431879"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26554391"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1263612",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99576 07650)",
+    "defined_by": "POINT(-0.558676 51.758694)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1263612",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1263612",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26554391",
+      "type": "HumanMadeObject",
+      "_label": "Berkhamsted Baptist Church  Sunday School Attached To Berkhamsted Baptist Church (Q26554391)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1263612",
+    "type": "Production",
+    "_label": "Origin / Construction of Berkhamsted Baptist Church Sunday School Attached To Berkhamsted Baptist Church (C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1864",
+      "begin_of_the_begin": "1864-01-01T00:00:00Z",
+      "end_of_the_end": "1864-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1263612-1",
+      "type": "Modification",
+      "_label": "1860: A well-composed and little altered example ofmid-C19 Non-Conformist architecturein a Gothic Revival style, which occupies a prominent street…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1860",
+        "begin_of_the_begin": "1860-01-01T00:00:00Z",
+        "end_of_the_end": "1860-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1263612-2",
+      "type": "Modification",
+      "_label": "1864: 1864 (Pevsner) with minor C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1864",
+        "begin_of_the_begin": "1864-01-01T00:00:00Z",
+        "end_of_the_end": "1864-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1263612-3",
+      "type": "Modification",
+      "_label": "C20: 1864 (Pevsner) with minor C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1263612",
+      "type": "VisualItem",
+      "_label": "Photograph of Berkhamsted Baptist Church Sunday School Attached To Berkhamsted Baptist Church (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1263612",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Berkhamsted Baptist Church Sunday School Attached To Berkhamsted Baptist Church",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Berkhamsted%20Baptist%20Church%20-%20geograph.org.uk%20-%20592696.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BERKHAMSTED SP9907NE                                       HIGH STREET                                                (north side) 2/10010                                        Berkhamsted Baptist Church                                                and attached Sunday School II Non-Conformist Church and Sunday School. 1864 (Pevsner) with minor C20 alterations. Yellow-grey stock brick with red brick banding; ashlar limestone to spire and for dressings; Welsh slate roof with coped gables. Gothic Revival style. Asymmetrical 'T' plan, with principal elevation to High Street at the south end, incorporating tower with spire to south-west comer. Lower part of tower, and base of broach spire in brick; narrow octagonal spire in ashlar, with a steeply-pointed lucame to each facet. Triple pointed arched entry to south gable and above, a 5-light window with Flamboyant tracery. Apsidal porch to south-east__corner with east doorway. Broad nave, with side aisles incorporated beneath continuous roof offshuts. 2-light pointed-arched windows to nave and multifoiled windows within arched surround to galleries, all set within panels delineated by raised vertical and horizontal bands. Head of'T' shape formed by Sunday school, with squat tower to north-west corner, below step pyramidal roof. Wide gables with triple lancet windows to upper floors and lower floor of west end. INTERIOR; fully galleried church, the side galleries carried on 2-stage columns which extend above the panelled gallery fronts to support an upper arcade. This arcade carries arch-braced tie beams, longitudinal arcade braces and aisle beams and struts. Principal trusses carry arch-braced collars. Contemporary furnishings and fittings, including gallery seating and organ set within arched recess at north end. A well-composed and little altered example ofmid-C19 Non-Conformist architecturein a Gothic Revival style, which occupies a prominent street frontage position and which indicates the extension eastward of Berkhamsted's principal street in the 1860's. Listing NGR: SP9957607650"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1995-03-15T00:00:00Z"
+      }
+    }
+  ]
+}

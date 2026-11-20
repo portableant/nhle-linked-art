@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1077983.json",
+  "type": "HumanMadeObject",
+  "_label": "South Barns At Wilstone Great Farm (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "South Barns At Wilstone Great Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1077983"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 90686 13875"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355793"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346416"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077983",
+    "type": "Place",
+    "_label": "Tring Rural (SP 90686 13875)",
+    "defined_by": "POINT(-0.685818 51.816157)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1077983",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1077983",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346416",
+      "type": "HumanMadeObject",
+      "_label": "South Barns At Wilstone Great Farm (Q26346416)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1077983",
+    "type": "Production",
+    "_label": "Origin / Construction of South Barns At Wilstone Great Farm (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077983-1",
+      "type": "Modification",
+      "_label": "C17: E barn later C16, W barn and link C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077983-2",
+      "type": "Modification",
+      "_label": "Early C20: Rest of house demolished early C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            NEW ROAD SP 9013                                         (East side)                                         Wilstone 10/156                                  South Barns at -                                       Wilstone Great Farm GV                                      II 2 barns at right angles linked by a fragment of the old farmhouse. E barn later C16, W barn and link C17. Rest of house demolished early C20. Timber frames on brick sills, dark weatherboarded with steep old red tile roofs. An L-shaped group of buildings on N of farm entrance. Tall, wide 5-bays E barn faces E with double doors in central bay and high pitching doors  in flanking bays.  Heavy  swept jowls  to bay-posts, unjowled mid-bay posts, mid-height rail jointed in-line, 2 posts in gable ends, deep curved braces to cambered tie-beams. Clasped-purlin roof with 2 purlins in each slope. Long lower collar with queen-struts only under purlins, supports longer queen-struts to upper collar. 3 trusses altered so that very tall queen-struts rise from tie-beam to upper collar and lower spur collars remain to support lower purlins. One truss remains as original. Deep curved wind-braces to both purlins. Flat laid rafters. No wattle holes on soffit of wallplate unlike N barn (q.v.). Simple bare-faced, tenoned scarf joint in purlins and wallplate. Adjoining at SW is one bay of the former 2-storeys weatherboarded farmhouse with 1st floor window on N side. Adjoining on W is a 4-bays barn facing N with double doors in 2nd bay from W. Bay posts with pronounced jowls, straight braces to tie-beams and clasped-purlin roof with 2 purlins in each slope. The upper purlin is supported by a high collar with long queen-struts below and spur - collars support lower purlins.  Curved wind-braces  to  lower purlin only.  Mid-height  rail tenoned in-line with curved tension braces above. Squint-butted scarf joints with 3 edge pegs in purlins and wallplates. Listing NGR: SP9068613875"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/146/1462743.json",
+  "type": "HumanMadeObject",
+  "_label": "Honeysuckle and Tower Cottage with attached walls and gateway, Ashridge",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Honeysuckle and Tower Cottage with attached walls and gateway, Ashridge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1462743"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9920712158"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66480073"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1462743",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9920712158)",
+    "defined_by": "POINT(-0.562061 51.799477)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1462743",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1462743",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Honeysuckle_and_Tower_Cottage_with_attached_walls_and_gateway%2C_Ashridge",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66480073",
+      "type": "HumanMadeObject",
+      "_label": "Honeysuckle and Tower Cottage with attached walls and  gateway,  Ashridge (Q66480073)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1462743",
+    "type": "Production",
+    "_label": "Origin / Construction of Honeysuckle and Tower Cottage with attached walls and gateway, Ashridge (1283)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/james-wyatt",
+        "type": "Person",
+        "_label": "James Wyatt"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1813–1821",
+      "begin_of_the_begin": "1813-01-01T00:00:00Z",
+      "end_of_the_end": "1821-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-1",
+      "type": "Modification",
+      "_label": "1536: After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1536",
+        "begin_of_the_begin": "1536-01-01T00:00:00Z",
+        "end_of_the_end": "1536-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-2",
+      "type": "Modification",
+      "_label": "1604: After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1604",
+        "begin_of_the_begin": "1604-01-01T00:00:00Z",
+        "end_of_the_end": "1604-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-3",
+      "type": "Modification",
+      "_label": "1746–1813: The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1746–1813",
+        "begin_of_the_begin": "1746-01-01T00:00:00Z",
+        "end_of_the_end": "1813-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-4",
+      "type": "Modification",
+      "_label": "1766–1840: The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1766–1840",
+        "begin_of_the_begin": "1766-01-01T00:00:00Z",
+        "end_of_the_end": "1840-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-5",
+      "type": "Modification",
+      "_label": "1769: Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1769",
+        "begin_of_the_begin": "1769-01-01T00:00:00Z",
+        "end_of_the_end": "1769-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-6",
+      "type": "Modification",
+      "_label": "1771: The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1771",
+        "begin_of_the_begin": "1771-01-01T00:00:00Z",
+        "end_of_the_end": "1771-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462743-7",
+      "type": "Modification",
+      "_label": "1777: He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1777",
+        "begin_of_the_begin": "1777-01-01T00:00:00Z",
+        "end_of_the_end": "1777-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1462743",
+      "type": "VisualItem",
+      "_label": "Photograph of Honeysuckle and Tower Cottage with attached walls and gateway, Ashridge (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1462743",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Honeysuckle and Tower Cottage with attached walls and gateway, Ashridge",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeysuckle%20and%20Tower%20Cottage%2C%20with%20attached%20walls%20and%20gateway%2C%20Ashridge%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Former estate workshops built 1813-1821 to the designs of Sir Jeffry Wyatville, converted into offices in the late C20, with attached walls and archway."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Former estate workshops built 1813-1821 to the designs of Sir Jeffry Wyatville, converted into offices in the late C20, with attached walls and archway. MATERIALS: local Totternhoe ashlar stone with rear elevations of red brick and slate roof covering.  Some repairs in Portland stone. PLAN: the former workshops are located in the stable court to the west of the house.  They are arranged along the north side of the former timber yard which has been partially infilled by Fairhaven, a late C20 extension. Honeysuckle is to the east and is linked by a curtain wall to Tower Cottage at the western corner.  This adjoins the wall that forms the western boundary of the stable court, accessed through an archway. Fairhaven does not have special interest and is not included in the listing. EXTERIOR: Honeysuckle is a single-storey building under a hipped roof.  On the short east elevation the upper half has lost its ashlar facing revealing the brickwork, which has been whitewashed.  An original studded door in a moulded depressed arch surround leads to a gabled open-sided shelter.  To the left of the doorway is an octagonal stone plinth of a gate pier, and to the right a two-light window in a Tudor style moulded surround with depressed arch upper sections, leaded lights and a dripmould.  This part of the building is in a particularly bad state of disrepair.  The long north elevation is formed by the curtain wall which has a crenellated parapet.  This was originally blind but has been pierced by a series of nine metal-framed, multi-pane windows to light the rooms within, probably inserted around the second quarter of the C20.  The rear elevation of Honeysuckle has been extensively rebuilt in the late C20 in red brick, although some historic brickwork remains. A long stretch of high curtain wall with a crenellated parapet runs between Honeysuckle and Tower Cottage.  Tower Cottage replicates the design of the orangery tower, forming eye-catching features to create termini at each end of the building.  The tower has a broached square base, pierced by a three-light mullion window with diamond leaded lights, and octagonal upper floors defined by stone string courses.  The first stage is lit by lancet windows in recessed moulded openings, and the second stage by tall, narrow, pointed arch windows with Perpendicular tracery.  The tower is surmounted by a crenellated parapet embellished by gargoyles.  It is flanked by recessed depressed arch openings, under a mono-pitch roof, which have been pierced by metal-framed windows, followed by octagonal piers with crenellated caps.  Attached to the pier on the left hand side (south) is a short stretch of wall and a pair of square gate piers constructed of brick with stone cross-gabled caps.  The rear of the tower is brick at ground-floor level.  The single-storey brick extension under a mono-pitch roof, added to the east side in the 1970s, does not have special interest. Adjoining the south pier of the tower is the curtain wall which continues at right angles to form the western boundary of the stable court.  The first section is faced in ashlar but is red brick on the inner side.  A gabled archway with a moulded, pointed arch opening provides access into the stable court.  It has angled stepped buttresses which rise upwards and terminate in gross-gabled caps.  The lower half of the walls on the inner and rear faces of the archway is of red brick.  After the archway the crenellated and buttressed boundary wall is of red brick on both sides.  It has been breached twice by the insertion of Coronation Walk and Lazell, two buildings constructed in the 1970s, which do not have special interest and are not included in the listing. INTERIOR: Honeysuckle and Tower Cottage have both been modernised and almost none of the historic joinery, fixtures and fittings remain.  The floor plan of Honeysuckle has been altered with partitions to create more rooms.  Tower Cottage has been damaged by damp which has caused failings to the floors and ceilings and stripped the walls of their finishing."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Honeysuckle and Tower Cottage, former estate workshops built 1813-1821 to the designs of Sir Jeffry Wyatville, converted into offices in the late C20, with attached walls and archway, are listed at Grade II for the following principal reasons: Architectural interest: *\tit is by one of the most acclaimed architects of the period who entered wholly into the spirit of his uncle James Wyatt’s design in order to finish the service courtyard after his death.  These two architects were the most considerable figures of the earlier Gothic Revival; *\tit has impressive elevations in the Tudor Gothic style with an eye-catching tower, built in finely crafted high quality stone. Historic interest: *\tit provides important evidence of the provisions and work required to run a large early C19 country house estate. Group value: *\tit has strong group value with the listed house and estate buildings and the Grade II* Registered Park which altogether form a highly significant ensemble created by the most renowned practitioners of the Picturesque movement."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Ashridge originated as the earliest English College of Bonhommes, founded in 1283 by Edmund, Earl of Cornwall, a nephew of Henry III.  Very little of the monastery survives except the undercroft and the well which were both created around the time of its foundation.  The Monk’s Barn was also built as part of the monastic site as a tithe barn in the 1480s.  After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s reign.  After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and then the Dukes of Bridgewater.  In the 1760s Francis, the 3rd Duke of Bridgewater, who amassed a fortune by developing waterways for industrial transport (becoming known as the Canal Duke), commissioned Henry Holland to design a more comfortable Georgian residence, and Capability Brown was commissioned to landscape the park.  By the early C19, the house was in disrepair and in a ruinous state.  The 3rd Duke decided to erect a new mansion in its place, and the vast majority of the old house which included parts dating back 500 years was demolished by 1803, the year he died.  As he had never married, the Dukedom became extinct and the earldom and estate passed to his cousin, John William Egerton who became the 7th Earl of Bridgewater.  The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.  He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803. The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).  Wyatt was the sixth son of Benjamin Wyatt, the founder of the Wyatt building business in Staffordshire.  He was sent to Italy for six years where he became the pupil of Antonio Visentini under whom he made rapid progress as an architectural draughtsman.  Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as over a hundred country houses in England, Wales and Ireland.  Many of his houses were in the neoclassical style, such as Heveningham Hall, Suffolk (about 1780-1784) and Dodington Park, Gloucestershire (1798-1813), but it was as a Gothic architect that Wyatt enjoyed a special celebrity.  His most accomplished works in the Gothic style are Ashridge and Fonthill Abbey, Wiltshire (dem. about 1800) for William Beckford.  Wyatt was killed in a carriage accident in 1813 and was buried in Westminster Abbey. The foundation stone of Ashridge was laid on 25 October 1808 and the house was fit for habitation by 1814.  Wyatt died before it was completed but a series of pen drawings produced by J Buckler around 1813 capture the extent of his work.  The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.  He was apprenticed to his uncle Samuel Wyatt before transferring to the office of his more celebrated uncle James with whom he remained until 1799 when he went into partnership with John Armstrong, a carpenter and building contractor.  Wyatville soon became well known as a country house architect in the Tudor Gothic style with a large clientele among the Whig aristocracy, and by the 1820s he was one of the half dozen leading English architects.  His most accomplished work is the transformation of Windsor Castle which he carried out between 1824 and 1840. Wyatville’s main contribution to Ashridge was in extending Wyatt’s design through the addition of new service quarters to the west, including stables with an attached cottage, coach house, workshops and other ancillary structures.  He added the family wing at the east end of the building (away from the service quarters and state rooms) which terminated in an orangery.  By 1821 the bulk of the work to the house was largely complete and it was much admired by contemporaries.  The Earl commissioned his chaplain, H J Todd to write a history of Ashridge, entitled A History of the College of Bonhommes (1823), which includes a description of the new house, along with a detailed floor plan and illustrations by H Le Keux. In the wake of the First World War, the 3rd Earl Brownlow, who had inherited vast estates, instructed in his will that his trustees sell the Ashridge Estate.  Most of the parkland was purchased by the National Trust in 1925, and the house was purchased by Urban Hanlon Broughton who donated it to the Conservative Party in commemoration of the late Prime Minister, Andrew Bonar Law.  In 1929 it was formally opened by Stanley Baldwin as a Conservative college.  During the Second World War Ashridge was offered to the Ministry of Health as a site for an emergency hospital.  The hospital moved out in 1947 and the college reopened.  In 1954 a bill was passed stating that the aim of the college was to provide an education without any bias towards a political party, and it became known as Ashridge Business School.  As a result of the support of Sir Hugh Beaver, the college undertook a programme of modernisation and improvement in 1957, and the college continued to expand its teaching and accommodation facilities throughout the later C20. Honeysuckle and Tower Cottage originated as workshops arranged along the north side of the timber yard, to the west of the house. On Todd’s 1823 plan of Ashridge, Honeysuckle is depicted with a long linear plan encompassing an office, store room, mess room, joiner’s shop, engine house, wood carvers and stone carvers. These are followed by sheds built up against the curtain wall and then the tower itself which is labelled a cooper’s shop.  The wall then continues southwards at right angles towards an archway, and a mason’s shed is shown against the wall between the tower and archway. These buildings are depicted with the same footprint on the third edition Ordnance Survey map of 1924 but have been considerably altered since then.  Honeysuckle was converted for use as offices which involved rebuilding the rear elevation, internal modernisation and changes to the floor plan.  It is currently in a bad state of disrepair and unoccupied (2019).  Tower Cottage has also been converted for use as office space.  It has been severely damaged by damp and is also unoccupied.  A single-storey extension was added to its east side in the 1970s.  The sheds shown on Todd’s plan have been removed.  In 1989 a large teaching facility called Fairhaven was constructed in the former timber yard, partially infilling the gap between the north curtain wall and the stables."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2019-03-26T00:00:00Z"
+      }
+    }
+  ]
+}

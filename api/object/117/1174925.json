@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174925.json",
+  "type": "HumanMadeObject",
+  "_label": "Lockside, And Dudswell Wharf (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Lockside, And Dudswell Wharf"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174925"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96567 09764"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157773"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469580"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174925",
+    "type": "Place",
+    "_label": "Northchurch (SP 96567 09764)",
+    "defined_by": "POINT(-0.601671 51.778231)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174925",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174925",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469580",
+      "type": "HumanMadeObject",
+      "_label": "Lockside, And Dudswell Wharf (Q26469580)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174925",
+    "type": "Production",
+    "_label": "Origin / Construction of Lockside, And Dudswell Wharf (1799)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1799",
+      "begin_of_the_begin": "1799-01-01T00:00:00Z",
+      "end_of_the_end": "1799-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174925-1",
+      "type": "Modification",
+      "_label": "1848: The Swan Inn until refused licence in 1848 when landlord convicted of receiving stolen barley.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1848",
+        "begin_of_the_begin": "1848-01-01T00:00:00Z",
+        "end_of_the_end": "1848-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174925-2",
+      "type": "Modification",
+      "_label": "1960: Coal merchant and general stores up to 1960.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174925-3",
+      "type": "Modification",
+      "_label": "1984: (Berkhamsted Review Jan(1984)10-12).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1984",
+        "begin_of_the_begin": "1984-01-01T00:00:00Z",
+        "end_of_the_end": "1984-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tWHARF LANE SP 90 NE  \t\t\t\t                \t(North side)                                          \tDudswell                                       3/242                                   \tLockside, and -                                        \tDudswell Wharf GV                                      \tII Former inn and stable, now 2 houses. Built to serve Grand Junction canal opened 1799. The Swan Inn until refused licence in 1848 when landlord convicted of receiving stolen barley. Coal merchant and general stores up to 1960. Red brick house (Lockside), with painted brick N part and remaining bay of half timbered stable (Dudswell Wharf). Slate roofs but stable steep red tiles. A 2 storeys and basement building with steps up from towpath level  facing W.  Stable adjoining on N,  and formerly extending further N, projects on W but was entered at lower level from E. Near symmetrical W front to Lockside of 3 windows and door to left of centre. Recessed sash windows with 6/6 panes to 1st floor, small pane casements to Ground floor. Flat gauged arches. Iron railings to towpath. Door in angle of stable and one sash window to each floor of Dudswell Wharf.  Included for group value.  (Berkhamsted Review Jan(1984)10-12). Listing NGR: SP9656709764"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

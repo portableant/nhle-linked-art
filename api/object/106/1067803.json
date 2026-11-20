@@ -1,0 +1,261 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/106/1067803.json",
+  "type": "HumanMadeObject",
+  "_label": "Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1067803"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 90477 14406"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355764"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26320598"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1067803",
+    "type": "Place",
+    "_label": "Tring Rural (SP 90477 14406)",
+    "defined_by": "POINT(-0.68871 51.820964)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1067803",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1067803",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Bridge_3_%28Tring_Road%29%2C_Grand_Union_Canal_%28Aylesbury_Arm%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26320598",
+      "type": "HumanMadeObject",
+      "_label": "Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East (Q26320598)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1067803",
+    "type": "Production",
+    "_label": "Origin / Construction of Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East (1811–1813)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1811–1813",
+      "begin_of_the_begin": "1811-01-01T00:00:00Z",
+      "end_of_the_end": "1813-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067803-1",
+      "type": "Modification",
+      "_label": "1815: Little altered since arm opened in 1815.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1815",
+        "begin_of_the_begin": "1815-01-01T00:00:00Z",
+        "end_of_the_end": "1815-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067803-2",
+      "type": "Modification",
+      "_label": "1854: Dated cast iron hinge anchor plates (1866, 1866 at W:1854 at E) are probably re-used from elsewhere.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1854",
+        "begin_of_the_begin": "1854-01-01T00:00:00Z",
+        "end_of_the_end": "1854-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067803-3",
+      "type": "Modification",
+      "_label": "1866: Dated cast iron hinge anchor plates (1866, 1866 at W:1854 at E) are probably re-used from elsewhere.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1866",
+        "begin_of_the_begin": "1866-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067803-4",
+      "type": "Modification",
+      "_label": "1970: (Branch Johnson(1970)118-9,122: Faulkner(1972)92).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1970",
+        "begin_of_the_begin": "1970-01-01T00:00:00Z",
+        "end_of_the_end": "1970-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067803-5",
+      "type": "Modification",
+      "_label": "1972: (Branch Johnson(1970)118-9,122: Faulkner(1972)92).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1972",
+        "begin_of_the_begin": "1972-01-01T00:00:00Z",
+        "end_of_the_end": "1972-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1067803",
+      "type": "VisualItem",
+      "_label": "Photograph of Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1067803",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Grand Union Canal Aylesbury Arm Bridge Number 3 (Wilstone Bridge) And Lock Number 8 Adjoining On East",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Tring%20Rural%20-%20Grand%20Union%20Canal%20Aylesbury%20Arm%20Bridge%20Number%203%20%28Wilstone%20Bridge%29%20And%20Lock%20Number%208%20Adjoining%20On%20East%20-%2020231125122812.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            GRAND UNION CANAL- SP 9014                                         AYLESBURY ARM 9/128                                   Bridge No. 3 -                                       (Wilstone Bridge) and                                         Lock No. 8 adjoining                                         on East GV                                      II Canal bridge and adjoining lock.  1811-13. Engineer Henry Provis for Grand Junction Canal Company. Bridge of red brick in English-bond with granite capping to piers terminating parapet. Lock of plum brick with brick and granite copings, timber gates, and cast iron domed bollards. A narrow hump-backed bridge carrying Tring Road over canal. Horseshoe arch with 9 inch arch-ring. Battered side-walls topped by raised band of 4 courses at roadway level and parapet walls with courses following the hump. Square projecting end piers terminate the outswept ends of the parapets. Repairs in buff brick where tow-ropes have cut into brickwork of arch next towpath. Little altered since arm opened in 1815. Narrow lock to take a single narrowboat has its lower end close to E side of bridge. Double gates to lower end with gate-paddles only. Single gate at upper end hinged on N side of lock. This end has ground paddles only, with gear set on timber posts. Stone edging extends about 8M to E of entrance. Dated cast iron hinge anchor plates (1866, 1866 at W:1854 at E) are probably re-used from elsewhere. (Branch Johnson(1970)118-9,122: Faulkner(1972)92). Listing NGR: SP9047714406"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

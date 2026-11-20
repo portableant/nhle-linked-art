@@ -1,0 +1,172 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1118405.json",
+  "type": "HumanMadeObject",
+  "_label": "Winterton House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Winterton House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1118405"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8711207661"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42808"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26411851"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118405",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8711207661)",
+    "defined_by": "POINT(-0.73921 51.760868)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1118405",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1118405",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26411851",
+      "type": "HumanMadeObject",
+      "_label": "Winterton House (Q26411851)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1118405",
+    "type": "Production",
+    "_label": "Origin / Construction of Winterton House (1871)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1871",
+      "begin_of_the_begin": "1871-01-01T00:00:00Z",
+      "end_of_the_end": "1871-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011738",
+      "type": "Material",
+      "_label": "Sandstone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 8707               WENDOVER               HALE ROAD west side 11/234                                       Winterton House II Home for the Elderly, formerly the Vicarage. 1871-3 by George Devey. Red brick with diaper patterns in blue brick, irregular plinth of sarsen stone. Tiled roof, picturesque composition with many gables moulded brick eaves. 2 storeys and attic, lst floor band. Entrance on N. front, lean-to porch in recess with 2-light casement to LH, 3-light above. Gable to RH has large projecting chimney stack with offsets and 2 diagonal shafts. Gable to LH has canted oriel to 1st floor, 2-light casements to ground floor and attic. Lower service wing to LH, altered. Garden (W) elevation has narrow gable to LH with dentil verge small panel in tympanum, 4-light window with moulded head to 1st floor, 4-light transomed window to ground floor. Large chimney stack in centre, now taken down to eaves level, square bay to RH with french window. Listing NGR: SP8711207661"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

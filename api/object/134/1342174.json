@@ -1,0 +1,262 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342174.json",
+  "type": "HumanMadeObject",
+  "_label": "Church of Saint Peter",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church of Saint Peter"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342174"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99359 07754"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355446"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q5117681"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342174",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99359 07754)",
+    "defined_by": "POINT(-0.56179 51.759668)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342174",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342174",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Church_of_St_Peter,_Great_Berkhamsted",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Church of St Peter, Great Berkhamsted",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Church_of_St_Peter%2C_Great_Berkhamsted",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q5117681",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Peter, Great Berkhamsted (Q5117681)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342174",
+    "type": "Production",
+    "_label": "Origin / Construction of Church of Saint Peter (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1871",
+      "begin_of_the_begin": "1871-01-01T00:00:00Z",
+      "end_of_the_end": "1871-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-1",
+      "type": "Modification",
+      "_label": "C14: Two C14 alter tombs with alabaster effigies.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-2",
+      "type": "Modification",
+      "_label": "C15: Mainly C13 and C15, restored by Butterfield, 1871.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-3",
+      "type": "Modification",
+      "_label": "1682: Later monuments include table tomb of 1682;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1682",
+        "begin_of_the_begin": "1682-01-01T00:00:00Z",
+        "end_of_the_end": "1682-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-4",
+      "type": "Modification",
+      "_label": "1758: wall monument with urn 1758, with bas reliefs 1787 and 1811, with carved figure 1823.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1758",
+        "begin_of_the_begin": "1758-01-01T00:00:00Z",
+        "end_of_the_end": "1758-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-5",
+      "type": "Modification",
+      "_label": "1787: wall monument with urn 1758, with bas reliefs 1787 and 1811, with carved figure 1823.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1787",
+        "begin_of_the_begin": "1787-01-01T00:00:00Z",
+        "end_of_the_end": "1787-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-6",
+      "type": "Modification",
+      "_label": "1811: wall monument with urn 1758, with bas reliefs 1787 and 1811, with carved figure 1823.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1811",
+        "begin_of_the_begin": "1811-01-01T00:00:00Z",
+        "end_of_the_end": "1811-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342174-7",
+      "type": "Modification",
+      "_label": "1823: wall monument with urn 1758, with bas reliefs 1787 and 1811, with carved figure 1823.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1823",
+        "begin_of_the_begin": "1823-01-01T00:00:00Z",
+        "end_of_the_end": "1823-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342174",
+      "type": "VisualItem",
+      "_label": "Photograph of Church of Saint Peter (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342174",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church of Saint Peter",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Peter%27s%20Parish%20Church%2C%20Berkhamsted%2C%20Hertfordshire.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP9907 814/1/8 HIGH STREET (North Side) Church of Saint Peter 29.07.50 GV II* Latin cross plan, with tower at the crossing. Mainly C13 and C15, restored by Butterfield, 1871. Nave, aisles, clerestorey, transepts, chancel, north and south chapels. Two C14 alter tombs with alabaster effigies. Later monuments include table tomb of 1682; wall monument with urn 1758, with bas reliefs 1787 and 1811, with carved figure 1823. John Cowper, father of the poet William Cowper, was Rector here for 34 years. The Church of Saint Peter and Smith-Dorrien Monument form a group. Listing NGR: SP9935907754"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1950-07-29T00:00:00Z"
+      }
+    }
+  ]
+}

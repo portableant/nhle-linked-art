@@ -1,0 +1,181 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1076999.json",
+  "type": "HumanMadeObject",
+  "_label": "Plinth For Statue On East Side Of Entrance At Grange Farm (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Plinth For Statue On East Side Of Entrance At Grange Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1076999"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 88586 14693"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355774"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26343089"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1076999",
+    "type": "Place",
+    "_label": "Tring Rural (SP 88586 14693)",
+    "defined_by": "POINT(-0.716065 51.823846)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1076999",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1076999",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26343089",
+      "type": "HumanMadeObject",
+      "_label": "Plinth For Statue On East Side Of Entrance At Grange Farm (Q26343089)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1076999",
+    "type": "Production",
+    "_label": "Origin / Construction of Plinth For Statue On East Side Of Entrance At Grange Farm (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1741",
+      "begin_of_the_begin": "1741-01-01T00:00:00Z",
+      "end_of_the_end": "1741-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1076999-1",
+      "type": "Modification",
+      "_label": "1741: C18 (associated with 2 statues both dated 1741 and signed Jan Van Logttaren).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1741",
+        "begin_of_the_begin": "1741-01-01T00:00:00Z",
+        "end_of_the_end": "1741-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1076999-2",
+      "type": "Modification",
+      "_label": "c. 1948: Brought with statues from The Green Park, Aston Clinton c.1948.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1948",
+        "begin_of_the_begin": "1948-01-01T00:00:00Z",
+        "end_of_the_end": "1948-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            PUTTENHAM SP 81 SE 3/137                                   Plinth for statue on -                                       E side of entrance at                                         Grange Farm GV                                      II Plinth for statue. C18 (associated with 2 statues both dated 1741 and signed Jan Van Logttaren). Brought with statues from The Green Park, Aston Clinton c.1948. Carved stone. A square plinth about 1M high with rebated corners and sunk front panel dying into outswept base with Roccoco relief decoration in panel. Included for group value. Listing NGR: SP8858614693"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172731.json",
+  "type": "HumanMadeObject",
+  "_label": "The Three Blackbirds Public House (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Three Blackbirds Public House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172731"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07828 14586"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157799"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467507"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172731",
+    "type": "Place",
+    "_label": "Flamstead (TL 07828 14586)",
+    "defined_by": "POINT(-0.437009 51.819507)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172731",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172731",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Three_Blackbirds%2C_Flamstead",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467507",
+      "type": "HumanMadeObject",
+      "_label": "The Three Blackbirds Public House (Q26467507)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172731",
+    "type": "Production",
+    "_label": "Origin / Construction of The Three Blackbirds Public House (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172731-1",
+      "type": "Modification",
+      "_label": "C17: C16 or earlier W wing, C17 E range refronted in brick, in C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172731-2",
+      "type": "Modification",
+      "_label": "C18: C16 or earlier W wing, C17 E range refronted in brick, in C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172731-3",
+      "type": "Modification",
+      "_label": "C19: C19 porch and jetty of crosswing underbuilt.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1172731",
+      "type": "VisualItem",
+      "_label": "Photograph of The Three Blackbirds Public House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1172731",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Three Blackbirds Public House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20Blackbirds%20Pub%20Flamstead%20-%20geograph.org.uk%20-%2041315.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             HIGH STREET TL 0714                                        (South side) 9/23                                   The Three Blackbirds PH - GV                                     II Inn, now a public house. C16 or earlier W wing, C17 E range refronted in brick, in C18. C19 porch and jetty of crosswing underbuilt. Timber frame, wing roughcast with red brick casing to ground floor painted on W. E range red brick in Flemish-bond. Steep old red tile roofs. A 2-storeys and cellar, L-shaped corner block facing N. Internal chimney to 2-cells E range rising through front roofslope, entrance at junction with projecting E wing extending to rear with 4 bays and a lateral external chimney to N part and an internal gable chimney at S end. N front has projecting gabled wing on RH with a 4-light casement to 1st floor and a 3-light casement window under a segmental arch on ground floor.  Lean-to  brick  porch  in  angle  with  half-glazed  4  panel flush-beaded door. A 4-light casement window to 1st floor and ground floor next porch with plat-band,  plinth and corbelled course with projecting headers at eaves.  Projecting swinging sign with 2 blind recesses on 1st floor to LH and a 4-panel flush bead door with flat hood on  brackets  with  3-lights  casement  window  under  segmental  arch. Irregular W flank wall with a cross-window on 1st floor and other small-panes fixed lights. Interior has exposed timbers with framed E wall of wing opened up as a screen in the bar, mason-mitred crossbeam with chamfered knee-brace in 1st wing, and chamfered axial beam in E range which may have been inserted. Stair in rear angle of wings. Listing NGR: TL0782814586"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

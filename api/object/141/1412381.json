@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/141/1412381.json",
+  "type": "HumanMadeObject",
+  "_label": "Gravestone of Peter the Wild Boy",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gravestone of Peter the Wild Boy"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1412381"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9743808815"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26676270"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1412381",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9743808815)",
+    "defined_by": "POINT(-0.589317 51.769541)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1412381",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1412381",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Gravestone_of_Peter_the_Wild_Boy",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26676270",
+      "type": "HumanMadeObject",
+      "_label": "Gravestone Of Peter The Wild Boy (Q26676270)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1412381",
+    "type": "Production",
+    "_label": "Origin / Construction of Gravestone of Peter the Wild Boy (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1785",
+      "begin_of_the_begin": "1785-01-01T00:00:00Z",
+      "end_of_the_end": "1785-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1412381-1",
+      "type": "Modification",
+      "_label": "1724: The enigmatic inscription on the gravestone refers to a feral boy who was found in 1724 in the forest of Hertswold near Hanover in Germany b…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1724",
+        "begin_of_the_begin": "1724-01-01T00:00:00Z",
+        "end_of_the_end": "1724-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1412381-2",
+      "type": "Modification",
+      "_label": "1726: On the King’s return to England, news of Peter the Wild Boy provoked much interest at court and in 1726 the boy was brought to England.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1726",
+        "begin_of_the_begin": "1726-01-01T00:00:00Z",
+        "end_of_the_end": "1726-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1412381-3",
+      "type": "Modification",
+      "_label": "1785: It is inscribed with ‘PETER the Wild Boy 1785’.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1785",
+        "begin_of_the_begin": "1785-01-01T00:00:00Z",
+        "end_of_the_end": "1785-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1412381-4",
+      "type": "Modification",
+      "_label": "1978: The results suggest that Peter had Pitt-Hopkins syndrome, a chromosomal condition first identified in 1978.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1978",
+        "begin_of_the_begin": "1978-01-01T00:00:00Z",
+        "end_of_the_end": "1978-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1412381",
+      "type": "VisualItem",
+      "_label": "Photograph of Gravestone of Peter the Wild Boy (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1412381",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Gravestone of Peter the Wild Boy",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Grave%20of%20Peter%20the%20Wild%20Boy%20-%20geograph.org.uk%20-%201339154.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "C18 gravestone of Peter the Wild Boy."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "MATERIALS: Stone. EXTERIOR: The gravestone is located in the churchyard of St Mary’s Church, opposite the south-east porch of the church.  It is a small plain stone, the top of which rises to a, now very weathered, double scyma. It measures c0.52m in height and c0.45cm in width.  It is inscribed with ‘PETER the Wild Boy 1785’. This list entry was subject to a Minor Amendment on 26 June 2025 to amend the language in the description"
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The C18 gravestone of Peter the Wild Boy, dated 1785, is designated at Grade II for the following principal reasons: *\tHistoric interest: it represents tangible evidence of a historical figure, now known to have suffered from a genetic condition, whose story and behaviour intrigued Georgian England and continues to excite public interest; *\tIntactness: it has survived in good condition and the inscription is clearly legible; *\tGroup value: it has strong group value with St Mary’s Church, particularly as the south wall of the nave contains a brass plaque, erected after Peter’s death, which tells his story."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The enigmatic inscription on the gravestone refers to a feral boy who was found in 1724 in the forest of Hertswold near Hanover in Germany by Jurgen Meyer, a smallholder of Hamelin.  The boy, who appeared to be in his early teens, was dishevelled, walked on all fours, and did not speak.  Meyer took him to Burgermeister Severin who put the boy in the care of St Spiritus Poor House for nine months after which he was transferred to the hospice adjacent to the prison in Celle.  He was given the name of Peter because whenever this word was mentioned he appeared to respond, although it was later observed that he responded to other names.  During a visit to Celle by George I (who was also Elector of Hanover) the boy was invited to dine with the King who then left him in the care of a gardener.  On the King’s return to England, news of Peter the Wild Boy provoked much interest at court and in 1726 the boy was brought to England.  Peter was given a tutor but he never learned to read, write or speak and his strange appearance and erratic behaviour caused a sensation.  He was the inspiration for satires by Jonathan Swift who wrote 'It Cannot Rain But It Pours; or, London Strewed with Rarities' and Daniel Defoe who wrote 'Mere Nature Delineated'.  A wax figure of him was exhibited, and he was included in a painting by William Kent of the Court of George I.  Peter was also studied by leading scientists of the day and Carl Linneaus created a new category of human for him called 'Juvenis Hanoveranus' in his Systema Naturae. After Peter’s novelty at court waned, he was entrusted to the care of Mrs Tichbourne, a member of the royal household.  She took Peter with her on a visit to Northchurch to see James Fenn, a yeoman farmer at Axters End.  After several visits, Peter was entrusted to the care of James Fenn who was given a generous allowance by the Crown to look after him.  On James’s death, Peter was taken to Broadway Farm where he worked happily alongside farm labourers and lived until his own death in 1785 at the age of approximately seventy-two.  He was buried at the expense of the government but it is said that his gravestone was paid for by local people.  A brass tablet inscribed with a brief history of Peter’s life is located inside St Mary's Church on the south wall of the nave. Recent analysis of Peter’s portrait has been carried out by a Professor of Genetics.  The results suggest that Peter had Pitt-Hopkins syndrome, a chromosomal condition first identified in 1978.  Its most distinctive effect is clearly apparent in Peter’s curvy ‘Cupid’s bow’ mouth, and he displayed other symptoms including his short stature, coarse hair, drooping eyelids and thick lips.  Another symptom may have been his two fused fingers, and the condition would also have affected his mental development."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2013-02-15T00:00:00Z"
+      }
+    }
+  ]
+}

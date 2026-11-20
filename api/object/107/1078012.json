@@ -1,0 +1,283 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078012.json",
+  "type": "HumanMadeObject",
+  "_label": "Tower Of The Old Church Of All Saints (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Tower Of The Old Church Of All Saints"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078012"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 89425 15611"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355756"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542258"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078012",
+    "type": "Place",
+    "_label": "Tring Rural (SP 89425 15611)",
+    "defined_by": "POINT(-0.703658 51.831964)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078012",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078012",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Old_Church_Tower%2C_Long_Marston",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542258",
+      "type": "HumanMadeObject",
+      "_label": "Tower of the Old Church of All Saints (Q17542258)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078012",
+    "type": "Production",
+    "_label": "Origin / Construction of Tower Of The Old Church Of All Saints (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1883",
+      "begin_of_the_begin": "1883-01-01T00:00:00Z",
+      "end_of_the_end": "1883-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-1",
+      "type": "Modification",
+      "_label": "C18: C18 red brick crenellations and some restored heads to top openings.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-2",
+      "type": "Modification",
+      "_label": "1867: The church was a chapel-of-ease in Tring parish up to 1867 and formerly had an aisleless nave, chancel, and S porch which were demolished in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1867",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1867-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-3",
+      "type": "Modification",
+      "_label": "1881: An architect's report on the ruinous state of the church in 1881 is printed as appendix I by Vincent.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1881",
+        "begin_of_the_begin": "1881-01-01T00:00:00Z",
+        "end_of_the_end": "1881-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-4",
+      "type": "Modification",
+      "_label": "1883: C15 (rest of church demolished 1883 and features incorporated in new Church of All Saints in Tring Road (q.v.)).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1883",
+        "begin_of_the_begin": "1883-01-01T00:00:00Z",
+        "end_of_the_end": "1883-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-5",
+      "type": "Modification",
+      "_label": "1908: (VCH(1908)291:RCHM(1911)223 no.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-6",
+      "type": "Modification",
+      "_label": "1911: (VCH(1908)291:RCHM(1911)223 no.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078012-7",
+      "type": "Modification",
+      "_label": "1977: 2: Pevsner(1977)245: Vincent(1983).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078012",
+      "type": "VisualItem",
+      "_label": "Photograph of Tower Of The Old Church Of All Saints (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078012",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Tower Of The Old Church Of All Saints",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Church%20Tower%2C%20Long%20Marston%20-%20geograph.org.uk%20-%20181233.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            CHAPEL LANE SP 8915                                         (North side)                                         Long Marston 8/120                                   Tower of the Old Church 30.11.66                                of All Saints GV                                      II* Church  tower.  C15  (rest  of  church  demolished  1883  and  features incorporated in new Church of All Saints in Tring Road (q.v.)). Flint rubble faced with uncoursed knapped flint chequered with Totternhoe stone and with dressings of the same stone. C18 red brick crenellations and some restored heads to top openings. A slender square tower of 2 stages with diagonal buttresses and offsets, string course below upper stage, and low plinth. Small bell-stage openings, that on N complete with 4-centred pointed head and blind spandrels. Large W window of lower stage of 3 cinquefoiled lights with remains of leaded glazing. Narrow chamfered slit window to upper stage on E and S. Tall chancel arch of 2 chamfered orders blocked in rough stonework with pointed arched head over battened door. The interior is plastered and there is a scarsement below the heavily beamed floor of the bell chamber just above head of W window.  2 pairs of bull-nosed stone corbels set  in N wall.  Roof structure decayed and rubbish but no fittings in base of tower. The church was a chapel-of-ease in Tring parish up to 1867 and formerly had an aisleless nave, chancel, and S porch which were demolished in 1883. An architect's report on the ruinous state of the church in 1881 is printed as appendix I by Vincent.  (VCH(1908)291:RCHM(1911)223 no. 2: Pevsner(1977)245: Vincent(1983). Listing NGR: SP8942515611"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

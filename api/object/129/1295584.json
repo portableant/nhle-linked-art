@@ -1,0 +1,301 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1295584.json",
+  "type": "HumanMadeObject",
+  "_label": "Parish Church Of St Mary (Redbourn)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Parish Church Of St Mary"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1295584"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09994 11570"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163688"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17529134"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1295584",
+    "type": "Place",
+    "_label": "Redbourn (TL 09994 11570)",
+    "defined_by": "POINT(-0.406553 51.791979)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1295584",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1295584",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/St_Mary%27s_Church,_Redbourn",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Parish Church of St Mary",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Mary%27s_Church%2C_Redbourn",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17529134",
+      "type": "HumanMadeObject",
+      "_label": "Parish Church of St Mary (Q17529134)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1295584",
+    "type": "Production",
+    "_label": "Origin / Construction of Parish Church Of St Mary (1100)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/thomas-bull",
+        "type": "Person",
+        "_label": "Thomas Bull"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1100",
+      "begin_of_the_begin": "1100-01-01T00:00:00Z",
+      "end_of_the_end": "1100-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-1",
+      "type": "Modification",
+      "_label": "C12: Chancel has, on N wall, a C14 sedilia with ogee arches and C12 capitals;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C12",
+        "begin_of_the_begin": "1100-01-01T00:00:00Z",
+        "end_of_the_end": "1199-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-2",
+      "type": "Modification",
+      "_label": "c. 1140: N aisle c.1140.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1140",
+        "begin_of_the_begin": "1140-01-01T00:00:00Z",
+        "end_of_the_end": "1140-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-3",
+      "type": "Modification",
+      "_label": "c. 1300: Chancel arch with moulded and stepped arches, probably before c.1300.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1300",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1300-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-4",
+      "type": "Modification",
+      "_label": "C14: Chancel has, on N wall, a C14 sedilia with ogee arches and C12 capitals;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-5",
+      "type": "Modification",
+      "_label": "Mid C14: aisle, mid C14;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C14",
+        "begin_of_the_begin": "1334-01-01T00:00:00Z",
+        "end_of_the_end": "1366-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-6",
+      "type": "Modification",
+      "_label": "1340: Circa 1340 chancel.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1340",
+        "begin_of_the_begin": "1340-01-01T00:00:00Z",
+        "end_of_the_end": "1340-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295584-7",
+      "type": "Modification",
+      "_label": "C15: C15 W door and belfry lights.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1295584",
+      "type": "VisualItem",
+      "_label": "Photograph of Parish Church Of St Mary (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1295584",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Parish Church Of St Mary",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Mary%27s%20Church%2C%20Redbourn%2033.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 01 SE                    REDBOURN             CHURCH END TL 11 SW                                         (west side)                                                  REDBOURN COMMON 4/153                                            Parish Church of St Mary 5/153 19.10.53 GV                                               I Parish Church.  Circa 1100 nave and west tower.  N aisle c.1140. Circa  1340  chancel.   S.  aisle,  mid C14;   S chancel chapel and porch 1444-55.  Clerestorey c.1478. N aisle c.1497.  Flint rubble with stone and brick dessings.  Some reused Roman brick. East chancel wall in chequered stone and knapped flint;  plain flint to N wall;  brick and stone buttresses.  Low pitched lead roofs;  chancel with steep plain tile roof.  Large 3-stage tower has straight parapet and small spike.  C15 W door and belfry lights.   Flat buttresses;   stepped buttress on SW.   Billet courses below belfry.  S aisle has very good moulded brick eaves corbel table with trefoiled arcading, an early dated example. Porch with moulded stone door arch.  S wall with 2 C15 3-light windows and a 4-centre arched door.  Chancel has a 3-light E window with cusped net tracery, restored 1801.  N aisle has 2- light windows with hood moulds.  Clerestorey windows also 2- light, but with chamfered surrounds. Interior:  N nave arcade is c.1140.   3 drum piers with scalloped capitals.  2-step arches with outer billet label.  S arcade has octagonal piers and double-chamfer arches.  Similar-style W arch. Chancel arch with moulded and stepped arches, probably before c.1300.  Late C15 nave roof with short crown posts.  Good C15 N aisle roof with moulded beams;   similar roof to NE chapel.  N aisle wall has a blocked Norman window.  Chancel has, on N wall, a C14 sedilia with ogee arches and C12 capitals;  simple Easter sepulchre on S wall.  Broad 4-centre arch opening to SE chapel. Very good rood screen of 1478 with pierced and blank traceried panels,   2 either side of central arch, and a cove of open fan tracery.   Early C18  stone and marble font in W aisle with baluster-shaped base and shell-like bowl.   Brasses:   in chancel to Sir Richard Bede, 1560;  in S chapel to Richard Peacock, 1512; near S door, C.1470.  Monuments:  N chancel wall, good marble epitaph to Eignon Bignon and his wife, 1717, by Thomas Bull;  a bust under draped baldacchino, flanked by fluted pilasters.   4 other good late C18 and early C19 smaller wall plaques  in chancel.   (RCHM (1910), Pevsner (1977)). Listing NGR: TL0999411570"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1953-10-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078058.json",
+  "type": "HumanMadeObject",
+  "_label": "12, Trooper Road (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "12, Trooper Road"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078058"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96455 12415"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355669"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346758"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078058",
+    "type": "Place",
+    "_label": "Aldbury (SP 96455 12415)",
+    "defined_by": "POINT(-0.602558 51.802069)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078058",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078058",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346758",
+      "type": "HumanMadeObject",
+      "_label": "12 Trooper Road (Q26346758)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078058",
+    "type": "Production",
+    "_label": "Origin / Construction of 12, Trooper Road (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078058-1",
+      "type": "Modification",
+      "_label": "Late C18: Late C16, W wing late C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078058-2",
+      "type": "Modification",
+      "_label": "1980: (RCHM Typescript: Davis(1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078058",
+      "type": "VisualItem",
+      "_label": "Photograph of 12, Trooper Road (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078058",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 12, Trooper Road",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Pound%20Cottage%2C%2010%20and%2012%20Trooper%20Road%2C%20Aldbury%2C%20July%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               TROOPER ROAD SP 9612                                         (West side) 12/32                                   No. 12 30.ll.66 GV                                      II House. Late C16, W wing late C18. Timber frame on brick sill. Exposed on 1st floor with red brick infill, brick cased or rebuilt projecting ground floor. Red brick W wing in Flemish-bond with vertical timbers exposed in E gable. Steep old red tile roofs. A long narrow 2 storeys, 3 cells house facing S with E gable to road, and taller deeper W wing projecting on S, possibly built as a separate house. The house has 3 windows to each floor, the wing being lit largely from the W, with a lean-to S porch and entrance beside a large projecting S sidewall chimney. Central S entrance to house to left of middle window. Flush casement windows but an old wood mullioned lst floor window in middle. Wide-spaced storey-height studs.  3-light  flush casement window with small panes to E end with plank door to RH. Exposed frame with jowled post, wide-spaced studs with straight tension-braces at corner, cambered tie-beams, clasped-purlin roof, and collar truss with vertical struts and diminished principals. Interior has hollow stops to chamfered axial beams, large open fireplace backing onto S entrance suggesting the hall was in W part with cross-passage at its E end. E part has a central internal chimney with back-to-back fireplaces and stair beside it on S entered from W room. This chimney was built to the E of a main truss. W wing is unequally divided into a large S room and narrow N service room with stair and partitions. (RCHM Typescript: Davis(1980) No. 30). Listing NGR: SP9645512415"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

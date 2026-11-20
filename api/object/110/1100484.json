@@ -1,0 +1,218 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100484.json",
+  "type": "HumanMadeObject",
+  "_label": "Bovingdon Cottage Tumbleweed Cottage (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bovingdon Cottage Tumbleweed Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100484"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01530 03637"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157553"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392782"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100484",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01530 03637)",
+    "defined_by": "POINT(-0.531545 51.722275)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100484",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100484",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392782",
+      "type": "HumanMadeObject",
+      "_label": "Bovingdon Cottage  Tumbleweed Cottage (Q26392782)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100484",
+    "type": "Production",
+    "_label": "Origin / Construction of Bovingdon Cottage Tumbleweed Cottage (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1975",
+      "begin_of_the_begin": "1975-01-01T00:00:00Z",
+      "end_of_the_end": "1975-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100484-1",
+      "type": "Modification",
+      "_label": "C17: 86, C17 W extension (No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100484-2",
+      "type": "Modification",
+      "_label": "C19: 84), C19 W part to No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100484-3",
+      "type": "Modification",
+      "_label": "1975: (Roberts(1975)No.26).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON              \tHIGH STREET TL 0103 \t\t\t\t\t(South side)                                         10/26                                   \tNo. 84 (Tumbleweed -                                        \tCottage), and No. 86                                         \t(Bovingdon Cottage) 15.4.75                                  \t(formerly listed as Nos                                         \t84 and 86) -                                        \tII House, now 2 houses. C16 possible open hall at No. 86, C17 W extension (No. 84), C19 W part to No. 84. Timber frame on painted brick sill, with painted brick panels between timber exposed on S side of No. 86 and the E front of No. 84. Steep old red tile roofs, No. 86 hipped, flint and slate roofed W extention to No. 84. Possibly a hall range represented by the 2 N bays of No. 86 with cross-passage and service rooms at S end of No. 86. No. 84 has 3 gabled dormers above the eaves and battened door with cast iron plaque for Boxmoor right of pasture on frame. E end of No. 86 faced in painted brick with 3-light casement to 1st floor under a segmental arch. Tiled pentice to ground floor over half-glazed central door and flanking 2-light casement windows. Wide panels of storey height on S flank. Large external brick chimney on W side of No. 86 with offsets and lean-to extension for an oven. Traces of a rear wall chimney on No. 86 near E corner. Gable chimney to timber framed part of No. 84 now enclosed by W extension. 3 bays of frame of No. 86 exposed on E with wider middle bay and 3 panels width to each bay generally and a small C16 upper window. This part has chamfered cross-beams to support the floor. Narrow stair to former attic. Old plank doors and L-hinges. Oak panelling to ground floor rooms. No. 84's timber frame has curved braces to  tie  beams  and  clasped  purlin  roof  with  collar  trusses. (Roberts(1975)No.26). Listing NGR: TL0153003637"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1975-04-15T00:00:00Z",
+        "end_of_the_end": "1986-12-02T23:59:59Z"
+      }
+    }
+  ]
+}

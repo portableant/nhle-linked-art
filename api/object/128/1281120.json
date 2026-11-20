@@ -1,0 +1,251 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/128/1281120.json",
+  "type": "HumanMadeObject",
+  "_label": "Manor Farmhouse",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Manor Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1281120"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8535910671"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42922"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17536195"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1281120",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8535910671)",
+    "defined_by": "POINT(-0.763865 51.788194)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1281120",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1281120",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17536195",
+      "type": "HumanMadeObject",
+      "_label": "Manor Farmhouse (Q17536195)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1281120",
+    "type": "Production",
+    "_label": "Origin / Construction of Manor Farmhouse (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1483",
+      "begin_of_the_begin": "1483-01-01T00:00:00Z",
+      "end_of_the_end": "1483-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-1",
+      "type": "Modification",
+      "_label": "Late C15: Late C15 hall altered C16 and later, now the east (kitchen) wing to an early C19 house probably on site of solar.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C15",
+        "begin_of_the_begin": "1467-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-2",
+      "type": "Modification",
+      "_label": "1483: History: Possibly built by Sir Henry Colet (Lord Mayor of London and father of Dean Colet of St Pauls) who bought the manor in 1483/4 (VCH i…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1483",
+        "begin_of_the_begin": "1483-01-01T00:00:00Z",
+        "end_of_the_end": "1483-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-3",
+      "type": "Modification",
+      "_label": "C16: Late C15 hall altered C16 and later, now the east (kitchen) wing to an early C19 house probably on site of solar.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-4",
+      "type": "Modification",
+      "_label": "C17: Large chimney, 1st floor and ceiling inserted C16 or C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-5",
+      "type": "Modification",
+      "_label": "Early C19: Late C15 hall altered C16 and later, now the east (kitchen) wing to an early C19 house probably on site of solar.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-6",
+      "type": "Modification",
+      "_label": "C19: C19 yellow brick stable attached to E end.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1281120-7",
+      "type": "Modification",
+      "_label": "1919: History: Possibly built by Sir Henry Colet (Lord Mayor of London and father of Dean Colet of St Pauls) who bought the manor in 1483/4 (VCH i…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1919",
+        "begin_of_the_begin": "1919-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE 5/346 25/10/51 WESTON TURVILLE WORLDS END LAND east side No 1, Manor Farmhouse II* House. Late C15 hall altered C16 and later, now the east (kitchen) wing to an early C19 house probably on site of solar. Red brick, slate roof with end stacks, moulded brick eaves. 2 storeys. 3 bays of sash windows, sides 5 panes wide. Centre 4 panes. Gauged brick flat arches. Central semicircular arched doorway with deep reveals, 6 panelled door. Similar garden front with flat arched door. East wing has one full height oak post to front, two to back. Red brick infill, steep pitched slate roof, central chimney. Wide door to LH to former cross passage, 1 bay of 3-light casements to RH, upper leaded, lower segmental arched. C19 yellow brick stable attached to E end. Slate roof, brick eaves with pigeon holes. Interior of east wing contains almost complete C15 timber framed hall of 3 bays with finely moulded posts, (bases removed) concave moulded capitals supporting moulded deep arch-braced scissors trusses. Moulded wall plate, with traces of frieze of quatrefoil pattern removed earlier this century. Moulded purlins, chamfered curved windbraces and chamfered rafters. Framing for smoke louvre in western bay. Large chimney, 1st floor and ceiling inserted C16 or C17. History: Possibly built by Sir Henry Colet (Lord Mayor of London and father of Dean Colet of St Pauls) who bought the manor in 1483/4 (VCH iii 109, Records of Bucks Vols XI, 1919 and XXIII, 1981). Listing NGR: SP8535910671"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z"
+      }
+    }
+  ]
+}

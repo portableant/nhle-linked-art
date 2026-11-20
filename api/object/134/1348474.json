@@ -1,0 +1,192 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348474.json",
+  "type": "HumanMadeObject",
+  "_label": "Arne Cottage (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Arne Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348474"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96569 09798"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157772"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631851"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348474",
+    "type": "Place",
+    "_label": "Northchurch (SP 96569 09798)",
+    "defined_by": "POINT(-0.601633 51.778527)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348474",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348474",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631851",
+      "type": "HumanMadeObject",
+      "_label": "Arne Cottage (Q26631851)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348474",
+    "type": "Production",
+    "_label": "Origin / Construction of Arne Cottage (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C16",
+      "begin_of_the_begin": "1567-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348474-1",
+      "type": "Modification",
+      "_label": "Early C17: Inserted floor and chimney of early C17, and taller early C18 S wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348474-2",
+      "type": "Modification",
+      "_label": "Early C18: Inserted floor and chimney of early C17, and taller early C18 S wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tWHARF LANE SP 90 NE \t\t\t\t\t(North side)                                        \t\tDudswell                                          3/241                                   \tArne Cottage 30.11.66                                \t(formerly listed as Arne Dudswell) -                                        \tII House. Late C16 N range, incorporating late medieval bay at E. Inserted floor and chimney of early C17, and taller early C18 S wing. Timber frame on brick sill, red brick infill and walls to S wing, painted brick infill on N front. Steep old red tile roofs. An L-shaped house facing N, of 1½ storeys with 2 storeys and attic S wing. N front has regular square panels of timber framing, 2 gabled dormers, 2 casement windows and a boarded door into W bay. Large internal chimney in E bay serving middle bay. 2 bays remain of original house, both once open to the roof. Floor beams and joists in both bays appear of same date. E bay the hall, W bay probably parlour and store room. House probably extended further to E but removed when rear S wing built leaving cross passage preserved as a store room. (RCHM Typescript). Listing NGR: SP9656909798"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1986-12-02T23:59:59Z"
+      }
+    }
+  ]
+}

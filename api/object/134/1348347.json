@@ -1,0 +1,201 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348347.json",
+  "type": "HumanMadeObject",
+  "_label": "Chantry Cottages (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Chantry Cottages"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348347"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96411 12494"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355651"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631737"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348347",
+    "type": "Place",
+    "_label": "Aldbury (SP 96411 12494)",
+    "defined_by": "POINT(-0.603174 51.802796)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348347",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348347",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631737",
+      "type": "HumanMadeObject",
+      "_label": "Chantry Cottages (Q26631737)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348347",
+    "type": "Production",
+    "_label": "Origin / Construction of Chantry Cottages (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1856",
+      "begin_of_the_begin": "1856-01-01T00:00:00Z",
+      "end_of_the_end": "1856-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348347-1",
+      "type": "Modification",
+      "_label": "c. 1856: C18, renovated c.1856 by Brownlow Estate extending S house (No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1856",
+        "begin_of_the_begin": "1856-01-01T00:00:00Z",
+        "end_of_the_end": "1856-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348347",
+      "type": "VisualItem",
+      "_label": "Photograph of Chantry Cottages (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348347",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Chantry Cottages",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Chantry%20Cottages%2C%20Aldbury%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 9612                                        (West side) 12/15                                  Nos. 1, 3, 5, and 7                                        (Chantry Cottages) GV                                     II Block of 4 houses. C18, renovated c.1856 by Brownlow Estate extending S house (No. 1) as schoolmistress's house. Red brick and steep red tiled roofs, half-hipped at S. A block of 2-storeys and part attics houses set back from road facing E, with rear outshuts under catslide roofs. No. 1 has added rear parlour with small canted bay window on S with cast-iron lattice casements echoing that of S end of school.  2 large square internal chimneys serve the 4 houses. Each house has 2 1st floor windows and a larger ground floor window next the gabled open porch to the plank door. Yorkshire sliding casements with lattice leading, 2-light above, 3-light below. 2 small rear gabled dormers light attics. Interiors have chamfered tie-beams exposed and stud partitions infilled with brick. Included for group value. Listing NGR: SP9640312490"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

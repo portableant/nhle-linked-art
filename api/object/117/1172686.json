@@ -1,0 +1,156 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172686.json",
+  "type": "HumanMadeObject",
+  "_label": "Gate, Piers, And Steps At South Gate To Walled Garden At Beechwood Park School (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gate, Piers, And Steps At South Gate To Walled Garden At Beechwood Park School"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172686"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 04608 14324"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157788"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467463"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172686",
+    "type": "Place",
+    "_label": "Flamstead (TL 04608 14324)",
+    "defined_by": "POINT(-0.483786 51.817763)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172686",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172686",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467463",
+      "type": "HumanMadeObject",
+      "_label": "Gate, Piers, And Steps At South Gate To Walled Garden At Beechwood Park School (Q26467463)"
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD              BEECHWOOD PARK TL 01 SW                                         (West side) 3/12                                    Gate, piers, and steps -                                       at South gate to walled                                         garden at Beechwood Park                                         School GV                                      II Gate, piers, and steps. C18. Wrought iron, red brick piers with stone coping slabs, Portland stone steps and threshold. A single gate in an iron screen between rectangular red brick piers in Flemish-bond 3M high with simple oversailing stone capping. Stone threshold one step up from outside extends as landing to 5 stone steps up from garden between monolithic side-slabs level with landing. The iron screen is composed of 2 tall rectangular elaborately scrolled standards with scrolled finials. These standards rise higher than the adjoining piers and are braced to them by scrolled quadrants  from their  caps.  A narrow rectangular scrolled overthrow panel braces the standards apart a little below their heads, and has below it the bar receiving the top pivot of the gate and the narrow side panels. Plain bars and dog-bars in the lower panels of each but twisted spirals above a crossrail in gate. Elaborate scrolled work in upper parts of side panels. Listing NGR: TL0460814324"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1296433.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Lawrence The Martyr",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Lawrence The Martyr"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1296433"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09482 02189"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158674"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17529147"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1296433",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 09482 02189)",
+    "defined_by": "POINT(-0.416924 51.707766)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1296433",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1296433",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Lawrence_Church%2C_Abbots_Langley",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17529147",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Lawrence the Martyr (Q17529147)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1296433",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Lawrence The Martyr (C12)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/westby-gill",
+        "type": "Person",
+        "_label": "Westby Gill"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/p-scheemakers",
+        "type": "Person",
+        "_label": "P. Scheemakers"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1400",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1400-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-1",
+      "type": "Modification",
+      "_label": "Late C12: Late C12.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C12",
+        "begin_of_the_begin": "1167-01-01T00:00:00Z",
+        "end_of_the_end": "1199-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-2",
+      "type": "Modification",
+      "_label": "Early C13: Early C13 W tower.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1233-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-3",
+      "type": "Modification",
+      "_label": "C13: Low 2 stage tower has C13 lancets to N and S in lower stage.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-4",
+      "type": "Modification",
+      "_label": "Early C14: Early C14 Corpus Christi S chancel chapel.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1333-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-5",
+      "type": "Modification",
+      "_label": "C14: W gable tilehung over a C14 window blocked when aisle was rebuilt.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-6",
+      "type": "Modification",
+      "_label": "c. 1400: c.1400 chancel rebuilt.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1400",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1400-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296433-7",
+      "type": "Modification",
+      "_label": "C15: C15 aisles rebuilt, clerestory altered and tower raised.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1296433",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Lawrence The Martyr (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1296433",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Lawrence The Martyr",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbots%20Langley%20-%20The%20Church%20of%20St%20Lawrence%20the%20Martyr%20-%20geograph.org.uk%20-%20272827.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 0902             ABBOTS LANGLEY        HIGH STREET                                           (Northwest side)                                           Abbots Langley 11/28                                     Church of 1.9.53                                    St. Lawrence the Martyr GV                                        I Parish church. Late C12. Early C13 W tower. Early C14 Corpus Christi S chancel chapel. c.1400 chancel rebuilt. C15 aisles rebuilt, clerestory altered and tower raised. Early C19 porch rebuilt. Restored 1866, 1911 with addition of organ bay, 1935 and 1970. Knapped flint with clunch dressings, some brick, tilehanging and rendering. Tiled roofs. Short nave with N and S aisles, lower, narrower chancel and S chapel, all of 2 bays, W tower, S porch, NE organ bay. Low 2 stage tower has C13 lancets to N and S in lower stage. To W a C15 pointed arched entrance with an upper square headed 2 light window. Bell stage has a pointed 2 light opening to W, similar window and clock to S, simple pointed openings to N and E. Cornice to C20 brick parapet. C15 2 stage diagonal buttresses to W, that to S larger. To S, aisle and porch are rendered and roughcast. Porch: moulded pointed arch with square hood mould, diagonal buttresses, parapet, inner pointed arched entrance, arms in spandrels, quatrefoil ornament on ceiling. Flanking porch are C15 aisle windows, 2 lights with square heads, diagonal buttress to W.  Clerestorey has 3 irregularly spaced C15 2 light square headed windows with traces of lower C13 windows. Projecting to SE is Corpus Christi chapel of higher quality work than rest of church with clunch and flint chequer work and good Decorated windows, 2 of 2 cusped lights to S with cusped spherical triangular heads in pointed double chamfered arches. Brick and stone angle buttresses, that to W rebuilt in flint. W gable tilehung over a C14 window blocked when aisle was rebuilt. To E on S elevation a door inserted in 1911 with an outer pointed arch, inner segmental head. Chapel E end: large 3 light window with curvilinear tracery, slightly off centre.  Chancel is narrower and lower but of same projection eastwards as chapel. 3 light chancel E window has early rectilinear tracery, rendered quoins to N return. Organ bay to N, now vestry, projects with a lean-to roof. 2 square headed 2 light windows, pointed arched 2 light windows on returns.  Flanking organ bay on rendered chancel N wall are 2 light rectilinear traceried pointed arched windows. Roughcast N aisle has 2 C15 2 light square headed windows, a pointed arched entrance,  diagonal buttresses.  To E return a C20 spherical triangular window. To W return a blocked C12 round headed lancet. N clerestorey has 2 lights as to S. Interior: C12 2 bay arcades to nave, round arches with inner zigzag and outer billet mouldings, scalloped capitals to N with bead ornament on round piers and responds. To S scalloped capital to round W respond, central round pier with foliate capital, probably C13, S pier to E is octagonal with a moulded capital, probably C14.  Sharply pointed  C13  tower arch with  roll moulding, responds with foliate capitals. From nave to N aisle arcade stops short at E end with a supplementary small arch inserted in 1911. Nave and aisle SE corner was originally separated from the Corpus Christi Chapel but in the C16 a broad 4 centred skew arch was inserted opening up the junction of nave, aisle, chancel and chapel and linking the nave arcade to chancel arcade. In 1970 this skew arch was reinforced with a central pier forming 2 pointed arches. c.1400 2 bay arcade from chancel to chapel has double chamfered pointed arches with hood moulds, moulded bases and caps to octagonal piers and E respond. Inner surround of chapel E window has a hollow moulding with rosettes.  Broad timber chancel arch. C15 4 bay nave roof has struts on renewed grotesque mask corbels with arched braces to tie beams, brattished wall plates, ceiled above. Chancel also ceiled with angel corbels to braced tie beams. S chapel roof has king posts with curved braces to rafters. Monuments: S aisle W end to Lord Chief Justice R. Raymond, d.1732, designed by Westby Gill, executed by H. Cheere. Marble. Semi-reclining wigged figure, putto offering  a  coronet  to  right,  seated  allegory  holding  a  portrait medallion of Lady Raymond to left, pedestal with epitaph, against a broad pyramid backing with arms. N aisle W end to his son R. Raymond, d.1756, by P. Scheemakers. Black marble obelisk and sarcophagus with arms, flanking seated allegories of hope and plenty, epitaph on tall pedestal with base and cornice.  S chapel S wall to Mrs. A. Combe, d.1640.  Painted  marble  aedicule  with  kneeling  effigy:  Corinthian capitals, open pediment flanking figures of Time and Death, achievement of arms above, epitaph below. S chapel N wall to Anne Raymond, d.1714, marble  aedicule  with  projecting  seated  figure,  fluted  pilasters, segmental headed cornice, epitaph on plinth, below 3 naively carved cradled babies. S chapel N wall in spandrel of arcade to chancel to T. Howe, d.1722, marble aedicule with epitaph. Floor slabs in S chapel. Bronze dated 1607 in N aisle. N aisle E end has C14 font, octagonal with moulded and panelled base, quatrefoils to each face of the bowl with Evangelist symbols and shields. Painted Royal Arms of Charles II, dated 1678, on board over S entrance. Painted 10 Commandments, dated 1627, on board on E wall of N aisle. C14 wall paintings of SS Lawrence and Thomas flanking S chapel E window. Gothic tower screen of 1908. Fragment of C15 glass, half figure of St. Lawrence in chancel E window on N wall, part of Crucifixion in chancel E window by Burlison and Grylls, S chapel E window 1909 by Powells. (VCH 1908: RCHM 1910: Pevsner 1977). Listing NGR: TL0948202189"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1953-09-01T00:00:00Z"
+      }
+    }
+  ]
+}

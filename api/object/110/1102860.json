@@ -1,0 +1,208 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1102860.json",
+  "type": "HumanMadeObject",
+  "_label": "Holt Farmhouse (St Stephen)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Holt Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1102860"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 12147 03588"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163870"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26396939"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1102860",
+    "type": "Place",
+    "_label": "St Stephen (TL 12147 03588)",
+    "defined_by": "POINT(-0.377921 51.719814)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1102860",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1102860",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26396939",
+      "type": "HumanMadeObject",
+      "_label": "Holt Farmhouse (Q26396939)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1102860",
+    "type": "Production",
+    "_label": "Origin / Construction of Holt Farmhouse (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1102860-1",
+      "type": "Modification",
+      "_label": "C16: Altered C16-17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1102860-2",
+      "type": "Modification",
+      "_label": "c 1600: The inserted hall floor dates c1600 and has chamfer-stopped beams and joists.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1600",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1600-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1102860-3",
+      "type": "Modification",
+      "_label": "Late C17: At the right end of this range and at join with other unit is a taller gabled block, probably a late C17 wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1102860-4",
+      "type": "Modification",
+      "_label": "C19: Extended each end in later C19 to form a long range on a canted plan.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 SW                    ST STEPHEN           NOKE LANE                                                  (south west side) 12/326                                           Holt Farmhouse 14.10.77 GV                                               II Farmhouse. A good example of a 2-unit house, both parts probably dating to the C15.  Altered C16-17.  Extended each end in later C19 to form a long range on a canted plan.   Timber  frame. Plastered walls.   Weatherboarded extensions.   Plain tile roofs. 1 storey and attics.  The larger unit is on the NE side.  It has 3 broad eaves gables, the left gable marking the C15 cross wing and the right 2 the former 2-bay open hall.  C19 pentice addition to front ground floor.  Glazing bar casements throughout.  At the right end of this range and at join with other unit is a taller gabled block, probably a late C17 wing.  The other unit is 2-3 bays and externally has 2 small attic casements.  Also a former hall, it has, on the 1st floor, exposed joists and main beams of high quality.  Interior of larger unit has a screens partition between cross wing and hall with depressed 4-centred doorheads. The inserted hall floor dates c1600 and has chamfer-stopped beams and joists.  The C19 wings either end of the whole range are each 2 windows.   (RCHM Typescript). Listing NGR: TL1214703588"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-10-14T00:00:00Z"
+      }
+    }
+  ]
+}

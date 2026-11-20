@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100491.json",
+  "type": "HumanMadeObject",
+  "_label": "Venus Hill Farm (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Venus Hill Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100491"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01605 01754"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157575"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392798"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100491",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01605 01754)",
+    "defined_by": "POINT(-0.531008 51.705336)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100491",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100491",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392798",
+      "type": "HumanMadeObject",
+      "_label": "Venus Hill Farm (Q26392798)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100491",
+    "type": "Production",
+    "_label": "Origin / Construction of Venus Hill Farm (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1900",
+      "begin_of_the_begin": "1900-01-01T00:00:00Z",
+      "end_of_the_end": "1900-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100491-1",
+      "type": "Modification",
+      "_label": "c. 1900: Early C17, extended to S c.1900, E wing c.1960.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100491-2",
+      "type": "Modification",
+      "_label": "c. 1960: Early C17, extended to S c.1900, E wing c.1960.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100491-3",
+      "type": "Modification",
+      "_label": "1975: (Roberts(1975)No.39).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tVENUS HILL TL 00 SW  \t\t\t\t\t(South side)                                       6/48                                    \tVenus Hill Farm - GV                                     \t\tII Farmhouse, now a private house. Early C17, extended to S c.1900, E wing c.1960. Timber frame cased in red brick at front, N end to road and rear roughcast with false half timbering added. Steep old red tile roof. Oldest part of 3 structural bays and 2-storeys facing E. 3 long flush casement windows to 1st floor of 3- and 2-lights. 3 large and 2 small tall windows to ground floor. Small paned casements. Gabled porch to door at S corner of S bay. Large external N gable chimney serves a former  ground  floor  service  room  with  axial  joists.  Projecting capped-off rear-wall chimney and adjoining stair projection off middle room. Fireplace to S room also into same chimney. Axial chamfered beams to middle and S bay. Timber frame exposed in front and rear walls inside,  with  jowled  posts,   squint-butted  scarf  in  wallplate, clasped-purlin roof and straight wind-braces. Cast iron Boxmoor grazing rights plaque No. 607. (Roberts(1975)No.39). Listing NGR: TL0160501754"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

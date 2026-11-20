@@ -1,0 +1,208 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1392104.json",
+  "type": "HumanMadeObject",
+  "_label": "War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1392104"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01716 08923"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "495561"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26671422"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1392104",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 01716 08923)",
+    "defined_by": "POINT(-0.527309 51.769752)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1392104",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1392104",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Potten_End_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26671422",
+      "type": "HumanMadeObject",
+      "_label": "Potten End War Memorial (Q26671422)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1392104",
+    "type": "Production",
+    "_label": "Origin / Construction of War Memorial (1893)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1922",
+      "begin_of_the_begin": "1922-01-01T00:00:00Z",
+      "end_of_the_end": "1922-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392104-1",
+      "type": "Modification",
+      "_label": "1916: The following inscription is on the southern face of the plinth: 'TO THE DEAR MEMORY OF/ DAVID NEWBOLD GAUSSEN/LIEUTENANT BEFORDSHIRE REGIME…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1916",
+        "begin_of_the_begin": "1916-01-01T00:00:00Z",
+        "end_of_the_end": "1916-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392104-2",
+      "type": "Modification",
+      "_label": "1922: War Memorial NETTLEDEN WITH POTTEN END 1922/0/10005 War Memorial 07-AUG-07 II War memorial constructed from Portland Stone, 5 m high.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1922",
+        "begin_of_the_begin": "1922-01-01T00:00:00Z",
+        "end_of_the_end": "1922-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1392104",
+      "type": "VisualItem",
+      "_label": "Photograph of War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1392104",
+          "type": "DigitalObject",
+          "_label": "Commons Image for War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Potten%20End%20War%20Memorial%2C%20May%202023%2005.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NETTLEDEN WITH POTTEN END 1922/0/10005                            War Memorial 07-AUG-07 II War memorial constructed from Portland Stone, 5 m high. It comprises a square plinth, approached by two steps, with a tapering shaft above, adorned by a cross. There is an engraved cup at the centre of the cross, and foliate motif at the base of the shaft. The following inscription is on the southern face of the plinth: 'TO THE DEAR MEMORY OF/ DAVID NEWBOLD GAUSSEN/LIEUTENANT BEFORDSHIRE REGIMENT/BORN 25 JULY 1893/WOULNDED DEVILLE WOOD, BATTLE OF SOMME/DIED THE NEXT DAY 31 JULY 1916/BURIED AT DERNANCOURT/THIS CROSS IS DEDICATED/BY HIS PARENTS, BROTHERS AND SISTERS.' On the west and east face, quotes from scripture are carved and on the north face, it reads: 'IN MEMORY ALSO/OF ALL THOSE FROM THIS PARISH/AND NEIGHBOURHOOD/WHO DIED IN THE GREAT WAR/THEIR NAME LIVETH FOR EVER MORE'. SUMMARY OF IMPORTANCE: War memorials of the First World War are an important reminder of nationally and internationally significant events which had a tragic impact on local communities. The Potten End war memorial is an architecturally distinct and fitting tribute to the fallen of the First World War. Sources: The War Memorials Trust. Listing NGR. TL 01700892 This List entry has been amended to add sources for War Memorials Online and the War Memorials Register. These sources were not used in the compilation of this List entry but are added here as a guide for further reading, 14 March 2017."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2007-08-07T00:00:00Z"
+      }
+    }
+  ]
+}

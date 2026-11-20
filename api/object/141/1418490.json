@@ -1,0 +1,270 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/141/1418490.json",
+  "type": "HumanMadeObject",
+  "_label": "Cooling Pond",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Cooling Pond"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1418490"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9043508797"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26676671"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1418490",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9043508797)",
+    "defined_by": "POINT(-0.69078 51.770544)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1418490",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1418490",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26676671",
+      "type": "HumanMadeObject",
+      "_label": "Cooling Pond (Q26676671)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1418490",
+    "type": "Production",
+    "_label": "Origin / Construction of Cooling Pond (C19)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/george-devey",
+        "type": "Person",
+        "_label": "George Devey"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1866",
+      "begin_of_the_begin": "1866-01-01T00:00:00Z",
+      "end_of_the_end": "1866-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-1",
+      "type": "Modification",
+      "_label": "1841: Unlike most waterworks, where slaked lime had to be imported to facilitate the Clark’s water softening process (patented 1841), Dancers End …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1841",
+        "begin_of_the_begin": "1841-01-01T00:00:00Z",
+        "end_of_the_end": "1841-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-2",
+      "type": "Modification",
+      "_label": "1864: The pumping station was designed by the architect George Devey in 1864, was completed in 1866 and opened in 1867.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1864",
+        "begin_of_the_begin": "1864-01-01T00:00:00Z",
+        "end_of_the_end": "1864-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-3",
+      "type": "Modification",
+      "_label": "1866: Cooling Pond Water pumping station cooling pond at Dancers End Pumping Station, built 1866 by George Devey for the Chiltern Hills Water Comp…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1866",
+        "begin_of_the_begin": "1866-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-4",
+      "type": "Modification",
+      "_label": "Late- C19: The engine house and pump rooms, watchman’s lodge, associated boundary wall and gatepiers, built 1866 and extended late-C19 are listed as a …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late- C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-5",
+      "type": "Modification",
+      "_label": "1867: The pumping station was designed by the architect George Devey in 1864, was completed in 1866 and opened in 1867.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1867",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1867-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-6",
+      "type": "Modification",
+      "_label": "1875: Ferdinand de Rothschild eventually entered into a contract with the Chilterns Water Company for the supply of water from Dancers End to Wadd…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1875",
+        "begin_of_the_begin": "1875-01-01T00:00:00Z",
+        "end_of_the_end": "1875-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1418490-7",
+      "type": "Modification",
+      "_label": "c. 1900: The Pumping Station is a complex of structures mostly built between 1866 and c.1900, which includes an engine house and pump rooms in a wall…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Water pumping station cooling pond at Dancers End Pumping Station, built 1866 by George Devey for the Chiltern Hills Water Company. The engine house and pump rooms, watchman’s lodge, associated boundary wall and gatepiers, built 1866 and extended late-C19 are listed as a separate item (LE 1416014)."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "DATE AND ARCHITECT: 1866, attributed to George Devey. MATERIALS: concrete-lined pool with brick wall copping and steel railings. PLAN: elongated ‘tear-drop’ plan. DESCRIPTION: the cooling pond was built approximately 12.18m to the north-west of the engine house that it served, it is concrete lined and is enclosed by a low brick wall that carries looped steel bar railings, which are supported on braced cast-iron posts set in brick piers. Gates, at the south-western and north-eastern ends on the southern side, allow access down into the pond by two flights of steps with tubular hand railings. The pond is 42.64 long by 12.57m wide, the water is 1.30m deep and the top of the low brick wall is 1.90m from the base. Water enters the pond by a 10cm pipe at the south-western end and it was drawn out for the boilers by a 10cm pipe through a circular filter bed set at the base of the pond at its widest point. The hot water from the boilers was returned to the pond by a 7.5cm ejector pipe for cooling. Two overflow pipes at the north-eastern end of the pond maintain the water level."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The cooling pond of 1866 at Dancers End Pumping Station is listed at Grade II for the following principal reasons: * \tArchitectural interest: Dancers End Pumping Station was designed by George Devey, an able and competent architect who designed other buildings for the Rothschild estate but was not normally associated with industrial structures; the pumping station, of which the cooling pond is an important part, is carefully detailed overall, using good quality materials; *\tHistorical interest; the pumping station was completed in 1866, relatively early in the development phase of C19 waterworks construction in England, when steam-powered pumping was the state-of-the-art technology for such installations, and when most undertakings, both private and municipal were architecturally impressive. Unlike most waterworks, where slaked lime had to be imported to facilitate the Clark’s water softening process (patented 1841), Dancers End Pumping Station was self-sufficient and all processes were undertaken on site; *\tIntactness: the cooling pond is intact and its function is clearly readable; *\tGroup value: the cooling pond is an important component of the Dancer’s End Pumping Station; it has a direct functional relationship with the engine house and is part of a group of well preserved pumping station buildings."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The Pumping Station is a complex of structures mostly built between 1866 and c.1900, which includes an engine house and pump rooms in a walled enclosure with a gateway and watchman’s lodge, a cooling pond, lime tanks, a slacking house, settling reservoirs, a workshop, garages (formerly stabling), a pair of workers cottages and a superintendent’s house. The pumping station was designed by the architect George Devey in 1864, was completed in 1866 and opened in 1867. Devey had been commissioned to carry out other works for the Rothschild family, and when Nathaniel de Rothschild took over the Tring estate, he devoted time to the provision of fresh water to this area and the Waddesdon Estate. Ferdinand de Rothschild eventually entered into a contract with the Chilterns Water Company for the supply of water from Dancers End to Waddesdon in 1875 The pumping station was built within old chalk workings and comprised a walled courtyard with an attached watchman’s lodge, a store, stables, an engine house with cooling pond, two lime tanks, and a pair of depositing reservoirs (softening tanks). In addition, a pair of semi-detached two-storey workmen’s cottages was built at the north-eastern end of the site. The engine house was built directly over a well and the water for the boilers was drawn from and returned to a cooling pond at the north-western corner of the site. Electrically driven pumps were introduced to the site in 1948 but it is unclear when the steam engine went out of use; the chimney that served the boiler room was demolished in September 1963 so presumably the cooling pond had gone out of use some considerable time before that. Nevertheless the pond continued to have a use, as the families of the pumping station staff were permitted to use it as a swimming pool and steps with handrails were installed. The pumping station has been in continuous use since its opening in 1866; initially it was owned by a private company - Chiltern Hills Water Company, but during the early-C20 it came under the control of the Buckinghamshire Water Board. The water board managed the site until 1975, when responsibility was passed to the Thames Water Authority, which in turn was partially privatised in 1989 when the ownership was transferred to the publicly quoted company Thames Water plc, who continue to draw water from the site."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2014-04-30T00:00:00Z"
+      }
+    }
+  ]
+}

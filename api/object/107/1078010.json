@@ -1,0 +1,219 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078010.json",
+  "type": "HumanMadeObject",
+  "_label": "Ford Cottage Tringford Cottage (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ford Cottage Tringford Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078010"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 91767 13580"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355748"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346536"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078010",
+    "type": "Place",
+    "_label": "Tring (SP 91767 13580)",
+    "defined_by": "POINT(-0.670218 51.813329)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078010",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078010",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346536",
+      "type": "HumanMadeObject",
+      "_label": "Ford Cottage  Tringford Cottage (Q26346536)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078010",
+    "type": "Production",
+    "_label": "Origin / Construction of Ford Cottage Tringford Cottage (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C16",
+      "begin_of_the_begin": "1567-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078010-1",
+      "type": "Modification",
+      "_label": "Mid C17: Late C16 open hall house with earlier W crosswing, mid C17 storied NW wing and E bay beyond service end of hall, early C18 inserted floor in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078010-2",
+      "type": "Modification",
+      "_label": "Early C18: Late C16 open hall house with earlier W crosswing, mid C17 storied NW wing and E bay beyond service end of hall, early C18 inserted floor in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078010-3",
+      "type": "Modification",
+      "_label": "C18: 2 C18 2-light leaded casements with cambered arches on 1st floor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078010-4",
+      "type": "Modification",
+      "_label": "Early C19: Late C16 open hall house with earlier W crosswing, mid C17 storied NW wing and E bay beyond service end of hall, early C18 inserted floor in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                 TRING FORD ROAD SP 91 SW                                        (East side)                                        Tringford 4/112                                  Tringford and Ford Cottage 24.4.74                                (formerly listed as                                        Nos. 1 to 6 (consec)                                        Tringford Cottages) -                                      II House, now 2 houses. Late C16 open hall house with earlier W crosswing, mid C17 storied NW wing and E bay beyond service end of hall, early C18 inserted floor in hall range and decorative brick casing to NW wing, early C19 brick front, tilehanging to crosswing, and subdivision for cottages. Timber frame with red brick infill exposed externally only on N wall, and E gable of NW wing. Red brick with red tilehanging to upper floor of W crosswing. Steep old red tile roofs. A 1 1/2 storeys T-plan house with storeyed W crosswing, facing S. Hall of 2 unequal bays, structural cross-passage, and E service bay of same width as passage, later supplemented by an extra E bay. Formerly jettied projecting 2-bays W crosswing has 2-storeys taller wing attached at N end at right angles as extra parlour wing. Irregular S front with 2 2-light casements and RH part projects as a catslide outshut. 4 2-light swept dormers in line. W side to road has 3-light leaded casement in tilehung 1st floor of crosswing and projecting 2-storeys brick clad end of NW wing on left. 2 C18 2-light leaded casements with cambered arches on 1st floor. Ground floor altered and now has 3-light leaded casement in blocking of a larger opening.  N wall of this wing has chequered brickwork with vitrified headers, a 2-light similar leaded casement on each floor and lean-to on left enclosing massive E chimney in timber framed, brick nogged gable. Rear wall has exposed frame on upper floor. This has 4-centred ovolo moulded plastered brick fireplace on 1st floor and axial floor beam with ovolo and single fillet moulding. W crosswing has jowled posts, clasped-purlin collar and tie-beam trussed roof, exposed wattles in infill panel, cross-beam with curved brace and joists. Listing NGR: SP9176713580"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1974-04-24T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

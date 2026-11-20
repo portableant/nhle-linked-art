@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348057.json",
+  "type": "HumanMadeObject",
+  "_label": "The Hoo (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Hoo"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348057"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03656 12775"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157885"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542755"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348057",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03656 12775)",
+    "defined_by": "POINT(-0.498055 51.804018)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348057",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348057",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/The_Hoo,_Great_Gaddesden",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: The Hoo",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Hoo%2C_Great_Gaddesden",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542755",
+      "type": "HumanMadeObject",
+      "_label": "The Hoo (Q17542755)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348057",
+    "type": "Production",
+    "_label": "Origin / Construction of The Hoo (Late C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1683",
+      "begin_of_the_begin": "1683-01-01T00:00:00Z",
+      "end_of_the_end": "1683-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348057-1",
+      "type": "Modification",
+      "_label": "c. 1683: W range c.1683 for Dr.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1683",
+        "begin_of_the_begin": "1683-01-01T00:00:00Z",
+        "end_of_the_end": "1683-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348057-2",
+      "type": "Modification",
+      "_label": "C19: Heavy moulded cornice in RH room with marble inset to C19 fire surround which may be an original flat marble surround.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348057-3",
+      "type": "Modification",
+      "_label": "c. 1948: Edward Green as W wing of older half-H plan house facing S demolished c.1948.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1948",
+        "begin_of_the_begin": "1948-01-01T00:00:00Z",
+        "end_of_the_end": "1948-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348057-4",
+      "type": "Modification",
+      "_label": "c. 1968: E range c.1948 linked to W range c.1968.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1968",
+        "begin_of_the_begin": "1968-01-01T00:00:00Z",
+        "end_of_the_end": "1968-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348057",
+      "type": "VisualItem",
+      "_label": "Photograph of The Hoo (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348057",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Hoo",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Hoo%20%28geograph%202018805%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        LEDGEMORE LANE TL 01 SW                                         (West side) 3/106                                   The Hoo 26.1.67                                 (formerly listed as                                         The Old Hoo) -                                       II* Country house. W range c.1683 for Dr. Edward Green as W wing of older half-H plan house facing S demolished c.1948. E range c.1948 linked to W range c.1968. W range plum brick in Flemish bond with some blue headers and red brick dressings. Steep old red tile roof. A 2-storeys and attics range facing W. Symmetrical W front, 3 windows wide, centre breaking forward with heavy Roman Doric doorcase with triglyph frieze, columns, and triangular pediment. 6-panel raised and fielded door in panelled reveals  and  moulded  surround.  Front  has  chamfered  plinth  (now plastered), moulded band, wooden eaves cornice, flush box sash windows with 6/6 panes and flat gauged arches. Segmental head and arch to window over door. S end has 2 similar windows to each floor and smaller sash window in pedimented gable with dentilled cornice at eaves level. Late C17 wooden fire surround in N room, with ornate spit-rack over with cornice.  Fire surround contemporary with cornice shelf and central block. Ovolo moulded half panelling to walls and H-hinges. Shelving opposite fireplace with shaped brackets and cornice.  2 panel ovolo moulded doors with H-hinges. Cellar stairs.  Stair and entrance hall tall ovolo panels, moulded dado and cornice. Closed string stair with barley-sugar balusters from attic staircase. 6 panel door with bars to segmental headed sashes. RH 1st floor room has reeded moulding with patera around margin of ceiling. Heavy moulded cornice in RH room with marble inset to C19 fire surround which may be an original flat marble surround. Dado panelling 2-panel doors with H  hinges. Scrolled ends to treads of cut-string stair to attic with remaining barley-sugar newels and swept oak handrail. (RCHM Typescript). Listing NGR: TL0365612775"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

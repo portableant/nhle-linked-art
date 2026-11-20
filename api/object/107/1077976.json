@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1077976.json",
+  "type": "HumanMadeObject",
+  "_label": "Little Farm And 2 Adjoining Barns (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Little Farm And 2 Adjoining Barns"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1077976"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 89788 15652"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355779"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346378"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077976",
+    "type": "Place",
+    "_label": "Tring Rural (SP 89788 15652)",
+    "defined_by": "POINT(-0.698381 51.832275)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1077976",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1077976",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346378",
+      "type": "HumanMadeObject",
+      "_label": "Little Farm And 2 Adjoining Barns (Q26346378)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1077976",
+    "type": "Production",
+    "_label": "Origin / Construction of Little Farm And 2 Adjoining Barns (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077976-1",
+      "type": "Modification",
+      "_label": "C17: C15 open hall house, floor and chimney inserted in 2 stages in later C17, rear-outshut to hall in C17 red brick, C18 red brick casing to S h…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077976-2",
+      "type": "Modification",
+      "_label": "C18: C15 open hall house, floor and chimney inserted in 2 stages in later C17, rear-outshut to hall in C17 red brick, C18 red brick casing to S h…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077976-3",
+      "type": "Modification",
+      "_label": "C19: C15 open hall house, floor and chimney inserted in 2 stages in later C17, rear-outshut to hall in C17 red brick, C18 red brick casing to S h…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            STATION ROAD SP 8915                                         (East side)                                         Long Marston 8/142                                   No. 16 (Little Farm) 4.4.74                                  and 2 adjoining barns GV                                      II House and 2 adjoining barns. C15 open hall house, floor and chimney inserted in 2 stages in later C17, rear-outshut to hall in C17 red brick, C18 red brick casing to S half of front, C19 plum brick casing to N end.  Steep red machine-made tile roofs.  C18 timber framed, dark weatherboarded barn with half-hipped corrugated asbestos roof linked to S end of house by lower barn with old red tile roof with carriageway into yard occupying N half of building. A large 1 1/2 storeys house facing W with weatherboarded barn range extending to S. Internal chimney and lobby entrance with stair a third from N end and kitchen chimney at S end. Irregular front with lower floor in S kitchen end reflected in lower eaves to advanced front wall. This part has a plank door with tiled hood  leading  into  a stone  floored kitchen  lit  by  3-light, small-paned, casement window to RH under segmental arch. Centre has chequered red and black C18 brickwork, 3-light ground floor casement window and gabled dormer rising through the eaves with 3-light casement and tilehanging over.  Front door to LH with moulded flat hood and 2-light window under eaves above. 3-light casement to N room set higher. N gable window to 1st floor. Large gabled dormer at rear to S end 1st floor. Structure exposed inside of 2-bays hall at N and a narrower third bay on S. Heavy box-frame construction but middle truss of hall has jointed cruck blades linked by an arched braced collar. Each bay has an intermediate principal and each half-bay has arched wind-braces. All members are hollow chamfered and the carpentry is of the highest quality of finish. Floor inserted into hall in stages with fine double-ovolo chamfered beam in N bay, but simpler chamfered and stopped beam in middle bay. Clasped-purlin construction in N end truss. Timber frames of kitchen end massive but of rough finish. (RCHM Typescript). Listing NGR: SP8978815652"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1974-04-04T00:00:00Z"
+      }
+    }
+  ]
+}

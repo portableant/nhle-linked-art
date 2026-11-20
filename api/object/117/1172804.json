@@ -1,0 +1,206 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172804.json",
+  "type": "HumanMadeObject",
+  "_label": "14 And 16, High Street (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "14 And 16, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172804"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07926 14608"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157808"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467573"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172804",
+    "type": "Place",
+    "_label": "Flamstead (TL 07926 14608)",
+    "defined_by": "POINT(-0.435581 51.819685)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172804",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172804",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467573",
+      "type": "HumanMadeObject",
+      "_label": "14 And 16, High Street (Q26467573)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172804",
+    "type": "Production",
+    "_label": "Origin / Construction of 14 And 16, High Street (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172804-1",
+      "type": "Modification",
+      "_label": "Mid C17: C16, large chimney inserted in cross-passage in mid C17, brick infilling panels C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172804-2",
+      "type": "Modification",
+      "_label": "C18: C16, large chimney inserted in cross-passage in mid C17, brick infilling panels C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             HIGH STREET TL 0714                                        (South side) 9/32                                   Nos. 14, and 16 26.1.67 GV                                     II 2 houses adjoining. C16, large chimney inserted in cross-passage in mid C17, brick infilling panels C18. Exposed timber frame on red brick sill. Sandy red brick infill panels and casing to ground floor of No. 14. Steep old red tile roof. Clunch and knapped flint chequerwork walling to ground floor opposite internal chimney in middle probably indicates an oven inside. No. 16 on E 2-storeys, facing N, was probably an open hall house later floored, with E end bay of 2-storeys and tension bracing from beginning. Wider middle bay for hall with straight brace to wallplates and narrow cross-passage bay now occupied by chimney. No. 14 on W has higher floor level but may have been ancillary service (or byre) building. It has a wide bay and with heavy tension brace narrower RH bay with straight brace to wallplate. No. 16 has 2 1st floor windows, ground floor window on LH and battened door with adjoining small window all under  tiled lean-to hood on RH 3-light  flush lattice  leaded casements. Large stack originally of 2 or 3 flues has had another flue attached in C18 on W side to serve No. 14. Late E gable external stack. Similar W gable internal stack to No. 14. This house has 1 1/2-storeys with 2 gabled dormers at eaves, 2 flush 3-light lattice leaded casement windows to ground floor and low battened door with W end of wider LH bay up 2 steps. E gable of No. 16 has exposed frame of clasped-purlin roof, collar and struts gable truss and tension brace from jowled corner post. Listing NGR: TL0792614608"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

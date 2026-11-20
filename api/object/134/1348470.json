@@ -1,0 +1,234 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348470.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of Saint Mary (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of Saint Mary"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348470"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 97440 08833"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157752"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17528873"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348470",
+    "type": "Place",
+    "_label": "Northchurch (SP 97440 08833)",
+    "defined_by": "POINT(-0.589283 51.769703)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348470",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348470",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saint_Mary_Church_%28Northchurch%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17528873",
+      "type": "HumanMadeObject",
+      "_label": "Church of Saint Mary (Q17528873)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348470",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of Saint Mary (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1730",
+      "begin_of_the_begin": "1730-01-01T00:00:00Z",
+      "end_of_the_end": "1730-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-1",
+      "type": "Modification",
+      "_label": "C14: C13 and C14 transepts.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-2",
+      "type": "Modification",
+      "_label": "C15: C13 chancel with C15 windows.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-3",
+      "type": "Modification",
+      "_label": "1730: Finely carved wall monument of 1730.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1730",
+        "begin_of_the_begin": "1730-01-01T00:00:00Z",
+        "end_of_the_end": "1730-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-4",
+      "type": "Modification",
+      "_label": "1785: Brass of 1785 to Peter of Hertswold, with engraved head after Bartolozzie.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1785",
+        "begin_of_the_begin": "1785-01-01T00:00:00Z",
+        "end_of_the_end": "1785-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348470-5",
+      "type": "Modification",
+      "_label": "C19: C19 north aisle and porch.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348470",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of Saint Mary (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348470",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of Saint Mary",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Northchurch%20-%20St%20Mary%27s%20Church%20-%20geograph.org.uk%20-%20590845.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tHIGH STREET SP 90 NE \t\t\t\t\t(north side)                                         3/245 29.7.50                                 \tChurch of Saint Mary -                                      \t\tI Saxon south wall and part of west wall.  C13 chancel with C15 windows.  C13 and C14 transepts.  C15 tower at crossing.  C19 north aisle and porch.  Nave heightened in C15.  Finely carved wall monument of 1730.  Brass of 1785 to Peter of Hertswold, with engraved head after Bartolozzie. Listing NGR: SP9744008833"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1950-07-29T00:00:00Z"
+      }
+    }
+  ]
+}

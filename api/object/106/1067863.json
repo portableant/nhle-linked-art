@@ -1,0 +1,298 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/106/1067863.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of Saint Michael And All Angels",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of Saint Michael And All Angels"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1067863"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00166 07704"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355485"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26320654"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1067863",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 00166 07704)",
+    "defined_by": "POINT(-0.550116 51.759075)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1067863",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1067863",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saint_Michael_and_All_Angels%2C_Berkhamsted",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26320654",
+      "type": "HumanMadeObject",
+      "_label": "Church of Saint Michael and All Angels (Q26320654)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1067863",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of Saint Michael And All Angels (1030)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1973",
+      "begin_of_the_begin": "1973-01-01T00:00:00Z",
+      "end_of_the_end": "1973-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-1",
+      "type": "Modification",
+      "_label": "C13: EXTERIOR: The style is plain work of the C13.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-2",
+      "type": "Modification",
+      "_label": "C19: Some C19 benches survive with shouldered ends and open backs.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-3",
+      "type": "Modification",
+      "_label": "1834–1914: Antonia Brodie et al., Directory of British Architects 1834-1914, vol 2, 2001, p.1030-1.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1834–1914",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-4",
+      "type": "Modification",
+      "_label": "1865–1936: The architect, Philip Mainwaring Johnston (1865-1936), was based in London.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1865–1936",
+        "begin_of_the_begin": "1865-01-01T00:00:00Z",
+        "end_of_the_end": "1936-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-5",
+      "type": "Modification",
+      "_label": "1881: He was articled to John Belcher in 1881-6 after which he set up in independent practice.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1881",
+        "begin_of_the_begin": "1881-01-01T00:00:00Z",
+        "end_of_the_end": "1881-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-6",
+      "type": "Modification",
+      "_label": "1908: Church Of Saint Michael And All Angels 814/8/102 IVY HOUSE LANE 09-MAY-1973 SUNNYSIDE CHURCH OF SAINT MICHAEL AND ALL ANGELS II 1908-9 by P …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067863-7",
+      "type": "Modification",
+      "_label": "1973: Church Of Saint Michael And All Angels 814/8/102 IVY HOUSE LANE 09-MAY-1973 SUNNYSIDE CHURCH OF SAINT MICHAEL AND ALL ANGELS II 1908-9 by P …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1973",
+        "begin_of_the_begin": "1973-01-01T00:00:00Z",
+        "end_of_the_end": "1973-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1067863",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of Saint Michael And All Angels (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1067863",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of Saint Michael And All Angels",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Michael%20and%20All%20Angels%2C%20Sunnyside.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "814/8/102                               IVY HOUSE LANE                           09-MAY-1973                             SUNNYSIDE                                                                        CHURCH OF SAINT MICHAEL AND ALL ANGELS II                                        1908-9 by P B Johnston   MATERIALS: Flint facing to concrete walls with an inner brick skin; Totternhoe stone for internal dressings; Monk's Park (Bath) and Tisbury stone used for some external dressings on some internal work. Brown clay tiled roofs, boarded and shingled bell-turret. PLAN: Nave, S aisle and porch, chancel and vestry. Parish rooms of the c.1980s have been attached to the N side of the building. EXTERIOR: The style is plain work of the C13. The principal elevation is that on the S which is dominated by a large catslide roofing covering both nave and aisle. The chancel is separately articulated under a lower roof than the nave. Near the W end is a timber porch on low side walls. A bell-turret straddles the ridge of the nave roof near the W end and has boarded side and a shingled chamfer spire. The aisle wall is low, unbuttressed and contains grouped lancets of two and three lights. The chancel S wall has three taller, single lancets. In the E wall there are three graded lancets and in the wall a pair of equal-height lancets and a foiled circular window in the gable. INTERIOR: The interior is plastered and painted white including what would originally have been bare stonework features such as the arcade piers. The chancel arch is chamfered and rises from moulded corbels. Between the nave and S aisle there stands a four-bay arcade with standard C13 details of double-chamfered arches on circular piers with moulded capitals. Over the roof is an A-frame roof with ashlar pieces, a collar, and three large tie-beams. The westernmost beam supports arched braces for the bellcote. The aisle roof has ashlar pieces and a curved strut between the back of the arcade and the rafters. In the chancel the roof is arch-braced with horizontal boarding between the rafters. At the E end the triple-light window has mouldings and shafts. PRINCIPAL FIXTURES: The encaustic tiles in the chancel are the work of W Godwin and Son of Lugwardine, Herefordshire. In the chancel there is a low double sedilia with a marble shaft and trefoiled heads: the piscina is similarly treated. The font is a conventional octagonal piece. Some C19 benches survive with shouldered ends and open backs. Much of the seating dates from the 1960s to the 1980s. The nave and aisle are floored with wooden blocks. HISTORY: This was a new church on a new site given by Earl Brownlow. It replaced a small iron chapel-of-ease to the mother church of Northchurch some miles away, since Sunnyside, although an extension of the old town of Berkhamsted was part of Northchurch ecclesiastically. The new church was erected out of funds subscribed locally, aided by a grant from the Incorporated Church Building Society, with the chancel and its fittings being given by Sir Richard Cooper, Bart, in memory of his late brother Herbert. The treasurer of the building fund, George K. Hext, paid for the bell-turret. The foundation stone was laid on July 25 1908 and the consecration took place on June 30 the following year. In all the cost was between £3000 and £4000 and the completed church could accommodate over 300 people. The architect, Philip Mainwaring Johnston (1865-1936), was based in London. He was articled to John Belcher in 1881-6 after which he set up in independent practice. SOURCES:  Notes made available by Jenny Sherwood, chair of the Berkhamsted Local History Society. Antonia Brodie et al., Directory of British Architects 1834-1914, vol 2, 2001, p.1030-1. REASONS FOR DESIGNATION: The church of St Michael and All Angels, Berkhamsted, is designated at Grade II for the following principal reasons: *\tIt is an attractive building in a C13 Gothic style drawing upon the local traditions in church architecture"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1973-05-09T00:00:00Z"
+      }
+    }
+  ]
+}

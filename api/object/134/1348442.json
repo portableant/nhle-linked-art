@@ -1,0 +1,328 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348442.json",
+  "type": "HumanMadeObject",
+  "_label": "Ashridge House, including raised terrace, walls and steps to east and south, and iron railings to north",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ashridge House, including raised terrace, walls and steps to east and south, and iron railings to north"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348442"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9939712210"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157703"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q137776378"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348442",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9939712210)",
+    "defined_by": "POINT(-0.559976 51.79938)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348442",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348442",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Ashridge_House",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q137776378",
+      "type": "HumanMadeObject",
+      "_label": "Ashridge House (Q137776378)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348442",
+    "type": "Production",
+    "_label": "Origin / Construction of Ashridge House, including raised terrace, walls and steps to east and south, and iron railings to north (C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/edward-buckton-lamb",
+        "type": "Person",
+        "_label": "Edward Buckton Lamb"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/james-wyatt",
+        "type": "Person",
+        "_label": "James Wyatt"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1808",
+      "begin_of_the_begin": "1808-01-01T00:00:00Z",
+      "end_of_the_end": "1808-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-1",
+      "type": "Modification",
+      "_label": "1283: Ashridge originated as the earliest English College of Bonhommes, founded in 1283 by Edmund, Earl of Cornwall, a nephew of Henry III.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1283",
+        "begin_of_the_begin": "1283-01-01T00:00:00Z",
+        "end_of_the_end": "1283-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-2",
+      "type": "Modification",
+      "_label": "1285: Underneath the dining room and saloon is the twin-aisled undercroft to the great hall of the monastic refectory, dating from 1285 to 1350.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1285",
+        "begin_of_the_begin": "1285-01-01T00:00:00Z",
+        "end_of_the_end": "1285-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-3",
+      "type": "Modification",
+      "_label": "1350: The fireplace dates from 1350 and was imported by Lady Marian Alford especially for the room.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1350",
+        "begin_of_the_begin": "1350-01-01T00:00:00Z",
+        "end_of_the_end": "1350-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-4",
+      "type": "Modification",
+      "_label": "C16: The C16 German stained glass that was purchased for the chapel was sold in 1928 and subsequently donated to the Victoria and Albert Museum.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-5",
+      "type": "Modification",
+      "_label": "1536: After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1536",
+        "begin_of_the_begin": "1536-01-01T00:00:00Z",
+        "end_of_the_end": "1536-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-6",
+      "type": "Modification",
+      "_label": "c 1600: The painted and gilded ceiling is also modelled on an Italian example in which the central panel is a copy of Guido Reni’s Aurora of c1600 f…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1600",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1600-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348442-7",
+      "type": "Modification",
+      "_label": "C17: He transformed the dining room (now known as the Wyatt Room) using a scheme reminiscent of the C17, the drawing room (the Lady Marian Alford…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Country house built in 1808 to 1821 to the designs of James Wyatt and completed by Sir Jeffry Wyatville."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Country house built in 1808 to 1821 to the designs of James Wyatt and completed by Sir Jeffry Wyatville. MATERIALS: local Totternhoe ashlar stone with slate roof covering. PLAN: the house faces north and is arranged in a picturesque composition on an east-west axis.  It consists of a main block containing the state apartments, an east block of private apartments terminating in an orangery set at an angle; and to the west a conservatory and chapel along the south front overlooking the gardens, and offices and service rooms arranged around two courts along the north front and to the west. Brindley Lecture Hall, which was built in the former drying yard of the house in 1983, does not have special interest and is not included in the listing. EXTERIOR: the house is in a picturesque Gothic style with asymmetrical elevations dominated by the chapel spire and the tower which houses the staircase hall.  It is characterised by a multitude of crenellated parapets and casement windows of mostly two lights with arched glazing bars and Tudoresque dripmoulds. The main block is symmetrical and has a central tower to which enrichments and a port-cochere were added to the north elevation by Jeffry Wyatville. The porte-cochere has a pointed arch entrance of several moulded orders with intricately carved foliage in the spandrels and headstops representing Elizabeth I and Edward VI. It is flanked by octagonal turrets decorated with trefoil panels surmounted by crocketed finials. The tower, which rises behind, has a projecting bay with crenellations and a wide pointed arch window with cinquefoil tracery set within trefoil panels. The family coat of arms is carved in relief above. On either side of the tower are four-bay blocks of three-storeys plus a basement. These are lit by square-headed windows and terminate in broached octagonal towers. Decorative iron railings span the front of the main block. The private family apartments to the east consist of a two-storey block of ten bays. The first three bays are at a 45º degree angle to the main block. The following seven bays are again set at an angle and have at each end square tower bays with octagonal corner turrets which rise above the parapets. These tower bays are lit on the ground floor by recessed pointed arch windows.  The sixth and eighth bays are canted and embellished with a blind trefoil arcade in the parapets.  Beyond to the left is the long rear wall of the orangery divided into seven bays by lesenes with trefoil panels which rise up into miniature octagonal turrets.  Each bay is lit by a narrow window, some of which are blind.  The orangery terminates in an octagonal tower bay with a battered base which is lit on the ground floor by pointed arch windows and above by arrow slit windows.  An array of gargoyles looks out from the string course beneath the parapet. To the right of the main block is a two-storey range, formerly containing offices such as the housekeeper’s and steward’s rooms.  Stepped lesenes divide it into nine bays lit by square-headed casements with dripmoulds, as already described, with smaller windows above. A double-leaf door in the central bay has glazed upper panels with Gothic tracery. The three-storey square tower to the right, formerly the Evidence Room, is lit by a window on each floor.  It has a slightly projecting crenellated parapet supported by shaped brackets.  This is followed by a long, recessed, single-storey service range divided by stepped lesenes into eleven bays lit by small lancet windows.  In the projecting central bay, a depressed arch opening under a dripmould leads into the main service yard.  Another three-storey square tower (formerly the laundry) projects forward, and is followed by a lower range known as Red Lodge which was formerly used mainly for stable-related activities.  It constitutes one of the oldest parts of the site and is believed to contain surviving Tudor brickwork behind the Totternhoe stone facing.  Red Lodge is a symmetrical single-storey range, with the same crenellated parapet as elsewhere, which rises in the centre into a pediment.  In this central bay is a pointed arch doorway (with replaced door), and a two-light window above with a dripmould, flanked by windows in unadorned surrounds.  There are two windows to the left of these, and one to the right, followed by two pointed arch doorways, one into the building and the other into a side passage along the gateway into the stable yard.  This dominant gateway is in the form of a triangular gable with a depressed arch opening flanked by broached octagonal turrets. A section of adjoining crenelated wall to the right terminates in an octagonal pier. The east elevation of the house consists of the main block, followed by the private apartments and then the orangery.  The main three-storey block has at each end a prominent octagonal broached tower and a projecting ground floor with a pierced crenellated parapet.  The first bay is lit on the ground floor by a large 15-light window with wooden mullions and transoms (also presumably changed by Wyatville during his alterations), and an original window above, in the same style as elsewhere.  Another octagonal tower then defines the library which has a five-bay, pointed arch loggia with quatrefoils in the spandrels and stepped lesenes.  This was glazed in the second half of the C20 to create more internal library space.  The upper floors are lit by five windows of different sizes.  The private apartments are arranged at an angle to the right in an irregular style.  The first three single-storey bays are highly decorated with three-light windows, trefoil-shaped at the top and bottom, and blocked central panes bearing a shield.  A Gothic niche, consisting of an ogee arch canopy with crocketed finials and flanking octagonal columns with blind trefoil-headed panels, contains a statue of Elizabeth I.  This is a copy of the original statue by Sir Richard Westmacott which was later removed.  A prominent two-storey corner tower, lit on the ground floor by pointed arch windows with Gothic tracery, projects forward, after which the remaining private apartments are recessed at an angle.  They have four irregular bays lit by mostly two-light windows, except for the first bay which has a much larger window flanked by octagonal turrets.  The last element in this elevation is the single-storey orangery which is divided into nine bays by stepped lesenes and has wide canted bays at each end.  The depressed arch openings have been blocked and new windows put in.  The crenellated parapet is embellished with blind trefoil arch panels. The south elevation, which forms the third principal elevation of the house, also overlooks the gardens.  The main block is linked to the chapel, on the left, by the former conservatory which has since been converted into a dining room.  To the left of the chapel are the service quarters.  The main block has two storeys and an attic which is just visible above the (uncrenellated) parapet, behind which rises the tower, lit by three pointed arch windows with cinquefoil tracery.  The symmetrical façade has broached octagonal turrets at each end and a projecting central bay, all of which rise above the roofline.  The central bay has a three-bay pointed arch, rib-vaulted loggia with columnettes and quatrefoils in the spandrels.  On the inner wall are three niches delicately embellished with Gothic ornamentation.  A canted oriel window above has cinquefoil-headed windows and blind arcading above and below.  To each side are double-height canted bays with full-height windows with stone mullions and transoms, and blind arcading in the parapets.  These light the former dining and drawing rooms.  The canted bays are flanked by windows in the same style.  The fenestration was changed in the 1860s.  The adjoining former conservatory to the left is divided into ten bays by stepped lesenes, the central three bays breaking forward.  It has a pierced crenellated parapet behind which the mansard roof of the first-floor accommodation (added in 1929) is visible.  The pointed arch openings in each bay have been blocked up with stone and pierced by six-light casements with wooden mullions and transoms. Following the conservatory is the four-bay apsidal chapel in the Perpendicular style which has a pierced crenelated parapet and square, stepped buttresses terminating in miniature square turrets.  The pointed arch windows have two rows of cinquefoil tracery.  The twice stepped-back, two-stage tower has blind arcading, pierced crenellated parapets and angle buttresses which rise into crocketed octagonal finials.  The first stage also has alternating ogee arch windows and niches.  The spire is a fibreglass replacement of the original.  A raised terrace runs around the east and south sides of the house accessed via numerous flights of steps.  These are lined by dwarf stone walls with square piers which have blind trefoil arch panels. Adjoining the chapel at right angles, to the left, is the south side of the service court, a single-storey range with additional accommodation added above in the second half of the C20.  It is divided by stepped lesenes into eleven bays, the middle four of which are lit by windows under dripmoulds, and to the left a doorway leads into the service court.  This is lined on three sides by red brick loggias forming covered walkways, and on the fourth side by a two-storey building in beige brick with three gables and a loggia, designed by Edward Buckton Lamb c1859-1860.  Following on from the south side of the service range is a three-storey square tower which housed the brewhouse, and makes a pair with the tower on the north side.  A short stretch of crenellated stone wall, which forms the south side of a small courtyard, joins up to a stone gateway with a depressed arch and cross-gabled caps.  At right angles to the gateway, forming the short west elevation of the house, is the west wall of the courtyard which is constructed of red brick and flint and is also crenellated.  Adjoining the courtyard is the former open space of the drying ground which has been infilled with the Brindley Lecture Hall, built in 1983.  This lecture hall is not included in the listing.  Following this is the two-storey rear elevation of Red Lodge which is constructed of handmade red brick and lit by Tudor style windows with stone mullions and transoms.  A small single-storey extension in the same style has been added to the south side of Red Lodge in 2009. INTERIOR: in the main block the rooms are arranged over three floors around a central staircase hall which rises the full height of the central tower.  The principal areas of interest are the state rooms which are in both Gothic and classical styles, and are as finely wrought and impressive as the external elevations of the house. The lofty entrance hall is faced in ashlar stone and rises through two storeys to a hammerbeam roof.  At the far end a three-bay, rib-vaulted Gothic arch passageway supports a two-tier minstrels’ gallery, and leads into the dramatic staircase hall which is the centrepiece of Wyatt’s scheme.  This is also in the Gothic style and faced in ashlar.  The cantilevered Imperial stair has a cast iron balustrade and brass handrail.  On the first floor the hall is surrounded by arcades of four-centred arches with niches in the corners containing statues by Sir Richard Westmacott of Ashridge’s founders and benefactors.  There are more tall niches above, then a corbelled-out gallery with a fine iron railing, and more arcading behind it carrying a fan-vaulted coving on which the lantern stands.  This has a fan-vault (in imitation of the crossing at Canterbury Cathedral) and contained a dial connected to the external weather vane.  The ceiling is constructed of an iron frame covered in plaster rather than stone. The other part of the building in the Gothic style is the chapel which is characterised by Gothic detailing of exquisite delicacy.  The antechapel opens up into the tower and leads through a tall arched opening into the main apsidal chapel which is lit all around by tall windows.  Fan-vaulted coving carries a canted panelled ceiling.  The fixed pews along the east and west sides, and the stone carved reredos incorporating canopies over the sedilia at the south end, are of exceptional quality. In the other state rooms, Wyatville favoured the classical style when he overhauled Wyatt’s original schemes.  The former billiard room (Hoskins Room), to the left of the entrance hall, is in the Renaissance style.  The fireplace dates from 1350 and was imported by Lady Marian Alford especially for the room.  A screen at the south end consisting of square columns is richly decorated in a plasterwork design of Renaissance motifs and has arched bookcase alcoves at each end, also richly ornate.  This represents a very early use of fibrous plaster, patented by Leonard Desachy. This room opens into the library which forms the east side of the main block.  It is lined by arched niches containing bookcases of Macassar ebony inlaid with brass and has a coved ceiling with gilt rococo-style detailing.  The saloon (Lady Marian Alford Room) is in a grand Italianate style.  The door surrounds are colossal aedicules with pediments supported by gilt columns of rose serpentine marble from Italy.  Two large marble fireplaces, based on those by Scamozzi in the Doge’s Palace, were later given caryatids modelled on contemporary estate workers by the sculptor Mark Rogers Jnr (1848-1933).  The painted and gilded ceiling is also modelled on an Italian example in which the central panel is a copy of Guido Reni’s Aurora of c1600 from the Palazzo Respiglioso in Rome. The former dining room (Wyatt Room) is in a style evocative of the mid-C17 with its carved Austrian oak wood panelling which incorporates the chimneypiece and the arms of the Brownlow family above the door.  The deep moulded ceiling is enriched with classical motifs and was designed to represent the fruits of the earth, based on the scala d’oro in the Doge’s Palace in Venice.  Underneath the dining room and saloon is the twin-aisled undercroft to the great hall of the monastic refectory, dating from 1285 to 1350.  The seven-bay undercroft has a rib-vaulted roof and much re-facing of the walls is likely to have taken place in the C19. The private apartments in the east range contain former bedrooms, dressing rooms and sitting rooms.  They are less grandly appointed but are still impressive and retain much of their original fabric and fittings, including panelled doorcases and doors, panelled window shutters, ceiling cornices enriched with classical motifs and chimneypieces in various styles.  More family bedrooms are arranged at mezzanine level around the staircase hall, leading off from vaulted corridors.  Many retain six-panel doors, window shutters, decorative cornices and fireplaces.  The former orangery at the far east of the house retains its iron support columns but the roof structure is hidden beneath a suspended ceiling. The service wing to the west retains its general arrangement of ranges along the north and south fronts which are one room deep with internal courts (some of which have been infilled).  The wing has been modernised and some of the smaller rooms have been knocked through to make larger rooms but some historic joinery and fixtures survive, notably the fitted shelves and cupboards in the former Evidence Room and the kitchen range with its impressive stone Tudor style surround.  The brick vaulted well house beneath the chapel was dug out by the monks in the C13.  The current superstructure is a donkey wheel which operated a three-stage pump, probably installed when the house was rebuilt in the early C19."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Ashridge, a country house built in 1808 to 1821 to the designs of James Wyatt and completed by Sir Jeffry Wyatville, is listed at Grade I for the following principal reasons: Architectural interest: *\tit has a spectacularly romantic composition in the Tudor Gothic style with an asymmetrical plan presenting stunning elevations on all fronts; *\tthe treatment of the interior is similarly breathtaking, and the refined detailing and superb craftsmanship displayed throughout the principal rooms is of the highest order; *\tthe vast staircase hall gives the impression of dizzying height with its interpenetrating spaces which soar up to the fan-vaulted lantern; whilst every surface of the lofty chapel is adorned with Gothic stone and wood carving of the most exquisite delicacy; *\tWyatt and Wyattville were the most considerable figures of the earlier Gothic Revival, and Ashridge is the best extant example of Wyatt’s truly romantic handling of the Gothic style. Historic interest: *\tit was highly influential in the next generation and established Wyatt as a major figure in the history of the Picturesque. Group value: *\tit has strong group value with the listed estate buildings and Grade II* Registered Park which altogether form a highly significant ensemble created by the most renowned practitioners of the Picturesque movement."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Ashridge originated as the earliest English College of Bonhommes, founded in 1283 by Edmund, Earl of Cornwall, a nephew of Henry III.  Very little of the monastery survives except the undercroft and the well which were both created around the time of its foundation.  The Monk’s Barn was also built as part of the monastic site as a tithe barn in the 1480s.  After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s reign.  After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and then the Dukes of Bridgewater.  In the 1760s Francis, the 3rd Duke of Bridgewater, who amassed a fortune by developing waterways for industrial transport (becoming known as the Canal Duke), commissioned Henry Holland to design a more comfortable Georgian residence, and Capability Brown was commissioned to landscape the park.  By the early C19, the house was in disrepair and in a ruinous state.  The 3rd Duke decided to erect a new mansion in its place, and the vast majority of the old house which included parts dating back 500 years was demolished by 1803, the year he died.  As he had never married, the Dukedom became extinct and the earldom and estate passed to his cousin, John William Egerton who became the 7th Earl of Bridgewater.  The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.  He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803. The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).  Wyatt was the sixth son of Benjamin Wyatt, the founder of the Wyatt building business in Staffordshire.  He was sent to Italy for six years where he became the pupil of Antonio Visentini under whom he made rapid progress as an architectural draughtsman.  After his return to England, Wyatt’s first important country house was the neoclassical Heaton Hall, Lancashire (about 1772-1778) but the building which made his reputation was the Pantheon in Oxford Street, London (opened 1772).  He instantly became a fashionable architect and an Associate of the Royal Academy, subsequently being appointed Surveyor to Westminster Abbey in 1776, Architect to the Board of Ordnance, and in 1796 Surveyor-General and Comptroller of the Office of Works in 1796.  Wyatt rebuilt Frogmore House for Queen Charlotte (1793-1795) and then became the royal architect, working at Windsor and Kew.  Between 1769 and 1813 he designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as over a hundred country houses in England, Wales and Ireland.  Many of his houses were in the neoclassical style, such as Heveningham Hall, Suffolk (about 1780-1784) and Dodington Park, Gloucestershire (1798-1813), but it was as a Gothic architect that Wyatt enjoyed a special celebrity.  His success was due partly to a better knowledge of authentic medieval prototypes than his predecessors, and partly to his ability in capturing the picturesque irregularity of medieval architecture.  His most accomplished works in the Gothic style are Ashridge and Fonthill Abbey, Wiltshire (1796-1812; dem. around 1800) for William Beckford.  Wyatt was killed in a carriage accident in 1813 and was buried in Westminster Abbey. The foundation stone of Ashridge was laid on 25 October 1808 and the house was fit for habitation by 1814.  Wyatt’s design encompassed a large main block dominated by a square tower, which housed the staircase hall, with a chapel and conservatory, and extensive service quarters to the west.  He used the three principal Gothic styles to express architecturally the social hierarchies of the house; thus, Perpendicular is used for the highest status spaces, namely the chapel and staircase hall; Decorated is applied to the family rooms; and Early English is used for the service quarters.  Wyatt favoured the neoclassical style for the interior however, except for the entrance hall, staircase hall and chapel.  The C16 German stained glass that was purchased for the chapel was sold in 1928 and subsequently donated to the Victoria and Albert Museum.  The plaster detailing was created by the Bernasconi brothers who also did the stucco work at the top of the staircase hall.  Wyatt died before Ashridge was completed but a series of pen drawings produced by J Buckler around 1813 capture the extent of his work. The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.  He was apprenticed to his uncle Samuel Wyatt before transferring to the office of his more celebrated uncle James with whom he remained until 1799 when he went into partnership with John Armstrong, a carpenter and building contractor.  Wyatville soon became well known as a country house architect in the Tudor Gothic style with a large clientele among the Whig aristocracy, and by the 1820s he was one of the half dozen leading English architects.  His most accomplished work is the transformation of Windsor Castle which he carried out between 1824 and 1840. Wyatville’s main contribution to Ashridge was in extending Wyatt’s design through the addition of new service quarters to the west, including stables, coach house, workshops and other ancillary structures.  He added the family wing at the east end of the building (away from the service quarters and state rooms) terminating in an orangery which is noteworthy for its early use of structural iron to create a decorative roof structure.  The port-cochere was also Wyatville’s design, and the interior of the chapel was created under his eye.  The pews were carved by Edward Wyatt.  Repton was commissioned to design the gardens but Wyatville also played a significant role in their development, including the design for the Gothic fountain (Grade II listed) in Repton’s Monk’s Garden.  By 1821 the bulk of the work to the house was largely complete and it was much admired by contemporaries.  The Earl commissioned his chaplain, H J Todd to write a history of Ashridge, entitled A History of the College of Bonhommes (1823), which includes a description of the new house, along with a detailed floor plan and illustrations by H Le Keux. During the 1850s and 1860s Lady Marian Alford, the widow of the 8th Earl’s nephew, commissioned Matthew Digby Wyatt (1820-1877) to redecorate the interiors.  Digby Wyatt was an architect and art historian who became the first Slade Professor of Art at the University of Cambridge, in addition to holding the positions of Secretary of the Great Exhibition and Surveyor of the East India Company.  He transformed the dining room (now known as the Wyatt Room) using a scheme reminiscent of the C17, the drawing room (the Lady Marian Alford Room) in the popular Italianate style, and the billiard room (the Hoskins Room) in the Renaissance style, apparently as a suitable backdrop to display the works of this period collected by Lady Marian Alford.  Digby Wyatt also helped in the alteration of the gardens, designing the fernery in 1864, one of the earliest of its kind in England. In the wake of the First World War, the 3rd Earl Brownlow, who had inherited vast estates, instructed in his will that his trustees sell the Ashridge Estate.  Most of the parkland was purchased by the National Trust in 1925, and the house was purchased by Urban Hanlon Broughton who donated it to the Conservative Party in commemoration of the late Prime Minister, Andrew Bonar Law.  In 1929 it was formally opened by Stanley Baldwin as a Conservative college.  The house was adapted for its new use, involving the covering or infilling of some of the service courts, and the subdivision and opening up of some of the service rooms to create modern kitchen facilities and the staff hall.  The most significant change to the main house was the conversion of the conservatory into a dining room with additional first-floor bedrooms above, undertaken by Clough Williams-Ellis who developed a fashionable practice in the inter-war years.  Clough-Ellis is most famous for designing the village of Portmeirion in the Italianate style. During the Second World War Ashridge was offered to the Ministry of Health as a site for an emergency hospital.  Casualties from the Blitz were evacuated there but afterwards it became a more general facility.  The hospital moved out in 1947 and the college reopened.  In 1954 a bill was passed stating that the aim of the college was to provide an education without any bias towards a political party, and it became known as Ashridge Business School.  As a result of the support of Sir Hugh Beaver, the college undertook a programme of modernisation and improvement in 1957 which included the glazing in of the loggia to the library, and the creation of further teaching and accommodation at first-floor level to the south of the service court.  In 1969 the chapel spire, which had been removed for safety in 1922, was replaced by a fibreglass structure imitating Wyatt’s original design. Throughout the later C20 the college continued to expand its teaching and accommodation facilities.  The former drying yard at the east end of the service quarters was infilled by the Brindley Lecture Hall in 1983.  In the early C21 an extension was added to the rear of Red Lodge, at the westernmost end of the house, infilling part of the space between Red Lodge and the Brindley Lecture Hall."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-05-14T00:00:00Z",
+        "end_of_the_end": "2019-03-26T23:59:59Z"
+      }
+    }
+  ]
+}

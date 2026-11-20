@@ -1,0 +1,250 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332909.json",
+  "type": "HumanMadeObject",
+  "_label": "Manor House (Weston Turville)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Manor House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332909"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 85884 10405"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42897"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17539350"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332909",
+    "type": "Place",
+    "_label": "Weston Turville (SP 85884 10405)",
+    "defined_by": "POINT(-0.756321 51.785723)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332909",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332909",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17539350",
+      "type": "HumanMadeObject",
+      "_label": "Manor House (Q17539350)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332909",
+    "type": "Production",
+    "_label": "Origin / Construction of Manor House (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-1",
+      "type": "Modification",
+      "_label": "Early C18: Early C18 with later C18 west wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-2",
+      "type": "Modification",
+      "_label": "C18: Early C18 with later C18 west wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-3",
+      "type": "Modification",
+      "_label": "Late C18: West wing RH ground floor room has fine late C18 carved wood chimneypiece, frieze with central panel of shepherd and sheep, ceiling with ori…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-4",
+      "type": "Modification",
+      "_label": "C19: 3-storeys, front has 5 bays of sash windows with gauged brick segmental arches, C19 glazing pattern.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-5",
+      "type": "Modification",
+      "_label": "Early C19: LH 1st floor room has early C18 panelled stone chimneypiece with early C19 gothic pattern grate.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332909-6",
+      "type": "Modification",
+      "_label": "C20: Central 1st floor window semicircular arched with C20 radiating fanlight.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE             WESTON TURVILLE         CHURCH WALK 5/322                                        The Manor House 25/10/51                                              II* House. Early C18 with later C18 west wing. Plum brick with red brick dressings. Remains of tuck pointing. Old tiled roof with end chimney stacks, heavy bracketted wood eaves cornice, Double pile plan. 3-storeys, front has 5 bays of sash windows with gauged brick segmental arches, C19 glazing pattern. Central 6-panel door with radiating and wreathed fanlight and panelled reveals under restored Doric pertico with panelled soffit, columns and pilasters, entablature with swags and reeding on frieze. Central 1st floor window semicircular arched with C20 radiating fanlight. West wing is brick with low hipped old tiled roof and coved moulded brick eaves cornice. 2-storeys, 1st floor band, west elevation has 3 bays of gothic patterned sash windows under gauged brick arches, semicircular to centre, venetian to side bays. Projecting central porch with canted sides and small Y traceried windows, C20 glazed door with semicircular radiating iron fanlight, Doric pilasters supporting entablature with dentil cornice. Interior Entrance hall has re-used C17 oak panelling with fluted frieze. C18 panelled arch to staircase hall. C18 wooden staircase with shaped tread ends and turned balusters. LH front room has plain C18 paneling, moulded cornice and wood bolection moulded chimneypiece. LH 1st floor room has early C18 panelled stone chimneypiece with early C19 gothic pattern grate. West wing RH ground floor room has fine late C18 carved wood chimneypiece, frieze with central panel of shepherd and sheep, ceiling with original margin with moulded plaster vine pattern, C20 central panels and boss. 1st floor room above has C18 dentil cornice and floral frieze, marble chimneypiece with enriched moulded cornice, C20 wall panels and ceiling pattern. Listing NGR: SP8589010413"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z"
+      }
+    }
+  ]
+}

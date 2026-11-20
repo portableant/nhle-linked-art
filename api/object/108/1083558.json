@@ -1,0 +1,246 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/108/1083558.json",
+  "type": "HumanMadeObject",
+  "_label": "The Market House (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Market House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1083558"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 92338 11368"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355682"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26365705"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558",
+    "type": "Place",
+    "_label": "Tring (SP 92338 11368)",
+    "defined_by": "POINT(-0.662526 51.793353)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1083558",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1083558",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Tring_Market_House",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: The Market House",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Market_House%2C_Tring",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26365705",
+      "type": "HumanMadeObject",
+      "_label": "The Market House (Q26365705)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1083558",
+    "type": "Production",
+    "_label": "Origin / Construction of The Market House (1898)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/william-huckvale",
+        "type": "Person",
+        "_label": "William Huckvale"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1898",
+      "begin_of_the_begin": "1898-01-01T00:00:00Z",
+      "end_of_the_end": "1898-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-1",
+      "type": "Modification",
+      "_label": "after 1910: Open ground floor enclosed after 1910.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "after 1910",
+        "begin_of_the_begin": "1910-01-01T00:00:00Z",
+        "end_of_the_end": "1910-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-2",
+      "type": "Modification",
+      "_label": "1914: (Kelly(1914)250).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1083558",
+      "type": "VisualItem",
+      "_label": "Photograph of The Market House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1083558",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Market House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Market%20House%2C%20Tring%20-%20geograph.org.uk%20-%201478727.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                  AKEMAN STREET SP 9211                                         (West side) 11/45                                   No. 99 -                                       (The Market House) GV                                      II Market house, now offices. 1898, by William Huckvale, built by public subscription on site presented by Lord Rothschild when former Market House in front of Church demolished. Open ground floor enclosed after 1910. Timber frame formerly open ground floor with oak posts on moulded stone bases, jettied half-timbered 1st floor with roughcast panels and steep red tile roof, central cupola and finial. Half-timbered infill to ground floor and doors to High Street. Lower 2-storeys part at S end with red brick gable chimney. Entrance and stair on W side of High Street frontage giving access to Council Chamber on 1st floor with large rectangular 6-light oriel window on that end, 6-light large transomed leaded window below gable in middle of E side. Includes No. 61 High Street. (Kelly(1914)250). Listing NGR: SP9233811368"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1391882.json",
+  "type": "HumanMadeObject",
+  "_label": "Little Gaddesden House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Little Gaddesden House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1391882"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00073 12526"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "503020"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26671222"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1391882",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 00073 12526)",
+    "defined_by": "POINT(-0.550074 51.802432)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1391882",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1391882",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26671222",
+      "type": "HumanMadeObject",
+      "_label": "Little Gaddesen House (Q26671222)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1391882",
+    "type": "Production",
+    "_label": "Origin / Construction of Little Gaddesden House (1777)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1777",
+      "begin_of_the_begin": "1777-01-01T00:00:00Z",
+      "end_of_the_end": "1777-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1391882-1",
+      "type": "Modification",
+      "_label": "1859: Little Gaddesden House 1777/0/10019 Berkhamsted LITTLE GADDESDEN NETTLEDEN ROAD Little Gaddesden House 22-FEB-07 II DESCRIPTION Two-storey e…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1859",
+        "begin_of_the_begin": "1859-01-01T00:00:00Z",
+        "end_of_the_end": "1859-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1391882-2",
+      "type": "Modification",
+      "_label": "C20: Little Gaddesden House 1777/0/10019 Berkhamsted LITTLE GADDESDEN NETTLEDEN ROAD Little Gaddesden House 22-FEB-07 II DESCRIPTION Two-storey e…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1391882-3",
+      "type": "Modification",
+      "_label": "1971: The house stayed in the Talbot family until 1971, when it was sympathetically sub-divided into smaller houses retaining many internal fixtur…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1971",
+        "begin_of_the_begin": "1971-01-01T00:00:00Z",
+        "end_of_the_end": "1971-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1777/0/10019 Berkhamsted LITTLE GADDESDEN NETTLEDEN ROAD Little Gaddesden House 22-FEB-07 II DESCRIPTION Two-storey estate office, linked by a single storey entrance range to a two storey, approximately L-shaped, private dwelling, 1859 with later C20 additions to entrance range and south elevation. Purple brick laid in English bond with red brick and bath stone dressings. Steeply pitched gable roofs have diapered tile coverings, ridge tiles and stone finials, many chimney stacks with ornate terracotta or moulded brick pots in pairs or threes. Parapets are capped with bath stone. The façade of the entrance range has a central projecting porch beneath a gablet, with a stone plaque above carved with a coat of arms and motto. The south, west and north elevations have projecting gables with simple slit and roundel windows in the apexes, and there is a full height bay on the west elevation. The one-over-one later C20 sash windows are in large original openings which have contrasting Bath stone surrounds, mullions and transoms. Over-painted brick rear elevation to the east devoid of dressings and has later C20 casements. INTERIOR Some C20 partitions introduced, but most of the original room layout, fixtures and fittings appears to remain. Encaustic tiled floor in entrance range, simple architraves with column detail and doors with chamfered panels. Plain plasterwork cornices. The principal, dog-leg staircase comprises a timber hand rail, plain newell posts, balusters and pendants. The stair window remains and the hall has a coffered ceiling. In the principle room of the inspected dwelling, a fine marble fireplace, with a later C20 grate remains. HISTORY Little Gaddesden House was constructed in 1859 as the Ashridge estate office and dwelling for Lord Brownlow's land agent, remaining in this use until the 1880s when it was occupied by the Hon Alfred Talbot, a younger brother of Lady Brownlow. The house stayed in the Talbot family until 1971, when it was sympathetically sub-divided into smaller houses retaining many internal fixtures and fittings. SUMMARY OF IMPORTANCE Little Gaddesden House, constructed in 1859, was built for Lord Brownlow as the Ashridge Park estate office and land agents dwelling and is a good example of a Tudor-revival building with well-tutored detailing and strong coherent composition. Despite conversion into smaller dwellings, the exterior details and unusual plan-form are retained and have not been altered by unsympathetic additions. The building has a strong roof line with good details to the tiles and chimney pots, balancing the elevations which has an architectural treatment of considerable merit. The interior appears to survive largely intact and the fixtures and fittings are of good craftsmanship. Listing NGR TL0005612555"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2007-02-22T00:00:00Z"
+      }
+    }
+  ]
+}

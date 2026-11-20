@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348036.json",
+  "type": "HumanMadeObject",
+  "_label": "Corner Farm (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Corner Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348036"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06582 11732"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157867"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631452"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348036",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 06582 11732)",
+    "defined_by": "POINT(-0.455955 51.794094)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348036",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348036",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631452",
+      "type": "HumanMadeObject",
+      "_label": "Corner Farm (Q26631452)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348036",
+    "type": "Production",
+    "_label": "Origin / Construction of Corner Farm (Mid C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1985",
+      "begin_of_the_begin": "1985-01-01T00:00:00Z",
+      "end_of_the_end": "1985-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348036-1",
+      "type": "Modification",
+      "_label": "C19: Red brick on high flint sill with timber framed cross-partitions, probable timber framed show-front replaced by red brick in C19 and E gable…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348036-2",
+      "type": "Modification",
+      "_label": "Mid C19: Mid C17, brick front on S and E mid C19, extended to N and renovated 1985.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348036-3",
+      "type": "Modification",
+      "_label": "1985: Mid C17, brick front on S and E mid C19, extended to N and renovated 1985.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1985",
+        "begin_of_the_begin": "1985-01-01T00:00:00Z",
+        "end_of_the_end": "1985-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GADDESDEN ROW TL 01 SE                                         (North side) 4/86                                    Corner Farm - -                                       II Farmhouse, now a private house. Mid C17, brick front on S and E mid C19, extended to N and renovated 1985. Red brick on high flint sill with timber  framed  cross-partitions,  probable  timber  framed  show-front replaced by red brick in C19 and E gable rebuilt. Steep old red tile roofs. A large rectangular house of 2-storeys and attics facing S with lower rear wing stepping down to N. 3-cells, internal chimney, former lobby-entry plan, with chimney a third from W end. 2 gabled dormers on roof slope. Irregular fenestration with 5 recessed sash windows to 1st floor and 2 French windows to ground floor. Interior has exposed posts, ovolo-moulded axial beams with bar-stops to ground and  1st floor, double-ovolo moulded fireplace lintel on ground floor on E side of stack, 4-centred brick arched fireplace on floor over, 4-centred arched stone moulded fireplace to W side on 1st floor with double ogee moulding and moulded stops high on the jambs. 4-bays, wide-span, butt-purlin roof. Single purlin to each slope supported by straight wind-braces, and with rafters butt jointed to opposed faces of purlin. Numbered joints. Closed framed partitions on each side of narrow chimney bay, slots in tie-beams for diagonal braces springing from former timber framed front wall. Present stair cuts through ovolo floor beam of 1st floor. Original stair probably to rear of chimney. Listing NGR: TL0658211732"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078023.json",
+  "type": "HumanMadeObject",
+  "_label": "Akeman Street Baptist Chapel",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Akeman Street Baptist Chapel"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078023"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9231111308"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355679"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346596"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078023",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9231111308)",
+    "defined_by": "POINT(-0.662933 51.792845)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078023",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078023",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Baptist_Church_%28Akeman_Street%2C_Tring%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346596",
+      "type": "HumanMadeObject",
+      "_label": "Akeman Street Baptist Chapel (Q26346596)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078023",
+    "type": "Production",
+    "_label": "Origin / Construction of Akeman Street Baptist Chapel (1607)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1832",
+      "begin_of_the_begin": "1832-01-01T00:00:00Z",
+      "end_of_the_end": "1832-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-1",
+      "type": "Modification",
+      "_label": "1662: The first indication of dissent in the town was in 1662 when 52 Quakers and Baptists were prosecuted for offences of non-conformity.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1662",
+        "begin_of_the_begin": "1662-01-01T00:00:00Z",
+        "end_of_the_end": "1662-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-2",
+      "type": "Modification",
+      "_label": "1715: Around 1715 a survey records 62 Baptist families in Tring, and by the 1880s there were five Baptist chapels which accommodated c500 members …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1715",
+        "begin_of_the_begin": "1715-01-01T00:00:00Z",
+        "end_of_the_end": "1715-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-3",
+      "type": "Modification",
+      "_label": "Mid- C18: The period of the greatest expansion for Nonconformist denominations was from the mid-C18 up to about 1870, as non-Anglican worshippers were…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C18",
+        "begin_of_the_begin": "1734-01-01T00:00:00Z",
+        "end_of_the_end": "1766-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-4",
+      "type": "Modification",
+      "_label": "C19: The fixed pews, which probably date to the third quarter of the C19, are laid out in rows in front of the pulpit and on either side of the t…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-5",
+      "type": "Modification",
+      "_label": "Early C19: The Baptist Chapel, built in 1832 with a school hall added to the rear in 1897, is listed at Grade II for the following principal reasons: *…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-6",
+      "type": "Modification",
+      "_label": "1801: Its origins date to 1801 when dissatisfied members from two other chapels joined together to worship in a barn in Frogmore End.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1801",
+        "begin_of_the_begin": "1801-01-01T00:00:00Z",
+        "end_of_the_end": "1801-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078023-7",
+      "type": "Modification",
+      "_label": "1808: 1808 REBUILT 51ft.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1808",
+        "begin_of_the_begin": "1808-01-01T00:00:00Z",
+        "end_of_the_end": "1808-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078023",
+      "type": "VisualItem",
+      "_label": "Photograph of Akeman Street Baptist Chapel (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078023",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Akeman Street Baptist Chapel",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Akeman%20Street%20Baptist%20Church%2C%20Tring%20-%20geograph.org.uk%20-%201603930.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Baptist Chapel built in 1832 with an interior refitted in the mid-to-late C19 and a school hall built to the rear in 1897."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "MATERIALS: Red brick façade and purple/ brown brick side and rear elevations with bright orange-red brick dressings, under slate-clad roofs. PLAN: The chapel faces east on sloping ground above street level.  The original 1832 two-storey building has a square plan under a pyramid roof.  The school hall, added to the rear (west) elevation in 1897, has a roughly rectangular plan which projects slightly on the north side to accommodate the staircase.  On the south side of the hall is a single-storey extension added in the 1970s to provide lavatory facilities. EXTERIOR: The east-facing, symmetrical façade has a purple/ brown brick, moulded plinth.  It is three windows wide, divided by four full-height brick pilasters, and has a central entrance up a flight of six stone steps, semi-circular on plan, with round nosings.  The slightly recessed entrance, beneath a round arch of rubbed brick, has double-leaf, eight-panelled doors, and panelled infill above.  Over this is a stone tablet inscribed with the following: ‘ERECTED 41 by 35ft. 1808 REBUILT 51ft. SQre 1832’.  The entrance is flanked by segmental arched three-over-three pane sash windows with wide middle panes, set in round arched recesses of rubbed brick.  The three first-floor round-headed windows have a radial pattern of small panes with timber glazing bars.  All the window arches are of rubbed brick.  The north and south elevations have the same composition and fenestration as the façade except that the ground-floor middle bays are lit by a window, and the south side has been rendered. The rear (west) section of the building comprises the double-height school hall which is flanked by lower two-storey wings.  The three-bay hall is divided by four brick pilasters and is lit by three double-height, multi-paned windows with segmental arched upper sections under brick heads with keystones of Bath stone.  It is surmounted by a pedimented gable edged with moulded brick, and underneath is an entablature that breaks forward with the pilasters.  The central doorway has a late-C20 fire door.  The two-bay flanking wings have two-over-four-pane sash windows on the ground and first floors, all under segmental arch heads, with those on the first floor directly under the eaves.  They have corner pilasters and a dentilled brick cornice.  On the north side of the school hall is a small projection that accommodates the staircase.  It has clasping pilasters and a similar pedimented gable edged with moulded brick.  Each face is lit by a semi-circular arched window with a radial pattern of small panes, under a semi-circular keyed brick arch.  There is a string course at impost level and a moulded brick cornice.  The prominent flat-roofed porch on the east side of this projection, added in c1908, is constructed of red brick with regular stone banding.  It has a moulded three-centred arch doorway with alternating stone voussoirs and stone impost mouldings which are flanked by corbelled pilasters.  The whole is surmounted by a moulded stone cornice and stone-capped brick parapet.  The double-leaf door has three raised and fielded panels.  On the south side of the hall is a small single-storey, flat-roofed extension of brick, added in the 1970s. INTERIOR: The principal east entrance opens into a small panelled lobby which gives access to the flanking quarter-turn timber steps leading up to the gallery.  The lobby, which was probably modified in the 1900s, is separated by a draught screen from the double-height chapel which has a first-floor tiered gallery around the north, east and south sides.  The chapel has vertical timber cladding to dado height, and exposed timber floorboards with two ducts running east-west with perforated iron grilles.  The fixed pews, which probably date to the third quarter of the C19, are laid out in rows in front of the pulpit and on either side of the two central aisles.  They are made of stained and varnished pine and are flush with the floor.  They have backs of vertical tongue and groove boards and stepped moulded ends with chamfered corners, and those along the central aisles have brass umbrella handles.  The rostrum, dating to c1908, is of stained and varnished pine.  The front has vertical panelling on the lower half and square panelling above which continues around the sides and on the reredos.  It is accessed by flanking staircases with turned balusters and square newel posts embellished with small panels.  There are doors either side of the rostrum giving access to the school hall, the building of which must have necessitated the blocking up of the two windows above.  The south-east corner has been partitioned to form a small vestry.  The gallery is supported by timber columns, painted white, which are probably original as the later pews have been fitted around them.  The gallery, rebuilt c1908, has a balustrade of timber uprights interspersed between undulating iron rails with a moulded timber handrail.  There are five tiers of fixed pine pews, also stained and varnished, which are laid out on the north, south and east sides; the front three rows of pews on the east side are curved.  They have backs of vertical tongue and groove boards, which are higher than those on the ground floor, and stepped ends with chamfered corners.  The large organ, added c1901, is located on the east side of the gallery.  It is encased in timber panelling of the same finish as the pews, to which it is attached, and has three groups of pipes above.  It bears a small plaque with the name of its maker: ‘Alfred Kirkland, Organ Builder, 113, Cottenham Road, London. N.’.  The ceiling has a number of decorative circular ventilation grilles. The double-height school hall has a canted ceiling with two plain timber trusses, vertical timber cladding to dado height, and parquet flooring.  It is galleried on the north, east and south sides.  The gallery has a decorative iron balustrade and vertical cladding on the soffit, and is supported on the east side by a cast-iron pillar.  On the ground floor there are two rooms on the north side and three on the south side.  Those on the north side have corner fireplaces with plain timber surrounds; the fireplace in the west room is decorative cast-iron, whilst that in the east room has been boarded over.  The rooms on the south side can be opened up to the hall by a series of full-height timber roller shutters, by which means the east room can also be partitioned to form two rooms.  All the rooms in the hall retain their panelled doors.  The gallery, which is accessed via a dog-leg staircase with elaborate cast-iron balusters and polished oak handrail, has vertical timber cladding to dado height.  There are two rooms on the north side and one long room on the south side which can be partitioned to form three rooms by timber roller shutters.  All the rooms have fixed panelled timber shutters, the middle section of which can be opened up to the gallery (for light and ventilation).  Two of the rooms have decorative cast-iron corner fireplaces with plain stone surrounds, whilst the third has been blocked up.  Large store cupboards have been added on the east side in the 1970s."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Baptist Chapel, built in 1832 with a school hall added to the rear in 1897, is listed at Grade II for the following principal reasons: *Architectural interest: it is a good example of an early C19 Baptist chapel with a simple, harmonious elevational design, characteristic plan form, and well integrated late C19 Sunday school that echoes the three-bay composition of the chapel. *Interior: whilst the chapel fittings are not original, they are of good quality, and the interior of the galleried Sunday school survives almost intact with a complete set of good quality timber roller shutters and fixed panelled timber shutters. *Historic interest: Tring is notable for the strength of its Baptist tradition, and the chapel with its school hall and communal rooms aptly illustrates the role of Baptism in the educational and spiritual life of the community. *Group value: it has group value with the two Grade II listed mid-C19 obelisks located in front of the building which are dedicated to men associated with the chapel."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Baptist Nonconformity had been established in England in 1607 when John Smyth, an ordained Anglican minister, separated from the Church of England and introduced the Baptism of adult believers as the foundation of Church membership.  Tring is notable for the strength of its Baptist tradition and consequent number of Baptist chapels.  The first indication of dissent in the town was in 1662 when 52 Quakers and Baptists were prosecuted for offences of non-conformity.  The period of the greatest expansion for Nonconformist denominations was from the mid-C18 up to about 1870, as non-Anglican worshippers were gradually freed from constraints on their civil liberties.  Around 1715 a survey records 62 Baptist families in Tring, and by the 1880s there were five Baptist chapels which accommodated c500 members with 800 children – a significant proportion of the town’s population of about 3,500.  The chapel in Akeman Street was the fourth to be established.  Its origins date to 1801 when dissatisfied members from two other chapels joined together to worship in a barn in Frogmore End.  In 1808 they built a new meeting-house in Akeman Street, and their pastor Richard Glover was so successful that in 1832 the current chapel was built, seating 850 members.  The 1887 Ordnance Survey map shows that there was a burial ground occupying the long plot to the west of the chapel, an area now consisting of lawn.  The grave monuments are now located in a small area at the western end.  There are two Grade II listed obelisks in front of the chapel: the south one, dating to c1851, is in memory of James Page; and the north one, dating to c1861, is in memory of Richard Glover. The building has been subject to alterations and extensions.  The seating on the ground floor of the chapel is not original: the precise date when it was replaced is unknown but it was probably in the third quarter of the C19.  In 1897 the two-storey rear extension was added to provide communal facilities and a school hall.  Around the turn of the century the present organ was installed, and the brick boundary wall and steps were built.  In c1908 all the timber windows were replaced – with a design that was probably similar to the original fenestration – and the brick porch was built onto the north-east entrance of the school hall.  In the same year the chapel gallery was rebuilt, wainscoting was added to the ground floor, and the rostrum was replaced.  In the 1970s a single-storey extension was built on the south elevation of the school hall to provide lavatory facilities, and in 1995 a door was inserted in the west elevation of the hall to provide access to the garden."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-21T00:00:00Z",
+        "end_of_the_end": "2012-09-12T23:59:59Z"
+      }
+    }
+  ]
+}

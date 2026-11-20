@@ -1,0 +1,185 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/128/1281157.json",
+  "type": "HumanMadeObject",
+  "_label": "Scott House (Weston Turville)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Scott House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1281157"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 85776 10486"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42889"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26570228"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1281157",
+    "type": "Place",
+    "_label": "Weston Turville (SP 85776 10486)",
+    "defined_by": "POINT(-0.757866 51.786477)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1281157",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1281157",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26570228",
+      "type": "HumanMadeObject",
+      "_label": "Scott House (Q26570228)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1281157",
+    "type": "Production",
+    "_label": "Origin / Construction of Scott House (1838)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/george-gilbert-scott",
+        "type": "Person",
+        "_label": "George Gilbert Scott"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1838",
+      "begin_of_the_begin": "1838-01-01T00:00:00Z",
+      "end_of_the_end": "1838-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE             WESTON TURVILLE         CHURCH LANE                                              (south-east side) 5/314                                        Scott House                                              (formerly listed as The Rectory 25/10/51                                              II House, formerly the Rectory. 1838 by George Gilbert Scott, a very early work in classical style. Flint squared and coursed to S. front, elsewhere coursed cobble, with projecting gauged brick rusticated quoins and dressings. Hipped slate roof with projecting eaves and deep fascia. End chimneys with dentil cornices. 2-storeys; S front has 3 bays, the central one projecting under a triangular pediment, sash window with gauged brick heads, segmental to ground floor with keyblocks, flat to 1st floor with keyblock only to centre. Brick and flint apron panels to 1st floor. Pair of 3 fielded panel doors with floral pattern fanlight in semicircular arched opening with stone imposts, rusticated gauged brick voussoirs and keyblock, approached by 3 stone steps. N. elevation has central pedimented projecting bay. Lower 2-storey wing on west and 1-storey service wing with verandah on wooden posts, flint and brick wall attached in front with dentil brick coping. Interior semicircular arch to stair hall curved staircase with continuous handrail; 3 simple marble chimneypieces on ground floor. Listing NGR: SP8578310490"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z",
+        "end_of_the_end": "1985-10-11T23:59:59Z"
+      }
+    }
+  ]
+}

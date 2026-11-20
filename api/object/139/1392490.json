@@ -1,0 +1,235 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1392490.json",
+  "type": "HumanMadeObject",
+  "_label": "Tudor House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Tudor House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1392490"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 83398 12148"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "504838"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26671707"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1392490",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 83398 12148)",
+    "defined_by": "POINT(-0.791934 51.801767)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1392490",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1392490",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26671707",
+      "type": "HumanMadeObject",
+      "_label": "Tudor House (Q26671707)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1392490",
+    "type": "Production",
+    "_label": "Origin / Construction of Tudor House (1894)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/frederick-taylor",
+        "type": "Person",
+        "_label": "Frederick Taylor"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/william-taylor",
+        "type": "Person",
+        "_label": "William Taylor"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1915",
+      "begin_of_the_begin": "1915-01-01T00:00:00Z",
+      "end_of_the_end": "1915-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392490-1",
+      "type": "Modification",
+      "_label": "Early C20: REASON FOR DESIGNATION: Tudor House is designated at Grade II for the following principal reasons: * Of special architectural interest as a …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392490-2",
+      "type": "Modification",
+      "_label": "1915: Tudor House 569/0/10034 STOKE MANDEVILLE WENDOVER ROAD 225, Tudor House 28-MAR-08 II House, built in 1915 by Frederick Taylor for himself.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1915",
+        "begin_of_the_begin": "1915-01-01T00:00:00Z",
+        "end_of_the_end": "1915-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392490-3",
+      "type": "Modification",
+      "_label": "1921: The 1921 OS map shows only a small projection from the south elevation;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "569/0/10034 STOKE MANDEVILLE WENDOVER ROAD 225, Tudor House 28-MAR-08 II House, built in 1915 by Frederick Taylor for himself.  Extended twice to the north west, c1950s and later. MATERIALS:  Brick with stone detail to central bay; some half-timbering; rough cast; tile hanging to gable-ends; clay tile roofs. PLAN: original house, aligned north west - south east, of two storeys and four bays, the north forming a cross wing.  Extensions to the north west of one bay and one and a half storeys, plus a later single storey. Small single storey lean-to to south. EXTERIOR:  Arts and Crafts style, with hipped roofs and irregular gabled main elevations. Windows mainly timber casements with leaded lights; some with stained slass.  In the front, north-east elevation, the second bay from the south has a half-timbered, jettied first floor with herringbone brick infill and long narrow timber mullioned window under the eaves. This bay is recessed, giving additional prominence to the adjacent double-height canted bay under deep eaves, which contains the main entrance and is the dominant feature of this façade. A deep, weathered stone plinth and randomly laid stone blocks, plus a diaper pattern in projecting blue-brick headers, contrast strongly with the red brickwork.  The tiled roof of the open porch over the front door echoes the shape of the bay's hipped roof. The door has a circular window, and both this and the window under the eaves are stained glass. To the north of the entrance bay is the tile-hung gable of the cross wing with windows to both ground and first floors. The earliest part of the extension to the north is in a similar style, with hipped dormer in the low catslide roof above a porch. In the south-west garden elevation the single-storey extension projects from the north end. South of this is the tile-hung gable end of the cross wing, with full- height canted bay under the gable, the first and ground-floor windows separated by a band of hung tiles. The first floor of the next two bays has small canted bay windows, hipped part dormers above a continuous roof over timber mullioned-and-transomed window and porch or small verandah. INTERIOR:  The entrance hall, except for the stair well, is lined with timber panelling to two thirds height, finished with a dentilled cornice. The upper half of the six-panelled front door contains a roundel with an Art Nouveau rose design in stained glass. Floors throughout the main rooms are parquet, and at the threshold of the front door this contrasts with pale stone slabs of the porch. To the south of the hall is the kitchen and dining area, which has been altered to form a single space, with walls substantially removed to create two wide arches: this has also removed the fireplace. The dining area was once a corridor and snug: French doors lead from the dining area onto the garden porch/verandah. To the north and west of the hall are the two main living rooms. That to the west is lit by the long wood mullioned and transomed window and a side door gives access to the garden porch. Both rooms have chamfered ceiling beams supporting joists. The north room has a brick fireplace with rusticated bands of tile and brick under a wooden mantle. The fireplace is set within an inglenook with substantial chamfered bressumer. The fireplace in the larger north room is grander, with a moulded stone Tudor arch set within a wooden frame and overmantle, the grate flanked by bricks set in a chevron pattern. To the west of the fireplace is a door concealed behind a bookcase which leads into the present physiotherapy rooms in the extension, and the reception at the front of the house. The beams and joists in the ceiling of the reception area are reclaimed timbers added recently. The timber open-well stair is located in the canted bay to the left of the entrance.  It has square newel posts terminating in hollow-chamfered tops with moulded stops, and flat balusters of alternating widths.  First-floor bay window has stained glass in the form of a rose motif similar to that in the front door.  The main bedrooms are connected by a landing and corridor which is lit by the long mullioned window in the recessed bay. Only one bedroom fireplace survives. Most internal joinery in the house is intact, including plain panelled doors with their original door furniture. All windows have their original latches. While the earlier part of the extension to the north is now integral to the appearance of the house's north-east elevation, its interior has been substantially remodelled and is not of special interest. The later flat roofed extension is not of special interest. HISTORY:  Tudor House was built in 1915 by the architect Frederick Taylor for himself, in open countryside to the south of Aylesbury: the surrounding area was developed for housing in the 1930s -1950s. Frederick was the son of the noted local architect William Taylor of Bierton, whose practice he joined in 1894. An extension to the north is built in the same style as the earlier part of the house: this end of the house is currently used as physiotherapy clinic. The 1921 OS map shows only a small projection from the south elevation; this is now a full length single storey lean-to. REASON FOR DESIGNATION: Tudor House is designated at Grade II for the following principal reasons: *         Of special architectural interest as a striking and well-composed early C20 house in the Arts and Crafts manner, designed by a notable local architect, Frederick Taylor, for his own occupation.  The elevations are well detailed, using contrasting materials to decorative effect. *          Well-preserved interiors with lavish use of woodwork and numerous original fittings of interest."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Tudor House is designated at Grade II for the following principal reasons: *         It has special architectural interest as a striking and well-composed early C20 house in the Arts and Crafts manner, designed by a notable local architect, Frederick Taylor, for his own occupation.  It is well detailed, using contrasting materials to decorative effect. *          Well-preserved interiors with lavish use of woodwork and numerous original fittings of interest, including fireplaces."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2008-03-28T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078078.json",
+  "type": "HumanMadeObject",
+  "_label": "51, Marlowes",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "51, Marlowes"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078078"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05546 07345"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355614"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346848"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078078",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 05546 07345)",
+    "defined_by": "POINT(-0.472304 51.754861)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078078",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078078",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346848",
+      "type": "HumanMadeObject",
+      "_label": "51, Marlowes (Q26346848)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078078",
+    "type": "Production",
+    "_label": "Origin / Construction of 51, Marlowes (1539)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1539",
+      "begin_of_the_begin": "1539-01-01T00:00:00Z",
+      "end_of_the_end": "1539-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-1",
+      "type": "Modification",
+      "_label": "Mid C18: Sources: Page, W, A History of the County of Hertfordshire, Vol 2, (1908) REASONS FOR DESIGNATION No 51 Marlowes, Hemel Hempstead, Hertfords…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C18",
+        "begin_of_the_begin": "1734-01-01T00:00:00Z",
+        "end_of_the_end": "1766-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-2",
+      "type": "Modification",
+      "_label": "c 1741: 51, Marlowes 894/1/21 17-FEB-77 HEMEL HEMPSTEAD MARLOWES 51 (Formerly listed as: MARLOWES 45) II The building was formerly a house, now a sh…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1741",
+        "begin_of_the_begin": "1741-01-01T00:00:00Z",
+        "end_of_the_end": "1741-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-3",
+      "type": "Modification",
+      "_label": "Early C19: 51, Marlowes 894/1/21 17-FEB-77 HEMEL HEMPSTEAD MARLOWES 51 (Formerly listed as: MARLOWES 45) II The building was formerly a house, now a sh…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-4",
+      "type": "Modification",
+      "_label": "C20: 51, Marlowes 894/1/21 17-FEB-77 HEMEL HEMPSTEAD MARLOWES 51 (Formerly listed as: MARLOWES 45) II The building was formerly a house, now a sh…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-5",
+      "type": "Modification",
+      "_label": "1908: Sources: Page, W, A History of the County of Hertfordshire, Vol 2, (1908) REASONS FOR DESIGNATION No 51 Marlowes, Hemel Hempstead, Hertfords…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078078-6",
+      "type": "Modification",
+      "_label": "Mid C20: It is probably for this reason that Hemel Hempstead suffered such extensive bomb damage during World War II and had to be re-planned in the …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C20",
+        "begin_of_the_begin": "1934-01-01T00:00:00Z",
+        "end_of_the_end": "1966-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078078",
+      "type": "VisualItem",
+      "_label": "Photograph of 51, Marlowes (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078078",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 51, Marlowes",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/51%20The%20Marlowes%2C%20Hemel%20Hempstead%2C%20August%202022.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "894/1/21 17-FEB-77 HEMEL HEMPSTEAD MARLOWES 51 (Formerly listed as: MARLOWES 45) II The building was formerly a house, now a shop dating from c1741, remodelled in the early C19 and with a C20 ground floor extension. MATERIALS The main materials are red brick exposed to the rear elevation with stucco to the principal elevation. The roof is covered with tiles. PLAN The building has a square plan with a pair of semi-circular bow windows to the principal elevation. EXTERIOR The building has three storeys and two full height bows and a hipped roof behind a low parapet. The building has 3:1:3 sash windows with glazing bars in the reveals. At first floor the bow windows have bracketed sills, surrounds, friezes and cornices.  At ground floor there is a central doorway with an open pediment on Corinthian attached columns. There is a single storey C20 Neo-Georgian style projecting shop front to the right and two-storey wing to the left which is slightly recessed. Interior not inspected. HISTORY Hemel Hempstead lies approximately 30 miles north-west of London, and while a settlement has existed there since C8, what is today known as old Hemel Hempstead has since been subsumed by the New Town's redevelopment programme of the early post-war years. The town was granted a charter by Henry VIII in 1539, and by virtue of its strategic location on the shortest route between London and the Midlands, has played a significant role in terms of transport and communications. It is probably for this reason that Hemel Hempstead suffered such extensive bomb damage during World War II and had to be re-planned in the mid C20. Sources: Page, W, A History of the County of Hertfordshire, Vol 2, (1908) REASONS FOR DESIGNATION No 51 Marlowes, Hemel Hempstead, Hertfordshire is designated at Grade II for the following principal reasons: *\tHistoric: This building, dating from the mid C18, has a substantial proportion of its original historic fabric surviving. *\tArchitectural: The building, having been remodelled in the early C19, is an evolved structure, with features such as the twin bow windows, indicative of its different stages of development and representative of architecture that is at the forefront for the period, thus adding to its architectural distinctiveness and special interest."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-02-17T00:00:00Z",
+        "end_of_the_end": "2010-07-15T23:59:59Z"
+      }
+    }
+  ]
+}

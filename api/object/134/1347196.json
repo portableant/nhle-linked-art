@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1347196.json",
+  "type": "HumanMadeObject",
+  "_label": "Flowers Farmhouse (Redbourn)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Flowers Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1347196"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09971 11041"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163708"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26630665"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1347196",
+    "type": "Place",
+    "_label": "Redbourn (TL 09971 11041)",
+    "defined_by": "POINT(-0.407054 51.787229)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1347196",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1347196",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26630665",
+      "type": "HumanMadeObject",
+      "_label": "Flowers Farmhouse (Q26630665)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1347196",
+    "type": "Production",
+    "_label": "Origin / Construction of Flowers Farmhouse (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1830",
+      "begin_of_the_begin": "1830-01-01T00:00:00Z",
+      "end_of_the_end": "1830-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347196-1",
+      "type": "Modification",
+      "_label": "c. 1830: C17 timber frame, recased in red brick c.1830.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1830",
+        "begin_of_the_begin": "1830-01-01T00:00:00Z",
+        "end_of_the_end": "1830-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347196-2",
+      "type": "Modification",
+      "_label": "Late C19: Half-bay late C19 extension on NW end.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 01 SE                    REDBOURN             HEMEL HEMPSTEAD ROAD                                                  (south east side)                                                  REDBOURN 4/170                                            Flowers Farmhouse II Farmhouse.   C17 timber frame,  recased   in red brick c.1830. Plain tile roof.   Dentilled brick eaves.   2 storeys.   3 windows, those of upper floor long Yorkshire casements with small glazing bar panes.  Ground floor has 3 broad openings with good gauged brick lintels, the door on right.   Early stack behind this door. Rear elevation with 3 similar casements in flush moulded frames. Half-bay late C19 extension on NW end. Listing NGR: TL0997111041"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-09-27T00:00:00Z"
+      }
+    }
+  ]
+}

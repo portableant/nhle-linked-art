@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1161238.json",
+  "type": "HumanMadeObject",
+  "_label": "Barn And Projecting Side Wings To North Of Pitstone Green Farmhouse (Pitstone)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Barn And Projecting Side Wings To North Of Pitstone Green Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1161238"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 93735 15640"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42132"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26454878"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161238",
+    "type": "Place",
+    "_label": "Pitstone (SP 93735 15640)",
+    "defined_by": "POINT(-0.641122 51.831519)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1161238",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1161238",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26454878",
+      "type": "HumanMadeObject",
+      "_label": "Barn And Projecting Side Wings To North Of Pitstone Green Farmhouse (Q26454878)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1161238",
+    "type": "Production",
+    "_label": "Origin / Construction of Barn And Projecting Side Wings To North Of Pitstone Green Farmhouse (C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1830",
+      "begin_of_the_begin": "1830-01-01T00:00:00Z",
+      "end_of_the_end": "1830-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161238-1",
+      "type": "Modification",
+      "_label": "c 1830: Barn has 5 C18 bays, extended 3 bays to east c1830.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1830",
+        "begin_of_the_begin": "1830-01-01T00:00:00Z",
+        "end_of_the_end": "1830-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161238-2",
+      "type": "Modification",
+      "_label": "C20: C20 open shelter to front of barn is not of special interest.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 NW              PITSTONE                   VICARAGE ROAD 4/147                                            Barn and projecting side                                                  wings to north of Pitstone                                                  Green Farmhouse. - GV                                               II Barn with projecting cowshed and stable wings, around 3 sides of farmyard.  Barn has 5 C18 bays, extended 3 bays to east c1830. Timber frame and weatherboard, tiled roof.  Projecting gabled waggon entries to bays 3 and 7.  Lean-to extensions to front of remainder, that to centre open with perches for poultry.  C18 bays have trusses with diagonal braces to tie beams, and raking queen posts.  Cowshed and stable wings are of c.1830, of pale chequer brick with tiled roofs. Left wing, of one storey, has 3 loose boxes with stable doors and slatted windows, and cowshed with 2 doors,  2 similar windows and manger inside, at N. end.  Taller right wing contains stables with hayloft above, and granary at N. end over open shelter for cattle.  3 stable doors, 2 slatted and partly glazed windows, 2 small board doors to left.  Cart shed to rear.  C20 open shelter to front of barn is not of special interest. Part of Pitstone Green Farm Museum. Listing NGR: SP9373515640"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-10-15T00:00:00Z"
+      }
+    }
+  ]
+}

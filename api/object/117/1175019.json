@@ -1,0 +1,208 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1175019.json",
+  "type": "HumanMadeObject",
+  "_label": "Bohemia Hill Farmhouse (Redbourn)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bohemia Hill Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1175019"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 10686 09899"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163757"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469669"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1175019",
+    "type": "Place",
+    "_label": "Redbourn (TL 10686 09899)",
+    "defined_by": "POINT(-0.397056 51.776824)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1175019",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1175019",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469669",
+      "type": "HumanMadeObject",
+      "_label": "Bohemia Hill Farmhouse (Q26469669)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1175019",
+    "type": "Production",
+    "_label": "Origin / Construction of Bohemia Hill Farmhouse (Late C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C15",
+      "begin_of_the_begin": "1467-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175019-1",
+      "type": "Modification",
+      "_label": "Early C16: Late C15 or early C16 hall house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1533-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175019-2",
+      "type": "Modification",
+      "_label": "C16: C16 former cross wing on E.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175019-3",
+      "type": "Modification",
+      "_label": "C17: C17 and C18 brick extensions each end to form single long range.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1175019-4",
+      "type": "Modification",
+      "_label": "C18: C17 and C18 brick extensions each end to form single long range.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 NW                    REDBOURN             HILL FARM LANE                                                  (south side) 9/217                                            Bohemia Hill Farmhouse II Farmhouse.  Late C15 or early C16 hall house.  C16 former cross wing on E.  C17 and C18 brick extensions each end to form single long range.  Painted brick.  2 storeys and attics.  N elevation has 4 bays of exposed timber frame,continuous rail and widely spaced broad studs.  Central 2 bays are the former hall, the right bay with curved braces.  Ground floor painted brick.  5 recent glazing bar casements;   C17 gabled dormer.   Brick extensions have tall plinths, the E end with C17 stack, the S end a barn.   C17 stack inserted to middle of range.   Rear has a single storey gabled projection incorporating a C17 staircase. Internally the roof structure of the central 2 bays has sooting. 2 large tie beams, formerly with curved braces.  Probably a crown post roof concealed.  Floor joists to hall section have hollow chamfers.  C17 stack near N wall. Listing NGR: TL1068609899"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-09-27T00:00:00Z"
+      }
+    }
+  ]
+}

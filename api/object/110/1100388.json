@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100388.json",
+  "type": "HumanMadeObject",
+  "_label": "Verlam Cottage (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Verlam Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100388"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07895 14663"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157828"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392565"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100388",
+    "type": "Place",
+    "_label": "Flamstead (TL 07895 14663)",
+    "defined_by": "POINT(-0.436013 51.820186)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100388",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100388",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392565",
+      "type": "HumanMadeObject",
+      "_label": "Verlam Cottage (Q26392565)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100388",
+    "type": "Production",
+    "_label": "Origin / Construction of Verlam Cottage (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Early C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1633-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100388-1",
+      "type": "Modification",
+      "_label": "C17: 2 large square internal chimneys the southern chimney older and probably the survivor of a 3 cells lobby-entry C17 plan arrangement.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100388-2",
+      "type": "Modification",
+      "_label": "Late C18: Early C17, brick cased and subdivided in late C18, rear wing and made again into one house in later C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100388-3",
+      "type": "Modification",
+      "_label": "C20: Early C17, brick cased and subdivided in late C18, rear wing and made again into one house in later C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             RIVER HILL TL 0714                                        (West side) 9/48                                   Verlam Cottage - GV                  II House, sometime  4 cottages, now one house. Early C17, brick cased and subdivided in late C18, rear wing and made again into one house in later C20. Timber frame, red brick ground floor walls in Flemish-bond, upper floor cased in brick-on-edge. Steep old red tile roof. A 2-storeys 6-windows long house, set well back from street, facing E, with catslide rear outshut and lower gabled rear wing with porch and new entrance in rear  angle.  E  front has  6  2-lights  small-pane  sliding Yorkshire casements under the eaves. 4 3-lights similar windows to ground floor with cambered arches. Similar arches to 2 blocked and 2 plank doors in heavy frames. Rear has cast-iron small-pane, casements in heavy wooden frames. 2 large square internal chimneys the southern chimney older and probably the survivor of a 3 cells lobby-entry C17 plan arrangement. Interior has chamfered axial beams with hollow stops. Jowled posts and clasped-purlin roof with straight wind-braces and squint-butted scarf joint in wallplate. Listing NGR: TL0789514663"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100376.json",
+  "type": "HumanMadeObject",
+  "_label": "Beechwood Park School And Walls Of Walled Garden Adjoining (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Beechwood Park School And Walls Of Walled Garden Adjoining"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100376"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 04535 14478"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157786"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q4879693"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100376",
+    "type": "Place",
+    "_label": "Flamstead (TL 04535 14478)",
+    "defined_by": "POINT(-0.484799 51.819161)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100376",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100376",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Beechwood_Park_(mansion)",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Beechwood Park",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Beechwood_Park%2C_Hertfordshire",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q4879693",
+      "type": "HumanMadeObject",
+      "_label": "Beechwood Park (Q4879693)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100376",
+    "type": "Production",
+    "_label": "Origin / Construction of Beechwood Park School And Walls Of Walled Garden Adjoining (c. 1120)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/thomas-cundy",
+        "type": "Person",
+        "_label": "Thomas Cundy"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/william-burn",
+        "type": "Person",
+        "_label": "William Burn"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1664",
+      "begin_of_the_begin": "1664-01-01T00:00:00Z",
+      "end_of_the_end": "1664-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-1",
+      "type": "Modification",
+      "_label": "1537: Giles in the Wood (Benedictine Nuns) founded c.1120 suppressed 1537 the buildings of which stood some 100M to E of the present house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1537",
+        "begin_of_the_begin": "1537-01-01T00:00:00Z",
+        "end_of_the_end": "1537-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-2",
+      "type": "Modification",
+      "_label": "1539: Circa 1664 for Thomas Saunders (d.1693) probably incorporating part of an earlier house built for Sir Richard Page (d.1548) who was granted …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1539",
+        "begin_of_the_begin": "1539-01-01T00:00:00Z",
+        "end_of_the_end": "1539-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-3",
+      "type": "Modification",
+      "_label": "1548: Circa 1664 for Thomas Saunders (d.1693) probably incorporating part of an earlier house built for Sir Richard Page (d.1548) who was granted …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1548",
+        "begin_of_the_begin": "1548-01-01T00:00:00Z",
+        "end_of_the_end": "1548-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-4",
+      "type": "Modification",
+      "_label": "C17: Totternhoe stone stepped quoins at angles, flush with English-bond C17 brickwork, with remains of C18 tuck-pointing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-5",
+      "type": "Modification",
+      "_label": "Early C17: Interiors: of C17 house the housemasters' room has early C17 oak scratch moulded oak panelling on 3 walls, a 4-centred moulded stone firepla…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-6",
+      "type": "Modification",
+      "_label": "1663: Hearth tax 1663 showed 9 hearths: in 1673, 13 hearths.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1663",
+        "begin_of_the_begin": "1663-01-01T00:00:00Z",
+        "end_of_the_end": "1663-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100376-7",
+      "type": "Modification",
+      "_label": "1664: Circa 1664 for Thomas Saunders (d.1693) probably incorporating part of an earlier house built for Sir Richard Page (d.1548) who was granted …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1664",
+        "begin_of_the_begin": "1664-01-01T00:00:00Z",
+        "end_of_the_end": "1664-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100376",
+      "type": "VisualItem",
+      "_label": "Photograph of Beechwood Park School And Walls Of Walled Garden Adjoining (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100376",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Beechwood Park School And Walls Of Walled Garden Adjoining",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/BeechwoodParkSchool.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             BEECHWOOD PARK TL 01 SW                                        (West side) 3/10                                   Beechwood Park School and walls of 22.10.52                               walled garden adjoining (formerly                                        listed as Beechwood Park) GV                                     I Country house, now a school. Circa 1664 for Thomas Saunders (d.1693) probably  incorporating  part  of  an  earlier  house  built   for Sir Richard Page (d.1548) who was granted in exchange for his lands by Henry VIII in 1539 the lands of the Priory of St. Giles in the Wood (Benedictine Nuns) founded c.1120 suppressed 1537 the buildings of which stood some 100M to E of the present house. Hearth tax 1663 showed 9 hearths: in 1673, 13 hearths. In late C17 Chauncy notes 'the Manor House is a fair brick house of the figure of a Roman H' (Chauncy Hist of Herts II, 511-3). Front block added forming a closed courtyard 1695-1702 for Sir Edward Sebright  3rd  Baronet  who  had  married  Ann  Saunders. 'S/E.A/1702' on rainwater pipes of front block. Circa 1744 a Great Room was  added  to  the  NW,  facing  W  attributed  to  Roger Morris  for Sir Thomas Sebright   (J  Lees  Milne  English Country Houses: Baroque (1970)263). During the 1760s and 1770s some interiors were remodelled by Sir William Chambers, and the N and S pavillions were added to the E front after unexecuted schemes had been prepared by Lancelot Brown (1754) and Mathew Brettingham (c.1759). The grounds landscaped by Brown in 1750s. By c.1800 a cupola had been removed from the centre of the house. The Great Room was remodelled as the library 1804 by Thomas Cundy after earlier schemes by Sir John Soane and Alexandre-Louis de Labriere (RCHM Typescript). In 1851-4 the courtyard was roofed by William Burn as a saloon (with chimneypiece and doorcases c.1860s carved by Barbetti) for Sir Thomas Gage Saunders Sebright 8th Baronet, who also in 1863 formed the 3 arches in the rearwall of the entrance hall and had a lean-to roof put on the library. In the later 1860s for Sir John Gage Saunders a billiard room and new stables was grouped round the N courtyard and a clock tower and service buildings to SW of house. In 1905 M.H. Judge and Sons architects converted the billiard room to coach house and the chapel to a Motor House for G.C. McCorquerdale Esq. Front block restored 1933 for Sir Giles Sebright 12th Baronet. 1964 opened as a school. The oldest parts in red brick and English-bond with stone quoins and steep pitched roofs now slated. Front block in chequered red and purple brick with stone dressings, stucco window surrounds and steep pitched hipped old red tile roof above wooden eaves cornice. C18 N and S pavilions in red brick, English-bond, with stone dressings and hipped slate roofs. Plum brick and hipped slate roofs to N stable court and S service wing. Library wing is red brick with Portland stone dressings and lean-to slate roof behind parapet. The 1664 2 storeys and attics house had a main range facing E flanked by N and S crosswings projecting more to E than to W. 2 large external lateral chimneys remain symmetrically placed on W front capped off at the eaves. Staircase in middle of each wing (N wing more elaborate) and tall diagonally set chimney shafts in groups on N side of N wing and S side of S wing. Partly blocked hollow moulded mullioned and transomed stone windows in N and S wings and oak panelled room with stone fireplace in S wing (housemasters' room). The stone quoins of S wing were uncovered during C20 alterations to the saloon. Central E entrance probably led into hall extending to N, with kitchen etc. a S wing. Parlour probably to S of hall. Taller new F front block of 1695-1702 U-shaped with grand front range, short wings at NW and SW linking to wings of old house, and shallower stair hall between, lit from courtyard and originally with cupola over. Entrance up steps central on E into large nearly square entrance hall with fireplace on S and access to stair at rear. To N and S 2 large reception rooms, Dining Room on S now Staff Common Room, and Drawing Room on N, both possibly enlarged by taking in small end corner rooms during alterations in mid C18. The addition in 1740s of the tall single-storey Great Room to the N end of the old house was presumably the start of a redevelopment of the W front abandoned when the E front was extended c.1760s by N and S pavilions linked by short arcades (replaced in C19 by recessed linking-blocks) with a new kitchen and offices in S pavilion and a chapel in N pavilion. In 1804 the Great Room was remodelled as the library. After 1850 the open central courtyard, with covered passage across, was replaced by a top-lit saloon rising through 2-storeys, the central part of the old house was remodelled as a single large room on ground floor with a central stone bay window set out between the projecting W chimney stacks, and 3 arches were formed to link the entrance hall to stairhall and the new saloon. Since 1964 the school have moved the elaborate Renaissance style carved chimneypiece by Barbetti from the S end of the saloon and it now forms the altarpiece of a chapel in the recess facing the foot of the main stair.  The saloon is now the Great Hall, and the large room in the central part of the old house the Dining Room. Subdued brick and tile low buildings have been built in the walled gardens linked to the house on the SW to replace a block of temporary buildings at rear. Symmetrical E front has tall central chequered brick block of 2-storeys and attics raised on a high plinth. 9 windows long with 6 pedimented dormers on the steep roofslope. Double-chamfered stone plinth, stone plat-band,  deep modillioned wooden eaves cornice.  3-windows central pedimented projection with stone quoins, and same at corners of block. 6 broad stone steps and landing with iron handrail, to central doorway. Moulded stone surround with Corinthian fluted pilasters and broken segmental pediment, half glazed double doors. Triangular pediment to roof has cartouche of Sebright arms flanked by putti. Recessed tall sash windows with 6/6 panes and V-jointed stepped rustication at jambs. Head has stucco chamfered rusticated applied flat arch with raised keystone. The upper edges of the voussoir flanking the keystone have been cut down to give it more prominence. Windows on the N and S ends of the block have similar rusticated surrounds but a chamfered lintel in stucco with raised keystone no deeper or higher than the lintel. (This may be the alteration to the front windows made in the earlier C20 rather than the addition then of these lively window surrounds as suggested by Pevsner). Iron guards to lower part of each window. Sash windows with 8/8 panes to dormers. The ends of this block continue the architectural treatment of the front, with 2 similar sash windows to each floor and 3 dormer windows  with  sashes  and  triangular  pediments  on  the  roofslope. Rectangular rainwater pipes around the block have a decorative garland in relief on each length between eared brackets, and '1702' and 'S/E.A'. One replacement pipe at S end has 'SHS/1962'. Matching, hip-roofed N and S pavilions linked by recessed lower 2-storeys, 3 windows wide brick and slate  blocks.  2-storeys,  5  windows  long with  slightly  projecting 3-windows centre topped by a triangular pediment. Stepped rusticated stone quoins,  double-chamfered stone plinth, hollow chamfered stone plat-band, and moulded stucco cornices. Flat gauged arches to recessed sash windows of 3/3 panes to 1st floor and 6/6 panes below. Extending to N the plum brick screen wall with central iron gates to N stable yard with red brick gate  piers with stone  plinths,  caps  and  finials. L-shaped 2-storeys plum brick stables and coach house with hipped slate roofs, red brick gauged arches, sash windows with 8/8 panes to ground floor and 8-panes pivoted upper windows. The tall square clock tower set back among kitchen buildings at S end is in similar plum brick with a pyramidal metal roof with vane. Moulded stone frame to circular dial on each face with a bell on a bracket on each face below. Although fixed here in 1860s the clock is marked Northampton 1764 and presumably came from the Worcestershire estates of the Sebright family. At the N part of the W or garden front is the distinguished facade of Roger Morris's Great Room. A tall single-storey with parapet, 4 windows with N window designed as an entrance to a vestibule to the 3-bays Great Room, with swept architraves carried lower. Tuck-pointed red brick and Portland stone. Low stone plinth, plain stone projecting dado band, and very deep modillioned cornice, frieze and moulded architrave in painted wood. 4 equally-spaced very tall windows with Portland stone moulded and carved surrounds each with pulvinated frieze and triangular pediment with egg-and-dart  bedmould  and  enriched  architrave  with  bead-and-reel. Architraves sweep out at base to meet plain sill projecting flush with stone plinth. Tall cross-windows and glazed double doors to vestibule. To the S the old house of 2-storeys and attics has gabled 2 windows wide wings projecting symmetrically each end of 4 windows centre. Plinth faced in C18 with Portland stone slabs with tooled margins similar to Great Room, stone plat-band, with an upper band across gables of wings at eaves level stepping up over 1st floor windows. Totternhoe stone stepped quoins at angles, flush with English-bond C17 brickwork, with remains of C18 tuck-pointing. Carved bargeboards with moulded pendants probably mid C19 by William Burn along with central large stone canted bay window up 3 steps with flat roof and 2-light casement windows with plate glass,  set between twin projecting massive chimneys with the plat-band continued across them. Small 2-light windows in gable tops, cross-windows with plate glass casements and flat gauged arches in red brick. C19, lower, plum brick, slated buildings extend to S. 4M high red brick C17 and C18 garden walls extend from S part of house to form a polygonal enclosure to SW with 2 similar cross-walls within. Interiors: of C17 house the housemasters' room has early C17 oak scratch moulded oak panelling on 3 walls, a 4-centred moulded stone fireplace with foliate spandrels and stops half-way up the jambs. Arcaded carved oak Jacobean overmantle with terms between the round arches,  deep cresting dentilled and  corbelled with 4  foliate brackets.  Moulded panelled strip and shelf over fireplace an insertion. Panelling on W wall much made-up. The features of this room pre-date the rebuilding of 1664. More typical of that date are the N staircase in oak with closed string, dumpy balusters, heavy moulded rail and heavy square newels with finials. Bolection moulded dado on walls probably added. Top of S staircase has simple heavy rail, balustrade infilled, and rectangular heavy newel with ogee finial. It is lit by a hollow chamfered 2-light stone mullioned window. Roof structure of butt-purlin construction, S wing has in attics plank doors with old iron hinges. E entrance hall has freestone floor, bolection moulded panelling, moulded skirting and cornice, and projecting chimney breast on S with grey marble surround. Large room on S designed by Chambers as Dining Room has 3 windows, deep enriched dentilled cornice with egg-and-dart. Moulded skirting and dado rail. 4 moulded doorcases with 6-panels fielded doors and cyma frieze to cornice over. Tall sash windows in moulded surrounds with fielded panels to reveals and shutters. Chimneypiece by Chambers in veined and yellow marble. Tall fluted consoles carry a full entablature breaking forward over each in a frieze block with patera. Central block with relief carved gadrooned urn and bedmould of cornice breaking forward over it. Black iron inset and barred grate. Corresponding 3-windows N room, the Drawing Room similar but more elaborate, cornice enriched. 3 6-panels doors with enriched moulded surrounds and dentilled cornice to enriched cyma frieze. Full dado with enriched moulding to skirting and capping rail. White marble chimneypiece attributed to Borri. Scallop and wreath in relief on pilasters, Greek wave moulding carved along architrave, garlanded frieze, and enriched cornice breaking forward over central block carved in relief with a head in a sunburst. Steel and brass inset with paterae, and basket grate. A ceiling with papier mache decoration had to be taken down in the 1960s. Main staircase with cut string, scrolls to treads and twisted balusters, 2 per tread, moulded rail, and panelled dado to wall. The large rectangular saloon of 1851-4 has an arcaded gallery of 5 x 3 arches at 1st floor level above the plain walls of the lower part with double doors in elaborate carved doorcases by Barbetti on N, E, and W. 2 doors on S formerly flanked a chimneypiece now  in  chapel.  Elaborate  plasterwork  ceiling  by James Annan with rooflight. Deep enriched cornice interrupted by consoles with lion masks supporting coved and beamed ceiling. In the tall 3-windows library the ceiling has a deep cove springing from an egg-and-dart carved band which probably remains from the 1740s interior. A band with scale decoration and paterae blocks at corners has been added on the ceiling next the cove. Above the bookcases on the wall can be seen painted decoration to represent oak panelling. Oak bookcases with swept corners, reeded frieze with ormolu anthemion ornament and central lozenge to each bay with index letter. Central on E wall a grey marble chimneypiece (Pevsner attributes it to M. Labriere) with segmental opening and fluted quadrant convex corners. Axial double oak doors to N and S. Those to N give onto former vestibule  now  the  Inner Library  also  1804  by  Cundy with white-painted panelling and bookcases  in Empire  style with ormolu ornament of anthemion motif and acroteria. White marble fireplace on N side with ormolu mounts. Winged-rod and serpent motif on panels. Glazed doors to garden: mirrored doors opposite on E to corridor. Enriched coved cornice. Doors at S end of main library give onto a panelled passage with recesses for an outer pair of doors to close into, which lead into a vestibule, now the English room, with detailing similar to library, with similar bookcase, double doors on S wall to present Dining Room, swept corners to W wall with 2 openings now a door and window, plaster cornice of upright leaves, and 4 panels door on E with echinus moulding and narrow reeded architrave. (VCH (1908)196: Country Life 12 and 19 Nov 1938: Pevsner (1977)91-3: RCHM Typescript: ex inf headmaster Mr. Higgs). Listing NGR: TL0453514478"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

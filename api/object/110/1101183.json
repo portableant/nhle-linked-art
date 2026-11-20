@@ -1,0 +1,261 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101183.json",
+  "type": "HumanMadeObject",
+  "_label": "Martins (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Martins"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101183"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01674 08778"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157986"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394325"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101183",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01674 08778)",
+    "defined_by": "POINT(-0.52796 51.768456)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101183",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101183",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394325",
+      "type": "HumanMadeObject",
+      "_label": "Martins (Q26394325)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101183",
+    "type": "Production",
+    "_label": "Origin / Construction of Martins (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1808–1889",
+      "begin_of_the_begin": "1808-01-01T00:00:00Z",
+      "end_of_the_end": "1889-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-1",
+      "type": "Modification",
+      "_label": "Early C17: hall floored and SW wing added early C17;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-2",
+      "type": "Modification",
+      "_label": "1607: The house was owned by the Ewar family in a survey of 1607, changed hands to Howe family in 1669, formed part, of the bequest forming the Ba…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1607",
+        "begin_of_the_begin": "1607-01-01T00:00:00Z",
+        "end_of_the_end": "1607-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-3",
+      "type": "Modification",
+      "_label": "c. 1620: Interior has exposed timber frame and floor beams of a 3-bays house with full-height structural partitions defining a central hall-bay presu…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1620",
+        "begin_of_the_begin": "1620-01-01T00:00:00Z",
+        "end_of_the_end": "1620-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-4",
+      "type": "Modification",
+      "_label": "1669: The house was owned by the Ewar family in a survey of 1607, changed hands to Howe family in 1669, formed part, of the bequest forming the Ba…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1669",
+        "begin_of_the_begin": "1669-01-01T00:00:00Z",
+        "end_of_the_end": "1669-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-5",
+      "type": "Modification",
+      "_label": "1782: The house was owned by the Ewar family in a survey of 1607, changed hands to Howe family in 1669, formed part, of the bequest forming the Ba…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1782",
+        "begin_of_the_begin": "1782-01-01T00:00:00Z",
+        "end_of_the_end": "1782-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-6",
+      "type": "Modification",
+      "_label": "C19: Taller C19 gabled rear wing projects further, with gabled porch, 2 flush sash windows to 1st floor with 8/8 panes, similar to right of porch…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101183-7",
+      "type": "Modification",
+      "_label": "1808–1889: stair hall, rear parlour and chamber over probably in stages in mid C19 (for John Edward Lane (1808-1889) who is recorded as making alterati…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1808–1889",
+        "begin_of_the_begin": "1808-01-01T00:00:00Z",
+        "end_of_the_end": "1889-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW         NETTLEDEN WITH         THE GREEN                  POTTEN END             (South side)                                         Potten End 5/205                                   Martins - -                                       II House. Later C16; hall floored and SW wing added early C17; stair hall, rear parlour and chamber over probably in stages in mid C19 (for John Edward Lane (1808-1889) who is recorded as making alterations in 1839 when he first leased the house and more extensive works in 1853 when he added porches, roughcast the whole building and replaced old leaded casements by sash windows); C20 lower E end extension. Timber frame on black stucco plinth, rendered and lined as ashlar, Victorian rear part of red brick similarly rendered. Steep old red tile roofs with half-hip at W end. A 2-storeys house facing N, set back from road, formerly facing onto common. 4 upper windows, 3 ground floor windows and one in lean-to enclosed porch. Flush Yorkshire sliding casements with small panes, but casements to left of porch. W gable end has 2 flush 2-light casements to 1st floor and 3-light Yorkshire sliding casement to ground floor. 2-storeys, one-bay SW wing has lower floor level, triple casement to 1st floor on W side with a 5-light Yorkshire sliding casement below. Its S gable end has 2-light Yorkshire sliding casement to 1st floor and 3-light below. Original ceiling beam suggests this wing had a garret in the roof. Taller C19 gabled rear wing projects further, with gabled porch, 2 flush sash windows to 1st floor with 8/8 panes, similar to right of porch protecting a half-glazed panelled door. One sash window to each floor on E flank of C19 wing. C20 E extension has 2-storeys on N front but runs down to 1½ storeys at rear with a gabled dormer above the French doors. Interior has exposed timber frame and floor beams of a 3-bays house with full-height structural partitions defining a central hall-bay presumably open to the roof until a floor was inserted carried on an axial beam with ovolo moulding and bar-stops dateable to c.1620. The end-bays have chamfered axial beams with hollow stops and squared joists are exposed in W bay. Jowled posts, straight braces, straight tension braces in rear wall, squint-butted scarf joints in wallplates, wide-spaced wall-studs,  curved  tension braces  in partition walls. Clasped-purlin roof with straight and curved wind-braces, collar and queen-strut trusses. Ovolo moulded axial beam on 1st floor of SW wing similar to that in hall but with hollow stops. A cross-passage is partitioned from the E end of the hall bay but this arrangement may date only from C19. Internal chimney between W and middle bay: rear lateral chimney to E bay: chimney at junction of SW wing with main house. The house was owned by the Ewar family in a survey of 1607, changed hands to Howe family in 1669, formed part, of the bequest forming the Balshaw Charity in 1782 and was sold to the Ashridge Estate in 1863. A plant and tree nursery business was started in 1858 by John Edward Lane who was already living in the house, and this became the celebrated Balshaw Nurseries of Potten End. (Bryant (1982) III 2, VI 5). Listing NGR: TL0167408778"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

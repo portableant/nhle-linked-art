@@ -1,0 +1,219 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348039.json",
+  "type": "HumanMadeObject",
+  "_label": "War Memorial Cross In Churchyard 30 Metres To East Of Chancel (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "War Memorial Cross In Churchyard 30 Metres To East Of Chancel"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348039"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02905 11272"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157880"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631455"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348039",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 02905 11272)",
+    "defined_by": "POINT(-0.509389 51.790648)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348039",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348039",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Great_Gaddesden_War_Memorial_Cross",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631455",
+      "type": "HumanMadeObject",
+      "_label": "Great Gaddesden War Memorial Cross (Q26631455)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348039",
+    "type": "Production",
+    "_label": "Origin / Construction of War Memorial Cross In Churchyard 30 Metres To East Of Chancel (1914)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348039-1",
+      "type": "Modification",
+      "_label": "1918: Beside 18 names and regiments, the primary inscription reads 'IN MEMORY/OF THE MEN/OF THIS PLACE/WHO FELL/IN THE/GREAT WAR/1914/1918'.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1918",
+        "begin_of_the_begin": "1918-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348039-2",
+      "type": "Modification",
+      "_label": "1920: Circa 1920, to a standard design by Sir Reginald Blomfield, called 'The Cross of Sacrifice'.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348039-3",
+      "type": "Modification",
+      "_label": "after 1939–1945: Second inscription added after 1939-1945 war.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "after 1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348039",
+      "type": "VisualItem",
+      "_label": "Photograph of War Memorial Cross In Churchyard 30 Metres To East Of Chancel (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348039",
+          "type": "DigitalObject",
+          "_label": "Commons Image for War Memorial Cross In Churchyard 30 Metres To East Of Chancel",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/GOC%20Studham%20033%20Great%20Gaddesden%20War%20Memorial%20Cross%20%288662927610%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GREAT GADDESDEN TL 01 SW (North side) 3/101                                   War Memorial Cross -                                       in churchyard 30m to East of chancel GV                                      II War Memorial Cross. Circa 1920, to a standard design by Sir Reginald Blomfield, called 'The Cross of Sacrifice'. Second inscription added after 1939-1945 war. Portland stone with bronze sword fixed to cross. About 4.5m high, facing E, the monument consists of a tapering cross of chamfered rectangular section with expanded ends to top and arms, moulded base, tall inscribed plinth of elongated octagonal plan, 2 high steps above 2 low steps, all of similar plan. The bronze sword, about two-thirds the height of the cross shaft, has a fluted grip, ogee domed pommel,  simple cross-guard with central boss and 3-lobed ends, and pronounced central rib to blade. Beside 18 names and regiments, the primary  inscription reads  'IN MEMORY/OF THE MEN/OF THIS  PLACE/WHO FELL/IN THE/GREAT WAR/1914/1918'. At base of plinth 'LET US GIVE / HUMBLE THANKS /TO ALMIGHTY GOD /FOR VICTORY '. Listing NGR: TL0290511272 This List entry has been amended to add sources for War Memorials Online and the War Memorials Register. These sources were not used in the compilation of this List entry but are added here as a guide for further reading, 14 March 2017."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

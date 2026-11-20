@@ -1,0 +1,285 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1436994.json",
+  "type": "HumanMadeObject",
+  "_label": "Hemel Hempstead War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Hemel Hempstead War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1436994"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0522506189"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66477759"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1436994",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0522506189)",
+    "defined_by": "POINT(-0.477302 51.744531)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1436994",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1436994",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Hemel_Hempstead_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66477759",
+      "type": "HumanMadeObject",
+      "_label": "Hemel Hempstead War Memorial (Q66477759)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1436994",
+    "type": "Production",
+    "_label": "Origin / Construction of Hemel Hempstead War Memorial (1914–1919)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-1",
+      "type": "Modification",
+      "_label": "1921: Erected in 1921, after the First World War, with the names of the Fallen of the Second World War, Malayan Emergency, Aden Emergency, Falklan…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-2",
+      "type": "Modification",
+      "_label": "1939–1945: The plinth is inscribed 1939 – 1945 on each side and carries four tablets inscribed with the names of 151 residents that died during the Sec…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-3",
+      "type": "Modification",
+      "_label": "1948–1960: Following the Second World War, Malayan Emergency (1948-1960), Aden Emergency (1963-1967), Falklands War (1982) and the war in Afghanistan (…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1948–1960",
+        "begin_of_the_begin": "1948-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-4",
+      "type": "Modification",
+      "_label": "1951–1953: The plinth is inscribed 1939 – 1945 on each side and carries four tablets inscribed with the names of 151 residents that died during the Sec…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1951–1953",
+        "begin_of_the_begin": "1951-01-01T00:00:00Z",
+        "end_of_the_end": "1953-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-5",
+      "type": "Modification",
+      "_label": "1963–1967: Following the Second World War, Malayan Emergency (1948-1960), Aden Emergency (1963-1967), Falklands War (1982) and the war in Afghanistan (…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1963–1967",
+        "begin_of_the_begin": "1963-01-01T00:00:00Z",
+        "end_of_the_end": "1967-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-6",
+      "type": "Modification",
+      "_label": "1965: The plinth is inscribed 1939 – 1945 on each side and carries four tablets inscribed with the names of 151 residents that died during the Sec…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1965",
+        "begin_of_the_begin": "1965-01-01T00:00:00Z",
+        "end_of_the_end": "1965-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436994-7",
+      "type": "Modification",
+      "_label": "1982: The plinth is inscribed 1939 – 1945 on each side and carries four tablets inscribed with the names of 151 residents that died during the Sec…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1982",
+        "begin_of_the_begin": "1982-01-01T00:00:00Z",
+        "end_of_the_end": "1982-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1436994",
+      "type": "VisualItem",
+      "_label": "Photograph of Hemel Hempstead War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1436994",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Hemel Hempstead War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Hemel%20Hempstead%20War%20Memorial%2C%20April%202024%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial, with later additions for subsequent conflicts. Erected in 1921, after the First World War, with the names of the Fallen of the Second World War, Malayan Emergency, Aden Emergency, Falklands War and Afghanistan conflict subsequently added."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "First World War memorial, with later additions for subsequent conflicts. Erected in 1921, after the First World War, with the names of the Fallen of the Second World War, Malayan Emergency, Aden Emergency, Falklands War and Afghanistan conflict subsequently added. MATERIALS: carved from limestone. DESCRIPTION: the war memorial stands on a green at the corner of St John’s Road and Station Road, adjacent to the churchyard of the Church of St John the Evangelist. The memorial comprises a St Chad’s cross set on the capital of an octagonal column with a moulded and stepped base. It is supported by a square pedestal, a low chamfered plinth and a two-tier stepped base. An inscription in black lettering runs around the four faces of the base of the column SACRIFICE/ 1914-1919,/ HONOUR/ VALOUR/ VICTORY. On the pedestal beneath it are limestone tablets bearing the names of 356 residents that died during the First World War. The plinth is inscribed 1939 – 1945 on each side and carries four tablets inscribed with the names of 151 residents that died during the Second World War, and four tablets inscribed MALAYA 1951-1953/ NAMES, ADEN 1965/ NAME, SOUTH ATLANTIC 1982/ NAMES, AFGHANISTAN 2001-/ NAMES, and AFGHANISTAN 2001/ NAME. There are the names of two residents that lost their lives during the Malayan Emergency, one resident during the Aden Emergency, two residents during the Falklands War, and three residents during the war in Afghanistan. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 12 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Hemel Hempstead War Memorial, erected in 1921, is listed at Grade II for the following principal reasons: *     Historic interest: as a war memorial that has strong cultural and historic significance within both a local and national context; *     Commemorative: it forms a poignant reminder of the tragic impact of world events on the local community, and the sacrifice it made during the First and Second World War, as well as several subsequent conflicts; *     Design: a well-crafted St Chad’s Cross carved from limestone and set upon the capital of an octagonal column, which in-turn rests on a pedestal, chamfered plinth and stepped base; *     Group value: with the Grade II-listed Church of St John the Evangelist."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw the biggest single wave of public commemoration ever with tens of thousands of memorials erected across England. One such memorial was erected in 1921 to commemorate 356 residents of Hemel Hempstead who died during the conflict. It was unveiled on 26 June 1921 by Lieutenant-Colonel Lovel Francis Smeethman, son of Lovel Smeathman, the town solicitor. He had lost two brothers during the war, both of which are recorded on the memorial. Following the Second World War, Malayan Emergency (1948-1960), Aden Emergency (1963-1967), Falklands War (1982) and the war in Afghanistan (2001-2014), tablets were added to commemorate those that lost their lives during those conflicts. The memorial was moved from its original location near a road intersection at the centre of Hemel Hempstead prior to 2003."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-10-21T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1295726.json",
+  "type": "HumanMadeObject",
+  "_label": "Barn At Hudnall Farm (15 Metres To South East Of House) (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Barn At Hudnall Farm (15 Metres To South East Of House)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1295726"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0054312884"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157715"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26583434"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1295726",
+    "type": "Place",
+    "_label": "Little Gaddesden (TL0054312884)",
+    "defined_by": "POINT(-0.543156 51.805566)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1295726",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1295726",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26583434",
+      "type": "HumanMadeObject",
+      "_label": "Barn At Hudnall Farm (15 Metres To South East Of House) (Q26583434)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1295726",
+    "type": "Production",
+    "_label": "Origin / Construction of Barn At Hudnall Farm (15 Metres To South East Of House) (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Early C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1633-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295726-1",
+      "type": "Modification",
+      "_label": "Late C17: Early C17, N bay late C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tHUDNALL COMMON TL 01 SW   \t\t\t\t\t(West side) 2/184                                   \tBarn at Hudnall Farm -                                       \t(15m to SE of house) GV                                      \tII Barn. Early C17, N bay late C17. Timber frame on low brick sill, dark weatherboarded with steep old red tile roofs, barn hipped at N end. A 4-bay barn facing W with gabled porch to 2nd bay from S and later heavily framed one-bay extension at N end. Jowled posts and heavy curved braces  to  tie-beams.   Squint-butted  scarf  joint  in  wallplate. Clasped-purlin collar and tie-beam roof with one purlin to each slope. Butt-purlin roof in hipped N extension. Barn said to have been used during World War II for HM George VI to lunch with his officers, when the area was used for training. Winnowing door on E side of mid storey, and high pitching doors to side bays. Listing NGR: TL0054312884"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

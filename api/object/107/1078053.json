@@ -1,0 +1,186 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078053.json",
+  "type": "HumanMadeObject",
+  "_label": "The Wellhouse At Number 5 (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Wellhouse At Number 5"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078053"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9643912480"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355652"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346739"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078053",
+    "type": "Place",
+    "_label": "Aldbury (SP9643912480)",
+    "defined_by": "POINT(-0.602772 51.802656)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078053",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078053",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346739",
+      "type": "HumanMadeObject",
+      "_label": "The Wellhouse At Number 5 (Q26346739)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078053",
+    "type": "Production",
+    "_label": "Origin / Construction of The Wellhouse At Number 5 (Mid C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078053-1",
+      "type": "Modification",
+      "_label": "1980: (RCHM Typescript: Davis (1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 9612 (West side) 12/16                                  The Wellhouse 14.3.72                                at No. 5 GV                                     II Wellhouse and communal bakehouse. Mid C19 for Brownlow estate. Oak timber frame on chamfered red brick base with square stone pads for posts, fine-jointed white brick infill between posts, and steep red tiled roof with tiled ridges, hipped at W, and semi-octagonal apse at E end  over  open  galleried wellhouse.  An  ornate  small  single-storey building isolated to E of Chantry Cottages orientated E-W with very tall octagonal white brick chimney rising from E end of ridge serving the bakehouse entered from W end by framed plank door in heavy frame. Small 2-light window in each sidewall, interrupted by the chamfered oak posts of  the  building.  Turned  balusters  and  moulded  handrails  between chamfered posts to open semi-octagonal E end with straight braces to wallplate. Ornate oak frame over well with moulded crosspiece between posts with turned knobs. Spindle with winding-drum, rope, and bucket, turned by S-handle at S end and 4-spoked flywheel with handle at N. Access gate in S side of balustrade. Formerly a well to Chantry Farm. (RCHM Typescript: Davis (1980) No. 36). Listing NGR: SP9643912480"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1972-03-14T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

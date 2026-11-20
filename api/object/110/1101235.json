@@ -1,0 +1,202 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101235.json",
+  "type": "HumanMadeObject",
+  "_label": "St Margaret'S House (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "St Margaret'S House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101235"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02206 11338"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157905"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394431"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101235",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 02206 11338)",
+    "defined_by": "POINT(-0.5195 51.791369)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101235",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101235",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394431",
+      "type": "HumanMadeObject",
+      "_label": "St Margaret's House (Q26394431)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101235",
+    "type": "Production",
+    "_label": "Origin / Construction of St Margaret'S House (Early C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101235-1",
+      "type": "Modification",
+      "_label": "C18: RH door now a window: LH door in use with C18 raised and fielded 4-panel door under small gabled porch.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101235-2",
+      "type": "Modification",
+      "_label": "C19: Early C18, converted to 2 houses in C19, united and S wing added c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101235-3",
+      "type": "Modification",
+      "_label": "c. 1980: Early C18, converted to 2 houses in C19, united and S wing added c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        ST. MARGARET'S TL 01 SW                                         (West side) 3/126                                   No. 5                                         (St. Margaret's House) GV                                      II House. Early C18, converted to 2 houses in C19, united and S wing added c.1980. Red brick with steep old red tile roof. Some timber framing in N gable. A small 2-storeys house of 2 structural bays, facing E, with rear outshut, end chimneys, and 2 storeys gabled S wing projecting to front. The wing has a casement window on each floor. The main house has segmental arches to all windows, 3 1st floor casement windows of 2:1:2 lights. 2 2-light windows to ground floor and formerly 2 doors between them. RH door now a window: LH door in use with C18 raised and fielded 4-panel door under small gabled porch.  The offset plinth continues inside the rear outshut which probably is not original. The interior has exposed joists on both floors indicating former attics above. Axial beams above ground floor: cross beams above 1st floor. Inserted stair in LH part cuts through chamfer of axial beam showing it is not original. Clasped-purlin 2-bays roof structure with inclined straight queen-posts to central truss  (without collar)  and straight wind-braces to the purlins of large scantling. Formerly numbered 5, and 6. Listing NGR: TL0220611338"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

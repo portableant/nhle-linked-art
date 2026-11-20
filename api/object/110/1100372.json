@@ -1,0 +1,231 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100372.json",
+  "type": "HumanMadeObject",
+  "_label": "Cheverells And Attached Stables (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Cheverells And Attached Stables"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100372"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05451 15430"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157781"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542399"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100372",
+    "type": "Place",
+    "_label": "Flamstead (TL 05451 15430)",
+    "defined_by": "POINT(-0.471225 51.827545)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100372",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100372",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Cheverells",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Cheverells And Attached Stables",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542399",
+      "type": "HumanMadeObject",
+      "_label": "Cheverells And Attached Stables (Q17542399)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100372",
+    "type": "Production",
+    "_label": "Origin / Construction of Cheverells And Attached Stables (1693)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1693",
+      "begin_of_the_begin": "1693-01-01T00:00:00Z",
+      "end_of_the_end": "1693-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100372-1",
+      "type": "Modification",
+      "_label": "c. 1700: The bay windows are probably an addition of c.1700.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1700",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1700-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100372-2",
+      "type": "Modification",
+      "_label": "1706: Willingdon 1706' scratched on LH bay of S front which is in a different style;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1706",
+        "begin_of_the_begin": "1706-01-01T00:00:00Z",
+        "end_of_the_end": "1706-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100372-3",
+      "type": "Modification",
+      "_label": "C19: alterations to attached coachhouse range in C19 as service wing;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100372-4",
+      "type": "Modification",
+      "_label": "1911: alterations, SE extension and new NW porch with bay window in position of former entrance 1911 for Sir Edgar Saunders-Sebright.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100372-5",
+      "type": "Modification",
+      "_label": "1977: (Pevsner (1977)143: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             CHEVERELLS GREEN TL 01 NE                                        (East side) 2/5                                    Cheverells and attached 26.1.67                                stables (formerly listed                                        as Cheverell's Park) GV                                     II* Dower house to Beechwood Park estate, now a separate country house. Circa 1693 for Saunders family; 'Wm. Willingdon 1706' scratched on LH bay of S front which is in a different style; alterations to attached coachhouse range in C19 as service wing; alterations, SE extension and new NW porch with bay window in position of former entrance 1911 for Sir Edgar Saunders-Sebright. Red brick, Bath stone porch and front bay, hipped old red tile roofs. A large square compact house of 2-storeys facing W with lower 2-storeys long service/coachhouse extending N from NE  corner  and  contemporary  large  2-storeys  hipped  stables  block extending to W and facing N. At SE an extension of S garden front to E in similar style and height. Symmetrical W front in header-bond, of 7 windows closely spaced, rusticated brick Doric clasping corner pilasters with triglyph and full entablature, to each. Cornice continuous across front below stone balustraded parapet having dies over 2nd, 4th, and 6th windows with urns on each. Segmental rubbed brick arches to segmental headed flush box sash windows with 6/6 panes (upper LH 2 are dummies). Brick keystones to alternate windows: shaped brick apron to alternate windows:   rectangular  aprons  with  guttae  brackets  to  others. Symmetrically placed  internal  chimneys.  Large  central  single-storey stone semi-octagonal bay window with balustrade and 4 ball caps, at position of former entrance. Pilastered and balustraded Bath stone Doric porch at new entrance on N side of house with panelled double doors and round-arched doorway. S front to garden has similar rusticated Doric corner pilasters in red brick with cut brick triglyphs, with gadrooned urns over on the dies of the stuccoed balustraded parapet. Symmetrical arrangement of 3 windows, 2 2-storeys semi-octagonal bays in grey brick header-bond with red brick dressings and flat gauged arches, flank a semi-circular, single-storey bay, all with casement windows. The bay windows are probably an addition of c.1700. Tall 2-lights casement windows. Matching RH extension has similar rusticated pilaster, urn and parapet, being of 2-storeys, cellar and attic. Long N service range has on W a wide 3-centred arched carriage entrance, now blocked, with stepped  stone  keystone  and  impost  blocks.  Recessed  sash windows. Flemish-bond with blue headers and bright red brick dressings. Ovolo moulded plat-band. Hipped roof stable block has torus moulded plinth, and ovolo moulded high plat-band. High flat arch on N and sash windows of 3/3 panes. Interior said to have a painted ceiling and carving of the Grinling Gibbons school. (Pevsner (1977)143: RCHM Typescript). Listing NGR: TL0545115430"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

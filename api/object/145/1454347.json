@@ -1,0 +1,302 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/145/1454347.json",
+  "type": "HumanMadeObject",
+  "_label": "John Dickinson & Co war memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "John Dickinson & Co war memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1454347"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0627504955"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66479490"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1454347",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0627504955)",
+    "defined_by": "POINT(-0.462461 51.733251)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1454347",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1454347",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:John_Dickinson_%26_Co_war_memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66479490",
+      "type": "HumanMadeObject",
+      "_label": "John Dickinson & Co war memorial (Q66479490)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1454347",
+    "type": "Production",
+    "_label": "Origin / Construction of John Dickinson & Co war memorial (1086)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/john-dickinson",
+        "type": "Person",
+        "_label": "John Dickinson"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1929",
+      "begin_of_the_begin": "1929-01-01T00:00:00Z",
+      "end_of_the_end": "1929-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-1",
+      "type": "Modification",
+      "_label": "C18: The memorial was moved to its current location at the north side of London Road in 1980, and now stands within the garden of the former cott…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-2",
+      "type": "Modification",
+      "_label": "Late C18: A mill is recorded at Apsley in the Domesday Book in 1086, and functioned as a corn mill until the late C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-3",
+      "type": "Modification",
+      "_label": "1778: Apsley Mill first manufactured paper in 1778, and was purchased in 1809 by John Dickinson, who also purchased nearby Nash Mills in 1811.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1778",
+        "begin_of_the_begin": "1778-01-01T00:00:00Z",
+        "end_of_the_end": "1778-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-4",
+      "type": "Modification",
+      "_label": "1809: Apsley Mill first manufactured paper in 1778, and was purchased in 1809 by John Dickinson, who also purchased nearby Nash Mills in 1811.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1809",
+        "begin_of_the_begin": "1809-01-01T00:00:00Z",
+        "end_of_the_end": "1809-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-5",
+      "type": "Modification",
+      "_label": "1811: Apsley Mill first manufactured paper in 1778, and was purchased in 1809 by John Dickinson, who also purchased nearby Nash Mills in 1811.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1811",
+        "begin_of_the_begin": "1811-01-01T00:00:00Z",
+        "end_of_the_end": "1811-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-6",
+      "type": "Modification",
+      "_label": "1888: Apsley Mills ceased manufacturing paper by 1888, and thereafter concentrated on converting paper from the company’s other mills into station…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1888",
+        "begin_of_the_begin": "1888-01-01T00:00:00Z",
+        "end_of_the_end": "1888-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1454347-7",
+      "type": "Modification",
+      "_label": "C20: Historic interest: * as an eloquent witness to the tragic impact of world events on this company and the local community, and the sacrifices…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1454347",
+      "type": "VisualItem",
+      "_label": "Photograph of John Dickinson & Co war memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1454347",
+          "type": "DigitalObject",
+          "_label": "Commons Image for John Dickinson & Co war memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Dickinson%20%26%20Co%20war%20memorial%2C%20Apsley%2C%20April%202022%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "John Dickinson & Co war memorial, unveiled in 1929, dedicated to workers of the company who fell in the First and Second World Wars."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "John Dickinson & Co war memorial, unveiled in 1929, dedicated to workers of the company who fell in the First and Second World Wars. The memorial comprises a free-standing granite cross, and a separate bronze plaque in a granite surround attached to a brick wall. The rough-hewn granite wheel cross is mounted on a square-plan tapering plinth, and single-stepped base. The front (south-west) elevation of the plinth has a recessed panel and lead lettering in low relief reading: ‘TO THE / UNDYING MEMORY OF / OUR FELLOW WORKERS / WHO GAVE THEIR LIVES / FOR THEIR COUNTRY IN / THE GREAT WAR / 1914 - 1918 / ALSO / 1939 - 1945’. Behind the cross, a rectangular cast-bronze plaque with a segmental-head is mounted in a granite surround supported by a brick wall. The bronze plaque bears the following text in low relief: ‘TO THE ETERNAL HONOUR AND UNDYING / MEMORY OF THE GALLANT MEN OF THE FIRM OF / JOHN DICKINSON AND CO WHO GAVE THEIR LIVES / FOR THEIR COUNTRY IN THE GREAT WAR 1914 - 1919 / (212 NAMES) / GREATER LOVE HATH NO MAN THAN THIS’. A short bronze plaque with 17 names of the fallen of the First World War was later added under the first plaque. Below this, a third bronze plaque was added after the Second World War, and reads ‘TO THE GLORY OF THE MEN WHO GAVE THEIR LIVES IN THE WORLD WAR 1939 -1945’ and 132 names of the fallen. The memorial stands within the garden of the cottage of the former Apsley Mill (listed at Grade II), near the corner of Stationers Place, and faces south-west to London Road."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The John Dickinson & Co war memorial, unveiled in 1929, dedicated to workers of the company who fell in the First and Second World Wars, is listed at Grade II for the following principal reasons: Architectural interest: *   as a modest but well-executed memorial. Historic interest: *   as an eloquent witness to the tragic impact of world events on this company and the local community, and the sacrifices they made in the conflicts of the C20. Group value: *   for the strong group value the war memorial holds with the former cottage of Apsley Mills (listed at Grade II), in the garden of which the memorial stands."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War (1914-18) saw the biggest single wave of public commemoration ever with tens of thousands of memorials erected across England. This was the result of both the huge impact on communities of the loss of three quarters of a million British lives, and also the official policy of not repatriating the dead: therefore the memorials provided the main focus of the grief felt at this great loss. One such memorial was raised by John Dickinson & Co at Apsley Mills as a permanent testament to the sacrifice made by their workers who lost their lives in the First World War (1914-18) and Second World War (1939-45). A mill is recorded at Apsley in the Domesday Book in 1086, and functioned as a corn mill until the late C18. Apsley Mill first manufactured paper in 1778, and was purchased in 1809 by John Dickinson, who also purchased nearby Nash Mills in 1811. Apsley Mills ceased manufacturing paper by 1888, and thereafter concentrated on converting paper from the company’s other mills into stationery, particularly envelopes, cards and ledgers, and laminating card for railway tickets. John Dickinson & Co made 100 million envelopes per week at Apsley Mills in 1933, employed 5,000 people in 1937, and ceased manufacture in 1990. Following the First World War (1914-18), a memorial was erected by John Dickinson & Co at their Apsley Mills site, in memory of 212 workers of their London Headquarters, Croxley, Apsley, Home Park, and Nash mills, and offices at 27 Upper Thames Street, Paddington, Manchester, Leeds, Glasgow and South Africa, who fell during the conflict. The memorial was unveiled in 1929, and stood outside the canteen building to the south side of London Road. A second bronze plaque was later added with another 17 names of the fallen. Following the Second World War (1939-45), the company added a third bronze plaque in memory of 132 workers of the Apsley, Croxley, Nash, and Home Park mills, Tottenham, Kings Cross, and London export offices, and company representatives who lost their lives in the conflict. The memorial was moved to its current location at the north side of London Road in 1980, and now stands within the garden of the former cottage of Apsley Mills (built in the C18 and listed at Grade II). The memorial garden was restored in 2016. A copy of the First World War plaque was erected by the company at Nash Mills, and was listed at Grade II in 2006."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2018-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

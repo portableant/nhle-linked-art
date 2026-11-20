@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/146/1462775.json",
+  "type": "HumanMadeObject",
+  "_label": "Coach House, Ashridge",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Coach House, Ashridge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1462775"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9929812115"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66480079"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1462775",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9929812115)",
+    "defined_by": "POINT(-0.561432 51.798732)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1462775",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1462775",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66480079",
+      "type": "HumanMadeObject",
+      "_label": "Coach House, Ashridge (Q66480079)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1462775",
+    "type": "Production",
+    "_label": "Origin / Construction of Coach House, Ashridge (1283)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/james-wyatt",
+        "type": "Person",
+        "_label": "James Wyatt"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/dora-carrington",
+        "type": "Person",
+        "_label": "Dora Carrington"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1816",
+      "begin_of_the_begin": "1816-01-01T00:00:00Z",
+      "end_of_the_end": "1816-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-1",
+      "type": "Modification",
+      "_label": "1536: After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1536",
+        "begin_of_the_begin": "1536-01-01T00:00:00Z",
+        "end_of_the_end": "1536-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-2",
+      "type": "Modification",
+      "_label": "1604: After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1604",
+        "begin_of_the_begin": "1604-01-01T00:00:00Z",
+        "end_of_the_end": "1604-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-3",
+      "type": "Modification",
+      "_label": "1746–1813: The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1746–1813",
+        "begin_of_the_begin": "1746-01-01T00:00:00Z",
+        "end_of_the_end": "1813-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-4",
+      "type": "Modification",
+      "_label": "1766–1840: The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1766–1840",
+        "begin_of_the_begin": "1766-01-01T00:00:00Z",
+        "end_of_the_end": "1840-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-5",
+      "type": "Modification",
+      "_label": "1769: Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1769",
+        "begin_of_the_begin": "1769-01-01T00:00:00Z",
+        "end_of_the_end": "1769-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-6",
+      "type": "Modification",
+      "_label": "1771: The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1771",
+        "begin_of_the_begin": "1771-01-01T00:00:00Z",
+        "end_of_the_end": "1771-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462775-7",
+      "type": "Modification",
+      "_label": "1777: He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1777",
+        "begin_of_the_begin": "1777-01-01T00:00:00Z",
+        "end_of_the_end": "1777-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Stables, now known as a former coach house, built about 1816/1817 to the designs of Jeffry Wyatville, converted into offices in the late C20."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Stables, now known as a former coach house, built c1816/1817 to the designs of Jeffry Wyatville, converted into offices in the late C20. MATERIALS: red brick laid in Flemish bond showing evidence of considerable historic repair in plum coloured brick. Some brickwork is earlier, possibly dating to the Tudor period.  Stone ashlar dressings and slate roof covering. PLAN: the coach house faces north-east into the stable court which is located to the west of the house.  It has a long rectangular plan with cross wings at each end, aligned north-west south-east, and is attached to a nag stable at the south-west corner. The extension on the south-west side, dating to 1986-1987, does not have special interest and is not included in the listing. EXTERIOR: the coach house has one and a half storeys and steeply pitched roofs with a crenellated parapet and stone string course at eaves level.  The nine bay façade is punctuated by projecting gabled bays in the middle and end bays.  These have plain parapets with a moulded edge and are surmounted by cross gable finials.  The central bay contains a quatrefoil stone tablet bearing a shield and the outer bays have a blind lancet window in the gable heads.  The fenestration consists of four-light mullion and transom windows, arranged with two smaller lights above two longer ones, with depressed arch upper sections and diamond leaded lights.  The second and eighth bays contain modern glazed and timber doors above which are two-light windows in the same style as those already described.  The principal door in the central bay is similar except it has a recessed moulded stone surround with a dripmould.  The different phasing of the brickwork around the apertures indicates that they have been subject to alteration, involving the bricking up of former stable doors and the insertion of windows. The north-west gable end contains a central doorway with a modern timber and glazed door with a four-light overlight and flanking four-light windows, the whole under a continuous dripmould.  The south-east gable end has a bricked up doorway and, at the upper level, a two-light window with a wide central mullion in a stone surround, inserted in the C20.  The left half of this elevation is obscured by the early C21 glazed link. Almost all of the rear elevation of the coach house is also obscured by the 1980s extension.  The rear slope of the roof, pierced by roof lights, is visible, and the gable end of the south-east cross wing rises just above the extension.  This has a pair of gables decorated with applied timber framing infilled with herringbone brickwork. The former nag stable is in a similar Tudor style to the coach house.  It has a crenellated parapet along the principal five-bay, south-east elevation and a plain parapet at the north-west gable end with cross gable finials.  Two chimney stacks with oversailing brick eaves rise from each slope at this gable end.  The fenestration is the same as on the coach house, except that the windows in the second and fourth bays are of two lights.  The central door has vertical studded fillets and is set within a depressed arch stone surround with a two-light overlight.  The other elevations are mostly obscured by later C20 extensions, except for the left hand side of the north-west (rear) elevation in which a louvred door has been inserted. The coach house and nag stable are attached via a brick wall with a depressed arch opening in a stone surround.  This formed the south-west wall of the saddle room. INTERIOR: the coach house retains no historic fixtures or fittings relating to its former use as a stable.  The interior has been remodelled to create an open plan office space with modern finishes, and a steel and glass mezzanine has been inserted along the rear wall.  The only element of interest is the series of three murals depicting agricultural life by Dora Carrington on the upper half of the north-west wall.  The Queen post roof has been strengthened with metal plates riveted onto the timber.  The south-west nag stable was not inspected but the louvred door for ventilation indicates that it has been converted to hold plant/ equipment."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Coach House, built as stables about 1816/1817 to the designs of Jeffry Wyatville, and converted into offices in the late C20, is listed at Grade II for the following principal reasons: Architectural interest: *\tit is by one of the most acclaimed architects of the period who was also one of the most considerable figures of the earlier Gothic Revival; *\tit has a handsome and well-proportioned façade characterised by gabled bays and Tudoresque windows; *\tit contains three murals painted around 1913 by Dora Carrington, a significant and highly regarded artist of the early C20. Group value: *\tit has strong group value with the listed house and estate buildings and the Grade II* Registered Park which altogether form a highly significant ensemble created by the most renowned practitioners of the Picturesque movement."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Ashridge originated as the earliest English College of Bonhommes, founded in 1283 by Edmund, Earl of Cornwall, a nephew of Henry III.  Very little of the monastery survives except the undercroft and the well which were both created around the time of its foundation.  The Monk’s Barn was also built as part of the monastic site as a tithe barn in the 1480s.  After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s reign.  After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and then the Dukes of Bridgewater.  In the 1760s Francis, the 3rd Duke of Bridgewater, who amassed a fortune by developing waterways for industrial transport (becoming known as the Canal Duke), commissioned Henry Holland to design a more comfortable Georgian residence, and Capability Brown was commissioned to landscape the park.  By the early C19, the house was in disrepair and in a ruinous state.  The 3rd Duke decided to erect a new mansion in its place, and the vast majority of the old house which included parts dating back 500 years was demolished by 1803, the year he died.  As he had never married, the Dukedom became extinct and the earldom and estate passed to his cousin, John William Egerton who became the 7th Earl of Bridgewater.  The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.  He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803. The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).  Wyatt was the sixth son of Benjamin Wyatt, the founder of the Wyatt building business in Staffordshire.  He was sent to Italy for six years where he became the pupil of Antonio Visentini under whom he made rapid progress as an architectural draughtsman.  Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as over a hundred country houses in England, Wales and Ireland.  Many of his houses were in the neoclassical style, such as Heveningham Hall, Suffolk (about 1780-1784) and Dodington Park, Gloucestershire (1798-1813), but it was as a Gothic architect that Wyatt enjoyed a special celebrity.  His most accomplished works in the Gothic style are Ashridge and Fonthill Abbey, Wiltshire (dem. about 1800) for William Beckford.  Wyatt was killed in a carriage accident in 1813 and was buried in Westminster Abbey. The foundation stone of Ashridge was laid on 25 October 1808 and the house was fit for habitation by 1814.  Wyatt died before it was completed but a series of pen drawings produced by J Buckler around 1813 capture the extent of his work.  The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.  He was apprenticed to his uncle Samuel Wyatt before transferring to the office of his more celebrated uncle James with whom he remained until 1799 when he went into partnership with John Armstrong, a carpenter and building contractor.  Wyatville soon became well known as a country house architect in the Tudor Gothic style with a large clientele among the Whig aristocracy, and by the 1820s he was one of the half dozen leading English architects.  His most accomplished work is the transformation of Windsor Castle which he carried out between 1824 and 1840. Wyatville’s main contribution to Ashridge was in extending Wyatt’s design through the addition of new service quarters to the west, including stables with an attached cottage, coach house, workshops and other ancillary structures.  He added the family wing at the east end of the building (away from the service quarters and state rooms) which terminated in an orangery.  By 1821 the bulk of the work to the house was largely complete and it was much admired by contemporaries.  The Earl commissioned his chaplain, H J Todd to write a history of Ashridge, entitled A History of the College of Bonhommes (1823), which includes a description of the new house, along with a detailed floor plan and illustrations by H Le Keux. In the wake of the First World War, the 3rd Earl Brownlow, who had inherited vast estates, instructed in his will that his trustees sell the Ashridge Estate.  Most of the parkland was purchased by the National Trust in 1925, and the house was purchased by Urban Hanlon Broughton who donated it to the Conservative Party in commemoration of the late Prime Minister, Andrew Bonar Law.  In 1929 it was formally opened by Stanley Baldwin as a Conservative college.  During the Second World War Ashridge was offered to the Ministry of Health as a site for an emergency hospital.  The hospital moved out in 1947 and the college reopened.  In 1954 a bill was passed stating that the aim of the college was to provide an education without any bias towards a political party, and it became known as Ashridge Business School.  As a result of the support of Sir Hugh Beaver, the college undertook a programme of modernisation and improvement in 1957, and the college continued to expand its teaching and accommodation facilities throughout the later C20. On Todd’s plan of 1823 what is now known as the coach house is actually a stable.  The building faces north-eastwards into the stable court and has a rectangular plan consisting of a coach horse stable along the north-east front with a harness room at the south-east end and a nag stable at the north-west end.  Along the rear of the building is a row of kennels with access to small, enclosed yards.  A small saddle room is at the south-east end of this row which has access to another nag stable at the south-west corner.  By the early C20 the coach house was being used as a badminton court. Around 1913 a series of three murals were painted on the north-west wall by Dora Carrington (1893-1932) and Constance Lane for the 3rd Earl Brownlow.  Carrington studied at the Slade School of Art and although she was closely associated with the Bloomsbury Group she was not a member herself.  She worked for a while at the Omega Workshops, and for the Hogarth Press designing woodcuts but she received no critical attention during her lifetime.  In 1978 Sir John Rothenstein, Director of the Tate Gallery, described her as ‘the most neglected serious painter of her time’.  In 1995 Carrington was the subject of a major retrospective exhibition at the Barbican Art Gallery in London. The coach house has undergone considerable alterations.  In 1986-1987 a two-storey brick extension was built along the south-west side on the footprint of the kennels and yards, and the interior has been remodelled to provide open plan office space with a mezzanine.  In 2001-2003 a glass extension was built against the south-east gable end of the coach house and the north-east wall of the (north-west) nag stable to provide a link to the Monk’s Barn.  The apertures on the north-west gable end have been altered as Todd’s plan shows that there were numerous openings into the north-east nag stable."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2019-03-26T00:00:00Z"
+      }
+    }
+  ]
+}

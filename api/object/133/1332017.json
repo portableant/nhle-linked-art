@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332017.json",
+  "type": "HumanMadeObject",
+  "_label": "Malthouse Farmhouse (Ellesborough)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Malthouse Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332017"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84175 07527"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46273"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26616866"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332017",
+    "type": "Place",
+    "_label": "Ellesborough (SP 84175 07527)",
+    "defined_by": "POINT(-0.781787 51.760112)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332017",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332017",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26616866",
+      "type": "HumanMadeObject",
+      "_label": "Malthouse Farmhouse (Q26616866)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332017",
+    "type": "Production",
+    "_label": "Origin / Construction of Malthouse Farmhouse (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1672",
+      "begin_of_the_begin": "1672-01-01T00:00:00Z",
+      "end_of_the_end": "1672-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332017-1",
+      "type": "Modification",
+      "_label": "1672: front bay of this range incorporated in later C17 front wing, dated 1672 TW in blue headers in rebuilt left gable.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1672",
+        "begin_of_the_begin": "1672-01-01T00:00:00Z",
+        "end_of_the_end": "1672-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332017-2",
+      "type": "Modification",
+      "_label": "Early C19: Early C19 brick extensions in rear angle.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332017-3",
+      "type": "Modification",
+      "_label": "Mid C19: Central double mid C19 half-glazed doors with marginal glazing and flush lower panels: Lean-to tiled porch.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 NW              ELLESBOROUGH                CHALKSHIRE ROAD 2/4                                               Malthouse Farmhouse 21.6.55 -                                                 II House.  Original C17 range along right side, retaining timber frame with brick infill in rear gable, the right side rebuilt in brick; front bay of this range incorporated in later C17 front wing, dated 1672 TW in blue headers in rebuilt left gable.  This wing is of thin brick with later brick in rebuilt eaves and gables.  Early C19 brick extensions in rear angle.  Old tile roofs,  large brick chimney with grouped square shafts to centre of right wing.  Front wing is of 2 storeys and an attic, and 4 bays.  Irregular windows: ground floor has paired wooden casement to left, 6-pane sash to right, and other blocked openings; first floor has 3 4-pane sashes and blocked window to right.  Central double mid C19 half-glazed doors with marginal glazing and flush lower panels:  Lean-to tiled porch.  Single storey extension to left.  Right side has gable to left with sashes and paired attic casement, and lower 2-storey bay with a 3-light leaded casement to left.  Central lobby entry with flush-panelled top-lit door and flat wooden hood on brackets.  Interior: older bays to right have stop-chamfered spine beams, the rear bay with similar joists, and large fireplaces.  Upper fireplace in rear bay has plastered depressed arch, stop-chamfered.  Dog-leg staircase in line with chimney, the upper flight with turned balusters, chamfered handrail and square newels with turned knob finials.  Front wing has queen strut roof and steep curved wind-braces. RCHM I p.142 Mon.12. Listing NGR: SP8417507527"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1955-06-21T00:00:00Z"
+      }
+    }
+  ]
+}

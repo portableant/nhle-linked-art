@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1430077.json",
+  "type": "HumanMadeObject",
+  "_label": "Ashley Green War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ashley Green War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1430077"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9765305235"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677568"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1430077",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9765305235)",
+    "defined_by": "POINT(-0.587221 51.737326)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1430077",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1430077",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677568",
+      "type": "HumanMadeObject",
+      "_label": "Ashley Green War Memorial (Q26677568)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1430077",
+    "type": "Production",
+    "_label": "Origin / Construction of Ashley Green War Memorial (C20)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430077-1",
+      "type": "Modification",
+      "_label": "1914–1919: The north face of the plinth is inscribed and reads: TO the/ GLORY OF GOD/ and in/ HONOURED/ MEMORY of/ the MEN of/ THIS PARISH/ who fell in…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1919",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430077-2",
+      "type": "Modification",
+      "_label": "1920: Ashley Green War Memorial A war memorial, of 1920, by stonemasons J Underwood and Son.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430077-3",
+      "type": "Modification",
+      "_label": "1939–1945: The southern facing panel is inscribed with the names of four men who died during the Second World War beneath the dates 1939-1945.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "A war memorial, of 1920, by stonemasons J Underwood and Son. The memorial stands upon an octagonal plinth and three-stepped base."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "War memorial, of 1920, by stonemasons J Underwood and Son. The memorial, set on a grassed area, outside the church of St John The Evangelist (Grade II*, NHLE 1124856) comprises  a Latin cross in Portland stone which stands upon an octagonal plinth and a three-stepped octagonal base. The memorial is approximately 3 metres high and includes foliate details carved along the top of the plinth and around the shaft of the cross. The north face of the plinth is inscribed and reads: TO the/ GLORY OF GOD/ and in/ HONOURED/ MEMORY of/ the MEN of/ THIS PARISH/ who fell in the/ GREAT WAR/ 1914-1919. An inscription along the bottom of the three panels of the north, north-east and north-west faces reads: THEIR NAME/ LIVETH FOR/ EVERMORE. The names of the twenty-two men who died are listed on panels of the north-east and north-west faces of the plinth. The southern facing panel is inscribed with the names of  four men who died during the Second World War beneath the dates 1939-1945. All text is incised and was painted black during repairs in 2012. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 11 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Ashley Green War Memorial, of 1920, by J Underwood and Son is listed at Grade II for the following principal reasons: * Historic interest: as an eloquent witness to the tragic impacts of world events on this community, and the sacrifices it has made in the conflicts of the C20; * Design/Aesthetic interest: a well-executed and ornate memorial designed and made by stonemasons J Underwood and Son; * Group Value: it stands on a grassed area, outside the Grade II* church of St John the Evangelist (National Heritage List for England 1124856) and is within the vicinity of other listed heritage assets."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw the biggest single wave of public commemoration ever with tens of thousands of memorials erected across England. The War Memorial is a permanent testament to the sacrifice made by members of the local community who lost their lives in the First and Second World Wars. It was unveiled by Major Macleod and dedicated by the Rural Dean, the Reverend S C A Whittington on 8 May 1920. The memorial was designed and made by stonemasons J Underwood and Son of Baker Street, London. Names of the fallen from the Second World War were added later. The memorial was repaired in 2012."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-01-06T00:00:00Z"
+      }
+    }
+  ]
+}

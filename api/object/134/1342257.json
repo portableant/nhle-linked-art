@@ -1,0 +1,228 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342257.json",
+  "type": "HumanMadeObject",
+  "_label": "The Orchard (Wigginton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Orchard"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342257"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 94097 10326"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355801"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626281"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342257",
+    "type": "Place",
+    "_label": "Wigginton (SP 94097 10326)",
+    "defined_by": "POINT(-0.637311 51.783694)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342257",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342257",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626281",
+      "type": "HumanMadeObject",
+      "_label": "The Orchard (Q26626281)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342257",
+    "type": "Production",
+    "_label": "Origin / Construction of The Orchard (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342257-1",
+      "type": "Modification",
+      "_label": "C18: C16, brick front of C18 stuccoed with pilasters etc.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342257-2",
+      "type": "Modification",
+      "_label": "C19: Canted C19 bay window with hipped roof at E end, and gabled porch into lobby by chimney at junction with 2-storeys NE rear wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342257-3",
+      "type": "Modification",
+      "_label": "Mid C19: in mid C19 with W extension, NW rear wing c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342257-4",
+      "type": "Modification",
+      "_label": "c. 1980: in mid C19 with W extension, NW rear wing c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "WIGGINTON             HEMP LANE SP 91 SW                                        (North side) 4/164                                  The Orchard - GV                                        II House. C16, brick front of C18 stuccoed with pilasters etc. in mid C19 with W extension, NW rear wing c.1980. Timber frame on flint sill, roughcast but brick fronted with stucco elaboration. Steep old red tile roofs. A 2-storeys L-shaped house, set back from road, facing S. Stucco S front has plinth and corner pilasters, bellcast to eaves, and 3 windows to each floor above one another. Door between RH pair of windows. Flush box sash windows with 8/8 panes on 1st floor and 10/10 panes on ground floor (Yorkshire sliding casement in middle). 4 panel door. Moulded stucco surrounds to ground floor windows and decorative cornice on trusses over door. Canted C19 bay window with hipped roof at E end, and gabled porch into lobby by chimney at junction with 2-storeys NE rear wing. 3-bays timber structure of front range exposed inside, with  squint-butted  scarf  in  wallplate,  straight  wind-braces  in clasped-purlin roof, curved braces in higher E bay with collar and queen-strut truss. Axial floor beam with exposed joists. Large rear-wall formerly external chimney to E part is in narrow red bricks with stone base to stack. Large open fireplace in E room. Single-storey W extension formerly used as schoolroom, Baptist Chapel, and tearoom. House formerly called Penley Lodge, and Randall's Cottage. Listing NGR: SP9409710326"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

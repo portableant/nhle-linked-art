@@ -1,0 +1,284 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332843.json",
+  "type": "HumanMadeObject",
+  "_label": "Halton House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Halton House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332843"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 88033 10108"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42653"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q5555209"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332843",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 88033 10108)",
+    "defined_by": "POINT(-0.72525 51.78272)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332843",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332843",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Halton_House",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Halton House",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Halton_House%2C_Buckinghamshire",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q5555209",
+      "type": "HumanMadeObject",
+      "_label": "Halton House (Q5555209)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332843",
+    "type": "Production",
+    "_label": "Origin / Construction of Halton House (1847)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1919",
+      "begin_of_the_begin": "1919-01-01T00:00:00Z",
+      "end_of_the_end": "1919-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-1",
+      "type": "Modification",
+      "_label": "1853: Lionel de Rothschild bought the Halton Estate from Sir George Dashwood in 1853, including the manor house (no longer extant) close to the ch…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1853",
+        "begin_of_the_begin": "1853-01-01T00:00:00Z",
+        "end_of_the_end": "1853-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-2",
+      "type": "Modification",
+      "_label": "1858: Baron de Rothschild was elected to the House of Commons in 1847, however as a practicing Jew was unable to take his seat as a Member of Parl…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1858",
+        "begin_of_the_begin": "1858-01-01T00:00:00Z",
+        "end_of_the_end": "1858-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-3",
+      "type": "Modification",
+      "_label": "1879: The Baron died in 1879, soon after which his son, Baron Alfred (d 1918), began to build a house on a completely new site, previously agricul…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1879",
+        "begin_of_the_begin": "1879-01-01T00:00:00Z",
+        "end_of_the_end": "1879-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-4",
+      "type": "Modification",
+      "_label": "1881–1883: 1881-83 by W R Rogers of Cubitts for Alfred de Rothschild, son of Baron Lionel de Rothschild, head of the British branch of the Rothschild i…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1881–1883",
+        "begin_of_the_begin": "1881-01-01T00:00:00Z",
+        "end_of_the_end": "1883-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-5",
+      "type": "Modification",
+      "_label": "1918: The Baron died in 1879, soon after which his son, Baron Alfred (d 1918), began to build a house on a completely new site, previously agricul…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1918",
+        "begin_of_the_begin": "1918-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-6",
+      "type": "Modification",
+      "_label": "1919: Since 1919 RAF Officer's Mess.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1919",
+        "begin_of_the_begin": "1919-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332843-7",
+      "type": "Modification",
+      "_label": "1937: Former winter garden at west end demolished 1937 and replaced by officers quarters by Vincent Harris.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1937",
+        "begin_of_the_begin": "1937-01-01T00:00:00Z",
+        "end_of_the_end": "1937-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1332843",
+      "type": "VisualItem",
+      "_label": "Photograph of Halton House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1332843",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Halton House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Haltonhouse-northface.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 28/09/2020 SP 81 SE 5/83 HALTON UPPER ICKNIELD WAY Halton House II* Country House. Since 1919 RAF Officer's Mess. 1881-83 by W R Rogers of Cubitts for Alfred de Rothschild, son of Baron Lionel de Rothschild, head of the British branch of the Rothschild international banking dynasty. Lionel de Rothschild bought the Halton Estate from Sir George Dashwood in 1853, including the manor house (no longer extant) close to the church, the grounds around it and parkland north of the Grand Union Canal. Baron de Rothschild was elected to the House of Commons in 1847, however as a practicing Jew was unable to take his seat as a Member of Parliament until 1858. The Baron died in 1879, soon after which his son, Baron Alfred (d 1918), began to build a house on a completely new site, previously agricultural land, 600m east of the church. French Renaissance style, ashlar stone with steep slated roofs, iron crestings and finials, chimneys with cornices and pediment caps. Segmental pedimented dormers and oval windows to central bays, large open domed cupola to centre of garden front. Two-storeys and attic, engaged Doric columns to ground floor with triglyph frieze. Metopes carved with Rothschild insignia; cornice and balustrades. Ionic order to first  floor with sections of cornice. Bays flanking centre have pilaster order. Entrance and  garden fronts both of six bays, the three outer in half-octagonal turrets, central bay with full height pedimented frontispiece, with porche-cochene to ground floor of entrance front. Tall plate glass casements, those to ground floor with semicircular arched heads. Carved panels over windows on south east  tower. Attached terrace on garden front with stone steps, balustraded with urns. One-storey block at east end linked to lower service wing, one-storey and attic, in matching style. One-storey modern dining room  extension on north side. Former winter garden at west end demolished 1937 and replaced by officers quarters by Vincent Harris. Ashlar stone with slate roof, three storeys square block, eight bays to each front, attic windows with oval heads and cills. Interior:  great central two-storey hall and staircase surrounded by state rooms all decorated in gilt plasterwork of great elaboration. Iron stair balustrade and balcony fronts to hall. Marble chimneypieces in all rooms. Billiard room lined with polished wood panelling. Gold room in Moorish style with gilt ceiling, arches, doorcases and dado. inter Garden corridor with white stone columns and niches. History: said to be first house built for electric lighting. Early example of hot air central heating. (see Beechwoods and Bayonets, The Book of Halton, A.E. Adam, Buckingham 1983). Listing NGR: SP8803310108"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

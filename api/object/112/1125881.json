@@ -1,0 +1,288 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1125881.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Peter And St Paul (Ellesborough)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Peter And St Paul"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1125881"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 83637 06739"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46278"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17540962"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125881",
+    "type": "Place",
+    "_label": "Ellesborough (SP 83637 06739)",
+    "defined_by": "POINT(-0.78977 51.753109)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1125881",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1125881",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saints_Peter_and_Paul%2C_Ellesborough",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17540962",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Peter and St Paul (Q17540962)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1125881",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Peter And St Paul (C14)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1854–1871",
+      "begin_of_the_begin": "1854-01-01T00:00:00Z",
+      "end_of_the_end": "1871-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-1",
+      "type": "Modification",
+      "_label": "Late C14: Late C14-C15, much restored and externally refaced 1854-71.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C14",
+        "begin_of_the_begin": "1367-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-2",
+      "type": "Modification",
+      "_label": "C15: Late C14-C15, much restored and externally refaced 1854-71.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-3",
+      "type": "Modification",
+      "_label": "1544: brass to Thomas and Sybell Hawtrey 1544;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1544",
+        "begin_of_the_begin": "1544-01-01T00:00:00Z",
+        "end_of_the_end": "1544-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-4",
+      "type": "Modification",
+      "_label": "1638: Monuments: fine wall monument to Bridget Croke d.1638, in recess in S.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1638",
+        "begin_of_the_begin": "1638-01-01T00:00:00Z",
+        "end_of_the_end": "1638-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-5",
+      "type": "Modification",
+      "_label": "1666: stone tablet in chancel to Robert Wallis 1666.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1666",
+        "begin_of_the_begin": "1666-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-6",
+      "type": "Modification",
+      "_label": "C19: Some old stonework in window surrounds but otherwise all detail is C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125881-7",
+      "type": "Modification",
+      "_label": "1854–1871: Late C14-C15, much restored and externally refaced 1854-71.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1854–1871",
+        "begin_of_the_begin": "1854-01-01T00:00:00Z",
+        "end_of_the_end": "1871-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1125881",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Peter And St Paul (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1125881",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Peter And St Paul",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/SS%20Peter%20%26%20Paul%2C%20Ellesborough%20-%20geograph.org.uk%20-%20282314.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 NW           ELLESBOROUGH                CHURCH HILL 2/10                                           Church of St. Peter                                                and St. Paul 21.6.55 GV                                             II* Parish church.  Late C14-C15, much restored and externally refaced 1854-71.  C19 S. vestry and S. porch.  Flint with stone dressings; lead roofs to nave and S. aisle; slated chancel and vestry. W. tower, nave, S. aisle, S. porch, chancel and vestry.  Tall tower at W. end of S. aisle has diagonal buttresses, battlemented parapet and semi-octagonal stair turret at S.E. corner.  Large paired cusped lancets to bell-chamber, single cusped lights below, 2-light traceried window to W. Nave and S. aisle have moulded parapets and C14-C15 traceried windows with carved head stops to hoodmoulds.  Some old stonework in window surrounds but otherwise all detail is C19.  Nave has 3-light window and moulded doorway at W. end, and 3 similar windows and blocked moulded doorway to N.  S. aisle has single and 3-light windows, moulded door, and gabled porch with carved figures of saints in elaborate ogee niches over arch.  Slight projection to centre of aisle has stone roundel carved with coat-of-arms and stylised oak tree.  Chancel has similar traceried windows:  2 and 3- light to N; 3-light to E. with ogee cusping to cinquefoil above.  C19 cusped lights and door to vestry.  Church has imposing site on crest of a small hill.  Interior: clunch dressings.  Tower has moulded and chamfered arches, of 3 orders to nave, and 2 to S. aisle, on semi- octagonal piers with moulded caps, the label above with reworked carved heads.  Similar chancel arch with moulded piers and no label.  Moulded surrounds to N. windows.  Small cusped ogee niche in centre of N. wall. Chancel has C19 arched doorway to vestry and arch to organ chamber. Clunch piscina with carved spandrels and embattled frieze, much reworked C19.  C19-early C20 fittings and glass; 1901 reredos with gilt relief panels and painted shutters.  Monuments: fine wall monument to Bridget Croke d.1638, in recess in S. aisle, of black and white marble, with finely dressed effigy reclining on sarcophagus below coffered arch on paired Corinthian columns; brass to Thomas and Sybell Hawtrey 1544; stone tablet in chancel to Robert Wallis 1666. RCHM I p 137-139 Mon.2. Listing NGR: SP8363706739"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1955-06-21T00:00:00Z"
+      }
+    }
+  ]
+}

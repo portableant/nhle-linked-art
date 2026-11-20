@@ -1,0 +1,188 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1117891.json",
+  "type": "HumanMadeObject",
+  "_label": "Store 120 Metres To North West Of Canal Bridge (Marsworth)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Store 120 Metres To North West Of Canal Bridge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1117891"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 93244 13745"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42075"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26411375"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1117891",
+    "type": "Place",
+    "_label": "Marsworth (SP 93244 13745)",
+    "defined_by": "POINT(-0.648755 51.814568)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1117891",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1117891",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26411375",
+      "type": "HumanMadeObject",
+      "_label": "Store 120 Metres To North West Of Canal Bridge (Q26411375)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1117891",
+    "type": "Production",
+    "_label": "Origin / Construction of Store 120 Metres To North West Of Canal Bridge (1848)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1848",
+      "begin_of_the_begin": "1848-01-01T00:00:00Z",
+      "end_of_the_end": "1848-12-31T23:59:59Z"
+    }
+  },
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1117891",
+      "type": "VisualItem",
+      "_label": "Photograph of Store 120 Metres To North West Of Canal Bridge (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1117891",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Store 120 Metres To North West Of Canal Bridge",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Marsworth%20-%20Store%20120%20Metres%20To%20North%20West%20Of%20Canal%20Bridge%20-%2020230916122334.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SW                 MARSWORTH          BULBOURNE 6/90                                        Store 120m to N.W. of canal                                             bridge. - GV                                          II Store for canal works.  Circa 1848.  Brown brick with eaves band course, plinth and minimal corner pilasters.  Slate roof.  2 storeys, 9 bays. Ground floor of front to canal has alternate wide and narrow windows with segmental white brick heads.  Wide windows have cast iron glazing bars with decorative roundels at intersections.  Narrow windows are irregular, those to centre with small panes, that to right with marginal glazing, that to left blind.  First floor has window with segmental head to left, central door, and 3 skylights. Listing NGR: SP9324413745"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1984-10-15T00:00:00Z"
+      }
+    }
+  ]
+}

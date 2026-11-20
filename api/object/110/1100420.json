@@ -1,0 +1,167 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100420.json",
+  "type": "HumanMadeObject",
+  "_label": "Apsley Manor Farmhouse (130 Metres To North West Of Shendish House) (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Apsley Manor Farmhouse (130 Metres To North West Of Shendish House)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100420"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05684 04419"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157697"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392641"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100420",
+    "type": "Place",
+    "_label": "Kings Langley (TL 05684 04419)",
+    "defined_by": "POINT(-0.471193 51.728536)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100420",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100420",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392641",
+      "type": "HumanMadeObject",
+      "_label": "Apsley Manor Farmhouse (130 Metres To North West Of Shendish House) (Q26392641)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100420",
+    "type": "Production",
+    "_label": "Origin / Construction of Apsley Manor Farmhouse (130 Metres To North West Of Shendish House) (1853)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1853",
+      "begin_of_the_begin": "1853-01-01T00:00:00Z",
+      "end_of_the_end": "1853-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tSHENDISH TL 00 SE   \t\t\t\t\t(North side) off London Road                                       7/167                                   \tApsley Manor Farmhouse -                                        \t(130m to NW of                                        \t\tShendish House) GV                                      \tII Farmhouse. Circa 1853 for Charles Longman who moved the farm to build Shendish House (q.v) on the old site to SE. Uncoursed knapped flint with grey brick dressings. Red tiled steep roofs with ornamental banding and carved bargeboards.  A large 2-storeys,  H-plan house facing S with octagonal outhouse linked to SW corner by a tiled covered way. 5 windows long front with gabled wing each end and a pair of smaller gables flanking entrance. Cusped bargeboards with pendants. 2-light mullioned windows with small panes and labels.  Large chimneys with conjoined square flues. Rear has 3-windows to centre with segmental arches and centre door. 1-storey N part to each wing. 3 windows E and W fronts. Listing NGR: TL0568404419"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

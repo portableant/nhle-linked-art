@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348399.json",
+  "type": "HumanMadeObject",
+  "_label": "Water Lane Cottage (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Water Lane Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348399"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01391 02664"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157577"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631785"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348399",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01391 02664)",
+    "defined_by": "POINT(-0.53384 51.713554)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348399",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348399",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631785",
+      "type": "HumanMadeObject",
+      "_label": "Water Lane Cottage (Q26631785)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348399",
+    "type": "Production",
+    "_label": "Origin / Construction of Water Lane Cottage (Late C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1968",
+      "begin_of_the_begin": "1968-01-01T00:00:00Z",
+      "end_of_the_end": "1968-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348399-1",
+      "type": "Modification",
+      "_label": "C16: Late C15, open hall house, floor inserted in C16, reduced to 2 bays and brick cased in C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348399-2",
+      "type": "Modification",
+      "_label": "C18: Late C15, open hall house, floor inserted in C16, reduced to 2 bays and brick cased in C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348399-3",
+      "type": "Modification",
+      "_label": "c. 1968: N end added c.1968.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1968",
+        "begin_of_the_begin": "1968-01-01T00:00:00Z",
+        "end_of_the_end": "1968-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348399-4",
+      "type": "Modification",
+      "_label": "1977: Former open truss in roofspace has an arched-braced collar beam (not a cruck as noted by Pevsner(1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tWATER LANE TL 00 SW\t\t\t\t\t(East side)                                         6/50                                   \t\tWater Lane Cottage - -                                       \tII House. Late C15, open hall house, floor inserted in C16, reduced to 2 bays and brick cased in C18. N end added c.1968. Timber frame cased in red brick with steep old red tile roof. A 2-storeys 2 windows house facing W with hipped glazed central porch.  3-light leaded casement windows. Single storey brick and tile extension beyond external N gable chimney. The building represents half of a 4-bays medieval hall house formerly extending to N. The bay remaining was the upper end bay of the hall  and has  the  timbered partition with mortices  for  the pegs supporting  the  bench.  Former  open  truss  in  roofspace  has  an arched-braced collar beam (not a cruck as noted by Pevsner(1977)107). Inserted floor in hall has elaborately moulded beam and chamfered joists with 3-sided stepped stops. Off-centre placing of beam in front of chimney points to an earlier wooden chimney replaced by the present C18 one. Jowled posts and straight braces in S gable with shutter groove under  S end tie-beam and central post.  Stair trap in SE corner. Carpenter marks on flat joists. Clasped-purlin roof structure. Cast iron Boxmoor grazing rights plaque no.657 (and another no.658 preserved in house). (RCHM Typescript). Listing NGR: TL0139102664"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/120/1200385.json",
+  "type": "HumanMadeObject",
+  "_label": "Bridge Number 115 (Folly Bridge) British Rail Midland Region London-Rugby Line (Marsworth)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bridge Number 115 (Folly Bridge) British Rail Midland Region London-Rugby Line"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1200385"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 93785 13969"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "350315"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346608"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1200385",
+    "type": "Place",
+    "_label": "Marsworth (SP 93785 13969)",
+    "defined_by": "POINT(-0.640848 51.816491)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1200385",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1200385",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Folly_Bridge,_Tring",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: British Rail Midland Region London Rugby Line Bridge Number 115 (Folly Bridge)",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346608",
+      "type": "HumanMadeObject",
+      "_label": "British Rail Midland Region London Rugby Line Bridge Number 115 (Folly Bridge) (Q26346608)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1200385",
+    "type": "Production",
+    "_label": "Origin / Construction of Bridge Number 115 (Folly Bridge) British Rail Midland Region London-Rugby Line (1837)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/robert-stephenson",
+        "type": "Person",
+        "_label": "Robert Stephenson"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1837",
+      "begin_of_the_begin": "1837-01-01T00:00:00Z",
+      "end_of_the_end": "1837-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1200385-1",
+      "type": "Modification",
+      "_label": "1838: The line was opened 9 April 1838.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1838",
+        "begin_of_the_begin": "1838-01-01T00:00:00Z",
+        "end_of_the_end": "1838-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1200385-2",
+      "type": "Modification",
+      "_label": "1976: (Leleux(1976)13-15).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1976",
+        "begin_of_the_begin": "1976-01-01T00:00:00Z",
+        "end_of_the_end": "1976-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1200385",
+      "type": "VisualItem",
+      "_label": "Photograph of Bridge Number 115 (Folly Bridge) British Rail Midland Region London-Rugby Line (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1200385",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Bridge Number 115 (Folly Bridge) British Rail Midland Region London-Rugby Line",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Tring%20Railway%20Cutting%20and%20Folly%20Bridge%20-%20geograph.org.uk%20-%201233512.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SW                                 MARSWORTH                  BRITISH RAIL                                                                     MIDLAND REGION 4/46                                                                LONDON-RUGBY LINE -                                                                     Bridge No 115                                                                     (Folly Bridge) GV                                                                  II Road bridge over railway at Tring Cutting.  Circa 1837 by Robert Stephenson for the London and Birmingham Railway Company.  Brown brick with stone impost bands, skewbacks, cornice, and parapet copings.  Northern parapet rebuilt for safety reasons in red brick with triangular section concrete copings.  A long narrow three-arched bridge with working controlled by traffic lights on the B488 road, where it crosses the great Tring Cutting, 2½ miles long and here about 50ft deep.  A higher 7-ring segmental arch in middle over trackbed with slender rectangular pierat foot of earth slope on each side, and tall opening through each pier with round arched head and bottom.  Slightly lower segmental 7-ring side arches to abutments buried in earth slope.  Wide unmoulded stone cornice at roadway level with brick parapet and rectangular terminal piers with weathered stone copings remaining on S side.  The cutting was made necessary by Stephenson's decision to have a maximum gradient of 1/330 on the line, and there is a well known  lithograph by J C Bourne showing an army of navvies excavating it.  The line was opened 9 April 1838.  The county boundary withHertfordshire   follows the centre-line of the road over the bridge.  (Leleux(1976)13-15). Listing NGR: SP9378513969"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-06-02T00:00:00Z"
+      }
+    }
+  ]
+}

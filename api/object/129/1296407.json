@@ -1,0 +1,230 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1296407.json",
+  "type": "HumanMadeObject",
+  "_label": "Breakspear College",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Breakspear College"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1296407"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 09645 02242"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158681"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26584068"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1296407",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 09645 02242)",
+    "defined_by": "POINT(-0.414549 51.708211)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1296407",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1296407",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26584068",
+      "type": "HumanMadeObject",
+      "_label": "Breakspear College (Q26584068)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1296407",
+    "type": "Production",
+    "_label": "Origin / Construction of Breakspear College (1154)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1770",
+      "begin_of_the_begin": "1770-01-01T00:00:00Z",
+      "end_of_the_end": "1770-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296407-1",
+      "type": "Modification",
+      "_label": "c. 1770: c.1770 rebuilding of an earlier house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1770",
+        "begin_of_the_begin": "1770-01-01T00:00:00Z",
+        "end_of_the_end": "1770-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296407-2",
+      "type": "Modification",
+      "_label": "c. 1830: Extended and stuccoed c.1830.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1830",
+        "begin_of_the_begin": "1830-01-01T00:00:00Z",
+        "end_of_the_end": "1830-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296407-3",
+      "type": "Modification",
+      "_label": "C20: Altered and extended C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296407-4",
+      "type": "Modification",
+      "_label": "Early C20: Wing to right has ground floor recess with 2 pseudo-Doric columns in antis to a tiled early C20 summer-house with a plasterwork ceiling.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296407-5",
+      "type": "Modification",
+      "_label": "1977: (Pevsner 1977).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 0902            ABBOTS LANGLEY         HIGH STREET                                           (Southeast side)                                           Abbots Langley 11/35                                     Breakspear College 1 .9.53                                   (formerly listed as                                           Langley House) II Large house,  now college.  c.1770  rebuilding of  an  earlier house. Extended and stuccoed c.1830. Altered and extended C20. Rendered and roughcast brick. Slate roofs. Double depth, 3:5:3. 3 storey centre block with 2 storey wings. Steps up to central entrance, part glazed door with rectangular fanlight,  Roman Doric pilasters to pedimented doorcase. Flanking 8 pane sashes in entrance bay. Outer bays have large glazing bar sashes in reveals with architraves on rendered ground floor. High plinth with blocked  cellar openings.  Upper  storeys  roughcast with rendered plat bands,  first  floor recessed glazing bar sashes with segmental headed architraves, smaller second floor sashes. Boxed eaves. End stacks and 1 ridge stack to right of centre. 3 bay links with inner bays set back slightly, glazing bar sashes, 1 on ground floor blocked in each wing. Cornices to parapets. Roofs hipped on wings. 2 bay left return  has  a  large  ground  floor  bow  with  3  tripartite  sashes, balustraded balcony to  first  floor.  Garden  front  is  similar with entrance recessed with panelled reveals, similar doorcase. Ground floor left, C20 2 light casements in reveals. Ground floor right a canted bay with architraved casements. Between ground and first floors to centre is a pseudo-Venetian staircase window, key blocked central arch. Wing to right has ground floor recess with 2 pseudo-Doric columns in antis to a tiled early C20 summer-house with a plasterwork ceiling. To right a tripartite sash with framing half columns and pseudo-Doric entablature. Three first floor sashes. To far left beyond 3 bay wing are 2 further bays,  lower with sashes  in reveals.  To entrance front  this block projects slightly, altered openings, parapet, roof hipped to front. Interior not inspected. Formerly known as Langley House. The present name commemorates Nicholas Breakspear, born in Abbots Langley, who, as Adrian IV, became the only English Pope in 1154. Further C20 additions to far right are not of special interest. (Pevsner 1977). Listing NGR: TL0964502242"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1953-09-01T00:00:00Z",
+        "end_of_the_end": "1985-10-03T23:59:59Z"
+      }
+    }
+  ]
+}

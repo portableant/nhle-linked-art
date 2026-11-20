@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124858.json",
+  "type": "HumanMadeObject",
+  "_label": "Grove Farm (Ashley Green)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Grove Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1124858"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 98602 04277"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "44751"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26417899"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124858",
+    "type": "Place",
+    "_label": "Ashley Green (SP 98602 04277)",
+    "defined_by": "POINT(-0.573739 51.728549)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1124858",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1124858",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26417899",
+      "type": "HumanMadeObject",
+      "_label": "Grove Farm (Q26417899)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124858",
+    "type": "Production",
+    "_label": "Origin / Construction of Grove Farm (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124858-1",
+      "type": "Modification",
+      "_label": "C17: Roof raised C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124858-2",
+      "type": "Modification",
+      "_label": "c 1970: Grove Farm SP 90 SE ASHLEY GREEN GROVE LANE 2/5 22.12.58 Grove Farm (formerly listed as Barn (formerly Chapel) to Grove Farm) II C15 barn, n…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1970",
+        "begin_of_the_begin": "1970-01-01T00:00:00Z",
+        "end_of_the_end": "1970-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1124858",
+      "type": "VisualItem",
+      "_label": "Photograph of Grove Farm (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1124858",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Grove Farm",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Grove%20Farm%20East%20frontage%20-%20geograph.org.uk%20-%202075785.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 90 SE                          ASHLEY GREEN           GROVE LANE 2/5 22.12.58                                                 Grove Farm (formerly                                                          listed as Barn (formerly                                                          Chapel) to Grove Farm) II C15 barn, now converted into a house with c1970 additions.  Three bays.  Knapped flint with ashlar and red brick quoins.  Roof raised C17.  Old tile roof. North-east lower wing also C15 but with modern roof.  Modern additions to north and south infill central car entry.  East elevation with close-studded timber-framed gable, modern first floor window and restored 2-light stone mullioned ground floor window.  North wing with restored C15 stone 2-centred arched doorway.  South elevation with one storey additions and central entry.  West elevation with close studded timber-framed gable.  Queen strut roof trusses.  RCHM I 16 MON.2 Listing NGR: SP9860204277"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1958-12-22T00:00:00Z",
+        "end_of_the_end": "1984-07-30T23:59:59Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101236.json",
+  "type": "HumanMadeObject",
+  "_label": "North Bridge On A4146 At Water End Over The River Gade (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "North Bridge On A4146 At Water End Over The River Gade"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101236"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03652 10538"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157909"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394434"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101236",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03652 10538)",
+    "defined_by": "POINT(-0.498781 51.783913)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101236",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101236",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394434",
+      "type": "HumanMadeObject",
+      "_label": "North Bridge at Water End over the River Gade (Q26394434)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101236",
+    "type": "Production",
+    "_label": "Origin / Construction of North Bridge On A4146 At Water End Over The River Gade (1800)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1800",
+      "begin_of_the_begin": "1800-01-01T00:00:00Z",
+      "end_of_the_end": "1800-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101236-1",
+      "type": "Modification",
+      "_label": "1970: Circa 1800 when road realigned (Branch Johnson (1970) 113), restored and parapet raised 2 courses 1976 by Herts County Council.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1970",
+        "begin_of_the_begin": "1970-01-01T00:00:00Z",
+        "end_of_the_end": "1970-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101236-2",
+      "type": "Modification",
+      "_label": "1976: Circa 1800 when road realigned (Branch Johnson (1970) 113), restored and parapet raised 2 courses 1976 by Herts County Council.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1976",
+        "begin_of_the_begin": "1976-01-01T00:00:00Z",
+        "end_of_the_end": "1976-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101236",
+      "type": "VisualItem",
+      "_label": "Photograph of North Bridge On A4146 At Water End Over The River Gade (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101236",
+          "type": "DigitalObject",
+          "_label": "Commons Image for North Bridge On A4146 At Water End Over The River Gade",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/River%20Gade%20and%20the%20A4146%20road%20bridge%20at%20Water%20End%20-%20geograph.org.uk%20-%20141355.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        LEIGHTON BUZZARD ROAD (A4146) TL 0310 10/130                                  North Bridge on A4146 22.10.52                                at Water End over the                                         River Gade (Formerly listed as                                         Two bridges over River Gade) GV                                         II Road bridge over River Gade. Circa 1800 when road realigned (Branch Johnson (1970) 113), restored and parapet raised 2 courses 1976 by Herts County Council. Red brick with random black headers in English-bond with stone string courses and copings to parapet. A long narrow bridge, slightly humped to centre, of 3 pointed arches, 4 brick cutwaters, and brick parapets splaying out at ends and terminating in octagonal brick piers. The bridge has not been widened and differs from the widened South Bridge (q.v.) in having brick cappings to the cutwaters and having its moulded stone string at road level extended along the abutment walls to the terminal piers. It also has 3 moulded circular cast iron tie-rod plates over each arch. There is a chamfered brick rib just within the mouth of each arch. A chamfered stone offset to the plinth provides the springing for the arches. Plinths linked by a weir near the upstream side where water level is just below this stone offset. (Branch Johnson (1970): inf County Surveyor's Dept). Listing NGR: TL0365210538"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

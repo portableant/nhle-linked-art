@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348076.json",
+  "type": "HumanMadeObject",
+  "_label": "Potten End Strict Baptist Chapel Along Path On West Side Of Number 7 (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Potten End Strict Baptist Chapel Along Path On West Side Of Number 7"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348076"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01777 09060"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157985"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631490"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348076",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01777 09060)",
+    "defined_by": "POINT(-0.526386 51.770972)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348076",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348076",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631490",
+      "type": "HumanMadeObject",
+      "_label": "Potten End Strict Baptist Chapel Along Path On West Side Of Number 7 (Q26631490)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348076",
+    "type": "Production",
+    "_label": "Origin / Construction of Potten End Strict Baptist Chapel Along Path On West Side Of Number 7 (1835)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1835",
+      "begin_of_the_begin": "1835-01-01T00:00:00Z",
+      "end_of_the_end": "1835-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348076-1",
+      "type": "Modification",
+      "_label": "1860: Gallery by 1860, rostrum 1903, S porch and minister's vestry 1921.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1860",
+        "begin_of_the_begin": "1860-01-01T00:00:00Z",
+        "end_of_the_end": "1860-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348076-2",
+      "type": "Modification",
+      "_label": "1903: Gallery by 1860, rostrum 1903, S porch and minister's vestry 1921.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1903",
+        "begin_of_the_begin": "1903-01-01T00:00:00Z",
+        "end_of_the_end": "1903-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348076-3",
+      "type": "Modification",
+      "_label": "1921: Gallery by 1860, rostrum 1903, S porch and minister's vestry 1921.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348076-4",
+      "type": "Modification",
+      "_label": "1982: (Bryant (1982) VII 4,5).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1982",
+        "begin_of_the_begin": "1982-01-01T00:00:00Z",
+        "end_of_the_end": "1982-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW         NETTLEDEN WITH         THE FRONT                  POTTEN END             (North side)                                         Potten end 5/204                                   Potten End Strict -                                       Baptist Chapel (along                                         path on W side of No. 7) -                                       II Baptist chapel.  'BAPTIST/MEETING/ERECTED/1835.' on stone plaque on S gable. Gallery by 1860, rostrum 1903, S porch and minister's vestry 1921. Red brick with slate roof. A tall rectangular chapel 20ft x 40ft, orientated N-S, with S entrance front, and lean-to vestry at N end. Interior of 3-bays with panelled rostrum at N end, panelled gallery in S bay and windows in side walls only in middle and N bays. S front has 2 pointed  arched  windows with Y-tracery and  lattice  leaded  glazing flanking the small gabled central brick porch. Above the porch a large gauged brick oval window with horizontal emphasis, and stone inscribed plaque over. 2-light lattice leaded windows to sides with segmental arches and a single iron opening light to each. Entrance under gallery supported on 2 slender iron columns. (Bryant (1982) VII 4,5). Listing NGR: TL0177709060"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

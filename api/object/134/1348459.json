@@ -1,0 +1,268 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348459.json",
+  "type": "HumanMadeObject",
+  "_label": "Saunders Almshouses (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Saunders Almshouses"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348459"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07833 14611"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157796"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542827"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348459",
+    "type": "Place",
+    "_label": "Flamstead (TL 07833 14611)",
+    "defined_by": "POINT(-0.436928 51.81973)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348459",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348459",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Saunders_Almshouses",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Saunders Almshouses",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saunders_Almshouses",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542827",
+      "type": "HumanMadeObject",
+      "_label": "Saunders Almshouses (Q17542827)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348459",
+    "type": "Production",
+    "_label": "Origin / Construction of Saunders Almshouses (1669)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1669",
+      "begin_of_the_begin": "1669-01-01T00:00:00Z",
+      "end_of_the_end": "1669-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348459-1",
+      "type": "Modification",
+      "_label": "1908: (VCH (1908)193: RCHM (1911)89: Kelly (1914)101: Pevsner (1977)143: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348459-2",
+      "type": "Modification",
+      "_label": "1911: (VCH (1908)193: RCHM (1911)89: Kelly (1914)101: Pevsner (1977)143: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348459-3",
+      "type": "Modification",
+      "_label": "1914: (VCH (1908)193: RCHM (1911)89: Kelly (1914)101: Pevsner (1977)143: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348459-4",
+      "type": "Modification",
+      "_label": "1952: Reconditioned 1952, with outshut set back at rear rebuilt.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1952",
+        "begin_of_the_begin": "1952-01-01T00:00:00Z",
+        "end_of_the_end": "1952-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348459-5",
+      "type": "Modification",
+      "_label": "1977: (VCH (1908)193: RCHM (1911)89: Kelly (1914)101: Pevsner (1977)143: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348459",
+      "type": "VisualItem",
+      "_label": "Photograph of Saunders Almshouses (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348459",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Saunders Almshouses",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Almshouses%2C%20Flamstead%20%28geograph%204249719%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             HIGH STREET TL 0714                                        (North side) 9/20                                   Nos. 1, 3, 5, and 7                                        (Saunders Almshouses) (Formerly listed 22.10.52                                        as Saunder's Almshouses)                                        II* GV Block of 4 almshouses. Stone plaque in middle of front engraved 'AnoDm/ 1669\".  For  Thomas Saunders  of  Beechwood.  Reconditioned  1952,  with outshut set back at rear rebuilt. Narrow dark red brick in an unusually early use of Flemish-bond. Steep old red tile roof. A long single-storey block of 2 handed pairs of almshouses facing S. 2 large shared internal chimneys symmetrically placed on ridge each with 2 conjoined lozenge shaped diagonal shafts with corbelled caps. Moulded brick gable parapets with square piers topped by ball finials at each apex and above each corbelled brick kneeler. 4 windows S front with 2 pairs of round arched chamfered brick doorways opposite the chimneys. Recessed square-headed 2-light windows with chamfered brick jambs  and mullions  (formerly plastered to represent  stone)  and  leaded glazing  in metal  frames (renewed), oak plank doors. Excellent brickwork with bull-nose plinth and brick eaves cornice with frieze. Moulded brick corbels to gable kneelers, 2 large rectangles of stone over the western pair of doors may have  had  armorial  bearings.  Stone  set  immediately  under  central datestone may have inscription now illegible. Each single-cell house was for a poor married couple. Entrance at jamb of fireplace. Beam runs from front to back. Flat-roofed continuous rear outshut in red brick. (VCH (1908)193:  RCHM  (1911)89:  Kelly  (1914)101:  Pevsner  (1977)143:  RCHM Typescript). Listing NGR: TL0783314611"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

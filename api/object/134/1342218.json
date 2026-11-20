@@ -1,0 +1,203 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342218.json",
+  "type": "HumanMadeObject",
+  "_label": "Pigeon House Within Walled Garden At Rossway Home Farm",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Pigeon House Within Walled Garden At Rossway Home Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342218"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9583607214"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355805"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626245"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342218",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9583607214)",
+    "defined_by": "POINT(-0.612967 51.755427)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342218",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342218",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626245",
+      "type": "HumanMadeObject",
+      "_label": "Pigeon House Within Walled Garden At Rossway Home Farm (Q26626245)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342218",
+    "type": "Production",
+    "_label": "Origin / Construction of Pigeon House Within Walled Garden At Rossway Home Farm (1598)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1598",
+      "begin_of_the_begin": "1598-01-01T00:00:00Z",
+      "end_of_the_end": "1598-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342218-1",
+      "type": "Modification",
+      "_label": "Early C19: Early C19, rebuilt and relocated in 1994-5.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342218-2",
+      "type": "Modification",
+      "_label": "C20: Timber-framed structure, set upon a C20 brick plinth, and clad with white weatherboarding with roll-moulded lower board edges.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342218-3",
+      "type": "Modification",
+      "_label": "1994: Early C19, rebuilt and relocated in 1994-5.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1994",
+        "begin_of_the_begin": "1994-01-01T00:00:00Z",
+        "end_of_the_end": "1994-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 90 NE 1598-/7/168 29.05.86 WIGGINTON ROSSWAY Pigeon House within walled garden at Rossway Home Farm (formerly listed as Pigeon House in S yard at Rossway Home Farm) GV \t\t\t\t\t\t\t\t\tII Pigeon House. Early C19, rebuilt and relocated in 1994-5. Timber-framed structure, set upon a C20 brick plinth, and clad with white weatherboarding with roll-moulded lower board edges. Hipped slate roof topped by large square weatherboarded cupola with pyramidal slate roof and large bulbous finial. Tall, 2-store:red building, square on plan. The cupola has 2 shelves with pigeon holes between. Door with fanlight to upper part. The structure formerly stood in the south yard to, Rossway Home Farm facing the east entrance, and was re-erected and repaired on its' present site in 1994-5. Listing NGR: SP9583607214"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z",
+        "end_of_the_end": "1996-05-08T23:59:59Z"
+      }
+    }
+  ]
+}

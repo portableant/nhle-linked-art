@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/146/1462763.json",
+  "type": "HumanMadeObject",
+  "_label": "Monk's Barn, with walls, and former Cow House, Ashridge",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Monk's Barn, with walls, and former Cow House, Ashridge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1462763"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9931912094"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66480077"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1462763",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9931912094)",
+    "defined_by": "POINT(-0.561134 51.798531)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1462763",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1462763",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66480077",
+      "type": "HumanMadeObject",
+      "_label": "Monk's Barn, with walls, and former Cow House, Ashridge (Q66480077)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1462763",
+    "type": "Production",
+    "_label": "Origin / Construction of Monk's Barn, with walls, and former Cow House, Ashridge (1283)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/james-wyatt",
+        "type": "Person",
+        "_label": "James Wyatt"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1813–1821",
+      "begin_of_the_begin": "1813-01-01T00:00:00Z",
+      "end_of_the_end": "1821-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-1",
+      "type": "Modification",
+      "_label": "Late C15: Monk’s Barn, a former tithe barn possibly dating to the 1480s, extended and converted into a coach house by Sir Jeffry Wyatville 1813-1821, …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C15",
+        "begin_of_the_begin": "1467-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-2",
+      "type": "Modification",
+      "_label": "1536: After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1536",
+        "begin_of_the_begin": "1536-01-01T00:00:00Z",
+        "end_of_the_end": "1536-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-3",
+      "type": "Modification",
+      "_label": "1604: After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1604",
+        "begin_of_the_begin": "1604-01-01T00:00:00Z",
+        "end_of_the_end": "1604-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-4",
+      "type": "Modification",
+      "_label": "1746–1813: The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1746–1813",
+        "begin_of_the_begin": "1746-01-01T00:00:00Z",
+        "end_of_the_end": "1813-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-5",
+      "type": "Modification",
+      "_label": "1766–1840: The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1766–1840",
+        "begin_of_the_begin": "1766-01-01T00:00:00Z",
+        "end_of_the_end": "1840-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-6",
+      "type": "Modification",
+      "_label": "1769: Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1769",
+        "begin_of_the_begin": "1769-01-01T00:00:00Z",
+        "end_of_the_end": "1769-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1462763-7",
+      "type": "Modification",
+      "_label": "1771: The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1771",
+        "begin_of_the_begin": "1771-01-01T00:00:00Z",
+        "end_of_the_end": "1771-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Former tithe barn possibly dating to the 1480s, extended and converted into a coach house by Sir Jeffry Wyatville 1813-1821, now used as office space, with attached former cow house, also by Wyatville, incorporated into a teaching facility in 1972."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Former tithe barn possibly dating to the 1480s, extended and converted into a coach house by Sir Jeffry Wyatville 1813-1821, now used as office space, with attached former cow house, also by Wyatville, incorporated into a teaching facility in 1972. MATERIALS: the former tithe barn has a timber frame with red brick infill and the early C19 extension is constructed of red brick laid in Flemish bond with ashlar stone dressings; the whole is under a roof covered in plain red clay tiles.  The former cow house is constructed of red brick laid in English bond and has a slate roof covering. PLAN: Monk’s Barn is located in the stable court to the west of the house and overlooks the Monk’s Garden to the south-east.  The building has a long linear plan aligned north-east south-west, the south-western half of which is the extension added by Wyatville 1813-1821.  Adjoining the south-west end is the former cow house which has an L-shape plan consisting of north-east and north-west ranges, now subsumed by Lazell, a teaching facility built in the former cow yard in 1972. The part of Lazell that forms a C20 extension to the former cow house does not have special interest and is not included in the listing. EXTERIOR: the barn has one and a half storeys under a steeply pitched roof with decorative bargeboards and finials at the gable ends, the upper sections of which have herringbone brickwork.  The south-east elevation is defined by a covered walkway supported by an arcade of nineteen depressed arches with chamfered timber columns.  This arcade continues around the right return.  The fenestration along the south-east elevation consists of five pairs of C20 two-over-two pane horned sash windows set in recessed stone surrounds with a segmental arch upper section.  At the far left is a wooden door with decorative strap hinges set in a stone surround with a depressed arch opening.  This leads to a passageway through the building that is likely to have been created to provide access to the stable court.  The mezzanine is lit by ten hipped dormer windows, set wholly within the roof space, which were probably inserted when the barn was converted into a dormitory. A larger gabled dormer in the centre, dating to Wyatville’s time, has trefoil-shaped bargeboards and wooden Y-tracery.  Behind this rises the wooden octagonal lantern in a Gothic design which has lancet windows on each face and miniature flying buttresses with cross gable finials, surmounted by a lead spire. The north-west elevation, which faces onto the stable court, has close studding and brick infill with a mid-rail and sole plate resting on a brick and stone plinth.  Small windows with leaded lights have been inserted in some of the panels above the mid-rail. The mezzanine is lit by three gabled dormers with trefoil-shaped bargeboards, wholly within the roof space, and a larger dormer in the same style as that already described.  Directly beneath is a depressed arch carriage entrance infilled with glazing.  The early C19 extension on the right hand side is lit by four-light mullion and transom windows with arched upper sections in moulded stone surrounds.  The end of this elevation is obscured by a glazed extension built 2001-2003 which links the barn to the former coach house to the north.  At the other end (north-east) is a one-and-a-half storey red brick extension under a half hipped roof, added in the late C20 or early C21. The former cow house, which is attached to the south-west gable end of the Monk’s Barn, has been subsumed by Lazell which has obscured most of its external elevations. The main entrance on the north-east side of the north-east range is a vertical plank door with decorative strap hinges set within a depressed arch stone surround embellished with egg-and-dart and foliate carving.  This north-east elevation is formed by a crenellated and buttressed wall of knapped flint rubble which has a projecting gabled niche with ashlar stone dressings.  The wall, which then continues southwards to link up to the fernery, is of red brick on the inner face and is pierced by four wide depressed arch openings, flanked by a smaller arch opening.  The south-east elevation of the north-west range (visible from the small section of the former cow yard not infilled by Lazell) has three wide arched openings, formerly open but now glazed.  The north-west elevation of this range has been re-fronted in modern brickwork and fenestration as part of Lazell. INTERIOR: the five-bay timber frame has a Queen post roof with jowled principal posts, crenellated tie beams and arch braces.  The wind braces are between two butt purlins.  The original south-west gable end of the tithe barn (now an internal wall) is close studded with a mid-rail and has been partially knocked through to make way for a door and staircase.  Split collar beams have been added in recent years to strengthen the frame.  A mezzanine has been inserted which is supported by the tie beams. The south-west end, added by Wyatville in the early C19, has a king post roof with through purlins of sawn timbers.  It has been converted for use as two-storey office space and has modern fittings, fixtures and finishings. The north-east range of the former cow house, now the entrance hall of Lazell, is a single space with an inserted staircase and mezzanine at the south-east end dating to the 1970s.  There are four exposed tie beams and the ceiling has been slightly lowered which has created a canted ceiling.  The north-west range is used as a corridor and has modern finishes.  The 1970s fixtures and fittings are not of interest. SUBSIDIARY FEATURES: adjoining the north-east corner of the barn is a crenelated wall of knapped flint rubble which runs northwards."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Monk’s Barn, a former tithe barn possibly dating to the 1480s, extended and converted into a coach house by Sir Jeffry Wyatville 1813-1821, with attached former cow house, also by Wyatville, is listed at Grade II for the following principal reasons: Architectural interest: *\tit retains a significant proportion of its original timber frame and Queen post roof, demonstrating late C15 vernacular building techniques; *\tit was altered by one of the most acclaimed architects of the early C19, who was also one of the most considerable figures of the earlier Gothic Revival, into a picturesque composition overlooking Repton’s Monk’s Garden. Historic interest: *\tit is one of the few surviving structures at Ashridge that pre-dates the Wyatt mansion and therefore provides important evidence of the medieval monastery that once stood on the site. Group value: *\tit has strong group value with the listed house and estate buildings and the Grade II* Registered Park which altogether form a highly significant ensemble created by the most renowned practitioners of the Picturesque movement."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Ashridge originated as the earliest English College of Bonhommes, founded in 1283 by Edmund, Earl of Cornwall, a nephew of Henry III.  Very little of the monastery survives except the undercroft and the well which were both created around the time of its foundation.  The Monk’s Barn was also built as part of the monastic site as a tithe barn in the 1480s.  After the Dissolution of the Monasteries in 1536, Ashridge was retained by Henry VIII, and his daughter Elizabeth lived here during Mary I’s reign. After Elizabeth’s death in 1604, it was sold to her Lord Chancellor, Thomas Egerton, Baron Ellesmere, whose descendants became the Earls and then the Dukes of Bridgewater.  In the 1760s Francis, the 3rd Duke of Bridgewater, who amassed a fortune by developing waterways for industrial transport (becoming known as the Canal Duke), commissioned Henry Holland to design a more comfortable Georgian residence, and Capability Brown was commissioned to landscape the park.  By the early C19, the house was in disrepair and in a ruinous state.  The 3rd Duke decided to erect a new mansion in its place, and the vast majority of the old house which included parts dating back 500 years was demolished by 1803, the year he died.  As he had never married, the Dukedom became extinct and the earldom and estate passed to his cousin, John William Egerton who became the 7th Earl of Bridgewater.  The eldest son of the Bishop of Durham, Egerton joined the Army in 1771 and rose through the ranks until he was made General in 1812.  He also served as the Tory MP for Morpeth from 1777 to 1780, and for Brackley from 1780 to 1803. The 3rd Duke opened a competition to redesign Ashridge House and the winning architect was James Wyatt (1746-1813).  Wyatt was the sixth son of Benjamin Wyatt, the founder of the Wyatt building business in Staffordshire.  He was sent to Italy for six years where he became the pupil of Antonio Visentini under whom he made rapid progress as an architectural draughtsman.  Between 1769 and 1813 Wyatt designed or altered several royal palaces, five cathedrals, seventeen other churches, eight colleges as well as over a hundred country houses in England, Wales and Ireland.  Many of his houses were in the neoclassical style, such as Heveningham Hall, Suffolk (about 1780-1784) and Dodington Park, Gloucestershire (1798-1813), but it was as a Gothic architect that Wyatt enjoyed a special celebrity.  His most accomplished works in the Gothic style are Ashridge and Fonthill Abbey, Wiltshire (dem. about 1800) for William Beckford.  Wyatt was killed in a carriage accident in 1813 and was buried in Westminster Abbey. The foundation stone of Ashridge was laid on 25 October 1808 and the house was fit for habitation by 1814.  Wyatt died before it was completed but a series of pen drawings produced by J Buckler around 1813 capture the extent of his work.  The remainder of Wyatt’s designs was completed by his nephew Jeffry Wyatt (1766-1840) who later became Sir Jeffry Wyatville.  He was apprenticed to his uncle Samuel Wyatt before transferring to the office of his more celebrated uncle James with whom he remained until 1799 when he went into partnership with John Armstrong, a carpenter and building contractor.  Wyatville soon became well known as a country house architect in the Tudor Gothic style with a large clientele among the Whig aristocracy, and by the 1820s he was one of the half dozen leading English architects.  His most accomplished work is the transformation of Windsor Castle which he carried out between 1824 and 1840. Wyatville’s main contribution to Ashridge was in extending Wyatt’s design through the addition of new service quarters to the west, including stables with an attached cottage, coach house, workshops and other ancillary structures.  He added the family wing at the east end of the building (away from the service quarters and state rooms) which terminated in an orangery.  By 1821 the bulk of the work to the house was largely complete and it was much admired by contemporaries.  The Earl commissioned his chaplain, H J Todd to write a history of Ashridge, entitled A History of the College of Bonhommes (1823), which includes a description of the new house, along with a detailed floor plan and illustrations by H Le Keux. In the wake of the First World War, the 3rd Earl Brownlow, who had inherited vast estates, instructed in his will that his trustees sell the Ashridge Estate.  Most of the parkland was purchased by the National Trust in 1925, and the house was purchased by Urban Hanlon Broughton who donated it to the Conservative Party in commemoration of the late Prime Minister, Andrew Bonar Law.  In 1929 it was formally opened by Stanley Baldwin as a Conservative college.  During the Second World War Ashridge was offered to the Ministry of Health as a site for an emergency hospital.  The hospital moved out in 1947 and the college reopened.  In 1954 a bill was passed stating that the aim of the college was to provide an education without any bias towards a political party, and it became known as Ashridge Business School.  As a result of the support of Sir Hugh Beaver, the college undertook a programme of modernisation and improvement in 1957, and the college continued to expand its teaching and accommodation facilities throughout the later C20. Monk’s Barn is one of the few surviving structures on the site to pre-date the Wyatt mansion.  It was constructed as a tithe barn and is thought to date to the 1480s.  Between 1813 and 1821 Wyatville extended the barn to the south-west (almost doubling its length), remodelled its south-east side to create a covered walkway facing the Monk’s Garden, and inserted a Gothic timber spire rising from the centre of the roof. On Todd’s plan of 1823 the barn is labelled as a coach house.  It has two wide openings on the north-west side and the covered walkway along the south-east side is clearly legible.  The extension to the south-west has numerous divisions which appear to indicate stalls.  At its west end the barn adjoins the cow house which forms an L-shape building along the north-west and north-east sides of a cow yard. Monk’s Barn was converted into a dormitory in 1969-1970 and more recently into office space which involved the insertion of a mezzanine floor.  In 1972 a teaching facility known as Lazell was built to the south-west of the barn in the former cow yard.  This incorporated the north-east range of the cow house and half of its north-west range, the other half having been truncated at some point after 1924 (the date of the 3rd edition Ordnance Survey map)."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2019-03-26T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173858.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Forge (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Forge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173858"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03572 10632"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157917"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468598"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173858",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03572 10632)",
+    "defined_by": "POINT(-0.499912 51.784773)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173858",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173858",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468598",
+      "type": "HumanMadeObject",
+      "_label": "The Old Forge (Q26468598)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173858",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Forge (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1700",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1700-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-1",
+      "type": "Modification",
+      "_label": "C17: Tall later C17 brick chimney on ridge a third from S end, with corbelled top.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-2",
+      "type": "Modification",
+      "_label": "c. 1700: C16, forge c.1700, brick front mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1700",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1700-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-3",
+      "type": "Modification",
+      "_label": "C18: C18/C19 N external gable chimney to house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-4",
+      "type": "Modification",
+      "_label": "C19: C19 brick front has short gabled projection in middle, a door to right of projection and a window beyond it.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-5",
+      "type": "Modification",
+      "_label": "Mid C19: C16, forge c.1700, brick front mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173858-6",
+      "type": "Modification",
+      "_label": "C20: Entrance by battened door in angle of wings into forge protected by a tiled pentice extending over rectangular C20 bay window to former forg…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1173858",
+      "type": "VisualItem",
+      "_label": "Photograph of The Old Forge (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1173858",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Old Forge",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Forge%2C%20Water%20End%2C%20Great%20Gaddesden%2C%20August%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        LEIGHTON BUZZARD ROAD (A4146) TL 0310                                         (West side) 10/138                                  The Old Forge GV                                      II House and forge attached, now all one house. C16, forge c.1700, brick front mid C19. Timber frame on red brick sill, infilled with red brick of different periods, front rebuilt in red brick, red colourwashed. Steep old red tile roofs. A 3-bays, 1½ storeys, former open hall house, set back from road, facing E, with structural closed partitions defining the longer hall-bay, chamfered and stopped joists and axial beam in N parlour-bay, S bay still part open to roof as is tall timber framed forge building extending to rear and enclosing NW corner of house. C19 brick front has short gabled projection in middle, a door to right of projection and a window beyond it. Window to each floor of projection and gabled dormer RH. Tall later C17 brick chimney on ridge a third from S end, with corbelled top. 3-light lattice leaded casement windows under cambered gauged red brick arches. Exposed frame of wide spaced studs at rear, with irregular windows and gabled dormers at eaves. Entrance by battened door in angle of wings into forge protected by a tiled pentice extending over rectangular C20 bay window to former forge, which has dark weatherboarding on gable and a large external gable chimney. C18/C19 N external gable chimney to house. Interior has chamfered and stopped beam but plain squared joists to inserted floor in hall-bay, large open fireplace with C16 unclassical reeding-moulded lintel jointed into timber upright at W end. Clasped-purlin roof with straight braces and jowled posts. Edge-halved scarf joint in wallplate. Wooden floor to parlour but no cellar. Front door now opens into parlour. Listing NGR: TL0611511986"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/149/1498036.json",
+  "type": "HumanMadeObject",
+  "_label": "Ward's Hurst Farmhouse, attached outbuildings and kitchen garden wall",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ward's Hurst Farmhouse, attached outbuildings and kitchen garden wall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1498036"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9738815183"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1498036",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9738815183)",
+    "defined_by": "POINT(-0.588254 51.826796)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1498036",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1498036",
+      "format": "text/html"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1498036",
+    "type": "Production",
+    "_label": "Origin / Construction of Ward's Hurst Farmhouse, attached outbuildings and kitchen garden wall (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1656",
+      "begin_of_the_begin": "1656-01-01T00:00:00Z",
+      "end_of_the_end": "1656-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-1",
+      "type": "Modification",
+      "_label": "1656: In 1656, an agreement between the Earl of Bridgewater and local tenants mentions ‘John South (at Wardhurst farm)’, who had the right to encl…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1656",
+        "begin_of_the_begin": "1656-01-01T00:00:00Z",
+        "end_of_the_end": "1656-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-2",
+      "type": "Modification",
+      "_label": "1762: A 1762 map of the Ashridge Estate shows a group of buildings on the site of Ward’s Hurst Farm, at that time one of three settlements/farms l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1762",
+        "begin_of_the_begin": "1762-01-01T00:00:00Z",
+        "end_of_the_end": "1762-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-3",
+      "type": "Modification",
+      "_label": "1766–1768: Thomas Jefferys’ map of Buckinghamshire (surveyed 1766-1768, published 1788) also shows a cluster of buildings on the site.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1766–1768",
+        "begin_of_the_begin": "1766-01-01T00:00:00Z",
+        "end_of_the_end": "1768-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-4",
+      "type": "Modification",
+      "_label": "Late C18: Group value: * for the strong functional group value with the late C18 threshing barn (Grade II-listed) and other farmyard buildings.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-5",
+      "type": "Modification",
+      "_label": "1788: Thomas Jefferys’ map of Buckinghamshire (surveyed 1766-1768, published 1788) also shows a cluster of buildings on the site.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1788",
+        "begin_of_the_begin": "1788-01-01T00:00:00Z",
+        "end_of_the_end": "1788-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-6",
+      "type": "Modification",
+      "_label": "C19: The ground floor openings have chamfered yellow brick surrounds, probably a result of a C19 alteration.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1498036-7",
+      "type": "Modification",
+      "_label": "Early- C19: To the north-west is the early-C19 brick rear range with a gabled end facing the farmyard.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early- C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "An early 19th century farmhouse, outbuildings and kitchen garden wall."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "MATERIALS: the main house, outbuildings and garden wall are primarily constructed from orange brick with some vitrified headers. The brickwork to the house and outbuildings is laid in Flemish bond while that of the garden wall is in English bond. The rear lobby is constructed from yellow brick, and all the roofs are covered with slate. PLAN: the house comprises a central stair hall with rooms to either side and two rooms to the rear, one of which is at lower ground floor level and leads through to a cellar. A further rear range is accessed through an adjoining lobby which also contains the back stair. Two outbuildings are attached to the south-western side of the house. Between the outbuildings is a covered way that connects the rear of the house to the garden which is defined by brick walls. EXTERIOR: two storeys with a symmetrical façade which has a centrally positioned front door, a tripartite window to either side, and three evenly spaced windows to the first floor. The ground floor openings have chamfered yellow brick surrounds, probably a result of a C19 alteration. The north-east elevation follows a similar formal arrangement of fenestration, including the southern-most ground floor window being a tripartite type with chamfered yellow brick surrounds that matches those of the façade. The south-west (facing the garden) and north-west (facing the farmyard) elevations are less orderly with alterations, extensions and outbuildings. To the north-west is the early-C19 brick rear range with a gabled end facing the farmyard. The fenestration primarily comprises late C20 timber sliding sash windows below flat gauged brick arches and with stone sills. The front and rear exterior doors are of timber construction; the rear of which is a plank and batten stable-style door, and the front being a half-glazed six panel door. The roof to the main house is shallow-pitched and fully hipped, with a flat apex, and three brick chimneystacks. INTERIOR: the front two rooms to the ground floor are both accessed from the stair hall and would have likely functioned as a parlour and dining room. Both rooms contain C20 brick and tiled fireplaces and C19 shutters to the windows. The architraves and shutter panels have decorative Gothic style detailing and retain their iron locking latches. The stair hall is relatively plain and contains access to an understairs cupboard constructed from recessed panelling. The main staircase is a straight flight, having a closed string, stick balusters, a turned newel post, and rounded curtail step. Further along the stair hall is a room containing a lavatory; it is plausible that the floor level has been altered here. The rear rooms are accessed from the end of the stair hall; the largest of which was likely the original kitchen. The room has a chamfered beam running on a north-west to south-east axis; a large fireplace at the north-west wall has been considerably altered in the C20 with added stone cladding and timber panelling. To the side is a cupboard with C19 panelled doors clad with C20 panelling. Against the south-east wall is a partitioned pantry with a slate shelf below the window. A rear lobby provides access to the back stair, rear range, and outside. The rear range would likely have been accessed externally originally, later enclosed by the lobby. The room contains a large chimneybreast on the south-east wall and a cast iron water pump in the north-west corner. The back stair is enclosed by a lightweight timber partition. The stairs pierce through the rear wall of the house and lead up to a short landing with access to a small room that likely formed part of the service area of the house. It is lit by a window in the north-west wall and has a brick fireplace in the west corner; in the east corner is a timber panelled cupboard appearing to incorporate reused doors. Access to a lower ground floor room and cellar is by a short flight of repaired brick steps from the large rear room of the house (the former kitchen). The lower ground floor room is lit by a horizontally sliding sash on its north-west wall which has a section of infilled brickwork below, indicating it was a lightwell previously. Below the window is a stone sink on brick supports, and the remnants of a water pump. Attached to the north-east wall are a set of plain timber shelves on decorative timber brackets. Below the shelves is an opening with a flight of steps down to the cellar. The cellar contains three main rooms and appears to have been subject to some minor reconfiguration. Two rooms separated by a timber slatted partition have a central door of a matching construction, whitewashed brick walls and a barrel-vaulted brick ceiling, lit by a lightwell with casement windows on the north-east wall. The floor beyond the slatted partition is finished with quarry tiles of various colours giving a chequerboard effect, otherwise the floor within the cellar and lower ground floor is finished in stone slabs. Adjoining to the south-east is a smaller room enclosed by a doorway with six-pane leaded light over. The room has scarring on the walls indicating it once contained steps leading up to the ground floor hallway, which may have been the original means of access to the basement. On the first-floor, the front two rooms have covered over fireplaces and a cupboard to one side with simple recessed panelled doors fielded to the reverse face, and a pair of plain panels above. The cupboard of the southern room retains a set of turned timber coat pegs. The two northern rooms were likely a single room originally which was later subdivided by a partition wall. The northern room has a covered over fireplace and a cupboard to one side with simple recessed panelled doors which are fielded to the reverse face, and a pair of plain panels above. The western room has an inserted C20 boiler cupboard with reused timber panelled doors. To the rear of the cupboard are a set of turned timber coat pegs. The western two rooms are accessed by a short flight of steps from the landing which leads through to a separate short landing that would have formed part of the back stair, but the stairs have since been boarded over. The northernmost room contains a covered over fireplace in the north-western corner. A narrow winder stair behind a small door is located at the southeast end of back stair landing and provides access to the attic. The stair terminates at a small landing that has a plain square newel post, handrail and stick balusters. A two-panel door leads to the attic room, lit by a rooflight. There are two cupboards at the north-west wall with decorative raised and fielded timber doors, one with two panels, the other with three. Adjacent to the cupboards is an access to the roof space. The roof structure appears to be fairly unaltered, save for a number of replacement common rafters, and comprises a combination of hardwood and softwood timbers with pegged joints. Throughout the house, most rooms contain C19 two, four, or six panel doors with moulded architraves, and with a combination of C19 and C20 skirtings. OUTBUILDINGS Adjoining the south-west wall of the house are two buildings separated by a covered way that has timber plank and batten doors to either end. The northern building contains two rooms, both with plank and batten doors. KITCHEN GARDEN WALL This extends from the junction of the western-most outbuilding approximately 45m in a south-westerly direction where it turns ninety degrees and continues southeast for approximately 30m. Its north-west side has 16 bays, each separated by regularly spaced tall pilaster buttresses to the exterior face. Within the first 14 bays the wall has been increased in height from its original approximate height of 2.4m to approximately 3m by an upper section of darker brick, finished with a double-cant brick capping. Approximately mid-way along the wall is an opening containing a timber ledged and braced door with iron strap hinges and flanked by pilaster buttresses. The south-west side of the wall is approximately 2m high for approximately 5m in length, stepping down to approximately 1.8m high thereafter. The first approximate 3.5m of the wall from where it meets the northwest side is original, with the rest of the having been reconstructed in the late C20 or early C21 in reclaimed bricks and supported by angled buttresses to the interior face. A lower garden wall encloses the north-east and south-east sides of the house, extending from the northern corner of the house in a south-easterly direction for approximately 23m, where it turns ninety degrees and continues to the south-west for approximately 13m. It is constructed from a darker red brick in Flemish bond, appearing to be late C19 or early C20, and may have been added when the north-west wall was increased in height. It stands approximately 1m high with pilaster buttresses to the exterior face and with a double-bullnose brick capping."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Ward's Hurst Farmhouse, attached outbuildings and kitchen garden wall are listed at Grade II for the following principal reasons: Architectural interest: *  as a good example of an early C19 farmhouse ensemble complete with its outbuildings and kitchen garden walls; *  for the high proportion of survival of its historic fabric and interior features, such as doors, window blinds and cupboards; *  despite alterations, the farmhouse’s hierarchy of circulation spaces and rooms remains legible. Historic interest: *  the C19 and early C20 alterations to the farmhouse ensemble illustrates the changes in society, tastes, and agricultural economics of farming communities over the last two centuries. Group value: * for the strong functional group value with the late C18 threshing barn (Grade II-listed) and other farmyard buildings."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "‘Wardhurst’ is first referred to in C16 court rolls among hamlets sending tithingmen to the manorial court of Ivinghoe. In 1656, an agreement between the Earl of Bridgewater and local tenants mentions ‘John South (at Wardhurst farm)’, who had the right to enclose an acre of ground if ‘passage of animals from the hamlett to the pond’ was maintained. A 1762 map of the Ashridge Estate shows a group of buildings on the site of Ward’s Hurst Farm, at that time one of three settlements/farms labelled ‘Ward’s Comb’ on the map. Thomas Jefferys’ map of Buckinghamshire (surveyed 1766-1768, published 1788) also shows a cluster of buildings on the site. Neither map is at a sufficient scale to allow for detailed interpretation, although the 1762 map appears to show buildings arranged around a yard, indicating a farmstead. Fields to the east and south are labelled ‘Barn Field’ and ‘Home Field’, respectively, suggesting the presence of a barn and farmhouse. Another is called ‘Kiln Close’, indicating the presence of a brick or pottery kiln, possibly providing construction material for the farm. The Ashridge Estate was rationalised from 1803 by the 7th Earl of Bridgewater, including agricultural improvements to make it more economically viable. An 1822 map shows a regular arrangement of farm buildings around a central yard, with the current farmhouse to the south-west. Ward’s Hurst Farmhouse was likely constructed in the early C19 (before 1822) as part of the estate rationalisation. It is apparent that soon after its construction the farmhouse was extended with an additional range to its north-west end and outbuildings to its south-west side. A small lobby was subsequently added by 1879 between the rear range and the main house to provide enclosed access between the two and access to the back stair. It is probable that the back stair existed prior to this, with its lower section reconfigured by the construction of the lobby. A substantial wall was built in the early C19 to enclose the garden to the south-west, either as part of the construction of the house, or slightly later with the adjoining range of outbuildings. A separate lower wall was added in the late C19 or early C20 to enclose the garden northeast of the farmhouse. Further minor alterations were undertaken throughout the late C19 and C20, including increasing the height of part of the kitchen garden wall along with the reconstruction of its southern end, the reconfiguration of rooms, blocking off the back stair between the ground and first floor, and alterations to the fenestration. A former resident of the farmhouse was the noted poet, writer and spiritualist, Gerald Massey (1828-1907) and his wife Rosina Jane Knowles (1832-1866), a highly regarded clairvoyant in London during the late 1840s and 1850s."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2026-11-16T00:00:00Z"
+      }
+    }
+  ]
+}

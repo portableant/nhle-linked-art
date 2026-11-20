@@ -1,0 +1,162 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174709.json",
+  "type": "HumanMadeObject",
+  "_label": "Lady Marian Alford Memorial On South Corner At Entrance To Drive To Ashbridge (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Lady Marian Alford Memorial On South Corner At Entrance To Drive To Ashbridge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174709"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99244 13384"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157738"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469378"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174709",
+    "type": "Place",
+    "_label": "Little Gaddesden (SP 99244 13384)",
+    "defined_by": "POINT(-0.561847 51.810292)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174709",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174709",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469378",
+      "type": "HumanMadeObject",
+      "_label": "Lady Marian Alford Memorial On South Corner At Entrance To Drive To Ashbridge (Q26469378)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174709",
+    "type": "Production",
+    "_label": "Origin / Construction of Lady Marian Alford Memorial On South Corner At Entrance To Drive To Ashbridge (1891)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1891",
+      "begin_of_the_begin": "1891-01-01T00:00:00Z",
+      "end_of_the_end": "1891-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tLITTLE GADDESDEN SP 9913  \t\t\t\t\t(West side)                                       9/207                                   \tLady Marian Alford -                                      \t\tMemorial on S corner                                        \t\tat entrance to drive                                        \t\tto Ashridge GV                                      \tII Memorial cross, drinking fountain, and seat.  1891 in memory of Lady Marian Alford mother of the 2nd and 3rd Earls Brownlow. White limestone, knapped flint and stone radial platform enclosed by stone seat. A tall tapering Iona cross on a high square base of 2 steps with a small scallop drinking fountain at rear and large semi-circular drinking trough and recessed dog trough at front of base. Front and rear faces of cross have carved panels of interlace ornament and Pictish figures. Inscription on larger trough 'Whosoever drinketh of the water that I shall give him shall never thirst: but the water that I shall give him shall be in him a well of water springing up into Everlasting Life'. Large semi-circular continuous moulded stone seat behind cross on S with step, back and bench ends. Listing NGR: SP9924413384"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

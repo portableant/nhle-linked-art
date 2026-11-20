@@ -1,0 +1,263 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1436986.json",
+  "type": "HumanMadeObject",
+  "_label": "Leverstock Green War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Leverstock Green War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1436986"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0847106519"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66477756"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1436986",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0847106519)",
+    "defined_by": "POINT(-0.430202 51.746879)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1436986",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1436986",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Leverstock_Green_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66477756",
+      "type": "HumanMadeObject",
+      "_label": "Leverstock Green War Memorial (Q66477756)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1436986",
+    "type": "Production",
+    "_label": "Origin / Construction of Leverstock Green War Memorial (C20)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436986-1",
+      "type": "Modification",
+      "_label": "1914–1918: The front face of the plinth carries a bronze plaque, which bears the inscription: THE GREAT WAR/ 1914 – 1918/ “THEIR NAME LIVETH FOR EVERMO…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436986-2",
+      "type": "Modification",
+      "_label": "1921: Erected 1921 with the names of the Fallen of the Second World War added after 1945.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436986-3",
+      "type": "Modification",
+      "_label": "1939–1945: A plaque on the NW face of the plinth is inscribed: TO THE/ GLORIOUS DEAD/ 1939 – 1945/ THEIR NAME LIVETH FOR EVERMORE/ [NAMES].",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436986-4",
+      "type": "Modification",
+      "_label": "after 1945: Erected 1921 with the names of the Fallen of the Second World War added after 1945.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "after 1945",
+        "begin_of_the_begin": "1945-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436986-5",
+      "type": "Modification",
+      "_label": "1997: However it was moved to the green next to Church Road near Holy Trinity Church (Grade II-listed) in 1997 in order to provide a better settin…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1997",
+        "begin_of_the_begin": "1997-01-01T00:00:00Z",
+        "end_of_the_end": "1997-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1436986",
+      "type": "VisualItem",
+      "_label": "Photograph of Leverstock Green War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1436986",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Leverstock Green War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/War%20memorial%2C%20Leverstock%20Green%20%28geograph%203877909%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First and Second World War memorial. Erected 1921 with the names of the Fallen of the Second World War added after 1945."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "First and Second World War memorial. Erected 1921 with the names of the Fallen of the Second World War added after 1945. MATERIALS: carved from granite with bronze plaques. DESCRIPTION: the war memorial is situated on a green next to Church Road near Holy Trinity church. The memorial comprises a flaming grenade set upon the capital of an octagonal rough-hewn granite column with a moulded base. The grenade is of granite and the flame is of bronze. A bronze longsword is positioned on the front (SE) face of the column which stands on an octagonal plinth and two-tier stepped base. The front face of the plinth carries a bronze plaque, which bears the inscription: THE GREAT WAR/ 1914 – 1918/ “THEIR NAME LIVETH FOR EVERMORE”/ [NAMES]. A plaque on the NW face of the plinth is inscribed: TO THE/ GLORIOUS DEAD/ 1939 – 1945/ THEIR NAME LIVETH FOR EVERMORE/ [NAMES]. The plinth is inscribed with 29 names of the Fallen from the First World War and nine names from the Second World War. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 12 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Leverstock Green War Memorial, erected in 1921, is listed at Grade II for the following principal reasons: *     \tHistoric interest: as an eloquent witness to the tragic impact of world events on the local community, and the sacrifice it made in the conflicts of the C20; *\tGroup value: with the Grade II-listed Holy Trinity Church."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw a huge wave of public commemoration with tens of thousands of memorials erected across the country. One such memorial was erected in 1921 to commemorate 29 residents of Leverstock Green, Hemel Hempstead, who died during the conflict. A bronze plaque was added after the Second World War to commemorate nine residents that died. The Fallen included a pair of brothers from each of the World Wars; the Biswells from the First World War and the Faulders from the Second World War. The memorial was originally positioned on the corner of Leverstock Green Road and Bedmond Road. However it was moved to the green next to Church Road near Holy Trinity Church (Grade II-listed) in 1997 in order to provide a better setting for the monument. A time capsule, which included a history of Leverstock Green, was buried under the memorial."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-10-31T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348439.json",
+  "type": "HumanMadeObject",
+  "_label": "Priory Remains (Now Part Of The New School) And Attached Buildings (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Priory Remains (Now Part Of The New School) And Attached Buildings"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348439"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06477 02700"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157690"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542797"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348439",
+    "type": "Place",
+    "_label": "Kings Langley (TL 06477 02700)",
+    "defined_by": "POINT(-0.460241 51.712936)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348439",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348439",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542797",
+      "type": "HumanMadeObject",
+      "_label": "Priory Remains (now part of The New School) and attached buildings (Q17542797)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348439",
+    "type": "Production",
+    "_label": "Origin / Construction of Priory Remains (Now Part Of The New School) And Attached Buildings (C14)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1308",
+      "begin_of_the_begin": "1308-01-01T00:00:00Z",
+      "end_of_the_end": "1308-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-1",
+      "type": "Modification",
+      "_label": "c. 1308: C14 (Friary founded by Edward II c.1308), C18 extensions to N range, extensions to W range after c.1910 for the former Priory School.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1308",
+        "begin_of_the_begin": "1308-01-01T00:00:00Z",
+        "end_of_the_end": "1308-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-2",
+      "type": "Modification",
+      "_label": "C18: C14 (Friary founded by Edward II c.1308), C18 extensions to N range, extensions to W range after c.1910 for the former Priory School.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-3",
+      "type": "Modification",
+      "_label": "Early C18: Good panelled early C18 rooms on ground floor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-4",
+      "type": "Modification",
+      "_label": "C20: A wall divides the building near the middle and the ground floor of the N part is arcaded on the W with 3 large depressed C14 arches with pl…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-5",
+      "type": "Modification",
+      "_label": "1908: Since the survey for VCH in 1908 blocked windows have been opened and some matching windows inserted on W 1st floor over the 1st and 2nd arc…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-6",
+      "type": "Modification",
+      "_label": "c. 1910: C14 (Friary founded by Edward II c.1308), C18 extensions to N range, extensions to W range after c.1910 for the former Priory School.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1910",
+        "begin_of_the_begin": "1910-01-01T00:00:00Z",
+        "end_of_the_end": "1910-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348439-7",
+      "type": "Modification",
+      "_label": "1911: (VCH(1908)238-40: RCHM(1911)134 no.2: Pevsner(1977)217).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348439",
+      "type": "VisualItem",
+      "_label": "Photograph of Priory Remains (Now Part Of The New School) And Attached Buildings (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348439",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Priory Remains (Now Part Of The New School) And Attached Buildings",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Priory%20and%20allotments%2C%20Kings%20Langley%20%28geograph%202310899%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tLANGLEY HILL TL 00 SE \t\t\t\t\t(West side)                                        7/159                                   \tPriory Remains (now part 22.10.52                                \tof The New School) and                                        \t\tattached buildings -                                       \tII* Buildings and walls of former Dominican Friary with attached buildings. C14 (Friary founded by Edward II c.1308), C18 extensions to N range, extensions to W range after c.1910 for the former Priory School. Now all in domestic use with a chapel on the 1st floor of W range. W range and wall extending to S of flint with stone dressings. N range of plastered flint with stone dressings to lower floor but timber framed jettied upper floor with white plastered infill panels on N side. Steep old red tile roofs. Red brick C18 rebuilt E front and S extension of N range and 2 timber framed dark weatherboarded extensions with tiled roofs and bell turret at its W end linking to W range.  SE extension of W range roughcast with stone mullioned windows and red tile roof. NE extension to W range roughcast with jetty and hipped tiled roof. The c.1910 extensions on S side of N range have a formerly open 3-bay gallery of timber with alpine style cusped vertical boards as balustrade over a timber framed ground floor with 3 cross-windows below a continuously glazed band, with a red brick base and brick panels between windows. An L-shaped group generally of 2 storeys with later buildings linking 2 separate medieval buildings. (1) A long narrow building in the W range formerly called King John's Bakehouse with evidence for early doors or windows on all sides but possibly having a range formerly running eastwards from S end of its E side. A wall divides the building near the middle and the ground floor of the N part is arcaded on the W with 3 large depressed C14 arches with plain splays dying against the sides of buttresses  (C20 cusped stone tracery inserted). There is a diagonal buttress at NW corner but a pair of corner buttresses at SW. Since the survey for VCH in 1908 blocked windows have been opened and some matching windows inserted on W 1st floor over the 1st and 2nd arches from the N. These light the chapel with limewashed flint walls and 3-bay crown-post roof with chamfered cambered tie-beams, chamfered cornice along walls, chamfered square crown-posts with heavy curved braces to collar purlin. Same roof continues over S half of building. (2) A long narrow building in N range called The Gatehouse with a large blocked stone archway, continuously moulded, off centre in the masonry of the tall lower storey of the N side. A parallel thick wall is pierced by the doorway between parlour and study in the C18 house formed at the E end of this range. The timber framed 1st floor jettied on bullnosed joists on the N may have also been jettied on the S. Large panelling with curved tension bracing and flush mullioned leaded windows. Interior has arched braces to tie-beams of crown-post roof with braces to collar purlin. C18 house has asymmetrical E front 2 storeys, 2 windows and heavy framed boarded door in middle. Tall 2-light casement windows. Large external gable chimney. Good panelled early C18 rooms on ground floor. Medieval framing exposed inside. Stone quoins at NE angle. The land  surrounding  the  building  is  a  Scheduled  Ancient  Monument. (VCH(1908)238-40: RCHM(1911)134 no.2: Pevsner(1977)217). Listing NGR: TL0647702700"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z"
+      }
+    }
+  ]
+}

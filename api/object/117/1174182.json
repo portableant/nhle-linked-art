@@ -1,0 +1,224 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174182.json",
+  "type": "HumanMadeObject",
+  "_label": "Roe End Farmhouse (Markyate)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Roe End Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174182"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 04748 15793"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157965"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468897"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174182",
+    "type": "Place",
+    "_label": "Markyate (TL 04748 15793)",
+    "defined_by": "POINT(-0.481312 51.83094)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174182",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174182",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468897",
+      "type": "HumanMadeObject",
+      "_label": "Roe End Farmhouse (Q26468897)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174182",
+    "type": "Production",
+    "_label": "Origin / Construction of Roe End Farmhouse (Late C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1880",
+      "begin_of_the_begin": "1880-01-01T00:00:00Z",
+      "end_of_the_end": "1880-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174182-1",
+      "type": "Modification",
+      "_label": "C17: Late C16, C17 E crosswing and gabled rear extension, C19 front and rear outshut, 1880 brick rear extension to crosswing and large E parlour …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174182-2",
+      "type": "Modification",
+      "_label": "C18: Panelled C18 corner cupboard against stub of cross partition on W repeated by cut sill-plate and holes for wattle and daub infill between mo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174182-3",
+      "type": "Modification",
+      "_label": "C19: Late C16, C17 E crosswing and gabled rear extension, C19 front and rear outshut, 1880 brick rear extension to crosswing and large E parlour …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174182-4",
+      "type": "Modification",
+      "_label": "1880: Late C16, C17 E crosswing and gabled rear extension, C19 front and rear outshut, 1880 brick rear extension to crosswing and large E parlour …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1880",
+        "begin_of_the_begin": "1880-01-01T00:00:00Z",
+        "end_of_the_end": "1880-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174182-5",
+      "type": "Modification",
+      "_label": "C20: Late C16, C17 E crosswing and gabled rear extension, C19 front and rear outshut, 1880 brick rear extension to crosswing and large E parlour …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "MARKYATE              ROE END LANE TL 01 NW                                        (North side) 1/186                                  Roe End Farmhouse - GV                                     II Farmhouse. Late C16, C17 E crosswing and gabled rear extension, C19 front and rear outshut, 1880 brick rear extension to crosswing and large E parlour block, C20 glazed porch. Timber frame, red brick casing, plum brick E block and rear extension to E crosswing. Steep old red tile roofs, hipped E block. A 2-storeys, 3-unit,  lobby-entry plan house facing S, with large internal chimney next gabled, taller E crosswing projecting to front, and gabled rear service wing behind chimney. C19 rear outshut, 2-storeys gabled rear extension to crosswing with higher ceiling heights, and tall 2-storeys E block at higher level on E end. S font irregular, brick front to older W part has 2 windows on each floor, 3-light flush casements with small panes and cambered arches to ground floor. Very large square chimney. Glazed single-storey porch to former lobby entry. Higher gabled crosswing with recessed sash window with 3/3 panes on 1st floor. Porch extends across front. Higher hipped E block in plum brick has large external projecting chimney in middle of S side flanked by gabled 1st floor windows with narrow recessed sash windows with 2/2 panes in raised red brick surrounds. Brick labels to 2 tall narrow sash windows on ground floor. Large canted bay on E end of this block with sash window of 3/3 panes on 1st floor. Interior has exposed framework of rear wall exposed for full height, jowled posts, mortices for braces to tie-beams, clasped-purlin roof on collar-and-queen-strut trusses with straight wind-braces.  Heavy  straight braces  in wall. Squint-butted scarf joint in wallplate. Remains of wall painting on faces of beams across each end of former middle room on W of chimney, with cellar under.  White  foliate design on reddish ground.  Axial chamfered beams with hollow stops. Panelled C18 corner cupboard against stub of cross partition on W repeated by cut sill-plate and holes for wattle and daub infill between mortices for studs. Undivided W end room suggests this was originally the upper-end and that the C17 E crosswing replaced the original service-bay. Very high room on ground floor of E block with bedroom over partly in roof. Fireplace with corner blocks and paterae in office to rear of E crosswing. Dairy in ground floor of C17 rear extension. Listing NGR: TL0474815793"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

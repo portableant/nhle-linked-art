@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1163134.json",
+  "type": "HumanMadeObject",
+  "_label": "Vale Farmhouse With Attached Outbuildings To North West And Garden Wall (Cholesbury-cum-St Leonards)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Vale Farmhouse With Attached Outbuildings To North West And Garden Wall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1163134"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 94962 06320"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "44687"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26456708"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1163134",
+    "type": "Place",
+    "_label": "Cholesbury-cum-St Leonards (SP 94962 06320)",
+    "defined_by": "POINT(-0.625869 51.74754)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1163134",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1163134",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26456708",
+      "type": "HumanMadeObject",
+      "_label": "Vale Farmhouse With Attached Outbuildings To North West And Garden Wall (Q26456708)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1163134",
+    "type": "Production",
+    "_label": "Origin / Construction of Vale Farmhouse With Attached Outbuildings To North West And Garden Wall (Late C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1865",
+      "begin_of_the_begin": "1865-01-01T00:00:00Z",
+      "end_of_the_end": "1865-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1163134-1",
+      "type": "Modification",
+      "_label": "Early C19: Late C18/early C19, extended.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1163134-2",
+      "type": "Modification",
+      "_label": "C19: Attached to this and projecting forward from it a C19 cartshed with front open to yard, partly of flint and brick and partly weatherboarded.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1163134-3",
+      "type": "Modification",
+      "_label": "1863: On the right a one-bay extension dated on the return JP 1865 (or possibly 1863).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1863",
+        "begin_of_the_begin": "1863-01-01T00:00:00Z",
+        "end_of_the_end": "1863-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1163134-4",
+      "type": "Modification",
+      "_label": "1865: On the right a one-bay extension dated on the return JP 1865 (or possibly 1863).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1865",
+        "begin_of_the_begin": "1865-01-01T00:00:00Z",
+        "end_of_the_end": "1865-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 90 NW       CHOLESBURY-CUM-ST LEONARDS     THE VALE                                               Hawridge 2/77                                          Vale Farmhouse with                                               attached outbuildings                                               to north-west and garden                                               wall                                               (formerly listed under                                               Hawridge Bottom) 21.8.78 -                                             II House.  Late C18/early C19, extended.  Brick, old tile roof with dentil eaves cornice.  2-storey; 4 bays; ground floor with two 3-light segmental arched casement windows, a simple door and another 3-light casement. On the right a one-bay extension dated on the return JP 1865 (or possibly 1863).  To the left of the house and attached to it a low weatherboarded outbuilding with oId tile roof and a single stable door.  Attached to this again on the left another, higher weatherboarded outbuilding with old tile roof and one 4-light and one single light window. Attached to this and projecting forward from it a C19 cartshed with front open to yard, partly of flint and brick and partly weatherboarded.  Old tile roof.  Attached boundary wall.   C19 brick and flint with hale-round copings, running from north-west to south-east parallel to front of house and from north east to south- west from the wall to front of house. Listing NGR: SP9496206320"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1978-08-21T00:00:00Z",
+        "end_of_the_end": "1983-11-23T23:59:59Z"
+      }
+    }
+  ]
+}

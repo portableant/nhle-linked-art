@@ -1,0 +1,256 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/120/1204284.json",
+  "type": "HumanMadeObject",
+  "_label": "Bank Farmhouse",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bank Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1204284"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 87055 07918"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42863"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17535838"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1204284",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 87055 07918)",
+    "defined_by": "POINT(-0.739972 51.763187)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1204284",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1204284",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Bank_Farm%2C_Wendover",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17535838",
+      "type": "HumanMadeObject",
+      "_label": "Bank Farmhouse (Q17535838)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1204284",
+    "type": "Production",
+    "_label": "Origin / Construction of Bank Farmhouse (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204284-1",
+      "type": "Modification",
+      "_label": "C16: c1700 altered with C15 wing altered C16.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204284-2",
+      "type": "Modification",
+      "_label": "Late C17: Late C17/early C18 staircase in west range with closed string and twisted balusters.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204284-3",
+      "type": "Modification",
+      "_label": "c 1700: c1700 altered with C15 wing altered C16.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1700",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1700-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204284-4",
+      "type": "Modification",
+      "_label": "C18: Two C18 4-pane wide sashes inserted to each floor, central 6-panel door(2 upper panels glazed) in heavy frame under flat hood with moulded c…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204284-5",
+      "type": "Modification",
+      "_label": "Early C18: Late C17/early C18 staircase in west range with closed string and twisted balusters.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1204284",
+      "type": "VisualItem",
+      "_label": "Photograph of Bank Farmhouse (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1204284",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Bank Farmhouse",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Bank-Farm-Wendover-Geograph-2721726-by-David-Kemp.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 8607, SP 8707      WENDOVER               TRING ROAD                                              south side 10/289 11/289                                       No.4 Bank Farmhouse 25/10/51 GV                                           II* House. c1700 altered with C15 wing altered C16. Red brick with some vitreous headers, chequer pattern to north gable. Tile hanging to south gable. Old tiled roofs, brick end stacks with brick gable parapets with moulded tile copings and corbelled kneelers. Two gabled dormers with 2-light basements. Deep moulded eaves cornice. Two storeys and attic. First floor band moulded gauged brick. West elevation has 4 bays with half bays at each end, the former window openings blocked or altered, gauged brick flat arches to ground floor. Two C18 4-pane wide sashes inserted to each floor, central 6-panel door(2 upper panels glazed) in heavy frame under flat hood with moulded cornice at level of band course. North east wing has projecting chimney stack to north elevation, 2-light casement to RH. East gable has 3-light leaded ground floor window, blocked door and door to LH, modern 3-light upper casement. South east wing has timber framed and brick gable to south elevation, 1-storey lean-to below, tall brick chimney to RH at junction with 2-storey brick outbuilding with old tiled roof. North gable of this building has timber framing and brick, door at upper level, door and small window to ground floor. Interior North east wing has one complete bay and two trusses of the C15 hall. Principle timbers have hollow moulded chamfers. West truss is fully arch- braced, east truss altered. One complete bay of delicate wind bracing forming gothic arches. Ground floor room has richly moulded C16 cross beams to ceiling. Late C17/early C18 staircase in west range with closed string and twisted balusters. One 1st floor chimneypiece and some old doors also of this period. Outbuilding attached to south-east corner has heavy close-set floor joists. RCHM I.p.311. MON.47 Listing NGR: SP8705507918"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z"
+      }
+    }
+  ]
+}

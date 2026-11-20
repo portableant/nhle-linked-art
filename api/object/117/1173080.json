@@ -1,0 +1,202 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173080.json",
+  "type": "HumanMadeObject",
+  "_label": "38, Gaddesden Row (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "38, Gaddesden Row"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173080"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05920 12203"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157864"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467858"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173080",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 05920 12203)",
+    "defined_by": "POINT(-0.465407 51.798453)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173080",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173080",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467858",
+      "type": "HumanMadeObject",
+      "_label": "38, Gaddesden Row (Q26467858)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173080",
+    "type": "Production",
+    "_label": "Origin / Construction of 38, Gaddesden Row (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1980",
+      "begin_of_the_begin": "1980-01-01T00:00:00Z",
+      "end_of_the_end": "1980-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173080-1",
+      "type": "Modification",
+      "_label": "C17: C16, altered later C17, brick W part early C18, renovated c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173080-2",
+      "type": "Modification",
+      "_label": "Early C18: C16, altered later C17, brick W part early C18, renovated c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173080-3",
+      "type": "Modification",
+      "_label": "c. 1980: C16, altered later C17, brick W part early C18, renovated c.1980.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GADDESDEN ROW TL 0l SE                                         (North side) 4/82                                    No. 38 - GV                                      II House. C16, altered later C17, brick W part early C18, renovated c.1980. Timber frame on brick sill faced with red brick on ground floor and red tilehanging with scalloped band on 1st floor, W end in red brick chequered with vitrified blue headers. Steep old red tile roofs. A 2-storeys house set back from road facing S with higher W part's roof carried down as catslide to front sheltering a corner porch. A 2-bays structure probably formerly open to roof with floor inserted and W end chimney added in later C17. Early C18 W service bay possibly replaces flimsier lower one, as decorative rib on W face of chimney now in attic of W extension. S front has gabled dormer at W and 2, 2-light casement windows.  3-light casements to ground floor.  Large internal chimney emerges in higher roof next to lower part. Interior has jowled posts, straight heavy braces to tie beams, straight-tension braces in long walls, wide-spaced studs exposed in front and rear walls on both floors, chamfered axial beams with hollow stops and heavy squared joists, squint-butted scarf joints in wall-plates, clasped-purlin roof with collar-and-queen-strut  trusses,  and  straight  wind-braces.  Interior full-height framed partition divides 2 bays of older part. Large open fireplace serves only hall (middle room) and stairs to cellar and 1st floor beside chimney on S. Deep well in cellar below W end. Listing NGR: TL0592012203"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174908.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Cottage (Opposite Darrs Lane) (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Cottage (Opposite Darrs Lane)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174908"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96818 08082"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157771"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469567"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174908",
+    "type": "Place",
+    "_label": "Northchurch (SP 96818 08082)",
+    "defined_by": "POINT(-0.598503 51.76306)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174908",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174908",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469567",
+      "type": "HumanMadeObject",
+      "_label": "The Old Cottage (Opposite Darrs Lane) (Q26469567)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174908",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Cottage (Opposite Darrs Lane) (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1984",
+      "begin_of_the_begin": "1984-01-01T00:00:00Z",
+      "end_of_the_end": "1984-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174908-1",
+      "type": "Modification",
+      "_label": "C17: C16, E part C17, renovated and single-storey W extension 1984.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174908-2",
+      "type": "Modification",
+      "_label": "1984: C16, E part C17, renovated and single-storey W extension 1984.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1984",
+        "begin_of_the_begin": "1984-01-01T00:00:00Z",
+        "end_of_the_end": "1984-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tSHOOTERS WAY SP 90 NE  \t\t\t\t\t(South side)                                        3/238                                   \tThe Old Cottage -                                        \t(opposite Darrs Lane) -                                      \t\tII House. C16, E part C17, renovated and single-storey W extension 1984. Timber frame on stucco sill, roughcast with steep old red tile roofs, half hipped at W. A single-cell house facing N with large flint and brick external E gable chimney offset as if to allow for a gable entrance beside it. Extended to E with new lobby entrance in C17 with new fireplace in narrow red brick. Irregular N front with small leaded casement windows recessed and door in middle. Jowled posts with curved braces to tie beams. Clasped purlin roof with collar- and queen-strut trusses in former end walls. Straight wind braces to very heavy purlins. Flat layed rafters. Crossbeams and chamfered axial, floor beam. Mortices for wattle and daub  infill and central 4-light  diamond mullioned window under tie-beam. Wide open fireplace. Associated with novelist Ivy Compton-Burnett. Listing NGR: SP9681808082"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

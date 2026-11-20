@@ -1,0 +1,192 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1332006.json",
+  "type": "HumanMadeObject",
+  "_label": "North Cottage And South Cottage, Manor Farm",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "North Cottage And South Cottage, Manor Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1332006"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 86101 03616"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46319"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26616855"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332006",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 86101 03616)",
+    "defined_by": "POINT(-0.754855 51.724664)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1332006",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1332006",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26616855",
+      "type": "HumanMadeObject",
+      "_label": "North Cottage And South Cottage, Manor Farm (Q26616855)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1332006",
+    "type": "Production",
+    "_label": "Origin / Construction of North Cottage And South Cottage, Manor Farm (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332006-1",
+      "type": "Modification",
+      "_label": "C17: C15 wing with larger C17 cross wing to right, altered.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1332006-2",
+      "type": "Modification",
+      "_label": "C20: Full bay to left has C20 4-light barred metal casement to ground floor, and 3-light wooden casement in eaves-line raking dormer.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 SE 6/49 GREAT AND LITTLE HAMPDEN, LITTLE HAMPDEN North Cottage and South Cottage, Manor Farm (Formerly listed as Manor Farmhouse) 21.6.55 GV     II 2 small houses, formerly one.  C15 wing with larger C17 cross wing to right, altered. C15 wing is rebuilt in brick and whitewashed; cross wing rendered and whitewashed over timber frame.  Old tile roofs, half-hipped over cross wing.  Large external brick chimney to left, another to centre of cross wing.  C15 wing has one storey and an attic and 1½ bays.  Full bay to left has C20 4-light barred metal casement to ground floor, and 3-light wooden casement in eaves-line raking dormer.  Half bay has similar 2-light dormer, single light, and C20 door with flat hood. C20 weatherboard extension to rear left corner.  1½-storey cross wing with C20 5-light metal casement to ground floor, 3-light wooden casement above, and C20 door in angle with small C20 brick extension to right side.  Interior: C15 wing has 2 cruck trusses, well shaped and chamfered, and first floor inserted C17 with wide stop-chamfered joists and spine beam, one end of spine on moulded bracket.  C17 wing has timber frame with diagonal braces, the front room also with stop-chamfered spine beam and joists. RCHM I p. 163.  Mon.5. Listing NGR: SP8609903616"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1955-06-21T00:00:00Z",
+        "end_of_the_end": "1985-04-26T23:59:59Z"
+      }
+    }
+  ]
+}

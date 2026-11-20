@@ -1,0 +1,240 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174062.json",
+  "type": "HumanMadeObject",
+  "_label": "Nash Mills Lock On Grand Union Canal (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Nash Mills Lock On Grand Union Canal"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174062"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06880 04575"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157694"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468786"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174062",
+    "type": "Place",
+    "_label": "Kings Langley (TL 06880 04575)",
+    "defined_by": "POINT(-0.453835 51.729712)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174062",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174062",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Nash_Mills_Lock",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468786",
+      "type": "HumanMadeObject",
+      "_label": "Nash Mills Lock On Grand Union Canal (Q26468786)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174062",
+    "type": "Production",
+    "_label": "Origin / Construction of Nash Mills Lock On Grand Union Canal (1797)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1797",
+      "begin_of_the_begin": "1797-01-01T00:00:00Z",
+      "end_of_the_end": "1797-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174062-1",
+      "type": "Modification",
+      "_label": "1877: Date 1877 on iron hinge of upper gate may mark repairs.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1877",
+        "begin_of_the_begin": "1877-01-01T00:00:00Z",
+        "end_of_the_end": "1877-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174062-2",
+      "type": "Modification",
+      "_label": "Early C20: Early C20 steps and revetment next lower gate.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174062-3",
+      "type": "Modification",
+      "_label": "1929: Circa 1797 as a lock on the Grand Junction Canal Company (became Grand Union Canal by amalgamation 1929).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1929",
+        "begin_of_the_begin": "1929-01-01T00:00:00Z",
+        "end_of_the_end": "1929-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174062-4",
+      "type": "Modification",
+      "_label": "1970: (Branch Johnson (1970)118-20).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1970",
+        "begin_of_the_begin": "1970-01-01T00:00:00Z",
+        "end_of_the_end": "1970-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1174062",
+      "type": "VisualItem",
+      "_label": "Photograph of Nash Mills Lock On Grand Union Canal (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1174062",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Nash Mills Lock On Grand Union Canal",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Nash%20Mills%20Locks%20-%20geograph.org.uk%20-%201652688.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tRED LION LANE TL 00 SE  \t\t\t\t\t(North side)                                        7/163 -                                       \tNash Mills Lock                                        \t\ton Grand Union Canal GV                                       \tII Canal Lock. Circa 1797 as a lock on the Grand Junction Canal Company (became Grand Union Canal by amalgamation 1929). Date 1877 on iron hinge of upper gate may mark repairs. Early C20 steps and revetment next lower gate. Brick and stone masonry basin with brown engineering brick steps and revetment next lower gate. Wooden gates with steel extensions to beams. Lock 88ft by 16ft to accommodate narrow boats in pairs. Gate and ground paddles to upper gates, gate paddles only to lower gates.  (Branch Johnson (1970)118-20).  The eastern half of the lock lies in Abbots Langley civil parish in Three Rivers District. Listing NGR: TL0688004575"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

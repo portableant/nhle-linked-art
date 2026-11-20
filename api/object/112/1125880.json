@@ -1,0 +1,234 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1125880.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Cottages (Ellesborough)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Cottages"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1125880"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 83603 06701"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46277"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26418875"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125880",
+    "type": "Place",
+    "_label": "Ellesborough (SP 83603 06701)",
+    "defined_by": "POINT(-0.790271 51.752773)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1125880",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1125880",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26418875",
+      "type": "HumanMadeObject",
+      "_label": "Church Cottages (Q26418875)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1125880",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Cottages (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1979",
+      "begin_of_the_begin": "1979-01-01T00:00:00Z",
+      "end_of_the_end": "1979-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125880-1",
+      "type": "Modification",
+      "_label": "Early C18: Originally C17-early C18, altered and extended C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125880-2",
+      "type": "Modification",
+      "_label": "Late C18: No.1., to right, has some timber framing with brick infill to first floor of right bay, weatherboarded right gable and rear, and remainder r…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125880-3",
+      "type": "Modification",
+      "_label": "C19: Originally C17-early C18, altered and extended C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125880-4",
+      "type": "Modification",
+      "_label": "Early C19: No.1., to right, has some timber framing with brick infill to first floor of right bay, weatherboarded right gable and rear, and remainder r…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1125880-5",
+      "type": "Modification",
+      "_label": "1979: Entry in 1979 matching extension set back to left.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1979",
+        "begin_of_the_begin": "1979-01-01T00:00:00Z",
+        "end_of_the_end": "1979-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011898",
+      "type": "Material",
+      "_label": "Thatch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 NW           ELLESBOROUGH                CHURCH HILL 2/9                                            Nos. 1 and 2, Church Cottages - GV                                             II Pair of small houses.  Originally C17-early C18, altered and extended C19.  No.1., to right, has some timber framing with brick infill to first floor of right bay, weatherboarded right gable and rear, and remainder rebuilt in red brick late C18-early C19.  Left bay, No.2, has colourwashed render over chalk and flint.  Half-hipped thatch roof, 3 intermediate brick chimneys.  2 storeys, 4 bays.  No.1 has 2 and 3-light wooden windows with single opening metal lights, 3 to ground floor, 2 to first floor in centre bays.  Board door in gabled rustic porch between right bays.  Left bay has irregular paired and single leaded casements.  Entry in 1979 matching extension set back to left. RCHM I p.141 Mon.9. Listing NGR: SP8360306701"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-04-26T00:00:00Z"
+      }
+    }
+  ]
+}

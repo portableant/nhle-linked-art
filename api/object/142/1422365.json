@@ -1,0 +1,284 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/142/1422365.json",
+  "type": "HumanMadeObject",
+  "_label": "Sparrows Herne Trust turnpike marker",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Sparrows Herne Trust turnpike marker"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1422365"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9864208109"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26676943"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1422365",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9864208109)",
+    "defined_by": "POINT(-0.572074 51.762985)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1422365",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1422365",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26676943",
+      "type": "HumanMadeObject",
+      "_label": "Sparrows Herne Trust Turnpike Marker (Q26676943)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1422365",
+    "type": "Production",
+    "_label": "Origin / Construction of Sparrows Herne Trust turnpike marker (1762)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1972",
+      "begin_of_the_begin": "1972-01-01T00:00:00Z",
+      "end_of_the_end": "1972-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-1",
+      "type": "Modification",
+      "_label": "C19: Sparrows Herne Trust turnpike marker A C19 cast-iron turnpike marker.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-2",
+      "type": "Modification",
+      "_label": "Early C19: The Sparrows Herne Trust turnpike marker is probably early C19 in date.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-3",
+      "type": "Modification",
+      "_label": "1844: Later trustees included, in 1844, John Dickinson of Basildon Bond paper works in Kings Langley.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1844",
+        "begin_of_the_begin": "1844-01-01T00:00:00Z",
+        "end_of_the_end": "1844-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-4",
+      "type": "Modification",
+      "_label": "1873: The Sparrows Herne Turnpike Trust maintained and controlled the road now known as the A4251 (previously the A41) from Aylesbury to Bushey fr…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1873",
+        "begin_of_the_begin": "1873-01-01T00:00:00Z",
+        "end_of_the_end": "1873-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-5",
+      "type": "Modification",
+      "_label": "Late C20: Some sources state that the turnpike marker may have been moved to its current location during road widening works in the late C20, however …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C20",
+        "begin_of_the_begin": "1967-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-6",
+      "type": "Modification",
+      "_label": "1972: Approximately 76cm high, it stands close but is not attached, to the wall of 352 High Street, and is immediately adjacent to the stone marki…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1972",
+        "begin_of_the_begin": "1972-01-01T00:00:00Z",
+        "end_of_the_end": "1972-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1422365-7",
+      "type": "Modification",
+      "_label": "1991: Another example, at Tring, is a replica installed in 1991 to replace the original lost that year.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1991",
+        "begin_of_the_begin": "1991-01-01T00:00:00Z",
+        "end_of_the_end": "1991-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1422365",
+      "type": "VisualItem",
+      "_label": "Photograph of Sparrows Herne Trust turnpike marker (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1422365",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Sparrows Herne Trust turnpike marker",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Boundary%20Marker%20by%20the%20A4251%2C%20High%20Street%2C%20Berkhamsted%20%28geograph%206094338%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "A C19 cast-iron turnpike marker."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "The Sparrows Herne Trust turnpike marker is probably early C19 in date. DESCRIPTION: a cast-iron post, with a convex face bearing the relief legend ‘SPARROWS HERNE TRUST’. Approximately 76cm high, it stands close but is not attached, to the wall of 352 High Street, and is immediately adjacent to the stone marking the pre-1972 boundary between the civil parishes of Berkhamsted and Northchurch. The marker was probably placed to mark the route of the turnpike for legal and maintenance purposes."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The early C19 Sparrows Herne turnpike marker outside 352 High Street, Berkhamsted is listed at Grade II for the following principal reasons: *\tHistoric interest: as a physical reminder of both the transport infrastructure of the early C19 and the role of the Sparrows Herne Turnpike Trust in maintaining the road; *\tRarity: as one of only two surviving examples of the turnpike markers erected by the Sparrows Herne Turnpike Trust, that at Bushey being listed at Grade II."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The Sparrows Herne Turnpike Trust maintained and controlled the road now known as the A4251 (previously the A41) from Aylesbury to Bushey from 1762 to 1873. It was a toll road and the revenue collected paid for its upkeep. The Sparrows Herne Turnpike Trust, by statute, met annually at the King's Arms, Berkhamsted but more frequent meetings were held especially during the first year or when business dictated. Its first meeting was on 7th July 1762 when 127 trustees were sworn in and two Quakers affirmed. Initially the trustees comprised the local gentry along the road and included the Earl of Essex, Earl of Salisbury, Lord Clarendon, Viscount Grimstone, Duke of Bridgewater and Major General Merrils (The Chronicle, Vol. IV March 2007). Later trustees included, in 1844, John Dickinson of Basildon Bond paper works in Kings Langley. There are two turnpike markers erected by the Sparrows Herne Trust known to survive, the Berkhamsted marker and one located in Bushey, which is listed at Grade II (NHLE 1250997). Another example, at Tring, is a replica installed in 1991 to replace the original lost that year. The Trust was wound up (at a meeting in the Parish Workhouse, which stood until the 1930s almost opposite the Berkhamsted marker) in 1873, probably as a result of decreasing use due to the coming of the railway. Some sources state that the turnpike marker may have been moved to its current location during road widening works in the late C20, however there is little evidence to support this. It was restored in 2014 by the Berkhamsted Citizens Association as part of the celebration of 90 years since its foundation."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2014-12-22T00:00:00Z"
+      }
+    }
+  ]
+}

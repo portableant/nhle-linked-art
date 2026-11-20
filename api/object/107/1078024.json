@@ -1,0 +1,178 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078024.json",
+  "type": "HumanMadeObject",
+  "_label": "South Obelisk In Front Of Akeman Street Baptist Church (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "South Obelisk In Front Of Akeman Street Baptist Church"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078024"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 92329 11311"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355681"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346603"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078024",
+    "type": "Place",
+    "_label": "Tring (SP 92329 11311)",
+    "defined_by": "POINT(-0.662672 51.792842)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078024",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078024",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346603",
+      "type": "HumanMadeObject",
+      "_label": "South Obelisk In Front Of Akeman Street Baptist Church (Q26346603)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078024",
+    "type": "Production",
+    "_label": "Origin / Construction of South Obelisk In Front Of Akeman Street Baptist Church (1851)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1851",
+      "begin_of_the_begin": "1851-01-01T00:00:00Z",
+      "end_of_the_end": "1851-12-31T23:59:59Z"
+    }
+  },
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078024",
+      "type": "VisualItem",
+      "_label": "Photograph of South Obelisk In Front Of Akeman Street Baptist Church (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078024",
+          "type": "DigitalObject",
+          "_label": "Commons Image for South Obelisk In Front Of Akeman Street Baptist Church",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Obelisk%20in%20memory%20of%20James%20Page%2C%20Akeman%20Street%20Baptist%20Church%2C%20Tring%2C%20June%202022.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                  AKEMAN STREET SP 9211                                         (West side) 11/44                                   South Obelisk in -                                       front of Akeman Street                                         Baptist Church GV                                      II Obelisk. Circa 1851, in memory of James Page, 5 years Pastor of Church, d.1851.  Painted stone.  One of 2 identical memorials flanking path, facing E. Short obelisk with moulded base, set on tall tapering plinth with moulded cap and base and inscription on E face. Low stone surround with stone blocks at middle of each side and small obelisks at corners. Listing NGR: SP9232911311"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

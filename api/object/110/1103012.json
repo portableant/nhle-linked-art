@@ -1,0 +1,185 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1103012.json",
+  "type": "HumanMadeObject",
+  "_label": "Barn At Praewood Farm (Hemel Hempstead Road)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Barn At Praewood Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1103012"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 12833 06857"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "163529"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26397085"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1103012",
+    "type": "Place",
+    "_label": "Hemel Hempstead Road (TL 12833 06857)",
+    "defined_by": "POINT(-0.366936 51.749056)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1103012",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1103012",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26397085",
+      "type": "HumanMadeObject",
+      "_label": "Barn At Praewood Farm (Q26397085)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1103012",
+    "type": "Production",
+    "_label": "Origin / Construction of Barn At Praewood Farm (Early C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Early C18",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1733-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1103012-1",
+      "type": "Modification",
+      "_label": "C19: close-set studs (most C19 replacements) and raking braces.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 10 NW                                          HEMEL HEMPSTEAD ROAD                                                   (NORTH SIDE, OFF) 23/325                                            Barn at Praewood Farm II                                                GV Barn, probably early C18, in 2 builds, later alterations.  Timber frame with weatherboard cladding on brick plinth; plain tile roof with Welsh slate to added outshuts.  7 bays, the 4 on the right the earliest.  Two gabled midstrays, that on left with later double door and weatherboard, that on right without doors.  2-bay open-fronted lean-to between midstrays, and weatherboard outshut at left end. Former stable range (qv) projects from right end.  Rear: opposing cart entry to bay 3 flanked by loading hatches, that on right boarded across, that on left with shutter. Interior: large-scantling unjowelled wall-posts arch-braced to tie-beams which support tall queen struts; clasped purlins, old rafters, later ridge-piece, curved wind-braces.  Wall frame has sole plate mid-rail and wall plate; close-set studs  (most C19 replacements) and raking braces. The braces from wall posts to tie-beams are straighter in the slightly later left-hand section, which is now partitioned off. Listing NGR: TL1283306857"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1990-10-18T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1118393.json",
+  "type": "HumanMadeObject",
+  "_label": "The Brills (Weston Turville)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Brills"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1118393"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 86023 11076"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42883"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26411843"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118393",
+    "type": "Place",
+    "_label": "Weston Turville (SP 86023 11076)",
+    "defined_by": "POINT(-0.75414 51.791733)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1118393",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1118393",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26411843",
+      "type": "HumanMadeObject",
+      "_label": "The Brills (Q26411843)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1118393",
+    "type": "Production",
+    "_label": "Origin / Construction of The Brills (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1960",
+      "begin_of_the_begin": "1960-01-01T00:00:00Z",
+      "end_of_the_end": "1960-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118393-1",
+      "type": "Modification",
+      "_label": "C16: C15 hall house, altered C16, C17 and later, restored after fire in 1960's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118393-2",
+      "type": "Modification",
+      "_label": "C17: C15 hall house, altered C16, C17 and later, restored after fire in 1960's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118393-3",
+      "type": "Modification",
+      "_label": "1960: C15 hall house, altered C16, C17 and later, restored after fire in 1960's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118393-4",
+      "type": "Modification",
+      "_label": "1972: 52, 1972, p.132).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1972",
+        "begin_of_the_begin": "1972-01-01T00:00:00Z",
+        "end_of_the_end": "1972-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011898",
+      "type": "Material",
+      "_label": "Thatch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE             WESTON TURVILLE         BROOK END                                              (south side) 5/309                                        No.22, The Brills                                              (formerly listed as Bryalls) 21/12/67                                              II House, formerly a farmhouse and the Black Horse Inn. C15 hall house, altered C16, C17 and later, restored after fire in 1960's. Timber framed with rendered and brick infill, all painted white. Thatched roof, hipped at each end, 3 brick stacks. 2-storeys, modern door in centre with small hood on brackets, three 3-light casements to ground floor, 5 irregular upper casements, that to RH cut up into thatch. Interior. Exposed timber framing including the original hall truss, arch-braced base cruck, now with a wall infilling it, visible on the 1st floor. History: once used as an early Quaker Meeting House. (RCHM I.p.316 MON.21. Antiquaries Journal Vol. 52, 1972, p.132). Listing NGR: SP8602311076"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-12-21T00:00:00Z",
+        "end_of_the_end": "1985-10-11T23:59:59Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100427.json",
+  "type": "HumanMadeObject",
+  "_label": "John Of Gaddesden'S House (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "John Of Gaddesden'S House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100427"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99292 13401"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157719"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17871264"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100427",
+    "type": "Place",
+    "_label": "Little Gaddesden (SP 99292 13401)",
+    "defined_by": "POINT(-0.561146 51.810436)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100427",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100427",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17871264",
+      "type": "HumanMadeObject",
+      "_label": "John Of Gaddesden's House (Q17871264)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100427",
+    "type": "Production",
+    "_label": "Origin / Construction of John Of Gaddesden'S House (C14)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1500",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1500-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-1",
+      "type": "Modification",
+      "_label": "1500: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1500",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1500-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-2",
+      "type": "Modification",
+      "_label": "C16: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-3",
+      "type": "Modification",
+      "_label": "Late C17: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-4",
+      "type": "Modification",
+      "_label": "1898: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1898",
+        "begin_of_the_begin": "1898-01-01T00:00:00Z",
+        "end_of_the_end": "1898-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-5",
+      "type": "Modification",
+      "_label": "1911: (RCHM(1911)144 no.5: Pevsner (1977)237: RCHM Typescript: Senar(1983)90-91).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-6",
+      "type": "Modification",
+      "_label": "c. 1931: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1931",
+        "begin_of_the_begin": "1931-01-01T00:00:00Z",
+        "end_of_the_end": "1931-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100427-7",
+      "type": "Modification",
+      "_label": "1948–1952: Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1948–1952",
+        "begin_of_the_begin": "1948-01-01T00:00:00Z",
+        "end_of_the_end": "1952-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tLITTLE GADDESDEN SP 9913 \t\t\t\t\t(East side)                                        9/188                                   \tNo. 29/30 (John of 14.5.52                                 \tGaddesden's House) GV                                      \tII* Court house, now a house. Circa 1500, altered to a house and extended in late C17, restored 1898 and used as a village reading room, sold and became a house c.1931, additions to front and N end of a C16 house from Hawstead, Suffolk, and late C17 N wing from Wrestlingworth Manor, Beds, 1948-52 by Frank Jennings architect. 1½ storeys rear extension c.1978. Timber frames on brick sills, exposed close studding on ground floor, panelled radial pattern pargetting to 1st floor boldly jettied on W front. Front wing higher red brick sill and exposed close-studding with plastered panels.  Steep old red tile roofs.  3-light flush casement windows with iron opening lights and leaded glazing. A large 2-storeys building facing W with 2-bays upper hall at S richly finished with bold 4ft jetty, and wide arched openings on S and W like original shop windows. Stair on N possible original. N crosswing jettied at W gable possibly contemporary, has higher floor levels and plainer treatment. Gabled dormer in hipped front roof. Large chimney at junction of wings. Front wing is former 2-bay open hall with inserted floor and large internal red brick chimney from N Essex. 2 storeys N wing is painted brick with modillioned eaves cornice and cross windows with leaded glazing. The first-floor hall is unequalled in Herts for the profusion and quality of its ornament (RCHM Typescript) and presumably served a communal purpose such as a Marriage Feast House or a Court House. The connection of the C14 physician John O'Gaddesden with the present building must be spurious. Close studding, moulded arched wind braces, moulded cambered tie-beams with carved knee braces to moulded jowled posts. 2 intermediate trusses in clasped-purlin roof each with cambered collars and solid arched braces with carved spandrels and stub tie-beams with  human  heads  (renewed  by  Lawrence  Tanner  in  plaster  at restoration). Conversion to a house in late C17 involved infilling of wide ground floor openings, inserting large brick stack at N with lobby entrance from W. Raised and fielded panelled ground floor room made by taking in part of a lean-to. 1st floor probably partitioned at central truss. Brick N wing with 1st floor corbelled on 3 moulded courses with a kitchen on ground floor. Transplanted C16 front wing has crown-post roof with 4-way bracing and octagonal post with moulded cap and base, also fine moulded joists and main beam in inserted floor. 4-centre arched chamfered brick fireplace,  and diamond mullioned windows.  Bolection moulded fire surround on 1st floor of N wing.  (RCHM(1911)144 no.5: Pevsner (1977)237: RCHM Typescript: Senar(1983)90-91). Listing NGR: SP9929213401"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-05-14T00:00:00Z"
+      }
+    }
+  ]
+}

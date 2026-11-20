@@ -1,0 +1,296 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101253.json",
+  "type": "HumanMadeObject",
+  "_label": "Gaddesden Place (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gaddesden Place"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101253"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03824 11083"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157848"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q5516314"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101253",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03824 11083)",
+    "defined_by": "POINT(-0.496126 51.788779)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101253",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101253",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Gaddesden_Place",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Gaddesden Place",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Gaddesden_Place",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q5516314",
+      "type": "HumanMadeObject",
+      "_label": "Gaddesden Place (Q5516314)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101253",
+    "type": "Production",
+    "_label": "Origin / Construction of Gaddesden Place (1768)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/cole-a-adams",
+        "type": "Person",
+        "_label": "Cole A. Adams"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1768",
+      "begin_of_the_begin": "1768-01-01T00:00:00Z",
+      "end_of_the_end": "1768-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-1",
+      "type": "Modification",
+      "_label": "1774: Occupied 1774.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1774",
+        "begin_of_the_begin": "1774-01-01T00:00:00Z",
+        "end_of_the_end": "1774-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-2",
+      "type": "Modification",
+      "_label": "C19: Entered from E at ground floor level by central C19 porte couchere.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-3",
+      "type": "Modification",
+      "_label": "1879: (VCH (1908)201: Cussans III (1879) 121: Kelly (1914)103: Pevsner (1977)152: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1879",
+        "begin_of_the_begin": "1879-01-01T00:00:00Z",
+        "end_of_the_end": "1879-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-4",
+      "type": "Modification",
+      "_label": "1881: Conservatory 1881.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1881",
+        "begin_of_the_begin": "1881-01-01T00:00:00Z",
+        "end_of_the_end": "1881-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-5",
+      "type": "Modification",
+      "_label": "C20: Totternhoe stone ashlar, dressings renewed in C20 in Bath stone, podium in Roman Cement lined as ashlar on red brick.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-6",
+      "type": "Modification",
+      "_label": "1905: House gutted by fire Feb 1905, rebuilt 1908 by Cole A.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1905",
+        "begin_of_the_begin": "1905-01-01T00:00:00Z",
+        "end_of_the_end": "1905-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101253-7",
+      "type": "Modification",
+      "_label": "1908: House gutted by fire Feb 1905, rebuilt 1908 by Cole A.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101253",
+      "type": "VisualItem",
+      "_label": "Photograph of Gaddesden Place (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101253",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Gaddesden Place",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaddesdenplace.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        BRIDENS CAMP TL 01 SW                                         (West side) 3/67                                    Gaddesden Place 22.10.52 GV                                      II* Country house, now in part domestic, part commercial use. 'Bilt Ju.1768 for Tho Halsey Eqr', inscribed on plaster in NE ground floor room. Occupied 1774. Traditionally by James Wyatt (and if so, is his earliest dated work). Conservatory 1881. House gutted by fire Feb 1905, rebuilt 1908 by Cole A. Adams for Halsey family, within old shell. N pavilion and quadrant link demolished in 1955 when clock moved to parish church and 2 fireplaces to The Golden Parsonage, q.v.  S pavilion and E wall of quadrant link demolished c.1963 also for dry rot. Totternhoe stone ashlar, dressings renewed in C20 in Bath stone, podium in Roman Cement lined as ashlar on red brick. Hipped slate roof behind parapet. A large Palliadian symmetrical villa set on the hillslope commanding the Gade Valley to the W.  5 windows wide, 4 at ends, 2-storeys, attic and basement. Entered from E at ground floor level by central C19 porte couchere. The base-storey survives of quadrant corridors and 2 former pavilions to NE and SE. A terastyle Ionic full height portico fronts the 3 middle bays of W front with triangular pediment and 16 stone steps. The dentilled cornice runs all round the block with parapet and balustraded panels above windows.  The balustrade  is said  to have replaced the original blocking course in the 1908 restoration.  1881 conservatory against convex W face of SE quadrant corridor has dentilled entablature breaking forward over Composite order columns with urns over and transomed tall 2-light windows between. Moulded stone shouldered architrave surrounds to windows on E and W fronts, the ground floor windows emphasised with trusses and cornice. Plate glass sashes. The pavilions were originally of 2-storeys and basement, facing E, 3 windows wide, with projecting central bay on E and W with Venetian window and pediment over. The interior retains the original symmetrical disposition of spaces but the classical interiors are of 1908 except for an original 6-panel mahogany door in the drawing room E wall with enriched mouldings and commemorative brass plate on leading edge. A fire surround with Wedgewood plaques,  similar to one at The Golden Parsonage, has an inscribed plate dating its installation to after the fire. Entrance from E is by double doors in stone doorcase into a square outer hall with black and white marble chequered floor, fan-design plaster ceiling, and doors on 3 sides. That on LH leads into panelled library with dark wood bookcases around and fireplace on W wall. On RH are service rooms leading to nursery at NE corner. Straight ahead is the central inner hall with panelling to lower part of walls, oval open centre to ceiling of double-height space with fluted Ionic columns supporting a domed oval rooflight. Wide balustraded wooden staircase rises beside S and W walls to arcaded 1st floor in obtrusive asymmetrical form - the original staircase presumably rose in the compartment of the plan to S of central hall which was appropriated to bathrooms and plumbing in 1908. Service stair to N of hall. A large saloon occupies the middle 3 bays of the W front behind the portico with drawing room to S and dining room to N. 6-panel mahogany moulded doors generally, moulded cornices, skirtings, doorcases, and appropriate fire surrounds. Columned screen introduced at W end of drawing room. Groin-vaulted servants' hall in basement. (VCH (1908)201: Cussans III (1879) 121: Kelly (1914)103: Pevsner (1977)152: RCHM Typescript). Listing NGR: TL0382411083"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101220.json",
+  "type": "HumanMadeObject",
+  "_label": "Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101220"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01029 08575"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157972"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542496"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101220",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01029 08575)",
+    "defined_by": "POINT(-0.537363 51.766748)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101220",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101220",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542496",
+      "type": "HumanMadeObject",
+      "_label": "Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East (Q17542496)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101220",
+    "type": "Production",
+    "_label": "Origin / Construction of Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East (C18)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/ernest-willmott",
+        "type": "Person",
+        "_label": "Ernest Willmott"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1911",
+      "begin_of_the_begin": "1911-01-01T00:00:00Z",
+      "end_of_the_end": "1911-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101220-1",
+      "type": "Modification",
+      "_label": "1911: 1911 by Ernest Willmott for W.S.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1911",
+        "begin_of_the_begin": "1911-01-01T00:00:00Z",
+        "end_of_the_end": "1911-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101220",
+      "type": "VisualItem",
+      "_label": "Photograph of Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101220",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Amersfort, With Forecourt Walls, And Linked Terraces And Loggia On South East",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Amersfort%20Hall%20from%20Little%20Heath%20-%20geograph.org.uk%20-%202176970.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW                 NETTLEDEN WITH         THE COMMON                          POTTEN END             (South side)                                                 Potten End 5/193                                           Amersfort, with forecourt -                                               walls, and linked terraces                                                 and loggia on SE GV                                              II* Large house. 1911 by Ernest Willmott for W.S. Cohen, garden said to be by Gertrude Jekyll.  'WSC'  and  '1911' alternate on rainwater heads. Narrow plum brick in English garden wall bond with red brick dressings, deep  plastered  eaves  cove,  and  steep  hipped  red  tile  roofs.  A symmetrical, 2-storeys and attics, Queen Anne Style house, facing NW with formal axial approach and gardens terraced down slope to SE. H-plan with 2-storeys central porch on NW and single-storey service wing at NE end. 9-windows wide entrance front has 4 hipped dormers, 2-light flush oak windows with small pane metal casements and flat tile arches to 1st floor, and deeper flush oak sash windows with 12/12 panes under similar flat arches to ground floor. Red brick plinth, floor band, rusticated quoins to wings and upper part of porch, and channelled rustication with moulded impost band to lower part of porch.  Round arches, hollow moulded, rusticated entrance with double keystone to groin vaulted porch with 3 moulded steps to stone paved interior and moulded shouldered Bath stone surround with keystone to wide 2-panel raised and fielded oak door. Tall rectangular red brick internal chimneys with shallowy arched faces. Garden front raised on tall flint and brick terrace wall. 5 windows wide centre with 5 hipped dormers and projecting wings with 2-bays groin-vaulted  loggia on ground  floor of each.  2-light  oak casements to 1st floor and tall flush box sash windows to ground floor with 12/16 panes and French doors to central opening. Rusticated quoins and arches to wings. SW end 4 windows wide with oak balcony to 1st floor backed by a shallow arched recess with stone female head as keystone and arched cove below over a coved semi-circular niche of fine gauged brickwork. Segmental headed sash windows to ground floor flank niche with rusticated round arched entrance to loggia on RH and similar rusticated recess on LH with circular window. Brick piers and oak pergola linked to W forecourt wall. Oak paling fence tops walls in N half of forecourt. Interior has main rooms facing SE entered from long stone-floored wide corridor with timbered ceiling along NW side.  From this the oak closed-string staircase with turned balusters is reached through a Doric archway in Palladian motif at W end. Raised and fielded 2-panel  doors  to  panelled  Sitting  Room with  segmental  pedimented cabinets flanking the fireplace, bolection moulded Dining Room with coved niches flanking C18 style fire surround, and groin-vaulted Library with Dutch tiled  surround  to  fireplace and panelled pilasters  to bookcases. White glazed walls, stone floor, and elegant wooden dresser to Kitchen facing NW at NE corner of house. Symmetrical terraces step down to SE of house with raised narrow terraces to NE and SW terminating in bowed SE projections with winding external stair at NE and enclosing an arched loggia at SE.  (Ernest Willmott RIBA English House Design Batsford, London (1911), plates 8 and 9). Listing NGR: TL0102908575"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

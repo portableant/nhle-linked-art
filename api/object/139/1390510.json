@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1390510.json",
+  "type": "HumanMadeObject",
+  "_label": "94, Burcott Lane",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "94, Burcott Lane"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1390510"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84227 15131"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "490429"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26669902"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1390510",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 84227 15131)",
+    "defined_by": "POINT(-0.77919 51.828465)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1390510",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1390510",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26669902",
+      "type": "HumanMadeObject",
+      "_label": "94, Burcott Lane (Q26669902)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1390510",
+    "type": "Production",
+    "_label": "Origin / Construction of 94, Burcott Lane (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1925",
+      "begin_of_the_begin": "1925-01-01T00:00:00Z",
+      "end_of_the_end": "1925-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390510-1",
+      "type": "Modification",
+      "_label": "C19: Probably C17, with alterations and additions of later C19 and c1925.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390510-2",
+      "type": "Modification",
+      "_label": "C20: NW front has C20 door to left of 12-pane sash window and wide C20 multi-paned casement window.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390510-3",
+      "type": "Modification",
+      "_label": "c 1925: Probably C17, with alterations and additions of later C19 and c1925.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1925",
+        "begin_of_the_begin": "1925-01-01T00:00:00Z",
+        "end_of_the_end": "1925-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "569/0/10029 BIERTON WITH BROUGHTON BURCOTT LANE No. 94 (Formerly listed as Burcott Lodge) 10-JUL-03 GV II Farmhouse, now house. Probably C17, with alterations and additions of later C19 and c1925. Timber-framed, with brick additions, part rendered, clay tile roofs and brick ridge and end stacks. PLAN: Original building, gable-end towards street, of two box-framed bays, with single-bay box-framed bay added to north-west. C19 brick extension facing street to south-east, creating L-plan, and block of c1925 added in the angle between the two earlier ranges. EXTERIOR: Timber-framed range 1 1/2 storeys, of large rectangular panels with mid-rail on brick plinth, to north-west lower part of frame partly reinforced or replaced in brick. NW front has C20 door to left of 12-pane sash window and wide C20 multi-paned casement window.  Roof to left of ridge stack raised, two windows, that to right a 12-pane sash. Gabled dormer with 2-light casement window to right. Gable end has 2 2-light C20 wooden casements to each floor. SE front has C20 door and 2-light gabled dormer. Jowled posts. Beam ends from raised floor in end bay exposed: those to SE raised above the mid-rail, indicating alteration to floor level. South-east addition of 2 storeys, 3 bays, rendered. Gable end stacks. Rewindowed c.1925, former central doorway removed and replaced by circular window. To left, polygonal bay window with casement openings and 'timber-framed' gable above. Sash windows otherwise, that to right of first floor shorter. Patterned glazing bars incorporating rectangular and diamond shaped panes. Return to SW has V-plan window with similar glazing bar detail to ground floor, and single light window above. South-west front of c.1925 addition has pent roof enclosing entrance door and surround with decorative leaded glazing to right of square bay window with glazing bar detail similar to SE front. First floor has 3-light window with projecting V-plan centre. Tile-hanging in gable above. Side wall stack to left. INTERIOR: Substantial parts of the timber frame survive to collar level, including internal partitions incorporating tie-beam, queen struts, collar and purlins. Rafters renewed relatively recently, perhaps when the roof was raised slightly over the NW bay. Stone flag floor in SE bay of timber framed section. Some C19 fireplaces, shutters, cupboards and doors in SE addition. Fittings of c1925 otherwise. A largely intact seventeenth-century house, with later additions, that forms a group with the adjoining barn. Listing NGR: SP8422715131"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2003-07-10T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1295793.json",
+  "type": "HumanMadeObject",
+  "_label": "Plum Tree Cottage (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Plum Tree Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1295793"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00432 13282"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157711"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26583495"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1295793",
+    "type": "Place",
+    "_label": "Little Gaddesden (TL 00432 13282)",
+    "defined_by": "POINT(-0.54465 51.809163)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1295793",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1295793",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26583495",
+      "type": "HumanMadeObject",
+      "_label": "Plum Tree Cottage (Q26583495)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1295793",
+    "type": "Production",
+    "_label": "Origin / Construction of Plum Tree Cottage (Mid C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Mid C16",
+      "begin_of_the_begin": "1534-01-01T00:00:00Z",
+      "end_of_the_end": "1566-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295793-1",
+      "type": "Modification",
+      "_label": "C19: C19 windows on E, each side of door, of 2 lights with chamfered and stopped mullions of unusually correct design for the time.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1295793-2",
+      "type": "Modification",
+      "_label": "Mid C19: Mid C16, rear brick wings mid C19, S end of No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tHUDNALL TL 01 SW  \t\t\t\t\t(North side)                                       2/180                                   \tNo. 8 (Plum Tree -                                      \t\tCottage) and                                        \t\tNo. 9 -                                      \t\tII House, now 2 houses. Mid C16, rear brick wings mid C19, S end of No. 8 and S porch 1970s. Timber frame exposed on 1st floor infilled with yellow brick. Red brick ground floor and rear parts. Steep old red tile roofs.  A 2-storeys and cellar,  3 bays,  3 windows,  E side jettied building now entered from S, extended to rear and one bay to S and with single-storey T-shaped block of outbuildings linked on W. Gabled S porch. C19 windows on E, each side of door, of 2 lights with chamfered and stopped mullions of unusually correct design for the time. Yellow stock brick infill between timbers above red brick of ground floor. Multangular central red brick chimney with moulded cap and base. Hall in N part (No. 9) reached by passage to rear of chimney with old rear door into rear wing. On S side of passage beam with mortices for partition and door, gap just beyond central axial beam itself with partition mortices. Clasped purlin-roof with curved wind braces and evidence for partitions corresponding to those on ground floor. Paired brackets under jetty mark entrance. Fine mid C16 floor beams moulded with rolls and hollows. (RCHM Typescript). Listing NGR: TL0043213282"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

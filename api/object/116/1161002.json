@@ -1,0 +1,293 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1161002.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of All Saints (Marsworth)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of All Saints"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1161002"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 91991 14603"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42076"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17535771"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161002",
+    "type": "Place",
+    "_label": "Marsworth (SP 91991 14603)",
+    "defined_by": "POINT(-0.666698 51.822488)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1161002",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1161002",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:All_Saints%2C_Marsworth",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17535771",
+      "type": "HumanMadeObject",
+      "_label": "Church of All Saints (Q17535771)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1161002",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of All Saints (Late C12)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1882–1891",
+      "begin_of_the_begin": "1882-01-01T00:00:00Z",
+      "end_of_the_end": "1891-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-1",
+      "type": "Modification",
+      "_label": "C13: Interior: Tower arch is triple chamfered, the inner orders on semi-octagonal piers with C13 stiff-leaf capitals.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-2",
+      "type": "Modification",
+      "_label": "C14: aisle, formerly nave, C14 nave, chancel and S.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-3",
+      "type": "Modification",
+      "_label": "C15: C15 alterations and W.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-4",
+      "type": "Modification",
+      "_label": "C16: Both nave and aisle have C15-C16 roofs, restored, with moulded cross beams.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-5",
+      "type": "Modification",
+      "_label": "1585: parts of brass to Nicholas? and family 1585;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1585",
+        "begin_of_the_begin": "1585-01-01T00:00:00Z",
+        "end_of_the_end": "1585-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-6",
+      "type": "Modification",
+      "_label": "1773: marble wall tablets to members of the Seare family 1773, 1792 and 1807.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1773",
+        "begin_of_the_begin": "1773-01-01T00:00:00Z",
+        "end_of_the_end": "1773-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1161002-7",
+      "type": "Modification",
+      "_label": "1792: marble wall tablets to members of the Seare family 1773, 1792 and 1807.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1792",
+        "begin_of_the_begin": "1792-01-01T00:00:00Z",
+        "end_of_the_end": "1792-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1161002",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of All Saints (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1161002",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of All Saints",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Saints%20Church%2C%20Marsworth%2011.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SW                 MARSWORTH          CHURCH LANE 6/91                                        Church of All Saints 18.10.66 GV                                          II* Parish church.  Late C12 S. aisle, formerly nave, C14 nave, chancel and S. chapel.  C15 alterations and W. tower, the latter incorporating older masonry.  All very much restored 1882-91 by Rev. F.W. Ragg who was also responsible for the decoration of the chancel.  Limestone, clunch and flint,mostly chequered.  Lead roofs except for tiled chancel.  W. tower of 3 stages has plinth, angle buttresses and rebuilt parapet.  2-light traceried openings to bell-chamber, paired except to south.  S. side has cusped niche to second stage, W. side has 3-light cusped window over doorway with old moulded surround and C19 carved spandrels.  Nave has battlemented parapet, C19 corbel table with carved fleurons, and octagonal turret for rood-loft stairs at E, end.  Perpendicular windows, 3-light to left, 2-light to right. C19 N. porch.  Chancel is of rubble stone and has elaborate C19 4-light traceried window.  S. aisle has battlemented parapet,  3-light Perpendicular window to right, much restored, and C19 gabled timber porch with tiled roof.  S. chapel has parapet with C19 carved friezes, a 4-light traceried window to E., and 2 3-light windows to S., the left with Y tracery, the right Perpendicular.  Interior:  Tower arch is triple chamfered, the inner orders on semi-octagonal piers with C13 stiff-leaf capitals.  Tower also contains other fragments of old masonry.  3-bay arcade between nave and S. aisle has double chamfered arches, broach- stopped, on octagonal piers with moulded caps and bases.  4-centred arched openings to rood loft and stairs in nave.  S. aisle has arched recess in S. wall.  Both nave and aisle have C15-C16 roofs, restored, with moulded cross beams.  Arches to chancel, and chapel were remodelled C19 and rest on shaft corbels with richly carved foliage bases and caps, those to chancel with carved heads of virtues.  Chancel has similar ornamental shafts to each corner and centre of N. wall.  Other C19 decoration of chancel includes arched panels filled with carved foliage ornament along N. wall and in window reveals, and blind trefoil arcade above choir stalls.  2 arches to S. chapel are similar to nave arcade, the E. arch old, the other totally restored.  Elaborate cusped piscina in S. chapel.  C19 fittings, the pulpit on a re-sited C14 stone capital carved with angels.  Monuments: altar tomb in S. chapel with carved alabaster panels, pilasters with incised figures on black marble tablets, and brass panel at one end with scene of reclining knight surrounded by mourning family, signed \"Evesham fecit\"; parts of brass to Nicholas? and family 1585; brass to Edmond West; marble wall tablets to members of the Seare family 1773, 1792 and 1807. RCHM II p. 193-5. Listing NGR: SP9199114603"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-10-18T00:00:00Z"
+      }
+    }
+  ]
+}

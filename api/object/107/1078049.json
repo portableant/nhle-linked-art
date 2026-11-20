@@ -1,0 +1,245 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078049.json",
+  "type": "HumanMadeObject",
+  "_label": "The Royal Hotel",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Royal Hotel"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078049"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 95028 12209"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355642"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346718"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078049",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 95028 12209)",
+    "defined_by": "POINT(-0.623304 51.800462)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078049",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078049",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Royal_Hotel%2C_Tring",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346718",
+      "type": "HumanMadeObject",
+      "_label": "The Royal Hotel (Q26346718)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078049",
+    "type": "Production",
+    "_label": "Origin / Construction of The Royal Hotel (1838)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1838",
+      "begin_of_the_begin": "1838-01-01T00:00:00Z",
+      "end_of_the_end": "1838-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078049-1",
+      "type": "Modification",
+      "_label": "1845: Originally named The Harcourt Arms, but the name was changed between 1845 and 1851 (R.C.H.M.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1845",
+        "begin_of_the_begin": "1845-01-01T00:00:00Z",
+        "end_of_the_end": "1845-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078049-2",
+      "type": "Modification",
+      "_label": "1851: Originally named The Harcourt Arms, but the name was changed between 1845 and 1851 (R.C.H.M.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1851",
+        "begin_of_the_begin": "1851-01-01T00:00:00Z",
+        "end_of_the_end": "1851-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078049-3",
+      "type": "Modification",
+      "_label": "1860: South wing rebuilt in brick in 1860's for Lord Lonsdale and further modified in 1937.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1860",
+        "begin_of_the_begin": "1860-01-01T00:00:00Z",
+        "end_of_the_end": "1860-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078049-4",
+      "type": "Modification",
+      "_label": "1937: South wing rebuilt in brick in 1860's for Lord Lonsdale and further modified in 1937.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1937",
+        "begin_of_the_begin": "1937-01-01T00:00:00Z",
+        "end_of_the_end": "1937-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078049",
+      "type": "VisualItem",
+      "_label": "Photograph of The Royal Hotel (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078049",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Royal Hotel",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20former%20Royal%20Hotel%20at%20Tring%20Station%2C%20Aldbury%20-%20geograph.org.uk%20-%201317923.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SE, 5/6 ALDBURY, STATION ROAD (south side), Tring Station The Royal Hotel 11.02.82 II Hotel. 1838 for John Brown, a brewer of Tring, under arrangement with The London and Birmingham Railway Company. South wing rebuilt in brick in 1860's for Lord Lonsdale and further modified in 1937. Stuccoed brick, painted brick to west end facing yard, and yellow stock brick to south wing. Hipped slate roofs with plastered soffits to wide overhangs. A large square 3-storeys above cellar building facing north, with a long lower 2-storeyed south wing. Symmetrical north front lined as ashlar with plinth and regularly-spaced pilasters at comers and flanking the central porch bay. Three windows wide with lower second-storey windows and end chimneys. Recessed sash windows with moulded surrounds and unusual margin lights to each sash with central division and vertical sub-divisions. Large square open porch with pilasters and fluted wooded columns, low square bases, abaci and full entablature surmounted by a simple decorative cast-iron balustrade. Steps and margin light glazing to the double doors, and rectangular fanlight. Similar rectangular open porch with balustrade to entrance in south-east angle with rear wing. East end facing station has plinth comer pilasters and a central sash window to each floor. 10 recessed sash windows to south wing. Originally named The Harcourt Arms, but the name was changed between 1845 and 1851 (R.C.H.M. manuscript). Note: the former stables ranges on the south and west sides of the courtyard to the west of the hotel are not included in this or any other list. Listing NGR: SP9502812209"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1982-02-11T00:00:00Z"
+      }
+    }
+  ]
+}

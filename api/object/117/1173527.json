@@ -1,0 +1,202 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173527.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Forge (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Forge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173527"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06181 11919"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157877"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468280"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173527",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 06181 11919)",
+    "defined_by": "POINT(-0.461711 51.795851)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173527",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173527",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468280",
+      "type": "HumanMadeObject",
+      "_label": "The Old Forge (Q26468280)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173527",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Forge (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1620",
+      "begin_of_the_begin": "1620-01-01T00:00:00Z",
+      "end_of_the_end": "1620-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173527-1",
+      "type": "Modification",
+      "_label": "c. 1620: S room more important with axial ovolo-moulded ceiling beam c.1620 and exposed chamfered joists.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1620",
+        "begin_of_the_begin": "1620-01-01T00:00:00Z",
+        "end_of_the_end": "1620-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173527-2",
+      "type": "Modification",
+      "_label": "Early C18: Early C17 house, brick front early C18, catslide rear extension and brick forge extending to N mid C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173527-3",
+      "type": "Modification",
+      "_label": "Mid C18: Early C17 house, brick front early C18, catslide rear extension and brick forge extending to N mid C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C18",
+        "begin_of_the_begin": "1734-01-01T00:00:00Z",
+        "end_of_the_end": "1766-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GADDESDEN ROW TL 01 SE                                         (South side) 4/98                                    The Old Forge - GV                                     II House and forge, now all one house. Early C17 house, brick front early C18, catslide rear extension and brick forge extending to N mid C18. Timber frame with brick infill exposed externally only at rear, red brick, steep old red tile roofs, forge hipped at N end. A 2-storeys and attic, 2-cells, lobby entry plan house, facing E, with gabled rear stair tower,  catslide rear outshut, gabled front porch, and single-storey brick forge attached on N with entrance in N end facing road. E front has 3 windows to upper floor and central battened door in porch. Attics lit by gable end windows. 3-light casement windows, renewed. Timber frame exposed inside, with narrow central chimney and entrance bay flanked by a single large bay on each side. S room more important with axial ovolo-moulded ceiling beam c.1620 and exposed chamfered joists. N room similar but with simple chamfer to axial beam.  Ovolo-moulded fireplace lintel to each room and fireplaces originally on floor above, but chimney stack removed as unsafe and replaced by new staircase. Bathroom in former rear stair tower. Swept-jowled posts and straight braces to wallplate. Wide-spaced studs, framing for blocked windows in rear wall, clasped-purlin roof on collar-and-queen-strut trusses with straight wind-braces. Original attic floor on chamfered beams and square sawn joists, and full-height framed partition enclosing the chimney bay. Corner cupboard built in NE corner of ground floor N room with shaped shelves and hermicycle head in upper part with double doors and panelled door to lower part. Brought from 3, St. Agnell's Cottages, near Hemel Hempstead. Listing NGR: TL0611511986"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

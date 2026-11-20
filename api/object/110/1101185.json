@@ -1,0 +1,167 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101185.json",
+  "type": "HumanMadeObject",
+  "_label": "Crossways",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Crossways"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101185"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01866 08134"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157989"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394330"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101185",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 01866 08134)",
+    "defined_by": "POINT(-0.525367 51.762633)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101185",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101185",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394330",
+      "type": "HumanMadeObject",
+      "_label": "Crossways (Q26394330)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101185",
+    "type": "Production",
+    "_label": "Origin / Construction of Crossways (1911)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1911",
+      "begin_of_the_begin": "1911-01-01T00:00:00Z",
+      "end_of_the_end": "1911-12-31T23:59:59Z"
+    }
+  },
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 03/06/2020 TL 00 NW 5/208 NETTLEDEN WITH POTTEN END LITTLE HEATH LANE (east side) Crossways II House. 1911 for Mr. Spencer Holland. Brick roughcast with steep hipped red tile roofs. A pretty Queen Anne Revival house of two storeys and attics facing west with symmetrical west front flanked by single-storey small square pavilions with steep pyramidal roofs topped by small louvered lanterns. Brick plinth, plastered floor band, heavy wooden modillioned eaves cornice, six first floor flush box sash windows with six/six panes and external shutters (second window from each end has no shutters). Shell motif over six panel door flanked by small windows in four-pilaster door case with deep barrel-vaulted panelled wooden porch on two Tuscan columns. Wider eight/eight panes sash window with shutters each side of porch. Small circular window to each pavilion. Elaborate south front with two windows with shutters on each floor to each side of recessed centre with balcony with turned balusters carried on four consoles of four pilasters flanking door to garden. Two flat topped dormers on roof slopes. East front simpler with twin canted ground floor bay windows linked by hipped tile roof. Thoughtfully detailed but not elaborate interior. Date '1911' on plinth of sundial at centre of forecourt. Listing NGR: TL0186608134"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

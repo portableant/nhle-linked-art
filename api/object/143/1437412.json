@@ -1,0 +1,285 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1437412.json",
+  "type": "HumanMadeObject",
+  "_label": "Inns of Court Officers Training Corps Memorial, Berkhamsted Common",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Inns of Court Officers Training Corps Memorial, Berkhamsted Common"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1437412"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0050909264"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q28657563"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1437412",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0050909264)",
+    "defined_by": "POINT(-0.544697 51.773035)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1437412",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1437412",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Inns_of_Court_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Inns of Court War Memorial",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Inns_of_Court_War_Memorial%2C_Berkhamsted",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q28657563",
+      "type": "HumanMadeObject",
+      "_label": "Inns of Court War Memorial (Q28657563)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1437412",
+    "type": "Production",
+    "_label": "Origin / Construction of Inns of Court Officers Training Corps Memorial, Berkhamsted Common (1854–1942)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-1",
+      "type": "Modification",
+      "_label": "1913–1916: V.D/ WHO SERVED THE CORPS FOR 36 YEARS/ AND WAS ITS LOVED & HONOURED/ COMMANDER: 1913-1916.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1913–1916",
+        "begin_of_the_begin": "1913-01-01T00:00:00Z",
+        "end_of_the_end": "1916-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-2",
+      "type": "Modification",
+      "_label": "1914–1918: WHO IN THIS NEIGHBOUR/ HOOD TRAINED OVER TWELVE/ THOUSAND MEN TO SERVE/ AS COMMISSIONED OFFICERS/ IN THE GREAT WAR 1914- 1918/ AND IN AFFECT…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-3",
+      "type": "Modification",
+      "_label": "1914: On 28 September 1914 a training camp was formed at Berkhamsted, including a tented camp near the railway station and a parade ground (now kn…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-4",
+      "type": "Modification",
+      "_label": "1919: It remained at Berkhamsted until June 1919.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1919",
+        "begin_of_the_begin": "1919-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-5",
+      "type": "Modification",
+      "_label": "1920: Erected circa 1920.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437412-6",
+      "type": "Modification",
+      "_label": "1922: Lieutenant Colonel Errington wrote a history of the corps, which was published in 1922.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1922",
+        "begin_of_the_begin": "1922-01-01T00:00:00Z",
+        "end_of_the_end": "1922-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1437412",
+      "type": "VisualItem",
+      "_label": "Photograph of Inns of Court Officers Training Corps Memorial, Berkhamsted Common (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1437412",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Inns of Court Officers Training Corps Memorial, Berkhamsted Common",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Inns%20of%20Court%20War%20Memorial%2C%20Berkhamsted%2C%20August%202026%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial. Erected circa 1920."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "First World War memorial. Erected circa 1920. MATERIALS: carved from stone. DESCRIPTION: the war memorial stands on Berkhamsted Golf Course at the junction of New Road and Potten End Road. It is situated a short distance to the SE of the site of the Inns of Court Officer Training Corps practice trenches on Berkhamsted Common The memorial comprises a stone obelisk with a moulded base, which stands on a chamfered and moulded square pedestal and a two-stepped base. The upper step of the base is constructed of red brickwork and stone to form a St George’s Cross and St Patrick’s Saltire. On the body of the pedestal is the inscription in incised lettering IN MEMORY OF THE INNS OF/ COURT OFFICERS TRAINING/ CORPS. WHO IN THIS NEIGHBOUR/ HOOD TRAINED OVER TWELVE/ THOUSAND MEN TO SERVE/ AS COMMISSIONED OFFICERS/ IN THE GREAT WAR 1914- 1918/ AND IN AFFECTIONATE/ REMEMBRANCE OF THE TWO/ THOUSAND WHO GAVE THEIR/ LIVES FOR THEIR COUNTRY/ THIS MONUMENT IS ERECTED/ BY MEMBERS & FRIENDS OF/ THE CORPS and beneath it is the corps motto SALUS POPULI SUPREMA LEX. On the base of the pedestal is the inscription NEAR THIS SPOT LIE THE ASHES OF/ LIEUT. COL. F.H.L. ERRINGTON C.B. V.D/ WHO SERVED THE CORPS FOR 36 YEARS/ AND WAS ITS LOVED & HONOURED/ COMMANDER: 1913-1916. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 15 March 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Inns of Court Officers Training Corps Memorial, erected in c1920 on Berkhamsted Common, is listed at Grade II for the following principal reasons: *     Architectural interest: as an elegant stone obelisk resting upon a moulded base, pedestal and stepped base; *     Commemorative: as a tangible reminder of the men of the Inns of Court Officer Training Corp, who trained in the nearby First World War training trenches on Berkhamsted Common, and the sacrifice they made for their country; *     Historic interest: as a war memorial that has strong cultural and historic significance within both a local and national context."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The Inns of Court Officers Training Corps (OTC) was a territorial unit based in Chancery Lane with a close association with the legal profession. Its motto was ‘salus populi suprema lex’ (‘the safety of the people is the supreme law’) and its nickname was ‘The Devil’s Own’. On 28 September 1914 a training camp was formed at Berkhamsted, including a tented camp near the railway station and a parade ground (now known as ‘Kitchener’s Field'), with field training taking place on Berkhamsted and Northchurch commons. It remained at Berkhamsted until June 1919. Over 13km of training trenches were dug on the commons as part of the training (about 600m of trenches remain today at SP 998 102). Following training here, many men headed to the battlefields of northern France. During the course of the war, approximately 13,800 men passed through the corps and nearly 12,000 gained commissions. Three Victoria Crosses were awarded, among numerous other decorations. A total of 5,000 men from the corps were wounded and 2,147 died during the conflict. A memorial was erected on Berkhamsted Common in circa 1920 to commemorate those men who lost their lives. An inscription was later added to the memorial to commemorate Lieutenant Colonel Francis Henry Lancelot Errington (1854-1942), Commanding Officer of the corps from 1913-1916. Lieutenant Colonel Errington wrote a history of the corps, which was published in 1922."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-11-01T00:00:00Z"
+      }
+    }
+  ]
+}

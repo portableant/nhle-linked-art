@@ -1,0 +1,229 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174311.json",
+  "type": "HumanMadeObject",
+  "_label": "Old Park Lodge (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Old Park Lodge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174311"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 98439 12760"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157707"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469013"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174311",
+    "type": "Place",
+    "_label": "Little Gaddesden (SP 98439 12760)",
+    "defined_by": "POINT(-0.573697 51.804825)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174311",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174311",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469013",
+      "type": "HumanMadeObject",
+      "_label": "Old Park Lodge (Q26469013)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174311",
+    "type": "Production",
+    "_label": "Origin / Construction of Old Park Lodge (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1617",
+      "begin_of_the_begin": "1617-01-01T00:00:00Z",
+      "end_of_the_end": "1617-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174311-1",
+      "type": "Modification",
+      "_label": "1617: C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1617",
+        "begin_of_the_begin": "1617-01-01T00:00:00Z",
+        "end_of_the_end": "1617-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174311-2",
+      "type": "Modification",
+      "_label": "1649: C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1649",
+        "begin_of_the_begin": "1649-01-01T00:00:00Z",
+        "end_of_the_end": "1649-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174311-3",
+      "type": "Modification",
+      "_label": "c. 1715: C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1715",
+        "begin_of_the_begin": "1715-01-01T00:00:00Z",
+        "end_of_the_end": "1715-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174311-4",
+      "type": "Modification",
+      "_label": "c. 1725: C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1725",
+        "begin_of_the_begin": "1725-01-01T00:00:00Z",
+        "end_of_the_end": "1725-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174311-5",
+      "type": "Modification",
+      "_label": "c. 1825: C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1825",
+        "begin_of_the_begin": "1825-01-01T00:00:00Z",
+        "end_of_the_end": "1825-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tASHRIDGE PARK SP 91 SE  \t\t\t\t\t(West side)                                       1/176                                   \tOld Park Lodge 30.11.66 -                                      \t\tII Verderer's lodge and lookout, now a house. C17 probably for 1st Baron Ellesmere (d.1617) or 1st Earl of Ellesmere (d.1649), refaced c.1715, low N kitchen extension c.1725, N annexe c.1825. Red brick, the exterior now faced in Flemish bond. Different shades of red and larger bricks in N  extensions.  Steep  old  red  tile  roofs.  Wide  plastered  cove  to cantilevered E corners of roof. A rectangular 3½-storeys house with large external gable chimneys and a narrower projecting E frontispiece containing stairway and entrance hall topped by 2 gabled dormers. This front has a wide 4-centred arched doorway with battened painted door, a 2-light lattice leaded window over, and a plastered sundial above the 2nd projecting brick floor band. Springing from the sidewalls of this front part wide plaster coves are carried up to the corners of the roof, supported by timbers tailed back into the gable brickwork. Similar sundial on S chimney for afternoon sun. Interior has fine moulded string oak staircase with turned balusters and acorn finials and pendants to newels, rising through 4 levels in the frontispiece, a single large ground floor room with chamfered crossed beams,  2 rooms over with moulded beams and jowled central post to partition, moulded plank doors with strap hinges, similar subdivision on 2nd floor with simpler doors, and stair continuing to an attic chamber across the top of the house. Listing NGR: SP9843912760"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

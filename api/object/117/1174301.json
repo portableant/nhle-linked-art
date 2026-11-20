@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174301.json",
+  "type": "HumanMadeObject",
+  "_label": "Brick Wall Cottage, And Number 2/3 (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Brick Wall Cottage, And Number 2/3"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174301"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00624 10282"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157982"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469003"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174301",
+    "type": "Place",
+    "_label": "Nettleden With (TL 00624 10282)",
+    "defined_by": "POINT(-0.542736 51.782164)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174301",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174301",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469003",
+      "type": "HumanMadeObject",
+      "_label": "Brick Wall Cottage, And Number 2/3 (Q26469003)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174301",
+    "type": "Production",
+    "_label": "Origin / Construction of Brick Wall Cottage, And Number 2/3 (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1632",
+      "begin_of_the_begin": "1632-01-01T00:00:00Z",
+      "end_of_the_end": "1632-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-1",
+      "type": "Modification",
+      "_label": "C17: A large C17 chimney backs onto the cross-passage and has 3 tall diagonal shafts above the roof.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-2",
+      "type": "Modification",
+      "_label": "1632: C16 former open-hall house, inserted floor and chimney in hall dated by '1632' inscribed on gabled dormer window.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1632",
+        "begin_of_the_begin": "1632-01-01T00:00:00Z",
+        "end_of_the_end": "1632-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-3",
+      "type": "Modification",
+      "_label": "c. 1660: W crosswing c.1660, late C17 N wing, late C18 rear wall chimney to centre probably when split into 3 houses.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1660",
+        "begin_of_the_begin": "1660-01-01T00:00:00Z",
+        "end_of_the_end": "1660-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-4",
+      "type": "Modification",
+      "_label": "Late C17: W crosswing c.1660, late C17 N wing, late C18 rear wall chimney to centre probably when split into 3 houses.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-5",
+      "type": "Modification",
+      "_label": "Late C18: W crosswing c.1660, late C17 N wing, late C18 rear wall chimney to centre probably when split into 3 houses.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-6",
+      "type": "Modification",
+      "_label": "C20: C20 gabled porch, leaded windows and large gabled dormer on W side.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174301-7",
+      "type": "Modification",
+      "_label": "Late C20: Late C20 W extension to W end.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C20",
+        "begin_of_the_begin": "1967-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 01 SW         NETTLEDEN WITH         FRITHSDEN GARDENS                  POTTEN END             (East side) 3/201                                   Brick Wall Cottage, 30.11.66                                and No. 2/3                                         (formerly listed as                                         1, Frithsden Gardens, No. 2                                         Frithsden Gardens, No. 3 GV                                      Frithsden Gardens) II House, now 3 houses. C16 former open-hall house, inserted floor and chimney in hall dated by '1632' inscribed on gabled dormer window. W crosswing c.1660, late C17 N wing, late C18 rear wall chimney to centre probably when split into 3 houses. Late C20 W extension to W end. Timber frame infilled with red brick (painted at No. 1) with steep old red tile roofs. A 1½ storeys W range facing S (Nos. 2 and 3) comprises a former 2-bays hall with open hearth, storeyed bay to W, stair in NW corner and cross passage at E end. A large C17 chimney backs onto the cross-passage and has 3 tall diagonal shafts above the roof. It has a large and a smaller gabled dormer at the eaves with leaded casements. Irregular casements to ground floor. C17 W crosswing (No. 1) provided a new heated parlour and chamber and attics over. One window to each floor in S gable and to attic. Small-pane Yorkshire sliding casements. C20 gabled porch, leaded windows and large gabled dormer on W side. Wide ground floor fireplace in No. 1 has 3-centred moulded head and joints. This room has ovolo moulded beam with hollow and nicked stops. Cavetto and ovolo moulded bracket at E end. 4-centred moulded fireplace to chamber over and ovolo moulded beam. Clasped-purlin roof with cranked windbraces. Hall range has long curved windbraces to clasped-purlin roof and edge- halved scarf with bridled butts in rear wallplate. (RCHM Typescript). Listing NGR: TL0062410282"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

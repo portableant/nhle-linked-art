@@ -1,0 +1,224 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174755.json",
+  "type": "HumanMadeObject",
+  "_label": "Witches Hollow (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Witches Hollow"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174755"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 98989 13576"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157747"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26469420"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174755",
+    "type": "Place",
+    "_label": "Little Gaddesden (SP 98989 13576)",
+    "defined_by": "POINT(-0.56549 51.812062)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174755",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174755",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26469420",
+      "type": "HumanMadeObject",
+      "_label": "Witches Hollow (Q26469420)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174755",
+    "type": "Production",
+    "_label": "Origin / Construction of Witches Hollow (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1850",
+      "begin_of_the_begin": "1850-01-01T00:00:00Z",
+      "end_of_the_end": "1850-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174755-1",
+      "type": "Modification",
+      "_label": "Late C17: C17, converted to 2 houses in late C17 or early C18, altered c.1850, converted to one house 1936.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174755-2",
+      "type": "Modification",
+      "_label": "Early C18: C17, converted to 2 houses in late C17 or early C18, altered c.1850, converted to one house 1936.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174755-3",
+      "type": "Modification",
+      "_label": "Mid C19: Associated with Rosina Jane Massey who was reputed a witch locally in the mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174755-4",
+      "type": "Modification",
+      "_label": "c. 1850: C17, converted to 2 houses in late C17 or early C18, altered c.1850, converted to one house 1936.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1850",
+        "begin_of_the_begin": "1850-01-01T00:00:00Z",
+        "end_of_the_end": "1850-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174755-5",
+      "type": "Modification",
+      "_label": "1936: C17, converted to 2 houses in late C17 or early C18, altered c.1850, converted to one house 1936.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1936",
+        "begin_of_the_begin": "1936-01-01T00:00:00Z",
+        "end_of_the_end": "1936-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tRINGSHALL DRIVE SP 91 SE \t\t\t\t\t(West side)                                          \tAshridge Park                                      1/216                                   \tWitches Hollow - GV                                      \tII House, sometime on inn. C17, converted to 2 houses in late C17 or early C18, altered c.1850, converted to one house 1936. Timber frame cased in red brick with brick extensions and old red tile roofs. A 2-storeys and cellar house  facing W with 4 windows  to  1st  floor,  2  2-storeys rectangular hipped bay windows,  casement windows between with lobby entrance opposite large internal chimney a third from N end surmounted by a cruciform diagonally set shaft. A pair of diagonally set square shafts to S gable chimney with single-storey extension to S. Small brick vaulted oven in N room, and cellar under rear wing at NE. Gabled stair turret with herringbone brickwork on flank above roof of entrance lobby at E, with timber framed gabled porch. Interior shows walls heightened by 2ft, and new roof propped off old roof. Frame has jowled posts, tie-beams and braces cut through, and wide spaced studs in front and rear walls.  Side purlin roof to NE rear wing with jowled posts. Chamfered axial floorbeams. Formerly on inn on the route to Berkhamsted crossing the main road to W of house now stopped up. Associated with Rosina Jane Massey who was reputed a witch locally in the mid C19. Listing NGR: SP9898913576"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

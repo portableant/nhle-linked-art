@@ -1,0 +1,278 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174216.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of The Holy Trinity (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of The Holy Trinity"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174216"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01713 08937"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157971"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468927"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174216",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01713 08937)",
+    "defined_by": "POINT(-0.527349 51.769878)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174216",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174216",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Holy_Trinity_church%2C_Potten_End",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468927",
+      "type": "HumanMadeObject",
+      "_label": "Church of the Holy Trinity (Q26468927)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174216",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of The Holy Trinity (c. 1864)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1895",
+      "begin_of_the_begin": "1895-01-01T00:00:00Z",
+      "end_of_the_end": "1895-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-1",
+      "type": "Modification",
+      "_label": "1865: Designed c.1864, contract date 9.3.1865, licensed for services Sept 1865, consecrated 1868, porch 1908.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1865",
+        "begin_of_the_begin": "1865-01-01T00:00:00Z",
+        "end_of_the_end": "1865-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-2",
+      "type": "Modification",
+      "_label": "1868: Designed c.1864, contract date 9.3.1865, licensed for services Sept 1865, consecrated 1868, porch 1908.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1868",
+        "begin_of_the_begin": "1868-01-01T00:00:00Z",
+        "end_of_the_end": "1868-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-3",
+      "type": "Modification",
+      "_label": "1868–1967: Smith Holy Trinity Church, Potten End: Centenary Booklet 1868-1967 (1967): Bryant (1982) Ch.IX).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1868–1967",
+        "begin_of_the_begin": "1868-01-01T00:00:00Z",
+        "end_of_the_end": "1967-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-4",
+      "type": "Modification",
+      "_label": "1895: Church Of The Holy Trinity TL 00 NW NETTLEDEN WITH CHURCH ROAD POTTEN END (West side) Potten End 5/192 Church of The Holy Trinity - GV II Ch…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1895",
+        "begin_of_the_begin": "1895-01-01T00:00:00Z",
+        "end_of_the_end": "1895-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-5",
+      "type": "Modification",
+      "_label": "1908: Designed c.1864, contract date 9.3.1865, licensed for services Sept 1865, consecrated 1868, porch 1908.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-6",
+      "type": "Modification",
+      "_label": "1914: (Kelly (1914)53: M.J.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174216-7",
+      "type": "Modification",
+      "_label": "1927: Original bell replaced by 3 in 1927.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1927",
+        "begin_of_the_begin": "1927-01-01T00:00:00Z",
+        "end_of_the_end": "1927-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1174216",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of The Holy Trinity (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1174216",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of The Holy Trinity",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Potten%20End%2C%20Holy%20Trinity%20Church%20-%20geograph.org.uk%20-%20616012.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW                 NETTLEDEN WITH         CHURCH ROAD POTTEN END             (West side) Potten End 5/192                                           Church of The Holy Trinity - GV                                              II Chapel-of-ease, parish church since 1895. Designed c.1864, contract date 9.3.1865, licensed for services Sept 1865, consecrated 1868, porch 1908. F.C. Penrose for Earl Brownlow. Builders T. & J. Mathews and William Nash for £710. Plum brick with red brick and stone dressings and steep red tiled roofs. A small T-plan church with semi-circular apse, S porch, N vestry, and bellcote on W gable. Described'as in the Italian Norman Style.  Round-arched windows,  stilted 3-light windows lighting nave, single lights elsewhere with triplets at 2 levels in transepts ends. Blue brick chamfered course to plinth and red brick corbel table at eaves level continued across faces of gables with red brickwork above and stone gable copings with crosses. W gable topped by 2-stage bellcote with mid-wall shaft to lower opening. Plastered interior over boarded dado.  Open  timber  roof  with  arch-braced  collar-trusses  in  pine. Plastered round-arch with chamfered imposts to apse. 3 stained glass windows in apse presented by Lady Marion Alford for opening. Simple oak fittings with one choir stall and lectern by Thompson of Kilburn (the 'mouse-man').  Elaborate  S  door protected by later matching  porch. Original bell replaced by 3 in 1927. War memorial tablets inserted externally in S gable of S transept. (Kelly (1914)53: M.J. Smith Holy Trinity Church, Potten End:  Centenary Booklet 1868-1967  (1967):  Bryant (1982) Ch.IX). Listing NGR: TL0171008940 This List entry has been amended to add sources for War Memorials Online and the War Memorials Register. These sources were not used in the compilation of this List entry but are added here as a guide for further reading, 30 October 2017."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

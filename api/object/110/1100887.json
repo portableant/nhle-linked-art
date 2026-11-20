@@ -1,0 +1,224 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100887.json",
+  "type": "HumanMadeObject",
+  "_label": "Hyde Lane Farmhouse (Abbots Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Hyde Lane Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100887"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0884404134"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158695"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26393714"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100887",
+    "type": "Place",
+    "_label": "Abbots Langley (TL0884404134)",
+    "defined_by": "POINT(-0.425547 51.725371)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100887",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100887",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26393714",
+      "type": "HumanMadeObject",
+      "_label": "Hyde Lane Farmhouse (Q26393714)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100887",
+    "type": "Production",
+    "_label": "Origin / Construction of Hyde Lane Farmhouse (Late C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1977",
+      "begin_of_the_begin": "1977-01-01T00:00:00Z",
+      "end_of_the_end": "1977-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100887-1",
+      "type": "Modification",
+      "_label": "Early C16: Late C15 or early C16 hall bay, floored and heated in C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1533-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100887-2",
+      "type": "Modification",
+      "_label": "C17: Late C15 or early C16 hall bay, floored and heated in C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100887-3",
+      "type": "Modification",
+      "_label": "C19: Rear gable end has a C19 external stack.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100887-4",
+      "type": "Modification",
+      "_label": "C20: Entrance in right return with C20 exposed timbers on first floor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100887-5",
+      "type": "Modification",
+      "_label": "1977: Cross wing rebuilt and cased 1977.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE           ABBOTS LANGLEY          HYDE LANE (Southeast side) Hemel Hempstead 3/49                                       Hyde Lane 3.12.74                                    Farm House GV                                         II House. Late C15 or early C16 hall bay, floored and heated in C17. Cross wing rebuilt and cased 1977. Timber frame, red brick cased and rebuilt, some weatherboarding. Machine tiled roof. Original hall bay to left with 2 bay cross wing to right rebuilt following fire. Entrance in 1 storey and attic hall bay with a 2 light casement. Steeply pitched roof. C17 ridge stack with 2 flues and an oversailing cap adjoins cross wing to right. Left gable end weatherboarded with a lean-to outshut. Cross wing with gable front, taller ridge. 3 and 4 light casements, first floor weatherboarding. Entrance in right return with C20 exposed timbers on first floor. Rear gable end has a C19 external stack. Interior: curved braces, jowled posts, clasped purlin roof, part of C17 cross wing framing nearest hall bay survives. (RCHM Typescript). Listing NGR: TL0884404134"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1974-12-03T00:00:00Z"
+      }
+    }
+  ]
+}

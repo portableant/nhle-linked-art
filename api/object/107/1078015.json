@@ -1,0 +1,186 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078015.json",
+  "type": "HumanMadeObject",
+  "_label": "Milepost On Towpath Near Wilstone At National Grid Reference Sp 9024 1435 (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Milepost On Towpath Near Wilstone At National Grid Reference Sp 9024 1435"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078015"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 90245 14350"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355765"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346556"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078015",
+    "type": "Place",
+    "_label": "Tring Rural (SP 90245 14350)",
+    "defined_by": "POINT(-0.69209 51.820498)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078015",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078015",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346556",
+      "type": "HumanMadeObject",
+      "_label": "Milepost On Towpath Near Wilstone At National Grid Reference Sp 9024 1435 (Q26346556)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078015",
+    "type": "Production",
+    "_label": "Origin / Construction of Milepost On Towpath Near Wilstone At National Grid Reference Sp 9024 1435 (1435)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1435",
+      "begin_of_the_begin": "1435-01-01T00:00:00Z",
+      "end_of_the_end": "1435-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078015-1",
+      "type": "Modification",
+      "_label": "1896: 1896 for Grand Junction Canal Company.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1896",
+        "begin_of_the_begin": "1896-01-01T00:00:00Z",
+        "end_of_the_end": "1896-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078015-2",
+      "type": "Modification",
+      "_label": "1970: Stone mileposts were replaced by cast iron ones in 1896 (Branch Johnson(1970)120).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1970",
+        "begin_of_the_begin": "1970-01-01T00:00:00Z",
+        "end_of_the_end": "1970-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            GRAND UNION CANAL - SP 9014                                         AYLESBURY ARM 9/129                                   Milepost on towpath -                                       near Wilstone at                                         Grid Ref SP 9024 1435 GV                                      II Milepost giving distance along Aylesbury Arm. 1896 for Grand Junction Canal Company.  In raised  lettering  on back  'LONDON  & LANKASHIRE/  ELECTRICAL & GENL/ENGINEERING CO LIMITED/LONDON'. Cast iron painted. A small rectangular upright plate with radiused corners and raised bead at edge.  Figure  '1'  in relief in centre. Plate cast integral with T-section iron post with makers' name once on each half of back. Stone mileposts  were  replaced  by  cast  iron  ones  in  1896  (Branch Johnson(1970)120). Listing NGR: SP9024514350"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

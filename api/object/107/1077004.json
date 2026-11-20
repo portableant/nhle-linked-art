@@ -1,0 +1,295 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1077004.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of All Saints (Church Of England) (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of All Saints (Church Of England)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1077004"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 89478 15837"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355776"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26343108"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077004",
+    "type": "Place",
+    "_label": "Tring Rural (SP 89478 15837)",
+    "defined_by": "POINT(-0.702831 51.833987)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1077004",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1077004",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:All_Saints%27_Church%2C_Long_Marston%2C_Hertfordshire",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26343108",
+      "type": "HumanMadeObject",
+      "_label": "Church of All Saints (Church of England) (Q26343108)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1077004",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of All Saints (Church Of England) (C12)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-ninian-comper",
+        "type": "Person",
+        "_label": "Sir Ninian Comper"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1882",
+      "begin_of_the_begin": "1882-01-01T00:00:00Z",
+      "end_of_the_end": "1882-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-1",
+      "type": "Modification",
+      "_label": "Late C12: a wide round arched recess in N aisle of late C12 work with roll moulding between bands of dog-tooth to arch carried on small shafts with sc…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C12",
+        "begin_of_the_begin": "1167-01-01T00:00:00Z",
+        "end_of_the_end": "1199-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-2",
+      "type": "Modification",
+      "_label": "C13: C13 recess in N wall of chancel with pointed arch and dog-tooth ornament;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-3",
+      "type": "Modification",
+      "_label": "c. 1230: 2-light lancet N window parts of which c.1230;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1230",
+        "begin_of_the_begin": "1230-01-01T00:00:00Z",
+        "end_of_the_end": "1230-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-4",
+      "type": "Modification",
+      "_label": "C14: The nave and chancel of the old church of All Saints Long Marston were carefully demolished in 1883 and among the many features transfered t…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-5",
+      "type": "Modification",
+      "_label": "C15: Chancel marked off from 3-bays nave by heavy C15 tie-beam with massive cusped curved braces and traceried spandrels, brought from Weston Tur…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-6",
+      "type": "Modification",
+      "_label": "C17: Many features dating from C12 to C17 built into church removed from old church of All Saints (q.v.), and from elsewhere.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077004-7",
+      "type": "Modification",
+      "_label": "Early C17: early C17 hexagonal pulpit with 2 tiers of carved panels;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1077004",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of All Saints (Church Of England) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1077004",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of All Saints (Church Of England)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Saints%20Church%2C%20Long%20Marston%20-%20West%20End%20-%20geograph.org.uk%20-%201203182.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            STATION ROAD SP 8915                                         (East side)                                         Long Marston 8/139                                         Church of All Saints -                                       ( C of E) -                                       II Parish  church.  1882-3 by  Carpenter &  Ingelow,  site  given by Sir Nathaniel Mayer de Rothschild, porch with vestry at W added 1907-8 by William Huckvale in place of intended tower, 6 buttresses added on S, and E wall reconstructed (tablet in porch). Many features dating from C12 to C17 built into church removed from old church of All Saints (q.v.), and from elsewhere. Flint, knapped uncoursed facing with Bath stone dressings and steep machine-made red tile roofs. A tall 5-bays church in Dec style, without structurally separate chancel, set back from road in older graveyard, with continuous N aisle under roof and low twin-gabled porch-with-vestry at W end. Reticulated tracery to 3 large 3-light windows on S side at W part and small 2-light similar window to E bay, all with hoodmoulds. Small pointed S door with chamfered jambs, plank  door,  hoodmould,  and  gabled  tiled  bellcote  and  bell  over, bracketed out below eaves level. Elaborate entrance into S side of W porch in Dec style with moulded arches and jamb shafts, 2 steps to double doors with decorative hinge plates. Diagonal buttresses to E end, fine 5-light pointed E window with reticulated tracery, and cross as finial to gable parapet. Wheel-cross finial to W gable over 3-light segmental-headed traceried W window with separate quatrefoil in circle over. 2-light traceried pointed window to each gable of lower W block. Moulded string course at sill level of E window, and added buttresses each have chamfered plinth and moulded base. E end of N aisle set back with 3-light traceried C19 window but other windows in aisle are re-used medieval features, and there is the round head of a small Romansque window set in the N wall next N door. Spacious interior with continuous boarded waggon roof with moulded battens, tie-beam and king-post trusses with semi-circular bracing to collar, and small braces below on stone corbels. Trusses rebuilt 1907 after movement in S wall. Chancel marked off from 3-bays nave by heavy C15 tie-beam with massive cusped curved braces and traceried spandrels, brought from Weston Turville old rectory in 1883 then being pulled down on advice of Sir Gilbert Scott. Similar cusping on arched wind-braces to 2 E bays of N aisle, the framing of which is also from the same source (Vincent(1983)7). Tall 5-bays N arcade has arches and caps of 1883 carried on elaborate shafted C15 clunch piers and bases from the parish church at Tring (q.v.) then under repair by the same architects. The nave and chancel of the old church of All Saints Long Marston were carefully demolished in 1883 and among the many features transfered to the new church were: C14 octagonal stone font with bowl cut back; C14 trefoil piscina with shelf in S wall of chancel; C15 trefoil piscina in E part of N aisle; early C17 hexagonal pulpit with 2 tiers of carved panels; C15 traceried oak screen with central opening enclosing E end of N aisle; C18 former altar rails now at chancel steps; C17 oak altar table in N aisle; 2 C17 oak chests; bell dated 1800 in bellcote; framed and painted benefactions board over S door; organ bought from Tring church in 1863; C13 recess in N wall of chancel with pointed arch and dog-tooth ornament; C14 arch and moulded label to S door; wide segmental pointed arched recess in E part of N aisle with C12 architectural fragments built in; N doorway possibly C14; 2-light lancet N window parts of which c.1230; a wide round arched recess in N aisle of late C12 work with roll moulding between bands of dog-tooth to arch carried on small shafts with scalloped caps and square abaci, and drain in base; 2 2-light C14 N windows with trefoil lights and quatrefoil over (one window has square recess in splay); similar but smaller window in W wall of N aisle much renewed. The tabernacled stone reredos came in 1884 from St. Andrews, Wells Street, London and 5 painted  figures  were  installed  in  1933  designed  by  Sir  Albert Richardson. Minton encaustic tiled pavement in chancel. Free-standing polygonal 2-coloured brick chimney 1935 by Richardson. The alter cross and candlesticks and 2 houseling benches designed by Sir Ninian Comper 1945.   (VCH(1908) 291-2:   RCHM(1911) 223   no.   3:   Pevsner(1977)245: Vincent (1983)). Listing NGR: SP8947815837"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

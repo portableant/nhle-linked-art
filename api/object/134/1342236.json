@@ -1,0 +1,262 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342236.json",
+  "type": "HumanMadeObject",
+  "_label": "The Cellar House , The Granary, The Tudor House And The Gantry House At Graces Maltings",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Cellar House , The Granary, The Tudor House And The Gantry House At Graces Maltings"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342236"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9235511273"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355674"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626261"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342236",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9235511273)",
+    "defined_by": "POINT(-0.662305 51.792496)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342236",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342236",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626261",
+      "type": "HumanMadeObject",
+      "_label": "The Cellar House  The Gantry House At Graces Maltings  The Granary  The Tudor House (Q26626261)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342236",
+    "type": "Production",
+    "_label": "Origin / Construction of The Cellar House , The Granary, The Tudor House And The Gantry House At Graces Maltings (Early C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1863",
+      "begin_of_the_begin": "1863-01-01T00:00:00Z",
+      "end_of_the_end": "1863-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-1",
+      "type": "Modification",
+      "_label": "C16: W wing has clasped-purlin roof of 3 bays and large C16 ground floor fireplace of plastered brick with high 3-centred arched head and mouldin…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-2",
+      "type": "Modification",
+      "_label": "Early C17: Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-3",
+      "type": "Modification",
+      "_label": "Late C17: Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-4",
+      "type": "Modification",
+      "_label": "Early C19: Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-5",
+      "type": "Modification",
+      "_label": "c. 1863: Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1863",
+        "begin_of_the_begin": "1863-01-01T00:00:00Z",
+        "end_of_the_end": "1863-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342236-6",
+      "type": "Modification",
+      "_label": "1980: Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342236",
+      "type": "VisualItem",
+      "_label": "Photograph of The Cellar House , The Granary, The Tudor House And The Gantry House At Graces Maltings (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342236",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Cellar House , The Granary, The Tudor House And The Gantry House At Graces Maltings",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Cellar%20House%2C%20The%20Granary%2C%20The%20Tudor%20House%2C%20and%20The%20Gantry%20House%20at%20Graces%20Maltings%20%28formerly%20No.%2015%29%2C%20Akeman%20Street%2C%20Tring%2C%20June%202022.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 9211 11/37 21.9.51 TRING AKEMAN STREET (East side) The Cellar House, The Granary, The Tudor House, and The Gantry House at Graces Maltings (formerly listed as No. 15) GV II House and attached grain store, now 4 houses. Early C16 former open hall house with N crosswing, early C17 floor inserted in hall, and chimney and service wing in SE angle added, N wing remodelled with 2 rooms on each  floor in late C17, front faced in brick and shallow bay windows added in early C19, hall chimney cut back c.1863, all renovated and converted in 1980's. Timber frame, red brick cased, N house plastered, steep old red tile roofs. A long 1 1/2 storeys range along the street front racing W, with 2-storeys gabled crosswing at N end. N half roughcast with black plinth and exposed timber frame on 1st floor of crosswing. 2-storeys canted bay window to this wing with sashes and tilehung apron to 1st floor. Frontage set forward a little with rounded infill to corner, and one large and 3 small gabled sash windows breaking through eaves. Irregular window pattern with 2-triple-sash windows and narrower window to LH in position of former door. Lean-to hood to door leading to passage into courtyard. S half with some eaves height is in red brick with 4 irregularly spaced small casements with segmental arches (RH window added in 1980's) and 3 swept dormers breaking through the eaves. LH dormer added 1980's and RH one altered from upper door into former grain store. Long 2-storey rear range to E of crosswing a kiln and maltings much altered and converted, not of special interest. Frame exposed inside shows N wing of same build as hall range. The latter has jowled posts, box frame, and open truss with boldly cambered tie-beam, principal rafters, collar with arched braces springing from tie-beam, and below peg holes at E for former arched-brace from wallpost to tie-beam. Cruck truss next to S with slightly curved blades rising a little past a slightly cambered collar. E blade has bottom cut away and is carried on a tie-beam. Formerly a closed truss with upper face to N. Inclined queen-post trusses cut through for access to S parts. Hall of 2 unequal bays and unusual structure. W wing has clasped-purlin roof of 3 bays and large C16 ground floor fireplace of plastered brick with high 3-centred arched head and mouldings carried down jambs. Upper floor of crosswing has curved tension braces and straight wind-braces.  (RCHM Typescript). Listing NGR: SP9235511273"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-21T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

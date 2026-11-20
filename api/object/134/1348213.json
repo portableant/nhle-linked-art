@@ -1,0 +1,235 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348213.json",
+  "type": "HumanMadeObject",
+  "_label": "Mansion House Farmhouse (Abbots Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Mansion House Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348213"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0968402520"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158650"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631613"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348213",
+    "type": "Place",
+    "_label": "Abbots Langley (TL0968402520)",
+    "defined_by": "POINT(-0.413898 51.710701)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348213",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348213",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631613",
+      "type": "HumanMadeObject",
+      "_label": "Mansion House Farmhouse (Q26631613)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348213",
+    "type": "Production",
+    "_label": "Origin / Construction of Mansion House Farmhouse (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348213-1",
+      "type": "Modification",
+      "_label": "Late C17: Mid to late C17, extended in C18 and mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348213-2",
+      "type": "Modification",
+      "_label": "C18: Mid to late C17, extended in C18 and mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348213-3",
+      "type": "Modification",
+      "_label": "Early C18: Interior: stop chamfered bearers, early C18 staircase with vase balusters, panelled stair well and first floor room.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348213-4",
+      "type": "Modification",
+      "_label": "C19: Red brick C19 additions are to right.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348213-5",
+      "type": "Modification",
+      "_label": "Mid C19: Mid to late C17, extended in C18 and mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE           ABBOTS LANGLEY          BEDMOND ROAD (East side) Abbots Langley 11/1                                       Mansion House Farm House II House. Mid to late C17, extended in C18 and mid C19. Red brick with some timber framing. Part roughcast. Tiled roofs. Original building is of an unusual form,  a long rectangular range,  all of  2 storeys but of differing heights, possibly 2 or more builds. All roughcast to front, tallest bay at original right end. Panelled door with cambered head to reveal. First floor 2 light timber glazing bar casement with a moulded flush frame. Roof hipped to right. Gable end to left steps down to a lower gable ended bay with similar 2 light casements. Gable has exposed timber struts in C17 brick work. Further left a longer 2 bay range, to right a ground floor 2 light casement and a raked 2 light dormer. Lower ground floor to left with an entrance and a 3 light casement all under a hood. First floor 2 light casement. To far left an C18 extension with an entrance way and a 2 light window. Red brick C19 additions are to right. One 3 bay wing projects forward. Gable end to front with extruded stack with offsets, gable parapet with moulded kneelers. Left return: glazing bar sashes in reveals with gauged brick flat arched heads, stone sills. Ground floor centre and first floor 2 bays to front are blind. Cellar entrance with a cambered head. Right return has 1 bay of glazing bar sashes in a vertical plum brick band. To right end is second C19 block. 1 bay with entrance to left, panelled door, timber porch with simple entablature. Glazing bar sashes. Roof hipped to front.  1 bay right return, plum brick with red brick dressings, glazing bar sashes. Rear elevation:  English  bond  red  brick  to  original  building,  altered openings. To left, ground floor C19 6 light casement, cambered head, first floor small 2 light casement in an earlier large opening with a crudely cambered head.  To right a very large C17 external chimney breast, multiple offsets, small window in left side, plat band, tall c19 cap with diagonally set course. To right of stack a first floor 2 light casement. To far right in lower range an entrance and blocked openings. To left C19 gable end, 2 light casement with a cambered head, stack. To far left a 1 storey brick outbuilding with an enclosed glass and timber front, hipped roof. To far left from front a 1 storey weatherboarded outbuilding with a hipped roof. Interior: stop chamfered bearers, early C18 staircase with vase balusters, panelled stair well and first floor room. C17 wall painting of a house on first floor end wall.  (RCHM Typescript). Listing NGR: TL0968402520"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-03T00:00:00Z",
+        "end_of_the_end": "1985-10-23T23:59:59Z"
+      }
+    }
+  ]
+}

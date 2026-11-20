@@ -1,0 +1,263 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/149/1493201.json",
+  "type": "HumanMadeObject",
+  "_label": "Barn at Well Farm",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Barn at Well Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1493201"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9908815214"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q136386150"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1493201",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9908815214)",
+    "defined_by": "POINT(-0.563586 51.826767)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1493201",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1493201",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q136386150",
+      "type": "HumanMadeObject",
+      "_label": "Barn at Well Farm (Q136386150)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1493201",
+    "type": "Production",
+    "_label": "Origin / Construction of Barn at Well Farm (Early C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1822–1834",
+      "begin_of_the_begin": "1822-01-01T00:00:00Z",
+      "end_of_the_end": "1834-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-1",
+      "type": "Modification",
+      "_label": "C17: The remains of the large-panel timber frame, which incorporates substantial principal jowled posts and straight bracing, suggest a date of a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-2",
+      "type": "Modification",
+      "_label": "C18: Barn, dating to around the C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-3",
+      "type": "Modification",
+      "_label": "Early C19: The footprint remains largely the same on mapping from the early C19 to mid-C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-4",
+      "type": "Modification",
+      "_label": "1822–1834: The Original Series Ordnance Survey (OS) One Inch map (published 1822-1834) marks Well Farm as a set of three buildings.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1822–1834",
+        "begin_of_the_begin": "1822-01-01T00:00:00Z",
+        "end_of_the_end": "1834-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-5",
+      "type": "Modification",
+      "_label": "1848: The Edlesborough Tithe map (1848) shows the site in greater detail including the house with an L-shaped footprint, a projecting porch and a …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1848",
+        "begin_of_the_begin": "1848-01-01T00:00:00Z",
+        "end_of_the_end": "1848-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-6",
+      "type": "Modification",
+      "_label": "1879: The First Edition OS map (1:2500, published 1879) shows the house with an L-shape footprint.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1879",
+        "begin_of_the_begin": "1879-01-01T00:00:00Z",
+        "end_of_the_end": "1879-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1493201-7",
+      "type": "Modification",
+      "_label": "Early- C20: In the early-C20 a lean-to extension was added to the north side of the east wing.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early- C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "This is a timber-frame barn which dates to around the 18th century. It was built as part of Well Farm and retains most of its historic structure which includes raked queen-post trusses and jowled posts."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Barn, dating to around the C18. MATERIALS: timber-frame, set on a brick plinth and clad in weatherboarding. The large pitched roof has been covered by corrugated metal sheeting. PLAN: four-bay barn described below as bay one (south end) to four (north end), with three principal trusses at one (south) to three (north), and a projecting porch on the east side. EXTERIOR: the barn walls are clad in weatherboarding and the building is topped by a substantial pitched roof. The brick plinth on the east side of the building is higher than the other elevations, reflecting the slope of the yard. Within bay two, on the east elevation is a full height porch; the porch doors are raised above ground level and accessed by set of brick steps. There are further doors inserted into the east and west elevations, including a double-leaf door within bay three’s west elevation. INTERIOR: the wall frames include close studs with cill beams, mid-rails, wall plates and diagonal braces. There are three principal trusses with jowled posts and straight braces which support tie beams with raked queen posts above. The roof includes pairs of rafters meeting a clasped ridge beam, and a pair of clasped purlins. The pair of braces to truss three have been replaced. The projecting porch within bay two has a set of double-leaf doors above a tall brick plinth. The ground level within the barn is lower than the porch doors. The porch has a raked queen post truss (one of the posts is missing), with clasped purlins; the rafters above have been replaced. The timber framing within bay two, opposite the porch, includes the mid-rails with a staggered alignment that differs from the other bays, a reused post and a small door. The variation in the frame suggests this may have been the location of an earlier opening or set of doors which corresponded with the porch doors. The studs within the north and south gable ends of the barn have thinner scantling and appear to be of a later date than those within the long elevations. There is evidence of reused timbers at various locations within the barn. Some common rafters and studs, sections of the clasped purlins and other timber elements have been replaced. The framing has also been modified with the insertion of later doors."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The barn to the west of Well Farm is listed at Grade II the following principal reasons: Architectural interest: *\tit retains a significant proportion of the original construction, including several jowled posts and the raked queen-post roof trusses, as well as good evidence for the wall frame; *\tit illustrates well historic regional building traditions including evidence for timber-framing and brickwork."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Well Farm includes a farmhouse which has a two-bay historic core with an off-centre chimney stack. The remains of the large-panel timber frame, which incorporates substantial principal jowled posts and straight bracing, suggest a date of around the early C17, with later extensions in the C17 and C18. The Original Series Ordnance Survey (OS) One Inch map (published 1822-1834) marks Well Farm as a set of three buildings. The Edlesborough Tithe map (1848) shows the site in greater detail including the house with an L-shaped footprint, a projecting porch and a further structure at the north-east corner. The barn, with a central porch, is located on the west side of the farmyard, and the stable block to the north. The accompanying apportionment records the site within the ownership of the Countess of Bridgewater. The house plot is described as 3 cottages and garden, tenanted to Richard Collyers, James James and William Walker; the stable block falls under the same tenancy. The barn to the west is under the tenancy of William Peppercorn. The First Edition OS map (1:2500, published 1879) shows the house with an L-shape footprint. A further narrow bay had been added to the north, and the north-east structure had been demolished. The stable building has been extended. In the early-C20 a lean-to extension was added to the north side of the east wing. In 1924 Well Farm was sold by the Bridgewater family’s Ashridge Estate. In the mid-C20 the farmhouse underwent further remodelling with the addition of a two-storey wing on the west elevation, and the addition of a two-storey hipped roof range to the east. The north-side east wing was modified with the addition of C20 first-floor flat-roof extension. In 2024 a single-storey extension was made to the north-east corner of the building. The barn at Well Farm contains timber framing with jowl posts and raked queen-post trusses, indicate an original construction date of around the C18. The footprint remains largely the same on mapping from the early C19 to mid-C20. In the late C20 lean-tos were added to the north, south and west elevations; the south lean-to was replaced in the C21 by a detached shed. All of the lean-tos are excluded from the listing."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2025-04-22T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100603.json",
+  "type": "HumanMadeObject",
+  "_label": "Aldbury Baptist Chapel (Adjoining Rear Of Number 39) (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Aldbury Baptist Chapel (Adjoining Rear Of Number 39)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100603"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96503 12575"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355657"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26393086"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100603",
+    "type": "Place",
+    "_label": "Aldbury (SP 96503 12575)",
+    "defined_by": "POINT(-0.601818 51.803499)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100603",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100603",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26393086",
+      "type": "HumanMadeObject",
+      "_label": "Aldbury Baptist Chapel (Adjoining Rear Of Number 39) (Q26393086)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100603",
+    "type": "Production",
+    "_label": "Origin / Construction of Aldbury Baptist Chapel (Adjoining Rear Of Number 39) (Mid C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1836",
+      "begin_of_the_begin": "1836-01-01T00:00:00Z",
+      "end_of_the_end": "1836-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100603-1",
+      "type": "Modification",
+      "_label": "1836: 1836 for Ann Hall, publican of the Trooper Inn.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1836",
+        "begin_of_the_begin": "1836-01-01T00:00:00Z",
+        "end_of_the_end": "1836-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100603-2",
+      "type": "Modification",
+      "_label": "1980: (Davis(1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 9612                                         (West side) 12/21                                   Aldbury Baptist Chapel -                                       (adjoining rear of No.39) GV                                      II Baptist Chapel. 1836 for Ann Hall, publican of the Trooper Inn. Low NW wing mid C19. Yellow stock brick and slate roofs. A tall single-storey building facing N and adjoining the rear of No. 39 so as to be invisible from the road. Small low single-storey extension with chimney projects to N from W end of front wall and has a monopitch roof sloping down from a tall rear (W) wall. N front has windows at 2 levels, central entrance and 2 upper windows. Formerly 2 lower windows but RH window obscured by extension. Recessed sash windows with 4/8 panes above and 8/8 below, the lower with red cambered arches. Central door has round-headed red arch, plastered tympanum, and a pair of 6-panel flush-beaded doors. E side of extension has a 6-panel door and recessed sash window with 8/8 panes under cambered arches. Plain interior of chapel with plastered ceiling, central ventilator, matchboard dado and pine pews facing W. Chimney on rear (S) wall for fireplace offcentre to E. Exterior of S wall tilehung. W wall said to retain flint and brick footings of barn previously on this site. (Davis(1980) No. 6). Listing NGR: SP9650312575"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1160435.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St James (Bierton With Broughton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St James"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1160435"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 83616 15261"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42604"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17526731"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160435",
+    "type": "Place",
+    "_label": "Bierton With Broughton (SP 83616 15261)",
+    "defined_by": "POINT(-0.788022 51.829726)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1160435",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1160435",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_James_the_Great_Church%2C_Bierton",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17526731",
+      "type": "HumanMadeObject",
+      "_label": "Church of St James (Q17526731)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1160435",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St James (C14)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1853",
+      "begin_of_the_begin": "1853-01-01T00:00:00Z",
+      "end_of_the_end": "1853-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160435-1",
+      "type": "Modification",
+      "_label": "C15: Other windows C14 and C15 traceried.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160435-2",
+      "type": "Modification",
+      "_label": "C16: Aisles of nave raised up, C16 or possibly in C17 to house galleries, lit by upper windows of late Perp.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160435-3",
+      "type": "Modification",
+      "_label": "C17: Aisles of nave raised up, C16 or possibly in C17 to house galleries, lit by upper windows of late Perp.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160435-4",
+      "type": "Modification",
+      "_label": "1853: C14 restored 1853.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1853",
+        "begin_of_the_begin": "1853-01-01T00:00:00Z",
+        "end_of_the_end": "1853-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1160435",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St James (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1160435",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St James",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20James%20the%20Great%20Church%2C%20Bierton%2C%20June%202025.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 NW          BIERTON WITH BROUGHTON       AYLESBURY ROAD                                                south side 1/36                                           Church of St. James 21.12.67 GV                                             I Parish Church. C14 restored 1853. Limestone, cruciform plan with central tower crowned by small lead spire. Aisles of nave raised up, C16 or possibly in C17 to house galleries, lit by upper windows of late Perp. style. Other windows C14 and C15 traceried. Flat lead roof, parapets, that to tower with corbel table. Chancel roof slate. Modern timber N. porch. Interior: very finely moulded chunch nave arcades of 4 bays, and crossing arches. S. Transept has 2 ornamental ogee arched doorways. Nave roof of low pitch with moulded timbers of C15 and C16 or 17. Font: Norman tub shaped with cable mouldings. Traces of wall painting, 14th century floor tiles. RCHM I p.47 MON.1. Listing NGR: SP8358615245"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-12-21T00:00:00Z"
+      }
+    }
+  ]
+}

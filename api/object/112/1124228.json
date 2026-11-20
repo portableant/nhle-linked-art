@@ -1,0 +1,251 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124228.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Michael And All Angels (Aston Clinton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Michael And All Angels"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1124228"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 87931 11948"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42571"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q7594850"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124228",
+    "type": "Place",
+    "_label": "Aston Clinton (SP 87931 11948)",
+    "defined_by": "POINT(-0.726262 51.799275)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1124228",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1124228",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/St_Michael_and_All_Angels_Church,_Aston_Clinton",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: St Michael and All Angels Church, Aston Clinton",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Michael_and_All_Angels_Church%2C_Aston_Clinton",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q7594850",
+      "type": "HumanMadeObject",
+      "_label": "St Michael and All Angels Church, Aston Clinton (Q7594850)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124228",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Michael And All Angels (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1800",
+      "begin_of_the_begin": "1800-01-01T00:00:00Z",
+      "end_of_the_end": "1800-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124228-1",
+      "type": "Modification",
+      "_label": "C14: C14 and C15 restored.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124228-2",
+      "type": "Modification",
+      "_label": "C15: C14 and C15 restored.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124228-3",
+      "type": "Modification",
+      "_label": "C19: porches the latter raised to 2 storeys C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124228-4",
+      "type": "Modification",
+      "_label": "1800: Upper part of tower built 1800.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1800",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1800-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1124228",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Michael And All Angels (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1124228",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Michael And All Angels",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Aston%20Clinton%2C%20St%20Michael%20and%20All%20Angels%20Church%20-%20geograph.org.uk%20-%20148468.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE         ASTON CLINTON              CHURCH LANE 5/3                                         Church of St. Michael and                                             All Angels 21.12.67 -                                           II* Parish Church. C14 and C15 restored. Flint with some clunch, limestone dressings. E. wall cement rendered Embattled west tower and aisles; chancel, N. and S. porches the latter raised to 2 storeys C19. Steep tiled roof to nave, chancel and porches. Square headed C15 windows to aisles; pointed traceried C14 windows to chancel, all restored. Interior: 3 bay arcades, C13 to S., C14 to N., with alternating octagonal and circular piers( S. arcade with broaches at bases of arches. C14 chancel aisle, and ornate sedilia and piscina and 'Easter Sepulchre' recess opposite, all with ogee arches. C14 tower arch. Upper part of tower built 1800. Fragment of wall painting in chancel. RCHM I p.18 MON.1. Listing NGR: SP8793111948"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-12-21T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/115/1158263.json",
+  "type": "HumanMadeObject",
+  "_label": "Chesham Quaker Meeting House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Chesham Quaker Meeting House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1158263"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9591101933"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "43491"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26452004"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1158263",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9591101933)",
+    "defined_by": "POINT(-0.613335 51.707901)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1158263",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1158263",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Quaker_Meeting_House%2C_Chesham",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26452004",
+      "type": "HumanMadeObject",
+      "_label": "Quaker Meeting House (Q26452004)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1158263",
+    "type": "Production",
+    "_label": "Origin / Construction of Chesham Quaker Meeting House (1000)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1798",
+      "begin_of_the_begin": "1798-01-01T00:00:00Z",
+      "end_of_the_end": "1798-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-1",
+      "type": "Modification",
+      "_label": "Mid- C17: The Quaker movement emerged out of a period of religious and political turmoil in the mid-C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-2",
+      "type": "Modification",
+      "_label": "1647: Fox, originally from Leicestershire, claimed the Holy Spirit was within each person, and from 1647 travelled the country as an itinerant pre…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1647",
+        "begin_of_the_begin": "1647-01-01T00:00:00Z",
+        "end_of_the_end": "1647-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-3",
+      "type": "Modification",
+      "_label": "1652: 1652 was pivotal in his campaign;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1652",
+        "begin_of_the_begin": "1652-01-01T00:00:00Z",
+        "end_of_the_end": "1652-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-4",
+      "type": "Modification",
+      "_label": "1662: The Quaker Act of 1662, and the Conventicle Act of 1664, forbade their meetings, though they continued in defiance, and a number of meeting …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1662",
+        "begin_of_the_begin": "1662-01-01T00:00:00Z",
+        "end_of_the_end": "1662-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-5",
+      "type": "Modification",
+      "_label": "1663: Broad Campden, Gloucestershire, came into Quaker use in 1663 and is the earliest meeting house in Britain, although it was out of use from 1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1663",
+        "begin_of_the_begin": "1663-01-01T00:00:00Z",
+        "end_of_the_end": "1663-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-6",
+      "type": "Modification",
+      "_label": "1664: The Quaker Act of 1662, and the Conventicle Act of 1664, forbade their meetings, though they continued in defiance, and a number of meeting …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1664",
+        "begin_of_the_begin": "1664-01-01T00:00:00Z",
+        "end_of_the_end": "1664-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1158263-7",
+      "type": "Modification",
+      "_label": "1668: A Quaker meeting had been established in Chesham by 1668 and in 1682, seven years before the Act of Toleration was passed, land was bought f…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1668",
+        "begin_of_the_begin": "1668-01-01T00:00:00Z",
+        "end_of_the_end": "1668-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1158263",
+      "type": "VisualItem",
+      "_label": "Photograph of Chesham Quaker Meeting House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1158263",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Chesham Quaker Meeting House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Quaker%20Meeting%20House%2C%20Chesham%2C%20August%202024%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Quaker Meeting House. Built by 1798, with an extension of 1962-1964 to the design of NH Pymer, architect."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Quaker Meeting House. Built by 1798, with an extension of 1962-1964 to the design of NH Pymer, architect. MATERIALS: red bricks laid to Flemish, English and stretcher bond, clay tile roof coverings. PLAN: the single-storey C18 meeting house is rectangular on plan, with a hipped roof. To the south, a short link with a pitched roof leads to the C20 single-storey extension, rectangular on plan, including two units, one with a hipped roof and the other flat. EXTERIOR: the meeting house is situated in the Quaker burial ground on Bellingdon Road, oriented east-west. It is built in red brick with a brick dentil eaves cornice under a hipped roof with clay tile roof coverings. Each elevation is laid to English bond apart from the south elevation, which is laid to Flemish bond. The meeting house south front comprises four bays having, from left to right, a six-over-six sash window under a cambered brick arch and with a concrete cill, then the off-centre link of 1962-1964 in the position of the former porch, and two further six-over-six sash windows also under cambered brick arches and with concrete cills. The east and west elevations are both blind, that to the east having two raked brick buttresses. The north elevation includes two six-over-six sash windows under cambered brick arches, between which are two stepped brick buttresses. There are T-shaped tie-plates to the east and west ends of the south and north elevations. The single-storey 1960s extension, which incorporates some reused bricks including one with the date 1806, is in red brick laid to stretcher bond. The pitched and hipped roofs of the lobby and link areas have clay tile roof coverings whilst the kitchen has a flat roof. The entrance door is to the west elevation. The kitchen to the east is lit by windows in its south and east walls. The link is lit by a small window to the east. The extension's south elevation includes four small two-light windows. INTERIOR: the entrance door to the C20 meeting house extension leads into a small lobby. Toilets are accessed from this lobby whilst a door to the north leads into a main entrance lobby, from which the kitchen to the east is accessed. Two flush-panelled doors in their original pegged frames in the north wall of the main entrance lobby lead into the meeting house spaces. The door to the left leads into a small meeting room, whilst the door to the right leads into the main meeting room. The meeting house is divided into two spaces by a timber partition with vertical sliding sash shutters. The smaller space to the west, formerly a women’s business meeting room, has boarded dado panelling and fixed benches to the walls. The timber floorboards run from front to back. The room is lit by a window in the north wall. The floor level is slightly higher than that in the main meeting room to the east. The main meeting room, which also has boarded dado panelling and fixed benches to the walls, includes an Elders’ stand to the east wall. The dado is slightly elevated at the east to accommodate the stand, which includes two tiers of benches with rakes of two steps at the north and south ends. The back of the front bench provides a panelled front to the elevated rear bench. The timber floorboards run from side to side. The room is lit by one window in the north wall and two in the south. Pendant lights hang from the flat ceiling."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Chesham Quaker Meeting House, situated on Bellingdon Road, is listed at Grade II for the following principal reasons: Architectural interest: *     a late-C18 meeting house in a vernacular style, typifying the Quaker ethos of understated architecture and retaining its essential historic form and character; *     the simple plan form, and fittings including the Elders’ stand and sliding sash partition preserved in the interior, provide evidence for the division of space and internal arrangements typical for earlier Quaker meeting houses. Historic interest: *     a purpose-built Quaker meeting house, standing in its attached burial ground that had been established in 1682 before the Act of Toleration (1689)."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The Quaker movement emerged out of a period of religious and political turmoil in the mid-C17. Its main protagonist, George Fox, openly rejected traditional religious doctrine, instead promoting the theory that all people could have a direct relationship with God, without dependence on sermonising ministers, nor the necessity of consecrated places of worship. Fox, originally from Leicestershire, claimed the Holy Spirit was within each person, and from 1647 travelled the country as an itinerant preacher. 1652 was pivotal in his campaign; after a vision on Pendle Hill, Lancashire, Fox was moved to visit Firbank Fell, Cumbria, where he delivered a rousing, three-hour speech to an assembly of 1000 people, and recruited numerous converts. The Quakers, formally named the Religious Society of Friends, was thus established. Fox asserted that no one place was holier than another, and in their early days, the new congregations often met for silent worship at outdoor locations; the use of members' houses, barns, and other secular premises followed. Persecution of Nonconformists proliferated in the period, with Quakers suffering disproportionately. The Quaker Act of 1662, and the Conventicle Act of 1664, forbade their meetings, though they continued in defiance, and a number of meeting houses date from this early period. Broad Campden, Gloucestershire, came into Quaker use in 1663 and is the earliest meeting house in Britain, although it was out of use from 1871 to 1961. The meeting house at Hertford, 1670, is the oldest to be purpose built. The Act of Toleration, passed in 1689, was one of several steps towards freedom of worship outside the established church, and thereafter meeting houses began to make their mark on the landscape. Quaker meeting houses are generally characterised by simplicity of design, both externally and internally, reflecting the form of worship they were designed to accommodate. The earliest purpose-built meeting houses were built by local craftsmen following regional traditions and were on a domestic scale, frequently resembling vernacular houses; at the same time, a number of older buildings were converted to Quaker use. From the first, most meeting houses shared certain characteristics, containing a well-lit meeting hall with a simple arrangement of seating. In time a raised stand became common behind the bench for the Elders, so that traveling ministers could be better heard. Where possible, a meeting house would provide separate accommodation for the women’s business meetings, and early meeting houses may retain a timber screen, allowing the separation (and combination) of spaces for business and worship. In general, the meeting house will have little or no decoration or enrichment, with joinery frequently left unpainted. Ancillary buildings erected in addition to a meeting house could include stabling and covered spaces such as a gig house; caretaker’s accommodation; or a school room or adult school. Throughout the C18 and early C19 many new meeting houses were built, or earlier buildings remodelled, with ‘polite’, Classically-informed designs appearing, reflecting architectural trends more widely. However, the buildings were generally of modest size and with minimal ornament, although examples in urban settings tended to be more architecturally ambitious. After 1800, it became more common for meeting houses to be designed by an architect or surveyor. The Victorian and Edwardian periods saw greater stylistic eclecticism, though the Gothic Revival associated with the Established Church was not embraced; on the other hand, Arts and Crafts principles had much in common with those of the Quakers, and a number of meeting houses show the influence of that movement. The C20 saw changes in the way meeting houses were used which influenced their design and layout. In 1896 it was decided to unite men’s and women’s business, so separate rooms were no longer needed, whilst from the mid-1920s ministers were not recorded, and consequently stands were rarely provided in new buildings. Seating was therefore rearranged without reference to the stand, with moveable chairs set in concentric circles becoming the norm in smaller meeting houses. By the interwar years, there was a shift towards more flexible internal planning, together with the provision of additional rooms for purposes other than worship, reflecting the meeting house’s community role – the need for greater contact with other Christians and a more active contribution within the wider world had been an increasing concern since the 1890s. Traditional styles continued to be favoured, from grander Classical buildings in urban centres to local examples in domestic neo-Georgian. A Quaker meeting had been established in Chesham by 1668 and in 1682, seven years before the Act of Toleration was passed, land was bought for a burial ground and meeting place. An adjacent plot, costing £455 1s 7d, was bought in 1796 in which the current meeting house was built. It was in use by 1798. A small porch was added to the south elevation, perhaps in 1806. Between 1962 and 1964 the porch of 1806 was replaced by a larger extension including a lobby, kitchen and toilets to a design by NH Pymer, architect. In 2004 the stepped path from the street to the meeting house entrance was reworked into a ramp."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1973-09-07T00:00:00Z",
+        "end_of_the_end": "2020-07-08T23:59:59Z"
+      }
+    }
+  ]
+}

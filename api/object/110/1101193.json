@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101193.json",
+  "type": "HumanMadeObject",
+  "_label": "Nettleden Lodge (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Nettleden Lodge"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101193"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0086110874"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158003"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394347"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101193",
+    "type": "Place",
+    "_label": "Nettleden With (TL0086110874)",
+    "defined_by": "POINT(-0.53913 51.787442)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101193",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101193",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394347",
+      "type": "HumanMadeObject",
+      "_label": "Nettleden Lodge (Q26394347)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101193",
+    "type": "Production",
+    "_label": "Origin / Construction of Nettleden Lodge (Late C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Late C17",
+      "begin_of_the_begin": "1667-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101193-1",
+      "type": "Modification",
+      "_label": "Early C19: elaborated and externally remodelled in early C19, probably by Jeffry Wyatt, for the Earl of Bridgewater;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101193-2",
+      "type": "Modification",
+      "_label": "C19: rear wing similar style in later C19, N extensions in stages in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101193-3",
+      "type": "Modification",
+      "_label": "C20: rear wing similar style in later C19, N extensions in stages in C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 01 SW         NETTLEDEN WITH         NETTLEDEN ROAD POTTEN END             (South side) Nettleden 3/222                                   Nettleden Lodge - -                                       II Former principal gatelodge to Ashridge on abandoned E drive, now a private house. Late C17 core; elaborated and externally remodelled in early C19, probably by Jeffry Wyatt, for the Earl of Bridgewater; rear wing similar style in later C19, N extensions in stages in C20. Timber frame on plinth faced with York stone slabs with drafted margins. Narrow red brick infill in herringbone pattern. Steep old red tile roofs. Similar half timbered effect in all extensions. An irregular T-shaped building facing E of 2-storeys and a cellar, the oldest part forming the S half of the cross-bar.  This has a 2-storage gabled porch in line with a late C17 panelled brick internal chimney about a third from S end. 2-storeys canted bay window to right of porch with its own pointed roof, and short gabled rear projection.  Front has heavy cusped bargeboards with pendants, oriel window on brackets with lattice leading, unlikely pattern of pegged framing. Base of porch formerly open with traceried spandrels to curved braces and Portland stone bases to corner posts. Small pointed window in gable of porch, and 3-lights oriel above present plank door. Most elaborate treatment to S gable end facing drive with gable triangle projecting on bull-nosed beams as a deep jetty protecting a canted oriel window on 1st floor. Gabled open timber porch on ground floor with traceried gable and curved braces. Listing NGR: TL0086110874"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

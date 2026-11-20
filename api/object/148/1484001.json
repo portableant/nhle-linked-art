@@ -1,0 +1,315 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/148/1484001.json",
+  "type": "HumanMadeObject",
+  "_label": "The Cottage and former Soup Kitchen, Berkhamsted Castle",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Cottage and former Soup Kitchen, Berkhamsted Castle"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1484001"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9948308189"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q122214017"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1484001",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9948308189)",
+    "defined_by": "POINT(-0.559855 51.763555)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1484001",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1484001",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Berkhamsted_Castle_Lodge",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q122214017",
+      "type": "HumanMadeObject",
+      "_label": "The Cottage and Former Soup Kitchen, Berkhamsted Castle (Q122214017)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1484001",
+    "type": "Production",
+    "_label": "Origin / Construction of The Cottage and former Soup Kitchen, Berkhamsted Castle (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1865",
+      "begin_of_the_begin": "1865-01-01T00:00:00Z",
+      "end_of_the_end": "1865-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-1",
+      "type": "Modification",
+      "_label": "1612: A map dated 1612 depicts stables and a brewhouse on the site of the current building, and some fabric may remain.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1612",
+        "begin_of_the_begin": "1612-01-01T00:00:00Z",
+        "end_of_the_end": "1612-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-2",
+      "type": "Modification",
+      "_label": "1687–1751: A picture of the Castle by the antiquary William Stukeley (1687-1751) dated 14 September 1724 shows a cottage with chimney stack on the site…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1687–1751",
+        "begin_of_the_begin": "1687-01-01T00:00:00Z",
+        "end_of_the_end": "1751-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-3",
+      "type": "Modification",
+      "_label": "1724: A picture of the Castle by the antiquary William Stukeley (1687-1751) dated 14 September 1724 shows a cottage with chimney stack on the site…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1724",
+        "begin_of_the_begin": "1724-01-01T00:00:00Z",
+        "end_of_the_end": "1724-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-4",
+      "type": "Modification",
+      "_label": "1745–1820: Patrick Colquhoun (1745-1820) produced a pamphlet in 1799 advocating soup kitchens as a means of saving corn and helping out the working cla…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1745–1820",
+        "begin_of_the_begin": "1745-01-01T00:00:00Z",
+        "end_of_the_end": "1820-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-5",
+      "type": "Modification",
+      "_label": "1783: A source dated 1783 refers to the existence of a cottage here “built from the ruins” (of the castle, or perhaps the stables and brewhouse).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1783",
+        "begin_of_the_begin": "1783-01-01T00:00:00Z",
+        "end_of_the_end": "1783-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-6",
+      "type": "Modification",
+      "_label": "1799: Patrick Colquhoun (1745-1820) produced a pamphlet in 1799 advocating soup kitchens as a means of saving corn and helping out the working cla…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1799",
+        "begin_of_the_begin": "1799-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1484001-7",
+      "type": "Modification",
+      "_label": "C19: The Cottage and former Soup Kitchen, Berkhamsted Castle A cottage with C17 origins, modified in the C19 and extended for use as a soup kitch…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1484001",
+      "type": "VisualItem",
+      "_label": "Photograph of The Cottage and former Soup Kitchen, Berkhamsted Castle (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1484001",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Cottage and former Soup Kitchen, Berkhamsted Castle",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Caretaker%27s%20Lodge%2C%20Berkhamsted%20Castle%20-%20geograph.org.uk%20-%202856720.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "A cottage with C17 origins, modified in the C19 and extended for use as a soup kitchen."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "MATERIALS: Principally brick, with some walls built of flint rubble, with a timber roof structure and verandahs, and tiled roofs. PLAN: The building has an irregular plan. There is a three-room, two-storey range with the ridge running east-west and a wrap-around verandah to the eastern end. Towards the western end is a single-storey range which leads to another gabled range with its ridge running north-south. EXTERIOR: All roofs are gabled and tiled, and most windows have diamond-paned leaded lights. The south elevation of the cottage has a tall brick chimney at each gable-end, and gabled dormers either side of the door, which has a gabled canopy. There are decorative terracotta mouldings to the dormers, and the tops of the chimneys. The front of the cottage is built from red and blue bricks, with rubbed red brick surrounds and gauged brick lintels. There are five two-light windows with diamond leaded lights. The front door has decorative strap hinges. There is a squint window in the south-west corner with a decorative terracotta barley-twist support. The former soup kitchen range has its gable-end to the front and is attached to the cottage by a single-storey range with a verandah. The west elevation of the soup kitchen has two two-light windows with diamond leaded lights and stone cills. The north elevation of the soup kitchen has a large chimney rising from the gable-end. There are two small slit windows. The linking range has a shallow, brick buttress and a very small square window. To the east of these is a slightly projecting gable end with round-arched doorways to the gable-end and side wall, and three slit windows. The north wall of the cottage is built from irregular flint rubble (suggesting reused earlier fabric) and has a small lean-to section. There is one gabled dormer with a three-light window, and a two-light window to the ground floor. The east elevation of the cottage is built from more regular flints than the north elevation and has red brick dressings. The stack protrudes from the east elevation and is slightly offset to the south. There is a two-light window to the upper storey and a single-light window to the ground floor, and a verandah with a red plain tiled roof wraps around the eastern end. INTERIOR: Internally the cottage retains the three-room plan as depicted on the drawings dated 1865. The main living room retains its inglenook with its original bressumer and is said to contain a boxed-in bread oven. There is a C20 wooden fire surround within the inglenook, and a narrow entrance way to allow for access to the 1865 extension (used in the C21 as the kitchen), and a window in the south-west corner. The hallway contains a turning staircase with stick balusters. Upstairs there are three rooms accessed from the landing. There are some exposed tie-beams and principal rafters: the tie beam to the western bedroom is interrupted to allow for the inserted C19 plank door. The partition between the western bedroom and the landing bisects a window. There are blocked C19 fireplaces in the east and west bedrooms. The link between the cottage and soup kitchen contains C21 kitchen fittings. The former soup kitchen consists of two rooms - the southern room can only be accessed by the external door in its east wall. The northern room is accessed internally and contains an original cast-iron pump. The fireplace is absent and there are no other internal features associated with its use as a soup kitchen. SUBSIDIARY FEATURES: In front of the south elevation of the soup kitchen is a late-C20 patio with shallow steps and a surrounding brick wall, with fencing mounted on the eastern wall."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Cottage, a domestic building with C17 origins, modified in the C19 and extended for use as a soup kitchen, is listed at Grade II for the following principal reasons: Architectural interest: * For the survival of early fabric, part of which dates from the C17; * For the quality of the C19 reconstruction designed to please the eye and identify the building’s use by the Ashridge Estate. Historic interest: * For its use in the C19 as a soup kitchen."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "A map dated 1612 depicts stables and a brewhouse on the site of the current building, and some fabric may remain. A picture of the Castle by the antiquary William Stukeley (1687-1751) dated 14 September 1724 shows a cottage with chimney stack on the site of the current building. A source dated 1783 refers to the existence of a cottage here “built from the ruins” (of the castle, or perhaps the stables and brewhouse). In the early C19 a floor and stairs were inserted to create an upper floor. The building was subject to some changes in 1865 (taken from a datestone over the front door). The castle including the Cottage was then owned by the Duchy of Cornwall, but the landowners of the nearby Ashridge Estate, the Alfords, leased the cottage from them. Lady Marian Alford (1817-1888), wife of John Home Cust, Viscount Alford, left a scrapbook in which she had kept “before and after” drawings of the Cottage in 1865. This showed that the building before change consisted of three rooms downstairs (labelled as living room, parlour and larder). The 1865 changes included adding a small extension to the west elevation (accessed externally so probably for storage), adding a gabled dormer to the north elevation, and moving the staircase slightly eastwards. The gabled canopy was added over the door and the verandah was added to the east and south-east elevations. Soon afterwards a further extension was built to the north and west of the small storage extension built in 1865, and linking it to a new building used as a soup kitchen. Another verandah, in the same style as the earlier one, was added to form a covered way leading to the soup kitchen door, where recipients would have queued to receive soup. There is a reference to “the soup-house at the Castle grounds” in the Bucks Advertiser & Aylesbury News on 26 January 1867 which implies that it was in place before this date, though the drawings in Lady Marian Alford’s scrapbook dated 1865 do not show the soup kitchen extension. Soup kitchens were common in parts of England from the start of the C19. Patrick Colquhoun (1745-1820) produced a pamphlet in 1799 advocating soup kitchens as a means of saving corn and helping out the working classes entitled “Suggestions offered to the consideration of the public, and in particular to the more opulent classes of the community, for the purpose of reducing the consumption of bread corn; and relieving at the same time the labouring people, by the substitution of other cheap, wholesome and nourishing food; especially by means of soup establishments, &c.” Soup kitchens were set up as charitable ventures by the wealthy classes. Soup was thought to be an excellent foodstuff to provide to the poor; it was believed to be nutritious and was cheap to produce (usually from extremely cheap cuts of beef, padded out with peas and barley, and perhaps other vegetables as fillers, and was boiled for around six hours). Most soup kitchens charged a penny for a quart of soup per person and operated only in the winter months. It is reported that Berkhamsted’s soup kitchen operated each winter from the 1840s until 1897, although the first known reference to its location in Berkhamsted Castle is the Bucks Advertiser & Aylesbury News on 26 January 1867. In 1914 or earlier the cottage became used by the caretaker of Berkhamsted Castle. In December 1929 it was taken over by the Ministry of Works. Some minor changes took place including the introduction of running water in 1934. Later in the C20 the door and one small window in the south elevation of the soup kitchen were replaced with a large window, and a paved terrace was built outside it. The property was passed to English Heritage when it was formed in 1983.  Since 2002, initially run by the Berkhamsted Local History & Museum Society in conjunction with Berkhamsted Town Council, the room in the south of the Soup Kitchen has been run by Berkhamsted Castle Trust under a Local Management Agreement with English Heritage. In the early C21 secondary glazing was added to most of the windows in the Cottage. The front room of the former soup kitchen became used to display interpretation boards about the Castle."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2022-11-16T00:00:00Z"
+      }
+    }
+  ]
+}

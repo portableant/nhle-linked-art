@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1118433.json",
+  "type": "HumanMadeObject",
+  "_label": "Castle House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Castle House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1118433"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 86638 08600"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42776"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26411878"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118433",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 86638 08600)",
+    "defined_by": "POINT(-0.745842 51.769382)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1118433",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1118433",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26411878",
+      "type": "HumanMadeObject",
+      "_label": "Castle House (Q26411878)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1118433",
+    "type": "Production",
+    "_label": "Origin / Construction of Castle House (1794)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1794",
+      "begin_of_the_begin": "1794-01-01T00:00:00Z",
+      "end_of_the_end": "1794-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118433-1",
+      "type": "Modification",
+      "_label": "1813: Built between 1794 and 1813 (map evidence) painted stucco with hipped slate roof.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1813",
+        "begin_of_the_begin": "1813-01-01T00:00:00Z",
+        "end_of_the_end": "1813-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 21/01/2013 SP 8608 9/204 WENDOVER AYLESBURY ROAD (east side) No 88 Castle House (Formerly listed as No. 86 Castle House) II House. Built between 1794 and 1813 (map evidence) painted stucco with hipped slate roof. 2 stucco chimneys, 1 dormer. Parapet with cornice to W. elevation, band to others. 2-storeys and attic. Square plan, 3 bay elevations. Entrance on S. front which formerly had a verandah. Central 4 panel door, upper 2 glazed, central bead, rectangular fanlight with diagonal pattern glazing. French casements each side, 3 sashes to 1st floor. Flanking E. and W. elevations each have flattened bow projection to centre of ground floor with 3-light French casement and ornamental wrought iron balcony railings to parapet. Similar French window to centre of 1st floor. Some blank window recesses. Over centre on W. elevation is a plaster plaque incised with Rothschild monogramme and motto. 1-storey service wing on N. side flint and brick with slate roof. Interior: contemporary staircase, 2 marble fireplaces, cornices etc. Listing NGR: SP8663808600"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z",
+        "end_of_the_end": "1986-07-04T23:59:59Z"
+      }
+    }
+  ]
+}

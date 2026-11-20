@@ -1,0 +1,220 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1390846.json",
+  "type": "HumanMadeObject",
+  "_label": "War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1390846"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 86789 07809"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "491478"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26670224"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1390846",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 86789 07809)",
+    "defined_by": "POINT(-0.743852 51.762258)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1390846",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1390846",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Wendover_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26670224",
+      "type": "HumanMadeObject",
+      "_label": "War Memorial (Q26670224)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1390846",
+    "type": "Production",
+    "_label": "Origin / Construction of War Memorial (1920)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/gerard-cogswell",
+        "type": "Person",
+        "_label": "Gerard Cogswell"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1922",
+      "begin_of_the_begin": "1922-01-01T00:00:00Z",
+      "end_of_the_end": "1922-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390846-1",
+      "type": "Modification",
+      "_label": "1922: 1922, designed by Gerard Cogswell.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1922",
+        "begin_of_the_begin": "1922-01-01T00:00:00Z",
+        "end_of_the_end": "1922-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390846-2",
+      "type": "Modification",
+      "_label": "1991: SOURCE: Ian Toplis, 'Wendover War Memorial' (1991 leaflet).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1991",
+        "begin_of_the_begin": "1991-01-01T00:00:00Z",
+        "end_of_the_end": "1991-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1390846",
+      "type": "VisualItem",
+      "_label": "Photograph of War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1390846",
+          "type": "DigitalObject",
+          "_label": "Commons Image for War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Wendover%20War%20Memorial%2C%20Manor%20Waste%2C%20Wendover%2C%20January%202024%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "WENDOVER 569/0/10031                             MANOR WASTE, HIGH STREET 26-APR-04                               War Memorial GV                                      II War Memorial. 1922, designed by Gerard Cogswell. Chilmark stone. The memorial comprises an octagonal base of red brick with stone quoins, with a triple-stepped superstructure supporting a square pedestal with projecting corners in the manner of a chest tomb. Above is a tall, tapering octagonal shaft bearing an open shrine at the top, with crocketed finials to the corners and a cruciform finial above. HISTORY: the war memorial was proposed by Major Edwin Smith, Lord of the Manor, who gave a site on the Manor Waste for this purpose. Designed by Cogswell, a London architect, it took the form of a medieval wayside cross of the sort recently treated in Aymer Vallance's book 'Old Crosses and Lychgates' (1920). Carved by Gething & Co of Salisbury at a cost of £278, it was unveiled by the Marchioness of Lincolnshire, wife of the Lord Lieutenant, whose son had fallen at 2nd Ypres. Listed for its historic interest as well as its visual quality. SOURCE: Ian Toplis, 'Wendover War Memorial' (1991 leaflet). This List entry has been amended to add sources for War Memorials Online and the War Memorials Register. These sources were not used in the compilation of this List entry but are added here as a guide for further reading, 11 January 2017."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2004-04-26T00:00:00Z"
+      }
+    }
+  ]
+}

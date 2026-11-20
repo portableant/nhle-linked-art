@@ -1,0 +1,217 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/133/1331983.json",
+  "type": "HumanMadeObject",
+  "_label": "Stable Building At Hampden House (Great And Little Hampden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Stable Building At Hampden House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1331983"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84788 02414"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "46300"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26616834"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1331983",
+    "type": "Place",
+    "_label": "Great And Little Hampden (SP 84788 02414)",
+    "defined_by": "POINT(-0.774152 51.714059)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1331983",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1331983",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26616834",
+      "type": "HumanMadeObject",
+      "_label": "Stable Building At Hampden House (Q26616834)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1331983",
+    "type": "Production",
+    "_label": "Origin / Construction of Stable Building At Hampden House (Mid C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Mid C18",
+      "begin_of_the_begin": "1734-01-01T00:00:00Z",
+      "end_of_the_end": "1766-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1331983-1",
+      "type": "Modification",
+      "_label": "Early C19: Mid C18 with early C19 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1331983-2",
+      "type": "Modification",
+      "_label": "C20: C20 paired leaded casement to first floor between bays 7 and 8.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1331983",
+      "type": "VisualItem",
+      "_label": "Photograph of Stable Building At Hampden House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1331983",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Stable Building At Hampden House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Stable%20Building%20at%20Hampden%20House%2C%20Great%20and%20Little%20Hampden%2C%20Buckinghamshire%2C%20March%202020.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 80 SW             GREAT AND LITTLE HAMPDEN     GREAT HAMPDEN 5/30                                              Stable Building at                                                   Hampden House 28.1.82 GV                                                II Stables and coach-houses.  Mid C18 with early C19 alterations.  Red and vitreous brick, formerly whitewashed.  Hipped old tile roof, the centre bay with pyramid roof and wrought iron weathervane in Gothick style.  2 storeys, 9 bays.  Centre and end bays have shallow early C19 brick projections with first floor band courses and carriage doors in 4-centred arches. Paired leaded casements to first floor.  Centre projection is slightly deeper with castellated parapet, and has canted sides With flush-panelled doors in pointed arches.  Above each door is a small roundel with quatrefoil window.  Intermediate bays have leaded cross casements to ground floor and pairedleaded casements above, all with gauged segmental heads. Centre bays on each side have tall steeply pointed archways.  C20 paired leaded casement to first floor between bays 7 and 8. Listing NGR: SP8478802414"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1982-01-28T00:00:00Z"
+      }
+    }
+  ]
+}

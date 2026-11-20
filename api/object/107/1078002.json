@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078002.json",
+  "type": "HumanMadeObject",
+  "_label": "Nell Gwynns Monument In Park Wood (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Nell Gwynns Monument In Park Wood"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078002"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 93233 10699"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355730"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346502"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078002",
+    "type": "Place",
+    "_label": "Tring (SP 93233 10699)",
+    "defined_by": "POINT(-0.649732 51.787191)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078002",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078002",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Tring_Park_Obelisk",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346502",
+      "type": "HumanMadeObject",
+      "_label": "Nell Gwynns Monument In Park Wood (Q26346502)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078002",
+    "type": "Production",
+    "_label": "Origin / Construction of Nell Gwynns Monument In Park Wood (Early C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1739",
+      "begin_of_the_begin": "1739-01-01T00:00:00Z",
+      "end_of_the_end": "1739-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078002-1",
+      "type": "Modification",
+      "_label": "1739: James Gibbs designed some ornamental buildings for William Gore (d.1739) Soane MS (Colvin(1978)343).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1739",
+        "begin_of_the_begin": "1739-01-01T00:00:00Z",
+        "end_of_the_end": "1739-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078002-2",
+      "type": "Modification",
+      "_label": "1978: James Gibbs designed some ornamental buildings for William Gore (d.1739) Soane MS (Colvin(1978)343).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1978",
+        "begin_of_the_begin": "1978-01-01T00:00:00Z",
+        "end_of_the_end": "1978-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078002",
+      "type": "VisualItem",
+      "_label": "Photograph of Nell Gwynns Monument In Park Wood (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078002",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Nell Gwynns Monument In Park Wood",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Obelisk%20in%20Tring%20Park%20-%20geograph.org.uk%20-%20184042.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                  ODDY HILL SP 91 SW                                         (West side) 4/94                                    Nell Gwynn's Monument 21.9.51                                 in Park Wood                                         (Formerly listed as Nell                                         Gwynn's Monument) GV                                      II Obelisk. Early C18, for William Gore probably by James Gibbs as part of landscaped setting of Tring Park. Limestone ashlar on red brick core. Tall stone obelisk about 50ft high at roundepoint in wood on hillside overlooking Tring Park. High square pedestal with moulded cap and base. Tall tapering obelisk on boldly moulded base  (2 tori with scotia between).  Concave  point  with  ball  finial  pierced  by  spike.  No inscription. View NE along alley to Temple or Summer House (q.v.). James Gibbs designed some ornamental buildings for William Gore (d.1739) Soane MS (Colvin(1978)343). Listing NGR: SP9323310699"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-21T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

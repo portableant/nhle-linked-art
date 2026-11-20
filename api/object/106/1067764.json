@@ -1,0 +1,300 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/106/1067764.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Mary",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Mary"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1067764"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06012 05105"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355589"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26320562"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1067764",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 06012 05105)",
+    "defined_by": "POINT(-0.466237 51.73464)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1067764",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1067764",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Mary%27s_Church%2C_Apsley",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26320562",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Mary (Q26320562)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1067764",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Mary (Early C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/joseph-clarke",
+        "type": "Person",
+        "_label": "Joseph Clarke"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1871",
+      "begin_of_the_begin": "1871-01-01T00:00:00Z",
+      "end_of_the_end": "1871-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-1",
+      "type": "Modification",
+      "_label": "Late C13: The style adopted is that of the Geometrical architecture of the late C13 while the tower uses the simpler lancet style of the early C13.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C13",
+        "begin_of_the_begin": "1267-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-2",
+      "type": "Modification",
+      "_label": "1819: Joseph Clarke (1819/20-1888) was a London-based architect whose practice was very largely concerned with church-building and restoration.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1819",
+        "begin_of_the_begin": "1819-01-01T00:00:00Z",
+        "end_of_the_end": "1819-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-3",
+      "type": "Modification",
+      "_label": "1860: It had been his desire to build a church as a memorial to his wife, Anna Maria, who had died in 1860.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1860",
+        "begin_of_the_begin": "1860-01-01T00:00:00Z",
+        "end_of_the_end": "1860-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-4",
+      "type": "Modification",
+      "_label": "1871: Church Of St Mary HEMEL HEMPSTEAD 894/4/181 LONDON ROAD 894/9/181 (South side) 17-FEB-77 CHURCH OF ST MARY II 1871 by Joseph Clarke but not …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1871",
+        "begin_of_the_begin": "1871-01-01T00:00:00Z",
+        "end_of_the_end": "1871-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-5",
+      "type": "Modification",
+      "_label": "1877: He was diocesan surveyor to Canterbury and Rochester and, from 1877, the newly-created diocese of St Albans.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1877",
+        "begin_of_the_begin": "1877-01-01T00:00:00Z",
+        "end_of_the_end": "1877-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-6",
+      "type": "Modification",
+      "_label": "1888: Joseph Clarke (1819/20-1888) was a London-based architect whose practice was very largely concerned with church-building and restoration.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1888",
+        "begin_of_the_begin": "1888-01-01T00:00:00Z",
+        "end_of_the_end": "1888-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1067764-7",
+      "type": "Modification",
+      "_label": "1915: The timber reredos dates from 1915 and was designed by the local architect A M Durrant.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1915",
+        "begin_of_the_begin": "1915-01-01T00:00:00Z",
+        "end_of_the_end": "1915-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1067764",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Mary (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1067764",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Mary",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Apsley%2C%20The%20Church%20of%20St%20Mary%20-%20geograph.org.uk%20-%20870835.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "HEMEL HEMPSTEAD 894/4/181                               LONDON ROAD                              894/9/181                               (South side)                             17-FEB-77                               CHURCH OF ST MARY II                                        1871 by Joseph Clarke but not completed fully as planned. 1971 SW vestibule, toilet and kitchen block added, and W bay of nave divided off from the rest of the church. MATERIALS: Flint facing with Ancaster stone dressings. The S wall has bare buff stock brick. Brown clay-tiled roofs. Shingled spire. PLAN: Nave, N aisle (slightly shorter than the nave at its W end), N porch, chancel, NE tower with organ chamber and vestry incorporated on the ground stage, SW vestibule, toilets and kitchen. EXTERIOR: A well-composed building which forms an important local landmark on the S side of the London road out of Hemel Hempstead. The aisle has its own gable which is slightly lower than that of the nave. There is no clerestory. The style adopted is that of the Geometrical architecture of the late C13 while the tower uses the simpler lancet style of the early C13. The tower is placed at the E end of the S aisle and has both angle and diagonal buttresses and, at the NW corner, an entrance to a stair set between a pair of angle buttresses. The tall ground stage of the tower is plainly treated and has a two-light window in the E face. The shorter belfry stage has two narrow lancets on each face. Above is a chamfer spire with small, projecting louvred lucarnes set low down, below the upper ends of the chamfers. The windows in the body of the building are of varied forms, the grandest being the five-light E window which incorporates five circles in its traceried head; similar three- and four-light windows occur in the W end of the aisle and nave respectively. The other windows are of two and three lights. The S wall shows clearly that the church was left uncompleted in 1871, having a `temporary' wall faced with stock brick, apart from the E end which is of flint and has keying for an intended wall. INTERIOR: The walls are plastered and whitened. Either side of the nave there is an arcade of four bays with double-chamfered arches, circular piers and moulded capitals and bases. The uncompleted nature of the building is also clear from the fact that, although there is a fully-built S arcade, there is a wall immediately behind it. Also there is the springing for a fifth bay at the W end. Between the nave and chancel, which are of equal width, there is an arch with a moulded head and responds of trefoil section. S of the chancel is a two-bay arcade with a pier rather more elaborated than those in the nave. It is of filleted quatrefoil section with subsidiary shafts in the angles. The responds are similar as are those to the arch to the organ chamber on the N where the arch is broad and depressed. The roofs over the nave and N aisle are seven-sided with plain rafters while the chancel roof is semi-circular, again with plain trusses. PRINCIPAL FIXTURES: The font is particularly striking with a plain circular bowl of polished variegated brown marble: it stands on steps of Frosterley-type marble, a material also used in the chancel steps. The pulpit is of stone with heads set in square panels and also has some painted decoration, including the inscription, `Take heed how ye hear' in the middle part. There is a triple sedilia arrangement with dividers between the seats. The pewing scheme is largely complete and has square ends with miniature buttresses: an unusual and pleasing touch are the angel figures standing on eight of the ends. The stalls have poppy-headed ends and traceried frontals. Behind the stalls on the N side is a timber screen of single traceried lights in front of the organ chamber.  Victorian pierced cast-iron grills cover the heating ducts throughout the church: they have radiating patterns which alternate from one side of the grill to the other. There is a wooden First World War memorial at the W end of the N aisle, moved here in 1971. The organ of 1871 is by Hill and Son and is said to be last built in this country before Hill emigrated to Australia. The timber reredos dates from 1915 and was designed by the local architect A M Durrant. In the E window there is a good window by Frederick Preedy. The church was never completed as planned, hence the temporary S wall and the consequent `blind' arcade.  There is springing for a further W bay although the W end looks fully finished. HISTORY: St Mary's church was built to serve the needs of what was, in the mid-Victorian period, an industrial area, then called Two Waters and Nash Mills. Now known as Apsley End, this was a major centre of paper-making and the main promoter of the building was Charles Longman, a senior partner in the John Dickinson firm. It had been his desire to build a church as a memorial to his wife, Anna Maria, who had died in 1860. The new church district was formed out of parts of Boxmoor, King¿s Langley, Abbot's Langley and Leverstock Green. Much of the cost was met by Longman while other donors were the John Dickinson company, John Dickinson junior, Frederick Pratt Barlow and John Evans. The consecration took place on 31 August 1871. Joseph Clarke (1819/20-1888) was a London-based architect whose practice was very largely concerned with church-building and restoration. His known works date from the middle of the 1840s until the time of his death. He was diocesan surveyor to Canterbury and Rochester and, from 1877, the newly-created diocese of St Albans. These posts helped bring in numerous commissions from within these three dioceses but he also gained jobs over a much wider geographical area and examples of his work can be found in most parts of England. He was consultant architect to the Charity Commissioners. SOURCES: Anon., The Parish of Chambersbury District of St Mary's Apsley End (n d, c2000).  Nikolaus Pevsner (rev. Bridget Cherry), The Buildings of England: Hertfordshire, 1977, p 182. REASONS FOR DESIGNATION:  The church of St Mary, London Road, Hemel Hempstead is designated at Grade II for the following principal reasons: * \tIt is a well-designed mid-Victorian Gothic Revival church. * \tIt has a number of original fittings of quality and interest."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-02-17T00:00:00Z"
+      }
+    }
+  ]
+}

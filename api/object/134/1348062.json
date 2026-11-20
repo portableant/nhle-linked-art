@@ -1,0 +1,245 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348062.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old House And Adjoining Front Block Of No 9/10 (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old House And Adjoining Front Block Of No 9/10"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348062"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03417 10742"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157912"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631477"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348062",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03417 10742)",
+    "defined_by": "POINT(-0.502126 51.78579)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348062",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348062",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631477",
+      "type": "HumanMadeObject",
+      "_label": "The Old House And Adjoining Front Block Of No 9/10 (Q26631477)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348062",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old House And Adjoining Front Block Of No 9/10 (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348062-1",
+      "type": "Modification",
+      "_label": "Mid C16: C16 or earlier, mid C16 chimney inserted, W-bay and rear stair tower early C17, altered and rear wing added C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C16",
+        "begin_of_the_begin": "1534-01-01T00:00:00Z",
+        "end_of_the_end": "1566-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348062-2",
+      "type": "Modification",
+      "_label": "Early C17: C16 or earlier, mid C16 chimney inserted, W-bay and rear stair tower early C17, altered and rear wing added C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348062-3",
+      "type": "Modification",
+      "_label": "C17: W gabled end has C17 similar canted oriel on shaped brackets under a tiled pentice and tilehung gable triangle.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348062-4",
+      "type": "Modification",
+      "_label": "C18: C16 or earlier, mid C16 chimney inserted, W-bay and rear stair tower early C17, altered and rear wing added C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348062",
+      "type": "VisualItem",
+      "_label": "Photograph of The Old House And Adjoining Front Block Of No 9/10 (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348062",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Old House And Adjoining Front Block Of No 9/10",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/9%20and%2010%20Leighton%20Buzzard%20Road%2C%20Water%20End%2C%20Hertfordshire%2C%20August%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        LEIGHTON BUZZARD ROAD (A4146) TL 0310                                         (West side) 10/133                                  The Old House, and 26.1.67                                 adjoining front block                                         of No. 9/10 (formerly                                         listed as No. 7/8 Water End and                                         No. 9/lO Water End) GV                                      II House, now 2 houses. C16 or earlier, mid C16 chimney inserted, W-bay and rear stair tower early C17, altered and rear wing added C18. Exposed timber frame with red brick infill and steep old red tile roofs. Large former open-hall house of 2-storeys facing N with underbuilt side-jetty along roadside.  5 bays of structure with large internal chimney in middle, 1 1/2-storeys rear wing at E end and stair turret in the rear angle. 3 windows long front with bull-nosed joist end to support jetty. Rectangular,  1st floor, ovolo-moulded, transomed, 4-lights early C17 oriel window with lattice leaded lights and iron opening lights. C18 3-lights leaded casement below it, and plank door with hood for E part (No. 9/10). Blocked door in similar position to N part before catslide projection to right. W gabled end has C17 similar canted oriel on shaped brackets under a tiled pentice and tilehung gable triangle. Interior has deeply chamfered cross-beams,  step-jowled posts,  close-spaced studs, numbered joints, long curved braces, knee-brace next chimney on 1st floor, unjowled stout post at mid-bay, and clasped-purlin roof with collar-and-queen-strut trusses and curved wind-braces. Bread oven in bulge from main chimney with salt hollow below. Large extensions linked to No. 9/10 not of special interest. Listing NGR: TL0341710742"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

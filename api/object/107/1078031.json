@@ -1,0 +1,244 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078031.json",
+  "type": "HumanMadeObject",
+  "_label": "Grove Farm Cottages (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Grove Farm Cottages"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078031"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 93261 12352"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355700"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26346640"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078031",
+    "type": "Place",
+    "_label": "Tring (SP 93261 12352)",
+    "defined_by": "POINT(-0.648882 51.802044)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078031",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078031",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26346640",
+      "type": "HumanMadeObject",
+      "_label": "Grove Farm Cottages (Q26346640)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078031",
+    "type": "Production",
+    "_label": "Origin / Construction of Grove Farm Cottages (1500)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1500",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1500-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078031-1",
+      "type": "Modification",
+      "_label": "c. 1600: Circa 1500, floor inserted c.1600, late C17 rear wing and outshut, c.1900 S bay rebuilt and front cased in brick.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1600",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1600-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078031-2",
+      "type": "Modification",
+      "_label": "Late C17: Circa 1500, floor inserted c.1600, late C17 rear wing and outshut, c.1900 S bay rebuilt and front cased in brick.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078031-3",
+      "type": "Modification",
+      "_label": "C19: Taller 2-storeys and attic rear wing at N end with C19 flush casement windows, and rear catslide outshut.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078031-4",
+      "type": "Modification",
+      "_label": "c. 1900: Circa 1500, floor inserted c.1600, late C17 rear wing and outshut, c.1900 S bay rebuilt and front cased in brick.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078031",
+      "type": "VisualItem",
+      "_label": "Photograph of Grove Farm Cottages (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078031",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Grove Farm Cottages",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Grove%20Farm%20Cottages.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                 GROVE ROAD SP 91 SW                                         (East side)                                         Tring Grove 4/64                                    No. 66 -                                       (Grove Farm Cottages) -                                       II House.  Circa  1500,  floor inserted c.1600,  late C17  rear wing and outshut, c.1900 S bay rebuilt and front cased in brick. Timber frame brick nogged and roughcast, front in yellow stock brick, rear wing cased in red brick.  Steep machine made red tile roofs.  A late medieval cruck-framed house aligned N-S with formerly open hall, and N-bay upper end also originally open to roof. House formerly longer to S. Chimney c.1600 inserted at  lower end of hall and lobby entrance probably replaced a cross-passage. 4 windows long W front with 4 gabled dormers rising through eaves, and door with gabled trellis porch between lst and 2nd windows from S. 2-light recessed casements with small panes and cambered arches to ground floor. 4-panel raised and fielded door. Taller 2-storeys and attic rear wing at N end with C19 flush casement windows, and rear catslide outshut. S end stucco lined as ashlar with a 2-light casement on each floor. Interesting development of house characteristic of  many  long-houses.  Intact  structure  of  3  pairs  of  crucks  of 'truncated' form like Moor Cottage, Water End, Great Gaddesden. Blacked rafters but no evidence for a ridge beam. 2 N trusses have spur ties to wall plate instead of tie-beams. Roof originally half hipped. Curved wind braces to heavy purlins.  Cusped braces to collar beam.  (RCHM Typescript). Listing NGR: SP9326112352"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

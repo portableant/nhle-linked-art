@@ -1,0 +1,327 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1430116.json",
+  "type": "HumanMadeObject",
+  "_label": "Norcott Court",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Norcott Court"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1430116"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9657510381"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677572"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1430116",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9657510381)",
+    "defined_by": "POINT(-0.601384 51.783766)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1430116",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1430116",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Norcott_Court",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677572",
+      "type": "HumanMadeObject",
+      "_label": "Norcott Court (Q26677572)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1430116",
+    "type": "Production",
+    "_label": "Origin / Construction of Norcott Court (1300)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/alexander-hampden",
+        "type": "Person",
+        "_label": "Alexander Hampden"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1888",
+      "begin_of_the_begin": "1888-01-01T00:00:00Z",
+      "end_of_the_end": "1888-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-1",
+      "type": "Modification",
+      "_label": "C16: * Group value: it has group value with the adjoining Grade II listed barn with which it has had historic associations since probably the C16…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-2",
+      "type": "Modification",
+      "_label": "Late C16: It was held by numerous people until the late C16 or early C17 when the manor seems to have been divided into two parts, one called Norcott …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C16",
+        "begin_of_the_begin": "1567-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-3",
+      "type": "Modification",
+      "_label": "1592: This was built in 1592 and was lived in by Thomas Drever, physician to his Royal Highness the Duke of York.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1592",
+        "begin_of_the_begin": "1592-01-01T00:00:00Z",
+        "end_of_the_end": "1592-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-4",
+      "type": "Modification",
+      "_label": "1597: The manor house was sold in 1597 by Alexander Hampden to John Southen or Southend whose son, also John, held the manor until 1616.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1597",
+        "begin_of_the_begin": "1597-01-01T00:00:00Z",
+        "end_of_the_end": "1597-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-5",
+      "type": "Modification",
+      "_label": "Early C17: It was held by numerous people until the late C16 or early C17 when the manor seems to have been divided into two parts, one called Norcott …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-6",
+      "type": "Modification",
+      "_label": "1616: The manor house was sold in 1597 by Alexander Hampden to John Southen or Southend whose son, also John, held the manor until 1616.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1616",
+        "begin_of_the_begin": "1616-01-01T00:00:00Z",
+        "end_of_the_end": "1616-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1430116-7",
+      "type": "Modification",
+      "_label": "Early C18: Norcott Court then passed through numerous hands until it was acquired in the early C18 by the Smart family.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1430116",
+      "type": "VisualItem",
+      "_label": "Photograph of Norcott Court (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1430116",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Norcott Court",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Norcott%20Court%20-%20geograph.org.uk%20-%201762252.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Large house built in 1888 for John Loxley."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Large house built in 1888 for John Loxley. MATERIALS: red brick laid in Flemish bond with timber-framing to the gables and moulded brick dressings.  Red clay tile roof covering. PLAN: the house and barn have an approximately L-shaped plan with the house forming the principal north-east range and the barn the smaller south-west range.  There is a parallel range of detached outbuildings on the north-east side of the house (shown as attached on the Ordnance Survey map) and another outbuilding to the north-west which is the remains of the stable courtyard.  The house has a double-pile plan in which the reception rooms occupy the front south-west range and the service rooms the rear north-east range. EXTERIOR: the house is in the Tudoresque style. It has two storeys with an attic and cellar, and steeply pitched roofs with plain bargeboards in the gables and five tall chimney stacks.  The shafts of these are articulated with angled bricks and stepped caps in moulded brick.  On the principal south-west front and the south-east garden elevation, the fenestration consists of timber casements of mostly three lights with a single transom in surrounds with a roll-moulding; those to the ground floor have segmental heads of gauged brickwork. The cast iron rainwater goods survive. The slightly irregular façade has projecting gabled bays in the central and outer bays.  The central bay forms the entrance porch which has herringbone framing in the gable and box-framing to the first-floor.  The double-leaf front door (dating to the 1960s) has vertical planks and strap hinges, and is set in a three-pointed arch timber surround with carved spandrels which led originally into an open porch.  The pointed arch windows either side are set in wide timber mullions which wrap around the returns and have decorative leaded lights.  Above, the first floor is lit by a three-light window and the right return by two-light windows.  To the right of the entrance bay is a full-height, four-light window with ovolo-moulded mullions and two transoms, the upper lights with pointed arches.  The window has painted leaded lights.  The original awning that could be pulled out to shade the upper part of the window survives, although the fabric has rotted.  To the left of the entrance bay are two three-light windows on each floor.  To the right of this, the gabled end bay has rectangular framing in the gable head.  The right ground-floor corner is splayed and lit by an arched window in a stone surround.  This bay has French windows and a two-light window above.  The gabled bay on the right hand side is larger and has herringbone framing in the gable head.  It is lit on both floors by three-light windows, that to the upper floor is uPVC, and there is the remnants of another awning over the ground-floor window.  The attic is lit by two flat-roofed, four-light dormers wholly within the roof space. The south-east garden elevation has, from the left, a large two-storey projecting bay with panel framing to the upper storey and a five-light window on each floor.  There is a small first-floor window and then a ground-floor four-light window, the central two lights of which have been converted into French windows in the C20.  The first floor is lit by a three-light window, above which is a gabled dormer, flush with the wall, which has herringbone framing. The rear north-east elevation is plainer as befits the service range but is similar in style to the façade with three gabled bays, two of which are tile-clad, and two gable dormers.  One of the ground-floor windows is C20 and may have replaced a door, and the windows in the top servant's flat are also C20 replacements. INTERIOR: this has an eclectic style, predominantly Tudoresque in character but with some classical elements.  It retains a high proportion of original fixtures, fittings and joinery including fireplaces, window shutters, ornate window ironmongery, floor surfaces, wide skirting boards, cornices, dado rails and wide six-panelled doors in moulded surrounds for the reception rooms and four-panelled doors for service rooms and bedrooms. The entrance porch has a mosaic floor and double-leaf, three-panelled inner doors, the upper two panels filled with decorative leaded glass, and the highest having a three-pointed arch top.  Similar stained glass panels flank the doors, forming a screen.  The entrance hall also has a mosaic floor with patterned edging and two stained glass panels to the high west windows.  This leads on the right to the medieval style staircase hall which rises through two storeys and has a canted ceiling with moulded beams.  The room is panelled to first-floor height with square panelling which has incorporated dado rail, cornice, carved fan overlight over the door and fireplace.  This has an overmantel with a square-within-a-square pattern and a mantelpiece supported by carved brackets.  The stone moulded surround has an arcaded frieze, and burgundy tiled cheeks and hearth.  The open-well stair, leading to the pillared gallery, has pyramidal finials and splat balusters which at first-floor level are joined by arches creating an arcade.  The hall is lit by the double-height window which has four painted roundels with portraits of Herodotus, Homer, Virgil and Dante.  To the right of the staircase hall, the reception room in the south corner has raised plaster ribs on the ceiling forming large squares with foliate bosses at the intersections and a coved north end.  It has a classical style red marble fireplace with bracketed timber surround, flanked by segmental arched alcoves.  Behind, in the east corner is the dining room which has moulded cornices and Adamesque corner fans (added in the late 1970s) and a ceiling rose.  There is a segmental arched recess to the west end and a large timber chimneypiece with a carved frieze, red marble inset and fender, and patterned burgundy tiled cheeks.  To the left of the staircase hall, another reception room (originally the billiard room) has a parquet floor, laid in the 1950s, and twin segmental arched recesses to the east end.  On the opposite wall is a delicate classical style fireplace with carved frieze and surround, flanked by a tall narrow semi-circular ached recess to the left and a wider recess with the door to the right.  To the left of this, occupying the west corner, is a smaller room dominated by a large elaborately carved timber chimneypiece in Jacobean style with a cast-iron grate and burgundy tiled cheeks with a raised pattern.  The first-floor corridor is articulated by two arches with keystones.  The three first-floor bedrooms that were inspected have cast-iron grates with delicate timber surrounds and tiled cheeks.  The attic rooms also have original cast-iron fireplaces. The service range consists of the former kitchen which retains the recess for the range, ceiling laundry dryers, and a large built-in dresser.  The larders have fitted shelves and benches with slate counters, and gauze at the window; and the butler’s pantry has full-height built-in cupboards.  At the end of the passage by the main back door is a built-in cupboard with cockshead hinges, ventilation holes and a lead top which is thought to be a salting tray. The service stair with panelled spandrel survives, as do the tiled floor surfaces, numerous fitted cupboards, and the electric service bell board, although this has lost its glass. SUBSIDIARY FEATURES: attached to the rear elevation is a three-pointed arched doorway with a moulded masonry surround and vertical plank door with elaborate strap hinges.  A blue brick path leads to the single-storey outbuilding range which was not inspected but is said to retain an outdoor lavatory with original cistern and bowl by Tylor."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Norcott Court, a large house built in 1888, is listed at Grade II for the following principal reasons: *     Architectural interest: the combination of the double-height mullioned window, profusion of tall, finely moulded chimney stacks, timber framed gables, and three-centred arch doorway, create a picturesque composition and represent a good example of the vernacular revival style; *     Interior: this is characterised by good quality, predominantly Tudoresque features, notably the impressive and well executed double-height staircase hall which forms the centrepiece of the house; *     Intactness: the fixtures, fittings and joinery survive with a high degree of intactness throughout the house.  Of particular interest is the survival of the service area which retains numerous fitted cupboards and shelving, altogether providing a near complete example of a late C19 interior; *     Historic interest: it has been occupied and visited by numerous figures of historical and political significance, including Charles I and Winston Churchill; *     Group value: it has group value with the adjoining Grade II listed barn with which it has had historic associations since probably the C16."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The first mention of Norcott manor occurs in 1300, when Ralph le Marshall granted it to Nicholas de Bosco and Margery his wife.  It was held by numerous people until the late C16 or early C17 when the manor seems to have been divided into two parts, one called Norcott Hill, and the other a manor house called Norcott Court.  This was built in 1592 and was lived in by Thomas Drever, physician to his Royal Highness the Duke of York.  It is likely that the adjoining Grade II listed C16 barn was also built at this time, the two buildings forming an L-shape plan.  The manor house was sold in 1597 by Alexander Hampden to John Southen or Southend whose son, also John, held the manor until 1616.  During the Civil War, Charles I stayed at Norcott Court.  At the Restoration, the \"Rules for the Conduct of Norcott Court found in the study at Norcott Court\" were published, purporting to have been written by the late king. Norcott Court then passed through numerous hands until it was acquired in the early C18 by the Smart family.  Thomas Smart died in 1780, having devised Norcott Court to his son William Smart, on whose death in 1837 it passed to his daughter Elizabeth, widow of John Loxley.  In 1887 her son John Loxley succeeded and the following year he rebuilt the manor house on the site of the C16 house, adjoining the barn.  The Ordnance Survey map of 1898 shows the new house along with a stable courtyard to the north-west. John Loxley was a London lawyer and his son Arthur Smart Loxley became a rector in Gloucestershire and a minor canon of Bristol cathedral.  Three of Arthur’s sons, who as children had lived at Norcott, died in action during the First World War.  Captain Arthur Noel Loxley is posthumously remembered going down with his ship HMS Formidable in 1915 resolutely standing on the bridge with his dog at his side exhorting the crew to ‘Keep cool and be British’.  The torpedoed vessel sank in the English Channel with the loss of 547 lives. John’s premature death in 1892 led to the partial break-up of the estate, and from then on the house was leased out.  In the 1920s and 30s it was leased to Sir Anthony Tuke, the Chairman and a founder of Barclays Bank.  His grandson, another Sir Anthony Tuke, was born in the house and also became Chairman of Barclays Bank.  The first Anthony Tuke was responsible for several changes, including the addition of rooms to the first and second floors at the rear of the house in 1924/5.  After the Tuke family left, Lord Davidson and his wife Joan, later Viscountess Davidson, who were both MPs, lived at Norcott Court.  During their time, Prime Minister Stanley Baldwin stayed at the house, particularly after his wife died; and Churchill used it for meetings during the Second World War as it was close to Chequers.  From 1962 it was occupied by the Rost family.  Peter Rost, an MP for twenty-two years until 1992, was one of the founders of the Anglo-German Parliamentary Group, which promoted good relations with the German Parliament.  He instigated the annual conferences with German Parliamentarians, the first conference being held at Norcott Court. Since the 1960s the attic has been used as a self-contained flat which has not involved any alterations to the plan form.  The bedrooms along the north-east range of the first floor are used as flats.  These have not been inspected but it is thought that the conversion has involved limited intervention to the plan form and fabric.  Alterations to the house include the removal of the wall of the original kitchen to allow easier access, and the replacement of some windows with uPVC."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2015-10-29T00:00:00Z"
+      }
+    }
+  ]
+}

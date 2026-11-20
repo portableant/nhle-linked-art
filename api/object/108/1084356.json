@@ -1,0 +1,301 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/108/1084356.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Peter And St Paul (Church Of England) (Tring)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Peter And St Paul (Church Of England)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1084356"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 92436 11495"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355690"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17528852"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1084356",
+    "type": "Place",
+    "_label": "Tring (SP 92436 11495)",
+    "defined_by": "POINT(-0.661072 51.794478)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1084356",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1084356",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Church_of_St_Peter_and_St_Paul,_Tring",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Church of St Peter St Paul (church of England)",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saints_Peter_and_Paul_Church_%28Tring%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17528852",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Peter St Paul (church of England) (Q17528852)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1084356",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Peter And St Paul (Church Of England) (C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/william-slater-and",
+        "type": "Person",
+        "_label": "William Slater and"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/j-browne",
+        "type": "Person",
+        "_label": "J. Browne"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1825",
+      "begin_of_the_begin": "1825-01-01T00:00:00Z",
+      "end_of_the_end": "1825-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-1",
+      "type": "Modification",
+      "_label": "Early C14: C13 fabric and plan of aisled nave and square ended chancel, N aisle rebuilt, S aisle widened and S porch built in early C14 and lower stage…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1333-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-2",
+      "type": "Modification",
+      "_label": "C14: Remaining from C13 are a lancet window by altar on N wall of chancel, moulded rear-arch of S doorway which itself is a C19 copy of a C13 ori…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-3",
+      "type": "Modification",
+      "_label": "C15: Nave arcades rebuilt, clearstorey added, tower completed and chancel arch renewed in C15.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-4",
+      "type": "Modification",
+      "_label": "C16: Chancel and N aisle partly rebuilt in C16, NE vestry 1825 and larger choir vestry with organ 1874.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-5",
+      "type": "Modification",
+      "_label": "Early C16: A 2 bays arcade in C15 style gives onto choir vestry with organ and N window re-used from chancel N wall, matching the 3 early C16 S windows…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1533-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-6",
+      "type": "Modification",
+      "_label": "C17: Several C17 monuments to Anderson family of Pendley set in floor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1084356-7",
+      "type": "Modification",
+      "_label": "1638: Memorial tablet on wall at E part to Mary Anderson d.1638 with Latin verses, came from chancel.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1638",
+        "begin_of_the_begin": "1638-01-01T00:00:00Z",
+        "end_of_the_end": "1638-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1084356",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Peter And St Paul (Church Of England) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1084356",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Peter And St Paul (Church Of England)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20of%20St%20Peter%20and%20St%20Paul%2C%20Tring%2C%20September%202019%2001.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING                 CHURCH YARD SP 9211                                         (North side) 11/53                                   Church of St. Peter 21.9.51                                 and.St. Paul (C of E) GV                                      I Parish Church. C13 fabric and plan of aisled nave and square ended chancel, N aisle rebuilt, S aisle widened and S porch built in early C14 and  lower  stages  of  W  tower  soon  after.  Nave  arcades  rebuilt, clearstorey added, tower completed and chancel arch renewed in C15. Chancel and N aisle partly rebuilt in C16, NE vestry 1825 and larger choir vestry with organ 1874. Interior thoroughly restored 1861-2 with new oak seating and pulpit designed by William Slater and made by James Forsyth of London, and chancel roof rebuilt to original height. Restoration 1880-2 by Carpenter and Ingelow who renewed piers and bases of nave arcades, rebuilt clearstoreys and N aisle, and moved Gore tomb to N aisle. Oak rood-screen, panelling and roof gilding and painting in chancel, and chapel formed in E end of S aisle 1899-1900 by G.F. Bodley. Contemporary painted crucifixion on E wall of nave by Messrs. Powell of London.  Flint rubble faced with uncoursed knapped flint and random blocks of stone, chequer-work embattled parapets to each part of stone and flint, Totternhoe clunch much renewed in Ancaster stone, low pitched metal  roofs.  A  large  Perp  town  church  consisting  of  chancel, clearstoreyed nave, aisles, S porch, massive W tower with spike and vane, vestries along N side of chancel, and octagonal turret rising above stair to rood loft in N jamb of chancel arch. Remaining from C13 are a lancet window by altar on N wall of chancel, moulded rear-arch of S doorway which itself is a C19 copy of a C13 original (doorway re-used in C14 aisle), and 3-lobed bell capital from arcade set in a niche in N aisle. 3-bays chancel with encaustic tile floor. Low pitched roof with carved bosses at junctions of ridge and purlins with principals and all painted and gilded in medieval multicolours. 5-light E window (1851) with traceried pointed top and stained glass by Clayton and Bell. N wall has C13 lancet with deep internal splays and small rectangular locker recess below. A 2 bays arcade in C15 style gives onto choir vestry with organ and N window re-used from chancel N wall, matching the 3 early C16 S windows of chancel each of 3 cinquefoil lights. Stained glass by Kempe in 2 Western windows.  Several C17 monuments to Anderson family of Pendley set in floor. Carved wooden reredos, riddel posts, and standing angels, painted and gilded, by W.E. Howard 1928. E window of choir vestry of 2 trefoil lights with quatrefoil in head also may have come from chancel N wall. Beside it wall monument to William Kay d.1838 by J. Browne of London with seated female mourner and urn in Greek aedicule, pilastered with trusses. C14 pointed canopy fragment in N aisle niche probably from sedilia in chancel and fragments of early C14 figure tiles kept in church, and others dispersed in mid C19 restoration and now in British Museum and V and A Museum, probably from a tiled frieze around chancel. Lofty and wide 6-bays nave with C15 open timber roof. 6-bays N and S arcades have unusual piers each with 4 attached shafts and thin fillets between hollows at the diagonals tieing into the polygonal base. The capitals, arches, and imposts are C15 but the piers are careful Portland stone copies c.1882 of the original church piers and bases then built into All Saints Church, Long Marston (q.v.). Blunt-pointed clear- storey windows of 3 cinquefoil lights renewed at same time with roof supported on scaffolding. 14 large carved stone C15 fabulous beasts in spandrels of arcades support shafts running up to support moulded corbels to 14 carved wooden figures at the springing of the moulded curved braces to the cranked tie beams of the roof with moulded ridge, purlins and wallplates  supporting flat rafters, and moulded sub-principals. Wide C14 chancel arch of 2 deeply moulded orders, engaged shafts and moulded caps and bases with narrow 3-centred arched headed doorway above N springing about  lm above the level of the balustraded rood loft surmounting the traceried wooden screen. Crucifixion with kneeling angels on diapered ground on wall above.  Cut-off end of moulded medieval rood-beam projects at S side. Sharply pointed C14 tall tower arch of 4 orders, with engaged shafts to 2nd and 3rd orders, flanked by high church-wardens' pews of 1862 and tall narrow paintings of Moses and Aaron presented by William Gore of Tring Park c.1715 when he 'restored and beautified' the church. High up a small arched-headed window in tower. The North aisle has a large C15 E window of 5 lights with tracery unglazed now opening to choir vestry, 3-centred arched headed narrow doorway to rood stair in SE corner, W window with C14 rear arch and renewed tracery of 2 trefoil lights with quatrefoil over. The rest of the aisle and roof were removed and rebuilt to facilitate engineering works to the arcades c.1881-2, with 4 3-light windows with transoms and segmental  heads  and  a  chamfered  pointed  niche  near  middle  with architectural fragments built-in. Large standing monument on axis of S door to Sir William Gore d.1707 and Elizabeth his wife d.1705, possibly by Grinling Gibbons (half-opened pea-pod carved in foliage top right) but probably by Nost (Pevsner(1977)368). In black and grey marbles a sarcophogus with inscribed  front panel and 2  life-size  figures of Sir William in robes of Lord Mayor of London, and Lady Gore, reclining on the concave sides of the plinth to a large gadrooned urn with flambeau top, backed by a wide Corinthian aedicule with segmental open pediment, and decorated with mantling over the cap, mace and sword of office of Lord Mayor. Monument moved here from chancel 1882. To left, wall monument to John Gore d.1765 with fluted Ionic pilasters to aedicule and flared sarcophogus before an obelisk bearing a portrait medallion, all in coloured marbles, with flanking putti. C13 grave slab with raised cross fleurie set into floor.  Moulded timbers suggest old roof rebuilt. Memorial tablet on wall at E part to Mary Anderson d.1638 with Latin verses, came from chancel. The south aisle has C15 E window like that of N aisle and has stained glass by Kempe. 4 windows in S wall of 3 cinquefoil  lights,  eastern  2  like  S windows  of  chancel,  other 2 have a wider central light as have the clearstorey windows. Stained glass by Kempe's firm. W window similar. Moulded roof timbers probably C15. S door flanked by stone C19 tablets of Lord's Prayer and Creed. Fine C14 chamfered and trefoil headed piscina near alter of Lady Chapel concealed by doors when chapel restored with screen and panelling in 1900. Large square 3-stage W tower has massive corner buttresses and octagonal SE stair turret carried higher than embattled parapet. 3-light cinquefoil bell-chamber opening in each face under label with only outer openings pierced. String courses between stages. Single slits to middle stage with openwork clock face on S only. Tall 3-light W window with traceried pointed head and stained glass by Clayton & Bell, over C14 W door much restored. Lower stage of tower has C14 stone tierceron vault with chamfered ribs, central circular bell-opening, and ridge-ribs which are not aligned on centre. Tough octagonal font of 1862 in coloured Streetly stone inlaid with coloured marbles and cement.  Gabled and battlemented South porch with ashlar front and continuously moulded arch. Elaborate S doorway reproducing C13 with 3 nook-shafts of stone and    water-holding    bases.    (VCH(1908)289-91:    RCHM(1911)222-3: Kelly(1914)250:  Pevsner(1977)367-8:  A short guide to the Parish Church of St. Peter and St. Paul Tring, Tring, Rev.Ed.1977). Listing NGR: SP9243611495"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-21T00:00:00Z"
+      }
+    }
+  ]
+}

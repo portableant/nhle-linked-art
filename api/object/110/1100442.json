@@ -1,0 +1,301 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100442.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of All Saints (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of All Saints"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100442"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07335 02493"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157653"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542461"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100442",
+    "type": "Place",
+    "_label": "Kings Langley (TL 07335 02493)",
+    "defined_by": "POINT(-0.44789 51.710913)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100442",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100442",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/All_Saints%27_Church,_Kings_Langley",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Church of All Saints, Kings Langley",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:All_Saints_Church%2C_Kings_Langley",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542461",
+      "type": "HumanMadeObject",
+      "_label": "Church of All Saints, Kings Langley (Q17542461)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100442",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of All Saints (C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/joseph-clarke",
+        "type": "Person",
+        "_label": "Joseph Clarke"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/clayton-bell",
+        "type": "Person",
+        "_label": "Clayton & Bell"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1878",
+      "begin_of_the_begin": "1878-01-01T00:00:00Z",
+      "end_of_the_end": "1878-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-1",
+      "type": "Modification",
+      "_label": "C14: Chancel C13, nave earlier but largely altered by building of C14 N aisle and its subsequent early C15 alteration to arcade when S aisle and …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-2",
+      "type": "Modification",
+      "_label": "c. 1340: The N aisle has a 2-light Dec W window c.1340 and the N wall may be of similar date.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1340",
+        "begin_of_the_begin": "1340-01-01T00:00:00Z",
+        "end_of_the_end": "1340-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-3",
+      "type": "Modification",
+      "_label": "Late C14: The N chapel has 2 late C15 square headed N windows each of 4 cinquefoil lights and one small window, a carved wooden screen to N aisle, in …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C14",
+        "begin_of_the_begin": "1367-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-4",
+      "type": "Modification",
+      "_label": "Early C15: Chancel C13, nave earlier but largely altered by building of C14 N aisle and its subsequent early C15 alteration to arcade when S aisle and …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1433-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-5",
+      "type": "Modification",
+      "_label": "C15: Later C15 N chapel and tower.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-6",
+      "type": "Modification",
+      "_label": "Late C15: The N chapel has 2 late C15 square headed N windows each of 4 cinquefoil lights and one small window, a carved wooden screen to N aisle, in …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C15",
+        "begin_of_the_begin": "1467-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100442-7",
+      "type": "Modification",
+      "_label": "1528: In the same chapel the chest tomb of Sir Ralph Verney d.1528 and wife with effigies, brass of John Carter d.1588 with 2 wives, 9 sons and 9 …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1528",
+        "begin_of_the_begin": "1528-01-01T00:00:00Z",
+        "end_of_the_end": "1528-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100442",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of All Saints (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100442",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of All Saints",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Langley%20Church.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tCHURCH LANE TL 0702  \t\t\t\t\t(South side)                                        13/125                                  \tChurch of All Saints 26.1.67 GV                                      \tII* Parish church. Chancel C13, nave earlier but largely altered by building of C14 N aisle and its subsequent early C15 alteration to arcade when S aisle and S chapel rebuilt. Later C15 N chapel and tower. 1878 NE chapel built for C14 tomb of Edmund of Langley. 1894 choir vestry and N porch. Partly restored 1899 (clerestory and top of tower). Large polygonal church room, etc. linked on S 1976. Flint with dressings of Tottenhoe stone.  Steep  red  tile  roofs.  Largely Perp.  church much restored, consisting of stocky W tower with diagonal buttresses battlements and spike, 3-bay nave with aisles and clerestory, lower chancel flanked by chapels with NE chapel and SE vestry in line with E end of chancel. The Chancel has a C13 double piscina with shelves, W window of 1877 in C15 style, 2-bay C15 4-centred arcade on N with engaged shafts opening to N chapel, a 2-bay early C15 S arcade with octagonal piers, jamb of C13 lancet window to E, a late C19 chancel arch, and an elatorate carved alabaster reredos of 1878 designed by Joseph Clarke. The N chapel has 2 late C15 square headed N windows each of 4 cinquefoil lights and one small window, a carved wooden screen to N aisle, in a C19 raised part at E the late C14 altar tomb of Edmund of Langley, son of Edward III, moved from the dissolved Friary church c.1539 to the chancel of this church and in 1878 to this specially built chapel, Queen Victoria presenting the armorial E window. This tomb has alabaster sides on a Purbeck marble plinth with carved shields on 3 sides (painted heraldically on W face). The present top slab is part of an altar with 3 of its 5 crosses; what may be the original slab is set in the floor of the N chapel with an indent of a woman's figure, near some medieval encaustic floor tiles. In the same chapel the chest tomb of Sir Ralph Verney d.1528 and wife with effigies, brass of John Carter d.1588 with 2 wives, 9 sons and 9 daughters. Queen Victoria Memorial Window 1901 by Clayton & Bell, and some fragments of old heraldic glass from former E window of N chapel. The S chapel is largely occupied by the organ which hides a piscina. C19 W window but C15 S window of 4 lights. Large stone memorial on N wall to Mary Elizabeth Crawford d.1793 signed 'Bonomi inv Westmacott sculp' with small medallion, weeping putto and garlands. 3-bays nave with early C15 arcades and clerestory of  6 2-light windows rebuilt in late C19. Hexagonal early C17 panelled and carved oak pulpit with tester and elaborately carved back. Tower arch late C15. The N aisle has a 2-light Dec W window c.1340 and the N wall may be of similar date. 2 square headed N windows with renewed tracery of 3 trefoil-headed lights. N doorway with continuous moulding. The S aisle has a C13 piscina, a S window of 3 cinquefoil-headed lights and a C15 S doorway with continuous moulding. Stained glass of Mary and Martha by Ward & Hughes 1876. Late C19 W window. 3-stage W tower with renewed W door, 3-light C15 W window within blocked arch of a larger window. 2-light trefoil-headed N and S windows. 4 C15 bell chamber openings similar. Buttresses much repaired with tiles in SPAB technique. Stained glass W window by Powell 1908. (RCHM(1911)133-4:  Kelly(1914) 170:  VCH(1908)242-3:  Pevsner(1977) 217-8). Listing NGR: TL0733502493"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

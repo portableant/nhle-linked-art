@@ -1,0 +1,272 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173673.json",
+  "type": "HumanMadeObject",
+  "_label": "Glebe House (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Glebe House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173673"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02738 11126"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157893"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542557"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173673",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 02738 11126)",
+    "defined_by": "POINT(-0.511852 51.789366)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173673",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173673",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Glebe_House%2C_Great_Gaddesden",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542557",
+      "type": "HumanMadeObject",
+      "_label": "Glebe House (Q17542557)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173673",
+    "type": "Production",
+    "_label": "Origin / Construction of Glebe House (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1699",
+      "begin_of_the_begin": "1699-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173673-1",
+      "type": "Modification",
+      "_label": "C16: 1 1/2-storeys short block added to S end in C16 with fine 2-storeys W porch combined with a front-wall chimney.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173673-2",
+      "type": "Modification",
+      "_label": "Late C16: Late C16 porch and S end with front lateral chimney.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C16",
+        "begin_of_the_begin": "1567-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173673-3",
+      "type": "Modification",
+      "_label": "Early C17: Early C17 W-wing and floor and chimney inserted in old hall.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173673-4",
+      "type": "Modification",
+      "_label": "1699: On a stone over the doorway on the RH is cut 'Thomas Whitehead 1699' - he was the vicar then.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1699",
+        "begin_of_the_begin": "1699-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173673-5",
+      "type": "Modification",
+      "_label": "C19: C19 brick casing later than Buckler drawing of 1830s in HRO.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1173673",
+      "type": "VisualItem",
+      "_label": "Photograph of Glebe House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1173673",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Glebe House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Glebe%20House%2C%20Great%20Gaddesden%2C%20August%202026%2004.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN       PIPERS HILL TL 01 SW                                        (North side) 3/114                                  Glebe House 26.1.67                                (Formerly listed as                                        Nos 4/6 Pipers Hill) GV                                     II* Vicarage, later cottages, now one house. C15 or earlier former open hall house of unusual 'Inverted Wealden' type. Late C16 porch and S end with front lateral chimney. Early C17 W-wing and floor and chimney inserted in old hall. C19 brick casing later than Buckler drawing of 1830s in HRO.  Timber  framed,  part  roughcast,  exposed  close-studding  with plastered infill panels on upper floor of porch and W wing, red brick casing in irregular bond, Flemish-bond to ground floor of W wing, steep old red tile roofs. Plan remarkable in combining a square, formerly open, hall with smoke-blackened rafters, and a 2-storeys jettied parlour bay on S (service bay and cross-passage to N destroyed) built at the same time, with the W wall of the hall built in line with the projecting upper storey of the S bay rather than in line with its set-back lower-storey (Cf The Manor House, Aldbury). 1 1/2-storeys short block added to S end in C16 with fine 2-storeys W porch combined with a front-wall chimney.  Early  C17  chimney  stack  built  in  hall  backing  onto cross-passage when hall floored and new 2-storeys service wing of 4 structural bays  added running W from the hall.  A large  1½- and 2-storeys, L-shaped house facing W. 4 lattice leaded casement windows. 2-storeys jettied gabled W porch, the lower part in red brick with hollow-moulded square surround to Tudor arched entrance with label and stops. On a stone over the doorway on the RH is cut 'Thomas Whitehead 1699' - he was the vicar then. 2-light window over. Battened front door. 2 windows on each floor of S face of W wing. 3-light flush casement windows  with  iron  opening  lights.  Added  gable  chimney.  (RCHM Typescript). Listing NGR: TL0274211127"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

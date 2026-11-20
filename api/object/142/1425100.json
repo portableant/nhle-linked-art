@@ -1,0 +1,237 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/142/1425100.json",
+  "type": "HumanMadeObject",
+  "_label": "Chesham War Memorial, including the surrounding stone kerb and outer fence",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Chesham War Memorial, including the surrounding stone kerb and outer fence"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1425100"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9598301743"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677160"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1425100",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9598301743)",
+    "defined_by": "POINT(-0.612343 51.706262)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1425100",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1425100",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Chesham_war_memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677160",
+      "type": "HumanMadeObject",
+      "_label": "Chesham War Memorial, Including The Surrounding Stone Kerb And Outer Fence (Q26677160)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1425100",
+    "type": "Production",
+    "_label": "Origin / Construction of Chesham War Memorial, including the surrounding stone kerb and outer fence (1861–1939)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/arthur-george-walker-and",
+        "type": "Person",
+        "_label": "Arthur George Walker and"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1425100-1",
+      "type": "Modification",
+      "_label": "1914–1918: The centre panels on each face have arched tops bearing laurel wreaths, the front enclosing a Latin cross and the rear the dates 1914 - 1918…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1425100-2",
+      "type": "Modification",
+      "_label": "1921: Chesham War Memorial, including the surrounding stone kerb and outer fence War memorial, 1921, designed by the sculptor Arthur George Walker…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1425100",
+      "type": "VisualItem",
+      "_label": "Photograph of Chesham War Memorial, including the surrounding stone kerb and outer fence (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1425100",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Chesham War Memorial, including the surrounding stone kerb and outer fence",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Chesham%20war%20memorial%20-%20geograph.org.uk%20-%201013925.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "War memorial, 1921, designed by the sculptor Arthur George Walker. Additional pillars added after the Second World War."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "War memorial unveiled in 1921, designed by the sculptor Arthur George Walker. MATERIALS AND PLAN: Portland stone statue and plinth standing on a square base with later Portland stone pillars to the front. Located on a traffic island on The Broadway, the memorial faces south and takes the form of a life-size statue of a British infantryman. The figure is depicted in full battle dress, carrying a backpack and with additional kit slung from his belt. The figure stands at ease resting both hands on the muzzle of his rifle. DESCRIPTION: the statue is mounted on a tall pedestal resting on a square base. It is flanked to the south by a pair of tapering Portland stone pillars set on square bases  and bearing the names of the fallen of the Second World War. The pedestal bears relief panels on the sides. The western panel depicts a naval gun crew, while that on the east depicts a group of pilots surrounding a biplane. The names of the dead are recorded on six bronze panels mounted on the front (south) and rear (north) of the pedestal. The centre panels on each face have arched tops bearing laurel wreaths, the front enclosing a Latin cross and the rear the dates 1914 - 1918. The front central panel bears the inscription: ‘TO THE/ GLORIOUS MEMORY/ OF THE MEN OF/ THIS TOWN WHO/ GAVE THEIR LIVES/ AND TO HONOUR/ ALL WHO SERVED/ OR SUFFERED IN/ THE CAUSE OF GOD/ KING AND COUNTRY/ THEIR DEEDS LIVE AFTER THEM/ FAITHFUL UNTO DEATH/ 1914 – 1918’. The 185 names are arranged alphabetically without rank or arm of service/regiment. SUBSIDIARY FEATURES: a garden area around the monument is defined by a stone kerb, and a low chain link fence suspended on wooden posts. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 11 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Chesham War Memorial, unveiled in 1921, and designed by the sculptor Arthur Walker, is listed at Grade II for the following principal reasons: *     Historic interest: as a poignant reminder of the impact of tragic world events upon an individual community it has strong cultural and historical significance within both a local and national context; *     Architectural interest: as an accomplished and well-realised war memorial, designed by the noted sculptor Arthur George Walker."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The memorial to those from Chesham who fell in the First World War was designed by Arthur George Walker and was unveiled on 29 June 1921. The memorial was subsequently modified to commemorate those lost in the Second World War by the addition of two flanking pillars. Arthur George Walker (1861-1939) was a sculptor, painter and fellow of the Royal Academy. His most famous work is perhaps his statue of Florence Nightingale in Waterloo Place, London (listed Grade II) and he was also responsible for a fine  First World War memorial in the centre of Derby. For Chesham, the sculptor sketched his design for the Tommy from life; the model was a soldier, recently returned from Flanders with whom the artist corresponded on his return to the trenches. According to Walker the man survived to see photographs of a finished statue. The same design of the British Tommy, with minor modifications, was also used at Dartford and Sevenoaks, Kent; Heston, LB Hounslow; Heath Town, Wolverhampton; and Ironbridge, Shropshire. Chesham and Heston were the only figures carved in stone, the others were cast in bronze."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2015-03-30T00:00:00Z"
+      }
+    }
+  ]
+}

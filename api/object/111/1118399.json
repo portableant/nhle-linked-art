@@ -1,0 +1,220 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/111/1118399.json",
+  "type": "HumanMadeObject",
+  "_label": "Wendover House School",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Wendover House School"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1118399"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 87230 07246"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42795"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q99937503"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118399",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 87230 07246)",
+    "defined_by": "POINT(-0.737605 51.757119)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1118399",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1118399",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q99937503",
+      "type": "HumanMadeObject",
+      "_label": "Wendover House School (Q99937503)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1118399",
+    "type": "Production",
+    "_label": "Origin / Construction of Wendover House School (Early C18)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/george-devey",
+        "type": "Person",
+        "_label": "George Devey"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1870",
+      "begin_of_the_begin": "1870-01-01T00:00:00Z",
+      "end_of_the_end": "1870-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118399-1",
+      "type": "Modification",
+      "_label": "C18: Tiled roof, large central chimney to C18 wing, moulded brick eaves and gable verges.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118399-2",
+      "type": "Modification",
+      "_label": "Late C18: Principal rooms of c.1870 in C18 style including 4 fine late C18 carved wood chimneypieces (ground floor former Dining Room and Dining Room;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118399-3",
+      "type": "Modification",
+      "_label": "C19: Red brick, diaper patterns in blue headers to C19 parts.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1118399-4",
+      "type": "Modification",
+      "_label": "c. 1870: part early C18, altered and greatly extended c.1870 by George Devey.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1870",
+        "begin_of_the_begin": "1870-01-01T00:00:00Z",
+        "end_of_the_end": "1870-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 8707          WENDOVER               CHURCH LANE Wendover House 11/223                                  School II GV Special school, formerly the Manor House. N.W. part early C18, altered and greatly extended c.1870 by George Devey. Red brick, diaper patterns in blue headers to C19 parts. Stone dressings to C19 bay windows. Tiled roof, large central chimney to C18 wing, moulded brick eaves and gable verges. 2 storeys, C19 part with attic and raised above basement. N. front has C18 wing to LH, gable on left with 3-light segmental arched casement to each floor, smaller gable in centre with 3-light upper window, 4-lights below, 3-light window to ground floor each side, all segmental arched. Modern 1st floor windows. C19 part to RH with high gable containing 2-storey canted bay window with moulded parapet, 2-light attic window above, 2-light gabled dormer to centre. Large projecting brick chimney to RH, now taken down to eaves level with tiled capping. 3-arched wood verandah to main entrances with tiled lean-to roof, 4 stone steps, door to LH, oval window in stone architrave to RH, second circular window in brick surround to 1st floor RH. Garden elevation has curved wall to entrance verandah and semicircular arched doorway on left, tall gable with 2-storey square bay window having hipped tile roof, 3-light attic window over, 5-light 1st and ground floor windows. Recessed part to RH with stone bow window of 6-lights in angle, C18 brickwork to RH. Interior. Principal rooms of c.1870 in C18 style including 4 fine late C18 carved wood chimneypieces (ground floor former Dining Room and Dining Room; 1st floor landing and N.E. bedroom.) Ground floor room to S. of entrance hall has c.1870 wood chimneypiece with overmantel on corinthian columns, framing oval window, and mirror glass reveals also with oval frames. Listing NGR: SP8723007246"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

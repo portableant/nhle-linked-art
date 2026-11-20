@@ -1,0 +1,256 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342214.json",
+  "type": "HumanMadeObject",
+  "_label": "Court of farm buildings with brick stable and coach house attached, at Stocks Farm",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Court of farm buildings with brick stable and coach house attached, at Stocks Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342214"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96481 13242"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355663"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626241"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342214",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 96481 13242)",
+    "defined_by": "POINT(-0.601952 51.809498)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342214",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342214",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626241",
+      "type": "HumanMadeObject",
+      "_label": "Court Of Farm Buildings With Brick Stable And Coach House Attached At Stocks Farm (Q26626241)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342214",
+    "type": "Production",
+    "_label": "Origin / Construction of Court of farm buildings with brick stable and coach house attached, at Stocks Farm (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1908",
+      "begin_of_the_begin": "1908-01-01T00:00:00Z",
+      "end_of_the_end": "1908-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-1",
+      "type": "Modification",
+      "_label": "Late C16: North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C16",
+        "begin_of_the_begin": "1567-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-2",
+      "type": "Modification",
+      "_label": "Early C17: North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-3",
+      "type": "Modification",
+      "_label": "Late C17: North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-4",
+      "type": "Modification",
+      "_label": "C18: North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-5",
+      "type": "Modification",
+      "_label": "Early C18: North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-6",
+      "type": "Modification",
+      "_label": "1773: To north of farmhouse built in 1908, a rectangular court of farm buildings with gateway in south range and opening at north emerging between…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1773",
+        "begin_of_the_begin": "1773-01-01T00:00:00Z",
+        "end_of_the_end": "1773-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1342214-7",
+      "type": "Modification",
+      "_label": "1908: To north of farmhouse built in 1908, a rectangular court of farm buildings with gateway in south range and opening at north emerging between…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "This list entry was subject to a Minor Amendment on 20/05/2020 SP 91 SE 5/26 ALDBURY STOCKS ROAD (West side) Court of farm buildings (east barn) with brick stable and coach house attached, at Stocks Farm 30.11.66 GV II Farm buildings, stable and coach house. North range C16, west range late C16, south range early C17 with late C17 gateway in east part, late C17 east barn with C18 coach house adjoining north west corner and early C18 stable adjoining north side of north range. Timber frames on low red brick sills, generally dark weatherboarded but east barn has red brick infill to exposed square framing. Red brick coach house and stable. Steep old red tile roofs, south range hipped at west, slate roofs to coach house. To north of farmhouse built in 1908, a rectangular court of farm buildings with gateway in south range and opening at north emerging between brick stable and coach house built to serve the former Stocks House moved to a new site in 1773. North range is a building of three wide bays with swept jowls to bay posts and unjowled posts at mid-bay, mid-height rail tenoned in-line, straight braces to heavy tie-beams, heavy straight inclined queen-posts clasping a single purlin in each slope with straight wind braces. Some brick infill in east bay of north wall. Wide opening on south in middle bay. The west range of six bays has a projecting gabled west porch in the fourth bay from north, heavy jowled posts, long convex curved braces to tie-beams, inclined queen-posts clasping a single  purlin  in  each  slope, and squint butted scarf joints in wall plates. Studs replaced by brickwork in part of east wall. The higher south range is composed of six bays double barn and  a later gateway. Step-jowled posts with unjowled mid-bay posts and staggered mid-height rail. Straight braces to tie-beams and collar trusses with inclined struts at the lower angles.Upper clasped-purlin, lower butt-jointed purlin staggered in height in alternate bays. Structural partition between barns and gabled projecting central south porch survives in west half. Gateway roofed in-line with double-barn has a single bay with double doors on south, and a narrow east bay with a smaller pedestrian door. The roof construction is as that of the east barn adjoining. Parallel with the road this is of six bays with a wide doorway on the east in the third bay from the south. Jowled posts with long curved braces  to cambered tie-beams. Two clasped-purlins to each slope, the upper on a high collar with two long wide-spaced queen-struts below rising from the tie-beam. Spur-collars spring from these tall struts, with a small strut below, and clasp the lower purlin. The tall central gap in the  truss  is  designed  to facilitate filling the barn as high as possible. The south gable truss has a high collar but inclined  queen-posts  clasping  the  lower  purlin. Twin-gabled two storeys brick stable facing east with two windows to each floor and central wide door with fanlight and hooded clock case over. Small flush casement windows with segmental arches. Header-bond with some blue headers. Stalls for three horses each side and rear door to extension at higher level. Ornate C18 partitions with knobs to posts. Heavy floor over on three cross-beams. Coach house of red brick with random blue headers faces east and has a taller north pavilion. Twin elliptical arched openings with curved heads to double doors and panelled parapet with stone coping. Round arched recess to east end of rectangular taller pavilion with toothed eaves course, plinth, brick panels to upper part and hipped roof. Large arched recess on north face, blank with double-sided mounting block. Entrance door in plainer west wall with window over. Window inserted at two levels on east side of pavilion. A group of outstanding interest and illustrating structural changes over three centuries. Listing NGR: SP9648113242"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

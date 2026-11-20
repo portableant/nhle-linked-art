@@ -1,0 +1,300 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101262.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St John The Baptist (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St John The Baptist"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101262"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02868 11263"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157878"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17528863"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101262",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 02868 11263)",
+    "defined_by": "POINT(-0.509928 51.790574)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101262",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101262",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_John_the_Baptist%27s_Church%2C_Great_Gaddesden",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17528863",
+      "type": "HumanMadeObject",
+      "_label": "Church of St John the Baptist (Q17528863)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101262",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St John The Baptist (Early C12)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/burlinson-grylls",
+        "type": "Person",
+        "_label": "Burlinson & Grylls"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1230",
+      "begin_of_the_begin": "1230-01-01T00:00:00Z",
+      "end_of_the_end": "1230-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-1",
+      "type": "Modification",
+      "_label": "C12: C12 billet and zigzag carved stones built into S wall of chapel.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C12",
+        "begin_of_the_begin": "1100-01-01T00:00:00Z",
+        "end_of_the_end": "1199-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-2",
+      "type": "Modification",
+      "_label": "C13: In N wall a 2-bays C13 style arcade (of 1877) opens into N chapel.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-3",
+      "type": "Modification",
+      "_label": "c. 1230: S aisle and S porch c.1230;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1230",
+        "begin_of_the_begin": "1230-01-01T00:00:00Z",
+        "end_of_the_end": "1230-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-4",
+      "type": "Modification",
+      "_label": "Late C13: N aisle late C13 but N arcade early C14;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C13",
+        "begin_of_the_begin": "1267-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-5",
+      "type": "Modification",
+      "_label": "c. 1280: N aisle has an unglazed E window of c.1280 with 2 uncusped lights and trefoil over.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1280",
+        "begin_of_the_begin": "1280-01-01T00:00:00Z",
+        "end_of_the_end": "1280-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-6",
+      "type": "Modification",
+      "_label": "Early C14: N aisle late C13 but N arcade early C14;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1333-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101262-7",
+      "type": "Modification",
+      "_label": "C14: Chancel has boarded waggon roof with deep crested cornice at springing, 3-light E window in C14 style but much renewed and with stained glas…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1101262",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St John The Baptist (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1101262",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St John The Baptist",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20John%20the%20Baptist%27s%20Church%2C%20Great%20Gaddesden%20051.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        GREAT GADDESDEN TL 01 SW                                         (North side) 3/99                                    Church of St. John 26.1.67                                 the Baptist GV                                      I Parish church. Chancel and E wall of nave early C12; S aisle and S porch c.1230; N aisle late C13 but N arcade early C14; clearstorey, nave and aisle roofs, W tower and alterations to porch C15; NE chapel 1730 as mortuary chapel for Halsey family; church restored 1863, tower in great part rebuilt 1866, chancel restored and opened to N chapel 1877-9, porch restored 1895 (plaque in porch), roof restored and stonework of many windows renewed 1912-14 by Paul Waterhouse (plaque on N wall of nave); heating chamber in angle of S aisle and tower dated 1961. Flint rubble walls roughcast with wavy incised patterning of several periods, Roman brick exposed at E end of chancel as quoins to corners and to 2 shallow buttresses,  uncoursed  knapped  flint  facing  to  tower,  limestone dressings.  Exposed puddingstone foundations  to many buttresses.  Red brick,  chequered with black headers to NE chapel in Flemish-bond. Low-pitched metal roofs to porch, nave and aisles but steep old red tile roofs to chancel and NE chapel. A medieval church with square ends of chancel and NE chapel in line, taller nave with low aisles,  long projecting S porch, and large W tower (recessed spire shown on Buckler dwg of 1832 not replaced in 1866 rebuild). Chancel has boarded waggon roof with deep crested cornice at springing, 3-light E window in C14 style but much renewed and with stained glass 1869 by Burlinson & Grylls, below its sill outside are the Roman brick jambs of the lower part of an earlier window, with 2 dressed stones in middle one with 'ihs' cut twice on it. In N wall a 2-bays C13 style arcade (of 1877) opens into N chapel. At E end of S wall is a C13 lancet window with deep internal splays. Late C14 pointed cinquefoil piscina below. C15 low-side window near W end of 2 cinquefoil lights, with sill raised externally. C17 communion table.  Arts and Crafts Style Commandment Boards with painted angels flank E window. Red and black chequered tile floor set with C17 black marble floor slabs of Halsey family, also monumental brass to William Croke d.1506 and his wife with 3 shields and indents of 3 children and a shield. On S wall a vigorous baroque gadrooned monument to John Halsey d.1670 with cartouche and bust on top, attributed to Bushnell. Heavy Gothick wall monument to N of altar for T.P. Halsey 1854. Chancel arch C13 with 2 chamfered orders, the lower part of the inner order cut away to make a wider opening. The nave has arcades of 4 bays of similar pointed arches of  2 hollow chamfered orders with dripmoulds  and octagonal piers but  the  S  arcade  large  stiff-leaf capitals typical of the C13 while the N arcade has moulded capitals of the early C14. One or both of the arcades was probably rebuilt in the C14. C15 clearstorey with 3-light cinquefoil windows with square heads, 4 on N side, 3 on S. In SE corner is the narrow upper doorway of the rood-stair, and there is a blocked external slit window. C15 4-bays open timber roof of low pitch with heavy cambered moulded tie-beams, short king-posts, sub-principals, ridge-beam and one purlin to each slope, all moulded with central roll intersecting at floral bosses. Long wallposts fronted by figures of angels (renewed). Next to tower arch is part of a stone base of early C12 possibly belonging to original nave. Early C19 font octagonal with quatrefoil panel on each face.  N aisle has an unglazed E window of c.1280 with 2 uncusped lights and trefoil over. W window c.1500 of 2 trefoil lights under 4-centred head. In N wall, 2 windows of C15 type renewed, one of 3 cinquefoil lights under a square head, plain N door below. There is a large external brick and flint buttress and attached on the E a C15/C16 projecting chantry with 3-light trefoil window, flat 4-centred arch inside, and a finely carved wall monument central over of c.1700 with draped bellied cartouche with putti and armorial crest.  4-bays C15 open timber aisle roof with hollow chamfered principals, curved braces to wallposts, moulded longitudinal timbers, and hollow chamfered flat-laid joists. Organ in W part of aisle partly covers floor brass of a woman c.1520 with indents of husband, children and inscription. Small ancient chest cut out of a log. Wall monument 1656 to Stephen Munne. Piscina at E end. S aisle has 3-light E window of late C15 type with stained glass by Wailes c.1863. C15 bracket for  image,  with traces  of colour.  C15 piscina with square head, restored. 2 C15 2-light cinquefoil windows on S restored. Early C14 window of 2 lights with quatrefoil over under a label to W of C15 S door with moulded 4-centred door head but C13 moulded rear arch. Open timber roof of 4 bays with plain flat rafters, moulded purlin, and curved knee braces to principals from wallposts. Long S porch has C13 moulded rear arches to its side windows but is otherwise of C15 with original low pitched  timbered roof.  Continuous moulding  to outer arch and C15 trefoilheaded single-light side windows. Tall buttressed W tower in C15 style (largely rebuilt) is embattled with half-octagonal stair turret on N running the full height. 3 stages with stone string courses, gargoyles at  foot of parapet,  and diagonal buttresses  founded on mabel of puddingstone. Trefoil lights to 2nd stage and 2-light belfry openings with quatrefoil circles in heads. W doorway and 2-lights window over with fragments of old stained glass in the trefoil heads. Bath-stone tower arch in French C13 style with foliate caps to jamb shafts. 3 round-headed benefactions boards in lower stage of tower and another recording that the clock was brought from one of the pavilions of Gaddesden Place (q.v.) in 1955. C17 scratch-moulded panelling in screen under tower arch, set up in 1936. Early C18 NE mortuary chapel has original 2-light pointed E window, 2-bays arcade to chancel and pointed stone N door down steps both inserted c.1877, and a large number of splendid carved black and white wall monuments of the Halsey family: William Halsey  (d.1637)  and Letitia Halsey  (d.1649)  erected 1650 of alabaster and marble; 4 separate monuments to the same design each with a bust under a draped baldachino with open segmental pediment on pilasters,  Thomas Halsey d.1715, Anne Halsey d.1719, and Jane Halsey d.1725, all attributed to Guelfi, Henshaw Halsey d.1739 attributed to Rysbrack.  Charles Halsey d.1748  a white epitaph with bust  against obelisk,  and  Frederick Halsey  d.1762,  white  epitaph  with  profile medallion against obelisk, both attributed to William Tyler. On W wall an assymetrical monument to Agatha Halsey d.1782 signed by Flaxman, with an angel holding a book. Thomas Halsey d.1788 and wife, an obelisk with oval medallion of Mrs. Halsey taken up to heaven. C12 billet and zigzag carved stones built into S wall of chapel. 2 C17 chests. This church is a prominent landscape feature in the Gade Valley and is of outstanding interest for its C13 arcade, C15 roofs, and series of Halsey monuments. (VCH   (1908)205-6:   RCHM   (1911)100-1: Kelly   (1914)103:   Pevsner (1977)150-1). Listing NGR: TL0286811263"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

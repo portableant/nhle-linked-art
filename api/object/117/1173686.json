@@ -1,0 +1,218 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173686.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Farmhouse And Stables (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Farmhouse And Stables"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173686"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 02826 11182"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157895"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542571"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173686",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 02826 11182)",
+    "defined_by": "POINT(-0.51056 51.789862)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173686",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173686",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542571",
+      "type": "HumanMadeObject",
+      "_label": "Church Farmhouse and Stables (Q17542571)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173686",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Farmhouse And Stables (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C15",
+      "begin_of_the_begin": "1400-01-01T00:00:00Z",
+      "end_of_the_end": "1499-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173686-1",
+      "type": "Modification",
+      "_label": "C16: C15/C16 open hall house, C16 N part, C18 brick scullery and stable at NE, renovated and brick casing to front and shortened S end in mid C19…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173686-2",
+      "type": "Modification",
+      "_label": "C18: C15/C16 open hall house, C16 N part, C18 brick scullery and stable at NE, renovated and brick casing to front and shortened S end in mid C19…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173686-3",
+      "type": "Modification",
+      "_label": "C19: Timber frame, roughcast at rear, dark weatherboarding to N gable, C18 red brick to stable range, darker C19 red brick casing to house.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173686-4",
+      "type": "Modification",
+      "_label": "Mid C19: C15/C16 open hall house, C16 N part, C18 brick scullery and stable at NE, renovated and brick casing to front and shortened S end in mid C19…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        PIPERS HILL, TL 01 SW                                         (North side) 3/116                                   Church Farmhouse 26.1.67                                 ard Stables GV                                      II* Farmhouse and attached stables. C15/C16 open hall house, C16 N part, C18 brick scullery and stable at NE, renovated and brick casing to front and shortened S end in mid C19 for Ashridge Estate. Timber frame, roughcast at rear, dark weatherboarding to N gable, C18 red brick to stable range, darker C19 red brick casing to house. Steep old red tile roofs. A tall 2-storeys, cellar and attic house facing E with lower 2 storeys stable range running E from its N end. 5 windows long house with transomed casement  windows  with  cambered  arches,  gabled  porch  to  6-panel flush-beaded door in S part. Canted bay window on S end. 5-windows long stable range faces S and has square small recesses to the upper floor (hay loft). Older S part of house consists of 2½ bays of structure formerly extending further to S.  This is a former open hall with queen-strut and collar trusses to a smoke-blackened clasped-purlin roof with curved wind-braces and curved braces supporting the collar from the queen-struts of each truss. Wattle-and-daub infill remains in closed truss.  Abutting on the N is a 2-bays rather later structure with clasped-purlin roof,  curved wind-braces and flat rafters.  1st floor carried in S part on deeply-moulded cross-beams with double cavetto. Very large central chimney emerges through front slope of roof next to ridge. Oak Jacobean style stair of mid C19. Double-height scullery at W end of stable range. Listing NGR: TL0282811183"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z"
+      }
+    }
+  ]
+}

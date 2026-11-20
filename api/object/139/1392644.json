@@ -1,0 +1,267 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1392644.json",
+  "type": "HumanMadeObject",
+  "_label": "Lock Keepers Cottage",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Lock Keepers Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1392644"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99655 07833"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "504490"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26671854"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1392644",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99655 07833)",
+    "defined_by": "POINT(-0.55748 51.760334)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1392644",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1392644",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26671854",
+      "type": "HumanMadeObject",
+      "_label": "Lock Keepers Cottage, Ravens Lane (Q26671854)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1392644",
+    "type": "Production",
+    "_label": "Origin / Construction of Lock Keepers Cottage (1798)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1798",
+      "begin_of_the_begin": "1798-01-01T00:00:00Z",
+      "end_of_the_end": "1798-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-1",
+      "type": "Modification",
+      "_label": "1805: HISTORY: The section of the Grand Union Canal from Brentford to Berkhamsted was completed in 1798, and the link to Birmingham was opened in …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1805",
+        "begin_of_the_begin": "1805-01-01T00:00:00Z",
+        "end_of_the_end": "1805-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-2",
+      "type": "Modification",
+      "_label": "Mid- C19: Mid-C19 with minor late C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-3",
+      "type": "Modification",
+      "_label": "C20: The doorway has a shallow segmental-arched head and a C20 half-glazed door.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-4",
+      "type": "Modification",
+      "_label": "1905: * The building is a component of a nationally significant canal development which linked London and Birmingham by 1905 and which remained co…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1905",
+        "begin_of_the_begin": "1905-01-01T00:00:00Z",
+        "end_of_the_end": "1905-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-5",
+      "type": "Modification",
+      "_label": "1960: The canal remained in commercial operation until the 1960's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1392644-6",
+      "type": "Modification",
+      "_label": "Late C20: Mid-C19 with minor late C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C20",
+        "begin_of_the_begin": "1967-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1392644",
+      "type": "VisualItem",
+      "_label": "Photograph of Lock Keepers Cottage (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1392644",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Lock Keepers Cottage",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal%20Lock%20in%20Berkhamsted%20-%20geograph.org.uk%20-%20519184.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BERKHAMSTED 814/0/10034                             RAVENS LANE                              11-JUL-08                               Lock Keeper's Cottage II                                        Former canal lock keepers cottage, now private dwelling. Mid-C19 with minor late C20 alterations. MATERIALS. Painted brick beneath a hipped roof with a plain tile covering. PLAN: Linear plan with single aspect facing adjacent canal lock chamber to north-east. EXTERIOR: Symmetrical single storied 5 bay dwelling aligned north-west, south east and sited parallel to the canal lock with which it was associated. The building has a main entrance set within a shallow projecting entrance bay with canted sides and a hipped roof. The doorway has a shallow segmental-arched head and a C20 half-glazed door. Flanking the advanced bay are small canted bay windows supported on shaped wooden brackets. The windows are set beneath gablets which rise from the eaves to a mid-roof slope intersection with the main roof structure. To the outer side of each bay windows were secondary doorways with 4-panel doors. Only the righthand opening and door survive; the left opening has been blocked. To the outer side of these door positions are wide window openings beneath arched heads matching those to the doorways. All of the window openings have sash frames with glazing bars; the wide openings with 3 over 3 pane frames, the bay windows each with a 2 over 2 pane sash, and flanking narrow undivided sash. The rear elevation is devoid of openings as is the north-west gable. INTERIOR: Not inspected, but current building plans indicate that the interior plan comprises a series of rooms linked by a series of doors adjacent to the front wall of the building. The interior contains five rooms, with hearths to rooms at bays 3, 4 and 5 in the right-hand section of the building. HISTORY: The section of the Grand Union Canal from Brentford to Berkhamsted was completed in 1798, and the link to Birmingham was opened in 1805. The impact of the waterway on Berkhamsted was considerable, with the development of Castle Wharf, just to the north-west of Lock Keeper's Cottage becoming known as 'the Port of Berkhamsted'. The canal remained in commercial operation until the 1960's. Berkhamsted was coincidentally the home of Francis Edgerton, Duke of Bridgewater, who is often referred to as 'the Father of the Inland Waterway system' SETTING: The building stands alongside the lock chamber of one of 2 operational locks leading to Castle Wharf. The lock retains wooden gates of traditional design to both ends of the chamber, which is brick lined below massive stone copings. The lock is not included in this or any other listing REASONS FOR DESIGNATION. *   The building is of distinctive architectural form and character and remains clearly identifiable as a canal-related structure. *   The building is a component of a nationally significant canal development which linked London and Birmingham by 1905 and which remained commercially operational until the 1960's. * The building has undergone little external or internal alteration. It survives as a single aspect dwelling developed specifically to manage canal traffic approaching or leaving Berkhamsted's 'port' at Castle Wharf. *   The setting of the building alongside the lock chamber at Ravens Lane remains unchanged, enhancing the clearly legible functional relationship between the 2 structures. SP9965507833"
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Lock Keeper's Cottage at Ravens Lane, Berkhamsted has been designated at Grade II for the following principal reasons: *   The building is of distinctive architectural form and character and remains clearly identifiable as a canal-related structure. *   The building is a component of a nationally significant canal development which linked London and Birmingham by 1905 and which remained commercially operational until the 1960's. * The building has undergone little external or internal alteration. It survives as a single aspect dwelling developed specifically to manage canal traffic approaching or leaving Berkhamsted's 'port' at Castle Wharf. *   The setting of the building alongside the lock chamber at Ravens Lane remains unchanged, enhancing the clearly legible functional relationship between the 2 structures."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2008-07-11T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078138.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Town Hall",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Town Hall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078138"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99150 07868"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355449"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26347138"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078138",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99150 07868)",
+    "defined_by": "POINT(-0.564784 51.760729)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078138",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078138",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Berkhamsted_Town_Hall",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: The Old Town Hall",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Berkhamsted_Town_Hall",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26347138",
+      "type": "HumanMadeObject",
+      "_label": "The Old Town Hall (Q26347138)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078138",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Town Hall",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1859",
+      "begin_of_the_begin": "1859-01-01T00:00:00Z",
+      "end_of_the_end": "1859-12-31T23:59:59Z"
+    }
+  },
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078138",
+      "type": "VisualItem",
+      "_label": "Photograph of The Old Town Hall (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078138",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Old Town Hall",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Berkhamsted%2C%20The%20Town%20Hall%20-%20geograph.org.uk%20-%20590585.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1. 839                                           HIGH STREET                                               (North Side)                                               No 196                                               (The Old Town Hall) SP 9907 NW 1/45           8,11.72.                II 2. 1859.  2-storey building in Gothic style, with irregular fenestration. Brick with diamond patterns, stone dressings  Tiled roof of fairly high pitch with 2 gables facing street and, at left, an octagonal turret with spire, half projecting as a 1st floor oriel  Tell chimney at left with stone quoins and cornice.  Stone eaves cornice, broken by oriel but running across central gable.  Oriel has a tall, square headed central light with curvilinear tracery in upper part; and 2 shorter ogee-headed, cusped side lights,  In central bay three adjoining 2-light windows with cusped heads under Tudor arches with continuous hood-moulds  In right bay an oriel window of three lights with curvilinear tracery, pointed arch and nodding ogee hood mould.  Moulded string at lst floor broken forward around the oriels and rising to square arch with shield in centre over main doorway. On ground floor three large pointed arched entrances, double chamfered with hoodmoulds, the 1st and 3rd.divided by round shafts with foliated caps. The first accommodates the base of the left oriel, the second holds large double doors, the third, has central oculus with mouchettes.  At extreme  right a smaller entrance with stilted, pointed arch and hoodmould.  Round clock on decorative iron bracket projects from central gable. Listing NGR: SP9915007868"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1972-11-08T00:00:00Z"
+      }
+    }
+  ]
+}

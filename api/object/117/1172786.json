@@ -1,0 +1,202 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172786.json",
+  "type": "HumanMadeObject",
+  "_label": "Austins Hall Farm (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Austins Hall Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172786"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01564 01761"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157574"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467555"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172786",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01564 01761)",
+    "defined_by": "POINT(-0.531599 51.705407)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172786",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172786",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467555",
+      "type": "HumanMadeObject",
+      "_label": "Austins Hall Farm (Q26467555)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172786",
+    "type": "Production",
+    "_label": "Origin / Construction of Austins Hall Farm (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1900",
+      "begin_of_the_begin": "1900-01-01T00:00:00Z",
+      "end_of_the_end": "1900-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172786-1",
+      "type": "Modification",
+      "_label": "1831: Lead pump box next E wing has raised lettering 'Scott/Plumber/TW/1831/Harrow'.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1831",
+        "begin_of_the_begin": "1831-01-01T00:00:00Z",
+        "end_of_the_end": "1831-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172786-2",
+      "type": "Modification",
+      "_label": "c. 1900: C16 or earlier, E part probably c.1900.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON              VENUS HILL TL 00 SW  \t\t\t\t(South side)                                       6/47                                    Austins Hall Farm 22.10.52                                (formerly listed as Austins Hall) GV                                      II Farmhouse,  now an isolated private house.  C16 or earlier,  E part probably c.1900.  Timber frame exposed externally with painted brick infill.  Steep  old  red  tile  roofs  with  half-hipped  crosswings.  A 2-storeys and attics T-plan house facing N and extended in keeping to E to form H-plan. 5 windows long with hipped dormer, casement windows, and porch to lobby-entry by large internal chimney serving hall range and W wing. Interior has exposed frame of 3-bays hall range and 3-bays W crosswing. Winding stair in turret in rear angle with E crosswing. W wing has a 3-light diamond mullioned window on W wall. Frame has wide panels, jowled posts, numbered joists, curved braces to cambered tie- beams;  straight wind-braces to clasped-purlin roofs, chamfered axial floor beams, and surviving wattle-and-daub infill on 1st floor. Lead pump box next E wing has raised lettering 'Scott/Plumber/TW/1831/Harrow'. In forecourt a large carved stone Ionic pilaster capital said to be from the Temple of the Winds at Moor Park. Listing NGR: TL0156401761"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-10-22T00:00:00Z",
+        "end_of_the_end": "1986-12-02T23:59:59Z"
+      }
+    }
+  ]
+}

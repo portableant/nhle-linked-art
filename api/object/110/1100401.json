@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100401.json",
+  "type": "HumanMadeObject",
+  "_label": "Dudswell House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Dudswell House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100401"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9664009591"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157750"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392596"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100401",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9664009591)",
+    "defined_by": "POINT(-0.600634 51.776636)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100401",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100401",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392596",
+      "type": "HumanMadeObject",
+      "_label": "Dudswell House (Q26392596)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100401",
+    "type": "Production",
+    "_label": "Origin / Construction of Dudswell House (C14)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1877",
+      "begin_of_the_begin": "1877-01-01T00:00:00Z",
+      "end_of_the_end": "1877-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-1",
+      "type": "Modification",
+      "_label": "C15: Dudswell House House originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-2",
+      "type": "Modification",
+      "_label": "Mid- C15: Although a dendrochronology survey was unable to provide a reliable felling or construction date, the two-centred arched frame of the entran…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C15",
+        "begin_of_the_begin": "1434-01-01T00:00:00Z",
+        "end_of_the_end": "1466-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-3",
+      "type": "Modification",
+      "_label": "Late C16: Most notably, a strut of the south internal truss is formed from the sill of a late C16-C17 window with clearly defined mortices for the mul…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C16",
+        "begin_of_the_begin": "1567-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-4",
+      "type": "Modification",
+      "_label": "C17: Dudswell House House originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-5",
+      "type": "Modification",
+      "_label": "C18: Dudswell House House originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C1…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-6",
+      "type": "Modification",
+      "_label": "C19: During works to the house, the rear (east) wall of this room was exposed, revealing a complex mix of brick walling of different dates, and m…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100401-7",
+      "type": "Modification",
+      "_label": "Early C19: Records show that in the early C19, Dudswell House was known as Dudswell Farm.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "House originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C18, with C20 additions.  The date of the adjoining barn is unknown but it is shown on the OS map of 1877 and was enlarged around the mid-C20."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "House originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C18, with C20 additions.  The date of the adjoining barn is unknown but it is shown on the OS map of 1877 and was enlarged around the mid-C20. MATERIALS: the west frontage is of handmade plum brick laid in Flemish bond with red brick dressings, and the remaining elevations are in red brick and tile-hanging.  Small clay tile roof covering. The medieval part of the building is timber framed. PLAN: the building faces west onto Dudswell Lane and has a rectangular plan.  The surviving ‘low end’ of the medieval hall house is encased within the eastern part of the building, whilst the western part was rebuilt or substantially remodelled in the C18.  The extension on the eastern half of the north side dates to the late 1920s or 1930s; and the addition on the east end dates to around the mid-C20.  Adjoining the south-west side of the house is a long barn. EXTERIOR: the west-facing, single-pile C18 frontage has two storeys under a steeply pitched roof with box eaves and red brick chimneys at each gable end.  The symmetrical three-bay façade has a chamfered plinth, and flush windows with eight-over-eight pane sashes (ten-over-ten panes in the right bay) and flat gauged arches to the ground floor.  The central entrance bay contains a six-panel moulded door with a rectangular fanlight, and a doorcase with panelled pilasters, panelled reveals and a heavy moulded flat hood on brackets. Adjoining the right (south) gable end is a long, slightly projecting weatherboarded barn over a brick plinth.  It has a steeply pitched roof clad in small red clay tiles, and a single small two-light Yorkshire sliding casement.  The left (north) gable end of the house has been rebuilt in C20 brown brick laid in stretcher bond. Beyond this, the irregular north elevation (the addition of the 1920s/1930s) is constructed of red brick laid in Flemish bond with brick dressings.  Behind the C18 frontage is a gabled bay of two storeys and an attic, lit on the ground floor by a large multi-pane sash window with margin lights and a gauged brick arch.  The first floor is lit by two eight-over-eight pane sash windows with cambered brick arches, and the attic by a single four-light window.  To the left, a lower two-storey gabled bay has slightly projecting eaves and plain bargeboards.  The ground floor, which also projects slightly, is lit by three casement windows with wooden frames and leaded lights; and the first floor by a flat-roofed canted bay window with wooden mullions and leaded lights. The long south elevation is also irregular.  From the left, a wide gabled bay of two storeys and an attic has a cross gable on the right roof slope.  It is lit on the ground floor by two large multi-pane sash windows, on the first floor by another large sash with margin lights, and in the attic by a four-light casement.  Behind a C20 gabled porch lies the cross passage of the medieval house and beyond this a two-storey gabled bay which encases the surviving low end of the medieval house.  The jetty remains visible externally, but the first-floor framing is obscured by later tile-hanging, pierced by three single light windows.  The ground floor contains two wide three-light windows which are almost full-height.  The large chimney stack rising through the roof towards the gable end serves the fireplace that was added in the C17. INTERIOR: the front section of the house was substantially updated in the C18 and may retain elements of the earlier building, but any evidence is concealed by later finishes.  The front door opens onto a central corridor with two rooms on the left (north) and one long room (formerly two rooms before the party wall was removed) on the right (south).  The left room has a boxed-in spine beam, panelled window shutters, and round-arched display alcoves on either side of the fireplace.  During works to the house, the rear (east) wall of this room was exposed, revealing a complex mix of brick walling of different dates, and mainly C18/ C19 timber stud framing, having clearly been rebuilt and/ or altered many times.  The two rooms on the right of the corridor retain substantial bridging beams and joists, and similar round-arched display alcoves.  The roof structure over the front section has undergone significant alteration or reconstruction, and incorporates elements from an earlier building.  Most notably, a strut of the south internal truss is formed from the sill of a late C16-C17 window with clearly defined mortices for the mullions and ferramenta. The timber-framed medieval section of the house is encased in the rear (east) part of the building, mostly hidden by later additions.  The first floor is jettied on the north and south elevations: the south jetty is visible externally (as already described), but the north jetty is partially obscured by later additions and only the jetty joists can be seen from ground-floor level within the building. On the south elevation, the two-centred arched frame of the entrance doorway leads on to the cross-passage.  This retains clear evidence of the two doorways that would have provided access to the buttery and pantry to the east.  The door openings have been infilled (and a new doorway created in one opening), but the original post forming the jamb of the south door survives in situ, and contains the probable scar of one of the original door’s pintle hinge pins.  The timber-framed wall that originally divided the buttery and pantry has been removed.  The soffit of the central beam contains mortices for a central post and two large down braces, and numerous housings for large infill staves.  On the east wall is a wide C17 fireplace opening lined in red brick with a brick hearth.  The joists of the first floor (visible from the ground floor) are almost certainly largely original.  At first-floor level, the majority of the wall framing is concealed, although the two corner posts of the jettied south wall are visible, and the two down braces and some infill staves in the east wall of the south room survive. The roof structure above the rear section is almost certainly coeval with the surviving early elements of wall- and floor-framing at first and ground-floor levels.  The rafters to the south of this roof space, ie, over the open hall, retain evidence of smoke blackening, but the rafters over the two chambers are relatively clean and were almost certainly never exposed to smoke from an open hearth.  The central truss contains a steeply cambered and carefully worked high collar, indicating that it was intended to be visible."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Dudswell House, originating as a medieval hall house of probable C15 date, partly rebuilt or substantially remodelled in the C17 and C18, is listed at Grade II for the following principal reasons: Architectural interest: *  it retains smoke blackened roof timbers and the layout of the service end, providing important evidence of the plan and functioning of a C15 hall house; *  it retains a significant proportion of timber framing, dating to the C17 or earlier, demonstrating the continuation of vernacular building techniques; *  it has a symmetrical and well-balanced façade, typical of the Georgian period, along with internal joinery from the C18 remodelling. Historic interest: *  it is a multi-phase building that evolved over many centuries, illustrating the changing domestic needs and architectural tastes of succeeding occupants."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Dudswell House originated as a timber-framed medieval hall house of relatively high status.  Although a dendrochronology survey was unable to provide a reliable felling or construction date, the two-centred arched frame of the entrance doorway on the south elevation is typical of the C14 (becoming less common by the mid-C15), and other features appear to date to the first half of the C15.  The hall house consisted of the ‘high end’ open hall to the west with a cross passage separating it from the ‘low end’ service rooms, namely the buttery (for barrels and wet goods) and a pantry (for bread and dry goods), to the east.  It is this eastern part of the medieval house that survives well, albeit much of the east wall was removed when the large chimney stack was built, probably in the C17, and the wall dividing the pantry and buttery was removed, probably at the same time to create a large working kitchen.  The front section of the house contains elements of C17 or earlier framing, so it is possible that further alterations were also carried out. To the west of the cross passage, where the hall would have been, there is a marked change in orientation of the building line.  None of the visible timbers in this part of the house appear to be consistent with a medieval hall, and it is very likely that the open hall and associated elements, such as a solar, have been lost or very radically rebuilt, possibly incorporating some timbers from the original framing.  The change in angle is most probably explained by the desire for the front elevation to be parallel to Dudswell Lane when the frontage was either rebuilt, or very substantially remodelled, in the C18.  On the southern half of this west elevation (facing Dudswell Lane), scarring and peg holes visible on the underside of the first-floor joists might indicate that it was originally jettied, although it is possible that the floor joists date from the medieval phase and were relocated.  It is also possible that when the western part of the building was updated, it retained some of the internal walls, floors and roof structure of the earlier house, but any evidence is concealed by later finishes. Records show that in the early C19, Dudswell House was known as Dudswell Farm.  In 1834 it was left by Isaac Dell to his son James Dell, the eldest of eight children, who established an iron foundry in Dudswell.  He also set up the village blacksmith, and purchased land near the canal lock where he constructed a general grocery store, coal wharf and stabling.  Along with this brother Thomas, he was appointed as a Surveyor of the Highway in 1843. On the first edition Ordnance Survey (OS) map of 1877 the site is still called Dudswell Farm, and farm buildings are located to the north, east and south of the house.  A barn is shown adjoining the south-east corner of the house.  It is not known when this barn was built.  There is no change on the second edition OS map of 1898 but by the third edition of 1924, the farm buildings have been cleared and the main residence is called Dudswell House.  The revised third edition of 1937 shows that a small extension had been added to the eastern half of the north elevation.  At some point between 1937 and the next OS map of 1977, an extension was built on the east elevation, and the barn was almost doubled in size along the rear east side."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "2025-07-18T23:59:59Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1347895.json",
+  "type": "HumanMadeObject",
+  "_label": "Applegarth (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Applegarth"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1347895"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96530 12642"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355659"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631317"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1347895",
+    "type": "Place",
+    "_label": "Aldbury (SP 96530 12642)",
+    "defined_by": "POINT(-0.601408 51.804106)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1347895",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1347895",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Applegarth%2C_Aldbury",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631317",
+      "type": "HumanMadeObject",
+      "_label": "Applegarth (Q26631317)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1347895",
+    "type": "Production",
+    "_label": "Origin / Construction of Applegarth (1598)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1598",
+      "begin_of_the_begin": "1598-01-01T00:00:00Z",
+      "end_of_the_end": "1598-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347895-1",
+      "type": "Modification",
+      "_label": "Mid C17: Early/mid C17, (but possibly the house described in an inventory of 1598), W service wing late C17/early C18, lower N extension and brick ca…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347895-2",
+      "type": "Modification",
+      "_label": "Late C17: Early/mid C17, (but possibly the house described in an inventory of 1598), W service wing late C17/early C18, lower N extension and brick ca…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347895-3",
+      "type": "Modification",
+      "_label": "Early C18: Early/mid C17, (but possibly the house described in an inventory of 1598), W service wing late C17/early C18, lower N extension and brick ca…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347895-4",
+      "type": "Modification",
+      "_label": "C19: Early/mid C17, (but possibly the house described in an inventory of 1598), W service wing late C17/early C18, lower N extension and brick ca…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1347895-5",
+      "type": "Modification",
+      "_label": "1980: (RCHM Typescript: Davis(1980) No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1347895",
+      "type": "VisualItem",
+      "_label": "Photograph of Applegarth (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1347895",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Applegarth",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Timber%20Frame%20and%20Jettied%20Floor%20House%2C%20Aldbury%20-%20geograph.org.uk%20-%201578023.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 9612                                         (West side) 12/23                                         No. 53 30.11.66                                         (Applegarth)                                         (Formerly listed as Applegarth) GV                                      II House. Early/mid C17, (but possibly the house described in an inventory of 1598), W service wing late C17/early C18, lower N extension and brick casing to S gable wall in C19. Timber frame on painted brick sill with painted brick infill. Painted brick N extension. Red tilehung red brick S end with corbel at jetty. Steep old red tile roof. A 2-storeys and cellar house facing E with continuous E side jetty, rear outshut under catslide roof, and 1½ storeys N extension. A 2-cells plan with end chimneys, central entrance and through passage (subsequently widened to N to accommodate a staircase). Cellar under S room with access from rear outshut where original stair was probably situated. Jettied E front has wide-spaced studs on first floor and RH half of ground floor. LH half of brick with cellar window below.  2 windows to each floor; Yorkshire sliding casements of 2-lights on first floor, and of 3-lights on ground floor with external panelled wooden shutters. N extension has a gabled dormer window over a 3-light window with 2 small 3-light windows under the eaves to RH part. 8-panel door (top 2 glazed). Projecting ends of crossbeams in jetty mark original bay divisions and these are confirmed by the axial chamfered and stopped floor beams, the N beam extending into the widened passage. The S beam is stopped to suit the larger S gable chimney which must be contemporary. The chamfers on the joists in some cases extend to the exterior. Clasped-purlin roof. An important house when built. The N extension was a butcher's shop in living memory. (RCHM Typescript: Davis(1980) No. 8). Listing NGR: SP9646312539"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

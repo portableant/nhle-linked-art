@@ -1,0 +1,215 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/142/1428922.json",
+  "type": "HumanMadeObject",
+  "_label": "Aston Clinton War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Aston Clinton War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1428922"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8751012208"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677489"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1428922",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8751012208)",
+    "defined_by": "POINT(-0.7323 51.801669)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1428922",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1428922",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677489",
+      "type": "HumanMadeObject",
+      "_label": "Aston Clinton War Memorial (Q26677489)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1428922",
+    "type": "Production",
+    "_label": "Origin / Construction of Aston Clinton War Memorial (1914–1918)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/newman-and-harper",
+        "type": "Person",
+        "_label": "Newman and Harper"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1428922-1",
+      "type": "Modification",
+      "_label": "1921: Aston Clinton War Memorial War memorial cross, 1921, designed and built by Newman and Harper of Aylesbury.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1428922-2",
+      "type": "Modification",
+      "_label": "1939–1945: Below that: ‘1939-1945’ followed by the names of 13 men, and the inscription ‘GREATER LOVE HATH NO MAN THAN THIS / THAT A MAN LAY DOWN HIS L…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "War memorial cross, 1921, designed and built by Newman and Harper of Aylesbury."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "War memorial cross, 1921, designed and built by Newman and Harper of Aylesbury. MATERIALS: built from pale grey Cornish granite. DESCRIPTION: the memorial is positioned within a semi-circular roadside plot, bounded by box hedging to the rear and a row of eight granite piers linked with iron chains in front. It consists of a Celtic cross on a tapered plinth and a square base upon a grass hillock. The granite has a roughly hewn finish, except for a smoothly dressed panel on the front of the plinth, which is inscribed in applied lettering: ‘TO / THE GLORY OF GOD / AND IN MEMORIAL OF THE MEN OF / ASTON CLINTON / WHO FELL IN THE GREAT WAR / 1914-1918’ followed by the names of 30 men, ordered by surname. Below that: ‘1939-1945’ followed by the names of 13 men, and the inscription ‘GREATER LOVE HATH NO MAN THAN THIS / THAT A MAN LAY DOWN HIS LIFE FOR HIS FRIENDS’."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Aston Clinton War Memorial, 1921, by Newman and Harper of Aylesbury, is listed  at Grade II, for the following principal reasons: * Architectural interest: a recognisable symbol of commemoration, well executed in good-quality materials; * Historic interest: a poignant reminder of the tragic impact made on local communities by the First, and then the Second, World Wars."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The First World War claimed the lives of hundreds of thousands of English men and affected the entire nation. A surge of public commemoration was made in the years following the end of the conflict, with memorials built to honour the dead of the locality, many of whose bodies could not be repatriated. War memorials provided a focal point for grief in the absence of, and in addition to, graves. A plot on the side of the main road through the village was chosen, and the land was donated by Nathan Charles Rothschild. The cost of the memorial was £230, which was raised by public subscription. An unveiling ceremony took place on Sunday 3 April 1921, led by Major JC Swann and attended by Lord Rothschild and a great number of local people."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2015-11-04T00:00:00Z"
+      }
+    }
+  ]
+}

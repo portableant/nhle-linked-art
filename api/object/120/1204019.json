@@ -1,0 +1,201 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/120/1204019.json",
+  "type": "HumanMadeObject",
+  "_label": "Number 28 ( Sturrick House) With Number 26A (Cherry Cottage)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Number 28 ( Sturrick House) With Number 26A (Cherry Cottage)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1204019"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8692208002"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42770"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26499512"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1204019",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP8692208002)",
+    "defined_by": "POINT(-0.741877 51.763963)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1204019",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1204019",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26499512",
+      "type": "HumanMadeObject",
+      "_label": "Cherry Cottage  Sturrick House (Q26499512)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1204019",
+    "type": "Production",
+    "_label": "Origin / Construction of Number 28 ( Sturrick House) With Number 26A (Cherry Cottage) (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C16",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1599-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204019-1",
+      "type": "Modification",
+      "_label": "C17: Rear elevation: C17 timber framed 2-storey wing with brick infill, old tiled roof, sash window to 1st floor, modern glazed doors below.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1204019-2",
+      "type": "Modification",
+      "_label": "C19: C19 1/2-glazed door to LH of centre with 2 sash windows in flush frames each side.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 8608 9/198 25.10.51 WENDOVER AYLESBURY ROAD east side No.28 Sturrick House with No. 26A (Cherry Cottage) GV II House and attached cottage. C16 altered, Timber frame with painted roughcast to upper part, painted brick to under-built ground floor. Old tile roof half hipped to RH, 2 storeys, the upper one formerly over- sailing. Two 3-light and two 2-light leaded casements to 1st floor. C19 1/2-glazed door to LH of centre with 2 sash windows in flush frames each side. Wide carriage way with wooden doors to RH of centre, with heavy moulded bracket to RH side. Modern door and small window in RH part now formed into separate cottage. Rear elevation: C17 timber framed 2-storey wing with brick infill, old tiled roof, sash window to 1st floor, modern glazed doors below. Chimney stack to RH flank, 1-storey outshot on right with catslide tiled roof, modern casement. Lean- to roofed cellar outshot on extreme right, 2-light casement above. Interior Ground floor RH room has two richly moulded ceiling beams and large inglenook with moulded beam in form of shallow Tudor arch. LH room has altered inglenook, exposed beams, including close-studding to rear wall. 1st floor has more close-studding and large tiebeams exposed. Rear wing has reused C17 oak run-through panelling on both floors. RCHM 1 p.310. MON. 38. Listing NGR: SP8692208002"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-10-25T00:00:00Z"
+      }
+    }
+  ]
+}

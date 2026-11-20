@@ -1,0 +1,229 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1173786.json",
+  "type": "HumanMadeObject",
+  "_label": "11 And 12, Leighton Buzzard Road (A4146) (Great Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "11 And 12, Leighton Buzzard Road (A4146)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1173786"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03511 10655"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157913"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468531"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1173786",
+    "type": "Place",
+    "_label": "Great Gaddesden (TL 03511 10655)",
+    "defined_by": "POINT(-0.50079 51.784991)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1173786",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1173786",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468531",
+      "type": "HumanMadeObject",
+      "_label": "11 and 12 Leighton Buzzard Road (Q26468531)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1173786",
+    "type": "Production",
+    "_label": "Origin / Construction of 11 And 12, Leighton Buzzard Road (A4146) (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173786-1",
+      "type": "Modification",
+      "_label": "Mid C17: N wing C17, N-S wing C18/C19 rebuilding or casing of older hall range, taller parlour block at S mid C17, C19 lower extension at W end of N …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173786-2",
+      "type": "Modification",
+      "_label": "C18: N wing C17, N-S wing C18/C19 rebuilding or casing of older hall range, taller parlour block at S mid C17, C19 lower extension at W end of N …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1173786-3",
+      "type": "Modification",
+      "_label": "C19: N wing C17, N-S wing C18/C19 rebuilding or casing of older hall range, taller parlour block at S mid C17, C19 lower extension at W end of N …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1173786",
+      "type": "VisualItem",
+      "_label": "Photograph of 11 And 12, Leighton Buzzard Road (A4146) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1173786",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 11 And 12, Leighton Buzzard Road (A4146)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/11%20and%2012%20Leighton%20Buzzard%20Road%2C%20Water%20End%2C%20Hertfordshire%2C%20August%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "GREAT GADDESDEN        LEIGHTON BUZZARD ROAD (A4146) TL 0310                                         (West side) 10/134                                  Nos. 14, and 15  26.1.67                                 (formerly listed as No 11/12                                         Water End and 13 Water, End) GV                                      II House, now 2 houses. N wing C17, N-S wing C18/C19 rebuilding or casing of older hall range, taller parlour block at S mid C17, C19 lower extension at W end of N wing. Timber frame with yellow brick as infill panels and as casing to ground floor. Thin red brick infill to frame of parlour  wing.  Steep  old  red  tile  roofs.  An  irregular,  L-shaped, 1 1/2-storeys house facing E with 2-storeys and attic parlour wing at S end and 2-bays N wing running W along roadside, with single-storey short extension beyond a gable chimney. 2 gabled dormers to N wing and 4-light transomed C18 casement, lattice leaded with stepped head in N gable of hall range. E side has a side-gable and small gabled porch at N end. Lean-to open timber porch to door and small Cl9 window beside inglenook at junction with parlour wing. Single wide-bay to parlour wing with axial chamfered beams and ogee plus nick stops. Collar and clasped- purlin  roof,  with  straight  wind-braces,  and  straight  braces  in walls.  Round-arched fireplace and winding stair beside it.  2-light lattice leaded casements. Listing NGR: TL0351310655"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-01-26T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

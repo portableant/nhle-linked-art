@@ -1,0 +1,274 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078055.json",
+  "type": "HumanMadeObject",
+  "_label": "Stocks House (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Stocks House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078055"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96230 13354"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355660"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q7618187"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078055",
+    "type": "Place",
+    "_label": "Aldbury (SP 96230 13354)",
+    "defined_by": "POINT(-0.60556 51.810548)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078055",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078055",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Stocks_House",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Stocks House",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Stocks_House",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q7618187",
+      "type": "HumanMadeObject",
+      "_label": "Stocks House (Q7618187)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078055",
+    "type": "Production",
+    "_label": "Origin / Construction of Stocks House (Late C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1773",
+      "begin_of_the_begin": "1773-01-01T00:00:00Z",
+      "end_of_the_end": "1773-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-1",
+      "type": "Modification",
+      "_label": "1773: 1773 rebuilt on new site for Arnold Duncombe, enlarged in late C18 to double depth with 2 rear (N) wings, late C19 3-storeys NW service wing…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1773",
+        "begin_of_the_begin": "1773-01-01T00:00:00Z",
+        "end_of_the_end": "1773-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-2",
+      "type": "Modification",
+      "_label": "Late C19: 1773 rebuilt on new site for Arnold Duncombe, enlarged in late C18 to double depth with 2 rear (N) wings, late C19 3-storeys NW service wing…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-3",
+      "type": "Modification",
+      "_label": "1892–1922: 1773 rebuilt on new site for Arnold Duncombe, enlarged in late C18 to double depth with 2 rear (N) wings, late C19 3-storeys NW service wing…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1892–1922",
+        "begin_of_the_begin": "1892-01-01T00:00:00Z",
+        "end_of_the_end": "1922-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-4",
+      "type": "Modification",
+      "_label": "Early C20: 1773 rebuilt on new site for Arnold Duncombe, enlarged in late C18 to double depth with 2 rear (N) wings, late C19 3-storeys NW service wing…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-5",
+      "type": "Modification",
+      "_label": "1972: A girl's school up to 1972.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1972",
+        "begin_of_the_begin": "1972-01-01T00:00:00Z",
+        "end_of_the_end": "1972-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-6",
+      "type": "Modification",
+      "_label": "1977: (RCHM Typescript: Pevsner (1977) 65: Davis (1980) No 3).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078055-7",
+      "type": "Modification",
+      "_label": "1980: (RCHM Typescript: Pevsner (1977) 65: Davis (1980) No 3).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1980",
+        "begin_of_the_begin": "1980-01-01T00:00:00Z",
+        "end_of_the_end": "1980-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078055",
+      "type": "VisualItem",
+      "_label": "Photograph of Stocks House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078055",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Stocks House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Stocks%20Hotel.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 91 SE                                        (West side) 5/24                                   Stocks House 21.5.73 GV                                     II Country house,  now a country club.  1773 rebuilt on new site for Arnold Duncombe, enlarged in late C18 to double depth with 2 rear (N) wings, late C19 3-storeys NW service wing and other alterations in early C20  for  Mrs Humphrey Ward  the  novelist  (family  occupied  house 1892-1922). A girl's school up to 1972. Stuccoed brick with moulded architectural features and steep hipped tiled roofs with parapets. Originally  facing  S,  the plan is  the  principal evidence for  the development of the house. Phase 1 had 2 large S rooms flanking an entrance hall leading to a rear stair hall, with a 3rd room (?library) on its W side with a N projecting chimney. Phase 2 added a small room on N of library. Phase 3 added a room set back at the E end (now the entrance lobby approached from E). Phase 4 added a second rear wing on E, and Phase 5 added a new dining room and billiard room for the Humphrey Wards with bay window to drawing room and 3 storeys NW wing. The old front porch was then removed and the free-standing staircase is of the early C20. 2 storeys and attics, with 6 windows and 3 dormers to each main front. Stringcourse, cornice and parapets. Sash windows with 6/6 panes. Ivy covered NE block with 2 similar sash windows on each of 3 floors. Each front has a projecting central feature, one with a bay window with 3 windows to each floor, and on S a tripartite window with pediment over and a bow window below. Sir Walter Scott is said to have stayed at the house and to have based the name Ivanhoe on the nearby village of Ivinghoe. Frequent visitors to Mrs Humphrey Ward were her relations of the Trevelyan, Arnold and Huxley families. (RCHM Typescript: Pevsner (1977) 65: Davis (1980) No 3). Listing NGR: SP9623013354"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1973-05-21T00:00:00Z"
+      }
+    }
+  ]
+}

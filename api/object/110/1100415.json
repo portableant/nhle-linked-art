@@ -1,0 +1,222 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100415.json",
+  "type": "HumanMadeObject",
+  "_label": "73, 75, 77, 79 And 81, Langley Hill",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "73, 75, 77, 79 And 81, Langley Hill"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100415"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0664202611"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157685"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392630"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100415",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0664202611)",
+    "defined_by": "POINT(-0.45788 51.712105)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100415",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100415",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392630",
+      "type": "HumanMadeObject",
+      "_label": "73, 75, 77, 79 and 81 Langley Hill (Q26392630)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100415",
+    "type": "Production",
+    "_label": "Origin / Construction of 73, 75, 77, 79 And 81, Langley Hill (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1977",
+      "begin_of_the_begin": "1977-01-01T00:00:00Z",
+      "end_of_the_end": "1977-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100415-1",
+      "type": "Modification",
+      "_label": "Early C19: C16, brick front, rear extension, and divisions early C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100415-2",
+      "type": "Modification",
+      "_label": "1977: (KLLHMS report 1977 in NMR).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100415",
+      "type": "VisualItem",
+      "_label": "Photograph of 73, 75, 77, 79 And 81, Langley Hill (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100415",
+          "type": "DigitalObject",
+          "_label": "Commons Image for 73, 75, 77, 79 And 81, Langley Hill",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/73%2C%2075%2C%2077%2C%2079%20and%2081%20Langley%20Hill%2C%20Kings%20Langley%2C%20March%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE 7/154 KINGS LANGLEY LANGLEY HILL (North side) Nos. 73, 75, 77, 79, and 81 GV II House, now 5 houses. C16, brick front, rear extension, and divisions early C19. Timber frame roughcast, with exposed timbers in S and rear gables, and plum brick front patterned with vertical stripes and window surrounds in gault brick. Stone, haunched lintels with raised keystones to ground floor. No. 81 now has painted front. Steep old red tile roofs. A long 2 storeys building facing S with short gabled rear wings at each end and later parallel-roofed rear extension between them. 4 single fronted houses a:b:a:b with double fronted house at W. Wide eaves soffit. Sash windows with 4/8 panes to 1st floor and 8/8 to ground floor. Clasped purlin roof with diminished principals, collar, and rectangular framing. Interior has jowled posts and curved braces to tie-beams. Old chimneys at W gable of No. 81 and between No. 73 and No. 75. Wattle and daub infill panels in roof, and sooted rafters noted over W end. (KLLHMS report 1977 in NMR). Listing NGR: TL0664202611"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

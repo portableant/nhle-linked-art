@@ -1,0 +1,239 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1390992.json",
+  "type": "HumanMadeObject",
+  "_label": "Gorseside",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gorseside"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1390992"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0040908831"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "491289"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26670362"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1390992",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0040908831)",
+    "defined_by": "POINT(-0.546271 51.769161)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1390992",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1390992",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26670362",
+      "type": "HumanMadeObject",
+      "_label": "Gorseside (Q26670362)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1390992",
+    "type": "Production",
+    "_label": "Origin / Construction of Gorseside (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1873",
+      "begin_of_the_begin": "1873-01-01T00:00:00Z",
+      "end_of_the_end": "1873-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390992-1",
+      "type": "Modification",
+      "_label": "C18: C17, with C18 and C19 [including the gabled entrance porch dated ¿B/1873¿] and C20 additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390992-2",
+      "type": "Modification",
+      "_label": "C19: C17, with C18 and C19 [including the gabled entrance porch dated ¿B/1873¿] and C20 additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390992-3",
+      "type": "Modification",
+      "_label": "1873: C17, with C18 and C19 [including the gabled entrance porch dated ¿B/1873¿] and C20 additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1873",
+        "begin_of_the_begin": "1873-01-01T00:00:00Z",
+        "end_of_the_end": "1873-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1390992-4",
+      "type": "Modification",
+      "_label": "C20: C17, with C18 and C19 [including the gabled entrance porch dated ¿B/1873¿] and C20 additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1390992",
+      "type": "VisualItem",
+      "_label": "Photograph of Gorseside (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1390992",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Gorseside",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorseside%2C%20Berkhamsted%2C%20August%202026.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "814/0/10026 15-JUN-04 BERKHAMSTED BERKHAMSTED HILL Gorseside GV II Offices, formerly farmhouse. C17, with C18 and C19 [including the gabled entrance porch dated ¿B/1873¿] and C20 additions. Timber framed with red brick skin and plain tiled roof. 2 Storeys and 1 ½ storeys. EXTERIOR: The entrance front has a C17 gabled wing to left of centre. To its right is the C17 spinal wing which has been raised in height and to the left is a C19 addition in darker, plum brick. The gabled porch is at right of centre. Windows across the front are timber casements with cambered heads, mostly of 3 lights, an exception is a first floor canted oriel at far right. Stacks to either side of the gabled wing and at right. To the rear is an added C20 2-storey bathroom wing at left of centre and a lean to the ground floor. At left of this is a 1 ½ story range of C18 date with gabled dormer which shows the probable height of the spinal C17 range before its roof was raised. INTERIOR: There is York stone flooring to the entrance hall. In the spinal wing there is evidence of a corner post, a substantial spine beam and a girding beam at ground floor level. To the cross wing there is a substantial spine beam at ground floor level. In the roof space the cross wing has a clasped-purlin roof with 2 wind braces and a timber framed gable end with brick infill. The building has been the subject of a thermographic survey and this has revealed that there is closed studded external walling in the gable end of the cross wing and also to the spinal range, including the close-studded gable-end imbedded in the walling which was later raised in height. To the 1 ½ storey wing at the rear is thinner scantling studding with passing bracing which would imply that this is an C18 addition. This building has group value with The Mansion, Berkhamsted Hill [q.v.]."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2004-06-15T00:00:00Z"
+      }
+    }
+  ]
+}

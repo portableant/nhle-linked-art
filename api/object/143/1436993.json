@@ -1,0 +1,253 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1436993.json",
+  "type": "HumanMadeObject",
+  "_label": "Kings Langley War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Kings Langley War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1436993"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0730502415"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66477757"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1436993",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0730502415)",
+    "defined_by": "POINT(-0.448363 51.710227)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1436993",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1436993",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Kings_Langley_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66477757",
+      "type": "HumanMadeObject",
+      "_label": "Kings Langley War Memorial (Q66477757)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1436993",
+    "type": "Production",
+    "_label": "Origin / Construction of Kings Langley War Memorial (1839–1927)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-thomas-frederick-halsey",
+        "type": "Person",
+        "_label": "Sir Thomas Frederick Halsey"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436993-1",
+      "type": "Modification",
+      "_label": "1914–1918: On the base is the inscription: REMEMBER/ BEFORE GOD/ THOSE FROM/ THIS PARISH WHO GAVE THEIR LIVES/ FOR THEIR COUNTRY 1914-1918.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436993-2",
+      "type": "Modification",
+      "_label": "1920: Erected 1920 with the names of the fallen of the Second World War added after 1945.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1436993-3",
+      "type": "Modification",
+      "_label": "after 1945: Erected 1920 with the names of the fallen of the Second World War added after 1945.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "after 1945",
+        "begin_of_the_begin": "1945-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1436993",
+      "type": "VisualItem",
+      "_label": "Photograph of Kings Langley War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1436993",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Kings Langley War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Langley%20War%20Memorial%2C%20April%202022%2007.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First and Second World War memorial. Erected 1920 with the names of the fallen of the Second World War added after 1945."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "First and Second World War memorial. Erected 1920 with the names of the fallen of the Second World War added after 1945. MATERIALS: carved from stone. DESCRIPTION: the war memorial stands in the churchyard of All Saints’ Church. It is situated upon a mound covered by rubble-stone paving, which is approached via stone steps at the SW of the churchyard. In addition there is a path and wrought-iron gateway leading from the adjacent Watford Road. The memorial comprises a Latin cross set upon a capital at the head of a tapering octagonal shaft with a moulded base. It stands upon a moulded octagonal plinth and two-tier stepped base. On the base is the inscription: REMEMBER/ BEFORE GOD/ THOSE FROM/ THIS PARISH WHO GAVE THEIR LIVES/ FOR THEIR COUNTRY 1914-1918. The names of the fallen of the First and Second World Wars are inscribed onto bronze plaques set into the sides of the plinth. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 12 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Kings Langley War Memorial, erected in 1920, is listed at Grade II for the following principal reasons: *     Historic interest: as a war memorial that has strong cultural and historic significance within both a local and national context; *     Commemorative: as a poignant reminder of the tragic impact of world events on the local community, and the sacrifice it made during the First and Second World Wars; *     Design: as an elegant Latin cross set upon a tapering shaft, octagonal plinth and stepped base; *     Group value: with the Grade II*-listed All Saints’ Church and Grade II-listed monuments in the churchyard."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw a huge wave of public commemoration with tens of thousands of memorials erected across the country. One such memorial was funded by local subscription and erected in 1920 to commemorate 38 residents of Kings Langley who died during the conflict. It was unveiled on 10 October 1920 by Sir Thomas Frederick Halsey (1839-1927), a Conservative politician and army officer, who had served as MP for Hertfordshire. After the Second World War the names of 32 residents that died during that conflict were added to the memorial."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-11-15T00:00:00Z"
+      }
+    }
+  ]
+}

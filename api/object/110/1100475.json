@@ -1,0 +1,218 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100475.json",
+  "type": "HumanMadeObject",
+  "_label": "White Hart Cottage (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "White Hart Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100475"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00597 03254"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157534"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26392763"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100475",
+    "type": "Place",
+    "_label": "Bovingdon (TL 00597 03254)",
+    "defined_by": "POINT(-0.545158 51.719)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100475",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100475",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26392763",
+      "type": "HumanMadeObject",
+      "_label": "White Hart Cottage (Q26392763)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100475",
+    "type": "Production",
+    "_label": "Origin / Construction of White Hart Cottage (Early C18)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1717",
+      "begin_of_the_begin": "1717-01-01T00:00:00Z",
+      "end_of_the_end": "1717-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100475-1",
+      "type": "Modification",
+      "_label": "1717: Early C18 probably incorporating older timber frame ('AD 1717' deeply cut into brick to left of N door), lower W extension and alterations l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1717",
+        "begin_of_the_begin": "1717-01-01T00:00:00Z",
+        "end_of_the_end": "1717-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100475-2",
+      "type": "Modification",
+      "_label": "1838: Tithe Map of 1838 shows 2 houses with small gable outshuts.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1838",
+        "begin_of_the_begin": "1838-01-01T00:00:00Z",
+        "end_of_the_end": "1838-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100475-3",
+      "type": "Modification",
+      "_label": "C20: Early C18 probably incorporating older timber frame ('AD 1717' deeply cut into brick to left of N door), lower W extension and alterations l…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100475-4",
+      "type": "Modification",
+      "_label": "1975: (Robert(1975)no.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tCHESHAM ROAD TL 00 SW \t\t\t\t\t(South side)                                       \t\tWhitehart Cross                                        \t 6/5                                    \t\tWhite Hart Cottage - -                                      \t\tII 2 houses, now one house. Early C18 probably incorporating older timber frame ('AD 1717' deeply cut into brick to left of N door), lower W extension and alterations later C20. Red brick in English-bond, some black headers and Flemish bond to E gable. Flint walled W extension. Steep old red tile roof with catslide to rear outshut. A pair of adjoining 1½ storeys houses at crossroads facing S. A gabled dormer window at the eaves to each half and a wide and a narrow small-paned casement window under segmental arch to each house. The narrow windows side by side in middle replace the former front doors. Large external E gable chimney with offsets and oven under tiled roof. Similar W gable chimney removed in C20. 2-bays roof structure and crossbeam for former partition between houses. Tithe Map of 1838 shows 2 houses with small gable outshuts. Interior has exposed beams, open fireplace with bake oven lacking only wooden door. 2 gabled dormers also on rear roofslope. (Robert(1975)no. 7). Listing NGR: TL0059703254"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

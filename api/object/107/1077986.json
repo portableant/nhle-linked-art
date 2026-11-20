@@ -1,0 +1,288 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1077986.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Bartholomew (Church Of England) (Wigginton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Bartholomew (Church Of England)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1077986"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 94048 10316"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355799"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542235"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1077986",
+    "type": "Place",
+    "_label": "Wigginton (SP 94048 10316)",
+    "defined_by": "POINT(-0.638024 51.783612)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1077986",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1077986",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saint_Bartholomew_Church_%28Wigginton%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542235",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Bartholomew (church of England) (Q17542235)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1077986",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Bartholomew (Church Of England) (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1857–1861",
+      "begin_of_the_begin": "1857-01-01T00:00:00Z",
+      "end_of_the_end": "1861-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-1",
+      "type": "Modification",
+      "_label": "Late C13: Late C13 chancel and nave, large C15 chantry chapel separate at W for Weedon family, N aisle, NE vestry and archway in to W chapel 1857-61 b…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C13",
+        "begin_of_the_begin": "1267-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-2",
+      "type": "Modification",
+      "_label": "Late C14: The chancel has a C13 blocked, pointed doorway exposed externally, with inside a C13 piscina with shelf and chamfered arched head at SE, sma…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C14",
+        "begin_of_the_begin": "1367-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-3",
+      "type": "Modification",
+      "_label": "C15: Late C13 chancel and nave, large C15 chantry chapel separate at W for Weedon family, N aisle, NE vestry and archway in to W chapel 1857-61 b…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-4",
+      "type": "Modification",
+      "_label": "1764: Wall monument to Thomas Egerton of Champneys, d.1764, white marble set on veined marble with guttae brackets, cornice with fluted garlanded …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1764",
+        "begin_of_the_begin": "1764-01-01T00:00:00Z",
+        "end_of_the_end": "1764-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-5",
+      "type": "Modification",
+      "_label": "C19: Uncoursed knapped flint to C19 N side.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-6",
+      "type": "Modification",
+      "_label": "1857–1861: Late C13 chancel and nave, large C15 chantry chapel separate at W for Weedon family, N aisle, NE vestry and archway in to W chapel 1857-61 b…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1857–1861",
+        "begin_of_the_begin": "1857-01-01T00:00:00Z",
+        "end_of_the_end": "1861-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1077986-7",
+      "type": "Modification",
+      "_label": "1870: Stained glass windows of 1870's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1870",
+        "begin_of_the_begin": "1870-01-01T00:00:00Z",
+        "end_of_the_end": "1870-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1077986",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Bartholomew (Church Of England) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1077986",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Bartholomew (Church Of England)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Bartholomew%27s%2C%20Wigginton%20-%20geograph.org.uk%20-%20106732.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "WIGGINTON             HEMP LANE SP 91 SW                                        (North side) 4/162                                        Church of 30.11.66                                        St. Bartholomew (C of E) GV                                        II* Parish church. Late C13 chancel and nave, large C15 chantry chapel separate at W for Weedon family, N aisle, NE vestry and archway in to W chapel 1857-61 by William White in Early English Style, restoration 1881 by R.J.Withers with porch and bell turret, low Church Room linked to W end 1973. Flint rubble with coursed flint facing and clunch dressings many renewed in Bath Stone. Chantry chapel has clunch plinth and large stones set in flint walling. Chancel walls built over rough footings with tile levelling course visible on N and E sides. Uncoursed knapped flint to C19 N side.  Steep red tile roofs, pyramidial to square timber bellcote over W end of nave with ball finial and V-pattened metal-clad base. Hipped tiled roof with parapets to 1973 flint walled extension with plinth and quoins of reconstructed stone. A small village church with square ended chancel, nave, low N aisle, taller W chapel now a baptistry, S porch, bell turret, and church room attached at NW. The chancel has a C13 blocked, pointed doorway exposed externally, with inside a C13 piscina with shelf and chamfered arched head at SE, small niches now restored with figures flanking the 3-light restored E window, late C14 square-headed 2-light quatrefoiled N window, similar window on S restored, a simple low-side window at SW, a pointed depressed arch of 2 chamfered orders in N wall has the organ painted in Medieval Style beneath it with  the vestry  space behind  in a  gabled  projection. Patterned floor of coloured and C19 encaustic tiles. Painted walls to E end. Stone reredos with mosaic figured panels. Stalls inlaid with bog oak and carved wooden angels support altar rail. Stained glass windows of 1870's. 2-centred chancel arch of 2 chamfered orders widened 1881. Taller nave lit from S by 2 2-light tall pointed windows and a small window at SE lighting the pulpit. Open waggon roof of 1881 similar to chancel, but carried down over N aisle opened to nave by an arcade of 3½ bays (½ at W) in C13 style with 2-centred arches of 2 chamfered orders on miniscule circular columns with moulded bases and bell caps. Headroom in aisle gained by raising a triplet of low gables above the eaves with lucarne windows in plate tracery, the central one deeper. Heavy battered walls and gabled terminal buttresses externally. The aisle is carefully designed not to overwhelme the small scale of the church, internally or externally.  Moulded  external  hoodmould  of  pointed  C13  S  doorway indicates late C13 date. Double doors with unequal leaves. The N aisle extends along the N side of the W chapel and now acts as a link to the Church Room. 2 heavy wooden trusses across W end support the framework of the bell turret. Panelled stone pulpit at SE. A wide pointed arch cut through the W wall of the nave now leads to the C15 W chapel at slightly higher level. This is a rectangular building with eaves higher than the nave, but a flatter roofpitch so that the ridge is lower than that of the nave. Diagonal W corner buttresses with weathered offsets, blocked square-headed entrance in middle of S wall, C19 small W doorway in C13 style, C15 large 3-light square headed W window with blank tracery in the head and label stops carved as animals. The S wall has an ashlar plinth and a chamfered string course at 2/3 height which steps up as the label to the tall 2-light square headed trefoil cusped window to E of the blocked door. The sill of this window is much lower inside. A small square headed window is set low to the W of the former S door. The VCH in 1908 reported a relieving arch in the N wall possibly for a N window. C15 3-bays open timber roof with moulded wallplate, stone corbel heads, wallposts  and  curved  braces  with  traceried  spandrels  to  cranked tie-beams supporting a ridge beam and flat rafters. Floor now slopes from W to E. Octagonal C19 stone font. 2-light S window has stained glass windows 1892 by Kempe of St. Stephen and St. Lawrence (similar is SW nave window c.1899 of St. Peter and St. Paul). Wall monument to Thomas Egerton of Champneys, d.1764, white marble set on veined marble with guttae brackets, cornice with fluted garlanded urn on top, and armorial cartouche on plinth. Gabled S porch has scissor-rafter roof on arcaded wooden sides above high plinth of flint and stone. Paterned red and black tiled floor like that in nave.  Wooden side benches.  Of exceptional  interest  for  the  C15  W  chapel.   (VCH(1908)316-7: RCHM(1911)241-2: Kelly(1914)293: Pevsner(1977)407). Listing NGR: SP9404810316"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

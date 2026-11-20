@@ -1,0 +1,183 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1342166.json",
+  "type": "HumanMadeObject",
+  "_label": "Tower In Former Stableyard Of Chaulden House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Tower In Former Stableyard Of Chaulden House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1342166"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0385906453"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355510"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26626198"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342166",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0385906453)",
+    "defined_by": "POINT(-0.497001 51.747159)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1342166",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1342166",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26626198",
+      "type": "HumanMadeObject",
+      "_label": "Tower In Former Stableyard Of Chaulden House (Q26626198)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1342166",
+    "type": "Production",
+    "_label": "Origin / Construction of Tower In Former Stableyard Of Chaulden House (Mid C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "Mid C19",
+      "begin_of_the_begin": "1834-01-01T00:00:00Z",
+      "end_of_the_end": "1866-12-31T23:59:59Z"
+    }
+  },
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1342166",
+      "type": "VisualItem",
+      "_label": "Photograph of Tower In Former Stableyard Of Chaulden House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1342166",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Tower In Former Stableyard Of Chaulden House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Tower%20in%20former%20stableyard%20of%20Chaulden%20House%2C%20Chaulden%2C%20August%202024%2002.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1. 5252 TL 00 NW 10/125 CHAULDEN LANE Tower in former stableyard of Chaulden House II 2. Mid C19 octagonal tower.  Flint rubble, red brick quoins and semi-cylindrical angle mouldings.  Pyramidal Welsh slated roof with eaves cornice on console angle brackets.  Octagonal wooden lantern with colonnettes, weather vane.  Pointed arches to doorway, slit windows and dummy windows.  Conch shells set in flint rubble above arches,  Pointed arched pigeon holes above windows on 3 sides in 3 rows, lowest 3 light, central 2 light, upper 1 light under conch shell.  Continuous band of shells below brick frieze.  Included as a curiosity. Listing NGR: TL0385906453"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-02-17T00:00:00Z"
+      }
+    }
+  ]
+}

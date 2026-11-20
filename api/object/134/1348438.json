@@ -1,0 +1,245 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348438.json",
+  "type": "HumanMadeObject",
+  "_label": "The Old Palace Public House",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Old Palace Public House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348438"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0662702611"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157686"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631821"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348438",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0662702611)",
+    "defined_by": "POINT(-0.458098 51.712108)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348438",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348438",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Old_Palace%2C_Kings_Langley",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631821",
+      "type": "HumanMadeObject",
+      "_label": "The Old Palace Public House (Q26631821)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348438",
+    "type": "Production",
+    "_label": "Origin / Construction of The Old Palace Public House (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1979",
+      "begin_of_the_begin": "1979-01-01T00:00:00Z",
+      "end_of_the_end": "1979-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348438-1",
+      "type": "Modification",
+      "_label": "Late C17: Late C17 E part, rear wing early C19, front encased with brick in mid-C19 when W part with cellar added.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348438-2",
+      "type": "Modification",
+      "_label": "Early C19: Late C17 E part, rear wing early C19, front encased with brick in mid-C19 when W part with cellar added.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348438-3",
+      "type": "Modification",
+      "_label": "Mid- C19: Late C17 E part, rear wing early C19, front encased with brick in mid-C19 when W part with cellar added.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348438-4",
+      "type": "Modification",
+      "_label": "1979: (KLLHMS report 1979 in NMR).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1979",
+        "begin_of_the_begin": "1979-01-01T00:00:00Z",
+        "end_of_the_end": "1979-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348438",
+      "type": "VisualItem",
+      "_label": "Photograph of The Old Palace Public House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348438",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Old Palace Public House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Langley%2C%20Old%20Palace%20-%20geograph.org.uk%20-%201338315.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE 7/155 KINGS LANGLEY LANGLEY HILL (North side) No. 83 (The Old Palace PH) GV II House, now a Public House. Late C17 E part, rear wing early C19, front encased with brick in mid-C19 when W part with cellar added. Timber frame cased in plum brick. W gable end rear of W part in uncoursed knapped flint with brick dressings. Steep old red tile roofs, hipped W part.  A 2-storeys  attic and  cellar house  facing S with short parallel-roofed 2-storeys rear range at NE.  S front has  2 3-light casement windows to 1st floor under eaves, formerly 2 doorways side by side in middle (LH one now a 6/6 pane sash window), a recessed sash window with  10/10 panes  and plastered  reveals  on LH and a rectangular bay window on RH with 3/3 panes and hipped tile roof. This has panelled folding internal shutters. Winding stair in NE corner of C17 part, and chamfered ceiling beam. (KLLHMS report 1979 in NMR). Listing NGR: TL0662702611"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

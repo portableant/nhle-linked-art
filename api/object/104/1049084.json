@@ -1,0 +1,201 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/104/1049084.json",
+  "type": "HumanMadeObject",
+  "_label": "Honey Wood Cottage To Rear Of Number 34 Wheelers Terrace (Tring Rural)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Honey Wood Cottage To Rear Of Number 34 Wheelers Terrace"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1049084"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP8986215603"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355785"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26301139"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1049084",
+    "type": "Place",
+    "_label": "Tring Rural (SP8986215603)",
+    "defined_by": "POINT(-0.69732 51.831822)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1049084",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1049084",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26301139",
+      "type": "HumanMadeObject",
+      "_label": "Honey Wood Cottage To Rear Of Number 34  Wheelers Terrace (Q26301139)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1049084",
+    "type": "Production",
+    "_label": "Origin / Construction of Honey Wood Cottage To Rear Of Number 34 Wheelers Terrace (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1049084-1",
+      "type": "Modification",
+      "_label": "C18: 1 later C18, Nos.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1049084-2",
+      "type": "Modification",
+      "_label": "C19: 2 and 3 C17 cased in brick in C18/C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TRING RURAL            TRING ROAD SP 8915 (East side) Long Marston 8/148                                   Wheelers Terrace -                                       Nos. 1, 2, and 3 (Honeywood Cottage), to rear of No. 34 GV                                      II 3 houses adjacent. No. 1 later C18, Nos. 2 and 3 C17 cased in brick in C18/C19. Timber frames brick cased, yellow in No. 3 and red in No. 2, No. 1 of red brick, dark weatherboarding on S side of No. 3. Old red tile roofs to S but slates on N and corrugated iron covering to steep roof of No. 3. A row of 3 houses adjoining No. 34 to E and stepping up in height from E end (No. 3). This is of 1 1/2 storeys with large external E gable chimney and 3-light attic casement window. N front has window with external wooden flap shutter and door to right. No. 2 has 2 windows on each floor and 2 doors in N front. Brickwork of lower part of wall C18 but C19 in upper part. 3-light flush casement windows. Axial beams and E gable chimney. No. 1 higher with half-hipped roof and chimney at E end. Toothed eaves course. One window to each floor and door on left. 3-light  leaded  casements  and  plank door  in heavy  frame.  Similar elevation on S side. Each floor consists of a single larger room at front (N) and a wooden partition dividing off a narrow rear room with stair. The partition appears to be an added feature. No. 34, the former Post Office, not of special interest. Listing NGR: SP8986215603"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-05-29T00:00:00Z"
+      }
+    }
+  ]
+}

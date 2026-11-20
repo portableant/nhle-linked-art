@@ -1,0 +1,207 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348433.json",
+  "type": "HumanMadeObject",
+  "_label": "39 And 41, High Street (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "39 And 41, High Street"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348433"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01456 03766"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157551"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631817"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348433",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01456 03766)",
+    "defined_by": "POINT(-0.532579 51.723447)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348433",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348433",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631817",
+      "type": "HumanMadeObject",
+      "_label": "39 And 41, High Street (Q26631817)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348433",
+    "type": "Production",
+    "_label": "Origin / Construction of 39 And 41, High Street (C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1900",
+      "begin_of_the_begin": "1900-01-01T00:00:00Z",
+      "end_of_the_end": "1900-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348433-1",
+      "type": "Modification",
+      "_label": "C18: N bay has exposed chamfered axial beam and squarejoists probably inserted in C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348433-2",
+      "type": "Modification",
+      "_label": "c. 1900: C16, front refaced c.1900.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1900",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1900-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348433-3",
+      "type": "Modification",
+      "_label": "c. 1940: Twin large rear-wall external chimneys capped off c.1940's.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1940",
+        "begin_of_the_begin": "1940-01-01T00:00:00Z",
+        "end_of_the_end": "1940-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tHIGH STREET TL 0103 \t\t\t\t\t(North side)                                        10/24                                   \tNos. 39, and 41 25.4.86 -                                       \tII House, now 2 houses. C16, front refaced c.1900. Timber frame on stuccoed brick sill, roughcast at rear and ends carried over brickwork to ground floor. Plum brick front with red tilehung 1st floor and broad band of scalloped  tiles.  Steep  tiled  roof  (renewed).  Twin  large  rear-wall external chimneys capped off c.1940's. Oven and dairy in rear extension now with asbestos roof. A long 2-storeys house set back from street facing W. 4 windows to each floor and 2 boarded doors. 3- and 2-light casement windows. Segmental arches to ground floor. Interior has exposed timbers of a 4-bay house with jowled posts, straight braces to tie beams and wallplates, clasped-purlin roof with collar and queen struts, curved quadrant tension braces in gable and 2 framed crosswalls. Upper floor open to roof until ceiled at collar level recently. Squint-butted scarf joint in wallplate with 2 edge pegs. Wide panels in framed walls. No. 41 (S house) has chamfered crossbeam carrying end of axial floor beam of hall and wide space before framed portion of S end bay, possibly for a timber framed chimney or a cross-passage now removed. N bay has exposed chamfered  axial  beam and  squarejoists  probably  inserted  in  C18. Possibly a hall house with storeyed parlour end at S. Boxmoor plaque no. 678 fixed to beam in No. 41. Listing NGR: TL0146003767"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-04-25T00:00:00Z"
+      }
+    }
+  ]
+}

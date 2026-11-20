@@ -1,0 +1,240 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348471.json",
+  "type": "HumanMadeObject",
+  "_label": "Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm (Northchurch)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348471"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96282 07133"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157758"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631848"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348471",
+    "type": "Place",
+    "_label": "Northchurch (SP 96282 07133)",
+    "defined_by": "POINT(-0.60653 51.754623)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348471",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348471",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Marlin_Chapel",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631848",
+      "type": "HumanMadeObject",
+      "_label": "Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm (Q26631848)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348471",
+    "type": "Production",
+    "_label": "Origin / Construction of Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm (C13)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1908",
+      "begin_of_the_begin": "1908-01-01T00:00:00Z",
+      "end_of_the_end": "1908-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348471-1",
+      "type": "Modification",
+      "_label": "Late C13: VCH(1908)II 248 notes a late C13 charter of Sir Hugh de Broc augmenting the endownment of his Chapel of Magdalene.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C13",
+        "begin_of_the_begin": "1267-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348471-2",
+      "type": "Modification",
+      "_label": "1828: 1828 in HRO).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1828",
+        "begin_of_the_begin": "1828-01-01T00:00:00Z",
+        "end_of_the_end": "1828-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348471-3",
+      "type": "Modification",
+      "_label": "1901: (RCHM (1901)157 no.2: Buckler dwg.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1901",
+        "begin_of_the_begin": "1901-01-01T00:00:00Z",
+        "end_of_the_end": "1901-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348471-4",
+      "type": "Modification",
+      "_label": "1908: VCH(1908)II 248 notes a late C13 charter of Sir Hugh de Broc augmenting the endownment of his Chapel of Magdalene.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1348471",
+      "type": "VisualItem",
+      "_label": "Photograph of Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1348471",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Ruins Of Chapel Of St Mary Magdalene At Marlin Chapel Farm",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel%20ruins%20-%20geograph.org.uk%20-%202063226.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "NORTHCHURCH            \tMARLIN CHAPEL FARM SP 90 NE \t\t\t\t\t(North side)                                         3/226                 \t\t\t\tRuins of Chapel of St Mary 14.5.52                                 \tMagdalene at Marlin Chapel Farm                                         \t(Formerly listed as ruins of                                         \tChapel at Marlin Chapel Farm) GV                                      \tII Chapel, now ruined. Probably C13. Flint with clunch dressings. A large rectangular chapel orientated ENE by E standing beside a former ancient roadway some 60m to W of moated manorial enclosure now occupied by Marlin Chapel Farm. Each corner stands to about 5m and the rest only to ground level.  Chamfered stone plinth carried round diagonal corner buttresses.  Prominent  open  putlog  holes.  Fenced  and  overgrown. VCH(1908)II 248 notes a late C13 charter of Sir Hugh de Broc augmenting the endownment of his  Chapel of Magdalene.  (RCHM  (1901)157 no.2: Buckler dwg. 1828 in HRO). Listing NGR: SP9628207133"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-05-14T00:00:00Z"
+      }
+    }
+  ]
+}

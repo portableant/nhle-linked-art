@@ -1,0 +1,302 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/145/1458900.json",
+  "type": "HumanMadeObject",
+  "_label": "Tile Mosaic Map (Emett Mosaic)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Tile Mosaic Map (Emett Mosaic)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1458900"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0556607108"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66479891"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1458900",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0556607108)",
+    "defined_by": "POINT(-0.472086 51.752727)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1458900",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1458900",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Tile_Mosaic_Map_of_Hemel_Hempstead%2C_Hillfield_Road",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66479891",
+      "type": "HumanMadeObject",
+      "_label": "Tile Mosaic Map (Emett Mosaic) (Q66479891)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1458900",
+    "type": "Production",
+    "_label": "Origin / Construction of Tile Mosaic Map (Emett Mosaic) (1873)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/rowland-emett-and",
+        "type": "Person",
+        "_label": "Rowland Emett and"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/geoffrey-jellicoe-and",
+        "type": "Person",
+        "_label": "Geoffrey Jellicoe and"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/geoffrey-jellicoe",
+        "type": "Person",
+        "_label": "Geoffrey Jellicoe"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1960",
+      "begin_of_the_begin": "1960-01-01T00:00:00Z",
+      "end_of_the_end": "1960-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-1",
+      "type": "Modification",
+      "_label": "1906–1990: Frederick Rowland Emett OBE (1906-1990) was born in London, and his family moved to Birmingham around the start of the First World War (1914…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1906–1990",
+        "begin_of_the_begin": "1906-01-01T00:00:00Z",
+        "end_of_the_end": "1990-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-2",
+      "type": "Modification",
+      "_label": "1914–1918: Frederick Rowland Emett OBE (1906-1990) was born in London, and his family moved to Birmingham around the start of the First World War (1914…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-3",
+      "type": "Modification",
+      "_label": "1931: He exhibited one of his paintings 'Cornish Harbour' at the Royal Academy in 1931, and worked in advertising illustration until the outbreak …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1931",
+        "begin_of_the_begin": "1931-01-01T00:00:00Z",
+        "end_of_the_end": "1931-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-4",
+      "type": "Modification",
+      "_label": "1939–1945: Hemel Hempstead New Town is one of a handful of new settlements planned for the outer fringes of London immediately after the Second World W…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-5",
+      "type": "Modification",
+      "_label": "1943: His interests in machinery and railways were exhibited in his Punch cartoons, of which he contributed more than 800, and publications such a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1943",
+        "begin_of_the_begin": "1943-01-01T00:00:00Z",
+        "end_of_the_end": "1943-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-6",
+      "type": "Modification",
+      "_label": "1946: His interests in machinery and railways were exhibited in his Punch cartoons, of which he contributed more than 800, and publications such a…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1946",
+        "begin_of_the_begin": "1946-01-01T00:00:00Z",
+        "end_of_the_end": "1946-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1458900-7",
+      "type": "Modification",
+      "_label": "1951: For the 1951 Festival of Britain, Emett designed and constructed the fantastical Far Tottering and Oystercreek Railway at the Battersea fest…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1951",
+        "begin_of_the_begin": "1951-01-01T00:00:00Z",
+        "end_of_the_end": "1951-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1458900",
+      "type": "VisualItem",
+      "_label": "Photograph of Tile Mosaic Map (Emett Mosaic) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1458900",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Tile Mosaic Map (Emett Mosaic)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Hemel%20Hempstead%20Mosaic%20map%20by%20Rowland%20Emett.JPG",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Tile Mosaic Map, a mosaic mural designed by Rowland Emett and painted by Phyllis Butler of Carter Tiles Ltd, installed in 1960 on the south elevation of the Marlowes tiered car park in Hemel Hempstead."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Tile Mosaic Map, a mosaic mural designed by Rowland Emett and painted by Phyllis Butler of Carter Tiles Ltd, installed in 1960 on the south elevation of the Marlowes tiered car park in Hemel Hempstead. MATERIALS: the mosaic is constructed of small grey, red and blue tesserae, surrounding panels of painted white tiles. DESCRIPTION: the rectangular mural measures approximately 5m in height and 12m in width, and presents a semi-abstract pictorial map of Hemel Hempstead and its surrounding towns and villages (clockwise from top right: Ayot St Lawrence, St Albans, Hatfield, Bovingdon, Berkhamsted, Whipsnade and Dunstable). Each town name is illustrated with a hand-painted caricature on an irregular-shaped white-tiled panel, each linked by roads and rivers (formed of red and blue tesserae) and surrounded by a background of grey tesserae. Below the Hemel Hempstead panel, a panel depicts a railway locomotive and carriages heading south-east to Euston. In each of the four corners are panels representing historic modes of transport (clockwise from top-right: a train, space rocket, car and horse-drawn carriage). The surname of the artist ‘EMETT’ appears in mosaic in the bottom-left corner. The mosaic mural is prominently sited at the west end of the south elevation of the Marlowes tiered car park, at the corner of Marlowes and Hillfield Road."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Tile Mosaic Map, a mosaic mural designed by Rowland Emett and painted by Phyllis Butler of Carter Tiles Ltd, installed in 1960 on the south elevation of the Marlowes tiered car park in Hemel Hempstead, is listed at Grade II for the following principal reasons: Architectural and historic interest: *     as an accomplished and high quality, public work of art; *     for its design by Rowland Emett, an eminent cartoonist and constructor of whimsical kinetic sculpture, whose designs achieved national and international acclaim during his career; *     as one of only three public sculptures by Rowland Emett, and the least altered; *     as a fine example of the pioneering commissioning of art works by private companies and local authorities for exhibition in the public realm in the post-war era; *     as the last remaining mosaic panel of the original public art scheme for Hemel Hempstead New Town, commissioned by the Commission for the New Towns and the Hemel Hempstead Development Corporation. Group value: *     for the strong functional group value this piece of public art holds with the nearby Grade II registered water gardens, designed by Geoffrey Jellicoe and executed between 1957 and 1959, who also designed the master plan for Hemel Hempstead New Town; *     for the geographic group value the artwork holds with a number of nearby Grade II listed buildings on Marlowes."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "Hemel Hempstead New Town is one of a handful of new settlements planned for the outer fringes of London immediately after the Second World War (1939-45), designed by Geoffrey Jellicoe, and developed south of the old town centre in the early 1950s. As part of their vision for the new town, Hemel Hempstead Development Corporation commissioned the construction of a tiered or multi-storey car park to accommodate the high increase in the number of cars in the post-war period. Designed by Fuller, Hall and Foulsham in collaboration with H Kellet Ablett, the car park was built at a cost of £70,000 and opened in November 1960. It was designed to incorporate seven shops on the Marlowes street front, with a service area, garage and store for each to the rear, accommodation for 203 cars over, and a petrol filling station on the upper storey. Hemel Hempstead DC commissioned Rowland Emett, an eminent cartoonist and constructor of whimsical kinetic sculpture, to design a mural for the exterior of the car park. The design of Tile Mosaic Map was hand-painted by Phyllis Butler of Carter Tiles Ltd of Poole (est 1873), whose own designs often depicted whimsical animals and birds, and whose work can also be found at St John Fisher Roman Catholic Church in Rochester, Kent. Carter Tiles also provided a tile installation for the bowling alley in Hemel Hempstead (1962-3, now demolished). Although other new towns commissioned the occasional ceramic mural, as at Basildon bus station, Essex (1958), the use of tiling was most widespread at Hemel Hempstead. Frederick Rowland Emett OBE (1906-1990) was born in London, and his family moved to Birmingham around the start of the First World War (1914-18), where he attended the Central School of Arts and Crafts. He exhibited one of his paintings 'Cornish Harbour' at the Royal Academy in 1931, and worked in advertising illustration until the outbreak of the Second World War (1939-45), when he served as a draughtsman for the Air Ministry. Alongside his advertising career and war-time post as a draughtsman, Emett succeeded in having his cartoons published in Punch, as well as illustrating books of poetry. His interests in machinery and railways were exhibited in his Punch cartoons, of which he contributed more than 800, and publications such as Engines, Aunties and Others (1943), Sidings and Suchlike (1946), and Emett's Ministry of Transport (1981). For the 1951 Festival of Britain, Emett designed and constructed the fantastical Far Tottering and Oystercreek Railway at the Battersea festival site, transporting over two million visitors around the festival park, and establishing his reputation as a maker of mechanical 'things'. Emett is most popularly known for designing the whimsical car and inventions of Caractacus Potts (played by Dick Van Dyke) in the 1968 movie adaptation of Ian Fleming’s book ‘Chitty Chitty Bang Bang’. His machines captured popular imagination and commissions were received to market everything from potatoes to aviation and car parts. Emett was commissioned to create the 'Aqua Horological Tintinnabulator', a water feature and clock, for the Victoria Shopping Centre in Nottingham (1970), and later the Cats Cradle Pussiwillow III Clock for the Eastgate Shopping Centre in Basildon (1981). The cartoonist, illustrator and inventor was awarded an OBE in 1978 for services to art and science. His works are exhibited as part of the collections of the Tate and Victoria and Albert Museum, and in a permanent exhibition at Birmingham Museum and Art Gallery. Internationally, his works are included within the collections of the Chicago Museum of Science and Industry, Mid-America Science Museum, Smithsonian Institute, Ontario Science Centre, and many other locations."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2018-10-23T00:00:00Z"
+      }
+    }
+  ]
+}

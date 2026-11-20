@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1437018.json",
+  "type": "HumanMadeObject",
+  "_label": "Bourne End War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bourne End War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1437018"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL0211906292"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q66477762"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1437018",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL0211906292)",
+    "defined_by": "POINT(-0.522243 51.74604)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1437018",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1437018",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Bourne_End_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q66477762",
+      "type": "HumanMadeObject",
+      "_label": "Bourne End War Memorial (Q66477762)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1437018",
+    "type": "Production",
+    "_label": "Origin / Construction of Bourne End War Memorial (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1914",
+      "begin_of_the_begin": "1914-01-01T00:00:00Z",
+      "end_of_the_end": "1914-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437018-1",
+      "type": "Modification",
+      "_label": "C20: Bourne End First World War Memorial, erected c1920, is listed at Grade II for the following principal reasons: * Historic interest: as an el…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437018-2",
+      "type": "Modification",
+      "_label": "1914: On the front (S) face of the shaft is an inscription in black lettering: 1914/1919.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437018-3",
+      "type": "Modification",
+      "_label": "1919: On the front (S) face of the shaft is an inscription in black lettering: 1914/1919.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1919",
+        "begin_of_the_begin": "1919-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1437018-4",
+      "type": "Modification",
+      "_label": "c 1920: Erected c1920.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c 1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1437018",
+      "type": "VisualItem",
+      "_label": "Photograph of Bourne End War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1437018",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Bourne End War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Bourne%20End%20War%20Memorial%2C%20Hertfordshire%2C%20September%202024%2005.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial. Erected c1920."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "First World War memorial. Erected c1920. MATERIALS: carved from limestone. DESCRIPTION: the war memorial stands on London Road, near the centre of Bourne End, adjacent to The Anchor, a Grade II-listed public house. It is situated within a railed enclosure and rests on a paved stone foundation. The memorial comprises a limestone cross with Celtic head and a tapering shaft that rises from a moulded and chamfered plinth, which rests on a three-tier octagonal stone base. The cross is enriched by carved interlace and knotwork. On the front (S) face of the shaft is an inscription in black lettering: 1914/1919. The plinth is inscribed: TO / THE GLORY OF GOD / AND TO THE / MEMORY / OF THE MEN / OF THIS VILLAGE / WHO FELL IN / THE GREAT WAR / NAMES. On the top tier of the base are the words: THEIR NAME LIVETH FOR EVERMORE. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 23 November 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Bourne End First World War Memorial, erected c1920, is listed at Grade II for the following principal reasons: *     Historic interest: as an eloquent witness to the tragic impact of world events on the local community, and the sacrifice it made in the conflicts of the C20; *     Design: a well-crafted memorial formed of a Celtic cross and tapering shaft enriched by carved interlace and knotwork; *     Group value: with the adjacent Grade II-listed C17 Anchor Public House and C17 White Horse Public House."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The aftermath of the First World War saw a huge wave of public commemoration with tens of thousands of memorials erected across the country. One such memorial was erected in circa 1920 to commemorate 14 residents of Bourne End who died during the conflict."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-10-21T00:00:00Z"
+      }
+    }
+  ]
+}

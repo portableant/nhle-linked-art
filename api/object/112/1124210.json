@@ -1,0 +1,283 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124210.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Mary (Drayton Beauchamp)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Mary"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1124210"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 90160 11884"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42634"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17526665"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124210",
+    "type": "Place",
+    "_label": "Drayton Beauchamp (SP 90160 11884)",
+    "defined_by": "POINT(-0.693964 51.798346)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1124210",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1124210",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Mary_the_Virgin_Church%2C_Drayton_Beauchamp",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17526665",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Mary the Virgin, Drayton Beauchamp (Q17526665)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124210",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Mary (C12)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1531",
+      "begin_of_the_begin": "1531-01-01T00:00:00Z",
+      "end_of_the_end": "1531-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-1",
+      "type": "Modification",
+      "_label": "C13: Mainly C15 but re-using C13 and C14 material, restored C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-2",
+      "type": "Modification",
+      "_label": "C14: Mainly C15 but re-using C13 and C14 material, restored C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-3",
+      "type": "Modification",
+      "_label": "C15: Mainly C15 but re-using C13 and C14 material, restored C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-4",
+      "type": "Modification",
+      "_label": "C16: Mainly square headed windows, 3-light with hoodmoulds to C16 clerestory, cusped lights to C15 belfry and aisle windows;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-5",
+      "type": "Modification",
+      "_label": "1531: Brasses in chancel to 2 Knights, both C14, and one to a priest 1531.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1531",
+        "begin_of_the_begin": "1531-01-01T00:00:00Z",
+        "end_of_the_end": "1531-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-6",
+      "type": "Modification",
+      "_label": "c. 1654–1731: Monument in chancel to Lord & Lady Newhaven d.1728 & 32, by William Woodman the Elder (c.1654-1731) \"one of the most outstanding monuments i…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1654–1731",
+        "begin_of_the_begin": "1654-01-01T00:00:00Z",
+        "end_of_the_end": "1731-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124210-7",
+      "type": "Modification",
+      "_label": "1728: Monument in chancel to Lord & Lady Newhaven d.1728 & 32, by William Woodman the Elder (c.1654-1731) \"one of the most outstanding monuments i…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1728",
+        "begin_of_the_begin": "1728-01-01T00:00:00Z",
+        "end_of_the_end": "1728-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1124210",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Mary (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1124210",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Mary",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Mary%20the%20Virgin%2C%20Drayton%20Beauchamp%20-%20geograph.org.uk%20-%2087564.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 SW            DRAYTON BEAUCHAMP       CHURCH LANE 6/68                                        Church of St. Mary 21.12.67                                             I Parish Church. Mainly C15 but re-using C13 and C14 material, restored C19. Flint with clunch blocks, used in chequer  on tower; later limestone dressings, bands of ironstone alternating with clunch ashlar to chancel. Lead roofs. West tower, aisled nave with clerestory, N. porch and chancel, all with battlemented parapets. Mainly square headed windows, 3-light with hoodmoulds to C16 clerestory, cusped lights to C15 belfry and aisle windows; 4-centred arched windows with cusped lights, to side of Chancel, 5-light square headed E. window. Interior 4-bay arcaded nave, S. aisle E. window has a sill carved with frieze of quatrefoils and shields. C15 timber roofs. Fittings: C12 tub font with arcading, old seats at W. end of nave. Glass in E, window, original C15 stained glass made to fit the window, ten Apostles. N. window of chancel has panel of C15 stained glass . Brasses in chancel to 2 Knights, both C14, and one to a priest 1531. Monument in chancel to Lord & Lady Newhaven d.1728 & 32, by William Woodman the Elder (c.1654-1731) \"one of the most outstanding monuments in England\" (Gunnis). Reredos background with Corinthian columns and an open scrolled pediment with semi-reclining figure on a grey sarcophagus against a grey obelisk. Seated figure of Lady Newhaven to RH of the white base of the monument; to the LH the coronet on a cushion. RCHM I p.135. MON.1. Listing NGR: SP9015811885"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1967-12-21T00:00:00Z"
+      }
+    }
+  ]
+}

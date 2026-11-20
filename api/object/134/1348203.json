@@ -1,0 +1,246 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348203.json",
+  "type": "HumanMadeObject",
+  "_label": "Hyde Farmhouse (Abbots Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Hyde Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348203"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 08411 04101"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158694"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631603"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348203",
+    "type": "Place",
+    "_label": "Abbots Langley (TL 08411 04101)",
+    "defined_by": "POINT(-0.431823 51.725158)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348203",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348203",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631603",
+      "type": "HumanMadeObject",
+      "_label": "Hyde Farmhouse (Q26631603)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348203",
+    "type": "Production",
+    "_label": "Origin / Construction of Hyde Farmhouse (Mid C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1908",
+      "begin_of_the_begin": "1908-01-01T00:00:00Z",
+      "end_of_the_end": "1908-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-1",
+      "type": "Modification",
+      "_label": "C17: 3 bay open hall originally with C17 3 bay lobby entry extension to form an L on plan.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-2",
+      "type": "Modification",
+      "_label": "Late C17: Floored, heated and extended mid to late C17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-3",
+      "type": "Modification",
+      "_label": "C18: Bay to right is an C18 addition with an entrance and a 16 pane sash.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-4",
+      "type": "Modification",
+      "_label": "Mid C18: Cased and extended mid C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C18",
+        "begin_of_the_begin": "1734-01-01T00:00:00Z",
+        "end_of_the_end": "1766-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-5",
+      "type": "Modification",
+      "_label": "C19: Altered and reroofed C19, altered C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-6",
+      "type": "Modification",
+      "_label": "C20: Altered and reroofed C19, altered C20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348203-7",
+      "type": "Modification",
+      "_label": "1908: (VCH 1908: RCHM Typescript).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1908",
+        "begin_of_the_begin": "1908-01-01T00:00:00Z",
+        "end_of_the_end": "1908-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE           ABBOTS LANGLEY          HYDE LANE                                            (North side)                                            Hemel Hempstead 3/48                                       Hyde Farm House II House. Mid C16. Floored, heated and extended mid to late C17. Cased and extended mid C18. Altered and reroofed C19, altered C20. Timber frame, red brick cased. Steeply pitched slate roof. 3 bay open hall originally with C17 3 bay lobby entry extension to form an L on plan. 2 storeys. Facing inner angle of L original range is to right. Bay to left has a ground floor flush frame tripartite sash with a cambered head, first floor 16 pane sash, blocked cambered head to cellar. Bay to right is an C18 addition with an entrance and a 16 pane sash. C17 range to left has a C19 gabled porch to centre flanking 3 light timber glazing bar casements with cambered heads.  First  floor  3:2:2  light  casements. Central ridge stack rebuilt in C19. Rebuilt gable end to right has an extruded stack and 2 light casements. Rear elevation of early range is original entrance front. 2 external stacks, one C18, one C19 with 2 diagonal shafts, lower 1 and 3 light casements. Set with sill at ground level is a 3 light timber glazing bar casement with a segmental head, above this a larger similar window with a transom. Roof hipped at outer angle of L. Rear of C17 range has an entrance, 3 light casements, ground floor cambered heads. Attached at left end of C17 range is a 1 storey outbuilding with dentilled eaves and a hipped slate roof. Interior: stop chamfered binding beams, 4 centred arched doors to original screens passage. Mid C18 staircase with vase balusters and moulded handrail. Cambered tie beams to queen struts to collars clasping purlins, curved windbraces, braces in walling. (VCH 1908: RCHM Typescript). Listing NGR: TL0841104101"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-03T00:00:00Z"
+      }
+    }
+  ]
+}

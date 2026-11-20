@@ -1,0 +1,239 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174125.json",
+  "type": "HumanMadeObject",
+  "_label": "Moat Cottage Facing Onto Water Lane (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Moat Cottage Facing Onto Water Lane"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174125"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07539 02721"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157698"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468846"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174125",
+    "type": "Place",
+    "_label": "Kings Langley (TL 07539 02721)",
+    "defined_by": "POINT(-0.444869 51.712923)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174125",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174125",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468846",
+      "type": "HumanMadeObject",
+      "_label": "Moat Cottage Facing Onto Water Lane (Q26468846)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174125",
+    "type": "Production",
+    "_label": "Origin / Construction of Moat Cottage Facing Onto Water Lane (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1700",
+      "begin_of_the_begin": "1700-01-01T00:00:00Z",
+      "end_of_the_end": "1700-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174125-1",
+      "type": "Modification",
+      "_label": "c. 1700: C17 or earlier SE block with 3 later C17 uniform gabled lower W extensions in a row, brick casing to SE block on E and S c.1700, C18 NE gamb…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1700",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1700-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174125-2",
+      "type": "Modification",
+      "_label": "C18: C17 or earlier SE block with 3 later C17 uniform gabled lower W extensions in a row, brick casing to SE block on E and S c.1700, C18 NE gamb…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174125-3",
+      "type": "Modification",
+      "_label": "C19: C17 or earlier SE block with 3 later C17 uniform gabled lower W extensions in a row, brick casing to SE block on E and S c.1700, C18 NE gamb…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174125-4",
+      "type": "Modification",
+      "_label": "c. 1960: C17 or earlier SE block with 3 later C17 uniform gabled lower W extensions in a row, brick casing to SE block on E and S c.1700, C18 NE gamb…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1960",
+        "begin_of_the_begin": "1960-01-01T00:00:00Z",
+        "end_of_the_end": "1960-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1174125",
+      "type": "VisualItem",
+      "_label": "Photograph of Moat Cottage Facing Onto Water Lane (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1174125",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Moat Cottage Facing Onto Water Lane",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Moat%20Cottage%20Facing%20Onto%20Water%20Lane.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tWATERSIDE TL 0702  \t\t\t\t                 \t(East side)                                        13/164                                  \tNos. 28, 28A, 30, and -                                       \tMoat Cottage facing                                        \t\tonto Water Lane GV                                      \tII House, now 3 commercial properties and a house. C17 or earlier SE block with 3 later C17 uniform gabled lower W extensions in a row, brick casing to SE block on E and S c.1700, C18 NE gambrel roofed extension (now part of Moat Cottage), C19 low NW extension to No.30, (NE block of Moat Cottage c.1960 not of special interest). Timber frames roughcast, but dark weatherboarding to Moat Cottage and rear gables of SE block. Tilehung gables to W front with scalloped tiles. Roughcast brick casing to SE block. Old red tile roofs, hipped at SE and gambrel roof to older part of Moat Cottage. Symmetrical E front 3 windows wide with central door.  Recessed sash windows with 6/6 panes in tall openings with segmental heads.  Door with rectangular  fanlight.  Gabled dormer on gambrel roof of weatherboarded range projecting on N. 3-gabled W front has low black stucco plinth, smooth plaster apron and roughcast walls. One window to each floor in each part.  3:2:3-light flush casement windows. Half glazed doors to shops at Nos. 28A and 30. S shop with S side entrance has exposed beams and C18 ceiling cornice. Listing NGR: TL0753902721"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

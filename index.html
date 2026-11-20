@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NHLE Linked Art 1.0 Explorer &mdash; @micropasts/linked-art-viewer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Dismissible OGL v3.0 & Historic England Non-Endorsement Modal -->
+  <div id="oglNoticeModal" role="dialog" aria-modal="true" aria-labelledby="oglModalTitle" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-xs items-center justify-center p-4">
+    <div class="max-w-lg w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl overflow-hidden">
+      <div class="px-5 py-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <h2 id="oglModalTitle" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-slate-100">
+            Data Provenance &amp; Open Government Licence v3.0
+          </h2>
+        </div>
+        <button id="closeOglModalX" type="button" aria-label="Close notice" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="p-5 space-y-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+        <p>
+          This application contains enriched cultural heritage data derived from <strong>Historic England</strong> (National Heritage List for England), licensed under the
+          <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener noreferrer" class="text-sky-600 dark:text-sky-400 font-medium underline hover:text-sky-500">
+            Open Government Licence v3.0 (OGL v3)
+          </a>.
+        </p>
+        <p class="p-3 rounded-lg bg-amber-50/80 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/70 text-amber-900 dark:text-amber-200 text-xs">
+          <strong>Disclaimer:</strong> This is an independent research and open-data prototype. It is <strong>not endorsed, sponsored, or affiliated with Historic England</strong>. Always consult the official National Heritage List for England entry for statutory and legal decisions.
+        </p>
+        <p class="text-xs text-slate-500 dark:text-slate-400">
+          Linked Art v1.0 JSON-LD transformations, Getty AAT material mappings, OSGB36-to-WGS84 coordinate conversions, and Wikidata/Wikimedia Commons links are generated automatically.
+        </p>
+      </div>
+
+      <div class="px-5 py-3.5 bg-slate-50 dark:bg-slate-950/60 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
+        <button id="dismissAndTourBtn" type="button" class="px-3 py-1.5 text-xs font-medium rounded-md border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+          Acknowledge &amp; Start Tour
+        </button>
+        <button id="dismissOglBtn" type="button" class="px-4 py-1.5 text-xs font-semibold rounded-md bg-sky-700 hover:bg-sky-600 text-white transition-colors">
+          Acknowledge &amp; Continue
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+          }
+        }
+      }
+    };
+  </script>
+  <!-- MapLibre GL for Spatial Place & Surrounding Assets Preview -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <!-- Intro.js Guided Tour -->
+  <link rel="stylesheet" href="https://unpkg.com/intro.js@7.2.0/minified/introjs.min.css" />
+  <script src="https://unpkg.com/intro.js@7.2.0/minified/intro.min.js"></script>
+  <style>
+    .dark .introjs-tooltip {
+      background-color: #0f172a;
+      color: #f1f5f9;
+      border: 1px solid #334155;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+    }
+    .dark .introjs-tooltiptext {
+      color: #cbd5e1;
+      font-size: 0.825rem;
+      line-height: 1.5;
+    }
+    .dark .introjs-tooltip-title {
+      color: #f8fafc;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+    .dark .introjs-arrow.top, .dark .introjs-arrow.top-right, .dark .introjs-arrow.top-middle {
+      border-bottom-color: #0f172a;
+    }
+    .dark .introjs-arrow.bottom, .dark .introjs-arrow.bottom-right, .dark .introjs-arrow.bottom-middle {
+      border-top-color: #0f172a;
+    }
+    .dark .introjs-arrow.left {
+      border-right-color: #0f172a;
+    }
+    .dark .introjs-arrow.right {
+      border-left-color: #0f172a;
+    }
+    .dark .introjs-button {
+      background-color: #1e293b;
+      color: #e2e8f0;
+      border: 1px solid #334155;
+      text-shadow: none;
+      font-size: 0.75rem;
+      border-radius: 0.375rem;
+    }
+    .dark .introjs-button:hover {
+      background-color: #334155;
+      color: #ffffff;
+    }
+    .dark .introjs-nextbutton, .dark .introjs-donebutton {
+      background-color: #0369a1;
+      border-color: #0284c7;
+      color: #ffffff;
+    }
+    .dark .introjs-nextbutton:hover, .dark .introjs-donebutton:hover {
+      background-color: #0284c7;
+    }
+    .dark .introjs-skipbutton {
+      color: #94a3b8;
+    }
+    .dark .introjs-helperLayer {
+      box-shadow: rgba(2, 6, 23, 0.75) 0px 0px 0px 5000px !important;
+      border: 1px solid #38bdf8;
+    }
+  </style>
+  <!-- @micropasts/linked-art-viewer UMD bundle + scoped stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/@micropasts/linked-art-viewer/dist/linked-art-viewer.css" />
+  <script src="https://unpkg.com/@micropasts/linked-art-viewer/dist/linked-art-viewer.umd.cjs"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-150 min-h-screen flex flex-col">
+
+  <!-- Compact Top Header -->
+  <header class="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 sticky top-0 z-30">
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <!-- Refined Heritage Pediment + Linked Art Graph Node Emblem -->
+        <div class="w-9 h-9 rounded-lg bg-slate-900 dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700/80 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 12.5L16 5.5L27 12.5H5Z" class="stroke-amber-500 dark:stroke-amber-400" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M6.5 25.5H25.5" class="stroke-slate-400 dark:stroke-slate-400" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M9.5 12.5V25.5M16 12.5V25.5M22.5 12.5V25.5" class="stroke-slate-300 dark:stroke-slate-300" stroke-width="1.7" stroke-linecap="round"/>
+            <path d="M9.5 18.5L16 15.5L22.5 20.5" class="stroke-sky-400" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="16" cy="5.5" r="2" class="fill-amber-400"/>
+            <circle cx="9.5" cy="18.5" r="2.1" class="fill-sky-400 stroke-slate-900" stroke-width="0.8"/>
+            <circle cx="16" cy="15.5" r="2.1" class="fill-emerald-400 stroke-slate-900" stroke-width="0.8"/>
+            <circle cx="22.5" cy="20.5" r="2.1" class="fill-rose-400 stroke-slate-900" stroke-width="0.8"/>
+          </svg>
+        </div>
+
+        <div class="truncate">
+          <div class="flex items-center gap-2">
+            <h1 class="text-sm sm:text-base font-semibold tracking-tight truncate">NHLE Linked Art 1.0</h1>
+            <span class="hidden md:inline-flex items-center px-2 py-0.5 rounded text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
+              @micropasts/linked-art-viewer
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button
+          id="startTourBtn"
+          type="button"
+          title="Start guided interface tour"
+          class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded-md border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+        >
+          <svg class="w-3.5 h-3.5 text-sky-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>
+          </svg>
+          <span>Tour</span>
+        </button>
+        <button
+          id="openNoticeBtn"
+          type="button"
+          title="View Open Government Licence v3.0 & data attribution notice"
+          class="hidden md:inline-flex items-center gap-1 px-2.5 py-1.5 text-xs font-medium rounded-md border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+        >
+          <span>OGL v3 Notice</span>
+        </button>
+
+        <form id="lookupForm" class="flex items-center">
+          <label for="nhleInput" class="sr-only">NHLE List Entry ID</label>
+          <input
+            id="nhleInput"
+            type="text"
+            placeholder="Resolve NHLE ID..."
+            class="w-36 sm:w-44 text-xs px-2.5 py-1.5 rounded-l-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:ring-1 focus:ring-sky-500"
+          />
+          <button
+            type="submit"
+            class="px-2.5 py-1.5 text-xs font-medium rounded-r-md bg-sky-700 hover:bg-sky-600 text-white border border-sky-700 transition-colors"
+          >
+            Go
+          </button>
+        </form>
+
+        <button
+          id="themeToggle"
+          type="button"
+          title="Toggle light/dark mode"
+          class="p-1.5 rounded-md border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+        >
+          <svg class="w-4 h-4 hidden dark:block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+          </svg>
+          <svg class="w-4 h-4 block dark:hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Compact Filter Control Bar -->
+  <section id="filterToolbar" aria-label="Filter Controls" class="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 py-2.5 flex flex-wrap items-center gap-2">
+      <div class="relative flex-1 min-w-[200px] max-w-xs">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Filter name, NGR, locality, architect..."
+          class="w-full text-xs px-3 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:ring-1 focus:ring-sky-500"
+        />
+      </div>
+
+      <select id="gradeSelect" aria-label="Grade" class="text-xs px-2.5 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200">
+        <option value="">All Grades</option>
+      </select>
+
+      <select id="placeSelect" aria-label="Locality" class="text-xs px-2.5 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 max-w-[180px]">
+        <option value="">All Localities</option>
+      </select>
+
+      <select id="materialSelect" aria-label="Material (Getty AAT)" class="text-xs px-2.5 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 max-w-[180px]">
+        <option value="">All Materials (AAT)</option>
+      </select>
+
+      <select id="architectSelect" aria-label="Architect or Maker" class="text-xs px-2.5 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 max-w-[190px]">
+        <option value="">All Architects / Makers</option>
+      </select>
+
+      <select id="periodSelect" aria-label="Period" class="text-xs px-2.5 py-1.5 rounded-md border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 max-w-[160px]">
+        <option value="">All Periods</option>
+      </select>
+
+      <label class="inline-flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 px-2 py-1.5 rounded-md border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 cursor-pointer select-none">
+        <input id="hasImageOnly" type="checkbox" class="rounded text-sky-600 focus:ring-0" />
+        <span>Has photo</span>
+      </label>
+
+      <div class="ml-auto flex items-center gap-2">
+        <span id="resultCount" class="text-xs font-mono text-slate-500 dark:text-slate-400"></span>
+        <button id="resetFilters" type="button" class="hidden text-xs text-sky-600 dark:text-sky-400 hover:underline font-medium">
+          Clear
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Viewer-First Two-Column Workbench -->
+  <main class="flex-1 max-w-[1440px] w-full mx-auto px-4 sm:px-6 py-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+
+    <!-- Left Rail: Clean Scrollable Asset List -->
+    <aside id="assetSidebar" class="lg:col-span-4 xl:col-span-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col max-h-[calc(100vh-8.5rem)]">
+      <div class="px-3.5 py-2.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50/60 dark:bg-slate-900">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Assets</span>
+        <span class="text-[11px] font-mono text-slate-400">HumanMadeObject</span>
+      </div>
+      <div id="assetList" class="divide-y divide-slate-100 dark:divide-slate-800/80 overflow-y-auto flex-1"></div>
+      <div id="loadMoreBar" class="hidden p-2 border-t border-slate-200 dark:border-slate-800 text-center bg-slate-50 dark:bg-slate-900">
+        <button id="loadMoreBtn" type="button" class="text-xs text-sky-600 dark:text-sky-400 hover:underline font-medium">
+          Show more records
+        </button>
+      </div>
+    </aside>
+
+    <!-- Right Stage: Context Strip (Photo + Map + Dossier + Timeline) & LinkedArtViewer -->
+    <section class="lg:col-span-8 xl:col-span-9 space-y-3">
+
+      <!-- Active Asset Header -->
+      <div id="activeHeaderCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+        <div class="min-w-0">
+          <div class="flex items-center gap-2">
+            <span id="activeGrade" class="px-2 py-0.5 text-[11px] font-semibold rounded bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-300">Grade II</span>
+            <h2 id="activeTitle" class="font-semibold text-sm sm:text-base truncate">The Market House</h2>
+            <span id="imageBadge" class="hidden px-2 py-0.5 text-[11px] font-medium rounded bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300">
+              Commons Image
+            </span>
+          </div>
+          <div id="outboundLinks" class="flex flex-wrap items-center gap-1.5 mt-1.5 text-xs"></div>
+        </div>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+            Hide Context Panel
+          </button>
+          <button id="copyLinkBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy shareable HTML page link for this entity">
+            Share Link
+          </button>
+          <button id="copyUriBtn" type="button" class="px-2.5 py-1.5 text-xs font-mono rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="Copy Linked Art JSON-LD URI">
+            Copy JSON URI
+          </button>
+          <button id="downloadJsonBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded bg-sky-700 hover:bg-sky-600 text-white">
+            Download JSON-LD
+          </button>
+        </div>
+      </div>
+
+      <!-- Collapsible Context Panel: 3-Card Top Row + Interactive Linked Art Chronology Timeline -->
+      <div id="contextStrip" class="space-y-3">
+
+        <!-- Top 3 Cards: Media + Place Map + Linked Art Dossier -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
+          <!-- Card 1: Wikimedia Commons Representation (`representation`) -->
+          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
+              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">VisualItem (Commons)</span>
+              <a id="commonsFileLink" href="#" target="_blank" rel="noopener noreferrer" class="hidden text-sky-600 dark:text-sky-400 hover:underline font-medium">
+                File &amp; License &nearr;
+              </a>
+            </div>
+            <div id="mediaBody" class="relative flex-1 min-h-[180px] bg-slate-100 dark:bg-slate-950 flex items-center justify-center overflow-hidden"></div>
+          </div>
+
+          <!-- Card 2: Spatial Location (`current_location.defined_by`) -->
+          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
+              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Place (WGS84 / OSGB36)</span>
+              <span id="wktCoordsLabel" class="font-mono text-slate-400 truncate max-w-[150px]"></span>
+            </div>
+            <div id="miniMap" class="w-full flex-1 min-h-[180px]"></div>
+          </div>
+
+          <!-- Card 3: Linked Art Semantic Dossier -->
+          <div class="md:col-span-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+            <div class="px-3 py-2 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px]">
+              <span class="font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Linked Art Dossier</span>
+              <span id="designationDateLabel" class="font-mono text-slate-400"></span>
+            </div>
+            <div class="p-3 space-y-2.5 flex-1 overflow-y-auto max-h-[200px] text-xs">
+              <div id="productionRow" class="hidden">
+                <div class="text-[10px] font-mono uppercase text-slate-400">produced_by</div>
+                <div id="productionValue" class="font-medium text-slate-800 dark:text-slate-200 mt-0.5"></div>
+              </div>
+              <div>
+                <div class="text-[10px] font-mono uppercase text-slate-400">made_of (Getty AAT)</div>
+                <div id="aatMaterialsList" class="flex flex-wrap gap-1 mt-1"></div>
+              </div>
+              <div>
+                <div class="text-[10px] font-mono uppercase text-slate-400">referred_to_by</div>
+                <p id="dossierText" class="text-[11px] leading-relaxed text-slate-600 dark:text-slate-300 mt-0.5 line-clamp-4"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Linked Art Chronology & Lifecycle Timeline (`produced_by`, `modified_by`, `attributed_by`) -->
+        <div id="timelineCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-3">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Chronology &amp; Statutory Lifecycle</span>
+              <span class="text-[11px] font-mono text-slate-400">(TimeSpan nodes)</span>
+            </div>
+            <div class="flex items-center gap-3 text-[10px] text-slate-500 dark:text-slate-400">
+              <span class="inline-flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-500"></span>Production</span>
+              <span class="inline-flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-purple-500"></span>Modification</span>
+              <span class="inline-flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-sky-500"></span>Statutory Listing</span>
+            </div>
+          </div>
+          <div id="timelineTrack" class="relative overflow-x-auto pb-1"></div>
+        </div>
+
+      </div>
+
+      <!-- @micropasts/linked-art-viewer Container -->
+      <div id="viewer" class="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm"></div>
+    </section>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageLightbox" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-xs items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-slate-900 border border-slate-700 rounded-xl overflow-hidden shadow-2xl">
+      <div class="px-4 py-2.5 border-b border-slate-800 flex items-center justify-between text-xs text-slate-300">
+        <span id="lightboxCaption" class="font-medium truncate"></span>
+        <div class="flex items-center gap-3">
+          <a id="lightboxCommonsLink" href="#" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">Open on Wikimedia Commons &nearr;</a>
+          <button id="closeLightboxBtn" type="button" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-200">Close</button>
+        </div>
+      </div>
+      <div class="bg-black flex items-center justify-center max-h-[80vh] overflow-auto">
+        <img id="lightboxImg" src="" alt="" class="max-h-[78vh] w-auto object-contain" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SEED_CATALOG = [{"id": "1083558", "name": "The Market House", "grade": "II", "place": "Tring", "ngr": "SP 92338 11368", "materials": ["Stone / Limestone", "Brick", "Wood (Timber)", "Lead", "Tile (Terracotta)", "Earth / Render"], "periods": ["Unassigned Period"], "architects": ["William Huckvale"], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.793353, "lon": -0.662526, "uri": "api/object/108/1083558.json"}, {"id": "1100418", "name": "Hill Farmhouse", "grade": "II", "place": "Kings Langley", "ngr": "TL 06513 02858", "materials": ["Brick", "Wood (Timber)", "Tile (Terracotta)"], "periods": ["16th Century", "19th Century"], "architects": [], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.71435, "lon": -0.459671, "uri": "api/object/110/1100418.json"}, {"id": "1124875", "name": "Mermaid Cottage", "grade": "II", "place": "Cholesbury-cum-St Leonards", "ngr": "SP 93581 07008", "materials": ["Flint", "Brick", "Wood (Timber)", "Tile (Terracotta)"], "periods": ["17th Century", "18th Century"], "architects": [], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.753956, "lon": -0.645682, "uri": "api/object/112/1124875.json"}];
+    const SEED_DOCS = {"1083558": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/108/1083558.json", "type": "HumanMadeObject", "_label": "The Market House (Tring)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "The Market House"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1083558"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "SP 92338 11368"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "355682"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558", "type": "Place", "_label": "Tring (SP 92338 11368)", "defined_by": "POINT(-0.662526 51.793353)"}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1083558", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1083558", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1083558", "type": "Production", "_label": "Origin / Construction of The Market House (1898)", "carried_out_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/person/william-huckvale", "type": "Person", "_label": "William Huckvale"}], "timespan": {"type": "TimeSpan", "_label": "1898", "begin_of_the_begin": "1898-01-01T00:00:00Z", "end_of_the_end": "1898-12-31T23:59:59Z"}}, "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-1", "type": "Modification", "_label": "after 1910: Open ground floor enclosed after 1910.", "timespan": {"type": "TimeSpan", "_label": "after 1910", "begin_of_the_begin": "1910-01-01T00:00:00Z", "end_of_the_end": "1910-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-2", "type": "Modification", "_label": "1914: (Kelly(1914)250).", "timespan": {"type": "TimeSpan", "_label": "1914", "begin_of_the_begin": "1914-01-01T00:00:00Z", "end_of_the_end": "1914-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300011692", "type": "Material", "_label": "Stone / Limestone"}, {"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010900", "type": "Material", "_label": "Lead"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}, {"id": "http://vocab.getty.edu/aat/300011002", "type": "Material", "_label": "Earth / Render"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "TRING                  AKEMAN STREET SP 9211                                         (West side) 11/45                                   No. 99 -                                       (The Market House) GV                                      II Market house, now offices. 1898, by William Huckvale, built by public subscription on site presented by Lord Rothschild when former Market House in front of Church demolished. Open ground floor enclosed after 1910. Timber frame formerly open ground floor with oak posts on moulded stone bases, jettied half-timbered 1st floor with roughcast panels and steep red tile roof, central cupola and finial. Half-timbered infill to ground floor and doors to High Street. Lower 2-storeys part at S end with red brick gable chimney. Entrance and stair on W side of High Street frontage giving access to Council Chamber on 1st floor with large rectangular 6-light oriel window on that end, 6-light large transomed leaded window below gable in middle of E side. Includes No. 61 High Street. (Kelly(1914)250). Listing NGR: SP9233811368"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1986-05-29T00:00:00Z"}}]}, "1100418": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100418.json", "type": "HumanMadeObject", "_label": "Hill Farmhouse (Kings Langley)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "Hill Farmhouse"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1100418"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "TL 06513 02858"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "157692"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100418", "type": "Place", "_label": "Kings Langley (TL 06513 02858)", "defined_by": "POINT(-0.459671 51.71435)"}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1100418", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1100418", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100418", "type": "Production", "_label": "Origin / Construction of Hill Farmhouse (Late C16)", "timespan": {"type": "TimeSpan", "_label": "1772", "begin_of_the_begin": "1772-01-01T00:00:00Z", "end_of_the_end": "1772-12-31T23:59:59Z"}}, "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100418-1", "type": "Modification", "_label": "1772: Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19.", "timespan": {"type": "TimeSpan", "_label": "1772", "begin_of_the_begin": "1772-01-01T00:00:00Z", "end_of_the_end": "1772-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100418-2", "type": "Modification", "_label": "C19: Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19.", "timespan": {"type": "TimeSpan", "_label": "C19", "begin_of_the_begin": "1800-01-01T00:00:00Z", "end_of_the_end": "1899-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "KINGS LANGLEY          \tLOVE LANE TL 00 SE \t\t\t\t\t(West side)                                         7/161                                   \tHill Farmhouse - -                                       \tII Farmhouse. Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19. Timber frame on brick sill, red brick infill to rear wing, red brick casing to S range. Steep old red tile roof. A 2-storeys attics and cellar L-shaped house facing S with long rear wing at NW. Large internal chimney at junction of wings. 4 windows front with 3-light casements to 1st floor and 2 recessed sash windows with 8/8 panes and cambered arches to ground floor with gabled tiled porch with 4 centred arch. Straight joint in brickwork of front to LH of porch suggesting different builds to brick casing. Timber framed walls with wide panels, jowled posts, clasped purlin roof and curved windbraces. Listing NGR: TL0651302858"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1986-12-02T00:00:00Z"}}]}, "1124875": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124875.json", "type": "HumanMadeObject", "_label": "Mermaid Cottage (Cholesbury-cum-St Leonards)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "Mermaid Cottage"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1124875"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "SP 93581 07008"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "44679"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124875", "type": "Place", "_label": "Cholesbury-cum-St Leonards (SP 93581 07008)", "defined_by": "POINT(-0.645682 51.753956)"}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1124875", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1124875", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124875", "type": "Production", "_label": "Origin / Construction of Mermaid Cottage (C17)", "timespan": {"type": "TimeSpan", "_label": "C17", "begin_of_the_begin": "1600-01-01T00:00:00Z", "end_of_the_end": "1699-12-31T23:59:59Z"}}, "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124875-1", "type": "Modification", "_label": "C18: C17 refronted, raised and extended C18.", "timespan": {"type": "TimeSpan", "_label": "C18", "begin_of_the_begin": "1700-01-01T00:00:00Z", "end_of_the_end": "1799-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124875-2", "type": "Modification", "_label": "Late C18: Late C18 rear extension flint and brick, old tile roof paralled to main roof.", "timespan": {"type": "TimeSpan", "_label": "Late C18", "begin_of_the_begin": "1767-01-01T00:00:00Z", "end_of_the_end": "1799-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300011229", "type": "Material", "_label": "Flint"}, {"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "SP 90 NW      CHOLESBURY-CUM-ST. LEONARDS      HAWRIDGE                                                (north side) 2/76                                           Mermaid Cottage - -                                              II Small house formerly an inn.  C17 refronted, raised and extended C18. Rubble flint with brick bands forming panels.  Old tile roof, central chimney, dentil brick eaves.  Two storeys, three bays with fourth bay on right added recently in matching materials and windows.  Original doorway opposite stack, now with 2-light casement window.  Present door to left with modern lean-to tiled canopy.  Three ground floor casements, all openings with segmental brick arches.  Three Yorkshire sashes to first floor.  Late C18 rear extension flint and brick, old tile roof paralled to main roof.  Interior: large stack with inglenook to central room, chamfered spine beams, timber frame in rear wall with curved braces.  Evidence of eaves being raised up in C18. Listing NGR: SP9358107008"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1983-11-23T00:00:00Z"}}]}};
+
+    let catalog = [...SEED_CATALOG];
+    let docsCache = { ...SEED_DOCS };
+    let activeId = catalog[0]?.id || '';
+    let renderLimit = 100;
+    let viewerInstance = null;
+    let mapInstance = null;
+    let activeMarker = null;
+    let contextVisible = true;
+
+    const state = {
+      q: '',
+      grade: '',
+      place: '',
+      material: '',
+      architect: '',
+      period: '',
+      hasImage: false,
+    };
+
+    const ViewerClass = (window.LinkedArtViewer && window.LinkedArtViewer.LinkedArtViewer) || window.LinkedArtViewer;
+
+    function initViewer() {
+      if (typeof ViewerClass !== 'function') {
+        document.getElementById('viewer').innerHTML =
+          '<div class="p-6 text-sm text-rose-500 bg-slate-900">Could not load @micropasts/linked-art-viewer UMD bundle from unpkg.</div>';
+        return;
+      }
+      const initialTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+      viewerInstance = new ViewerClass('#viewer', {
+        data: docsCache[activeId],
+        theme: initialTheme,
+        showUrlInput: true,
+        height: '560px',
+      });
+    }
+
+    document.getElementById('toggleContextBtn').addEventListener('click', () => {
+      contextVisible = !contextVisible;
+      document.getElementById('contextStrip').classList.toggle('hidden', !contextVisible);
+      document.getElementById('toggleContextBtn').textContent = contextVisible ? 'Hide Context Panel' : 'Show Context Panel';
+      if (contextVisible && mapInstance) {
+        setTimeout(() => mapInstance.resize(), 50);
+      }
+    });
+
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      if (viewerInstance && typeof viewerInstance.setTheme === 'function') {
+        viewerInstance.setTheme(isDark ? 'dark' : 'light');
+      }
+      if (mapInstance) {
+        mapInstance.setStyle(isDark
+          ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
+          : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json');
+      }
+    });
+
+    function populateSelect(selectId, entries, defaultLabel) {
+      const sel = document.getElementById(selectId);
+      const current = sel.value;
+      sel.innerHTML = `<option value="">${defaultLabel}</option>` +
+        entries.map(([val, count]) => `<option value="${val.replace(/"/g, '&quot;')}">${val} (${count})</option>`).join('');
+      if (current) sel.value = current;
+    }
+
+    function countField(key) {
+      const counts = {};
+      catalog.forEach(item => {
+        const vals = Array.isArray(item[key]) ? item[key] : [item[key]];
+        vals.filter(Boolean).forEach(v => {
+          counts[v] = (counts[v] || 0) + 1;
+        });
+      });
+      return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    }
+
+    function refreshDropdowns() {
+      populateSelect('gradeSelect', countField('grade'), 'All Grades');
+      populateSelect('placeSelect', countField('place'), 'All Localities');
+      populateSelect('materialSelect', countField('materials'), 'All Materials (AAT)');
+      populateSelect('architectSelect', countField('architects'), 'All Architects / Makers');
+      populateSelect('periodSelect', countField('periods'), 'All Periods');
+    }
+
+    function getFiltered() {
+      const q = state.q.toLowerCase();
+      return catalog.filter(item => {
+        if (state.grade && item.grade !== state.grade) return false;
+        if (state.place && item.place !== state.place) return false;
+        if (state.material && !(item.materials || []).includes(state.material)) return false;
+        if (state.architect && !(item.architects || []).includes(state.architect)) return false;
+        if (state.period && !(item.periods || []).includes(state.period)) return false;
+        if (state.hasImage && !item.hasImage) return false;
+        if (q) {
+          const hay = `${item.id} ${item.name} ${item.place} ${item.ngr || ''} ${(item.architects || []).join(' ')}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    function hasActiveFilters() {
+      return Boolean(state.q || state.grade || state.place || state.material || state.architect || state.period || state.hasImage);
+    }
+
+    function renderList() {
+      const filtered = getFiltered();
+      document.getElementById('resultCount').textContent = `${filtered.length} / ${catalog.length}`;
+      document.getElementById('resetFilters').classList.toggle('hidden', !hasActiveFilters());
+
+      const listEl = document.getElementById('assetList');
+      const loadMoreBar = document.getElementById('loadMoreBar');
+
+      if (!filtered.length) {
+        listEl.innerHTML = `<div class="p-6 text-center text-xs text-slate-500">No matching assets.</div>`;
+        loadMoreBar.classList.add('hidden');
+        return;
+      }
+
+      const slice = filtered.slice(0, renderLimit);
+      listEl.innerHTML = slice.map(item => {
+        const selected = item.id === activeId;
+        const rowCls = selected
+          ? 'bg-sky-50/80 dark:bg-sky-950/40 border-l-2 border-l-sky-500'
+          : 'hover:bg-slate-50 dark:hover:bg-slate-800/50';
+        const imgDot = item.hasImage ? '<span title="Commons image available" class="w-1.5 h-1.5 rounded-full bg-rose-500 inline-block"></span>' : '';
+        const wdTag = item.wikidataQid ? `<span class="text-[10px] font-mono text-indigo-400">${item.wikidataQid}</span>` : '';
+        return `
+          <button type="button" data-id="${item.id}" class="asset-card w-full text-left px-3.5 py-2.5 transition-colors block ${rowCls}">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
+                #${item.id} ${imgDot} ${wdTag}
+              </span>
+              <span class="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                ${item.grade === 'SM' ? 'SM' : 'Gr ' + item.grade}
+              </span>
+            </div>
+            <div class="text-xs font-medium text-slate-900 dark:text-slate-100 truncate mt-0.5">${item.name}</div>
+            <div class="text-[11px] text-slate-500 dark:text-slate-400 truncate">${item.place}</div>
+          </button>
+        `;
+      }).join('');
+
+      if (filtered.length > renderLimit) {
+        loadMoreBar.classList.remove('hidden');
+        document.getElementById('loadMoreBtn').textContent = `Show more (${filtered.length - renderLimit} remaining)`;
+      } else {
+        loadMoreBar.classList.add('hidden');
+      }
+
+      document.querySelectorAll('.asset-card').forEach(card => {
+        card.addEventListener('click', () => selectAsset(card.dataset.id));
+      });
+    }
+
+    document.getElementById('loadMoreBtn').addEventListener('click', () => {
+      renderLimit += 100;
+      renderList();
+    });
+
+    function commonsFilePageUrl(rawImageUrl) {
+      if (!rawImageUrl) return '';
+      try {
+        const filename = decodeURIComponent(rawImageUrl.split('/').pop().replace(/^\d+px-/, ''));
+        return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(filename)}`;
+      } catch (e) {
+        return rawImageUrl;
+      }
+    }
+
+    function renderMediaCard(doc, primaryName) {
+      const mediaBody = document.getElementById('mediaBody');
+      const fileLink = document.getElementById('commonsFileLink');
+      const rep = (doc.representation || [])[0];
+      const imgUrl = rep?.digitally_shown_by?.[0]?.access_point?.[0]?.id || '';
+
+      if (imgUrl) {
+        const filePage = commonsFilePageUrl(imgUrl);
+        fileLink.href = filePage;
+        fileLink.classList.remove('hidden');
+        mediaBody.innerHTML = `
+          <button type="button" id="openLightboxBtn" class="group relative w-full h-full flex items-center justify-center focus:outline-none">
+            <img src="${imgUrl}" alt="${primaryName}" class="w-full h-[180px] object-cover group-hover:opacity-90 transition-opacity" loading="lazy" />
+            <span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-slate-950/80 text-[10px] font-medium text-white opacity-90 group-hover:opacity-100">
+              Expand &nearr;
+            </span>
+          </button>
+        `;
+        document.getElementById('openLightboxBtn').addEventListener('click', () => {
+          document.getElementById('lightboxImg').src = imgUrl;
+          document.getElementById('lightboxImg').alt = primaryName;
+          document.getElementById('lightboxCaption').textContent = `${primaryName} (NHLE #${activeId})`;
+          document.getElementById('lightboxCommonsLink').href = filePage;
+          document.getElementById('imageLightbox').classList.remove('hidden');
+          document.getElementById('imageLightbox').classList.add('flex');
+        });
+      } else {
+        fileLink.classList.add('hidden');
+        const searchQuery = encodeURIComponent(`${primaryName} ${activeId}`);
+        mediaBody.innerHTML = `
+          <div class="p-4 text-center space-y-2">
+            <p class="text-[11px] text-slate-500 dark:text-slate-400">No Wikidata <code>P18</code> image linked yet.</p>
+            <a href="https://commons.wikimedia.org/w/index.php?search=${searchQuery}&title=Special:MediaSearch&type=image" target="_blank" rel="noopener noreferrer" class="inline-block px-2.5 py-1 rounded text-[11px] font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-sky-700 hover:text-white transition-colors">
+              Search Wikimedia Commons &nearr;
+            </a>
+          </div>
+        `;
+      }
+    }
+
+    document.getElementById('closeLightboxBtn').addEventListener('click', () => {
+      document.getElementById('imageLightbox').classList.add('hidden');
+      document.getElementById('imageLightbox').classList.remove('flex');
+    });
+    document.getElementById('imageLightbox').addEventListener('click', (e) => {
+      if (e.target.id === 'imageLightbox') {
+        document.getElementById('imageLightbox').classList.add('hidden');
+        document.getElementById('imageLightbox').classList.remove('flex');
+      }
+    });
+
+    function renderMiniMap(doc) {
+      const wkt = doc.current_location?.defined_by || '';
+      const wktLabel = document.getElementById('wktCoordsLabel');
+      const match = wkt.match(/POINT\(([\-0-9.]+)\s+([\-0-9.]+)\)/);
+      if (!match) {
+        wktLabel.textContent = 'No coordinates';
+        return;
+      }
+      const lon = parseFloat(match[1]);
+      const lat = parseFloat(match[2]);
+      wktLabel.textContent = `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const styleUrl = isDark
+        ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
+        : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
+
+      if (!mapInstance) {
+        mapInstance = new maplibregl.Map({
+          container: 'miniMap',
+          style: styleUrl,
+          center: [lon, lat],
+          zoom: 14,
+          attributionControl: false
+        });
+        mapInstance.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+        activeMarker = new maplibregl.Marker({ color: '#f59e0b' }).setLngLat([lon, lat]).addTo(mapInstance);
+      } else {
+        mapInstance.flyTo({ center: [lon, lat], zoom: 14, essential: true });
+        if (activeMarker) activeMarker.setLngLat([lon, lat]);
+      }
+    }
+
+    function renderDossierCard(doc) {
+      const ts = (doc.attributed_by || [])[0]?.timespan;
+      const begin = ts?.begin_of_the_begin ? ts.begin_of_the_begin.slice(0, 10) : '';
+      document.getElementById('designationDateLabel').textContent = begin ? `Listed ${begin}` : '';
+
+      const prodRow = document.getElementById('productionRow');
+      const prodVal = document.getElementById('productionValue');
+      const prod = doc.produced_by;
+      if (prod && ((prod.carried_out_by && prod.carried_out_by.length) || prod.timespan)) {
+        const actors = (prod.carried_out_by || []).map(a => a._label).join(', ');
+        const span = prod.timespan?._label || '';
+        prodVal.textContent = [actors, span].filter(Boolean).join(' • ');
+        prodRow.classList.remove('hidden');
+      } else {
+        prodRow.classList.add('hidden');
+      }
+
+      const matsEl = document.getElementById('aatMaterialsList');
+      const mats = doc.made_of || [];
+      matsEl.innerHTML = mats.length
+        ? mats.map(m => `<button type="button" data-mat="${m._label}" class="aat-chip px-2 py-0.5 rounded text-[11px] bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:border-emerald-500 transition-colors" title="Filter by ${m._label} (${m.id})">${m._label}</button>`).join('')
+        : '<span class="text-[11px] text-slate-400">None tagged</span>';
+
+      document.querySelectorAll('.aat-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.material = btn.dataset.mat;
+          document.getElementById('materialSelect').value = state.material;
+          renderList();
+        });
+      });
+
+      const refs = doc.referred_to_by || [];
+      const primaryRef = refs.find(r => r.classified_as?.[0]?._label === 'Summary') || refs[0];
+      document.getElementById('dossierText').textContent = primaryRef?.content || 'No description text available.';
+    }
+
+    function extractTimelineEvents(doc) {
+      const events = [];
+
+      // 1. Primary Production (`produced_by`)
+      if (doc.produced_by) {
+        const p = doc.produced_by;
+        const ts = p.timespan || {};
+        const startYear = ts.begin_of_the_begin ? parseInt(ts.begin_of_the_begin.slice(0, 4), 10) : 9999;
+        const actors = (p.carried_out_by || []).map(a => a._label).join(', ');
+        events.push({
+          sortYear: startYear,
+          dateLabel: ts._label || (startYear !== 9999 ? String(startYear) : 'Origin'),
+          kind: 'production',
+          title: actors ? `Origin (${actors})` : 'Initial Construction',
+          detail: p._label || 'Original fabric & construction',
+        });
+      }
+
+      // 2. Subsequent Modifications (`modified_by`)
+      (doc.modified_by || []).forEach(m => {
+        const ts = m.timespan || {};
+        const startYear = ts.begin_of_the_begin ? parseInt(ts.begin_of_the_begin.slice(0, 4), 10) : 9999;
+        const rawLabel = m._label || '';
+        const colonIdx = rawLabel.indexOf(':');
+        const detail = colonIdx > -1 ? rawLabel.slice(colonIdx + 1).trim() : rawLabel;
+        events.push({
+          sortYear: startYear,
+          dateLabel: ts._label || (startYear !== 9999 ? String(startYear) : 'Alteration'),
+          kind: 'modification',
+          title: 'Alteration / Phase',
+          detail: detail || 'Recorded architectural modification',
+        });
+      });
+
+      // 3. Statutory Designation & Amendments (`attributed_by`)
+      (doc.attributed_by || []).forEach(attr => {
+        const ts = attr.timespan || {};
+        if (ts.begin_of_the_begin) {
+          const dStr = ts.begin_of_the_begin.slice(0, 10);
+          events.push({
+            sortYear: parseInt(dStr.slice(0, 4), 10),
+            dateLabel: dStr,
+            kind: 'statutory',
+            title: 'Statutory Listing',
+            detail: attr._label || 'Added to the National Heritage List for England',
+          });
+        }
+        if (ts.end_of_the_end) {
+          const dEnd = ts.end_of_the_end.slice(0, 10);
+          events.push({
+            sortYear: parseInt(dEnd.slice(0, 4), 10),
+            dateLabel: dEnd,
+            kind: 'statutory',
+            title: 'List Amendment',
+            detail: 'Most recent statutory list entry amendment',
+          });
+        }
+      });
+
+      return events.sort((a, b) => a.sortYear - b.sortYear);
+    }
+
+    function renderTimeline(doc) {
+      const track = document.getElementById('timelineTrack');
+      const events = extractTimelineEvents(doc);
+
+      if (!events.length) {
+        track.innerHTML = '<p class="text-xs text-slate-400">No dated events extracted for this record.</p>';
+        return;
+      }
+
+      const badgeStyles = {
+        production: 'border-amber-500/60 bg-amber-50/70 dark:bg-amber-950/30 text-amber-800 dark:text-amber-300 dot:bg-amber-500',
+        modification: 'border-purple-500/60 bg-purple-50/70 dark:bg-purple-950/30 text-purple-800 dark:text-purple-300 dot:bg-purple-500',
+        statutory: 'border-sky-500/60 bg-sky-50/70 dark:bg-sky-950/30 text-sky-800 dark:text-sky-300 dot:bg-sky-500',
+      };
+
+      const dotColor = {
+        production: 'bg-amber-500 ring-amber-500/25',
+        modification: 'bg-purple-500 ring-purple-500/25',
+        statutory: 'bg-sky-500 ring-sky-500/25',
+      };
+
+      track.innerHTML = `
+        <div class="relative flex items-stretch gap-3 min-w-max pt-2">
+          <div class="absolute left-4 right-4 top-[13px] h-0.5 bg-slate-200 dark:bg-slate-800 z-0"></div>
+          ${events.map((ev, idx) => `
+            <button type="button" data-ev-idx="${idx}" class="timeline-node relative z-10 w-52 text-left group focus:outline-none">
+              <div class="flex items-center gap-2 mb-1.5">
+                <span class="w-3 h-3 rounded-full ring-4 ${dotColor[ev.kind]} shrink-0"></span>
+                <span class="text-xs font-mono font-semibold text-slate-800 dark:text-slate-100">${ev.dateLabel}</span>
+              </div>
+              <div class="p-2.5 rounded-md border ${badgeStyles[ev.kind]} group-hover:brightness-110 transition-all h-[76px] flex flex-col justify-between">
+                <div class="text-[11px] font-semibold truncate">${ev.title}</div>
+                <p class="text-[11px] text-slate-600 dark:text-slate-300 line-clamp-2 leading-snug">${ev.detail}</p>
+              </div>
+            </button>
+          `).join('')}
+        </div>
+      `;
+
+      // Clicking a timeline milestone switches the LinkedArtViewer to Graph mode so the user can inspect the TimeSpan node
+      document.querySelectorAll('.timeline-node').forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (viewerInstance && typeof viewerInstance.setMode === 'function') {
+            viewerInstance.setMode('graph');
+          }
+        });
+      });
+    }
+
+    function updateHeaderMeta(doc) {
+      if (!doc) return;
+      const primaryName = (doc.identified_by || []).find(i => i.type === 'Name')?.content || doc._label;
+      const gradeConcept = (doc.classified_as || []).find(c => c.id && c.id.includes('/concept/'));
+      document.getElementById('activeTitle').textContent = primaryName;
+      document.title = `${primaryName} (NHLE #${activeId}) — NHLE Linked Art 1.0`;
+      document.getElementById('activeGrade').textContent = gradeConcept ? gradeConcept._label.replace(' Listed Building', '') : 'Listed';
+
+      const imgBadge = document.getElementById('imageBadge');
+      if (doc.representation && doc.representation.length > 0) {
+        imgBadge.classList.remove('hidden');
+      } else {
+        imgBadge.classList.add('hidden');
+      }
+
+      const linksEl = document.getElementById('outboundLinks');
+      const pills = [];
+
+      (doc.subject_of || []).forEach(s => {
+        let label = 'External Link';
+        if (s.id.includes('historicengland.org.uk')) label = 'Historic England';
+        else if (s.id.includes('wikipedia.org')) label = 'Wikipedia';
+        else if (s.id.includes('commons.wikimedia.org')) label = 'Commons Category';
+        else if (s.id.includes('geograph.org.uk')) label = 'Geograph UK';
+        pills.push(`<a href="${s.id}" target="_blank" rel="noopener noreferrer" class="px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 hover:bg-sky-50 dark:hover:bg-sky-950/60 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition-colors">${label} &nearr;</a>`);
+      });
+
+      (doc.equivalent || []).forEach(eq => {
+        const qid = eq.id.split('/').pop();
+        pills.push(`<a href="${eq.id}" target="_blank" rel="noopener noreferrer" class="px-2 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 hover:underline font-mono">Wikidata ${qid} &nearr;</a>`);
+      });
+
+      const catItem = catalog.find(c => c.id === activeId);
+      if (catItem && catItem.lat && catItem.lon) {
+        pills.push(`<a href="https://www.openstreetmap.org/?mlat=${catItem.lat}&mlon=${catItem.lon}#map=17/${catItem.lat}/${catItem.lon}" target="_blank" rel="noopener noreferrer" class="px-2 py-0.5 rounded bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 hover:underline">OpenStreetMap &nearr;</a>`);
+      }
+
+      linksEl.innerHTML = pills.join('');
+
+      renderMediaCard(doc, primaryName);
+      renderMiniMap(doc);
+      renderDossierCard(doc);
+      renderTimeline(doc);
+    }
+
+    async function enrichSingleWithWikidata(id) {
+      const doc = docsCache[id];
+      if (!doc || (doc.equivalent && doc.equivalent.length > 0)) return;
+      const query = `
+        PREFIX schema: <http://schema.org/>
+        SELECT ?item ?itemLabel ?image ?commonsCat ?geograph ?wikipedia WHERE {
+          ?item wdt:P1216 "${id}" .
+          OPTIONAL { ?item wdt:P18 ?image . }
+          OPTIONAL { ?item wdt:P373 ?commonsCat . }
+          OPTIONAL { ?item wdt:P1261 ?geograph . }
+          OPTIONAL { ?wikipedia schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> . }
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+        } LIMIT 1
+      `;
+      try {
+        const res = await fetch(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(query)}`);
+        if (!res.ok) return;
+        const payload = await res.json();
+        const b = payload.results?.bindings?.[0];
+        if (!b) return;
+
+        const qidUri = b.item.value;
+        const qid = qidUri.split('/').pop();
+        const label = b.itemLabel?.value || qid;
+        const imgUrl = b.image?.value ? b.image.value.replace(/^http:\/\//, 'https://') : '';
+        const commonsCat = b.commonsCat?.value
+          ? `https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(b.commonsCat.value.replace(/ /g, '_'))}`
+          : '';
+        const geographUrl = b.geograph?.value ? `https://www.geograph.org.uk/photo/${b.geograph.value}` : '';
+        const wikipediaUrl = b.wikipedia?.value || '';
+
+        doc.equivalent = [{ id: qidUri, type: 'HumanMadeObject', _label: `${label} (${qid})` }];
+        const addLink = (url, lbl) => {
+          if (url && !(doc.subject_of || []).some(s => s.id === url)) {
+            doc.subject_of.push({ id: url, type: 'LinguisticObject', _label: lbl, format: 'text/html' });
+          }
+        };
+        addLink(wikipediaUrl, `Wikipedia Article: ${label}`);
+        addLink(commonsCat, 'Wikimedia Commons Media Category');
+        addLink(geographUrl, 'Geograph Britain and Ireland Photograph Page');
+        if (imgUrl && !doc.representation) {
+          doc.representation = [{
+            id: `${window.location.origin}/api/visual/nhle-${id}`,
+            type: 'VisualItem',
+            _label: `Photograph of ${label} (Wikimedia Commons)`,
+            digitally_shown_by: [{
+              id: `${window.location.origin}/api/digital/nhle-${id}`,
+              type: 'DigitalObject',
+              format: 'image/jpeg',
+              access_point: [{ id: imgUrl, type: 'DigitalObject' }]
+            }]
+          }];
+        }
+
+        const catItem = catalog.find(c => c.id === id);
+        if (catItem) {
+          catItem.wikidataUri = qidUri;
+          catItem.wikidataQid = qid;
+          if (imgUrl) catItem.hasImage = true;
+        }
+
+        if (activeId === id) {
+          updateHeaderMeta(doc);
+          if (viewerInstance && typeof viewerInstance.setData === 'function') {
+            viewerInstance.setData(doc);
+          }
+          renderList();
+        }
+      } catch (e) {}
+    }
+
+    function getRequestedEntityId() {
+      const params = new URLSearchParams(window.location.search);
+      const qId = params.get('id') || params.get('nhle') || params.get('entry');
+      if (qId && /^\d+$/.test(qId.trim())) return qId.trim();
+      const hashId = window.location.hash.replace(/^#(?:id=)?/, '').trim();
+      if (hashId && /^\d+$/.test(hashId)) return hashId;
+      return '';
+    }
+
+    function syncUrlForEntity(id, replace = false) {
+      try {
+        const url = new URL(window.location.href);
+        url.searchParams.set('id', id);
+        url.hash = '';
+        if (replace) {
+          window.history.replaceState({ id }, '', url.toString());
+        } else if (window.location.search !== url.search) {
+          window.history.pushState({ id }, '', url.toString());
+        }
+      } catch (e) {}
+    }
+
+    async function selectAsset(id, options = {}) {
+      const { updateUrl = true, replaceUrl = false } = options;
+      activeId = id;
+      if (updateUrl) {
+        syncUrlForEntity(id, replaceUrl);
+      }
+      renderList();
+
+      let doc = docsCache[id];
+      if (!doc) {
+        try {
+          const res = await fetch(`./api/object/${id.slice(0, 3)}/${id}.json`);
+          if (res.ok) {
+            doc = await res.json();
+            docsCache[id] = doc;
+          }
+        } catch (e) {}
+      }
+      if (!doc) return;
+
+      updateHeaderMeta(doc);
+      if (viewerInstance && typeof viewerInstance.setData === 'function') {
+        viewerInstance.setData(doc);
+      }
+      enrichSingleWithWikidata(id);
+    }
+
+    window.addEventListener('popstate', (e) => {
+      const targetId = e.state?.id || getRequestedEntityId();
+      if (targetId && targetId !== activeId) {
+        selectAsset(targetId, { updateUrl: false });
+      }
+    });
+
+    window.addEventListener('hashchange', () => {
+      const targetId = getRequestedEntityId();
+      if (targetId && targetId !== activeId) {
+        selectAsset(targetId, { updateUrl: true, replaceUrl: true });
+      }
+    });
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      state.q = e.target.value;
+      renderLimit = 100;
+      renderList();
+    });
+    ['grade', 'place', 'material', 'architect', 'period'].forEach(key => {
+      document.getElementById(`${key}Select`).addEventListener('change', (e) => {
+        state[key] = e.target.value;
+        renderLimit = 100;
+        renderList();
+      });
+    });
+    document.getElementById('hasImageOnly').addEventListener('change', (e) => {
+      state.hasImage = e.target.checked;
+      renderLimit = 100;
+      renderList();
+    });
+    document.getElementById('resetFilters').addEventListener('click', () => {
+      state.q = '';
+      state.grade = '';
+      state.place = '';
+      state.material = '';
+      state.architect = '';
+      state.period = '';
+      state.hasImage = false;
+      document.getElementById('searchInput').value = '';
+      ['gradeSelect', 'placeSelect', 'materialSelect', 'architectSelect', 'periodSelect'].forEach(id => {
+        document.getElementById(id).value = '';
+      });
+      document.getElementById('hasImageOnly').checked = false;
+      renderLimit = 100;
+      renderList();
+    });
+
+    document.getElementById('copyLinkBtn').addEventListener('click', async () => {
+      const url = new URL(window.location.href);
+      url.searchParams.set('id', activeId);
+      url.hash = '';
+      await navigator.clipboard.writeText(url.toString());
+      const btn = document.getElementById('copyLinkBtn');
+      btn.textContent = 'Link Copied';
+      setTimeout(() => btn.textContent = 'Share Link', 1400);
+    });
+
+    document.getElementById('copyUriBtn').addEventListener('click', async () => {
+      const doc = docsCache[activeId];
+      if (!doc) return;
+      await navigator.clipboard.writeText(doc.id);
+      const btn = document.getElementById('copyUriBtn');
+      btn.textContent = 'Copied';
+      setTimeout(() => btn.textContent = 'Copy JSON URI', 1200);
+    });
+
+    document.getElementById('downloadJsonBtn').addEventListener('click', () => {
+      const doc = docsCache[activeId];
+      if (!doc) return;
+      const blob = new Blob([JSON.stringify(doc, null, 2)], { type: 'application/ld+json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `nhle-${activeId}-linked-art.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    document.getElementById('lookupForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const raw = document.getElementById('nhleInput').value.trim();
+      if (!raw) return;
+      if (docsCache[raw]) {
+        selectAsset(raw);
+        return;
+      }
+      try {
+        const localRes = await fetch(`./api/object/${raw.slice(0, 3)}/${raw}.json`);
+        if (localRes.ok) {
+          docsCache[raw] = await localRes.json();
+          selectAsset(raw);
+          return;
+        }
+      } catch (err) {}
+
+      try {
+        const arcgisUrl = `https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0/query?where=ListEntry%3D${encodeURIComponent(raw)}&outFields=*&outSR=4326&f=json`;
+        const arcRes = await fetch(arcgisUrl);
+        const data = await arcRes.json();
+        if (data.features && data.features.length > 0) {
+          const feat = data.features[0];
+          const a = feat.attributes;
+          const lon = feat.geometry?.x;
+          const lat = feat.geometry?.y;
+          const synthesized = {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": `${window.location.origin}/api/object/${raw.slice(0, 3)}/${raw}.json`,
+            "type": "HumanMadeObject",
+            "_label": `${a.Name} (${a.Parish || a.District || 'England'})`,
+            "classified_as": [
+              { "id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building" },
+              { "id": `${window.location.origin}/api/concept/grade-${(a.Grade || 'ii').toLowerCase().replace('*', '-star')}`, "type": "Type", "_label": `Grade ${a.Grade} Listed Building` }
+            ],
+            "identified_by": [
+              { "type": "Name", "classified_as": [{ "id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name" }], "content": a.Name },
+              { "type": "Identifier", "classified_as": [{ "id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number" }], "content": String(a.ListEntry) }
+            ],
+            "current_location": {
+              "id": `${window.location.origin}/api/place/nhle-${raw}`,
+              "type": "Place",
+              "_label": [a.Parish, a.District, a.County].filter(Boolean).join(', ') || 'England',
+              ...(lon && lat ? { "defined_by": `POINT(${lon} ${lat})` } : {})
+            },
+            "subject_of": [
+              { "id": a.Hyperlink || `https://historicengland.org.uk/listing/the-list/list-entry/${raw}`, "type": "LinguisticObject", "_label": `Historic England Official List Entry #${raw}`, "format": "text/html" }
+            ]
+          };
+          docsCache[raw] = synthesized;
+          if (!catalog.find(c => c.id === raw)) {
+            catalog.unshift({
+              id: raw,
+              name: a.Name,
+              grade: a.Grade,
+              place: synthesized.current_location._label,
+              materials: [],
+              architects: [],
+              periods: [],
+              hasImage: false,
+              lat,
+              lon,
+              uri: `api/object/${raw.slice(0, 3)}/${raw}.json`
+            });
+          }
+          refreshDropdowns();
+          selectAsset(raw);
+        } else {
+          alert(`NHLE List Entry #${raw} not found.`);
+        }
+      } catch (err) {
+        alert(`Error resolving NHLE #${raw}.`);
+      }
+    });
+
+    async function resolveExternalNhleId(raw) {
+      const arcgisUrl = `https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0/query?where=ListEntry%3D${encodeURIComponent(raw)}&outFields=*&outSR=4326&f=json`;
+      const arcRes = await fetch(arcgisUrl);
+      const data = await arcRes.json();
+      if (data.features && data.features.length > 0) {
+        const feat = data.features[0];
+        const a = feat.attributes;
+        const lon = feat.geometry?.x;
+        const lat = feat.geometry?.y;
+        const synthesized = {
+          "@context": "https://linked.art/ns/v1/linked-art.json",
+          "id": `${window.location.origin}/api/object/${raw.slice(0, 3)}/${raw}.json`,
+          "type": "HumanMadeObject",
+          "_label": `${a.Name} (${a.Parish || a.District || 'England'})`,
+          "classified_as": [
+            { "id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building" },
+            { "id": `${window.location.origin}/api/concept/grade-${(a.Grade || 'ii').toLowerCase().replace('*', '-star')}`, "type": "Type", "_label": `Grade ${a.Grade} Listed Building` }
+          ],
+          "identified_by": [
+            { "type": "Name", "classified_as": [{ "id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name" }], "content": a.Name },
+            { "type": "Identifier", "classified_as": [{ "id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number" }], "content": String(a.ListEntry) }
+          ],
+          "current_location": {
+            "id": `${window.location.origin}/api/place/nhle-${raw}`,
+            "type": "Place",
+            "_label": [a.Parish, a.District, a.County].filter(Boolean).join(', ') || 'England',
+            ...(lon && lat ? { "defined_by": `POINT(${lon} ${lat})` } : {})
+          },
+          "subject_of": [
+            { "id": a.Hyperlink || `https://historicengland.org.uk/listing/the-list/list-entry/${raw}`, "type": "LinguisticObject", "_label": `Historic England Official List Entry #${raw}`, "format": "text/html" }
+          ]
+        };
+        docsCache[raw] = synthesized;
+        if (!catalog.find(c => c.id === raw)) {
+          catalog.unshift({
+            id: raw,
+            name: a.Name,
+            grade: a.Grade,
+            place: synthesized.current_location._label,
+            materials: [],
+            architects: [],
+            periods: [],
+            hasImage: false,
+            lat,
+            lon,
+            uri: `api/object/${raw.slice(0, 3)}/${raw}.json`
+          });
+        }
+        return true;
+      }
+      return false;
+    }
+
+    async function initCatalog() {
+      try {
+        const res = await fetch('./api/index/catalog.json');
+        if (res.ok) {
+          catalog = await res.json();
+        }
+      } catch (e) {}
+
+      const requestedId = getRequestedEntityId();
+      if (requestedId) {
+        activeId = requestedId;
+      } else if (catalog.length > 0 && !docsCache[activeId]) {
+        activeId = catalog[0].id;
+      }
+
+      if (activeId && !docsCache[activeId]) {
+        try {
+          const itemRes = await fetch(`./api/object/${activeId.slice(0, 3)}/${activeId}.json`);
+          if (itemRes.ok) {
+            docsCache[activeId] = await itemRes.json();
+          } else {
+            await resolveExternalNhleId(activeId);
+          }
+        } catch (e) {
+          try { await resolveExternalNhleId(activeId); } catch (err) {}
+        }
+      }
+
+      refreshDropdowns();
+      renderList();
+      initViewer();
+      if (docsCache[activeId]) {
+        syncUrlForEntity(activeId, true);
+        updateHeaderMeta(docsCache[activeId]);
+        enrichSingleWithWikidata(activeId);
+      }
+    }
+
+
+    // =========================================================================
+    // OGL v3.0 & Historic England Non-Endorsement Dismissible Modal
+    // =========================================================================
+    const OGL_STORAGE_KEY = 'nhle_linked_art_ogl_notice_dismissed_v1';
+    const oglModal = document.getElementById('oglNoticeModal');
+
+    function showOglModal() {
+      oglModal.classList.remove('hidden');
+      oglModal.classList.add('flex');
+    }
+
+    function hideOglModal(startTourAfter = false) {
+      oglModal.classList.add('hidden');
+      oglModal.classList.remove('flex');
+      try {
+        localStorage.setItem(OGL_STORAGE_KEY, '1');
+      } catch (e) {}
+      if (startTourAfter) {
+        setTimeout(() => runGuidedTour(), 150);
+      }
+    }
+
+    document.getElementById('dismissOglBtn').addEventListener('click', () => hideOglModal(false));
+    document.getElementById('closeOglModalX').addEventListener('click', () => hideOglModal(false));
+    document.getElementById('dismissAndTourBtn').addEventListener('click', () => hideOglModal(true));
+    document.getElementById('openNoticeBtn').addEventListener('click', () => showOglModal());
+
+    oglModal.addEventListener('click', (e) => {
+      if (e.target === oglModal) hideOglModal(false);
+    });
+
+    // Show OGL v3 modal automatically on first visit unless already dismissed
+    try {
+      if (!localStorage.getItem(OGL_STORAGE_KEY)) {
+        showOglModal();
+      }
+    } catch (e) {
+      showOglModal();
+    }
+
+    // =========================================================================
+    // Intro.js Guided Tour of the Linked Art Interface
+    // =========================================================================
+    function runGuidedTour() {
+      if (typeof introJs !== 'function') return;
+
+      // Ensure context panel is visible so all tour targets are on screen
+      if (!contextVisible) {
+        contextVisible = true;
+        document.getElementById('contextStrip').classList.remove('hidden');
+        document.getElementById('toggleContextBtn').textContent = 'Hide Context Panel';
+        if (mapInstance) setTimeout(() => mapInstance.resize(), 50);
+      }
+
+      const tour = introJs();
+      tour.setOptions({
+        showProgress: true,
+        showBullets: false,
+        exitOnOverlayClick: true,
+        nextLabel: 'Next &rarr;',
+        prevLabel: '&larr; Back',
+        doneLabel: 'Finish Tour',
+        steps: [
+          {
+            title: 'NHLE Linked Art 1.0 Explorer',
+            intro: 'Welcome! This interface transforms Historic England National Heritage List for England (NHLE) records into Linked Art v1.0 JSON-LD knowledge graphs.'
+          },
+          {
+            element: '#filterToolbar',
+            title: 'Faceted Search & Filtering',
+            intro: 'Search by building name, NGR, or architect, or filter across Statutory Grade, Locality, Getty AAT Materials, Historical Period, and records with Wikimedia Commons photos.'
+          },
+          {
+            element: '#assetSidebar',
+            title: 'HumanMadeObject Catalog',
+            intro: 'Browse matching heritage assets here. Selecting any record updates the browser URL (?id=...) so you can bookmark or share direct links.'
+          },
+          {
+            element: '#activeHeaderCard',
+            title: 'Outbound Links & JSON-LD Export',
+            intro: 'Jump straight to the official Historic England listing, exact-match Wikidata QID, Wikipedia, or OpenStreetMap, or copy/download the raw Linked Art JSON-LD document.'
+          },
+          {
+            element: '#contextStrip',
+            title: 'Media, Spatial Place & Lifecycle Timeline',
+            intro: 'Inspect Wikimedia Commons photography, WGS84/OSGB36 map coordinates, Getty AAT material tags, and a chronological timeline of construction, alteration, and statutory listing events.'
+          },
+          {
+            element: '#viewer',
+            title: 'Interactive Linked Art Graph & Inspector',
+            intro: 'Explore the force-directed D3 semantic network graph, collapsible JSON tree, raw JSON-LD, or RDF N-Quads serialization using @micropasts/linked-art-viewer.'
+          },
+          {
+            element: '#lookupForm',
+            title: 'Live NHLE ID Resolver',
+            intro: 'Enter any NHLE List Entry Number (such as 1083558 or 1124892) to resolve local shards or fetch live metadata from Historic England and Wikidata.'
+          }
+        ]
+      });
+      tour.start();
+    }
+
+    document.getElementById('startTourBtn').addEventListener('click', () => runGuidedTour());
+
+    initCatalog();
+  </script>
+</body>
+</html>

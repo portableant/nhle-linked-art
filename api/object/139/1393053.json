@@ -1,0 +1,261 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1393053.json",
+  "type": "HumanMadeObject",
+  "_label": "Building No 25 (Former Regimental Institute) Groves And Henderson Barracks",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Building No 25 (Former Regimental Institute) Groves And Henderson Barracks"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1393053"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 88217 09615"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "497684"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26672241"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1393053",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 88217 09615)",
+    "defined_by": "POINT(-0.722708 51.77826)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1393053",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1393053",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26672241",
+      "type": "HumanMadeObject",
+      "_label": "Building No 25 (Groves Mess) Groves And Henderson Barracks (Q26672241)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1393053",
+    "type": "Production",
+    "_label": "Origin / Construction of Building No 25 (Former Regimental Institute) Groves And Henderson Barracks (1913)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1920",
+      "begin_of_the_begin": "1920-01-01T00:00:00Z",
+      "end_of_the_end": "1920-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-1",
+      "type": "Modification",
+      "_label": "1915: Halton had been established as an army camp in September 1913, on part of a Rothschild estate, the tented accommodation being replaced by wo…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1915",
+        "begin_of_the_begin": "1915-01-01T00:00:00Z",
+        "end_of_the_end": "1915-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-2",
+      "type": "Modification",
+      "_label": "1917: Plans to centralise technical training for the Royal Flying Corps - which relied on the instructional schools established at major towns and…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1917",
+        "begin_of_the_begin": "1917-01-01T00:00:00Z",
+        "end_of_the_end": "1917-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-3",
+      "type": "Modification",
+      "_label": "1918: When the RAF was formed as the world's first independent air force in April 1918, and during the period of retrenchment which lasted from th…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1918",
+        "begin_of_the_begin": "1918-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-4",
+      "type": "Modification",
+      "_label": "1919: Sir Hugh Trenchard, on his return as Chief of Air Staff in early 1919, viewed the establishment of central training establishments as the fu…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1919",
+        "begin_of_the_begin": "1919-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-5",
+      "type": "Modification",
+      "_label": "1920: 1920, to Air Ministry Directorate of Works drawings 337/20 and 369-371/20.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-6",
+      "type": "Modification",
+      "_label": "1922: This building is little changed externally since its completion in 1922, except for the loss of the turret, and new roof coverings.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1922",
+        "begin_of_the_begin": "1922-01-01T00:00:00Z",
+        "end_of_the_end": "1922-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393053-7",
+      "type": "Modification",
+      "_label": "1924: Two reused seaplane hangars were built on the flying field in 1924, backed by various tented Bessoneau hangars, and a substantial hospital w…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1924",
+        "begin_of_the_begin": "1924-01-01T00:00:00Z",
+        "end_of_the_end": "1924-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "The List entry was subject to a Minor Amendment on 21 April 2017. HALTON 569/0/10017                             RAF HALTON: EAST CAMP 01-DEC-05                               Building No 25 (Former Regimental Institute) Groves an d Henderson Barracks GV                                      II Former Regimental Institute. 1920, to Air Ministry Directorate of Works drawings 337/20 and 369-371/20. Red brickwork in stretcher bond to cavity walls, limestone ashlar dressings, concrete plain tile roof (replacing slate) on timber trusses. PLAN: A compact and complex 2-storey building with stepped hipped roofs; a long main front with projecting central open pediment returns to deep wings to a complex rear with service courtyards, a loft central kitchen, and various service and storage spaces. Entrances are to the staircase halls and the end returns, and to the wings beyond. Major rooms at each level included dining room, lounge, reading and billiard rooms, and central kitchen to the rear. Originally there was a small square clock tower with cupola on the ridge behind the pedimented centre, but this has been removed. The building served the Groves barracks group, and is located in the NW corner of the complex, behind the sergeant's mess, building No 27 (qv). EXTERIOR: Windows, except those set to stone surrounds, are generally timber glazing-bar sashes in plain reveals, those top the ground floor also with lights above a transom; below the central pediment, and in the staircase units on the returns, small-pane casements are set to stone surround, mullions and transoms. The front is in 7 bays, twice stepped back from the centre, and the outer single bays to a lower eaves level. The large central window has 6 lights to each floor, in a 3 x 2 grid, with a stone apron having a raised central panel, between the floors; in the pediment is a small oculus in brick voussoirs and flush stone keys to the cardinal points. Each side of centre two bays have sashes with overlights at both floor levels. The returns have a narrow sash above a pair of panelled, part-glazed doors in painted pilaster surround to a flat canopy on brackets, below a tripartite small-pane lunette in a brick arch; this door detail is repeated in doors beyond a projecting staircase unit, with separately expressed hipped roof, and having a large 3 x 3-light gridded casement window in stone surround, mullions and transoms, continued down as an ashlar panel with raised central unit. Above the doors beyond the staircase are 3 sashes above a pair of doors with lunettes, joined by a painted panel to hood height. Beyond is a deep wing with a single window to the ground floor front, and 2 sashes at each level on the return. The window pattern is continued to the rear in the wings, then a high central kitchen with roof lantern is flanked by small courtyards and service rooms. Roofs project to a modest box eaves all round. INTERIOR: entrance halls articulated by classical pilasters, and each with elaborate imperial stair with openwork cast-iron newel. Original joinery including panelled doors. HISTORY: The Groves and corresponding Henderson Institutes (qv) are near identical, each serving 8 adjacent barracks blocks. They are major elements in this comprehensive group, reflecting the same design philosophy and detailing as many of the other units. This building is little changed externally since its completion in 1922, except for the loss of the turret, and new roof coverings. The Groves and Henderson barracks, designed immediately after the First World War as a permanent base for the world's first independent air force, occupy an important place in the early development of British military air power. They were designed in the Domestic Revival style favoured by the War Office for its army barracks from the 1870s, and are externally complete with the exception of the loss of their slate roofing. The consistency of materials and treatment produces a harmonious and homogeneous ensemble, amply backed by the planted woodlands to the E and S. Although designed well before the self-conscious structures of the 1930's Expansion Period, when the pronouncements of the Royal Fine Arts Commission made an impact on the RAF architectural development, these buildings show that considerable care was taken to avoid utilitarian severity. When the RAF was formed as the world's first independent air force in April 1918, and during the period of retrenchment which lasted from the Armistice until the early 1920s, its founding father and first Chief of Air Staff, General Sir Hugh Trenchard, concentrated upon developing its strategic role as an offensive bomber force. His primary considerations were in laying the foundations for a technology-based service, through the training of officers at Cranwell and technicians at Halton. Delays in the building of permanent buildings at Cranwell until the early 1930s has resulted in the fact that only the Groves and Henderson Barracks at Halton relate to this critical period of development. They established a template for the planning of barracks buildings on RAF bases, marking a departure from the generally temporary accommodation provided for the Royal Flying Corps and from the planning of army barracks as practised since the Cardwell reforms of the 1870s. Halton had been established as an army camp in September 1913, on part of a Rothschild estate, the tented accommodation being replaced by wooden hutting for 12,000 men on three sites in early 1915. Plans to centralise technical training for the Royal Flying Corps - which relied on the instructional schools established at major towns and cities in 1915 - had been underway from June 1917, and RFC personnel had been moved to take over the army camp in summer 1917, the sum of ?100,000 having been allocated for the construction of a large workshops building. The site was also greatly expanded in 1918 by the purchase of the Rothschild mansion (listed grade II) as the officers' mess and parts of the estate for the sum of ?112, 000, far below the market value. Sir Hugh Trenchard, on his return as Chief of Air Staff in early 1919, viewed the establishment of central training establishments as the fundamental building block of an independent technology-based service, and thus Halton became the home of the Aircraft Apprentice Scheme, in which boys of above-average educational attainment would receive 3 years of training - compared with the usual 5 years for civilian apprentices. The first arrivals came in 1922, moving into the Groves and Henderson barracks. Two reused seaplane hangars were built on the flying field in 1924, backed by various tented Bessoneau hangars, and a substantial hospital was added in 1927. Three further groups of barracks were built, the last begun in 1936, also a school and additional technical buildings. The three parts of the base are still separated by public roads and the woodland planting - now an important aspect of the layout - was part of the original scheme. The Apprentice Scheme was temporarily suspended from 1939 to 1947, and the final intake graduated in 1993. (Bill Taylor, Halton and the Apprentice Scheme, Midland Publishing, 1993)"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2005-12-01T00:00:00Z"
+      }
+    }
+  ]
+}

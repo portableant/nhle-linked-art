@@ -1,0 +1,321 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100424.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St Peter And St Paul (Church Of England) (Little Gaddesden)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St Peter And St Paul (Church Of England)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100424"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99788 13820"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157710"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17528859"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100424",
+    "type": "Place",
+    "_label": "Little Gaddesden (SP 99788 13820)",
+    "defined_by": "POINT(-0.553834 51.814114)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100424",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100424",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:St_Peter_%26_St_Paul%27s_church%2C_Little_Gaddesden",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17528859",
+      "type": "HumanMadeObject",
+      "_label": "Church of St Peter and St Paul (Church of England), Little Gaddesden (Q17528859)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100424",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St Peter And St Paul (Church Of England) (C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/jeffry-wyatt",
+        "type": "Person",
+        "_label": "Jeffry Wyatt"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/james-wyatt",
+        "type": "Person",
+        "_label": "James Wyatt"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/burlinson-and-grylls",
+        "type": "Person",
+        "_label": "Burlinson and Grylls"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/john-bushnell",
+        "type": "Person",
+        "_label": "John Bushnell"
+      },
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/robert-ashton",
+        "type": "Person",
+        "_label": "Robert Ashton"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1819",
+      "begin_of_the_begin": "1819-01-01T00:00:00Z",
+      "end_of_the_end": "1819-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-1",
+      "type": "Modification",
+      "_label": "C15: Chancel, nave, N aisle and tower C15, SE chapel, S aisle and S porch c.1819 by Jeffry Wyatt for 7th Earl of Bridgewater.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-2",
+      "type": "Modification",
+      "_label": "Early C15: Francis 3rd Duke of Bridgewater d.1803, the father of inland navigation, over fireplace in S wall from when chapel used as a vestry up to 19…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1433-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-3",
+      "type": "Modification",
+      "_label": "C16: Small trefoil headed window at W with C16 German stained glass Virgin and Child dated 1534 placed to commemorate the restoration of 1878.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-4",
+      "type": "Modification",
+      "_label": "1534: Small trefoil headed window at W with C16 German stained glass Virgin and Child dated 1534 placed to commemorate the restoration of 1878.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1534",
+        "begin_of_the_begin": "1534-01-01T00:00:00Z",
+        "end_of_the_end": "1534-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-5",
+      "type": "Modification",
+      "_label": "C17: C17 poppy-head bench ends late C19 choir stalls.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-6",
+      "type": "Modification",
+      "_label": "1611: Fine wall monument to Elizabeth Dutton nee Egerton d.1611 removed from St.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1611",
+        "begin_of_the_begin": "1611-01-01T00:00:00Z",
+        "end_of_the_end": "1611-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100424-7",
+      "type": "Modification",
+      "_label": "1649: Other memorials in oval panels in base: to E of N door to John 1st Earl of Bridgewater d.1649 called 'The Great Monument' being of white mar…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1649",
+        "begin_of_the_begin": "1649-01-01T00:00:00Z",
+        "end_of_the_end": "1649-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100424",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St Peter And St Paul (Church Of England) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100424",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St Peter And St Paul (Church Of England)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Little%20Gaddesden%20-%20Church%20-%20geograph.org.uk%20-%2082065.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN       \tCHURCH ROAD SP 9913 \t\t\t\t\t(North side)                                         9/179                                   \tChurch of St. Peter 30.11.66                                \tand St. Paul (C of E)                                        \t\t(Formerly listed as Church of                                        \t\tSt Peter and St Paul) -                                      \t\tI Parish Church. Chancel, nave, N aisle and tower C15, SE chapel, S aisle and S porch c.1819 by Jeffry Wyatt for 7th Earl of Bridgewater. General restoration by E.W.  Godwin for Lord Brownlow 1875-78 when chancel extended a little to E, N chancel aisle rebuilt, S nave arcade replaced a single wooden arch c.1810 by James Wyatt, doorways formed to E ends of aisles flanking new chancel arch. Vestries linked to N door 1965-7 by John Brandon Jones. Coursed flint rubble with limestone dressings in C15 work, red brick parapet and buttresses to N aisle. Stucco with Portland stone dressings and cantellated parapets in Wyatt's work. Uncoursed knapped flint with limestone dressings in 1875-8 work.  Slate roofs behind parapets. Blunt pyramidal roof to tower. A small isolated parish church with chancel flanked by N chancel aisle and SE chapel, the chancel protruding and with 4 diagonal E end buttresses. Nave without clerestorey but with N and S aisles and gable parapeted S porch, and short square W tower with W door. Diagonal buttresses at W angles. Single-storey linked vestry block of brick and flint with hipped slate roof. Chancel at same floor level as nave has a 3-light C15 S window unglazed opening with  SE chapel,  a  similar blocked window and a 4-centred arched S doorway between. Scrolled stone corbels formerly supported a lower roof than the late C19 3-bay copy of the nave roof. 2-bay N arcade with octagonal column and responds and hollow chamfered arches. 3 coloured marble steps to altar and 3 light E window to Durer design by Burlinson and Grylls. Fresco on wall 1896 after Gozzolli in chapel of Palazzo Riccardi Florence. Arcaded dado of saints by C Rew and Rev Charlton Lane. Chancel floored in glazed Maws and Minton tiles with saints'  symbols.  C17 poppy-head bench ends  late C19 choir stalls. N chancel aisle formerly the Bridgewater pew, has a moulded timber roof copied from N nave aisle, 2 2-light N windows, the W window with stained glass 1892 by Burlinson and Grylls. Large iron-bound C17 chest on stand. SE chapel formerly the Bridgewater mausoleum, with plaster ribbed vault and floral bosses by Francis Bernasconi 1817, has a S facade copying the former S wall of the chancel with 2 3-light Perp windows flanking a 4-centred door each with hoodmoulds. No E window. Many black marble floor slabs. Walls lined with splendid sculptured monuments, the best at E end to John Williams 7th Earl d.1823 a Raphaelesque tondo by Westmacott with a labourer, his wife child and dog with tools and wheat-ears. Also Francis Henry 8th Earl d.1829 with seated female hand resting on book 'Works of the Creation' and inscribed note at base 'He bequeathed L8000 as a reward for literary men/for writing essays to prove/the benevolence of God as displayed in the Works of Creation'. Elizabeth Viscountess Brackley d.1669 with a draped veil and inscription in script lettering. Henry Stanley d.1670 an epitaph with 2 putti on a gadrooned base. Francis 3rd Duke of Bridgewater d.1803, the father of inland navigation, over fireplace in S wall from when chapel used as a vestry up to 1963.3-bay Nave with low pitched timber roof with mouldings on ridges, purlins, wallplates, and chamfered knee-braces to tie beams springing from carved stone corbels 3-bay N arcade early C15 with octagonal piers and hollow chamfered arches.S arcade a late C19 copy. Pulpit  reconstructed  in  late  C19  for  Lady  Marion  Alford  with pre-Raphelite coloured angel figures by Mrs. Watts of Compton. Hymn board with angel design by Mrs F.W. Hodgson carved by David Clarke 1898-9. N aisle has 2 N windows, 3-lights and 2-lights, with N doorway between with 4-centred arch head. Small trefoil headed window at W with C16  German  stained  glass  Virgin  and  Child  dated  1534  placed  to commemorate the restoration of 1878. Fine monuments moved here from chancel: Dr. Henry Stanley d.1671 by John Bushnell a large urn on a pedestal: Jane Countess of Bridgewater d.1716 a large storeyed wall monument of  grey marble with Corinthian columns,  entablature with pediment surmounted by an attic with cherubs flanking an heraldic panel. Other memorials in oval panels in base: to E of N door to John 1st Earl of Bridgewater d.1649 called 'The Great Monument' being of white marble with Ionic columns and flat cornice carrying a large achievement. Inscriptions on black marble tablets. In the S aisle 2 S windows of 3 lights and a small W window, 2 with stained glass 1895 by C.E. Kempe. C19 octagonal panelled font originally given to Ivinghoe Church by 7th Earl of Bridgewater and given to this church 1872. Older font cover. Fine wall monument to Elizabeth Dutton nee Egerton d.1611 removed from St. Martin's in the Fields London when rebuilt in 1730. Of black marble and  alabaster  it  has  a kneeling  full  size  figure  painted  on a Renaissance sarcophogus between panelled piers supporting an entablature with broken pediment, the soffit carved with clouds and surmounted by a figure of Time with a scythe. Over the door a monument to John Earl of Bridgewater 1686. Monument to Ann Norton d.1796 by Robert Ashton. The W tower  originally  of  3  stages  had  a  floor  removed  in  1870's restoration.  Embattled  parapet,  low pyramidal  roof,  moulded  string course below parapet and below bell stage with its large 2-light bell openings recessed with a quatrefoil in the head. Small pointed window N and S to former middle stage and heavy diagonal buttresses to W corners. Stair rises in SW corner. C15 tall tower arch with half octagonal jambs and moulded caps, and 4-centred arched W door in square head with 3-light W window. The masonry of the lower part of the tower may be C13. Stone tablet of benefactions on wall.  A small medieval church of outstanding    interest    for    its   monuments.    (VCH(1908)213-14: RCHM(1911)42-3:   Kelly(1914)104:   Pevsner(1977)236-7:   Howard   Senar Little Gaddesden Parish Church n.d.[1980]). Listing NGR: SP9978813820"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1986-12-02T23:59:59Z"
+      }
+    }
+  ]
+}

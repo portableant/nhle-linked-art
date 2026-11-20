@@ -1,0 +1,192 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/138/1389396.json",
+  "type": "HumanMadeObject",
+  "_label": "Ashridge Cottages",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Ashridge Cottages"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1389396"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 00196 12133"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "488054"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26668833"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1389396",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 00196 12133)",
+    "defined_by": "POINT(-0.548404 51.798878)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1389396",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1389396",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26668833",
+      "type": "HumanMadeObject",
+      "_label": "Ashridge Cottages (Q26668833)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1389396",
+    "type": "Production",
+    "_label": "Origin / Construction of Ashridge Cottages (1777)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1777",
+      "begin_of_the_begin": "1777-01-01T00:00:00Z",
+      "end_of_the_end": "1777-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1389396-1",
+      "type": "Modification",
+      "_label": "1928–1929: 1928-29.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1928–1929",
+        "begin_of_the_begin": "1928-01-01T00:00:00Z",
+        "end_of_the_end": "1929-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1389396-2",
+      "type": "Modification",
+      "_label": "1929: Round plaques outlined in black throughout scheme: 'JCCD' to front left cottage (side wall to street), 'Ashridge Cottages 1929' to centre of…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1929",
+        "begin_of_the_begin": "1929-01-01T00:00:00Z",
+        "end_of_the_end": "1929-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1389396-3",
+      "type": "Modification",
+      "_label": "1996: London: Academy Editions, 1996.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1996",
+        "begin_of_the_begin": "1996-01-01T00:00:00Z",
+        "end_of_the_end": "1996-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "LITTLE GADDESDEN 1777/0/10007                            Ashridge Cottages 22-AUG-01 II Eight estate cottages for Ashridge (q.v.). 1928-29.  Clough Williams-Ellis for Rt. Hon. J.C.C. Davidson, M.P.  Rendered brick walls with pantile pitched roofs hipped to ends, multi-pane sash windows, brick chimneys.  Cottages arranged in a wide courtyard with 2 set forward, 4 set back and 2 set forward. PLAN: One range of four attached cottages with a detached block of two cottages set forward at each end forming a wide courtyard with arched through-passage to rear at centre of the rear range.  These four cottages have three-part facades with central entrance. The separate two end blocks consist each of two cottages, one addressing the street with a similar three-part elevation, and the other turned 90 degrees and placed slightly projecting to the street with the entrance facing to the outside. ELEVATION:  Symmetrical three-bay facades to each of the four attached cottages with 6/9 sashes to ground floor and three, 6/6 sashes to first floor.  Board shutters survive to central first floor window of one unit.  Central doors with cantilevered flat-roof porches to each cottage.  Shared brick chimneys between cottages.  Rear elevation of this range has three, 3/6 sashes to centre two cottages, one 6/6 to each end cottage.  The set-forward blocks of two units consist of the same elevations but the short end of the outside units addressing the street with ground floor 6/9 sash and shallow semi-circular arch with flanking shutters. Round plaques outlined in black throughout scheme: 'JCCD' to front left cottage (side wall to street), 'Ashridge Cottages 1929' to centre of rear range over the arched through-passage, and blank to the rear over arched through-passage.  End wall of the end unit has a wide chimney to centre of hipped roof above a window at ground floor. INTERIOR:  Interior not inspected. HISTORY:  Built as estate housing to Ashridge. SOURCES:  Richard Haslam, Clough Williams-Ellis.  RIBA Drawings Monography No. 2.  London: Academy Editions, 1996. Listing NGR: TL0019612133"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2001-08-23T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1174090.json",
+  "type": "HumanMadeObject",
+  "_label": "Shendish House And Attached Walled Garden And Octagonal Summerhouse (Kings Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Shendish House And Attached Walled Garden And Octagonal Summerhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1174090"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05790 04315"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157696"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26468812"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174090",
+    "type": "Place",
+    "_label": "Kings Langley (TL 05790 04315)",
+    "defined_by": "POINT(-0.469691 51.727582)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1174090",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1174090",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26468812",
+      "type": "HumanMadeObject",
+      "_label": "Shendish House And Attached Walled Garden And Octagonal Summerhouse (Q26468812)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1174090",
+    "type": "Production",
+    "_label": "Origin / Construction of Shendish House And Attached Walled Garden And Octagonal Summerhouse (1809–1873)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1854",
+      "begin_of_the_begin": "1854-01-01T00:00:00Z",
+      "end_of_the_end": "1854-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-1",
+      "type": "Modification",
+      "_label": "1854: 1854-6 for Charles Longman (1809-73) a partner of John Dickinson and an heir to the publishing house of Longmans.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1854",
+        "begin_of_the_begin": "1854-01-01T00:00:00Z",
+        "end_of_the_end": "1854-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-2",
+      "type": "Modification",
+      "_label": "1855: Narrower bays to each side have similar features above ground floor but 2 2-light windows on ground floor at LH and original square projecti…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1855",
+        "begin_of_the_begin": "1855-01-01T00:00:00Z",
+        "end_of_the_end": "1855-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-3",
+      "type": "Modification",
+      "_label": "1871: Garden room wing dated 1871, new entrance porch 1902, garden porch dated 1910.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1871",
+        "begin_of_the_begin": "1871-01-01T00:00:00Z",
+        "end_of_the_end": "1871-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-4",
+      "type": "Modification",
+      "_label": "1898: Iron gate 1898.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1898",
+        "begin_of_the_begin": "1898-01-01T00:00:00Z",
+        "end_of_the_end": "1898-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-5",
+      "type": "Modification",
+      "_label": "1902: Garden room wing dated 1871, new entrance porch 1902, garden porch dated 1910.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1902",
+        "begin_of_the_begin": "1902-01-01T00:00:00Z",
+        "end_of_the_end": "1902-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-6",
+      "type": "Modification",
+      "_label": "1910: Garden room wing dated 1871, new entrance porch 1902, garden porch dated 1910.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1910",
+        "begin_of_the_begin": "1910-01-01T00:00:00Z",
+        "end_of_the_end": "1910-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1174090-7",
+      "type": "Modification",
+      "_label": "1955: (John Evans The Endless Web (1955)90, 207-8).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1955",
+        "begin_of_the_begin": "1955-01-01T00:00:00Z",
+        "end_of_the_end": "1955-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "KINGS LANGLEY          \tSHENDISH TL 00 SE \t\t\t\t\toff London Road                                        7/166                                   \tShendish House (DRG                                        \t\t(Shendish)Leisure Centre)                                        \t\tand attached walled garden                                        \t\tand octagonal summerhouse GV                                      \tII Country house on a manorial site with attached walled garden and octagonal summerhouse, now a leisure centre. 1854-6 for Charles Longman (1809-73) a partner of John Dickinson and an heir to the publishing house of Longmans. Garden room wing dated 1871, new entrance porch 1902, garden porch dated 1910.  Grey brick with Bath stone dressings and chimneys. Portland stone plinth, and steep graduated slate roofs. 2 storeys, attics and basement. A large L-shaped Jacobean style house facing E with a rectangular walled garden attached to its NW corner with an octagonal summerhouse at its SW angle. Near symmetrical 5-part E front with corresponding stepping of roofline and separate stone gable parapets and end chimneys to each part. Slightly projecting 3 windows wide centre with large canted bay window to ground floor rising from basement area with stone balustrade. Small semi-octagonal bay central on 1st floor flanked by square headed 2-light stone windows with labels. Parapet carried up in. centre as gabled dormer with ogee coping to gables and large central finial. Narrower bays to each side have similar features above ground floor but 2 2-light windows on ground floor at LH and original square projecting stone porch with '1855'  on parapet. Projecting gabled end wings have shaped gable parapets, central finial, and square-headed 2-light windows to each floor. Arcaded stone porch and adjoining lobby added to LB wing in 1902 in same style. Large entrance hall with staircase to rear with tall mullioned and transomed stone window and twisted turned balusters to each step. Arcaded screen and elaborate Jacobethan fireplace in entrance hall.  Similar screen in garden room. Dado panelling and deep strapwork frieze in S rooms, and ornate French rococo white marble chimneypiece in bar. Grey brick S front to walled garden with 3 Tudor arched entrances and pilasters alternating with piers. Iron gate 1898. Roofless octagonal summerhouse with  steps,  damaged  mosaic  floor  and  carved  stone  decoration. (John Evans The Endless Web (1955)90, 207-8). Listing NGR: TL0579004315"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

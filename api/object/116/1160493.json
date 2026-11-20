@@ -1,0 +1,217 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/116/1160493.json",
+  "type": "HumanMadeObject",
+  "_label": "Yew Tree Cottage (Buckland)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Yew Tree Cottage"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1160493"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 88683 12434"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42613"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26454133"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160493",
+    "type": "Place",
+    "_label": "Buckland (SP 88683 12434)",
+    "defined_by": "POINT(-0.715236 51.803525)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1160493",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1160493",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26454133",
+      "type": "HumanMadeObject",
+      "_label": "Yew Tree Cottage (Q26454133)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1160493",
+    "type": "Production",
+    "_label": "Origin / Construction of Yew Tree Cottage (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1882",
+      "begin_of_the_begin": "1882-01-01T00:00:00Z",
+      "end_of_the_end": "1882-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160493-1",
+      "type": "Modification",
+      "_label": "1882: Plaque on wall by former ioor with arms and motto of Edward Bonus, Rector, dated 1882.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1882",
+        "begin_of_the_begin": "1882-01-01T00:00:00Z",
+        "end_of_the_end": "1882-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1160493-2",
+      "type": "Modification",
+      "_label": "C20: Blocked door to LH with tiled hood, modern glazed door in centre, small bay window to RH with tiled roof, and C20 lean-to projection in angl…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1160493",
+      "type": "VisualItem",
+      "_label": "Photograph of Yew Tree Cottage (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1160493",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Yew Tree Cottage",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Yew%20Tree%20Cottage%2C%20Buckland%20-%20geograph.org.uk%20-%20135990.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011898",
+      "type": "Material",
+      "_label": "Thatch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE          BUCKLAND                    BUCKLAND VILLAGE                                               west side 5/46                                          Yew Tree Cottage II Cottage. C17 altered. Timber framed with red brick infill and part re-fronting. Thatched roof half-hipped to south gable, central brick chimney and one projecting from the south gable; 2 pointed eaves dormers. 1½ storeys. L-shaped with gabled wing to RH with modern bay window having tiled lean-to roof, 2 light casement above. Blocked door to LH with tiled hood, modern glazed door in centre, small bay window to RH with tiled roof, and C20 lean-to projection in angle with wing. Plaque on wall by former ioor with arms and motto of Edward Bonus, Rector, dated 1882. RCHM I. p.68. MON.4. Listing NGR: SP8868312434"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-11T00:00:00Z"
+      }
+    }
+  ]
+}

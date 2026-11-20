@@ -1,0 +1,289 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100624.json",
+  "type": "HumanMadeObject",
+  "_label": "Manor Cottage The Old Manor House (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Manor Cottage The Old Manor House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100624"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96468 12492"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355653"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17542482"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100624",
+    "type": "Place",
+    "_label": "Aldbury (SP 96468 12492)",
+    "defined_by": "POINT(-0.602349 51.802759)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100624",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100624",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Old_Manor_House_and_Cottage%2C_Aldbury",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17542482",
+      "type": "HumanMadeObject",
+      "_label": "Manor Cottage The Old Manor House (Q17542482)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100624",
+    "type": "Production",
+    "_label": "Origin / Construction of Manor Cottage The Old Manor House (1500)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1500",
+      "begin_of_the_begin": "1500-01-01T00:00:00Z",
+      "end_of_the_end": "1500-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-1",
+      "type": "Modification",
+      "_label": "1516: Circa 1500, open hall house of unusual form, for either Henry Winch or for Russell family, '1516' in spandrel of hall fireplace, 2 storeys N…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1516",
+        "begin_of_the_begin": "1516-01-01T00:00:00Z",
+        "end_of_the_end": "1516-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-2",
+      "type": "Modification",
+      "_label": "C17: Deep single hall bay has jettied parlour bay to N and C17 jettied extension with lean-to and outshut to N of it.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-3",
+      "type": "Modification",
+      "_label": "Early C17: Interior has narrowed rear door to crosspassage, no structural division of S service bay, S stair in original position, chamfered doorway to…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-4",
+      "type": "Modification",
+      "_label": "Mid C17: Circa 1500, open hall house of unusual form, for either Henry Winch or for Russell family, '1516' in spandrel of hall fireplace, 2 storeys N…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-5",
+      "type": "Modification",
+      "_label": "1663: Circa 1500, open hall house of unusual form, for either Henry Winch or for Russell family, '1516' in spandrel of hall fireplace, 2 storeys N…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1663",
+        "begin_of_the_begin": "1663-01-01T00:00:00Z",
+        "end_of_the_end": "1663-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-6",
+      "type": "Modification",
+      "_label": "Early C18: Large projecting S chimney early C18.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1733-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100624-7",
+      "type": "Modification",
+      "_label": "C18: Large projecting C18 chimney.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100624",
+      "type": "VisualItem",
+      "_label": "Photograph of Manor Cottage The Old Manor House (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100624",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Manor Cottage The Old Manor House",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Manor%20House%20and%20Manor%20Cottage%2C%20Aldbury%20-%20geograph.org.uk%20-%201577973.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STOCKS ROAD SP 9612                                         (West side) 12/17                                   No.9 (The Old Manor House) 14.5.52                                 and No.13 (Manor Cottage)                                         (formerly listed as No. 9                                         (Manor House)) GV                                      II* House (never a manor house) now 2 houses. Circa 1500, open hall house of unusual form, for either Henry Winch or for Russell family, '1516' in spandrel of hall fireplace, 2 storeys N extension, several fireplaces, and floors inserted in hall, and in kitchen in rear wing, in mid C17 (before 1663 when Bennet Winch paid tax for 5 hearths: his initials on main stack). Large projecting S chimney early C18. By 1722 described as a house and 2 cottages. Timber frame on red brick sill with red brick infill, plastered in central bays on 1st floor front, and red brick casing to ground floor and S wall of rear wing. Steep old red tile roofs. An irregular 2-storeys L-shaped building facing E over the village pond. Deep single hall bay has jettied parlour bay to N and C17 jettied extension with lean-to and outshut to N of it. Higher gabled S crosswing has wide entrance door into former crosspassage below jettied 1st floor with entrance to hall beyond back of massive chimney stack serving the hall. Lower 2-storeys rear wing has 2-bays kitchen, formerly open to roof, and storeyed W end bay for cook above storage. 4 windows long E front with flush cast-iron lattice casements to 1st floor, one to each bay defined by the exposed timber framing. The face of the close-studded jettied 1st floor of the parlour bay is in the same plane as the front of the close-studded hall bay (lower part faced in brick) a most unusual feature proved original by the framing of the members. The higher jetty of the N extension has wide-spaced studs, as does the 1st floor of the S crosswing although its gable triangle over has close-studding. The ground floor is faced in brick with tall 2-light small-paned casement windows one to each bay, but flanked by high 3-light ovolo moulded leaded windows to the parlour, and with leaded glazing to the right of the plank door to the N extension (No. 13). Fine hollow-chamfered 4-centred wide doorway in S crosswing with sunk spandrels and old battened oak door with iron hinges. The S side of this crosswing has exposed 1st floor framing with wide-spaced studs and curved tension braces set low to allow small corner windows.  Large projecting C18 chimney. C17 header-bond brickwork to ground floor to W of chimney but C18 brick with blue headers and Flemish-bond to E of chimney. 2 storeys lower W range has red brick chequered with blue headers, floor band, and segmental arches to 3 flush 2-light casement windows on each floor, leaded above but cast-iron lattices below.  Interior has narrowed rear door to crosspassage, no structural division of S service bay, S stair in original position, chamfered doorway to hall, axial chamfered and stopped beam to floor inserted in hall, wide fireplace with depressed 4-centred stone arch with date on E spandrel, irregular studding in N wall, C17 oak mitred panelling to parlour with arcaded panels over fireplace, ovolo moulded N  fireplace  in  parlour  (stack  formerly  projected  outside),  stair originally on W wall replaced by stair turret in early C17. Chamber over parlour formerly plastered under collars, and hall roof little smoke- blackened. Fireplace to chamber over hall scratched with 'James Partridge 174?'. Rear wing has smoke-blackened clasped-purlin roof of 2 bays and a third W bay with floor lower than the inserted floor over the kitchen. This has a chamfered cross-beam and elaborate hollow double stop with nick. Plain small square flue to kitchen fireplace probably a replacement for one on N wall. 4-centred fireplace with sunk spandrels in chamber over S crosswing with 3-light diamond mullioned S window. RCHM suggest it is a highly unusual house which may represent an hitherto unrecognised type. (RCHM(1911)31 no. 3: RCHM Typescript). Listing NGR: SP9645612490"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1952-05-14T00:00:00Z",
+        "end_of_the_end": "1986-05-29T23:59:59Z"
+      }
+    }
+  ]
+}

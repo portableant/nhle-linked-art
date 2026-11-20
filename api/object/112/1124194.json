@@ -1,0 +1,195 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124194.json",
+  "type": "HumanMadeObject",
+  "_label": "South Side (Old Rectory) The Old Rectory (Aston Clinton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "South Side (Old Rectory) The Old Rectory"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1124194"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 88624 11815"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42591"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26417272"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124194",
+    "type": "Place",
+    "_label": "Aston Clinton (SP 88624 11815)",
+    "defined_by": "POINT(-0.716249 51.797971)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1124194",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1124194",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26417272",
+      "type": "HumanMadeObject",
+      "_label": "South Side (Old Rectory)  The Old Rectory (Q26417272)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124194",
+    "type": "Production",
+    "_label": "Origin / Construction of South Side (Old Rectory) The Old Rectory (1850)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1850",
+      "begin_of_the_begin": "1850-01-01T00:00:00Z",
+      "end_of_the_end": "1850-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124194-1",
+      "type": "Modification",
+      "_label": "Early C20: Early C20 bay window to LH of ground floor, stair window and 2-light window to 1st floor.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1933-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 SE         ASTON CLINTON              LONDON ROAD                                             south side 5/23                                        The Old Rectory and South 11.3.85                                     Side (Old Rectory) - -                                           II Former Rectory now two dwellings. 1850 by E.B. Lamb. Tudor style, red brick with blue headers, stone dressings and quoins. Old tiled roof, tall brick chimneys with cogged string courses and corbelled heads. Steep gables with cogged brick verges, kneelers of brick on deep stone corbels. Small gabled dormer to centre of E. front 2 storeys and attic, plinth, first floor cogged brick string. Stone mullioned windows, transomed to ground and 1st floor, with diamond leaded glazing, large panes to ground floor windows of S. wing E. front has flanking gabled projections, gabled porch to LH of centre, with cogged brick verge and tile hung apex, 5 centred stone arch, similar inner arch with half glazed oak door. Early C20 bay window to LH of ground floor, stair window and 2-light window to 1st floor. 2 light attic window. Centre bay has 2-light window to each floor on RH, of porch. RH wing has stone tablet to ground floor with Latin inscription including date 1850 \"Edwardus Buckton Lamb Architectus\" 3 light 1st floor window, 2 light attic window. S. front has central gable with 2 light attic window, 2 light 1st floor window, 3 light window to LH of ground floor bay window to RH with hipped roof, 4 light window and narrow door with shouldered lintel and window over to W. return. W.front has gable of S. wing on LH, with 2-light attic window, 3 light window to 1st and ground floor. 2-light stair window to RH breaking string course. Modern french doors to ground floor, four 2-light windows to RH, 4 light window to centre of 1st floor, two 2-light windows to RH, gable in centre with 3 light attic window housing the central light stepped up. Lower service wing at North end, altered. Interior Ground floor rooms in S. wing have original panelled doors and hinges, and two white marble chimneypieces in with Tudor arches. Listing NGR: SP8862411815"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-03-11T00:00:00Z"
+      }
+    }
+  ]
+}

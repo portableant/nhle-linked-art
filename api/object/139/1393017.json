@@ -1,0 +1,282 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1393017.json",
+  "type": "HumanMadeObject",
+  "_label": "Bunkers Farm",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bunkers Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1393017"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 08699 05756"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "506254"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26672205"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1393017",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 08699 05756)",
+    "defined_by": "POINT(-0.427139 51.739977)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1393017",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1393017",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26672205",
+      "type": "HumanMadeObject",
+      "_label": "Bunkers Farm (Q26672205)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1393017",
+    "type": "Production",
+    "_label": "Origin / Construction of Bunkers Farm (1598)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1598",
+      "begin_of_the_begin": "1598-01-01T00:00:00Z",
+      "end_of_the_end": "1598-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-1",
+      "type": "Modification",
+      "_label": "1782–1869: HISTORY: In 1811 John Dickinson (1782-1869) acquired the paper mill at Nash Mills, which lies in the valley below Bunkers Farm.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1782–1869",
+        "begin_of_the_begin": "1782-01-01T00:00:00Z",
+        "end_of_the_end": "1869-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-2",
+      "type": "Modification",
+      "_label": "C19: The S barn is a single space with a roof which has some C19 king-post trusses and some older re-used trusses with raking queen struts.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-3",
+      "type": "Modification",
+      "_label": "1811: HISTORY: In 1811 John Dickinson (1782-1869) acquired the paper mill at Nash Mills, which lies in the valley below Bunkers Farm.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1811",
+        "begin_of_the_begin": "1811-01-01T00:00:00Z",
+        "end_of_the_end": "1811-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-4",
+      "type": "Modification",
+      "_label": "Mid C19: Bunkers Farm 1598/0/10016 BUNKERS LANE 05-FEB-09 Bunkers Farm II Model farm, mid C19.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-5",
+      "type": "Modification",
+      "_label": "1844: He purchased the adjoining Chambersbury Estate, which included Bunkers Farm, probably in 1844 and certainly by 1850.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1844",
+        "begin_of_the_begin": "1844-01-01T00:00:00Z",
+        "end_of_the_end": "1844-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-6",
+      "type": "Modification",
+      "_label": "1850: He purchased the adjoining Chambersbury Estate, which included Bunkers Farm, probably in 1844 and certainly by 1850.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1850",
+        "begin_of_the_begin": "1850-01-01T00:00:00Z",
+        "end_of_the_end": "1850-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393017-7",
+      "type": "Modification",
+      "_label": "1877: Bunkers Farm appears substantially in its present form on the 1st edition OS map surveyed in 1877 and published in 1879.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1877",
+        "begin_of_the_begin": "1877-01-01T00:00:00Z",
+        "end_of_the_end": "1877-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010900",
+      "type": "Material",
+      "_label": "Lead"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1598/0/10016                            BUNKERS LANE                             05-FEB-09                               Bunkers Farm II                                        Model farm, mid C19. MATERIALS: Red brick and flint with stone dressings. Some re-use of older timber framing. Slate and clay tile roofs. PLAN: A loose courtyard plan with double yards. EXTERIOR: On the N side abutting the road there is a long 2-storey processing barn, made of brick with coursed flintwork panels, punctuated by cast iron ventilation grilles. The roof has been re-covered in slate. The gable ends are entirely in red brick, the west gable having a 3-light Tudor-style stone mullion window with diamond leaded lights. There is a short return wing on the W side which has a blind end gable and an original clay tile roof. High quality dressed stones, some possibly re-used, have been variously employed as quoins (including on the SW corner of the wing), plinths, and surrounds for 4 of the doorways on the road elevation (the 5th doorway with brick surround is a later insertion). The wooden thresholds in the doorways are evidence of threshing activity inside and were intended to stop grains from spilling onto the road. All the windows and doors in the processing barn are boarded up, and some of the openings bricked in. In the centre of the S front there is a square engine house chimney, which is evidence of the use of mechanised power in the building. To the W of the chimney there is a C20, cast iron, water tank over a blind arcade, to which is attached a modern wall dividing the two yards. These later additions are not of special interest in themselves, but their footprint is important as a reminder of the original division between the courtyards. Attached to the E of the processing barn is a single-storey red brick stable block with a clay tile roof. On the SE corner of the site there is an L-shaped vernacular-style barn building. It is of red brick with weatherboarding and a clay tile roof. It has an L-shaped lean-to in the inner angle which is weatherboarded with a modern pantile roof. The N end gable of the barn facing the stables has brick and coursed flint panels similar to those on the processing barn. Attached to the W of the barn is an open cartshed with a brick and flint rear wall, 4 round brick columns at the front, and a slate roof. The brick and flint enclosure wall of the farm continues to the W, and there is a corrugated shed which is not of special interest. INTERIOR: The interior of the processing barn is 24 bays long, and is almost entirely open. The western 3 bays are partitioned off on both floors to form part of the return wing. The ground floor has an E end room and a small weatherboarded enclosure housing a later water tank, but is otherwise unpartitioned. It has cast iron columns at mid-point supporting transverse wooden beams and floor joists. The upper floor is entirely open and has cast iron trusses with diminishing roundels, supporting a timber and iron rod roof with some skylights. The square grain-conveying pipe suspended below the trusses is a C20 insertion and not of special interest. There is a good survival of original machinery in the building, including a large winnowing machine in the centre of the ground floor and line shafting for belt drives on both ground and first floors. The stable block has a stone paved floor and a twin angle king-post roof. There are a large number of dividing stalls but these are modern additions and not of special interest. The original stalls were aligned with the ventilation slits in the walls. The L-shaped barn building is divided internally into two separate barns, S and E. The S barn is a single space with a roof which has some C19 king-post trusses and some older re-used trusses with raking queen struts. The room inside the lean-to has a raised timber floor with timber rails to the right, indicating the possible use of portable machinery. The brick wall between the two barns has a pattern of ventilation grilles similar to that in the processing barn. The E barn has a raised wooden threshing floor in the centre with timber mowsteads on each side, dividing the barn into three. The left side is currently partitioned off. The roof has a similar mixture of C19 and older trusses as in the S barn. A plank door with strap hinges leads into a small room in the lean-to, which has a plank bench and a re-used roof truss. This may have been a mess room. The open cartshed has a king-post roof, with Baltic shipping marks on the softwood trusses. These markings appear on timbers throughout the farmstead but are most visible in the cartshed. HISTORY: In 1811 John Dickinson (1782-1869) acquired the paper mill at Nash Mills, which lies in the valley below Bunkers Farm. He had patented a mechanical means of manufacturing paper and was looking for a site to try out his invention. Dickinson became a leading figure in England's paper manufacturing industry and also owned the nearby Croxley and Apsley paper mills. He invented gummed envelopes in the mid C19, and his company launched the Lion Brand and Basildon Bond brands, owning manufacturing sites across the world. He lived in a house on the Nash Mills site until the 1830s, when he moved into a grander new house, Abbots Hill House (now a school) further up the valley. He purchased the adjoining Chambersbury Estate, which included Bunkers Farm, probably in 1844 and certainly by 1850. During the 1850s or 1860s he demolished the old buildings at Bunkers Farm and built a new model farmstead, as part of the Abbots Hill Estate. Farm building design and layout were affected by a number of factors from the 1840s. These included the application of scientific principles to planning, leading to the more rational use of buildings and communication between them; the extension of mechanisation (such as steam power) for working threshing and other machinery; and the introduction of new materials such as imported softwood, machine-made brick and cast-iron fittings. These principles were all applied by John Dickinson to his model farmstead. The farm was presumably used for grain processing, as there is no evidence of livestock being housed in any numbers. It is also possible that the farm had a research function in connection with the paper-making industry, as it is known that in the mid C19 the mills owned by John Dickinson & Co. were experimenting with the use of field crops in the paper-making process. Bunkers Farm appears substantially in its present form on the 1st edition OS map surveyed in 1877 and published in 1879. The two courtyards, with the processing barn and stables on their N side and the L-shaped barn and cartshed on the S side, are as existing. There is a trough marked in the E yard on the map. Three structures shown on the map are no longer in existence: a narrow shed on the S side of the W yard, whose rear wall survives as part of the brick and flint enclosure wall of the farmstead; another narrow shed on the W side of the W yard; and a building which extended southwards from the centre of the processing barn and divided the two yards. To the right of the junction of this building and the processing barn there is a projection on the map which is larger than the existing chimney, and may therefore indicate a lost engine house or boiler house. This is supported by physical evidence of alterations to the façade of the processing barn to the right of the chimney. The water tank which now stands on the site was put in sometime between 1898 and 1924. The 2nd edition map of 1898 shows an open shed added to the E of the farm, probably a cartshed, which is no longer there. None of the maps show a farmhouse, which confirms the farm's link with Abbots Hill House and Nash Mills. REASONS FOR DESIGNATION DECISION: Bunkers Farm is designated at grade II, for the following principal reasons: *          Built by John Dickinson, the pioneering owner of the paper mill at Nash Mills, Bunkers Farm is an innovative example of a mid C19 model farm *          The main processing barn is an important example of industrial scale farming, with its double storey height and rare cast iron trusses  *          Barns of brick and flint - particularly of such a large scale - are rare in this part of the country *          The buildings are well-crafted and have definite architectural quality. *          There are a number of features of special interest surviving internally, including machinery in the processing barn and a raised threshing floor in the east barn  *          The connection with John Dickinson adds historic interest. Dickinson's mills were experimenting with the use of field crops in the paper-making process in the mid C19 and it is possible that Bunkers Farm had a research function in connection with the paper-making industry."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The BPN has been upheld and Bunkers Farm has been listed at grade II, for the following principal reasons: *          Built by John Dickinson, the pioneering owner of the paper mill at Nash Mills, Bunkers Farm is an innovative example of a mid C19 model farm *          The main processing barn is an important example of industrial scale farming, with its double storey height and rare cast iron trusses  *          Barns of brick and flint - particularly of such a large scale - are rare in this part of the country *          The buildings are well-crafted and have definite architectural quality. *          There are a number of features of special interest surviving internally, including machinery in the processing barn and a raised threshing floor in the east barn  *          The connection with John Dickinson adds historic interest. Dickinson's mills were experimenting with the use of field crops in the paper-making process in the mid C19 and it is possible that Bunkers Farm had a research function in connection with the paper-making industry."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale Unknown)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2009-02-05T00:00:00Z"
+      }
+    }
+  ]
+}

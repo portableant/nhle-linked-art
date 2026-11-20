@@ -1,0 +1,197 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348077.json",
+  "type": "HumanMadeObject",
+  "_label": "Farmhouse At Little Heath Farm (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Farmhouse At Little Heath Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348077"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01875 08275"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157987"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26631491"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348077",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01875 08275)",
+    "defined_by": "POINT(-0.525196 51.763899)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348077",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348077",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26631491",
+      "type": "HumanMadeObject",
+      "_label": "Farmhouse At Little Heath Farm (Q26631491)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348077",
+    "type": "Production",
+    "_label": "Origin / Construction of Farmhouse At Little Heath Farm (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "C17",
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1699-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348077-1",
+      "type": "Modification",
+      "_label": "C18: Timber frame exposed on rear wall and inside, C18 red brick infill, plum brick casing with blue headers in chequer pattern, and steep old re…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348077-2",
+      "type": "Modification",
+      "_label": "C19: C17 or earlier, brick cased, roof and chimney altered and rear wing built mid/later C19 for Lord Brownlow's Estate.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW         NETTLEDEN WITH         LITTLE HEATH LANE                  POTTEN END             (East side)                                         Potten End 5/206                                   Farmhouse at 30.11.66                                Little Heath Farm                                         (formerly listed as Little                                         Heath Small Farmhouse, Potten End) GV                                      II Farmhouse. C17 or earlier, brick cased, roof and chimney altered and rear wing built mid/later C19 for Lord Brownlow's Estate. Timber frame exposed on rear wall and inside, C18 red brick infill, plum brick casing with blue headers in chequer pattern, and steep old red tile roofs. A 2-storeys house of 3 structural bays facing W with 1½ storeys brick rear wing containing entrance and staircase at W end. W front has plinth, 3 mullioned 3-light casement windows to each floor, segmental arches over ground floor windows, and blocked door opposite internal chimney a third from the S end. Lean-to C19 extension against S end continued along rear wall as far as rear wing. Similar oak mullioned casement windows with divided casements and stop-chamfered mullions in all parts of house. Fine C19 closed string oak staircase with ball on newel and turned balusters in Jacobean style. Exposed timber framework shows a full-height framed partition between narrow original N service bay and the other 2 rooms. Axial beam in middle bay. Paired chamfered axial oak beams and squared joints in S room. Signs of opposed doorways in middle bay as if for cross-passage against partition closing off N bay. Weathered timbers in former rear wall by staircase and exposed framing in walls of ground floor and 1st floor. Straight braces to tie beam and wallplate.   Probably   an   original   clasped-purlin  roof,   largely reconstructed with several old rafters. Domed brick bread oven with iron door in rear wing, with copper on opposite side of gable chimney fireplace. Heads of jowled posts let into tie-beam so that chamfers on each can be mitred at junction. Listing NGR: TL0187508275"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z",
+        "end_of_the_end": "1987-03-19T23:59:59Z"
+      }
+    }
+  ]
+}

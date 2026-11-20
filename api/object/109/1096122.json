@@ -1,0 +1,212 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/109/1096122.json",
+  "type": "HumanMadeObject",
+  "_label": "H H Dickman, Chemists",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "H H Dickman, Chemists"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1096122"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99060 07899"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "490088"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26388415"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1096122",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99060 07899)",
+    "defined_by": "POINT(-0.566079 51.761024)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1096122",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1096122",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26388415",
+      "type": "HumanMadeObject",
+      "_label": "H H Dickman, Chemists (Q26388415)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1096122",
+    "type": "Production",
+    "_label": "Origin / Construction of H H Dickman, Chemists (Late- C19)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1914",
+      "begin_of_the_begin": "1914-01-01T00:00:00Z",
+      "end_of_the_end": "1914-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1096122-1",
+      "type": "Modification",
+      "_label": "1914: Late-C19 house converted to chemist use in 1914 with shop front and fittings from 1920.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1914-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1096122-2",
+      "type": "Modification",
+      "_label": "1920: Late-C19 house converted to chemist use in 1914 with shop front and fittings from 1920.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1920",
+        "begin_of_the_begin": "1920-01-01T00:00:00Z",
+        "end_of_the_end": "1920-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1096122",
+      "type": "VisualItem",
+      "_label": "Photograph of H H Dickman, Chemists (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1096122",
+          "type": "DigitalObject",
+          "_label": "Commons Image for H H Dickman, Chemists",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/H.H.%20Dickman%20at%20222%20High%20Street%2C%20Berkhamsted%2C%20March%202025.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BERKHAMSTED 814/0/10024                             HIGH STREET 09-MAY-03                               224 H H Dickman, Chemists II House with chemists at ground floor.  Late-C19 house converted to chemist use in 1914 with shop front and fittings from 1920.  Brick with glazed in wood frame shop front.  Ground floor shop with offices to rear and residential and secondary shop accommodation at upper levels. EXTERIOR: Advanced shop front with gilded fascia that reads 'CHEMIST H.H. DICKMAN OPTICIANS'.  Slender colonnette mullions.  To left, 3 bays, that to centre advanced and with curved edges, over shallow marble plinth.  To right, recessed entrance bay with shallow glazed cabinets to side and deep glazed display cabinet to rear.  Glazed door to left with diamond mullion overlight.  Continuous band of glazed overlights with diamond glazing bars to each bay, paired over entrance. INTERIOR: Ground floor with shop to front with small raised room at right, and raised dispensing department to the rear.  Front display window with glazed doors into shop.  Fitted glazed cabinets to right wall, shelving to left wall with cabinets below that have multiple small drawers labelled to identify drugs and chemicals.  Free-standing fitting glazed mahogany framed cabinets form display counters.  To rear, tall shelving unit with mirrored back and raised sign that reads 'DISPENSING DEPARTMENT.'  Full height staircase and tiled floors.  Primary interest is the ground floor shop. SOURCES: For context, Kathryn Morrison 'English Shops and Shopping: An Architectural History'.  Yale University Press, forthcoming 2003."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2003-05-09T00:00:00Z"
+      }
+    }
+  ]
+}

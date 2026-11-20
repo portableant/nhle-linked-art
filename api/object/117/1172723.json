@@ -1,0 +1,224 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172723.json",
+  "type": "HumanMadeObject",
+  "_label": "Numbers 9, 11 (Vine Cottage), 13 (Swift Cottage), And 15 (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Numbers 9, 11 (Vine Cottage), 13 (Swift Cottage), And 15"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172723"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07874 14626"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157797"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467500"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172723",
+    "type": "Place",
+    "_label": "Flamstead (TL 07874 14626)",
+    "defined_by": "POINT(-0.436329 51.819857)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172723",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172723",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467500",
+      "type": "HumanMadeObject",
+      "_label": "Numbers 9, 11 (Vine Cottage), 13 (Swift Cottage), And 15 (Q26467500)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172723",
+    "type": "Production",
+    "_label": "Origin / Construction of Numbers 9, 11 (Vine Cottage), 13 (Swift Cottage), And 15 (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1977",
+      "begin_of_the_begin": "1977-01-01T00:00:00Z",
+      "end_of_the_end": "1977-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172723-1",
+      "type": "Modification",
+      "_label": "Late C17: C17 or earlier, late C17 gabled front extension (Vine Cottage) with late C18 extension to W side of it (No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172723-2",
+      "type": "Modification",
+      "_label": "Late C18: C17 or earlier, late C17 gabled front extension (Vine Cottage) with late C18 extension to W side of it (No.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C18",
+        "begin_of_the_begin": "1767-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172723-3",
+      "type": "Modification",
+      "_label": "C20: 11 has casement windows renewed and C20 porch.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172723-4",
+      "type": "Modification",
+      "_label": "Late C20: Late C20 N extension to main range.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C20",
+        "begin_of_the_begin": "1967-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172723-5",
+      "type": "Modification",
+      "_label": "1977: (Pevsner (1977)143).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             HIGH STREET TL 0714                                        (North side) 9/21                                   Nos. 9, 11 (Vine Cottage), -                                      13 (Swift Cottage), and 15 GV                                     II House, now 4 houses. C17 or earlier, late C17 gabled front extension (Vine Cottage) with late C18 extension to W side of it (No. 9) which at some time was 2 houses with added rear outshut. Late C20 N extension to main range. Timber frame, now exposed only on W wall of E wing infilled with red brick, red brick casing and exterior to extensions. Steep old red tile roofs, hipped E wing. A 2-storeys L-shaped house facing S with broad E crosswing projecting only to S and large internal chimney rising through front slope of roof about a third from W end. W part of front obscured by gabled 2-storeys projection with large external side-chimney on E, and 2-storeys block extending to W with catslide rear outshut and central internal chimney. This extension (No. 9) has symmetrical S front of 2 casement windows to each floor and 2 battened doors next corners. No. 11 has casement windows renewed and C20 porch. Set back in middle No. 13 has a plank door between 2 small-panes casement windows in each floor. E wing (No.  15) facing E with segmental front of 2 2-light casement windows to each floor and central door. S end has a 2-lights casement over a 3-lights casement window. This wing has an internal chimney and a N gable internal chimney. Exposed framing and blocked 3-lights window on W wall. (Pevsner (1977)143). Listing NGR: TL0787414626"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

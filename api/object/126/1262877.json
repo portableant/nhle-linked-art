@@ -1,0 +1,209 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/126/1262877.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St John The Evangelist And Attached Church Hall",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St John The Evangelist And Attached Church Hall"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1262877"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05132 06182"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "433825"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26553720"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1262877",
+    "type": "Place",
+    "_label": "Unassigned Locality (TL 05132 06182)",
+    "defined_by": "POINT(-0.478651 51.744486)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1262877",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1262877",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/St_John%27s_Church,_Boxmoor",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Church of St John the Evangelist and Attached Church Hall",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Saint_John_the_Evangelist_Church_%28Boxmoor%29",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26553720",
+      "type": "HumanMadeObject",
+      "_label": "Church of St John the Evangelist and Attached Church Hall (Q26553720)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1262877",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St John The Evangelist And Attached Church Hall (1874)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1874",
+      "begin_of_the_begin": "1874-01-01T00:00:00Z",
+      "end_of_the_end": "1874-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1262877-1",
+      "type": "Modification",
+      "_label": "after 1881: 1874, with hall added after 1881.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "after 1881",
+        "begin_of_the_begin": "1881-01-01T00:00:00Z",
+        "end_of_the_end": "1881-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1262877",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St John The Evangelist And Attached Church Hall (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1262877",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St John The Evangelist And Attached Church Hall",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20of%20St%20John%20the%20Evangelist%2C%20Boxmoor%20%28geograph%205555175%29.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 0506 894/2/245 HEMEL HEMPSTEAD BOXMOOR STATION ROAD, Church of St John The Evangelist and attached church hall II Anglican church and attached church hall. 1874, with hall added after 1881. CHURCH: by Norman Shaw. Snecked rubble stone with ashlar dressings and plain tiled roof covering. Gothic Revival style. Nave, aisles, chancel south and north porches. Tiled roof. Lancets to nave and clerestory. Octagonal bellcote on nave roof. Five-light window with Geometrical tracery. Five-light east window. Interior has nave arcades carried on piers of quatrefoil tracery. Boarded roof. CHURCH HALL: attached on southwest side. Architect not known. Diagonally-tooled blocks with ashlar dressings, beneath a plain-tiled roof. Two bays, each with a three-light mullioned window. Flat roofed linking bay with 3-light mullioned window. Listing NGR: TL0513206182"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1977-02-17T00:00:00Z",
+        "end_of_the_end": "1996-02-12T23:59:59Z"
+      }
+    }
+  ]
+}

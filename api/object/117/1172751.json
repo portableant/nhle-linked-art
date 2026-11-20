@@ -1,0 +1,224 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172751.json",
+  "type": "HumanMadeObject",
+  "_label": "Mabbs Farmhouse (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Mabbs Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172751"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 03292 04625"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157559"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467525"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172751",
+    "type": "Place",
+    "_label": "Bovingdon (TL 03292 04625)",
+    "defined_by": "POINT(-0.505753 51.730833)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172751",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172751",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467525",
+      "type": "HumanMadeObject",
+      "_label": "Mabbs Farmhouse (Q26467525)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172751",
+    "type": "Production",
+    "_label": "Origin / Construction of Mabbs Farmhouse (Mid C16)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1975",
+      "begin_of_the_begin": "1975-01-01T00:00:00Z",
+      "end_of_the_end": "1975-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172751-1",
+      "type": "Modification",
+      "_label": "Early C17: Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear pa…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1633-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172751-2",
+      "type": "Modification",
+      "_label": "Late C17: Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear pa…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C17",
+        "begin_of_the_begin": "1667-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172751-3",
+      "type": "Modification",
+      "_label": "C18: Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear pa…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172751-4",
+      "type": "Modification",
+      "_label": "C19: Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear pa…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172751-5",
+      "type": "Modification",
+      "_label": "c. 1975: Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear pa…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON              \tLONGCROFT LANE TL 00 SW  \t\t\t\t\t(North side)                                       6/32                                    \tMabbs Farmhouse - GV                                     \t\tII Farmhouse, now a private house. Mid C16 with early C17 NE rear wing and late C17 similar wing beside it on W, front cased in brick in C18/C19 century, renovated and rear part tilehung c.1975. Timber frame on brick sill, brick infilled and tilehung at rear but red brick front. Steep old red tile roofs and 2 internal chimneys. A long 1½ storeys house facing S with 3 windows, 3 dormers, tiled gabled porch on 2 posts. 2-light flush casement windows with small panes. Stable type door to kitchen at RH end of front. Timber lintels with segmental relieving arches.  A 6-bay  timber frame with jowled posts,  straight braces, cambered tie beams,  clasped purlin roof with straight wind braces: sockets  for  3 light diamond mullioned glazed window in rear wall ground floor. Jowled posts and clasped purlin roof to 2-storeys NE rear wing. Butt purlin roof to adjoining rear wing. 2 2-panel moulded doors on 1st floor. Exposed chamfered axial and cross beams in room on E side of central chimney. Exposed beams and joists generally. Listing NGR: TL0329204625"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

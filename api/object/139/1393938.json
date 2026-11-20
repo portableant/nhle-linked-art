@@ -1,0 +1,219 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/139/1393938.json",
+  "type": "HumanMadeObject",
+  "_label": "Nos. 15, 16 AND 17, LITTLE GADDESDEN",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Nos. 15, 16 AND 17, LITTLE GADDESDEN"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1393938"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 99194 13633"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "509186"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26673072"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1393938",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 99194 13633)",
+    "defined_by": "POINT(-0.562501 51.812538)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1393938",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1393938",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26673072",
+      "type": "HumanMadeObject",
+      "_label": "15, 16 And 17 Little Gaddesden (Q26673072)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1393938",
+    "type": "Production",
+    "_label": "Origin / Construction of Nos. 15, 16 AND 17, LITTLE GADDESDEN (C17)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1777",
+      "begin_of_the_begin": "1777-01-01T00:00:00Z",
+      "end_of_the_end": "1777-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393938-1",
+      "type": "Modification",
+      "_label": "1777: 15, 16 AND 17, LITTLE GADDESDEN 1777/0/10024 LITTLE GADDESDEN, 15, 16 and 17 Little Gaddesden 18.02.11 II A terrace of three former estate c…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1777",
+        "begin_of_the_begin": "1777-01-01T00:00:00Z",
+        "end_of_the_end": "1777-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393938-2",
+      "type": "Modification",
+      "_label": "Early C19: 15, 16 AND 17, LITTLE GADDESDEN 1777/0/10024 LITTLE GADDESDEN, 15, 16 and 17 Little Gaddesden 18.02.11 II A terrace of three former estate c…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393938-3",
+      "type": "Modification",
+      "_label": "C19: 16 has a two-storey gabled range, which has been rebuilt during C19, and no.15 has a single-storey continuous outshot which was added during…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393938-4",
+      "type": "Modification",
+      "_label": "Late C19: 16 has a two-storey gabled range, which has been rebuilt during C19, and no.15 has a single-storey continuous outshot which was added during…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1393938-5",
+      "type": "Modification",
+      "_label": "C20: PLAN: The terrace is broadly rectangular in plan, with a C20 cross-wing extension to the rear of no.17.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "1777/0/10024 LITTLE GADDESDEN, 15, 16 and 17 Little Gaddesden 18.02.11 II A terrace of three former estate cottages dating from the early C19, incorporating C17 timber framing from an earlier house. MATERIALS: plum/grey coloured brick with red brick dressings, and machine-made clay roof tiles. PLAN: The terrace is broadly rectangular in plan, with a C20 cross-wing extension to the rear of no.17. EXTERIOR: The building is two storeys tall, with attic, and has a pitched roof with deep verges. There is an axial brick chimney stack with clay pots between nos. 15 and 16. The principal elevation contains the main entrance, via a small pitched-roof porch, to each of the three cottages. The windows are timber casements with small panes and red brick heads. To the rear is a large 1980s, two-storey cross-wing extension with single-storey extension and conservatory, added to the southern flank. The original chimney stack to no.17 survives within the C20 extension, although the hearth has been rebuilt. There are uPVC windows to the flank. No. 16 has a two-storey gabled range, which has been rebuilt during C19, and no.15 has a single-storey continuous outshot which was added during the mid to late C19. The rear elevation has timber casement windows with glazing bars and small panes. INTERIOR: The interior of no. 17 comprises a small entrance hall with modern staircase to the first floor. To the right of the hall is a dining room which is part of the original range and which has much of its timber frame, including a large spine beam with chamfered joists and lambs-tongue stops, main posts, studs, girding beam and groundsill. Adjoining this room to the rear is a lounge which contains the remodelled hearth and the remains of the timber frame from the earlier outshot, which have been incorporated into the C20 rebuild.  To the left of the hall is a kitchen which is part of the C20 rebuild. There is also a wet room and conservatory behind the kitchen. The upper floor comprises a small landing, which has wall posts and cross-beams, three bedrooms and a bathroom. The majority of the timber frame, including girding beams, studs, tension braces and wall plates and mid rail survives in the right-hand, front bedroom. No. 16 has a main living room, dining room and kitchen on the ground floor. The living room has a chamfered and stopped post and a spine beam with chamfered joists. There is a modern, rebuilt hearth and an arched recess to the left that is suggestive of the remnants of an earlier bread oven. A staircase in the far left hand corner of the room leads to the upper floor, and a door in the opposite corner leads through to the dining room and kitchen. There are chamfered posts, groundsill, large spine beam, cross-beams and studs with brick nogging infill in the kitchen/dining area. The original brick paviour floor survives in the under stair cupboard. At first floor there are two bedrooms and a bathroom, and above is a study and loft space. Much of the timber frame is apparent at the upper storeys, including wall-plate, studs, mid rail and curved bracing in the bedrooms, and queen-post trusses at each end. Much of the original timber survives in the roof although it has been augmented with modern sawn timbers for reinforcement. No. 15 comprises a living room and kitchen at ground-floor level. There is a chamfered spine beam, cross beams and wall plate in the living room.  A dogleg stair leads from the kitchen to the upper storey, which comprises a bedroom and bathroom. Much of the timber frame is apparent at the upper storey and includes posts, wall plate, bracing, tie beams and spine beams. In the attic space many of the original roof timbers survive including a queen-post truss with brick infill panels. There are also modern, sawn timbers which have been added to reinforce and strengthen the roof structure. HISTORY Little Gaddesden is a picturesque village approximately 3 miles north of Berkhamsted. It borders Buckinghamshire and Berkshire, although is actually within the county of Hertfordshire. It has many historic buildings, perhaps most notably, Ashridge House by James Wyatt, with landscape and garden by Humphry Repton and Capability Brown, the building is listed Grade II and the grounds are included on the Register of Historic Parks and Gardens. Nos. 15-17 Little Gaddesden lies in the southern end of the village. It is now three cottages and appears to have been created in the early-C19 from an earlier three-and-a-half-bay house dating from the C17, and incorporates much of the latter's timber framing. The terrace is likely to have originally had a single-room plan, although its form has evolved since. There have been various extensions and alterations, including, in the C19, the rebuilding of the upper section of the rear gable wing to no. 16 and the addition of a lean-to rear outshut to no. 15. In the 1980s, a bay was added to the southern flank of no. 17; the entrance was relocated from the gable end to the front; and the addition to the rear of a two-storey projecting rear gable wing was added. REASON FOR DESIGNATION Nos. 15, 16 and 17 Little Gaddesden, Dacorum, Hertfordshire is designated at Grade II for the following principal reason: *      HISTORIC INTEREST: Notwithstanding the C19 and C20 alteration to the building, a significant proportion of original C17 timber frame survives in all three cottages, including substantial elements of the roof structure. It is therefore indicative of its different stages of development and representative of the vernacular architecture of the region."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale Unknown)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2011-02-18T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100891.json",
+  "type": "HumanMadeObject",
+  "_label": "Bridge Carrying Railway Over North End Of Road (Abbots Langley)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Bridge Carrying Railway Over North End Of Road"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1100891"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 07307 03872"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "158708"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26393721"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100891",
+    "type": "Place",
+    "_label": "Abbots Langley (TL 07307 03872)",
+    "defined_by": "POINT(-0.447871 51.723312)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1100891",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1100891",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Abbots_Langley_railway_bridge",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Bridge Carrying Railway Over North End Of Road",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Abbots_Langley_railway_bridge",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26393721",
+      "type": "HumanMadeObject",
+      "_label": "Bridge Carrying Railway Over North End Of Road (Q26393721)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100891",
+    "type": "Production",
+    "_label": "Origin / Construction of Bridge Carrying Railway Over North End Of Road",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1837",
+      "begin_of_the_begin": "1837-01-01T00:00:00Z",
+      "end_of_the_end": "1837-12-31T23:59:59Z"
+    }
+  },
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1100891",
+      "type": "VisualItem",
+      "_label": "Photograph of Bridge Carrying Railway Over North End Of Road (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1100891",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Bridge Carrying Railway Over North End Of Road",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Container%20train%20crossing%20Lower%20Road%20-%20geograph.org.uk%20-%204644991.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 SE           ABBOTS LANGLEY        RAILWAY TERRACE                                          Nash Mills 3/63                                     Bridge carrying Railway                                          over N end of road II Bridge carrying railway over road. 1837. Robert Stephenson, engineer, for London and Birmingham Railway. Stock brick skew arch with stone voussoirs  to  both  faces.  Battered  pilaster  buttresses  to  splayed abutments. Stone bands to parapets, which are largely rebuilt. Tunnel is about 25m long. Listing NGR: TL0730703872"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1985-10-03T00:00:00Z"
+      }
+    }
+  ]
+}

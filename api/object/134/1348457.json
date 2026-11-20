@@ -1,0 +1,187 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/134/1348457.json",
+  "type": "HumanMadeObject",
+  "_label": "Gates, Gatepiers And Flanking Walls At Main Entrance To Park At Beechwood Park School (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Gates, Gatepiers And Flanking Walls At Main Entrance To Park At Beechwood Park School"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1348457"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 05325 14322"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157787"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q74824621"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348457",
+    "type": "Place",
+    "_label": "Flamstead (TL 05325 14322)",
+    "defined_by": "POINT(-0.473389 51.817611)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1348457",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1348457",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q74824621",
+      "type": "HumanMadeObject",
+      "_label": "Gates, gatepiers and flanking walls at main entrance to park at Beechwood Park School (Q74824621)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1348457",
+    "type": "Production",
+    "_label": "Origin / Construction of Gates, Gatepiers And Flanking Walls At Main Entrance To Park At Beechwood Park School (C18)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-william-chambers",
+        "type": "Person",
+        "_label": "Sir William Chambers"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1760",
+      "begin_of_the_begin": "1760-01-01T00:00:00Z",
+      "end_of_the_end": "1760-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1348457-1",
+      "type": "Modification",
+      "_label": "c. 1760: C18 (probably c.1760 by Sir William Chambers then working on interiors at mansion) for Sebright family.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1760",
+        "begin_of_the_begin": "1760-01-01T00:00:00Z",
+        "end_of_the_end": "1760-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             BEECHWOOD PARK TL 01 SE                                        (West side) 4/11                                   Gates, gatepiers and -                                      flanking walls at main                                        entrance to park at                                        Beechwood Park School -                                      II* Gates,  gatepiers  and  flanking  walls.  C18  (probably  c.1760  by Sir William Chambers then working on interiors at mansion) for Sebright family. Wrought ironwork, Portland stone piers, red brick walls in Flemish-bond with moulded brick coping. At the centre of a concave sweep of 2M high brick walls as seen from road stand 2 widely spaced 5M tall stone piers with urns flanking a long wrought iron screen containing central double gates, standards, and side-gates with lower overthrows of scrolled ironwork. Delicately detailed 1M square stone piers each with shaft of channelled rustication, each block with vermiculated face and drafted margin to joint, projecting low moulded base, moulded necking, plain frieze and moulded cornice to cap topped by Baroque vigorously carved large urn set high on concave base. Gates and standards have dog-bars in bottom panels, and scrolled bracket to side of higher standard adjoining with another scrolled panel at head. Old photographs show scrolled terminals to both of the standards and an armorial scrolled great overthrow to the central span. This now lies rusting near the school. Listing NGR: TL0532514322"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

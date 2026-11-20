@@ -1,0 +1,192 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/117/1172872.json",
+  "type": "HumanMadeObject",
+  "_label": "Puddephat'S Farm (Flamstead)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Puddephat'S Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1172872"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 06449 13130"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157822"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26467637"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172872",
+    "type": "Place",
+    "_label": "Flamstead (TL 06449 13130)",
+    "defined_by": "POINT(-0.457454 51.806685)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1172872",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1172872",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26467637",
+      "type": "HumanMadeObject",
+      "_label": "Puddephat's Farm (Q26467637)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1172872",
+    "type": "Production",
+    "_label": "Origin / Construction of Puddephat'S Farm (Early C17)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/alban-carbe",
+        "type": "Person",
+        "_label": "Alban Carbe"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1937",
+      "begin_of_the_begin": "1937-01-01T00:00:00Z",
+      "end_of_the_end": "1937-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1172872-1",
+      "type": "Modification",
+      "_label": "c. 1937: Early C17, altered with new N and S crosswings c.1937 by Alban Carbe.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1937",
+        "begin_of_the_begin": "1937-01-01T00:00:00Z",
+        "end_of_the_end": "1937-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Earth / Render"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "FLAMSTEAD             PUDDEPHAT'S LANE TL 01 SE                                        (South side) 4/42                                   Puddephat's Farm - GV                                     II Farmhouse, now a private house. Early C17, altered with new N and S crosswings c.1937 by Alban Carbe. Timber frame only exposed inside, roughcast E wing, red brick casing and steep old red tile roof with matching extensions. A 2-storeys and attics T-plan older centre to house with cellar under E wing.  Main range N-S has  lobby-entry, internal-chimney, 2 cells plan facing W. Stair in rear wing opposite chimney. 3-bays front range with narrow chimney bay in middle. 2-bays E wing with large external E gable chimney with 2 conjoined square shafts, pierced by main entrance c.1937 with armorial plaque added above.  Twin,  2-storeys,  gabled  crosswings  project  to  front  (E). Casement windows with segmental arches, renewed. Small gabled -brick well-house attached at SE corner with deep well still in use. Interior has exposed timber in walls, chamfered axial beams with hollow stops to ground floor,  similar with ogee stops to 1st floor. Jowled posts, straight braces to tie-beams, clasped-purlin roof on collar-and-strut trusses. Double-curved tension brace and square-butted scarf joint of wallplate  in rear wall,  the  framing of which is  exposed on the staircase. Particularly heavy and long-span purlins. Listing NGR: TL0644913130"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

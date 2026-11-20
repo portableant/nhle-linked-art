@@ -1,0 +1,240 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/129/1296536.json",
+  "type": "HumanMadeObject",
+  "_label": "Duck Hall Farm (Bovingdon)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Duck Hall Farm"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1296536"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01205 04043"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157563"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26584182"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1296536",
+    "type": "Place",
+    "_label": "Bovingdon (TL 01205 04043)",
+    "defined_by": "POINT(-0.536131 51.725982)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1296536",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1296536",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26584182",
+      "type": "HumanMadeObject",
+      "_label": "Duck Hall Farm (Q26584182)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1296536",
+    "type": "Production",
+    "_label": "Origin / Construction of Duck Hall Farm (Late C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1975",
+      "begin_of_the_begin": "1975-01-01T00:00:00Z",
+      "end_of_the_end": "1975-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-1",
+      "type": "Modification",
+      "_label": "C16: The other 2 bays had floors inserted in the C16 on chamfered axial beams, the middle bay provided with a large rear wall fireplace and chimn…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-2",
+      "type": "Modification",
+      "_label": "Early C19: Late C15 former open hall house, N wing early C19, mid C19 brick casing and tilehanging.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1833-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-3",
+      "type": "Modification",
+      "_label": "C19: Matching C19 parallel rear extension on NW with catslide rear outshut at NE of main range.Irregular S front has a gabled dormer window risin…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-4",
+      "type": "Modification",
+      "_label": "Mid C19: Late C15 former open hall house, N wing early C19, mid C19 brick casing and tilehanging.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-5",
+      "type": "Modification",
+      "_label": "1975: (Roberts(1975)No.36: Pevsner (1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1975",
+        "begin_of_the_begin": "1975-01-01T00:00:00Z",
+        "end_of_the_end": "1975-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1296536-6",
+      "type": "Modification",
+      "_label": "1977: (Roberts(1975)No.36: Pevsner (1977)107).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1977",
+        "begin_of_the_begin": "1977-01-01T00:00:00Z",
+        "end_of_the_end": "1977-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "BOVINGDON             \tNEWHOUSE ROAD TL 00 SW \t\t\t\t\t(North side)                                        6/36                                    \tDuck Hall Farm - GV                                      \tII Farmhouse, now a private house. Late C15 former open hall house, N wing early C19, mid C19 brick casing and tilehanging. Timber frame on brick sill. Upper floor of red tilehanging with scalloped tiled bands. Steep old red tile roofs. A 1½ storeys, 3-cells and cross-passage house facing S with 2 unequal gables facing road on W. Matching C19 parallel rear extension on NW with catslide rear outshut at NE of main range.Irregular S front has a gabled dormer window rising through the eaves in the middle bay with similar 3-light casement windows to that to hall below. Door on RH up 3 steps leads into cross-passage. Small 2-light Yorkshire sliding casement to right of door. Large side-chimney to parlour rises through lower part of roofslope on left. W front has rendered ground floor below, decorative tilehanging, 2 windows to each floor and door in middle. 3-light casement windows and 4-panel, half glazed door under a lean-to bracketed tiled hood. Interior has cross-passage taken out of E service bay with original upper floor structure (lower than rest) and access by steep ladder in SE corner to room over. The other 2 bays had floors inserted in the C16 on chamfered axial beams, the middle bay provided with a large rear wall fireplace and chimney with winding stair beside it on W. The front wall chimney to the W bay has 2 flues for the parlour and chamber over it.  This plan may be a C16 adaptation of a former 2-bay open hall with storeyed service end, common in this area. Curved braces to heavy cambered tie-beams. Clasped-purlin roofs with collars and queen-struts. Wattle and daub partition panels. Ledged plank doors on iron hooks and bands. Early C19 N extension gave 2 more heated rooms and new stair. (Roberts(1975)No.36: Pevsner (1977)107). Listing NGR: TL0120504043"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1986-12-02T00:00:00Z"
+      }
+    }
+  ]
+}

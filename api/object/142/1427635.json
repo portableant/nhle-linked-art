@@ -1,0 +1,259 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/142/1427635.json",
+  "type": "HumanMadeObject",
+  "_label": "Marsworth War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Marsworth War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1427635"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9201014606"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677369"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1427635",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9201014606)",
+    "defined_by": "POINT(-0.666422 51.822511)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1427635",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1427635",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Marsworth_war_memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677369",
+      "type": "HumanMadeObject",
+      "_label": "Marsworth War Memorial (Q26677369)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1427635",
+    "type": "Production",
+    "_label": "Origin / Construction of Marsworth War Memorial (C20)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/lord-rothschild",
+        "type": "Person",
+        "_label": "Lord Rothschild"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1427635-1",
+      "type": "Modification",
+      "_label": "1914–1918: (north face) “GREATER LOVE HATH/ NO MAN THAN THIS,/ THAT A MAN LAY/ DOWN HIS LIFE/ FOR HIS FRIENDS.” (east face) (11 NAMES) (south face) IN/…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1918",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1427635-2",
+      "type": "Modification",
+      "_label": "1918: One of the casualties named on the memorial died at home on 1 December 1918 and is buried in the churchyard.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1918",
+        "begin_of_the_begin": "1918-01-01T00:00:00Z",
+        "end_of_the_end": "1918-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1427635-3",
+      "type": "Modification",
+      "_label": "1921: Marsworth War Memorial First World War memorial, 1921, with later additions for the Second World War.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1427635-4",
+      "type": "Modification",
+      "_label": "1939–1945: (north face) “GREATER LOVE HATH/ NO MAN THAN THIS,/ THAT A MAN LAY/ DOWN HIS LIFE/ FOR HIS FRIENDS.” (east face) (11 NAMES) (south face) IN/…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1427635",
+      "type": "VisualItem",
+      "_label": "Photograph of Marsworth War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1427635",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Marsworth War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Saints%20Church%2C%20Marsworth%2007.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial, 1921, with later additions for the Second World War."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "Marsworth War Memorial stands in the north-east of the churchyard of the Church of All Saints (Grade II*-listed), in a prominent position in the village.  It is a tall Portland stone cross with an octagonal shaft and arms.  The cross head has square terminals.  The shaft ends in a moulded foot, standing on a square plinth.  That stands on a three-stepped base.  The inscriptions are carved in recessed panels on each side of the plinth. (north face) “GREATER LOVE HATH/ NO MAN THAN THIS,/ THAT A MAN LAY/ DOWN HIS LIFE/ FOR HIS FRIENDS.” (east face) (11 NAMES) (south face)  IN/ GRATEFUL MEMORY/ OF/ THE MEN OF THIS/ VILLAGE WHO FELL IN/ THE GREAT WAR OF/ 1914 – 1918 (west face) 1939 – 1945/ (3 NAMES)"
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "Marsworth War Memorial, which stands in the churchyard of the Church of All Saints at the junction of Church Lane and Vicarage Road, is listed at Grade II for the following principal reasons: *     Historic interest: as an eloquent witness to the tragic impact of world events on the local community, and the sacrifice it made in the conflicts of the C20; *     Group Value: with the Church of All Saints (Grade II*-listed) and the Lychgate (Grade II-listed)."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The war memorial commemorates the men of Marsworth who died in the First World War.  It was unveiled on 7 August 1921 by Lord Rothschild.  The architect was AJ Gurney of Marsworth. The stone was presented by Mr NW Mead and the memorial cost £140.  One of the casualties named on the memorial died at home on 1 December 1918 and is buried in the churchyard. A further inscription and names were added at a later date to commemorate those who died in the Second World War."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2015-08-06T00:00:00Z"
+      }
+    }
+  ]
+}

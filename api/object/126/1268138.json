@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/126/1268138.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Farmhouse",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Farmhouse"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1268138"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 89474 15628"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "462189"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26558481"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1268138",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 89474 15628)",
+    "defined_by": "POINT(-0.702943 51.832109)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1268138",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1268138",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26558481",
+      "type": "HumanMadeObject",
+      "_label": "Church Farmhouse (Q26558481)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1268138",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Farmhouse (1598)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1598",
+      "begin_of_the_begin": "1598-01-01T00:00:00Z",
+      "end_of_the_end": "1598-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1268138-1",
+      "type": "Modification",
+      "_label": "Mid C19: Early-mid C19, with minor C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid C19",
+        "begin_of_the_begin": "1834-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1268138-2",
+      "type": "Modification",
+      "_label": "C20: Early-mid C19, with minor C20 alterations.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP8915 \t\t\tTRING RURAL \t\tCHAPEL LANE Long Marston 1598- /8/10002 \t\t\t\t\t\tChurch Farmhouse GV \t\t\t\t\t\t\t\tII Farmhouse. Early-mid C19, with minor C20 alterations. Purple-red brick, laid to Flemish bond, with red brick detailing, pyramidal roof with 3 tall brick stacks with decorative corbelled caps and a Welsh slate roof covering. Square plan, with central entrance and hall passage. FRONT: symmetrical elevation, with central doorway beneath a semi-circular gauged brick arch. 6-panel door with flush panels within bead moulds, beneath a semi-circular fanlight with margin glazing. Flanking the doorway are stacked glazing bar hornless sash windows, 8 over 8 panes, beneath flat gauged brick arches, and with narrow stone ci11s. Central first floor window above doorway. Above window heads, a dog-tooth sub-eaves course below a plain band, then a projecting eaves which carries the gutters. REAR: window openings have shallow brick arched heads and 2-light 6-pane casements. Ground floor openings boarded up. INTERIOR: not inspected, but known to be little altered, and likely to retain features of interest. A little altered example of an early-mid C19 farmhouse, with good quality exterior detailing, which forms part of a significant group of buildings and monuments in the centre of Long Marston village. Listing NGR: SP8947415628"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1996-10-16T00:00:00Z"
+      }
+    }
+  ]
+}

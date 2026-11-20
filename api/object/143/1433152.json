@@ -1,0 +1,262 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/143/1433152.json",
+  "type": "HumanMadeObject",
+  "_label": "The Lee War Memorial",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Lee War Memorial"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1433152"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9003004260"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26677896"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1433152",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9003004260)",
+    "defined_by": "POINT(-0.697821 51.729836)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1433152",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1433152",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:The_Lee_War_Memorial",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26677896",
+      "type": "HumanMadeObject",
+      "_label": "The Lee War Memorial (Q26677896)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1433152",
+    "type": "Production",
+    "_label": "Origin / Construction of The Lee War Memorial (C20)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1921",
+      "begin_of_the_begin": "1921-01-01T00:00:00Z",
+      "end_of_the_end": "1921-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1433152-1",
+      "type": "Modification",
+      "_label": "1914–1919: The principal dedicatory inscription begins immediately below the wheel-head on the front face, reading TO THE/ GLORY/ OF GOD/ AND IN/ MEMOR…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1914–1919",
+        "begin_of_the_begin": "1914-01-01T00:00:00Z",
+        "end_of_the_end": "1919-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1433152-2",
+      "type": "Modification",
+      "_label": "1916: A metal plaque on the front face of the step reads NINE MEN FROM THIS VILLAGE WERE SLAIN AT FROMELLES, NORTHERN/ FRANCE ON 19 JULY 1916.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1916",
+        "begin_of_the_begin": "1916-01-01T00:00:00Z",
+        "end_of_the_end": "1916-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1433152-3",
+      "type": "Modification",
+      "_label": "1921: The Lee War Memorial First World War memorial, 1921, with later additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1921",
+        "begin_of_the_begin": "1921-01-01T00:00:00Z",
+        "end_of_the_end": "1921-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1433152-4",
+      "type": "Modification",
+      "_label": "1939–1945: The Second World War dedication is carved in low relief on the front face of the pedestal, reading 1939 – 1945 (12 NAMES).",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1939–1945",
+        "begin_of_the_begin": "1939-01-01T00:00:00Z",
+        "end_of_the_end": "1945-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1433152",
+      "type": "VisualItem",
+      "_label": "Photograph of The Lee War Memorial (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1433152",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Lee War Memorial",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Lee%20War%20Memorial%2C%20The%20Lee%2C%20April%202020%201.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011303",
+      "type": "Material",
+      "_label": "Granite"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "First World War memorial, 1921, with later additions."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "DESCRIPTION: the memorial is situated at the north-eastern corner of the village green, facing Lee Clump Road. It is in the form of the Iona cross, with a slim granite tapering shaft, rectangular in section, surmounted by a wheel-head cross.  A rope pattern adorns the arrises of every part of the shaft and cross head. The shaft rises from a shallow, tapering pedestal that stands on a single step of stone blocks, surrounded by a narrow pavement. Carved interlace decoration adorns the face of the wheel-head cross. The principal dedicatory inscription begins immediately below the wheel-head on the front face, reading TO THE/ GLORY/ OF GOD/ AND IN/ MEMORY OF/ THESE MEN/ OF THE LEE/ WHO GAVE/ THEIR LIVES/ FOR KING &/ COUNTRY/ HEARTH/ & HOME/ FREEDOM/ & HONOUR/ IN BRITAIN'S/ WAR AGAINST/ GERMAN/ CRUELTY &/ AGGRESSION/ (30 NAMES)/ 1914-1919. The rear face of the shaft bears a sword carved in relief, below which is carved THANKS BE/ TO GOD/ WHICH/ GIVETH/ US THE/ VICTORY/ THROUGH/ OUR LORD/ JESUS/ CHRIST. The Second World War dedication is carved in low relief on the front face of the pedestal, reading 1939 – 1945 (12 NAMES). A metal plaque on the front face of the step reads NINE MEN FROM THIS VILLAGE WERE SLAIN AT FROMELLES, NORTHERN/ FRANCE ON 19 JULY 1916. THEIR NAMES ARE RECORDED ON THIS WAR/ MEMORIAL AND SOIL FROM THEIR GRAVES IN FRANCE WAS BROUGHT BACK IN/ 2001 AND BURIED BENEATH THIS PLAQUE IN HONOUR AND REMEMBRANCE OF/ THEIR GALLANTRY AND SACRIFICE. SUBSIDIARY FEATURES: a chain carried on low timber posts forms a boundary at the rear of the monument, with six short posts on the periphery of the green in front of the memorial. This List entry has been amended to add the source for War Memorials Online. This source was not used in the compilation of this List entry but is added here as a guide for further reading, 11 January 2017."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The Lee War Memorial, which stands on The Green, is listed at Grade II for the following principal reasons: *     Historic interest: as an eloquent witness to the tragic impact of world events on this local community, and the sacrifice it has made in the conflicts of the C20; *     Architectural interest: an intricately carved wheel-head cross in the Celtic style; *     Group value: with a number of Grade II-listed buildings around The Green."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The memorial was dedicated and unveiled on 1 January 1921 by the Lord Lieutenant of Buckinghamshire, Robert Wynn-Carington, Marquis of Lincolnshire.  The site had been presented by Lady Liberty and the memorial organised by a committee chaired by Captain Ivor Stewart-Liberty. The cross commemorates 30 local servicemen who died in the First World War, including six pairs of brothers. Following the Second World War the names of 12 men who died during that conflict were added.  A metal plaque was subsequently fixed to the memorial commemorating nine men, named on the cross, who died at Fromelles on 19 July 1916. Soil from their graves was brought back and is buried beneath the plaque."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2016-03-01T00:00:00Z"
+      }
+    }
+  ]
+}

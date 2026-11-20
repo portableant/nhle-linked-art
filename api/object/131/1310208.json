@@ -1,0 +1,231 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/131/1310208.json",
+  "type": "HumanMadeObject",
+  "_label": "The Windmill",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii-star",
+      "type": "Type",
+      "_label": "Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "The Windmill"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1310208"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 94510 15677"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "42122"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q7199059"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II* Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1310208",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP 94510 15677)",
+    "defined_by": "POINT(-0.629868 51.831721)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1310208",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1310208",
+      "format": "text/html"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Pitstone_Windmill",
+      "type": "LinguisticObject",
+      "_label": "Wikipedia Article: Pitstone Windmill",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Pitstone_Windmill",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q7199059",
+      "type": "HumanMadeObject",
+      "_label": "Pitstone Windmill (Q7199059)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1310208",
+    "type": "Production",
+    "_label": "Origin / Construction of The Windmill (1627)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1627",
+      "begin_of_the_begin": "1627-01-01T00:00:00Z",
+      "end_of_the_end": "1627-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1310208-1",
+      "type": "Modification",
+      "_label": "1749: Dated 1627 and 1749, altered and much restored 1963.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1749",
+        "begin_of_the_begin": "1749-01-01T00:00:00Z",
+        "end_of_the_end": "1749-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1310208-2",
+      "type": "Modification",
+      "_label": "C19: Post-mill on circular base of C19 whitewashed brick with shallow conical roof of metal sheets.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1310208-3",
+      "type": "Modification",
+      "_label": "1963: Dated 1627 and 1749, altered and much restored 1963.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1963",
+        "begin_of_the_begin": "1963-01-01T00:00:00Z",
+        "end_of_the_end": "1963-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1310208",
+      "type": "VisualItem",
+      "_label": "Photograph of The Windmill (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1310208",
+          "type": "DigitalObject",
+          "_label": "Commons Image for The Windmill",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Pitstone%20Windmill%20-%20geograph.org.uk%20-%20508.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 91 NW                 PITSTONE 4/137                                        The Windmill (formerly listed                                              under Ivinghoe parish) 26.9.51 -                                            II* Windmill.  Dated 1627 and 1749, altered and much restored 1963.  Post-mill on circular base of C19 whitewashed brick with shallow conical roof of metal sheets.  2 doors.  Timber framed and weatherboarded chamber above has curved roof, double board doors with board hood on shaped brackets, and small board door to loft.  Sail side of chamber has central post with moulded wooden bracket.  4 sails.  Tail pole with wooden wheel, wide wooden step ladder.  Internal machinery is intact but probably C19, restored. (David Wray, Pitstone Windmill) Listing NGR: SP9451015677"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1951-09-26T00:00:00Z",
+        "end_of_the_end": "1984-10-15T23:59:59Z"
+      }
+    }
+  ]
+}

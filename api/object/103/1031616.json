@@ -1,0 +1,241 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/103/1031616.json",
+  "type": "HumanMadeObject",
+  "_label": "Pecks Farm Close (Bierton With Broughton)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Pecks Farm Close"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1031616"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 84327 15854"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "469085"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26283002"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1031616",
+    "type": "Place",
+    "_label": "Bierton With Broughton (SP 84327 15854)",
+    "defined_by": "POINT(-0.777563 51.83494)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1031616",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1031616",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26283002",
+      "type": "HumanMadeObject",
+      "_label": "Pecks Farm Close (Q26283002)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1031616",
+    "type": "Production",
+    "_label": "Origin / Construction of Pecks Farm Close (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1998",
+      "begin_of_the_begin": "1998-01-01T00:00:00Z",
+      "end_of_the_end": "1998-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-1",
+      "type": "Modification",
+      "_label": "C16: Possibly C15 with addition 1st half C16 and mid-C17 modifications;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-2",
+      "type": "Modification",
+      "_label": "Mid- C17: Possibly C15 with addition 1st half C16 and mid-C17 modifications;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Mid- C17",
+        "begin_of_the_begin": "1634-01-01T00:00:00Z",
+        "end_of_the_end": "1666-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-3",
+      "type": "Modification",
+      "_label": "C18: C18, C19 and C20 alterations and additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-4",
+      "type": "Modification",
+      "_label": "C19: C18, C19 and C20 alterations and additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C19",
+        "begin_of_the_begin": "1800-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-5",
+      "type": "Modification",
+      "_label": "C20: C18, C19 and C20 alterations and additions.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C20",
+        "begin_of_the_begin": "1900-01-01T00:00:00Z",
+        "end_of_the_end": "1999-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1031616-6",
+      "type": "Modification",
+      "_label": "1998: Pecks Farm Close SP 81 NW BIERTON WITH BROUGHTON AYLESBURY ROAD 569/1/10012 Number 3, Pecks Farm Close 27.02.1998 GV II Farmhouse.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1998",
+        "begin_of_the_begin": "1998-01-01T00:00:00Z",
+        "end_of_the_end": "1998-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "SP 81 NW\tBIERTON WITH BROUGHTON\t\tAYLESBURY ROAD 569/1/10012\t\t\t\t\t\tNumber 3, Pecks Farm Close 27.02.1998 GV\t\t\t\t\t\t\tII Farmhouse. Possibly C15 with addition 1st half C16 and mid-C17 modifications; C18, C19 and C20 alterations and additions. Timber framed with wattle and daub infill, some replaced by brick; pebble-dashed render to front and sides; painted brick at rear. Plain tile roof, with concrete tiles to front and clay tile: to rear; corrugated-iron roof to most of outshut. Brick stacks. 2-bay hall house with central crown post to right, addition of 2 framed bays with smoke-blackened roof timbers; floors inserted and large chimney stacks added, internally at left end and with partition wall inserted to create narrow bay; and externally at right end; rear outshut added under cat-slide roof and lean-to at each gable. South front: plinth to ; left-hand bays, and part-glazed door on right of this section. 2-Light window to left of door and two 3-Light windows beyond; two 3-Light gabled dormers above; and a 3-Light window to each floor o right-hand section, all windows wooden casements with vertical glazing bars. Left-hand stack rise through ridge near left end; right-hand stack is external, enclosed by lean-to which has board door, pebble-dashed front and weatherboard to side and rear. Left-hand lean-to timber-framed wit! weatherboard. Rear: outshut almost continuous, except across left end, has C20 window on left, blocked window on right, gabled 2-Light dormer above, and doorway to each return. Interior: ground floor ha chamfered spine-beams, that in right-hand cell terminating in entrance passage with lambs-tongue stop with truncated pyramid in hollow. At left end, built into gap behind stack, is C18 cupboard wit! open-fronted, round-arched, upper cupboard with decoratively carved shelves. The timber-framing c the rear wall is visible from the outshut and comprises large-scantling posts and mid-rail, close-space studs forming narrow rectangular panels, and some remaining wattle and daub. Square-panelled timber-framing of right-hand gable wall is visible inside lean-to. 1st floor: between left-hand bays is cambered tie-beam with crown post supporting collar purlin; post has broad corner chamfers an cyma-moulded head with cyma stops to chamfered sides; arch brace from rear wall-post to tie-bean. The extreme left-hand end, visible from inside lean-to, retains diagonally-set clasped purlins, some original rafters, and arched brace from rear wall-post to wall-plate. The inserted 1st-floor partition wall is of square-panelled timber-framing with brick infill. Other framing concealed by wall paper, but in right-hand bay at rear some original smoke-blackened rafters are exposed, and straight wind-braces. Old doors, panelled and plank, survive throughout; also wooden winder stair; and plain fireplace surround to left-hand room. An interesting and well-surviving example of a late-medieval hall-house with post-medieval addition. Listing NGR: SP8432715854"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1998-02-27T00:00:00Z",
+        "end_of_the_end": "2000-03-15T23:59:59Z"
+      }
+    }
+  ]
+}

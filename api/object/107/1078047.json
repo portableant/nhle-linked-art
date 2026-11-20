@@ -1,0 +1,300 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/107/1078047.json",
+  "type": "HumanMadeObject",
+  "_label": "Church Of St John The Baptist (Church Of England) (Aldbury)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-i",
+      "type": "Type",
+      "_label": "Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Church Of St John The Baptist (Church Of England)"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1078047"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP 96351 12471"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "355640"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q17528848"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade I Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078047",
+    "type": "Place",
+    "_label": "Aldbury (SP 96351 12471)",
+    "defined_by": "POINT(-0.604051 51.802591)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1078047",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1078047",
+      "format": "text/html"
+    },
+    {
+      "id": "https://commons.wikimedia.org/wiki/Category:Church_of_St_John_the_Baptist%2C_Aldbury",
+      "type": "LinguisticObject",
+      "_label": "Wikimedia Commons Media Category",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17528848",
+      "type": "HumanMadeObject",
+      "_label": "Church of St John the Baptist, Aldbury (Q17528848)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1078047",
+    "type": "Production",
+    "_label": "Origin / Construction of Church Of St John The Baptist (Church Of England) (Early C13)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/gray-and-davidson",
+        "type": "Person",
+        "_label": "Gray and Davidson"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1203",
+      "begin_of_the_begin": "1203-01-01T00:00:00Z",
+      "end_of_the_end": "1203-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-1",
+      "type": "Modification",
+      "_label": "C13: C13 Chancel has a narrow lancet window with outer rebate and wide internal splay in N wall, (traces of diaper wall painting on splay noted c…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C13",
+        "begin_of_the_begin": "1200-01-01T00:00:00Z",
+        "end_of_the_end": "1299-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-2",
+      "type": "Modification",
+      "_label": "1203: Mary, Missenden in 1203, N chancel chapel and N aisle early C14, widening at E part of N aisle for chantry founded 1335, W tower and S aisle…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1203",
+        "begin_of_the_begin": "1203-01-01T00:00:00Z",
+        "end_of_the_end": "1203-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-3",
+      "type": "Modification",
+      "_label": "Early C14: Nave probably represents the tall nave and aisled chancel of a Romanesque church, pierced by early C14 arcades but with a structural change …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Early C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1333-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-4",
+      "type": "Modification",
+      "_label": "C14: Mary, Missenden in 1203, N chancel chapel and N aisle early C14, widening at E part of N aisle for chantry founded 1335, W tower and S aisle…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C14",
+        "begin_of_the_begin": "1300-01-01T00:00:00Z",
+        "end_of_the_end": "1399-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-5",
+      "type": "Modification",
+      "_label": "1335: Mary, Missenden in 1203, N chancel chapel and N aisle early C14, widening at E part of N aisle for chantry founded 1335, W tower and S aisle…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1335",
+        "begin_of_the_begin": "1335-01-01T00:00:00Z",
+        "end_of_the_end": "1335-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-6",
+      "type": "Modification",
+      "_label": "C15: Mary, Missenden in 1203, N chancel chapel and N aisle early C14, widening at E part of N aisle for chantry founded 1335, W tower and S aisle…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C15",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1499-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1078047-7",
+      "type": "Modification",
+      "_label": "c. 1400: Pointed cinquefoil headed piscina and ogee and trefoil headed sedile c.1400 in S wall.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1400",
+        "begin_of_the_begin": "1400-01-01T00:00:00Z",
+        "end_of_the_end": "1400-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/visual/nhle-1078047",
+      "type": "VisualItem",
+      "_label": "Photograph of Church Of St John The Baptist (Church Of England) (Wikimedia Commons)",
+      "digitally_shown_by": [
+        {
+          "id": "https://portableant.github.io/nhle-linked-art/api/digital/nhle-1078047",
+          "type": "DigitalObject",
+          "_label": "Commons Image for Church Of St John The Baptist (Church Of England)",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20John%20the%20Baptist%27s%20Church%2C%20Aldbury%2006.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Limestone (Clunch)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011443",
+      "type": "Material",
+      "_label": "Marble"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011775",
+      "type": "Material",
+      "_label": "Slate"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "ALDBURY               STATION ROAD SP 9612                                         (North side) 12/4                                    Church of St. John 30.11.66                                the Baptist (C of E) GV                                      I Parish Church. Nave probably represents the tall nave and aisled chancel of  a Romanesque church,  pierced by early C14 arcades but with a structural change before the 2 easternmost bays, early C13 chancel subsequent to William de Brocland granting the church to the Canons of the Priory of St. Mary, Missenden in 1203, N chancel chapel and N aisle early C14, widening at E part of N aisle for chantry founded 1335, W tower and S aisle later C14, S porch and top stage of tower C15, Pendley Chapel formed in E bay of S aisle in 1575 when Whittingham tomb of 1471 and  stone  screen  brought  from  dissolved  monastry  of  Ashridge. Restoration 1866 by W.Browing removed 2 plain Romanesque arches from E end of N arcade of nave and built N vestry. S porch has parvise restored 1871, repaired 1905 along with tower. Flint rubble with coursed flint facing to nave, tower and aisle: uncoursed to chancel, porch and NE vestry. Totternhoe Stone dressing and plinth much replaced by Bath Stone in C19 restoration. Metal roofs of low pitch slate to vestry. A parish church with low chancel, N chapel, clerestoreyed nave, N and S aisles, S porch and a tall slender W tower in contrast to the horizontal lines of the rest. Early dating of nave based on tall narrow proportions, and evidence of C19 painting (photo in NMR) showing the Romanesque 2-bay arcade on N side, removed in restoration, and external Buckler drawing (HRO) showing wide semi-circular arch in E wall above level of chancel where now is a pointed niche with hood mould. There is a doorway and stair high up on W end wall of the nave of uncertain date. Square ended chancel has corner buttresses as does N aisle. S aisle and tower have diagonal corner buttresses. C13 Chancel has a narrow lancet window with outer rebate and wide internal splay in N wall, (traces of diaper wall painting on splay noted c.1910 by RCHM), and a 4-centred C15 arched recess below probably for an Easter Sepulchre. Small lancet as low-side window on S. 3-light E window in Dec style (restored). 2-light S window in C14 style and plain S doorway. Squint from SW corner through to S aisle. Gambrel roof expressed internally as a 5 bays waggon roof with moulded ribs, carved bosses, and carved angels as supports. Minton tiles, with steps to altar and at chancel arch of 2 hollow chamfered orders and half-octagonal responds with similar caps part cut away and moulded bases. C19 2-bays N arcade into chapel with stiff-leaf capitals. Marble and alabaster reredos  1891.  N Chancel Chapel  (Leeds or Aldbury mortuary chapel) originally entered by early C14 W archway closed by gates, used as vestry in C18 and Cl9 before vestry added to N. Minton tile floor and 2 steps up from N aisle. Pointed cinquefoil headed piscina and ogee and trefoil headed sedile c.1400 in S wall. N window of 2 lights and E window of 3 lights with tracery renewed. Purbeck marble altar tomb with brasses of Sir Ralph Verney d.1546, his wife,  12 children and 4  shields  brought  from  Ashridge  1575.  On  N  wall  monument  to Thomas Hyde d.1570 and his son d.1580 of alabaster and coloured marble with broken pediment on 3 Corinthian columns on bracketed base. Marble skulls and fine strapwork and inscribed 'DESPICE FORMAN. RESPICE FINEM'. Refined wall monument on W wall to Thomas Hyde d. 1665 with inscribed black marble panel in moulded white marble shouldered architrave and with trusses and segmental pediment to the enblature. Moulded base and carved head with wings between garlanded brackets in high relief at base. The Nave has 5-bays, arcades of early C14 pointed arches of 2 hollow chamfered orders and moulded caps to octagonal piers. One pier in S arcade of 2 responds back to back defining 2 eastern bays opposite the 2 C19 bays of the N arcade inserted in place of 2 plain round arches. 3 tall 2-light clerestorey windows each side with quatrefoils in the heads. 6-bays low pitched open timber roof with old cambered tie-beams, collars and queen-posts supporting a ridge beam and one purlin to each slope. Flat laid rafters. Under E respond on N arcade a small vertical figure brass and label to John Dawers d.1478. Nearby the C16 wooden lectern with a slender octagonal shaft, cross base, moulded base and capital, pitched 2-sided desk-top, and applied buttress-like strips at angles. Simple C19 pulpit at S of chancel arch with stone base and circular wooden top. Wider Chantry Chapel at E end of N aisle with canopied C14 niche in E wall and a N window of 3 C14 trefoil lights with a deeper C15 light added at E end of window. Moulded 2 bays roof. Buttressed N aisle of 3 bays has medieval encaustic tile floor with tapering coffin slab set into floor. A carved stone corbel of uncertain age has been set into the wall. 7 bays moulded timber roof with kneebraces, wall posts, and stone corbels. 2 square-headed N windows of 2 trefoil headed lights and plain N door. Window to W of door of early C16 German stained glass of the Crucifixion and Christ of Piety, probably from Ashridge, with C15 original English canopies in the heads. 2-light traceried W window to aisle with panelled pew of Stocks House below and wall monuments to John and Hannah Duncombe d.1728 and 1710, and John and Elizabeth Duncombe d.1746 and 1712. Similar pilastered panels with entablature, wreathed urn, coloured marble inlay and painted cartouche at base. Parish chest beside N door. S aisle has 6 + 2 bays timber roof plainer than N aisle. Separate treatment of 2 E bays corresponding to the 5th bay of the arcade which was enclosed in 1575 as the Pendley Chapel for Edmund Verney who had the Whittingham/Verney tomb moved here from Ashridge together with the stone parclose screen (brass plate c.1588 on S wall gives story).A large chest tomb with moulded base, sides panelled with shields and weepers, gadrooned edge to slab, full length figures of Sir Robert Whitingham d.1471 in plate armour with a wild man at his feet and at his wife's a hind. Medieval encaustic tiled floor. C15 tall. Perpendicular clunch traceried stone screen on N and W, battlemented and with entrance from N. Brackets for funeral helmets now gone. On E wall monument to Sir Richard Anderson and his wife d.1699 and 1698 with lively busts, pilastered with open segmental pediment, central pilaster, panelled base, and central projection with inscription. Tablet on S wall to Harcourt family. 4-light square-headed trefoil S window. 2 more 2-light square headed trefoil windows in S wall and traceried 2-light window at W, stone stair starts in aisle to upper room of S porch. Small organ of 1866 by Gray and Davidson now in W arch of S arcade. W Tower reached by 4 steps from nave has thick walls with tall C14 arch of 3 hollow chamfered orders dying into the jambs. Medieval tile floor. Stone font of 1866 with serpentine shafts around the base. Tall 3-stage tower with straight parapet and 2-light C15 style cinquefoil belfrey openings with quatrefoil in head. W door and window. (VCH(1908)145-8: RCHM(1911)30-1: Kelly(1914)19: Pevsner(1977)64-5: F. Hugh Warwick Aldbury Church, notes on its history and contents 1961). Listing NGR: SP9635112471"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1966-11-30T00:00:00Z"
+      }
+    }
+  ]
+}

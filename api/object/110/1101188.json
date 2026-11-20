@@ -1,0 +1,229 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1101188.json",
+  "type": "HumanMadeObject",
+  "_label": "Pheasant House (Nettleden With)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Pheasant House"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1101188"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "TL 01731 07992"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Legacy System Number (LBS)"
+        }
+      ],
+      "content": "157992"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26394335"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101188",
+    "type": "Place",
+    "_label": "Nettleden With (TL 01731 07992)",
+    "defined_by": "POINT(-0.527364 51.761381)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1101188",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1101188",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26394335",
+      "type": "HumanMadeObject",
+      "_label": "Pheasant House (Q26394335)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1101188",
+    "type": "Production",
+    "_label": "Origin / Construction of Pheasant House (C15)",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1982",
+      "begin_of_the_begin": "1982-01-01T00:00:00Z",
+      "end_of_the_end": "1982-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101188-1",
+      "type": "Modification",
+      "_label": "C16: C15 E wing, C16 hall range, C17 alterations to roof and rear of E wing, present internal chimney C18, rear studio extension 1982 in form of …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C16",
+        "begin_of_the_begin": "1500-01-01T00:00:00Z",
+        "end_of_the_end": "1599-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101188-2",
+      "type": "Modification",
+      "_label": "C17: C15 E wing, C16 hall range, C17 alterations to roof and rear of E wing, present internal chimney C18, rear studio extension 1982 in form of …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C17",
+        "begin_of_the_begin": "1600-01-01T00:00:00Z",
+        "end_of_the_end": "1699-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101188-3",
+      "type": "Modification",
+      "_label": "C18: C15 E wing, C16 hall range, C17 alterations to roof and rear of E wing, present internal chimney C18, rear studio extension 1982 in form of …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "C18",
+        "begin_of_the_begin": "1700-01-01T00:00:00Z",
+        "end_of_the_end": "1799-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101188-4",
+      "type": "Modification",
+      "_label": "1982: C15 E wing, C16 hall range, C17 alterations to roof and rear of E wing, present internal chimney C18, rear studio extension 1982 in form of …",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1982",
+        "begin_of_the_begin": "1982-01-01T00:00:00Z",
+        "end_of_the_end": "1982-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1101188-5",
+      "type": "Modification",
+      "_label": "1985: Site transfered from Northchurch parish in boundary change 1st April 1985.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1985",
+        "begin_of_the_begin": "1985-01-01T00:00:00Z",
+        "end_of_the_end": "1985-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011229",
+      "type": "Material",
+      "_label": "Flint"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "TL 00 NW         NETTLEDEN WITH         LITTLE HEATH LANE                  POTTEN END             (West side)                                         Potten End 5/211                                   Pheasant House GV                                      II House. C15 E wing, C16 hall range, C17 alterations to roof and rear of E wing, present internal chimney C18, rear studio extension 1982 in form of a 3-bay open hall with entrance link. Timber frames on brick or flint sills, frame exposed on W half of N side with red brick infill, similar brick casing to E wing, dark weatherboarding to rear extension, steep old red tile roofs. A 2-storeys, L-shaped house with a single-storey lean-to at each end of older N range parallel with road. N front has 3 casement windows to each floor.  E wing has exposed internally the structure of a fine close-studded crosswing of 2 or more bays, jettied on adjacent sides, on N and E, formerly gabled to N but now roofed uniformly with hall range and truncated on S end. Massive timbers, lofty ground floor, and deep-chamfered and hollow-stopped joists. Dragon-beam and its corner post survive with mortices  for a 5-light central diamond-mullioned window with shutter groove central on N side. Single large curved brace in each bay on W side and similar mullioned window blocked intact on 1st floor with shutter groove for similar window below on ground floor. Double-curved tension braces support bay-post on W side of 1st floor. W face of W wall of crosswing carefully close-studded as if to form upper end of an open hall on W but no doorway detectable. Later clasped-purlin roof, straight wind-braces, squint butted scarf joint, and inserted diagonal corner fireplace. 2-bay hall range has a short irregular gap against the W wing as it is not attached at right angles. Jowled posts and curved braces to central open truss with cranked tie-beam, and signs of similar braces and tie-beam cut out in upper chamber at E end.  Chamfered and stopped cross- anti axial- floorbeams on same bay divisions. Clasped purlin roof with wind-braces. Tension braces in N and W walls. Mortices and shutter-groove for a 4-light diamond mullioned window on S side of W bay next central bay post, and corresponding shutter groove on N wall both at 1st floor level indicating a floor originally in this bay and probably in both bays of this part. Edge-halved scarf joint with bridled butts in N wallplate near W corner. W wall shows weathering of timbers on W face giving no clue to the position of the service rooms of this house. Named by OS Little Heath Great Farm Cottage. Site transfered from Northchurch parish in boundary change 1st April 1985. Listing NGR: TL0173107992"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:2500)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1987-03-19T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://portableant.github.io/nhle-linked-art/api/object/141/1416014.json",
+  "type": "HumanMadeObject",
+  "_label": "Engine house, pump rooms, watchman's lodge, boundary wall and gate piers at Dancers End Pumping Station",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Building"
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii",
+      "type": "Type",
+      "_label": "Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Engine house, pump rooms, watchman's lodge, boundary wall and gate piers at Dancers End Pumping Station"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "NHLE List Entry Number"
+        }
+      ],
+      "content": "1416014"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "National Grid Reference (OSGB36)"
+        }
+      ],
+      "content": "SP9047208791"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Wikidata Entity ID"
+        }
+      ],
+      "content": "Q26676482"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "Statutory Protection: Grade II Listed Building",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055547",
+          "type": "Type",
+          "_label": "Legal Status"
+        }
+      ]
+    }
+  ],
+  "current_location": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1416014",
+    "type": "Place",
+    "_label": "Unassigned Locality (SP9047208791)",
+    "defined_by": "POINT(-0.690348 51.770467)"
+  },
+  "subject_of": [
+    {
+      "id": "https://historicengland.org.uk/listing/the-list/list-entry/1416014",
+      "type": "LinguisticObject",
+      "_label": "Historic England Official List Entry #1416014",
+      "format": "text/html"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q26676482",
+      "type": "HumanMadeObject",
+      "_label": "Engine House, Pump Rooms, Watchman's Lodge, Boundary Wall And Gate Piers At Dancers End Pumping Station (Q26676482)"
+    }
+  ],
+  "produced_by": {
+    "id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1416014",
+    "type": "Production",
+    "_label": "Origin / Construction of Engine house, pump rooms, watchman's lodge, boundary wall and gate piers at Dancers End Pumping Station (C19)",
+    "carried_out_by": [
+      {
+        "id": "https://portableant.github.io/nhle-linked-art/api/person/george-devey",
+        "type": "Person",
+        "_label": "George Devey"
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "1866",
+      "begin_of_the_begin": "1866-01-01T00:00:00Z",
+      "end_of_the_end": "1866-12-31T23:59:59Z"
+    }
+  },
+  "modified_by": [
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-1",
+      "type": "Modification",
+      "_label": "1841: * Process: unlike most waterworks, where slaked lime had to be imported to facilitate the Clark’s water softening process (patented 1841), D…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1841",
+        "begin_of_the_begin": "1841-01-01T00:00:00Z",
+        "end_of_the_end": "1841-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-2",
+      "type": "Modification",
+      "_label": "1864: The pumping station was designed by the architect George Devey in 1864, was completed in 1866 and opened in 1867.",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1864",
+        "begin_of_the_begin": "1864-01-01T00:00:00Z",
+        "end_of_the_end": "1864-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-3",
+      "type": "Modification",
+      "_label": "1866: Engine house, pump rooms, watchman's lodge, boundary wall and gate piers at Dancers End Pumping Station Pumping station - engine house and p…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1866",
+        "begin_of_the_begin": "1866-01-01T00:00:00Z",
+        "end_of_the_end": "1866-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-4",
+      "type": "Modification",
+      "_label": "Late- C19: Engine house, pump rooms, watchman's lodge, boundary wall and gate piers at Dancers End Pumping Station Pumping station - engine house and p…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "Late- C19",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1899-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-5",
+      "type": "Modification",
+      "_label": "1867: A pair of half-glazed doors have glass panels etched with a picture of Neptune with water spilling out of a cornucopia and are inscribed ‘Ch…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1867",
+        "begin_of_the_begin": "1867-01-01T00:00:00Z",
+        "end_of_the_end": "1867-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-6",
+      "type": "Modification",
+      "_label": "1875: Ferdinand de Rothschild eventually entered into a contract with the Chilterns Water Company for the supply of water from Dancers End to Wadd…",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "1875",
+        "begin_of_the_begin": "1875-01-01T00:00:00Z",
+        "end_of_the_end": "1875-12-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1416014-7",
+      "type": "Modification",
+      "_label": "c. 1890: The kiln was demolished c.1890 to make way for the construction of two new depositing reservoirs;",
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "c. 1890",
+        "begin_of_the_begin": "1890-01-01T00:00:00Z",
+        "end_of_the_end": "1890-12-31T23:59:59Z"
+      }
+    }
+  ],
+  "made_of": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011692",
+      "type": "Material",
+      "_label": "Stone / Limestone"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010463",
+      "type": "Material",
+      "_label": "Brick"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011914",
+      "type": "Material",
+      "_label": "Wood (Timber)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300010673",
+      "type": "Material",
+      "_label": "Tile (Terracotta)"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011002",
+      "type": "Material",
+      "_label": "Iron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Summary"
+        }
+      ],
+      "content": "Pumping station - engine house and pump rooms, watchman’s lodge, associated boundary wall and gatepiers, built 1866 for the Chiltern Hills Water Company and extended late-C19. The cooling pond of 1866, is listed as a separate item (LE1418490)."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Details (Official List Description)"
+        }
+      ],
+      "content": "DATE AND ARCHITECT: principally of 1866 but extended in the late-C19. Attributed to George Devey. MATERIALS: red brown brick with polychromatic moulded brick and soft red brick dressings, flat concrete roofs, and stone coping and finials. PLAN: a rectangular plan, two-storey structure built 1866, with later C19 additions including a rectangular-plan single-storey boiler room, a booster pump room, a well pump room, and a chlorination room. EXTERIORS: 1866 ENGINE HOUSE The original engine house, in Artisan Mannerist style is of two storeys and four- by-two bays, with a tall chimney attached to the north-east return. The main, north-west elevation is in four bays. It has a moulded brick plinth, below a ground floor which is treated architecturally as a basement. It is in plain brick with brick quoins and pierced by three narrow two-over-two pane horned sash windows set within openings with plain architraves beneath red brick flat arches with projecting keystones. A flight of stone steps to the left hand, northern bay, leads to a flat-roofed brick porch that has a round-arched front and side openings, in red brick, flanked by pilasters at the angles that rise to a moulded brick cornice. A tall brick parapet has a shaped centrepiece which contains a roundel bearing an 1866 date-stone. A pair of half-glazed doors have glass panels etched with a picture of Neptune with water spilling out of a cornucopia and are inscribed ‘Chiltern Hills Water Works 1867’. The principal, first floor, above a moulded storey band, has rusticated brick piers at the corners rising to a projecting moulded brick cornice. The main and rear elevations are articulated by rusticated pilaster strips, each bay with a tall, narrow, segmental-arched two-over-two pane horned sash window, again with red brick dressings. The two-bay return elevations have plain pilasters and on the south-west elevation blind openings. The panelled parapet, decorated with corner ball finials, screens the flat concrete roof. The centre of each end elevation is ramped up to form a small gablet enclosing a blind roundel. In the centre of the ground floor of the south-west elevation is the rusticated and truncated base of the original chimney stack, flanked to the right by a square-headed a doorway. The ground floor of the north-east elevation is obscured by the late-C19 extension; above which, it has a four-pane horned sash window with a segmental arch and an attached octagonal stair tower. This is surmounted by a lantern with in-filled round-arches and an octagonal domed roof with a weather vane. Doors at the top of the stair and base open onto the flat roofs of the engine house and late C19 extension. To the rear, the original boiler room was housed in a single-storey, four-by-one bay arcaded range with a projecting brick cornice and flat roof. It has been converted into an electrical sub-station and the arcade has been in-filled and has doors inserted in the two end bays. LATE C19 EXTENSION A late-C19, single-storey extension in a simplified Queen Anne revival style was built against the north-east elevation of the engine house; it contains a booster pump room, well pump room, an entrance lobby, chlorination room, and a new boiler house range. The two pump rooms are taller than the remainder of the structure. The well pump room, which echoes the engine house architecturally, has brick quoins, a moulded cornice and parapet, and is lit on the main elevation by three full-height four-over-four pane horned sash windows with segmental-arches, and by a square glazed louvred skylight in the flat concrete roof. Linking it to the engine house the plainer, booster pump room has a central round-arched doorway, flanked by, and below small keyed square windows, one blind, and by an oculus at first floor level. The lower, single-storey range to the rear has an L-plan and wraps round the south-east and north-east walls of the taller rooms, with the boiler room occupying the south-eastern side. It has rusticated corners, rising to a moulded cornice with a low parapet obscuring a flat concrete roof. A glass block skylight over the boiler room has corner brick pillars and a pyramidal tile roof and rises above the height of the parapet. Given the relatively small size of this skylight, it seems likely that it was originally a louvered ventilator. The north-east elevation has two round-arch brick openings, a glazed door and a blind window with an inserted late-C20 double-doorway. One of the arches has a four-pane sash window with simple brick architraves and a projecting keystone, the other a late-C20 roller shutter door. The plain south-east elevation has a late-C20 doorway and two casement windows, inserted when the boiler room was converted to a workshop. INTERIORS: ENGINE HOUSE The engine house has a cantilevered stone stair with a timber handrail on plain cast-iron balusters and decorative newel posts. A doorway in the south-western wall of the lobby leads to the former steam condenser room which has a low, rounded, rectangular stone curb that encloses a steel plate cover over well No.2. Two cast-iron columns set into the kerb support the cast-iron beams and joists of the first-floor engine room above. A bricked-up doorway and openings in the south-east wall originally gave access to the former arcaded boiler room built against the rear elevation of the engine house. A brick plinth, which provided the base for the twin beam engine on the first floor, rises the full height of the room against the south-west wall. The former engine room is devoid of original fittings apart from four lifting rings in the concrete ceiling; the holdfast for the engine may still exist under the secondary floor covering. From the first floor a stone winder stair within the stair turret leads to the roofs. Modern steel storage racks within this building are not of special interest. The late-C19 extension contains the chlorification room, the workshop (former boiler room), the well pump room and booster pump room. The chlorification room has a four-panel timber door with glazed upper panels and it is equipped with C21 chlorification equipment; the equipment is not of special interest. The workshop is devoid of any original fittings. The well pump room has a red quarry-brick tile floor with a concrete roof that has two lifting rings and a beam mounted block and tackle. Two late-C19 cast-iron valve pillar wheels, manufactured by Glenfield and Kennedy of Kilmarnock, and a chequered plate manhole are set in the floor. Late-C20 electrical cabinets and chlorification equipment within the room are not of special interest. A doorway in the south-west wall leads into the booster pump room; it is devoid of any original fittings apart from a girder beam for block and tackle lifting equipment. A door beneath the projecting base of the stair turret leads to the engine house. SUBSIDIARY FEATURES: the engine house sits within a complex of structures within a walled courtyard. The courtyard is screened by a wall and is entered through a gateway flanked by a pair of brick gate posts that have rubbing stones at their base and are capped by ball finials. To the north-east of the engine house the brick wall is raised on a brick plinth and is capped with coping stones. The north-eastern section of this wall has an attached square-plan watchman’s lodge in polychrome brickwork with a projecting brick cornice and a flat roof behind a low parapet. It is entered by a door in the south-west elevation and is illuminated by two small four-pane sash windows, one in the south-east elevation and one in the north-west that provides a view over the approaches to the pumping station. Other structures within the courtyard and the adjacent workshops, cottages and  superintendent's house contribute to this group. However, they have not been assessed for listing and so are not included in this List entry."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Reasons for Designation"
+        }
+      ],
+      "content": "The engine house and pump rooms, watchman’s lodge, gate piers and attached boundary walls of Dancers End Pumping Station, principally of 1866 by George Devey, for Chiltern Hills Water Company, extended later C19, are designated at Grade II for the following principal reasons: *\tArchitectural interest: designed by George Devey, an able and competent architect who designed other buildings for the Rothschild estate but was not normally associated with industrial structures, it is carefully detailed, using good quality materials; *\tHistorical interest; the pumping station was completed in 1866, relatively early in the development phase of C19 waterworks construction in England, when steam-powered pumping was the state-of-the-art technology for such installations, and when most undertakings, both private and municipal, were architecturally impressive; *         \tProcess: unlike most waterworks, where slaked lime had to be imported to facilitate the Clark’s water softening process (patented 1841), Dancers End Pumping Station was self-sufficient and all processes were undertaken on site; *\tIntactness: apart from the loss of the boiler room chimneys, the exterior is unaltered and the late-C19 extension complements the earlier phase of the structure. Although the steam engines have been removed, the function of the buildings and the process, supported by ancillary buildings and structures, are legible; *\tGroup value: the structures are part of a group of well-preserved pumping station buildings, including the Grade II listed cooling pond."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "History"
+        }
+      ],
+      "content": "The Pumping Station is a complex of structures mostly built between 1866 and c1900, which includes an engine house and pump rooms in a walled enclosure with a gateway and watchman’s lodge, a cooling pond, lime tanks, a slacking house, settling reservoirs, a workshop, garages (formerly stabling), a pair of workers cottages, and a superintendent’s house. The pumping station was designed by the architect George Devey in 1864, was completed in 1866 and opened in 1867. Devey had been commissioned to carry out other works for the Rothschild family, and when Nathaniel de Rothschild took over the Tring estate, he devoted time to the provision of fresh water to this area and the Waddesdon Estate. Ferdinand de Rothschild eventually entered into a contract with the Chilterns Water Company for the supply of water from Dancers End to Waddesdon in 1875. The pumping station was built within old chalk workings and comprised a walled courtyard with an attached watchman’s lodge, a store, stables, engine house with cooling pond, two lime tanks and a pair of depositing reservoirs (softening tanks) built into the hill behind a brick retaining wall. In addition, a pair of semi-detached two-storey workmen’s cottages was built 40m to the north-east of the engine house. By the end of the C19 the site had expanded, adding to its capacity and including a workshop, new stables and cart sheds, two sludge ponds (now a nature reserve), and a superintendent’s house. The engine house was built directly over a well, the steam condensers were situated on the ground floor with a twin beam pumping engine on the first floor. The engine was mounted on a cast-iron panelled plinth within a frame supported by fluted columns. It had 12 x 30-inch Meyer expansion slide valves, a Watt-type governor and a single fly-wheel operating at 18 rpm, producing a 250-foot head of water at 62 pounds per square inch. The water for the boilers was drawn from and returned to a cooling pond at the north-western corner of the site. ‘Hard’ water was drawn from a number of wells, which was then ‘softened’ in depositing reservoirs (softening) tanks, using a solution of slaked lime (calcium hydroxide) to precipitate out the calcium carbonate to produce ‘soft’ water (Clark’s Process patented in 1841). The chalk to produce the lime for softening the water was quarried from lime pits situated in the valley to the north-east of the complex (later used as sludge lagoons). During the first twenty years of service, the chalk was fired to produce the lime for slaking in a lime kiln at the south western end of the site. The kiln was demolished c.1890 to make way for the construction of two new depositing reservoirs; part of a large scheme of works to increase capacity at the pumping station, which in addition to the two new depositing reservoirs, included the construction of a slaking house and an additional lime tank. All of these structures were built back into the slope of the hill behind a substantial brick retaining wall, situated to the south-east and south-west of the engine house. At the same time, an extension was added to the engine house, which housed a chlorification (treatment) room, a booster pump room, a well pump room and a boiler room and chimney. The opportunity was also taken to add a number of ancillary structures to the site that included a workshop, a three-bay stable block (later used as a garage, store and staff toilets), two sludge ponds, and a Superintendent’s house. Apart from the house, these new structures were built in a simplified but similar idiom to the earlier structures; they have not been attributed to Devey. The capacity of the treatment works was considerably increased c.1930 when a complex of reinforced concrete softening tanks and reservoirs were built on the hill some 300m to the north-east of the pumping station. Electrically driven pumps were introduced to the site in 1948 and the arcade attached to the engine house was walled in to make an electrical sub-station. It is unclear when the steam engine went out of use but the chimney that served the secondary boiler room was demolished in September 1963 and was replaced by a cylindrical steel 18,000-litre oil fuel tank, within a rectangular-plan concrete walled catch pit built against the centre of the south-eastern wall of the engine house. The fuel tank continues to serve a stand-by generator situated in the booster pump room. The redundant steam engine was dismantled in 1977, restored and re-erected at the Kew Bridge Steam Museum, London; however, the two boilers were scrapped a short time afterwards, when the boiler room was converted into a workshop. The pumping station has been in continuous use since its opening in 1866; initially it was owned by a private company - Chiltern Hills Water Company, but during the early-C20 it came under the control of the Buckinghamshire Water Board. The water board managed the site until 1975, when responsibility was passed to the Thames Water Authority, which in turn was partially privatised in 1989 when the ownership was transferred to the publicly quoted company Thames Water plc, who continue to draw water from the site."
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "_label": "Statutory Designation (Capture scale 1:1250)",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2014-04-30T00:00:00Z"
+      }
+    }
+  ]
+}
