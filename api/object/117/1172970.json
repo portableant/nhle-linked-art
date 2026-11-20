@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172970",
     "type": "Place",
     "_label": "Great Gaddesden (TL 04116 10916)",
-    "defined_by": "POINT(-0.491944 51.787224)"
+    "defined_by": "POINT(-0.491944 51.787224)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q5599229",
+        "type": "Place",
+        "_label": "Great Gaddesden (Wikidata Q5599229)"
+      },
+      {
+        "id": "https://sws.geonames.org/7295247/",
+        "type": "Place",
+        "_label": "GeoNames 7295247"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q5599229"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7295247"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004702"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Great_Gaddesden",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Great Gaddesden",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1172970",
         "type": "Place",
         "_label": "Great Gaddesden (TL 04116 10916)",
-        "defined_by": "POINT(-0.491944 51.787224)"
+        "defined_by": "POINT(-0.491944 51.787224)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q5599229",
+            "type": "Place",
+            "_label": "Great Gaddesden (Wikidata Q5599229)"
+          },
+          {
+            "id": "https://sws.geonames.org/7295247/",
+            "type": "Place",
+            "_label": "GeoNames 7295247"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q5599229"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7295247"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004702"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Great_Gaddesden",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Great Gaddesden",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100388",
     "type": "Place",
     "_label": "Flamstead (TL 07895 14663)",
-    "defined_by": "POINT(-0.436013 51.820186)"
+    "defined_by": "POINT(-0.436013 51.820186)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2569452",
+        "type": "Place",
+        "_label": "Flamstead (Wikidata Q2569452)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299222/",
+        "type": "Place",
+        "_label": "GeoNames 7299222"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2569452"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299222"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004700"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Flamstead",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Flamstead",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100388",
         "type": "Place",
         "_label": "Flamstead (TL 07895 14663)",
-        "defined_by": "POINT(-0.436013 51.820186)"
+        "defined_by": "POINT(-0.436013 51.820186)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2569452",
+            "type": "Place",
+            "_label": "Flamstead (Wikidata Q2569452)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299222/",
+            "type": "Place",
+            "_label": "GeoNames 7299222"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2569452"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299222"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004700"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Flamstead",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Flamstead",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

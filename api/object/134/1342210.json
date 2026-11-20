@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342210",
     "type": "Place",
     "_label": "Aldbury (SP 96529 12562)",
-    "defined_by": "POINT(-0.601445 51.803378)"
+    "defined_by": "POINT(-0.601445 51.803378)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q546163",
+        "type": "Place",
+        "_label": "Aldbury (Wikidata Q546163)"
+      },
+      {
+        "id": "https://sws.geonames.org/2657559/",
+        "type": "Place",
+        "_label": "GeoNames 2657559"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q546163"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2657559"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004696"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Aldbury",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Aldbury",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342210",
         "type": "Place",
         "_label": "Aldbury (SP 96529 12562)",
-        "defined_by": "POINT(-0.601445 51.803378)"
+        "defined_by": "POINT(-0.601445 51.803378)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q546163",
+            "type": "Place",
+            "_label": "Aldbury (Wikidata Q546163)"
+          },
+          {
+            "id": "https://sws.geonames.org/2657559/",
+            "type": "Place",
+            "_label": "GeoNames 2657559"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q546163"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2657559"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004696"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Aldbury",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Aldbury",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },
@@ -186,7 +296,7 @@
           "format": "image/jpeg",
           "access_point": [
             {
-              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim%27s%20Spring%20Cottage%2C%2012%20Stocks%20Road%2C%20Aldbury%2C%20July%202026.jpg",
+              "id": "https://commons.wikimedia.org/wiki/Special:FilePath/10%20Stocks%20Road%2C%20Aldbury%2C%20July%202026.jpg",
               "type": "DigitalObject"
             }
           ]

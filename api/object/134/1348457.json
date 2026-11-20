@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348457",
     "type": "Place",
     "_label": "Flamstead (TL 05325 14322)",
-    "defined_by": "POINT(-0.473389 51.817611)"
+    "defined_by": "POINT(-0.473389 51.817611)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2569452",
+        "type": "Place",
+        "_label": "Flamstead (Wikidata Q2569452)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299222/",
+        "type": "Place",
+        "_label": "GeoNames 7299222"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2569452"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299222"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004700"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Flamstead",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Flamstead",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -121,7 +176,78 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-william-chambers",
         "type": "Person",
-        "_label": "Sir William Chambers"
+        "_label": "Sir William Chambers",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q455155",
+            "type": "Person",
+            "_label": "William Chambers (Wikidata Q455155)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500004575",
+            "type": "Person",
+            "_label": "Getty ULAN 500004575"
+          },
+          {
+            "id": "https://viaf.org/viaf/2590661",
+            "type": "Person",
+            "_label": "VIAF 2590661"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q455155"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500004575"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "2590661"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "5083"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/William_Chambers_(architect)",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: William Chambers",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -135,7 +261,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348457",
         "type": "Place",
         "_label": "Flamstead (TL 05325 14322)",
-        "defined_by": "POINT(-0.473389 51.817611)"
+        "defined_by": "POINT(-0.473389 51.817611)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2569452",
+            "type": "Place",
+            "_label": "Flamstead (Wikidata Q2569452)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299222/",
+            "type": "Place",
+            "_label": "GeoNames 7299222"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2569452"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299222"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004700"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Flamstead",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Flamstead",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

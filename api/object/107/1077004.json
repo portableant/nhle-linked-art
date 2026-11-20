@@ -127,7 +127,78 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-ninian-comper",
         "type": "Person",
-        "_label": "Sir Ninian Comper"
+        "_label": "Sir Ninian Comper",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q767545",
+            "type": "Person",
+            "_label": "Ninian Comper (Wikidata Q767545)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500009215",
+            "type": "Person",
+            "_label": "Getty ULAN 500009215"
+          },
+          {
+            "id": "https://viaf.org/viaf/8309574",
+            "type": "Person",
+            "_label": "VIAF 8309574"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q767545"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500009215"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "8309574"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "32522"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Ninian_Comper",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Ninian Comper",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {

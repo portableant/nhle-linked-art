@@ -12,6 +12,7 @@ import math
 import re
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -418,6 +419,367 @@ def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
+
+def load_authority_cache(cache_path: Path) -> Dict[str, Any]:
+    if cache_path.exists():
+        try:
+            return json.loads(cache_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {"persons": {}, "places": {}}
+
+
+def save_authority_cache(cache_path: Path, cache: Dict[str, Any]) -> None:
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_text(json.dumps(cache, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def sparql_post_with_retry(query: str, max_retries: int = 4, base_delay: float = 1.5) -> Dict[str, Any]:
+    """
+    Executes a POST SPARQL query against Wikidata with automatic `Retry-After` /
+    exponential backoff handling for HTTP 429 (Too Many Requests) and 503/504 responses.
+    """
+    endpoint = "https://query.wikidata.org/sparql"
+    data = urllib.parse.urlencode({"query": query, "format": "json"}).encode("utf-8")
+    headers = {
+        "Accept": "application/sparql-results+json",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "NHLE-LinkedArt-Builder/1.4 (https://github.com/portableant; polite-batch)",
+    }
+
+    for attempt in range(max_retries + 1):
+        try:
+            req = urllib.request.Request(endpoint, data=data, headers=headers)
+            with urllib.request.urlopen(req, timeout=35) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            if exc.code in (429, 503, 504) and attempt < max_retries:
+                retry_after = exc.headers.get("Retry-After")
+                wait_s = float(retry_after) if (retry_after and retry_after.isdigit()) else base_delay * (2 ** attempt)
+                print(f"[rate-limit] Wikidata HTTP {exc.code}; pausing {wait_s:.1f}s before retry ({attempt + 1}/{max_retries})...")
+                time.sleep(wait_s)
+                continue
+            raise
+        except Exception:
+            if attempt < max_retries:
+                time.sleep(base_delay * (2 ** attempt))
+                continue
+            raise
+    return {}
+
+
+def normalize_actor_variants(raw_name: str) -> List[str]:
+    """Generates clean label variants for Wikidata matching (handles 'and' vs '&', 'Co' vs 'Co.', honorifics)."""
+    base = re.sub(r"^(?:Sir|Lord|Lady|Dr|Rev)\s+", "", raw_name.strip()).strip()
+    variants = [base]
+    if " and Co" in base:
+        variants.append(base.replace(" and Co", " & Co."))
+        variants.append(base.replace(" and Co", " & Co"))
+    elif " & Co" in base:
+        variants.append(base.replace(" & Co.", " and Co").replace(" & Co", " and Co"))
+    if " and " in base:
+        variants.append(base.replace(" and ", " & "))
+    return list(dict.fromkeys(v for v in variants if v))
+
+
+def resolve_person_authorities(names: List[str], cache: Dict[str, Any], cache_path: Optional[Path] = None) -> Dict[str, Dict[str, Any]]:
+    """
+    Batch-reconciles extracted architects, makers, firms (e.g. 'Liberty and Co'), and patrons
+    against Wikidata SPARQL using `VALUES ?searchLabel` chunks of 60 labels per request
+    (preventing HTTP 429 rate-limit errors).
+    """
+    person_cache = cache.setdefault("persons", {})
+    to_query = [n for n in sorted(set(names)) if n and n not in person_cache]
+    if not to_query:
+        return person_cache
+
+    variant_to_originals: Dict[str, List[str]] = {}
+    for orig in to_query:
+        for var in normalize_actor_variants(orig):
+            variant_to_originals.setdefault(var, []).append(orig)
+
+    all_variants = list(variant_to_originals.keys())
+    batch_size = 60
+
+    for i in range(0, len(all_variants), batch_size):
+        chunk = all_variants[i : i + batch_size]
+        values_str = " ".join(f'"{v.replace(chr(34), "")}"@en' for v in chunk)
+        query = f"""
+        PREFIX schema: <http://schema.org/>
+        SELECT ?searchLabel ?item ?itemLabel ?desc ?isOrg ?ulan ?viaf ?odnb ?wikipedia WHERE {{
+          VALUES ?searchLabel {{ {values_str} }}
+          ?item rdfs:label ?searchLabel .
+          {{
+            ?item wdt:P31 wd:Q5 .
+            BIND(false AS ?isOrg)
+          }} UNION {{
+            ?item wdt:P31/wdt:P279* wd:Q43229 .
+            BIND(true AS ?isOrg)
+          }}
+          OPTIONAL {{ ?item wdt:P245 ?ulan . }}
+          OPTIONAL {{ ?item wdt:P214 ?viaf . }}
+          OPTIONAL {{ ?item wdt:P1415 ?odnb . }}
+          OPTIONAL {{
+            ?wikipedia schema:about ?item ;
+                       schema:isPartOf <https://en.wikipedia.org/> .
+          }}
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+        }}
+        """
+        try:
+            payload = sparql_post_with_retry(query)
+            by_label: Dict[str, List[Dict[str, Any]]] = {}
+            for b in payload.get("results", {}).get("bindings", []):
+                lbl = b["searchLabel"]["value"]
+                by_label.setdefault(lbl, []).append(b)
+
+            for var in chunk:
+                candidates = by_label.get(var, [])
+                best = None
+                for b in candidates:
+                    desc = b.get("desc", {}).get("value", "").lower()
+                    if b.get("ulan") or any(k in desc for k in ("architect", "builder", "mason", "engineer", "sculptor", "surveyor", "department store", "design", "firm", "noble", "banker", "politician")):
+                        best = b
+                        break
+                if not best and candidates:
+                    best = candidates[0]
+
+                if best:
+                    qid_uri = best["item"]["value"]
+                    qid = qid_uri.rsplit("/", 1)[-1]
+                    is_org = best.get("isOrg", {}).get("value") == "true"
+                    record = {
+                        "wikidata_uri": qid_uri,
+                        "wikidata_qid": qid,
+                        "entity_type": "Group" if is_org else "Person",
+                        "label": best.get("itemLabel", {}).get("value", var),
+                        "ulan": best.get("ulan", {}).get("value", ""),
+                        "viaf": best.get("viaf", {}).get("value", ""),
+                        "odnb": best.get("odnb", {}).get("value", ""),
+                        "wikipedia": best.get("wikipedia", {}).get("value", ""),
+                    }
+                    for orig in variant_to_originals[var]:
+                        if not person_cache.get(orig):
+                            person_cache[orig] = record
+
+            for orig in to_query:
+                if any(v in chunk for v in normalize_actor_variants(orig)):
+                    person_cache.setdefault(orig, {})
+
+            if cache_path:
+                save_authority_cache(cache_path, cache)
+            time.sleep(1.0)
+        except Exception as exc:
+            print(f"[warn] Batched person/firm authority lookup failed: {exc}")
+
+    return person_cache
+
+
+def resolve_place_authorities(localities: List[str], cache: Dict[str, Any], cache_path: Optional[Path] = None) -> Dict[str, Dict[str, Any]]:
+    """
+    Batch-reconciles UK localities/parishes against Wikidata SPARQL using `VALUES ?searchLabel`
+    chunks of 60 labels per request (preventing HTTP 429 rate-limit errors).
+    """
+    place_cache = cache.setdefault("places", {})
+    to_query = [
+        loc for loc in sorted(set(localities))
+        if loc and loc != "Unassigned Locality" and loc not in place_cache
+    ]
+    if not to_query:
+        return place_cache
+
+    batch_size = 60
+    for i in range(0, len(to_query), batch_size):
+        chunk = to_query[i : i + batch_size]
+        values_str = " ".join(f'"{loc.replace(chr(34), "")}"@en' for loc in chunk)
+        query = f"""
+        PREFIX schema: <http://schema.org/>
+        SELECT ?searchLabel ?item ?itemLabel ?tgn ?geonames ?gss ?wikipedia WHERE {{
+          VALUES ?searchLabel {{ {values_str} }}
+          ?item rdfs:label ?searchLabel ;
+                wdt:P17 wd:Q145 ;
+                wdt:P31/wdt:P279* wd:Q486972 .
+          OPTIONAL {{ ?item wdt:P1667 ?tgn . }}
+          OPTIONAL {{ ?item wdt:P1566 ?geonames . }}
+          OPTIONAL {{ ?item wdt:P836 ?gss . }}
+          OPTIONAL {{
+            ?wikipedia schema:about ?item ;
+                       schema:isPartOf <https://en.wikipedia.org/> .
+          }}
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+        }}
+        """
+        try:
+            payload = sparql_post_with_retry(query)
+            by_label: Dict[str, List[Dict[str, Any]]] = {}
+            for b in payload.get("results", {}).get("bindings", []):
+                lbl = b["searchLabel"]["value"]
+                by_label.setdefault(lbl, []).append(b)
+
+            for loc in chunk:
+                candidates = by_label.get(loc, [])
+                best = next((b for b in candidates if b.get("tgn") or b.get("geonames")), candidates[0] if candidates else None)
+                if best:
+                    qid_uri = best["item"]["value"]
+                    qid = qid_uri.rsplit("/", 1)[-1]
+                    place_cache[loc] = {
+                        "wikidata_uri": qid_uri,
+                        "wikidata_qid": qid,
+                        "label": best.get("itemLabel", {}).get("value", loc),
+                        "tgn": best.get("tgn", {}).get("value", ""),
+                        "geonames": best.get("geonames", {}).get("value", ""),
+                        "gss": best.get("gss", {}).get("value", ""),
+                        "wikipedia": best.get("wikipedia", {}).get("value", ""),
+                    }
+                else:
+                    place_cache[loc] = {}
+
+            if cache_path:
+                save_authority_cache(cache_path, cache)
+            time.sleep(1.0)
+        except Exception as exc:
+            print(f"[warn] Batched place authority lookup failed: {exc}")
+
+    return place_cache
+
+
+def enrich_person_node(person_node: Dict[str, Any], auth: Dict[str, Any]) -> Dict[str, Any]:
+    """Attaches Linked Art `equivalent`, `identified_by`, and `subject_of` authority links to a Person or Group node."""
+    if not auth or not auth.get("wikidata_uri"):
+        return person_node
+
+    crm_type = auth.get("entity_type", "Person")
+    person_node["type"] = crm_type
+
+    eqs: List[Dict[str, Any]] = [
+        {
+            "id": auth["wikidata_uri"],
+            "type": crm_type,
+            "_label": f"{auth.get('label', person_node['_label'])} (Wikidata {auth['wikidata_qid']})",
+        }
+    ]
+    ids: List[Dict[str, Any]] = [
+        {
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}],
+            "content": auth["wikidata_qid"],
+        }
+    ]
+
+    if auth.get("ulan"):
+        eqs.append({
+            "id": f"http://vocab.getty.edu/ulan/{auth['ulan']}",
+            "type": crm_type,
+            "_label": f"Getty ULAN {auth['ulan']}",
+        })
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty ULAN ID"}],
+            "content": auth["ulan"],
+        })
+
+    if auth.get("viaf"):
+        eqs.append({
+            "id": f"https://viaf.org/viaf/{auth['viaf']}",
+            "type": crm_type,
+            "_label": f"VIAF {auth['viaf']}",
+        })
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "VIAF ID"}],
+            "content": auth["viaf"],
+        })
+
+    if auth.get("odnb"):
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Oxford DNB ID"}],
+            "content": auth["odnb"],
+        })
+
+    person_node["equivalent"] = eqs
+    person_node["identified_by"] = ids
+
+    if auth.get("wikipedia"):
+        person_node["subject_of"] = [
+            {
+                "id": auth["wikipedia"],
+                "type": "LinguisticObject",
+                "_label": f"Wikipedia: {auth.get('label', person_node['_label'])}",
+                "format": "text/html",
+            }
+        ]
+
+    return person_node
+
+
+def enrich_place_node(place_node: Dict[str, Any], locality: str, auth: Dict[str, Any]) -> Dict[str, Any]:
+    """Attaches Linked Art `equivalent`, `identified_by`, and `subject_of` authority links to a Place node."""
+    if not auth or not auth.get("wikidata_uri"):
+        return place_node
+
+    eqs: List[Dict[str, Any]] = [
+        {
+            "id": auth["wikidata_uri"],
+            "type": "Place",
+            "_label": f"{auth.get('label', locality)} (Wikidata {auth['wikidata_qid']})",
+        }
+    ]
+    ids: List[Dict[str, Any]] = [
+        {
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}],
+            "content": auth["wikidata_qid"],
+        }
+    ]
+
+    if auth.get("tgn"):
+        eqs.append({
+            "id": f"http://vocab.getty.edu/tgn/{auth['tgn']}",
+            "type": "Place",
+            "_label": f"Getty TGN {auth['tgn']}",
+        })
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty TGN ID"}],
+            "content": auth["tgn"],
+        })
+
+    if auth.get("geonames"):
+        eqs.append({
+            "id": f"https://sws.geonames.org/{auth['geonames']}/",
+            "type": "Place",
+            "_label": f"GeoNames {auth['geonames']}",
+        })
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}],
+            "content": auth["geonames"],
+        })
+
+    if auth.get("gss"):
+        ids.append({
+            "type": "Identifier",
+            "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}],
+            "content": auth["gss"],
+        })
+
+    place_node["equivalent"] = eqs
+    place_node["identified_by"] = ids
+
+    if auth.get("wikipedia"):
+        place_node["subject_of"] = [
+            {
+                "id": auth["wikipedia"],
+                "type": "LinguisticObject",
+                "_label": f"Wikipedia: {auth.get('label', locality)}",
+                "format": "text/html",
+            }
+        ]
+
+    return place_node
+
+
 def fetch_wikidata_exact_matches(list_entries: List[str]) -> Dict[str, Dict[str, str]]:
     results: Dict[str, Dict[str, str]] = {}
     batch_size = 100
@@ -444,18 +806,7 @@ def fetch_wikidata_exact_matches(list_entries: List[str]) -> Dict[str, Dict[str,
         }}
         """
         try:
-            data = urllib.parse.urlencode({"query": query, "format": "json"}).encode("utf-8")
-            req = urllib.request.Request(
-                endpoint,
-                data=data,
-                headers={
-                    "Accept": "application/sparql-results+json",
-                    "Content-Type": "application/x-www-form-urlencoded",
-                    "User-Agent": "NHLE-LinkedArt-Builder/1.2 (https://github.com/portableant)",
-                },
-            )
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                payload = json.loads(resp.read().decode("utf-8"))
+            payload = sparql_post_with_retry(query)
 
             for b in payload.get("results", {}).get("bindings", []):
                 nhle_id = b["nhle"]["value"].strip()
@@ -500,6 +851,8 @@ def clean_val(row: Dict[str, Any], key: str) -> str:
 def row_to_linked_art(
     row: Dict[str, Any],
     wd_meta: Dict[str, str],
+    person_auth_map: Dict[str, Dict[str, Any]],
+    place_auth_map: Dict[str, Dict[str, Any]],
     base_url: str,
 ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
     list_entry = clean_val(row, "List Entry Number") or clean_val(row, "ListEntry")
@@ -579,6 +932,8 @@ def row_to_linked_art(
     }
     if lon is not None and lat is not None:
         place_node["defined_by"] = f"POINT({lon} {lat})"
+    if locality in place_auth_map:
+        enrich_place_node(place_node, locality, place_auth_map[locality])
 
     subject_of_links: List[Dict[str, Any]] = [
         {
@@ -671,11 +1026,14 @@ def row_to_linked_art(
         }
         if architects:
             prod["carried_out_by"] = [
-                {
-                    "id": f"{base_url}/api/person/{slugify(arch)}",
-                    "type": "Person",
-                    "_label": arch,
-                }
+                enrich_person_node(
+                    {
+                        "id": f"{base_url}/api/person/{slugify(arch)}",
+                        "type": "Person",
+                        "_label": arch,
+                    },
+                    person_auth_map.get(arch, {}),
+                )
                 for arch in architects
             ]
         if timespan:
@@ -688,6 +1046,12 @@ def row_to_linked_art(
         combined_text, name, locality, list_entry, base_url, timespan
     )
     if acquisitions:
+        for acq in acquisitions:
+            for party_key in ("transferred_title_from", "transferred_title_to"):
+                for p_node in acq.get(party_key, []):
+                    if p_node.get("type") == "Person" and p_node.get("_label") in person_auth_map:
+                        p_node["id"] = f"{base_url}/api/person/{slugify(p_node['_label'])}"
+                        enrich_person_node(p_node, person_auth_map[p_node["_label"]])
         doc["changed_ownership_through"] = acquisitions
     if current_owners:
         doc["current_owner"] = current_owners
@@ -809,10 +1173,13 @@ def main():
     parser.add_argument("--input", required=True, help="Path to pre-scraped NHLE CSV file")
     parser.add_argument("--output", default="./api", help="Output API directory")
     parser.add_argument("--base-url", default="https://portableant.github.io/nhle-linked-art", help="Public base URI")
-    parser.add_argument("--skip-wikidata", action="store_true", help="Skip live Wikidata P1216 SPARQL enrichment")
+    parser.add_argument("--cache-dir", default="./cache", help="Directory for caching authority reconciliations")
+    parser.add_argument("--skip-wikidata", action="store_true", help="Skip live Wikidata / Getty / VIAF / GeoNames SPARQL enrichment")
     args = parser.parse_args()
 
     out_dir = Path(args.output)
+    auth_cache_path = Path(args.cache_dir) / "authority_links.json"
+    auth_cache = load_authority_cache(auth_cache_path)
 
     with open(args.input, newline="", encoding="utf-8-sig") as f:
         rows = [
@@ -822,12 +1189,34 @@ def main():
 
     list_entries = [clean_val(r, "List Entry Number") or clean_val(r, "ListEntry") for r in rows]
     wd_map = {} if args.skip_wikidata else fetch_wikidata_exact_matches(list_entries)
+
+    # Collect unique architects, provenance persons, and localities across all rows for batch authority reconciliation
+    all_persons: List[str] = []
+    all_places: List[str] = []
+    for row in rows:
+        raw_name = clean_val(row, "List Entry Name") or clean_val(row, "Name")
+        details_text = clean_val(row, "Details")
+        combined = f"{raw_name} {clean_val(row, 'Summary')} {details_text} {clean_val(row, 'Reasons for Designation')} {clean_val(row, 'History')}"
+        all_persons.extend(extract_architects(combined))
+        for m in re.finditer(r"\b(?:presented by|given by|gift of|donated by|bequeathed by|left by|inherited from)\s+((?:Sir\s+|Lord\s+|Lady\s+)?[A-Z][a-z]+(?:\s+(?:de|van|von|[A-Z]\.|[A-Z][a-z]+)){0,3})", combined):
+            all_persons.append(m.group(1).strip().rstrip(".,;:"))
+        loc = normalize_locality(clean_val(row, "Parish")) if clean_val(row, "Parish") else extract_locality_from_details(details_text)
+        all_places.append(loc)
+
+    if args.skip_wikidata:
+        person_auth_map = auth_cache.get("persons", {})
+        place_auth_map = auth_cache.get("places", {})
+    else:
+        person_auth_map = resolve_person_authorities(all_persons, auth_cache, auth_cache_path)
+        place_auth_map = resolve_place_authorities(all_places, auth_cache, auth_cache_path)
+        save_authority_cache(auth_cache_path, auth_cache)
+
     catalog = []
 
     for row in rows:
         list_entry = clean_val(row, "List Entry Number") or clean_val(row, "ListEntry")
         wd_meta = wd_map.get(list_entry, {})
-        la_doc, cat_entry = row_to_linked_art(row, wd_meta, args.base_url)
+        la_doc, cat_entry = row_to_linked_art(row, wd_meta, person_auth_map, place_auth_map, args.base_url)
 
         shard = out_dir / "object" / list_entry[:3]
         shard.mkdir(parents=True, exist_ok=True)

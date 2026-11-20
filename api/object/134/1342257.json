@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342257",
     "type": "Place",
     "_label": "Wigginton (SP 94097 10326)",
-    "defined_by": "POINT(-0.637311 51.783694)"
+    "defined_by": "POINT(-0.637311 51.783694)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2582838",
+        "type": "Place",
+        "_label": "Wigginton (Wikidata Q2582838)"
+      },
+      {
+        "id": "https://sws.geonames.org/2633945/",
+        "type": "Place",
+        "_label": "GeoNames 2633945"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2582838"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2633945"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004711"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Wigginton,_Hertfordshire",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Wigginton",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1342257",
         "type": "Place",
         "_label": "Wigginton (SP 94097 10326)",
-        "defined_by": "POINT(-0.637311 51.783694)"
+        "defined_by": "POINT(-0.637311 51.783694)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2582838",
+            "type": "Place",
+            "_label": "Wigginton (Wikidata Q2582838)"
+          },
+          {
+            "id": "https://sws.geonames.org/2633945/",
+            "type": "Place",
+            "_label": "GeoNames 2633945"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2582838"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2633945"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004711"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Wigginton,_Hertfordshire",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Wigginton",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

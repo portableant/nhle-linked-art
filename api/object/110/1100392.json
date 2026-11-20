@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100392",
     "type": "Place",
     "_label": "Little Gaddesden (SP 99887 12627)",
-    "defined_by": "POINT(-0.552741 51.803373)"
+    "defined_by": "POINT(-0.552741 51.803373)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1129826",
+        "type": "Place",
+        "_label": "Little Gaddesden (Wikidata Q1129826)"
+      },
+      {
+        "id": "https://sws.geonames.org/7293691/",
+        "type": "Place",
+        "_label": "GeoNames 7293691"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1129826"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7293691"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004704"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Little_Gaddesden",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Little Gaddesden",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100392",
         "type": "Place",
         "_label": "Little Gaddesden (SP 99887 12627)",
-        "defined_by": "POINT(-0.552741 51.803373)"
+        "defined_by": "POINT(-0.552741 51.803373)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1129826",
+            "type": "Place",
+            "_label": "Little Gaddesden (Wikidata Q1129826)"
+          },
+          {
+            "id": "https://sws.geonames.org/7293691/",
+            "type": "Place",
+            "_label": "GeoNames 7293691"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1129826"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7293691"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004704"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Little_Gaddesden",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Little Gaddesden",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

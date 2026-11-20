@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1319237",
     "type": "Place",
     "_label": "Ivinghoe (SP 94419 16082)",
-    "defined_by": "POINT(-0.631078 51.835377)"
+    "defined_by": "POINT(-0.631078 51.835377)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q671595",
+        "type": "Place",
+        "_label": "Ivinghoe (Wikidata Q671595)"
+      },
+      {
+        "id": "https://sws.geonames.org/2645989/",
+        "type": "Place",
+        "_label": "GeoNames 2645989"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q671595"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2645989"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001498"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Ivinghoe",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Ivinghoe",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1319237",
         "type": "Place",
         "_label": "Ivinghoe (SP 94419 16082)",
-        "defined_by": "POINT(-0.631078 51.835377)"
+        "defined_by": "POINT(-0.631078 51.835377)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q671595",
+            "type": "Place",
+            "_label": "Ivinghoe (Wikidata Q671595)"
+          },
+          {
+            "id": "https://sws.geonames.org/2645989/",
+            "type": "Place",
+            "_label": "GeoNames 2645989"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q671595"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2645989"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001498"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Ivinghoe",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Ivinghoe",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124802",
     "type": "Place",
     "_label": "Great Missenden (SP 90658 02129)",
-    "defined_by": "POINT(-0.689285 51.71058)"
+    "defined_by": "POINT(-0.689285 51.71058)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1817504",
+        "type": "Place",
+        "_label": "Great Missenden (Wikidata Q1817504)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299205/",
+        "type": "Place",
+        "_label": "GeoNames 7299205"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1817504"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299205"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001573"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Great_Missenden",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Great Missenden",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124802",
         "type": "Place",
         "_label": "Great Missenden (SP 90658 02129)",
-        "defined_by": "POINT(-0.689285 51.71058)"
+        "defined_by": "POINT(-0.689285 51.71058)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1817504",
+            "type": "Place",
+            "_label": "Great Missenden (Wikidata Q1817504)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299205/",
+            "type": "Place",
+            "_label": "GeoNames 7299205"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1817504"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299205"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001573"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Great_Missenden",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Great Missenden",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161224",
     "type": "Place",
     "_label": "Pitstone (SP 93237 16053)",
-    "defined_by": "POINT(-0.648235 51.835315)"
+    "defined_by": "POINT(-0.648235 51.835315)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2698460",
+        "type": "Place",
+        "_label": "Pitstone (Wikidata Q2698460)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299787/",
+        "type": "Place",
+        "_label": "GeoNames 7299787"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2698460"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299787"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001521"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Pitstone",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Pitstone",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161224",
         "type": "Place",
         "_label": "Pitstone (SP 93237 16053)",
-        "defined_by": "POINT(-0.648235 51.835315)"
+        "defined_by": "POINT(-0.648235 51.835315)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2698460",
+            "type": "Place",
+            "_label": "Pitstone (Wikidata Q2698460)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299787/",
+            "type": "Place",
+            "_label": "GeoNames 7299787"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2698460"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299787"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001521"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Pitstone",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Pitstone",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

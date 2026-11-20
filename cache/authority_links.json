@@ -1,0 +1,487 @@
+{
+  "persons": {
+    "William Huckvale": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q8012645",
+      "wikidata_qid": "Q8012645",
+      "label": "William Huckvale",
+      "ulan": "",
+      "viaf": "",
+      "odnb": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Huckvale"
+    },
+    "Lord Rothschild": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q336385",
+      "wikidata_qid": "Q336385",
+      "label": "Nathan Rothschild, 1st Baron Rothschild",
+      "ulan": "",
+      "viaf": "25360233",
+      "odnb": "35843",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild"
+    },
+    "Sir Ninian Comper": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q767545",
+      "wikidata_qid": "Q767545",
+      "entity_type": "Person",
+      "label": "Ninian Comper",
+      "ulan": "500009215",
+      "viaf": "8309574",
+      "odnb": "32522",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ninian_Comper"
+    },
+    "Sir Reginald Blomfield": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q538999",
+      "wikidata_qid": "Q538999",
+      "entity_type": "Person",
+      "label": "Reginald Blomfield",
+      "ulan": "500028646",
+      "viaf": "55247013",
+      "odnb": "31929",
+      "wikipedia": "https://en.wikipedia.org/wiki/Reginald_Blomfield"
+    },
+    "Sir Richard Cooper": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q7324877",
+      "wikidata_qid": "Q7324877",
+      "entity_type": "Person",
+      "label": "Richard Cooper",
+      "ulan": "500004276",
+      "viaf": "47842805",
+      "odnb": "6223",
+      "wikipedia": "https://en.wikipedia.org/wiki/Richard_Cooper_Jr."
+    },
+    "Sir William Chambers": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q455155",
+      "wikidata_qid": "Q455155",
+      "entity_type": "Person",
+      "label": "William Chambers",
+      "ulan": "500004575",
+      "viaf": "2590661",
+      "odnb": "5083",
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Chambers_(architect)"
+    },
+    "Smith and Brewer": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q104816249",
+      "wikidata_qid": "Q104816249",
+      "entity_type": "Group",
+      "label": "Smith and Brewer",
+      "ulan": "500273420",
+      "viaf": "150009917",
+      "odnb": "",
+      "wikipedia": ""
+    },
+    "Thomas Bull": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q63344376",
+      "wikidata_qid": "Q63344376",
+      "entity_type": "Person",
+      "label": "Thomas Bull",
+      "ulan": "",
+      "viaf": "1257149198321674940005",
+      "odnb": "",
+      "wikipedia": ""
+    },
+    "Thomas Cundy": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q7788746",
+      "wikidata_qid": "Q7788746",
+      "entity_type": "Person",
+      "label": "Thomas Cundy",
+      "ulan": "500016355",
+      "viaf": "95781388",
+      "odnb": "6909",
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Cundy_(junior)"
+    },
+    "Westby Gill": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21166527",
+      "wikidata_qid": "Q21166527",
+      "entity_type": "Person",
+      "label": "Westby Gill",
+      "ulan": "500283673",
+      "viaf": "145331463",
+      "odnb": "",
+      "wikipedia": ""
+    },
+    "William Burn": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q8006170",
+      "wikidata_qid": "Q8006170",
+      "entity_type": "Person",
+      "label": "William Burn",
+      "ulan": "500015790",
+      "viaf": "65071096",
+      "odnb": "4044",
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Burn"
+    },
+    "William Gore": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q52637542",
+      "wikidata_qid": "Q52637542",
+      "entity_type": "Person",
+      "label": "William Gore",
+      "ulan": "",
+      "viaf": "",
+      "odnb": "",
+      "wikipedia": ""
+    },
+    "William Jessop": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q18577201",
+      "wikidata_qid": "Q18577201",
+      "entity_type": "Person",
+      "label": "William Jessop",
+      "ulan": "",
+      "viaf": "108015365",
+      "odnb": "37603",
+      "wikipedia": ""
+    },
+    "William Taylor": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q23831610",
+      "wikidata_qid": "Q23831610",
+      "entity_type": "Person",
+      "label": "William Taylor",
+      "ulan": "500090294",
+      "viaf": "78722197",
+      "odnb": "",
+      "wikipedia": ""
+    },
+    "Sir Thomas Frederick Halsey": {},
+    "Walter F": {},
+    "William Bonnar Hopkins": {},
+    "William Slater and": {}
+  },
+  "places": {
+    "Tring": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1013483",
+      "wikidata_qid": "Q1013483",
+      "label": "Tring",
+      "tgn": "7011641",
+      "geonames": "2635473",
+      "gss": "E04004743",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tring"
+    },
+    "Kings Langley": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1979067",
+      "wikidata_qid": "Q1979067",
+      "label": "Kings Langley",
+      "tgn": "7011510",
+      "geonames": "2645526",
+      "gss": "E04004748",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kings_Langley"
+    },
+    "Cholesbury-cum-St Leonards": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2243647",
+      "wikidata_qid": "Q2243647",
+      "label": "Cholesbury-cum-St Leonards",
+      "tgn": "",
+      "geonames": "7296993",
+      "gss": "E04001484",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cholesbury-cum-St_Leonards"
+    },
+    "Abbots Langley": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q55215315",
+      "wikidata_qid": "Q55215315",
+      "label": "Abbots Langley",
+      "tgn": "",
+      "geonames": "2657863",
+      "gss": "",
+      "wikipedia": ""
+    },
+    "Aldbury": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q546163",
+      "wikidata_qid": "Q546163",
+      "label": "Aldbury",
+      "tgn": "",
+      "geonames": "2657559",
+      "gss": "E04004696",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aldbury"
+    },
+    "Asheridge Road": {},
+    "Ashley Green": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1955045",
+      "wikidata_qid": "Q1955045",
+      "label": "Ashley Green",
+      "tgn": "",
+      "geonames": "7299764",
+      "gss": "E04001564",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Green"
+    },
+    "Aston Clinton": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2044251",
+      "wikidata_qid": "Q2044251",
+      "label": "Aston Clinton",
+      "tgn": "",
+      "geonames": "7292866",
+      "gss": "E04001457",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aston_Clinton"
+    },
+    "Berkhamsted": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q19784",
+      "wikidata_qid": "Q19784",
+      "label": "Berkhamsted",
+      "tgn": "",
+      "geonames": "7298694",
+      "gss": "E04004697",
+      "wikipedia": "https://en.wikipedia.org/wiki/Berkhamsted"
+    },
+    "Bierton And Broughton": {},
+    "Bierton With Broughton": {},
+    "Bovingdon": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q19926",
+      "wikidata_qid": "Q19926",
+      "label": "Bovingdon",
+      "tgn": "",
+      "geonames": "7298695",
+      "gss": "E04004698",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bovingdon"
+    },
+    "Buckland": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2034314",
+      "wikidata_qid": "Q2034314",
+      "label": "Buckland",
+      "tgn": "",
+      "geonames": "2654405",
+      "gss": "E04001466",
+      "wikipedia": "https://en.wikipedia.org/wiki/Buckland,_Buckinghamshire"
+    },
+    "Chartridge": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2914072",
+      "wikidata_qid": "Q2914072",
+      "label": "Chartridge",
+      "tgn": "",
+      "geonames": "9657631",
+      "gss": "E04001567",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chartridge"
+    },
+    "Chesham Vale": {},
+    "Chipperfield": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q19930",
+      "wikidata_qid": "Q19930",
+      "label": "Chipperfield",
+      "tgn": "",
+      "geonames": "7291297",
+      "gss": "E04004699",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chipperfield"
+    },
+    "Chorlesbury-cum-St Leonards": {},
+    "Drayton Beauchamp": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2560291",
+      "wikidata_qid": "Q2560291",
+      "label": "Drayton Beauchamp",
+      "tgn": "",
+      "geonames": "12262746",
+      "gss": "E04001477",
+      "wikipedia": "https://en.wikipedia.org/wiki/Drayton_Beauchamp"
+    },
+    "Edlesborough": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2012769",
+      "wikidata_qid": "Q2012769",
+      "label": "Edlesborough",
+      "tgn": "",
+      "geonames": "7298703",
+      "gss": "E04001482",
+      "wikipedia": "https://en.wikipedia.org/wiki/Edlesborough"
+    },
+    "Ellesborough": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2740409",
+      "wikidata_qid": "Q2740409",
+      "label": "Ellesborough",
+      "tgn": "",
+      "geonames": "7299798",
+      "gss": "E04001596",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ellesborough"
+    },
+    "Flamstead": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2569452",
+      "wikidata_qid": "Q2569452",
+      "label": "Flamstead",
+      "tgn": "",
+      "geonames": "7299222",
+      "gss": "E04004700",
+      "wikipedia": "https://en.wikipedia.org/wiki/Flamstead"
+    },
+    "Great And Little Hampden": {},
+    "Great Gaddesden": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5599229",
+      "wikidata_qid": "Q5599229",
+      "label": "Great Gaddesden",
+      "tgn": "",
+      "geonames": "7295247",
+      "gss": "E04004702",
+      "wikipedia": "https://en.wikipedia.org/wiki/Great_Gaddesden"
+    },
+    "Great Gaudesden": {},
+    "Great Missenden": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1817504",
+      "wikidata_qid": "Q1817504",
+      "label": "Great Missenden",
+      "tgn": "",
+      "geonames": "7299205",
+      "gss": "E04001573",
+      "wikipedia": "https://en.wikipedia.org/wiki/Great_Missenden"
+    },
+    "Halton": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q638216",
+      "wikidata_qid": "Q638216",
+      "label": "Halton",
+      "tgn": "",
+      "geonames": "7296020",
+      "gss": "E04001491",
+      "wikipedia": "https://en.wikipedia.org/wiki/Halton,_Buckinghamshire"
+    },
+    "Hemel Hempstead": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q3532",
+      "wikidata_qid": "Q3532",
+      "label": "Hemel Hempstead",
+      "tgn": "",
+      "geonames": "2647138",
+      "gss": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hemel_Hempstead"
+    },
+    "Hemel Hempstead Road": {},
+    "High Street": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5757163",
+      "wikidata_qid": "Q5757163",
+      "label": "High Street",
+      "tgn": "",
+      "geonames": "10103988",
+      "gss": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/High_Street,_Cornwall"
+    },
+    "Ivinghoe": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q671595",
+      "wikidata_qid": "Q671595",
+      "label": "Ivinghoe",
+      "tgn": "",
+      "geonames": "2645989",
+      "gss": "E04001498",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ivinghoe"
+    },
+    "Latimer": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2500788",
+      "wikidata_qid": "Q2500788",
+      "label": "Latimer",
+      "tgn": "",
+      "geonames": "2644820",
+      "gss": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Latimer,_Buckinghamshire"
+    },
+    "Little Gaddesden": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1129826",
+      "wikidata_qid": "Q1129826",
+      "label": "Little Gaddesden",
+      "tgn": "",
+      "geonames": "7293691",
+      "gss": "E04004704",
+      "wikipedia": "https://en.wikipedia.org/wiki/Little_Gaddesden"
+    },
+    "Lye Green": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q6707745",
+      "wikidata_qid": "Q6707745",
+      "label": "Lye Green",
+      "tgn": "1029929",
+      "geonames": "12262745",
+      "gss": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lye_Green"
+    },
+    "Markyate": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2337154",
+      "wikidata_qid": "Q2337154",
+      "label": "Markyate",
+      "tgn": "",
+      "geonames": "7293692",
+      "gss": "E04004705",
+      "wikipedia": "https://en.wikipedia.org/wiki/Markyate"
+    },
+    "Marsworth": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2527930",
+      "wikidata_qid": "Q2527930",
+      "label": "Marsworth",
+      "tgn": "",
+      "geonames": "2642961",
+      "gss": "E04001510",
+      "wikipedia": "https://en.wikipedia.org/wiki/Marsworth"
+    },
+    "Mill Street": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2266630",
+      "wikidata_qid": "Q2266630",
+      "label": "Mill Street",
+      "tgn": "",
+      "geonames": "",
+      "gss": "",
+      "wikipedia": ""
+    },
+    "Nettleden With": {},
+    "Northchurch": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q7057738",
+      "wikidata_qid": "Q7057738",
+      "label": "Northchurch",
+      "tgn": "",
+      "geonames": "2641394",
+      "gss": "E04004708",
+      "wikipedia": "https://en.wikipedia.org/wiki/Northchurch"
+    },
+    "Park Road": {},
+    "Pitstone": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2698460",
+      "wikidata_qid": "Q2698460",
+      "label": "Pitstone",
+      "tgn": "",
+      "geonames": "7299787",
+      "gss": "E04001521",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pitstone"
+    },
+    "Redbourn": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q19853",
+      "wikidata_qid": "Q19853",
+      "label": "Redbourn",
+      "tgn": "",
+      "geonames": "7295836",
+      "gss": "E04004806",
+      "wikipedia": "https://en.wikipedia.org/wiki/Redbourn"
+    },
+    "Schedule": {},
+    "St Michael": {},
+    "St Stephen": {},
+    "Stoke Mandeville": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1027124",
+      "wikidata_qid": "Q1027124",
+      "label": "Stoke Mandeville",
+      "tgn": "",
+      "geonames": "7298716",
+      "gss": "E04001534",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stoke_Mandeville"
+    },
+    "The Broadway": {},
+    "The Lee": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2696226",
+      "wikidata_qid": "Q2696226",
+      "label": "The Lee",
+      "tgn": "",
+      "geonames": "2644698",
+      "gss": "E04001578",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Lee"
+    },
+    "Tring Rural": {},
+    "Wendover": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2569184",
+      "wikidata_qid": "Q2569184",
+      "label": "Wendover",
+      "tgn": "",
+      "geonames": "7297920",
+      "gss": "E04001547",
+      "wikipedia": "https://en.wikipedia.org/wiki/Wendover"
+    },
+    "Weston Turville": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q3079423",
+      "wikidata_qid": "Q3079423",
+      "label": "Weston Turville",
+      "tgn": "",
+      "geonames": "2634307",
+      "gss": "E04001550",
+      "wikipedia": "https://en.wikipedia.org/wiki/Weston_Turville"
+    },
+    "Wigginton": {
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2582838",
+      "wikidata_qid": "Q2582838",
+      "label": "Wigginton",
+      "tgn": "",
+      "geonames": "2633945",
+      "gss": "E04004711",
+      "wikipedia": "https://en.wikipedia.org/wiki/Wigginton,_Hertfordshire"
+    }
+  }
+}

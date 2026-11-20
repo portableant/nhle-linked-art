@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078113",
     "type": "Place",
     "_label": "Berkhamsted (TL 00374 08728)",
-    "defined_by": "POINT(-0.546807 51.768241)"
+    "defined_by": "POINT(-0.546807 51.768241)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q19784",
+        "type": "Place",
+        "_label": "Berkhamsted (Wikidata Q19784)"
+      },
+      {
+        "id": "https://sws.geonames.org/7298694/",
+        "type": "Place",
+        "_label": "GeoNames 7298694"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q19784"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7298694"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004697"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Berkhamsted",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Berkhamsted",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078113",
         "type": "Place",
         "_label": "Berkhamsted (TL 00374 08728)",
-        "defined_by": "POINT(-0.546807 51.768241)"
+        "defined_by": "POINT(-0.546807 51.768241)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q19784",
+            "type": "Place",
+            "_label": "Berkhamsted (Wikidata Q19784)"
+          },
+          {
+            "id": "https://sws.geonames.org/7298694/",
+            "type": "Place",
+            "_label": "GeoNames 7298694"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q19784"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7298694"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004697"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Berkhamsted",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Berkhamsted",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

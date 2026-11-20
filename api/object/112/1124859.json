@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124859",
     "type": "Place",
     "_label": "Ashley Green (SP 98591 04208)",
-    "defined_by": "POINT(-0.573917 51.727931)"
+    "defined_by": "POINT(-0.573917 51.727931)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1955045",
+        "type": "Place",
+        "_label": "Ashley Green (Wikidata Q1955045)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299764/",
+        "type": "Place",
+        "_label": "GeoNames 7299764"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1955045"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299764"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001564"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Ashley_Green",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Ashley Green",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124859",
         "type": "Place",
         "_label": "Ashley Green (SP 98591 04208)",
-        "defined_by": "POINT(-0.573917 51.727931)"
+        "defined_by": "POINT(-0.573917 51.727931)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1955045",
+            "type": "Place",
+            "_label": "Ashley Green (Wikidata Q1955045)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299764/",
+            "type": "Place",
+            "_label": "GeoNames 7299764"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1955045"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299764"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001564"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Ashley_Green",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Ashley Green",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

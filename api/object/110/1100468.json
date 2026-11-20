@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100468",
     "type": "Place",
     "_label": "Chipperfield (TL 03962 02028)",
-    "defined_by": "POINT(-0.49683 51.707368)"
+    "defined_by": "POINT(-0.49683 51.707368)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q19930",
+        "type": "Place",
+        "_label": "Chipperfield (Wikidata Q19930)"
+      },
+      {
+        "id": "https://sws.geonames.org/7291297/",
+        "type": "Place",
+        "_label": "GeoNames 7291297"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q19930"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7291297"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004699"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Chipperfield",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Chipperfield",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100468",
         "type": "Place",
         "_label": "Chipperfield (TL 03962 02028)",
-        "defined_by": "POINT(-0.49683 51.707368)"
+        "defined_by": "POINT(-0.49683 51.707368)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q19930",
+            "type": "Place",
+            "_label": "Chipperfield (Wikidata Q19930)"
+          },
+          {
+            "id": "https://sws.geonames.org/7291297/",
+            "type": "Place",
+            "_label": "GeoNames 7291297"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q19930"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7291297"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004699"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Chipperfield",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Chipperfield",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

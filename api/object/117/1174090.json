@@ -96,7 +96,78 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174090",
     "type": "Place",
     "_label": "Kings Langley (TL 05790 04315)",
-    "defined_by": "POINT(-0.469691 51.727582)"
+    "defined_by": "POINT(-0.469691 51.727582)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1979067",
+        "type": "Place",
+        "_label": "Kings Langley (Wikidata Q1979067)"
+      },
+      {
+        "id": "http://vocab.getty.edu/tgn/7011510",
+        "type": "Place",
+        "_label": "Getty TGN 7011510"
+      },
+      {
+        "id": "https://sws.geonames.org/2645526/",
+        "type": "Place",
+        "_label": "GeoNames 2645526"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1979067"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Getty TGN ID"
+          }
+        ],
+        "content": "7011510"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2645526"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004748"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Kings_Langley",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Kings Langley",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +199,78 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174090",
         "type": "Place",
         "_label": "Kings Langley (TL 05790 04315)",
-        "defined_by": "POINT(-0.469691 51.727582)"
+        "defined_by": "POINT(-0.469691 51.727582)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1979067",
+            "type": "Place",
+            "_label": "Kings Langley (Wikidata Q1979067)"
+          },
+          {
+            "id": "http://vocab.getty.edu/tgn/7011510",
+            "type": "Place",
+            "_label": "Getty TGN 7011510"
+          },
+          {
+            "id": "https://sws.geonames.org/2645526/",
+            "type": "Place",
+            "_label": "GeoNames 2645526"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1979067"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty TGN ID"
+              }
+            ],
+            "content": "7011510"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2645526"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004748"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Kings_Langley",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Kings Langley",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

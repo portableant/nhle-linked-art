@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100376",
     "type": "Place",
     "_label": "Flamstead (TL 04535 14478)",
-    "defined_by": "POINT(-0.484799 51.819161)"
+    "defined_by": "POINT(-0.484799 51.819161)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2569452",
+        "type": "Place",
+        "_label": "Flamstead (Wikidata Q2569452)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299222/",
+        "type": "Place",
+        "_label": "GeoNames 7299222"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2569452"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299222"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004700"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Flamstead",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Flamstead",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -133,12 +188,154 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/thomas-cundy",
         "type": "Person",
-        "_label": "Thomas Cundy"
+        "_label": "Thomas Cundy",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q7788746",
+            "type": "Person",
+            "_label": "Thomas Cundy (Wikidata Q7788746)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500016355",
+            "type": "Person",
+            "_label": "Getty ULAN 500016355"
+          },
+          {
+            "id": "https://viaf.org/viaf/95781388",
+            "type": "Person",
+            "_label": "VIAF 95781388"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q7788746"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500016355"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "95781388"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "6909"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Thomas_Cundy_(junior)",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Thomas Cundy",
+            "format": "text/html"
+          }
+        ]
       },
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/william-burn",
         "type": "Person",
-        "_label": "William Burn"
+        "_label": "William Burn",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q8006170",
+            "type": "Person",
+            "_label": "William Burn (Wikidata Q8006170)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500015790",
+            "type": "Person",
+            "_label": "Getty ULAN 500015790"
+          },
+          {
+            "id": "https://viaf.org/viaf/65071096",
+            "type": "Person",
+            "_label": "VIAF 65071096"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q8006170"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500015790"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "65071096"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "4044"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/William_Burn",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: William Burn",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -152,7 +349,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100376",
         "type": "Place",
         "_label": "Flamstead (TL 04535 14478)",
-        "defined_by": "POINT(-0.484799 51.819161)"
+        "defined_by": "POINT(-0.484799 51.819161)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2569452",
+            "type": "Place",
+            "_label": "Flamstead (Wikidata Q2569452)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299222/",
+            "type": "Place",
+            "_label": "GeoNames 7299222"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2569452"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299222"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004700"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Flamstead",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Flamstead",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

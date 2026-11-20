@@ -96,7 +96,51 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1159543",
     "type": "Place",
     "_label": "Latimer (SP 98879 01982)",
-    "defined_by": "POINT(-0.57038 51.707872)"
+    "defined_by": "POINT(-0.57038 51.707872)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2500788",
+        "type": "Place",
+        "_label": "Latimer (Wikidata Q2500788)"
+      },
+      {
+        "id": "https://sws.geonames.org/2644820/",
+        "type": "Place",
+        "_label": "GeoNames 2644820"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2500788"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2644820"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Latimer,_Buckinghamshire",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Latimer",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +172,51 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1159543",
         "type": "Place",
         "_label": "Latimer (SP 98879 01982)",
-        "defined_by": "POINT(-0.57038 51.707872)"
+        "defined_by": "POINT(-0.57038 51.707872)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2500788",
+            "type": "Place",
+            "_label": "Latimer (Wikidata Q2500788)"
+          },
+          {
+            "id": "https://sws.geonames.org/2644820/",
+            "type": "Place",
+            "_label": "GeoNames 2644820"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2500788"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2644820"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Latimer,_Buckinghamshire",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Latimer",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

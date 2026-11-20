@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161012",
     "type": "Place",
     "_label": "Marsworth (SP 91963 14525)",
-    "defined_by": "POINT(-0.667125 51.821791)"
+    "defined_by": "POINT(-0.667125 51.821791)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2527930",
+        "type": "Place",
+        "_label": "Marsworth (Wikidata Q2527930)"
+      },
+      {
+        "id": "https://sws.geonames.org/2642961/",
+        "type": "Place",
+        "_label": "GeoNames 2642961"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2527930"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2642961"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001510"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Marsworth",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Marsworth",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1161012",
         "type": "Place",
         "_label": "Marsworth (SP 91963 14525)",
-        "defined_by": "POINT(-0.667125 51.821791)"
+        "defined_by": "POINT(-0.667125 51.821791)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2527930",
+            "type": "Place",
+            "_label": "Marsworth (Wikidata Q2527930)"
+          },
+          {
+            "id": "https://sws.geonames.org/2642961/",
+            "type": "Place",
+            "_label": "GeoNames 2642961"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2527930"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2642961"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001510"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Marsworth",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Marsworth",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332833",
     "type": "Place",
     "_label": "Stoke Mandeville (SP 83584 10169)",
-    "defined_by": "POINT(-0.789713 51.78395)"
+    "defined_by": "POINT(-0.789713 51.78395)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1027124",
+        "type": "Place",
+        "_label": "Stoke Mandeville (Wikidata Q1027124)"
+      },
+      {
+        "id": "https://sws.geonames.org/7298716/",
+        "type": "Place",
+        "_label": "GeoNames 7298716"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1027124"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7298716"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001534"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Stoke_Mandeville",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Stoke Mandeville",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160287",
     "type": "Place",
     "_label": "Aston Clinton (SP 87370 12254)",
-    "defined_by": "POINT(-0.734318 51.802114)"
+    "defined_by": "POINT(-0.734318 51.802114)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2044251",
+        "type": "Place",
+        "_label": "Aston Clinton (Wikidata Q2044251)"
+      },
+      {
+        "id": "https://sws.geonames.org/7292866/",
+        "type": "Place",
+        "_label": "GeoNames 7292866"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2044251"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7292866"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001457"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Aston_Clinton",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Aston Clinton",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160287",
         "type": "Place",
         "_label": "Aston Clinton (SP 87370 12254)",
-        "defined_by": "POINT(-0.734318 51.802114)"
+        "defined_by": "POINT(-0.734318 51.802114)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2044251",
+            "type": "Place",
+            "_label": "Aston Clinton (Wikidata Q2044251)"
+          },
+          {
+            "id": "https://sws.geonames.org/7292866/",
+            "type": "Place",
+            "_label": "GeoNames 7292866"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2044251"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7292866"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001457"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Aston_Clinton",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Aston Clinton",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

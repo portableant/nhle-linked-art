@@ -96,7 +96,67 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124636",
     "type": "Place",
     "_label": "Lye Green (SP 97683 03358)",
-    "defined_by": "POINT(-0.587298 51.720449)"
+    "defined_by": "POINT(-0.587298 51.720449)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q6707745",
+        "type": "Place",
+        "_label": "Lye Green (Wikidata Q6707745)"
+      },
+      {
+        "id": "http://vocab.getty.edu/tgn/1029929",
+        "type": "Place",
+        "_label": "Getty TGN 1029929"
+      },
+      {
+        "id": "https://sws.geonames.org/12262745/",
+        "type": "Place",
+        "_label": "GeoNames 12262745"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q6707745"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Getty TGN ID"
+          }
+        ],
+        "content": "1029929"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "12262745"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Lye_Green",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Lye Green",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +188,67 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124636",
         "type": "Place",
         "_label": "Lye Green (SP 97683 03358)",
-        "defined_by": "POINT(-0.587298 51.720449)"
+        "defined_by": "POINT(-0.587298 51.720449)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q6707745",
+            "type": "Place",
+            "_label": "Lye Green (Wikidata Q6707745)"
+          },
+          {
+            "id": "http://vocab.getty.edu/tgn/1029929",
+            "type": "Place",
+            "_label": "Getty TGN 1029929"
+          },
+          {
+            "id": "https://sws.geonames.org/12262745/",
+            "type": "Place",
+            "_label": "GeoNames 12262745"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q6707745"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty TGN ID"
+              }
+            ],
+            "content": "1029929"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "12262745"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Lye_Green",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Lye Green",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125882",
     "type": "Place",
     "_label": "Ellesborough (SP 83662 06772)",
-    "defined_by": "POINT(-0.7894 51.753402)"
+    "defined_by": "POINT(-0.7894 51.753402)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2740409",
+        "type": "Place",
+        "_label": "Ellesborough (Wikidata Q2740409)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299798/",
+        "type": "Place",
+        "_label": "GeoNames 7299798"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2740409"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299798"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001596"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Ellesborough",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Ellesborough",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125882",
         "type": "Place",
         "_label": "Ellesborough (SP 83662 06772)",
-        "defined_by": "POINT(-0.7894 51.753402)"
+        "defined_by": "POINT(-0.7894 51.753402)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2740409",
+            "type": "Place",
+            "_label": "Ellesborough (Wikidata Q2740409)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299798/",
+            "type": "Place",
+            "_label": "GeoNames 7299798"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2740409"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299798"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001596"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Ellesborough",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Ellesborough",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

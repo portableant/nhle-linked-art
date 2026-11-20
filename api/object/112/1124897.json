@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124897",
     "type": "Place",
     "_label": "Chartridge (SP 93438 03626)",
-    "defined_by": "POINT(-0.64866 51.723581)"
+    "defined_by": "POINT(-0.64866 51.723581)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2914072",
+        "type": "Place",
+        "_label": "Chartridge (Wikidata Q2914072)"
+      },
+      {
+        "id": "https://sws.geonames.org/9657631/",
+        "type": "Place",
+        "_label": "GeoNames 9657631"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2914072"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "9657631"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001567"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Chartridge",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Chartridge",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124897",
         "type": "Place",
         "_label": "Chartridge (SP 93438 03626)",
-        "defined_by": "POINT(-0.64866 51.723581)"
+        "defined_by": "POINT(-0.64866 51.723581)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2914072",
+            "type": "Place",
+            "_label": "Chartridge (Wikidata Q2914072)"
+          },
+          {
+            "id": "https://sws.geonames.org/9657631/",
+            "type": "Place",
+            "_label": "GeoNames 9657631"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2914072"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "9657631"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001567"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Chartridge",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Chartridge",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

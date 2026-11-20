@@ -116,7 +116,62 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/lord-rothschild",
         "type": "Person",
-        "_label": "Lord Rothschild"
+        "_label": "Lord Rothschild",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q336385",
+            "type": "Person",
+            "_label": "Nathan Rothschild, 1st Baron Rothschild (Wikidata Q336385)"
+          },
+          {
+            "id": "https://viaf.org/viaf/25360233",
+            "type": "Person",
+            "_label": "VIAF 25360233"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q336385"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "25360233"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "35843"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Nathan Rothschild, 1st Baron Rothschild",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {

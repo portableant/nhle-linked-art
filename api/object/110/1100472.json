@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100472",
     "type": "Place",
     "_label": "Bovingdon (TL 01129 02778)",
-    "defined_by": "POINT(-0.537598 51.714626)"
+    "defined_by": "POINT(-0.537598 51.714626)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q19926",
+        "type": "Place",
+        "_label": "Bovingdon (Wikidata Q19926)"
+      },
+      {
+        "id": "https://sws.geonames.org/7298695/",
+        "type": "Place",
+        "_label": "GeoNames 7298695"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q19926"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7298695"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004698"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Bovingdon",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Bovingdon",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100472",
         "type": "Place",
         "_label": "Bovingdon (TL 01129 02778)",
-        "defined_by": "POINT(-0.537598 51.714626)"
+        "defined_by": "POINT(-0.537598 51.714626)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q19926",
+            "type": "Place",
+            "_label": "Bovingdon (Wikidata Q19926)"
+          },
+          {
+            "id": "https://sws.geonames.org/7298695/",
+            "type": "Place",
+            "_label": "GeoNames 7298695"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q19926"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7298695"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004698"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Bovingdon",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Bovingdon",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

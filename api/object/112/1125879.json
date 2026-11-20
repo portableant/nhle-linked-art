@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125879",
     "type": "Place",
     "_label": "Ellesborough (SP 84196 05663)",
-    "defined_by": "POINT(-0.781934 51.743353)"
+    "defined_by": "POINT(-0.781934 51.743353)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2740409",
+        "type": "Place",
+        "_label": "Ellesborough (Wikidata Q2740409)"
+      },
+      {
+        "id": "https://sws.geonames.org/7299798/",
+        "type": "Place",
+        "_label": "GeoNames 7299798"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2740409"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7299798"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001596"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Ellesborough",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Ellesborough",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -133,7 +188,78 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-reginald-blomfield",
         "type": "Person",
-        "_label": "Sir Reginald Blomfield"
+        "_label": "Sir Reginald Blomfield",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q538999",
+            "type": "Person",
+            "_label": "Reginald Blomfield (Wikidata Q538999)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500028646",
+            "type": "Person",
+            "_label": "Getty ULAN 500028646"
+          },
+          {
+            "id": "https://viaf.org/viaf/55247013",
+            "type": "Person",
+            "_label": "VIAF 55247013"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q538999"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500028646"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "55247013"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "31929"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Reginald_Blomfield",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Reginald Blomfield",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -147,7 +273,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1125879",
         "type": "Place",
         "_label": "Ellesborough (SP 84196 05663)",
-        "defined_by": "POINT(-0.781934 51.743353)"
+        "defined_by": "POINT(-0.781934 51.743353)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2740409",
+            "type": "Place",
+            "_label": "Ellesborough (Wikidata Q2740409)"
+          },
+          {
+            "id": "https://sws.geonames.org/7299798/",
+            "type": "Place",
+            "_label": "GeoNames 7299798"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2740409"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7299798"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001596"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Ellesborough",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Ellesborough",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

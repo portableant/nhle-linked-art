@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348474",
     "type": "Place",
     "_label": "Northchurch (SP 96569 09798)",
-    "defined_by": "POINT(-0.601633 51.778527)"
+    "defined_by": "POINT(-0.601633 51.778527)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q7057738",
+        "type": "Place",
+        "_label": "Northchurch (Wikidata Q7057738)"
+      },
+      {
+        "id": "https://sws.geonames.org/2641394/",
+        "type": "Place",
+        "_label": "GeoNames 2641394"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q7057738"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2641394"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004708"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Northchurch",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Northchurch",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348474",
         "type": "Place",
         "_label": "Northchurch (SP 96569 09798)",
-        "defined_by": "POINT(-0.601633 51.778527)"
+        "defined_by": "POINT(-0.601633 51.778527)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q7057738",
+            "type": "Place",
+            "_label": "Northchurch (Wikidata Q7057738)"
+          },
+          {
+            "id": "https://sws.geonames.org/2641394/",
+            "type": "Place",
+            "_label": "GeoNames 2641394"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q7057738"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2641394"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004708"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Northchurch",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Northchurch",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

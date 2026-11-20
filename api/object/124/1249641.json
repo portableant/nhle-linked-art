@@ -96,7 +96,27 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1249641",
     "type": "Place",
     "_label": "Mill Street (SP 99469 08051)",
-    "defined_by": "POINT(-0.560112 51.762318)"
+    "defined_by": "POINT(-0.560112 51.762318)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2266630",
+        "type": "Place",
+        "_label": "Mill Street (Wikidata Q2266630)"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2266630"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +148,27 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1249641",
         "type": "Place",
         "_label": "Mill Street (SP 99469 08051)",
-        "defined_by": "POINT(-0.560112 51.762318)"
+        "defined_by": "POINT(-0.560112 51.762318)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2266630",
+            "type": "Place",
+            "_label": "Mill Street (Wikidata Q2266630)"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2266630"
+          }
+        ]
       }
     ]
   },

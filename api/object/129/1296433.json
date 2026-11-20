@@ -127,7 +127,59 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/westby-gill",
         "type": "Person",
-        "_label": "Westby Gill"
+        "_label": "Westby Gill",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q21166527",
+            "type": "Person",
+            "_label": "Westby Gill (Wikidata Q21166527)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500283673",
+            "type": "Person",
+            "_label": "Getty ULAN 500283673"
+          },
+          {
+            "id": "https://viaf.org/viaf/145331463",
+            "type": "Person",
+            "_label": "VIAF 145331463"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q21166527"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500283673"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "145331463"
+          }
+        ]
       },
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/p-scheemakers",

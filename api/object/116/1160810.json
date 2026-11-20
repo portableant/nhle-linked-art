@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160810",
     "type": "Place",
     "_label": "Edlesborough (SP9852814379)",
-    "defined_by": "POINT(-0.571947 51.819361)"
+    "defined_by": "POINT(-0.571947 51.819361)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2012769",
+        "type": "Place",
+        "_label": "Edlesborough (Wikidata Q2012769)"
+      },
+      {
+        "id": "https://sws.geonames.org/7298703/",
+        "type": "Place",
+        "_label": "GeoNames 7298703"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2012769"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7298703"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001482"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Edlesborough",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Edlesborough",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -135,7 +190,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160810",
         "type": "Place",
         "_label": "Edlesborough (SP9852814379)",
-        "defined_by": "POINT(-0.571947 51.819361)"
+        "defined_by": "POINT(-0.571947 51.819361)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2012769",
+            "type": "Place",
+            "_label": "Edlesborough (Wikidata Q2012769)"
+          },
+          {
+            "id": "https://sws.geonames.org/7298703/",
+            "type": "Place",
+            "_label": "GeoNames 7298703"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2012769"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7298703"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001482"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Edlesborough",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Edlesborough",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

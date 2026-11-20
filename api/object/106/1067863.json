@@ -207,7 +207,79 @@
       "transferred_title_from": [
         {
           "type": "Person",
-          "_label": "Sir Richard Cooper"
+          "_label": "Sir Richard Cooper",
+          "id": "https://portableant.github.io/nhle-linked-art/api/person/sir-richard-cooper",
+          "equivalent": [
+            {
+              "id": "http://www.wikidata.org/entity/Q7324877",
+              "type": "Person",
+              "_label": "Richard Cooper (Wikidata Q7324877)"
+            },
+            {
+              "id": "http://vocab.getty.edu/ulan/500004276",
+              "type": "Person",
+              "_label": "Getty ULAN 500004276"
+            },
+            {
+              "id": "https://viaf.org/viaf/47842805",
+              "type": "Person",
+              "_label": "VIAF 47842805"
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "Wikidata Entity ID"
+                }
+              ],
+              "content": "Q7324877"
+            },
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "Getty ULAN ID"
+                }
+              ],
+              "content": "500004276"
+            },
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "VIAF ID"
+                }
+              ],
+              "content": "47842805"
+            },
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "Oxford DNB ID"
+                }
+              ],
+              "content": "6223"
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://en.wikipedia.org/wiki/Richard_Cooper_Jr.",
+              "type": "LinguisticObject",
+              "_label": "Wikipedia: Richard Cooper",
+              "format": "text/html"
+            }
+          ]
         }
       ],
       "transferred_title_to": [

@@ -96,7 +96,78 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558",
     "type": "Place",
     "_label": "Tring (SP 92338 11368)",
-    "defined_by": "POINT(-0.662526 51.793353)"
+    "defined_by": "POINT(-0.662526 51.793353)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1013483",
+        "type": "Place",
+        "_label": "Tring (Wikidata Q1013483)"
+      },
+      {
+        "id": "http://vocab.getty.edu/tgn/7011641",
+        "type": "Place",
+        "_label": "Getty TGN 7011641"
+      },
+      {
+        "id": "https://sws.geonames.org/2635473/",
+        "type": "Place",
+        "_label": "GeoNames 2635473"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1013483"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Getty TGN ID"
+          }
+        ],
+        "content": "7011641"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2635473"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004743"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Tring",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Tring",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -133,7 +204,35 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/william-huckvale",
         "type": "Person",
-        "_label": "William Huckvale"
+        "_label": "William Huckvale",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q8012645",
+            "type": "Person",
+            "_label": "William Huckvale (Wikidata Q8012645)"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q8012645"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/William_Huckvale",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: William Huckvale",
+            "format": "text/html"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -147,7 +246,78 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558",
         "type": "Place",
         "_label": "Tring (SP 92338 11368)",
-        "defined_by": "POINT(-0.662526 51.793353)"
+        "defined_by": "POINT(-0.662526 51.793353)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1013483",
+            "type": "Place",
+            "_label": "Tring (Wikidata Q1013483)"
+          },
+          {
+            "id": "http://vocab.getty.edu/tgn/7011641",
+            "type": "Place",
+            "_label": "Getty TGN 7011641"
+          },
+          {
+            "id": "https://sws.geonames.org/2635473/",
+            "type": "Place",
+            "_label": "GeoNames 2635473"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1013483"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty TGN ID"
+              }
+            ],
+            "content": "7011641"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2635473"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004743"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Tring",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Tring",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },
@@ -185,7 +355,63 @@
       "transferred_title_from": [
         {
           "type": "Person",
-          "_label": "Lord Rothschild"
+          "_label": "Lord Rothschild",
+          "id": "https://portableant.github.io/nhle-linked-art/api/person/lord-rothschild",
+          "equivalent": [
+            {
+              "id": "http://www.wikidata.org/entity/Q336385",
+              "type": "Person",
+              "_label": "Nathan Rothschild, 1st Baron Rothschild (Wikidata Q336385)"
+            },
+            {
+              "id": "https://viaf.org/viaf/25360233",
+              "type": "Person",
+              "_label": "VIAF 25360233"
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "Wikidata Entity ID"
+                }
+              ],
+              "content": "Q336385"
+            },
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "VIAF ID"
+                }
+              ],
+              "content": "25360233"
+            },
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404626",
+                  "type": "Type",
+                  "_label": "Oxford DNB ID"
+                }
+              ],
+              "content": "35843"
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild",
+              "type": "LinguisticObject",
+              "_label": "Wikipedia: Nathan Rothschild, 1st Baron Rothschild",
+              "format": "text/html"
+            }
+          ]
         }
       ],
       "transferred_title_to": [

@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332819",
     "type": "Place",
     "_label": "Buckland (SP 88723 12828)",
-    "defined_by": "POINT(-0.714555 51.80706)"
+    "defined_by": "POINT(-0.714555 51.80706)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2034314",
+        "type": "Place",
+        "_label": "Buckland (Wikidata Q2034314)"
+      },
+      {
+        "id": "https://sws.geonames.org/2654405/",
+        "type": "Place",
+        "_label": "GeoNames 2654405"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2034314"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2654405"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001466"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Buckland,_Buckinghamshire",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Buckland",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332819",
         "type": "Place",
         "_label": "Buckland (SP 88723 12828)",
-        "defined_by": "POINT(-0.714555 51.80706)"
+        "defined_by": "POINT(-0.714555 51.80706)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2034314",
+            "type": "Place",
+            "_label": "Buckland (Wikidata Q2034314)"
+          },
+          {
+            "id": "https://sws.geonames.org/2654405/",
+            "type": "Place",
+            "_label": "GeoNames 2654405"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2034314"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2654405"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001466"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Buckland,_Buckinghamshire",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Buckland",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

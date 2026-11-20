@@ -96,7 +96,51 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1311356",
     "type": "Place",
     "_label": "High Street (SP 96033 01806)",
-    "defined_by": "POINT(-0.611604 51.706784)"
+    "defined_by": "POINT(-0.611604 51.706784)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q5757163",
+        "type": "Place",
+        "_label": "High Street (Wikidata Q5757163)"
+      },
+      {
+        "id": "https://sws.geonames.org/10103988/",
+        "type": "Place",
+        "_label": "GeoNames 10103988"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q5757163"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "10103988"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/High_Street,_Cornwall",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: High Street",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +172,51 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1311356",
         "type": "Place",
         "_label": "High Street (SP 96033 01806)",
-        "defined_by": "POINT(-0.611604 51.706784)"
+        "defined_by": "POINT(-0.611604 51.706784)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q5757163",
+            "type": "Place",
+            "_label": "High Street (Wikidata Q5757163)"
+          },
+          {
+            "id": "https://sws.geonames.org/10103988/",
+            "type": "Place",
+            "_label": "GeoNames 10103988"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q5757163"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "10103988"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/High_Street,_Cornwall",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: High Street",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

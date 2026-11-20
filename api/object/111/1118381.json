@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118381",
     "type": "Place",
     "_label": "Wendover (SP 86879 06228)",
-    "defined_by": "POINT(-0.742943 51.748023)"
+    "defined_by": "POINT(-0.742943 51.748023)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2569184",
+        "type": "Place",
+        "_label": "Wendover (Wikidata Q2569184)"
+      },
+      {
+        "id": "https://sws.geonames.org/7297920/",
+        "type": "Place",
+        "_label": "GeoNames 7297920"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2569184"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7297920"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001547"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Wendover",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Wendover",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1118381",
         "type": "Place",
         "_label": "Wendover (SP 86879 06228)",
-        "defined_by": "POINT(-0.742943 51.748023)"
+        "defined_by": "POINT(-0.742943 51.748023)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2569184",
+            "type": "Place",
+            "_label": "Wendover (Wikidata Q2569184)"
+          },
+          {
+            "id": "https://sws.geonames.org/7297920/",
+            "type": "Place",
+            "_label": "GeoNames 7297920"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2569184"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7297920"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001547"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Wendover",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Wendover",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

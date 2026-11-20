@@ -96,7 +96,78 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1068548",
     "type": "Place",
     "_label": "Tring (SP 92406 13124)",
-    "defined_by": "POINT(-0.661073 51.809125)"
+    "defined_by": "POINT(-0.661073 51.809125)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q1013483",
+        "type": "Place",
+        "_label": "Tring (Wikidata Q1013483)"
+      },
+      {
+        "id": "http://vocab.getty.edu/tgn/7011641",
+        "type": "Place",
+        "_label": "Getty TGN 7011641"
+      },
+      {
+        "id": "https://sws.geonames.org/2635473/",
+        "type": "Place",
+        "_label": "GeoNames 2635473"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q1013483"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Getty TGN ID"
+          }
+        ],
+        "content": "7011641"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2635473"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004743"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Tring",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Tring",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -127,7 +198,54 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/william-jessop",
         "type": "Person",
-        "_label": "William Jessop"
+        "_label": "William Jessop",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q18577201",
+            "type": "Person",
+            "_label": "William Jessop (Wikidata Q18577201)"
+          },
+          {
+            "id": "https://viaf.org/viaf/108015365",
+            "type": "Person",
+            "_label": "VIAF 108015365"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q18577201"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "108015365"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Oxford DNB ID"
+              }
+            ],
+            "content": "37603"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -141,7 +259,78 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1068548",
         "type": "Place",
         "_label": "Tring (SP 92406 13124)",
-        "defined_by": "POINT(-0.661073 51.809125)"
+        "defined_by": "POINT(-0.661073 51.809125)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1013483",
+            "type": "Place",
+            "_label": "Tring (Wikidata Q1013483)"
+          },
+          {
+            "id": "http://vocab.getty.edu/tgn/7011641",
+            "type": "Place",
+            "_label": "Getty TGN 7011641"
+          },
+          {
+            "id": "https://sws.geonames.org/2635473/",
+            "type": "Place",
+            "_label": "GeoNames 2635473"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q1013483"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty TGN ID"
+              }
+            ],
+            "content": "7011641"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2635473"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004743"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Tring",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Tring",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

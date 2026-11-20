@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174195",
     "type": "Place",
     "_label": "Markyate (TL 04749 15806)",
-    "defined_by": "POINT(-0.481294 51.831057)"
+    "defined_by": "POINT(-0.481294 51.831057)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2337154",
+        "type": "Place",
+        "_label": "Markyate (Wikidata Q2337154)"
+      },
+      {
+        "id": "https://sws.geonames.org/7293692/",
+        "type": "Place",
+        "_label": "GeoNames 7293692"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2337154"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7293692"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004705"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Markyate",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Markyate",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1174195",
         "type": "Place",
         "_label": "Markyate (TL 04749 15806)",
-        "defined_by": "POINT(-0.481294 51.831057)"
+        "defined_by": "POINT(-0.481294 51.831057)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2337154",
+            "type": "Place",
+            "_label": "Markyate (Wikidata Q2337154)"
+          },
+          {
+            "id": "https://sws.geonames.org/7293692/",
+            "type": "Place",
+            "_label": "GeoNames 7293692"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2337154"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7293692"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004705"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Markyate",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Markyate",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

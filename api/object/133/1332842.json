@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332842",
     "type": "Place",
     "_label": "Halton (SP 87443 10102)",
-    "defined_by": "POINT(-0.733802 51.782758)"
+    "defined_by": "POINT(-0.733802 51.782758)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q638216",
+        "type": "Place",
+        "_label": "Halton (Wikidata Q638216)"
+      },
+      {
+        "id": "https://sws.geonames.org/7296020/",
+        "type": "Place",
+        "_label": "GeoNames 7296020"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q638216"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7296020"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001491"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Halton,_Buckinghamshire",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Halton",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -141,7 +196,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1332842",
         "type": "Place",
         "_label": "Halton (SP 87443 10102)",
-        "defined_by": "POINT(-0.733802 51.782758)"
+        "defined_by": "POINT(-0.733802 51.782758)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q638216",
+            "type": "Place",
+            "_label": "Halton (Wikidata Q638216)"
+          },
+          {
+            "id": "https://sws.geonames.org/7296020/",
+            "type": "Place",
+            "_label": "GeoNames 7296020"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q638216"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7296020"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001491"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Halton,_Buckinghamshire",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Halton",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

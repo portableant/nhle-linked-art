@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078058",
     "type": "Place",
     "_label": "Aldbury (SP 96455 12415)",
-    "defined_by": "POINT(-0.602558 51.802069)"
+    "defined_by": "POINT(-0.602558 51.802069)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q546163",
+        "type": "Place",
+        "_label": "Aldbury (Wikidata Q546163)"
+      },
+      {
+        "id": "https://sws.geonames.org/2657559/",
+        "type": "Place",
+        "_label": "GeoNames 2657559"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q546163"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2657559"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004696"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Aldbury",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Aldbury",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1078058",
         "type": "Place",
         "_label": "Aldbury (SP 96455 12415)",
-        "defined_by": "POINT(-0.602558 51.802069)"
+        "defined_by": "POINT(-0.602558 51.802069)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q546163",
+            "type": "Place",
+            "_label": "Aldbury (Wikidata Q546163)"
+          },
+          {
+            "id": "https://sws.geonames.org/2657559/",
+            "type": "Place",
+            "_label": "GeoNames 2657559"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q546163"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2657559"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004696"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Aldbury",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Aldbury",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

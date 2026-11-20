@@ -96,7 +96,43 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348213",
     "type": "Place",
     "_label": "Abbots Langley (TL0968402520)",
-    "defined_by": "POINT(-0.413898 51.710701)"
+    "defined_by": "POINT(-0.413898 51.710701)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q55215315",
+        "type": "Place",
+        "_label": "Abbots Langley (Wikidata Q55215315)"
+      },
+      {
+        "id": "https://sws.geonames.org/2657863/",
+        "type": "Place",
+        "_label": "GeoNames 2657863"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q55215315"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2657863"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +164,43 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1348213",
         "type": "Place",
         "_label": "Abbots Langley (TL0968402520)",
-        "defined_by": "POINT(-0.413898 51.710701)"
+        "defined_by": "POINT(-0.413898 51.710701)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q55215315",
+            "type": "Place",
+            "_label": "Abbots Langley (Wikidata Q55215315)"
+          },
+          {
+            "id": "https://sws.geonames.org/2657863/",
+            "type": "Place",
+            "_label": "GeoNames 2657863"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q55215315"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2657863"
+          }
+        ]
       }
     ]
   },

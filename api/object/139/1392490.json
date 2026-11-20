@@ -126,7 +126,59 @@
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/william-taylor",
         "type": "Person",
-        "_label": "William Taylor"
+        "_label": "William Taylor",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q23831610",
+            "type": "Person",
+            "_label": "William Taylor (Wikidata Q23831610)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500090294",
+            "type": "Person",
+            "_label": "Getty ULAN 500090294"
+          },
+          {
+            "id": "https://viaf.org/viaf/78722197",
+            "type": "Person",
+            "_label": "VIAF 78722197"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q23831610"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500090294"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "78722197"
+          }
+        ]
       }
     ],
     "timespan": {

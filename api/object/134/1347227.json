@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1347227",
     "type": "Place",
     "_label": "Redbourn (TL 11204 08717)",
-    "defined_by": "POINT(-0.389929 51.766098)"
+    "defined_by": "POINT(-0.389929 51.766098)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q19853",
+        "type": "Place",
+        "_label": "Redbourn (Wikidata Q19853)"
+      },
+      {
+        "id": "https://sws.geonames.org/7295836/",
+        "type": "Place",
+        "_label": "GeoNames 7295836"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q19853"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7295836"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004806"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Redbourn",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Redbourn",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1347227",
         "type": "Place",
         "_label": "Redbourn (TL 11204 08717)",
-        "defined_by": "POINT(-0.389929 51.766098)"
+        "defined_by": "POINT(-0.389929 51.766098)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q19853",
+            "type": "Place",
+            "_label": "Redbourn (Wikidata Q19853)"
+          },
+          {
+            "id": "https://sws.geonames.org/7295836/",
+            "type": "Place",
+            "_label": "GeoNames 7295836"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q19853"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7295836"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004806"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Redbourn",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Redbourn",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

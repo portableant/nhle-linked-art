@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124878",
     "type": "Place",
     "_label": "The Lee (SP 91198 04195)",
-    "defined_by": "POINT(-0.680931 51.729064)"
+    "defined_by": "POINT(-0.680931 51.729064)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2696226",
+        "type": "Place",
+        "_label": "The Lee (Wikidata Q2696226)"
+      },
+      {
+        "id": "https://sws.geonames.org/2644698/",
+        "type": "Place",
+        "_label": "GeoNames 2644698"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2696226"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2644698"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001578"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/The_Lee",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: The Lee",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124878",
         "type": "Place",
         "_label": "The Lee (SP 91198 04195)",
-        "defined_by": "POINT(-0.680931 51.729064)"
+        "defined_by": "POINT(-0.680931 51.729064)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2696226",
+            "type": "Place",
+            "_label": "The Lee (Wikidata Q2696226)"
+          },
+          {
+            "id": "https://sws.geonames.org/2644698/",
+            "type": "Place",
+            "_label": "GeoNames 2644698"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2696226"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2644698"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001578"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/The_Lee",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: The Lee",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

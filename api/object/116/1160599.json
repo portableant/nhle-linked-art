@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160599",
     "type": "Place",
     "_label": "Drayton Beauchamp (SP 89833 12611)",
-    "defined_by": "POINT(-0.698516 51.804933)"
+    "defined_by": "POINT(-0.698516 51.804933)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2560291",
+        "type": "Place",
+        "_label": "Drayton Beauchamp (Wikidata Q2560291)"
+      },
+      {
+        "id": "https://sws.geonames.org/12262746/",
+        "type": "Place",
+        "_label": "GeoNames 12262746"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2560291"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "12262746"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001477"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Drayton_Beauchamp",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Drayton Beauchamp",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1160599",
         "type": "Place",
         "_label": "Drayton Beauchamp (SP 89833 12611)",
-        "defined_by": "POINT(-0.698516 51.804933)"
+        "defined_by": "POINT(-0.698516 51.804933)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2560291",
+            "type": "Place",
+            "_label": "Drayton Beauchamp (Wikidata Q2560291)"
+          },
+          {
+            "id": "https://sws.geonames.org/12262746/",
+            "type": "Place",
+            "_label": "GeoNames 12262746"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2560291"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "12262746"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001477"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Drayton_Beauchamp",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Drayton Beauchamp",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

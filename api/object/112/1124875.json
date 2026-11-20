@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124875",
     "type": "Place",
     "_label": "Cholesbury-cum-St Leonards (SP 93581 07008)",
-    "defined_by": "POINT(-0.645682 51.753956)"
+    "defined_by": "POINT(-0.645682 51.753956)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q2243647",
+        "type": "Place",
+        "_label": "Cholesbury-cum-St Leonards (Wikidata Q2243647)"
+      },
+      {
+        "id": "https://sws.geonames.org/7296993/",
+        "type": "Place",
+        "_label": "GeoNames 7296993"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q2243647"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "7296993"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04001484"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Cholesbury-cum-St_Leonards",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Cholesbury-cum-St Leonards",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -128,7 +183,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124875",
         "type": "Place",
         "_label": "Cholesbury-cum-St Leonards (SP 93581 07008)",
-        "defined_by": "POINT(-0.645682 51.753956)"
+        "defined_by": "POINT(-0.645682 51.753956)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q2243647",
+            "type": "Place",
+            "_label": "Cholesbury-cum-St Leonards (Wikidata Q2243647)"
+          },
+          {
+            "id": "https://sws.geonames.org/7296993/",
+            "type": "Place",
+            "_label": "GeoNames 7296993"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q2243647"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "7296993"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04001484"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Cholesbury-cum-St_Leonards",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Cholesbury-cum-St Leonards",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },

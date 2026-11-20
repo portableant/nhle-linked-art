@@ -96,7 +96,62 @@
     "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101519",
     "type": "Place",
     "_label": "Aldbury (SP 96493 13209)",
-    "defined_by": "POINT(-0.601787 51.8092)"
+    "defined_by": "POINT(-0.601787 51.8092)",
+    "equivalent": [
+      {
+        "id": "http://www.wikidata.org/entity/Q546163",
+        "type": "Place",
+        "_label": "Aldbury (Wikidata Q546163)"
+      },
+      {
+        "id": "https://sws.geonames.org/2657559/",
+        "type": "Place",
+        "_label": "GeoNames 2657559"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "Wikidata Entity ID"
+          }
+        ],
+        "content": "Q546163"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "GeoNames ID"
+          }
+        ],
+        "content": "2657559"
+      },
+      {
+        "type": "Identifier",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404626",
+            "type": "Type",
+            "_label": "ONS GSS Code"
+          }
+        ],
+        "content": "E04004696"
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://en.wikipedia.org/wiki/Aldbury",
+        "type": "LinguisticObject",
+        "_label": "Wikipedia: Aldbury",
+        "format": "text/html"
+      }
+    ]
   },
   "subject_of": [
     {
@@ -120,8 +175,60 @@
     "carried_out_by": [
       {
         "id": "https://portableant.github.io/nhle-linked-art/api/person/smith-and-brewer",
-        "type": "Person",
-        "_label": "Smith and Brewer"
+        "type": "Group",
+        "_label": "Smith and Brewer",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q104816249",
+            "type": "Group",
+            "_label": "Smith and Brewer (Wikidata Q104816249)"
+          },
+          {
+            "id": "http://vocab.getty.edu/ulan/500273420",
+            "type": "Group",
+            "_label": "Getty ULAN 500273420"
+          },
+          {
+            "id": "https://viaf.org/viaf/150009917",
+            "type": "Group",
+            "_label": "VIAF 150009917"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q104816249"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Getty ULAN ID"
+              }
+            ],
+            "content": "500273420"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "VIAF ID"
+              }
+            ],
+            "content": "150009917"
+          }
+        ]
       }
     ],
     "timespan": {
@@ -135,7 +242,62 @@
         "id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1101519",
         "type": "Place",
         "_label": "Aldbury (SP 96493 13209)",
-        "defined_by": "POINT(-0.601787 51.8092)"
+        "defined_by": "POINT(-0.601787 51.8092)",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q546163",
+            "type": "Place",
+            "_label": "Aldbury (Wikidata Q546163)"
+          },
+          {
+            "id": "https://sws.geonames.org/2657559/",
+            "type": "Place",
+            "_label": "GeoNames 2657559"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "Wikidata Entity ID"
+              }
+            ],
+            "content": "Q546163"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "GeoNames ID"
+              }
+            ],
+            "content": "2657559"
+          },
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "ONS GSS Code"
+              }
+            ],
+            "content": "E04004696"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://en.wikipedia.org/wiki/Aldbury",
+            "type": "LinguisticObject",
+            "_label": "Wikipedia: Aldbury",
+            "format": "text/html"
+          }
+        ]
       }
     ]
   },
