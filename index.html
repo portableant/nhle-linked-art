@@ -1992,19 +1992,35 @@
     }
 
     async function fetchMissingPiecesMedia(nhleId) {
-      const key = String(nhleId);
+      const key = String(nhleId).trim();
+      if (!key) return { items: [], source: 'ugcapi.historicengland.org.uk' };
       if (ugcCache[key]) return ugcCache[key];
+
+      // Tier 1: Same-origin static shard built into the repo (no CORS on GitHub Pages)
+      try {
+        const localRes = await fetch(`./api/ugc/${encodeURIComponent(key)}.json`);
+        if (localRes.ok) {
+          const localData = await localRes.json();
+          if (Array.isArray(localData) && localData.length > 0) {
+            ugcCache[key] = { items: localData, source: `./api/ugc/${key}.json` };
+            return ugcCache[key];
+          }
+        }
+      } catch (e) {}
+
+      // Tier 2: Live Historic England UGC API (works locally or if CORS permits for unsharded IDs)
       try {
         const res = await fetch(`https://ugcapi.historicengland.org.uk/api/media/${encodeURIComponent(key)}`);
         if (res.ok) {
           const data = await res.json();
-          if (Array.isArray(data) && data.length) {
+          if (Array.isArray(data) && data.length > 0) {
             ugcCache[key] = { items: data, source: `ugcapi.historicengland.org.uk/api/media/${key}` };
             return ugcCache[key];
           }
         }
       } catch (e) {}
 
+      // Tier 3: Bundled sample data for offline/local testing
       if (SAMPLE_MISSING_PIECES_BY_ID[key]) {
         ugcCache[key] = { items: SAMPLE_MISSING_PIECES_BY_ID[key], source: `Sample JSON (NHLE #${key})` };
         return ugcCache[key];
