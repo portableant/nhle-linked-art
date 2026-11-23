@@ -39,9 +39,12 @@ A zero-backend GitHub Pages static API and interactive explorer that transforms 
 │           └── {list_entry}.json       # Sharded Linked Art 1.0 JSON-LD records
 ├── build_linked_art.py                 # Zero-dependency CSV -> Linked Art 1.0 converter
 ├── historic_england_sample_10th.csv    # Sample NHLE dataset
+├── js/                                 # Browser scripts, split by feature
 ├── index.html                          # Viewer-first GitHub Pages web application
 └── README.md
 ```
+
+The browser scripts in `js/` are classic scripts loaded in the order listed at the end of `index.html`. They share the bindings in `seed-data.js` and `state.js`; `app.js` starts the application after the feature scripts have registered their handlers. `viewer.js`, `catalog.js`, `entity.js`, and `controls.js` cover the main explorer, while `corpus.js`, `description.js`, `missing-pieces.js`, and `notice-tour.js` implement their respective overlays. `tailwind-config.js` is loaded immediately after the Tailwind CDN script.
 
 ---
 
