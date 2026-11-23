@@ -1,3 +1,4 @@
+import argparse
 import json
 import time
 from pathlib import Path
@@ -6,6 +7,7 @@ from urllib.request import Request, urlopen
 
 CATALOG_PATH = Path("api/index/catalog.json")
 OUT_DIR = Path("api/ugc")
+INDEX_PATH = Path("api/index/ugc.json")
 API_TEMPLATE = "https://ugcapi.historicengland.org.uk/api/media/{nhle_id}"
 USER_AGENT = "nhle-linked-art-shard-builder/1.0 (+https://github.com/portableant/nhle-linked-art)"
 
@@ -24,7 +26,30 @@ def fetch_media_for_id(nhle_id: str, timeout: float = 15.0) -> list | None:
         return None
 
 
+def write_index() -> None:
+    ids = []
+    for path in sorted(OUT_DIR.glob("*.json")):
+        items = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(items, list):
+            raise ValueError(f"Invalid UGC shard: {path}")
+        if items:
+            ids.append(path.stem)
+    INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+    INDEX_PATH.write_text(json.dumps(ids, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Indexed {len(ids)} UGC shards in {INDEX_PATH}")
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Fetch Missing Pieces media and build its index.")
+    parser.add_argument("--index-only", action="store_true", help="Build the index from existing UGC shards without fetching media.")
+    args = parser.parse_args()
+
+    if args.index_only:
+        if not OUT_DIR.is_dir():
+            raise SystemExit(f"UGC shard directory not found: {OUT_DIR}")
+        write_index()
+        return
+
     if not CATALOG_PATH.exists():
         raise SystemExit(f"Catalog not found: {CATALOG_PATH}")
 
@@ -56,6 +81,8 @@ def main() -> None:
 
         # Polite delay so we don't hammer Historic England's UGC API
         time.sleep(0.15)
+
+    write_index()
 
 
 if __name__ == "__main__":

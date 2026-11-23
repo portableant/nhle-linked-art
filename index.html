@@ -535,25 +535,25 @@
   <!-- Missing Pieces Crowdsourced Gallery Film Strip Modal -->
   <div id="missingPiecesModal" role="dialog" aria-modal="true" aria-labelledby="mpModalTitle" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-xs items-center justify-center p-3 sm:p-5">
     <div class="max-w-5xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
-      <div class="px-5 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-3 bg-slate-50/80 dark:bg-slate-900">
-        <div class="min-w-0">
+      <div class="px-3 sm:px-5 py-3 border-b border-slate-200 dark:border-slate-800 flex items-start justify-between gap-2 sm:gap-3 bg-slate-50/80 dark:bg-slate-900">
+        <div class="min-w-0 flex-1">
           <div class="flex items-center gap-2">
             <span class="w-2.5 h-2.5 rounded-full bg-rose-500 shrink-0"></span>
-            <h2 id="mpModalTitle" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-slate-100 truncate">Missing Pieces Crowdsourced Gallery</h2>
+            <h2 id="mpModalTitle" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-slate-100 truncate min-w-0">Missing Pieces Crowdsourced Gallery</h2>
             <span id="mpCounter" class="text-xs font-mono text-slate-500 dark:text-slate-400 shrink-0"></span>
           </div>
           <p id="mpSubtitle" class="text-[11px] text-slate-500 dark:text-slate-400 truncate mt-0.5"></p>
         </div>
         <div class="flex items-center gap-2 shrink-0">
-          <a id="mpProjectLink" href="https://historicengland.org.uk/services-skills/our-services/missing-pieces/" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-xs font-medium rounded-md border border-rose-500/40 bg-rose-500/10 text-rose-700 dark:text-rose-300 hover:bg-rose-500/20 transition-colors">Missing Pieces Project &nearr;</a>
+          <a id="mpProjectLink" href="https://historicengland.org.uk/services-skills/our-services/missing-pieces/" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex px-2.5 py-1.5 text-xs font-medium rounded-md border border-rose-500/40 bg-rose-500/10 text-rose-700 dark:text-rose-300 hover:bg-rose-500/20 transition-colors">Missing Pieces Project &nearr;</a>
           <button id="closeMpModalBtn" type="button" aria-label="Close Missing Pieces gallery" class="p-1.5 rounded text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
       </div>
-      <div class="p-4 sm:p-5 overflow-y-auto space-y-4 flex-1">
-        <div class="relative bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 flex items-center justify-center min-h-[260px] max-h-[48vh] overflow-hidden">
-          <img id="mpStageImg" src="" alt="" class="max-h-[46vh] w-auto object-contain" />
+      <div class="p-3 sm:p-5 overflow-y-auto overflow-x-hidden space-y-4 flex-1 min-h-0">
+        <div class="relative bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 flex items-center justify-center min-h-[160px] sm:min-h-[260px] max-h-[48vh] overflow-hidden">
+          <img id="mpStageImg" src="" alt="" class="max-h-[46vh] max-w-full w-auto object-contain" />
           <div id="mpImgFallback" class="hidden text-center text-xs text-slate-400 p-8">Image unavailable</div>
           <button id="mpPrevBtn" type="button" aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-white border border-slate-700 flex items-center justify-center transition-colors">&larr;</button>
           <button id="mpNextBtn" type="button" aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-white border border-slate-700 flex items-center justify-center transition-colors">&rarr;</button>
@@ -569,17 +569,18 @@
                 <span id="mpContributorName" class="text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100 truncate"></span>
                 <span id="mpDateLabel" class="text-[11px] font-mono text-slate-400"></span>
               </div>
-              <p id="mpCaptionText" class="text-xs text-slate-600 dark:text-slate-300 mt-0.5"></p>
+              <p id="mpCaptionText" class="text-xs text-slate-600 dark:text-slate-300 mt-0.5 break-words"></p>
             </div>
           </div>
           <a id="mpDirectFileLink" href="#" target="_blank" rel="noopener noreferrer" class="text-sky-600 dark:text-sky-400 hover:underline font-medium text-xs">Full Resolution &nearr;</a>
         </div>
         <div class="space-y-1.5">
-          <div class="flex items-center justify-between text-[10px] font-mono uppercase tracking-wider text-slate-400">
+          <div class="flex flex-wrap items-center justify-between gap-1 text-[10px] font-mono uppercase tracking-wider text-slate-400">
             <span>Film Strip</span>
-            <span id="mpSourceLabel">ugcapi.historicengland.org.uk</span>
+            <span id="mpSourceLabel" class="break-all">ugcapi.historicengland.org.uk</span>
           </div>
           <div id="mpFilmStrip" class="flex items-center gap-2 overflow-x-auto pb-2 pt-1"></div>
+          <a href="https://historicengland.org.uk/services-skills/our-services/missing-pieces/" target="_blank" rel="noopener noreferrer" class="sm:hidden inline-block text-xs font-medium text-rose-700 dark:text-rose-300 hover:underline">Missing Pieces Project &nearr;</a>
         </div>
       </div>
     </div>
@@ -1558,6 +1559,7 @@
     const corpusModal = document.getElementById('corpusModal');
     let corpusMapInstance = null;
     let corpusActiveTab = 'matrix';
+    let ugcIndexPromise = null;
 
     const CHRONO_PERIOD_ORDER = [
       'Prehistoric', 'Roman', 'Anglo-Saxon / Norman',
@@ -1581,9 +1583,31 @@
           <span><strong class="text-emerald-600 dark:text-emerald-400">${uniquePlaces}</strong> Localities</span>
           <span><strong class="text-sky-600 dark:text-sky-400">${geolocated}</strong> Geolocated</span>
           <span><strong class="text-rose-600 dark:text-rose-400">${withImg}</strong> With Commons Image</span>
+          <span><strong id="corpusUgcCount" class="text-rose-600 dark:text-rose-400">Loading&hellip;</strong> Places with Missing Pieces Photos</span>
         </div>
-        <span class="text-[11px] text-slate-400">Source: <code>catalog.json</code></span>
+        <span class="text-[11px] text-slate-400">Sources: <code>catalog.json</code>, <code>ugc.json</code></span>
       `;
+      loadCorpusUgcCount();
+    }
+
+    async function loadCorpusUgcCount() {
+      try {
+        if (!ugcIndexPromise) {
+          ugcIndexPromise = fetch('./api/index/ugc.json').then(async res => {
+            if (!res.ok) throw new Error(`UGC index request failed: ${res.status}`);
+            const ids = await res.json();
+            if (!Array.isArray(ids)) throw new Error('Invalid UGC index');
+            return new Set(ids.map(String));
+          });
+        }
+        const ids = await ugcIndexPromise;
+        const matchingIds = new Set(catalog.map(item => String(item.id)).filter(id => ids.has(id)));
+        document.getElementById('corpusUgcCount').textContent = String(matchingIds.size);
+      } catch (error) {
+        ugcIndexPromise = null;
+        document.getElementById('corpusUgcCount').textContent = 'Unavailable';
+        console.error('Could not load the Missing Pieces index:', error);
+      }
     }
 
     function renderMaterialPeriodMatrix() {

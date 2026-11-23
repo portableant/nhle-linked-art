@@ -18,6 +18,7 @@ A zero-backend GitHub Pages static API and interactive explorer that transforms 
   - **Deep-Linkable HTML URLs:** Selecting any asset updates the browser URL (`?id=<nhle_id>`) and page title via `history.pushState`, supporting direct links, bookmarks, and browser Back/Forward navigation.
   - **Live NHLE ID Resolver:** Resolves any NHLE List Entry Number—checking local `/api/object/` shards first and falling back to Historic England's public ArcGIS Listed Buildings REST service and Wikidata SPARQL.
   - **Rich Context Panel:** Displays Wikimedia Commons photography (with lightbox and license/file links), a synchronized MapLibre GL mini-map, a semantic Linked Art dossier, and an interactive horizontal **Chronology & Statutory Lifecycle** timeline.
+  - **Missing Pieces:** Displays locally stored crowdsourced photos and counts catalog entries with stored photos in Corpus Explorer.
   - **Embedded Network & Data Inspector:** Mounts `@micropasts/linked-art-viewer` for synchronized D3 force-directed graph, collapsible JSON tree, raw JSON-LD, and RDF N-Quads inspection.
   - **Guided Tour & OGL v3.0 Notice:** Includes an interactive **Intro.js** guided tour and a dismissible Open Government Licence v3.0 attribution and non-endorsement modal.
 
@@ -75,6 +76,8 @@ python3 -m http.server 8000
 ```
 
 Open `http://localhost:8000/` (or `http://localhost:8000/?id=1083558` for a direct entity link).
+
+The Missing Pieces count uses `api/index/ugc.json`, an index of non-empty local `api/ugc/` shards. Run `python3 build_ugc_shards.py` to fetch media and rebuild the index, or `python3 build_ugc_shards.py --index-only` to rebuild it from existing shards without network requests. The count reflects stored shards, not live API availability.
 
 ### 3. Deploy to GitHub Pages
 
