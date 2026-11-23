@@ -313,6 +313,10 @@
               </svg>
               <span>Full Description</span>
             </button>
+            <button id="openMissingPiecesBtn" type="button" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 hover:border-rose-500 hover:text-rose-600 dark:hover:text-rose-400 transition-colors" title="View crowdsourced photos from Historic England Missing Pieces">
+              <span>Missing Pieces</span>
+              <span id="mpBadgeCount" class="hidden px-1.5 py-0.2 rounded-full text-[10px] font-mono bg-rose-500/15 text-rose-600 dark:text-rose-300">0</span>
+            </button>
             <button id="toggleContextBtn" type="button" class="px-2.5 py-1.5 text-xs font-medium rounded border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
               Hide Media &amp; Map
             </button>
@@ -544,7 +548,96 @@
       </div>
     </div>
   </div>
+<!-- Missing Pieces Crowdsourced Gallery Film Strip Modal -->
+  <div id="missingPiecesModal" role="dialog" aria-modal="true" aria-labelledby="mpModalTitle" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-xs items-center justify-center p-3 sm:p-5">
+    <div class="max-w-5xl w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <!-- Header -->
+      <div class="px-5 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-3 bg-slate-50/80 dark:bg-slate-900">
+        <div class="min-w-0">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-rose-500 shrink-0"></span>
+            <h2 id="mpModalTitle" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-slate-100 truncate">
+              Missing Pieces Crowdsourced Gallery
+            </h2>
+            <span id="mpCounter" class="text-xs font-mono text-slate-500 dark:text-slate-400 shrink-0"></span>
+          </div>
+          <p id="mpSubtitle" class="text-[11px] text-slate-500 dark:text-slate-400 truncate mt-0.5"></p>
+        </div>
 
+        <div class="flex items-center gap-2 shrink-0">
+          <a
+            id="mpProjectLink"
+            href="https://historicengland.org.uk/services-skills/our-services/missing-pieces/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-2.5 py-1.5 text-xs font-medium rounded-md border border-rose-500/40 bg-rose-500/10 text-rose-700 dark:text-rose-300 hover:bg-rose-500/20 transition-colors"
+          >
+            Missing Pieces Project &nearr;
+          </a>
+          <button id="closeMpModalBtn" type="button" aria-label="Close Missing Pieces gallery" class="p-1.5 rounded text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Photo Stage + Contributor Strip -->
+      <div class="p-4 sm:p-5 overflow-y-auto space-y-4 flex-1">
+        <div class="relative bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 flex items-center justify-center min-h-[260px] max-h-[48vh] overflow-hidden">
+          <img id="mpStageImg" src="" alt="" class="max-h-[46vh] w-auto object-contain" />
+          <button
+            id="mpPrevBtn"
+            type="button"
+            aria-label="Previous image"
+            class="absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-white border border-slate-700 flex items-center justify-center transition-colors"
+          >
+            &larr;
+          </button>
+          <button
+            id="mpNextBtn"
+            type="button"
+            aria-label="Next image"
+            class="absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-white border border-slate-700 flex items-center justify-center transition-colors"
+          >
+            &rarr;
+          </button>
+        </div>
+
+        <!-- Contributor Avatar, Name, Comment/Description & Direct Image Link -->
+        <div class="flex flex-wrap items-center justify-between gap-4 px-3.5 py-3 rounded-lg bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800">
+          <div class="flex items-center gap-3 min-w-0">
+            <div class="relative w-10 h-10 rounded-full overflow-hidden bg-sky-700 text-white font-semibold text-xs flex items-center justify-center shrink-0 border border-slate-300 dark:border-slate-700">
+              <span id="mpAvatarInitials">HE</span>
+              <img id="mpAvatarImg" src="" alt="" class="hidden w-full h-full object-cover absolute inset-0" />
+            </div>
+            <div class="min-w-0">
+              <div class="flex flex-wrap items-center gap-2">
+                <span id="mpContributorName" class="text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100 truncate"></span>
+                <span id="mpDateLabel" class="text-[11px] font-mono text-slate-400"></span>
+              </div>
+              <p id="mpCaptionText" class="text-xs text-slate-600 dark:text-slate-300 mt-0.5"></p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3 text-xs shrink-0">
+            <a id="mpDirectFileLink" href="#" target="_blank" rel="noopener noreferrer" class="text-sky-600 dark:text-sky-400 hover:underline font-medium">
+              Full Resolution &nearr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Horizontal Film Strip -->
+        <div class="space-y-1.5">
+          <div class="flex items-center justify-between text-[10px] font-mono uppercase tracking-wider text-slate-400">
+            <span>Film Strip</span>
+            <span id="mpSourceLabel">ugcapi.historicengland.org.uk</span>
+          </div>
+          <div id="mpFilmStrip" class="flex items-center gap-2 overflow-x-auto pb-2 pt-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script>
     const SEED_CATALOG = [{"id": "1083558", "name": "The Market House", "grade": "II", "place": "Tring", "ngr": "SP 92338 11368", "materials": ["Stone / Limestone", "Brick", "Wood (Timber)", "Lead", "Tile (Terracotta)", "Earth / Render"], "periods": ["Unassigned Period"], "architects": ["William Huckvale"], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.793353, "lon": -0.662526, "uri": "api/object/108/1083558.json"}, {"id": "1100418", "name": "Hill Farmhouse", "grade": "II", "place": "Kings Langley", "ngr": "TL 06513 02858", "materials": ["Brick", "Wood (Timber)", "Tile (Terracotta)"], "periods": ["16th Century", "19th Century"], "architects": [], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.71435, "lon": -0.459671, "uri": "api/object/110/1100418.json"}, {"id": "1124875", "name": "Mermaid Cottage", "grade": "II", "place": "Cholesbury-cum-St Leonards", "ngr": "SP 93581 07008", "materials": ["Flint", "Brick", "Wood (Timber)", "Tile (Terracotta)"], "periods": ["17th Century", "18th Century"], "architects": [], "wikidataUri": "", "wikidataQid": "", "wikipediaUrl": "", "commonsCategoryUrl": "", "geographUrl": "", "hasImage": false, "lat": 51.753956, "lon": -0.645682, "uri": "api/object/112/1124875.json"}];
     const SEED_DOCS = {"1083558": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/108/1083558.json", "type": "HumanMadeObject", "_label": "The Market House (Tring)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "The Market House"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1083558"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "SP 92338 11368"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "355682"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558", "type": "Place", "_label": "Tring (SP 92338 11368)", "defined_by": "POINT(-0.662526 51.793353)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q1013483", "type": "Place", "_label": "Tring (Wikidata Q1013483)"}, {"id": "http://vocab.getty.edu/tgn/7011641", "type": "Place", "_label": "Getty TGN 7011641"}, {"id": "https://sws.geonames.org/2635473/", "type": "Place", "_label": "GeoNames 2635473"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q1013483"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty TGN ID"}], "content": "7011641"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "2635473"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04004743"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Tring", "type": "LinguisticObject", "_label": "Wikipedia: Tring", "format": "text/html"}]}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1083558", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1083558", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1083558", "type": "Production", "_label": "Origin / Construction of The Market House (1898)", "carried_out_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/person/william-huckvale", "type": "Person", "_label": "William Huckvale", "equivalent": [{"id": "http://www.wikidata.org/entity/Q8012645", "type": "Person", "_label": "William Huckvale (Wikidata Q8012645)"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q8012645"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/William_Huckvale", "type": "LinguisticObject", "_label": "Wikipedia: William Huckvale", "format": "text/html"}]}], "timespan": {"type": "TimeSpan", "_label": "1898", "begin_of_the_begin": "1898-01-01T00:00:00Z", "end_of_the_end": "1898-12-31T23:59:59Z"}, "took_place_at": [{"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1083558", "type": "Place", "_label": "Tring (SP 92338 11368)", "defined_by": "POINT(-0.662526 51.793353)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q1013483", "type": "Place", "_label": "Tring (Wikidata Q1013483)"}, {"id": "http://vocab.getty.edu/tgn/7011641", "type": "Place", "_label": "Getty TGN 7011641"}, {"id": "https://sws.geonames.org/2635473/", "type": "Place", "_label": "GeoNames 2635473"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q1013483"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty TGN ID"}], "content": "7011641"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "2635473"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04004743"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Tring", "type": "LinguisticObject", "_label": "Wikipedia: Tring", "format": "text/html"}]}]}, "changed_ownership_through": [{"id": "https://portableant.github.io/nhle-linked-art/api/acquisition/nhle-1083558-1", "type": "Acquisition", "_label": "Gift: 1898, by William Huckvale, built by public subscription on site presented by Lord Rothschild when former Market House in", "classified_as": [{"id": "http://vocab.getty.edu/aat/300417642", "type": "Type", "_label": "Gift"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Provenance Statement"}], "content": "1898, by William Huckvale, built by public subscription on site presented by Lord Rothschild when former Market House in front of Church demolished."}], "timespan": {"type": "TimeSpan", "_label": "1898", "begin_of_the_begin": "1898-01-01T00:00:00Z", "end_of_the_end": "1898-12-31T23:59:59Z"}, "transferred_title_from": [{"type": "Person", "_label": "Lord Rothschild", "id": "https://portableant.github.io/nhle-linked-art/api/person/lord-rothschild", "equivalent": [{"id": "http://www.wikidata.org/entity/Q336385", "type": "Person", "_label": "Nathan Rothschild, 1st Baron Rothschild (Wikidata Q336385)"}, {"id": "https://viaf.org/viaf/25360233", "type": "Person", "_label": "VIAF 25360233"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q336385"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "VIAF ID"}], "content": "25360233"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Oxford DNB ID"}], "content": "35843"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild", "type": "LinguisticObject", "_label": "Wikipedia: Nathan Rothschild, 1st Baron Rothschild", "format": "text/html"}]}], "transferred_title_to": [{"type": "Group", "_label": "Public / Trust Stewards (Tring)"}]}], "current_owner": [{"type": "Group", "_label": "Civic / Municipal Stewardship (Tring)"}], "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-1", "type": "Modification", "_label": "after 1910: Open ground floor enclosed after 1910.", "timespan": {"type": "TimeSpan", "_label": "after 1910", "begin_of_the_begin": "1910-01-01T00:00:00Z", "end_of_the_end": "1910-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1083558-2", "type": "Modification", "_label": "1914: (Kelly(1914)250).", "timespan": {"type": "TimeSpan", "_label": "1914", "begin_of_the_begin": "1914-01-01T00:00:00Z", "end_of_the_end": "1914-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300011692", "type": "Material", "_label": "Stone / Limestone"}, {"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010900", "type": "Material", "_label": "Lead"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}, {"id": "http://vocab.getty.edu/aat/300011002", "type": "Material", "_label": "Earth / Render"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "TRING                  AKEMAN STREET SP 9211                                         (West side) 11/45                                   No. 99 -                                       (The Market House) GV                                      II Market house, now offices. 1898, by William Huckvale, built by public subscription on site presented by Lord Rothschild when former Market House in front of Church demolished. Open ground floor enclosed after 1910. Timber frame formerly open ground floor with oak posts on moulded stone bases, jettied half-timbered 1st floor with roughcast panels and steep red tile roof, central cupola and finial. Half-timbered infill to ground floor and doors to High Street. Lower 2-storeys part at S end with red brick gable chimney. Entrance and stair on W side of High Street frontage giving access to Council Chamber on 1st floor with large rectangular 6-light oriel window on that end, 6-light large transomed leaded window below gable in middle of E side. Includes No. 61 High Street. (Kelly(1914)250). Listing NGR: SP9233811368"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1986-05-29T00:00:00Z"}}]}, "1100418": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/110/1100418.json", "type": "HumanMadeObject", "_label": "Hill Farmhouse (Kings Langley)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "Hill Farmhouse"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1100418"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "TL 06513 02858"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "157692"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100418", "type": "Place", "_label": "Kings Langley (TL 06513 02858)", "defined_by": "POINT(-0.459671 51.71435)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q1979067", "type": "Place", "_label": "Kings Langley (Wikidata Q1979067)"}, {"id": "http://vocab.getty.edu/tgn/7011510", "type": "Place", "_label": "Getty TGN 7011510"}, {"id": "https://sws.geonames.org/2645526/", "type": "Place", "_label": "GeoNames 2645526"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q1979067"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty TGN ID"}], "content": "7011510"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "2645526"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04004748"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Kings_Langley", "type": "LinguisticObject", "_label": "Wikipedia: Kings Langley", "format": "text/html"}]}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1100418", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1100418", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1100418", "type": "Production", "_label": "Origin / Construction of Hill Farmhouse (Late C16)", "timespan": {"type": "TimeSpan", "_label": "1772", "begin_of_the_begin": "1772-01-01T00:00:00Z", "end_of_the_end": "1772-12-31T23:59:59Z"}, "took_place_at": [{"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1100418", "type": "Place", "_label": "Kings Langley (TL 06513 02858)", "defined_by": "POINT(-0.459671 51.71435)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q1979067", "type": "Place", "_label": "Kings Langley (Wikidata Q1979067)"}, {"id": "http://vocab.getty.edu/tgn/7011510", "type": "Place", "_label": "Getty TGN 7011510"}, {"id": "https://sws.geonames.org/2645526/", "type": "Place", "_label": "GeoNames 2645526"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q1979067"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Getty TGN ID"}], "content": "7011510"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "2645526"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04004748"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Kings_Langley", "type": "LinguisticObject", "_label": "Wikipedia: Kings Langley", "format": "text/html"}]}]}, "current_owner": [{"type": "Group", "_label": "Statutory Listed Property Steward (Kings Langley)"}], "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100418-1", "type": "Modification", "_label": "1772: Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19.", "timespan": {"type": "TimeSpan", "_label": "1772", "begin_of_the_begin": "1772-01-01T00:00:00Z", "end_of_the_end": "1772-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1100418-2", "type": "Modification", "_label": "C19: Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19.", "timespan": {"type": "TimeSpan", "_label": "C19", "begin_of_the_begin": "1800-01-01T00:00:00Z", "end_of_the_end": "1899-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "KINGS LANGLEY          \tLOVE LANE TL 00 SE \t\t\t\t\t(West side)                                         7/161                                   \tHill Farmhouse - -                                       \tII Farmhouse. Late C16, cased in brick in 1772 (dated brick on S range gable), porch and minor alterations in C19. Timber frame on brick sill, red brick infill to rear wing, red brick casing to S range. Steep old red tile roof. A 2-storeys attics and cellar L-shaped house facing S with long rear wing at NW. Large internal chimney at junction of wings. 4 windows front with 3-light casements to 1st floor and 2 recessed sash windows with 8/8 panes and cambered arches to ground floor with gabled tiled porch with 4 centred arch. Straight joint in brickwork of front to LH of porch suggesting different builds to brick casing. Timber framed walls with wide panels, jowled posts, clasped purlin roof and curved windbraces. Listing NGR: TL0651302858"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1986-12-02T00:00:00Z"}}]}, "1124875": {"@context": "https://linked.art/ns/v1/linked-art.json", "id": "https://portableant.github.io/nhle-linked-art/api/object/112/1124875.json", "type": "HumanMadeObject", "_label": "Mermaid Cottage (Cholesbury-cum-St Leonards)", "classified_as": [{"id": "http://vocab.getty.edu/aat/300004789", "type": "Type", "_label": "Building"}, {"id": "https://portableant.github.io/nhle-linked-art/api/concept/grade-ii", "type": "Type", "_label": "Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435443", "type": "Type", "_label": "Type of Work"}]}], "identified_by": [{"type": "Name", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404670", "type": "Type", "_label": "Primary Name"}], "content": "Mermaid Cottage"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "NHLE List Entry Number"}], "content": "1124875"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "National Grid Reference (OSGB36)"}], "content": "SP 93581 07008"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Legacy System Number (LBS)"}], "content": "44679"}], "subject_to": [{"type": "Right", "_label": "Statutory Protection: Grade II Listed Building", "classified_as": [{"id": "http://vocab.getty.edu/aat/300055547", "type": "Type", "_label": "Legal Status"}]}], "current_location": {"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124875", "type": "Place", "_label": "Cholesbury-cum-St Leonards (SP 93581 07008)", "defined_by": "POINT(-0.645682 51.753956)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q2243647", "type": "Place", "_label": "Cholesbury-cum-St Leonards (Wikidata Q2243647)"}, {"id": "https://sws.geonames.org/7296993/", "type": "Place", "_label": "GeoNames 7296993"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q2243647"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "7296993"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04001484"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Cholesbury-cum-St_Leonards", "type": "LinguisticObject", "_label": "Wikipedia: Cholesbury-cum-St Leonards", "format": "text/html"}]}, "subject_of": [{"id": "https://historicengland.org.uk/listing/the-list/list-entry/1124875", "type": "LinguisticObject", "_label": "Historic England Official List Entry #1124875", "format": "text/html"}], "produced_by": {"id": "https://portableant.github.io/nhle-linked-art/api/production/nhle-1124875", "type": "Production", "_label": "Origin / Construction of Mermaid Cottage (C17)", "timespan": {"type": "TimeSpan", "_label": "C17", "begin_of_the_begin": "1600-01-01T00:00:00Z", "end_of_the_end": "1699-12-31T23:59:59Z"}, "took_place_at": [{"id": "https://portableant.github.io/nhle-linked-art/api/place/nhle-1124875", "type": "Place", "_label": "Cholesbury-cum-St Leonards (SP 93581 07008)", "defined_by": "POINT(-0.645682 51.753956)", "equivalent": [{"id": "http://www.wikidata.org/entity/Q2243647", "type": "Place", "_label": "Cholesbury-cum-St Leonards (Wikidata Q2243647)"}, {"id": "https://sws.geonames.org/7296993/", "type": "Place", "_label": "GeoNames 7296993"}], "identified_by": [{"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "Wikidata Entity ID"}], "content": "Q2243647"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "GeoNames ID"}], "content": "7296993"}, {"type": "Identifier", "classified_as": [{"id": "http://vocab.getty.edu/aat/300404626", "type": "Type", "_label": "ONS GSS Code"}], "content": "E04001484"}], "subject_of": [{"id": "https://en.wikipedia.org/wiki/Cholesbury-cum-St_Leonards", "type": "LinguisticObject", "_label": "Wikipedia: Cholesbury-cum-St Leonards", "format": "text/html"}]}]}, "current_owner": [{"type": "Group", "_label": "Statutory Listed Property Steward (Cholesbury-cum-St Leonards)"}], "modified_by": [{"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124875-1", "type": "Modification", "_label": "C18: C17 refronted, raised and extended C18.", "timespan": {"type": "TimeSpan", "_label": "C18", "begin_of_the_begin": "1700-01-01T00:00:00Z", "end_of_the_end": "1799-12-31T23:59:59Z"}}, {"id": "https://portableant.github.io/nhle-linked-art/api/modification/nhle-1124875-2", "type": "Modification", "_label": "Late C18: Late C18 rear extension flint and brick, old tile roof paralled to main roof.", "timespan": {"type": "TimeSpan", "_label": "Late C18", "begin_of_the_begin": "1767-01-01T00:00:00Z", "end_of_the_end": "1799-12-31T23:59:59Z"}}], "made_of": [{"id": "http://vocab.getty.edu/aat/300011229", "type": "Material", "_label": "Flint"}, {"id": "http://vocab.getty.edu/aat/300010463", "type": "Material", "_label": "Brick"}, {"id": "http://vocab.getty.edu/aat/300011914", "type": "Material", "_label": "Wood (Timber)"}, {"id": "http://vocab.getty.edu/aat/300010673", "type": "Material", "_label": "Tile (Terracotta)"}], "referred_to_by": [{"type": "LinguisticObject", "classified_as": [{"id": "http://vocab.getty.edu/aat/300435416", "type": "Type", "_label": "Details (Official List Description)"}], "content": "SP 90 NW      CHOLESBURY-CUM-ST. LEONARDS      HAWRIDGE                                                (north side) 2/76                                           Mermaid Cottage - -                                              II Small house formerly an inn.  C17 refronted, raised and extended C18. Rubble flint with brick bands forming panels.  Old tile roof, central chimney, dentil brick eaves.  Two storeys, three bays with fourth bay on right added recently in matching materials and windows.  Original doorway opposite stack, now with 2-light casement window.  Present door to left with modern lean-to tiled canopy.  Three ground floor casements, all openings with segmental brick arches.  Three Yorkshire sashes to first floor.  Late C18 rear extension flint and brick, old tile roof paralled to main roof.  Interior: large stack with inglenook to central room, chamfered spine beams, timber frame in rear wall with curved braces.  Evidence of eaves being raised up in C18. Listing NGR: SP9358107008"}], "attributed_by": [{"type": "AttributeAssignment", "_label": "Statutory Designation (Capture scale 1:2500)", "timespan": {"type": "TimeSpan", "begin_of_the_begin": "1983-11-23T00:00:00Z"}}]}};
@@ -1119,12 +1212,184 @@
       }
 
       linksEl.innerHTML = pills.join('');
+      // =========================================================================
+    // Historic England "Missing Pieces" UGC Film Strip Modal
+    // =========================================================================
+    const MISSING_PIECES_PROJECT_URL = 'https://historicengland.org.uk/services-skills/our-services/missing-pieces/';
+    const SAMPLE_MISSING_PIECES_1078047 = [{"id":974000,"comment":{"id":668454,"parentId":null,"userId":"397b1c86-f27b-447e-bb60-d9b96aa3d6ff","username":"Daniel Pett","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"338568","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2023-06-30T23:16:00.9089609","lastEdited":"2023-06-30T23:16:00.9089609","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":668454,"filename":"9c539f25-6faf-4af8-947a-c9d7eda5c8d9.jpg","url":"https://historicengland.org.uk/etl/1078047/9c539f25-6faf-4af8-947a-c9d7eda5c8d9.jpg","starred":false,"description":"A view of a church against a blue sky, with a wide expanse of grass in front of the tower. ","caption":null},{"id":1103073,"comment":{"id":743895,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:26:11.7192518","lastEdited":"2024-09-06T20:26:11.7192518","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743895,"filename":"e995f3cb-7af1-4eb3-ab6e-c211c09daadc.jpg","url":"https://historicengland.org.uk/etl/1078047/e995f3cb-7af1-4eb3-ab6e-c211c09daadc.jpg","starred":false,"description":null,"caption":null},{"id":1103074,"comment":{"id":743895,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:26:11.7192518","lastEdited":"2024-09-06T20:26:11.7192518","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743895,"filename":"595f5030-8af8-4328-bf0b-f743c965f0ad.jpg","url":"https://historicengland.org.uk/etl/1078047/595f5030-8af8-4328-bf0b-f743c965f0ad.jpg","starred":false,"description":null,"caption":null},{"id":1103075,"comment":{"id":743895,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:26:11.7192518","lastEdited":"2024-09-06T20:26:11.7192518","isCreatedByOrganisationUser":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743895,"filename":"51b54639-8d15-4311-b663-0b4ac8344ad6.jpg","url":"https://historicengland.org.uk/etl/1078047/51b54639-8d15-4311-b663-0b4ac8344ad6.jpg","starred":false,"description":null,"caption":null},{"id":1103076,"comment":{"id":743895,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:26:11.7192518","lastEdited":"2024-09-06T20:26:11.7192518","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743895,"filename":"99486d11-3533-4101-b21c-98ab67be7fa3.jpg","url":"https://historicengland.org.uk/etl/1078047/99486d11-3533-4101-b21c-98ab67be7fa3.jpg","starred":false,"description":null,"caption":null},{"id":1103077,"comment":{"id":743896,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:29:04.9713029","lastEdited":"2024-09-06T20:29:04.9713029","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743896,"filename":"7c54220e-46fa-4ccd-b6a5-3e86d9ced72f.jpg","url":"https://historicengland.org.uk/etl/1078047/7c54220e-46fa-4ccd-b6a5-3e86d9ced72f.jpg","starred":false,"description":null,"caption":null},{"id":1103078,"comment":{"id":743896,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:29:04.9713029","lastEdited":"2024-09-06T20:29:04.9713029","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743896,"filename":"5f318e4f-ebea-4cfb-881c-556d571a78ab.jpg","url":"https://historicengland.org.uk/etl/1078047/5f318e4f-ebea-4cfb-881c-556d571a78ab.jpg","starred":false,"description":null,"caption":null},{"id":1103079,"comment":{"id":743896,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:29:04.9713029","lastEdited":"2024-09-06T20:29:04.9713029","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743896,"filename":"51cb9106-31c6-490c-88cf-f0716f8c414b.jpg","url":"https://historicengland.org.uk/etl/1078047/51cb9106-31c6-490c-88cf-f0716f8c414b.jpg","starred":false,"description":null,"caption":null},{"id":1103080,"comment":{"id":743896,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:29:04.9713029","lastEdited":"2024-09-06T20:29:04.9713029","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743896,"filename":"8fb8de10-8663-431c-9d39-d7945a00473b.jpg","url":"https://historicengland.org.uk/etl/1078047/8fb8de10-8663-431c-9d39-d7945a00473b.jpg","starred":false,"description":null,"caption":null},{"id":1103081,"comment":{"id":743897,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:34:29.3747384","lastEdited":"2024-09-06T20:34:29.3747384","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743897,"filename":"94281da8-cb4d-46a1-9956-a207f55899d8.jpg","url":"https://historicengland.org.uk/etl/1078047/94281da8-cb4d-46a1-9956-a207f55899d8.jpg","starred":false,"description":null,"caption":null},{"id":1103082,"comment":{"id":743897,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:34:29.3747384","lastEdited":"2024-09-06T20:34:29.3747384","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743897,"filename":"871051ce-6434-44d2-ae23-be8ed02d3ef4.jpg","url":"https://historicengland.org.uk/etl/1078047/871051ce-6434-44d2-ae23-be8ed02d3ef4.jpg","starred":false,"description":null,"caption":null},{"id":1103083,"comment":{"id":743897,"parentId":null,"userId":"fc9a5e05-91c5-4ff4-a485-28843ccb47fb","username":"Helen C-F","userAvatarUrl":"https://account.historicengland.org.uk/image/get/genericavatar","email":null,"itemId":230612,"externalId":null,"memberId":"304000","numberOfContributions":0,"isLoggedInUsersComment":false,"created":"2024-09-06T20:34:29.3747384","lastEdited":"2024-09-06T20:34:29.3747384","isCreatedByOrganisationUser":false,"edited":false,"isUserVerified":true,"text":"Photographs taken 21st August 2024","pinnedPriority":0,"currentStatusId":2},"blobStorageUrl":null,"mediaTypeId":1,"commentId":743897,"filename":"3be2d058-f710-428e-b7f3-e58e0ebbe803.jpg","url":"https://historicengland.org.uk/etl/1078047/3be2d058-f710-428e-b7f3-e58e0ebbe803.jpg","starred":false,"description":null,"caption":null}];
 
+    const mpModal = document.getElementById('missingPiecesModal');
+    const ugcCache = {};
+    let mpItems = [];
+    let mpIndex = 0;
+
+    function getInitials(name = '') {
+      const parts = String(name).trim().split(/\s+/).filter(Boolean);
+      if (!parts.length) return 'HE';
+      return parts.slice(0, 2).map(p => p[0].toUpperCase()).join('');
+    }
+
+    async function fetchMissingPiecesMedia(nhleId) {
+      if (ugcCache[nhleId]) return ugcCache[nhleId];
+      try {
+        const res = await fetch(`https://ugcapi.historicengland.org.uk/api/media/${encodeURIComponent(nhleId)}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length) {
+            ugcCache[nhleId] = { items: data, source: `ugcapi.historicengland.org.uk/api/media/${nhleId}` };
+            return ugcCache[nhleId];
+          }
+        }
+      } catch (e) {}
+
+      if (String(nhleId) === '1078047') {
+        ugcCache[nhleId] = { items: SAMPLE_MISSING_PIECES_1078047, source: 'Sample JSON (NHLE #1078047)' };
+        return ugcCache[nhleId];
+      }
+
+      ugcCache[nhleId] = { items: [], source: `ugcapi.historicengland.org.uk/api/media/${nhleId}` };
+      return ugcCache[nhleId];
+    }
+
+    function updateMpBadge(count) {
+      const badge = document.getElementById('mpBadgeCount');
+      if (!badge) return;
+      if (count > 0) {
+        badge.textContent = String(count);
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+
+    function renderMpSlide(idx) {
+      if (!mpItems.length) return;
+      mpIndex = ((idx % mpItems.length) + mpItems.length) % mpItems.length;
+      const item = mpItems[mpIndex];
+      const comment = item.comment || {};
+      const imgUrl = (item.url || item.blobStorageUrl || '').replace(/^http:\/\//i, 'https://');
+      const contributor = comment.username || 'Anonymous Contributor';
+      const note = [item.caption, item.description, comment.text].map(s => (s || '').trim()).filter(Boolean).join(' — ') || 'No caption or note provided.';
+      const dateStr = comment.created ? new Date(comment.created).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+
+      document.getElementById('mpCounter').textContent = `${mpIndex + 1} / ${mpItems.length}`;
+      document.getElementById('mpStageImg').src = imgUrl;
+      document.getElementById('mpStageImg').alt = `${note} — ${contributor}`;
+      document.getElementById('mpDirectFileLink').href = imgUrl || MISSING_PIECES_PROJECT_URL;
+
+      // Contributor avatar with initials fallback
+      const avatarImg = document.getElementById('mpAvatarImg');
+      const avatarInitials = document.getElementById('mpAvatarInitials');
+      avatarInitials.textContent = getInitials(contributor);
+      avatarImg.classList.add('hidden');
+      if (comment.userAvatarUrl) {
+        avatarImg.src = comment.userAvatarUrl;
+        avatarImg.alt = contributor;
+        avatarImg.onload = () => avatarImg.classList.remove('hidden');
+        avatarImg.onerror = () => avatarImg.classList.add('hidden');
+      }
+
+      document.getElementById('mpContributorName').textContent = contributor;
+      document.getElementById('mpDateLabel').textContent = dateStr ? `• ${dateStr}` : '';
+      document.getElementById('mpCaptionText').textContent = note;
+
+      // Highlight active film strip thumbnail
+      document.querySelectorAll('.mp-thumb-btn').forEach((btn, i) => {
+        if (i === mpIndex) {
+          btn.classList.add('ring-2', 'ring-rose-500', 'border-rose-500', 'opacity-100');
+          btn.classList.remove('opacity-65', 'border-slate-700');
+          btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          btn.classList.remove('ring-2', 'ring-rose-500', 'border-rose-500', 'opacity-100');
+          btn.classList.add('opacity-65', 'border-slate-700');
+        }
+      });
+    }
+
+    function renderMpFilmStrip() {
+      const strip = document.getElementById('mpFilmStrip');
+      strip.innerHTML = mpItems.map((item, i) => {
+        const thumbUrl = (item.url || item.blobStorageUrl || '').replace(/^http:\/\//i, 'https://');
+        const user = item.comment?.username || 'Contributor';
+        return `
+          <button
+            type="button"
+            data-mp-idx="${i}"
+            class="mp-thumb-btn shrink-0 w-24 h-16 rounded-md overflow-hidden border border-slate-700 bg-slate-950 focus:outline-none transition-all opacity-65 hover:opacity-100"
+            title="#${i + 1}: ${user}"
+          >
+            <img src="${thumbUrl}" alt="${user}" class="w-full h-full object-cover" loading="lazy" />
+          </button>
+        `;
+      }).join('');
+
+      strip.querySelectorAll('.mp-thumb-btn').forEach(btn => {
+        btn.addEventListener('click', () => renderMpSlide(Number(btn.dataset.mpIdx)));
+      });
+    }
+
+    async function openMissingPiecesModal() {
+      const doc = docsCache[activeId];
+      const title = (doc?.identified_by || []).find(i => i.type === 'Name')?.content || doc?._label || `NHLE #${activeId}`;
+      document.getElementById('mpModalTitle').textContent = `Missing Pieces — ${title}`;
+      document.getElementById('mpSubtitle').textContent = `NHLE List Entry #${activeId}`;
+      document.getElementById('mpProjectLink').href = MISSING_PIECES_PROJECT_URL;
+
+      const { items, source } = await fetchMissingPiecesMedia(activeId);
+      document.getElementById('mpSourceLabel').textContent = source;
+
+      if (!items.length) {
+        mpItems = [];
+        document.getElementById('mpCounter').textContent = '0 / 0';
+        document.getElementById('mpStageImg').src = '';
+        document.getElementById('mpContributorName').textContent = 'No crowdsourced images found';
+        document.getElementById('mpDateLabel').textContent = '';
+        document.getElementById('mpCaptionText').textContent = `No media items returned from ugcapi.historicengland.org.uk/api/media/${activeId}.`;
+        document.getElementById('mpFilmStrip').innerHTML = '';
+        mpModal.classList.remove('hidden');
+        mpModal.classList.add('flex');
+        return;
+      }
+
+      mpItems = items;
+      renderMpFilmStrip();
+      renderMpSlide(0);
+      mpModal.classList.remove('hidden');
+      mpModal.classList.add('flex');
+    }
+
+    function closeMissingPiecesModal() {
+      mpModal.classList.add('hidden');
+      mpModal.classList.remove('flex');
+    }
+
+    document.getElementById('openMissingPiecesBtn').addEventListener('click', openMissingPiecesModal);
+    document.getElementById('closeMpModalBtn').addEventListener('click', closeMissingPiecesModal);
+    document.getElementById('mpPrevBtn').addEventListener('click', () => renderMpSlide(mpIndex - 1));
+    document.getElementById('mpNextBtn').addEventListener('click', () => renderMpSlide(mpIndex + 1));
+    mpModal.addEventListener('click', (e) => {
+      if (e.target === mpModal) closeMissingPiecesModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (mpModal.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeMissingPiecesModal();
+      if (e.key === 'ArrowLeft') renderMpSlide(mpIndex - 1);
+      if (e.key === 'ArrowRight') renderMpSlide(mpIndex + 1);
+    });
+
+    async function loadMissingPiecesForActive(id) {
+      const { items } = await fetchMissingPiecesMedia(id);
+      if (activeId === id) {
+        updateMpBadge(items.length);
+      }
+    }
       renderEntityRibbon(doc);
       renderMediaCard(doc, primaryName);
       renderMiniMap(doc);
       renderDossierCard(doc);
       renderTimeline(doc);
+      loadMissingPiecesForActive(activeId);
     }
 
     async function enrichSingleWithWikidata(id) {
