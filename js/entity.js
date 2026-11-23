@@ -210,6 +210,106 @@
       return events.sort((a, b) => a.sortYear - b.sortYear);
     }
 
+    function parseLinkedArtYear(value) {
+      if (!value) return null;
+      const match = String(value).match(/^(-?\d{1,6})/);
+      if (!match) return null;
+      const year = parseInt(match[1], 10);
+      return Number.isFinite(year) ? year : null;
+    }
+
+    let periodDatasetCache = null;
+
+    async function loadHistoricEnglandPeriodDataset() {
+      if (periodDatasetCache) return periodDatasetCache;
+
+      const response = await fetch('https://data.perio.do/kh9ds.json');
+      if (!response.ok) {
+        throw new Error(`PeriodO request failed with HTTP ${response.status}`);
+      }
+
+      const authority = await response.json();
+      const authorityId = authority.id || 'p0kh9ds';
+      const periodDataset = {
+        authorities: {
+          [authorityId]: {
+            source: {
+              title: authority.source?.title || 'Historic England Periods',
+            },
+          },
+        },
+        definitions: {},
+      };
+
+      for (const [periodId, period] of Object.entries(authority.periods || {})) {
+        periodDataset.definitions[periodId] = {
+          id: `http://n2t.net/ark:/99152/${periodId}`,
+          authority: authorityId,
+          label: period.label || period.localizedLabels?.en?.[0] || periodId,
+          spatialCoverageDescription: period.spatialCoverageDescription || '',
+          spatialCoverage: period.spatialCoverage || [],
+          start: period.start || null,
+          stop: period.stop || null,
+        };
+      }
+
+      periodDatasetCache = periodDataset;
+      return periodDataset;
+    }
+
+    async function renderPeriodCard(doc) {
+      const card = document.getElementById('periodCard');
+      if (!card) return;
+
+      try {
+        await import('https://micropasts.github.io/period-card/period-card.esm.js');
+        await customElements.whenDefined('period-card-tw');
+      } catch (error) {
+        card.innerHTML = '<p class="text-xs text-rose-500">Could not load the PeriodO period card component.</p>';
+        return;
+      }
+
+      const catItem = catalog.find(c => c.id === activeId);
+      const periodLabels = [...new Set([
+        ...(catItem?.periods || []),
+        doc.produced_by?.timespan?._label,
+        ...(doc.modified_by || []).map(m => m.timespan?._label),
+      ].filter(label => label && label !== 'Unassigned Period'))];
+
+      const dateValues = [
+        doc.produced_by?.timespan?.begin_of_the_begin,
+        doc.produced_by?.timespan?.end_of_the_end,
+        ...(doc.modified_by || []).flatMap(m => [
+          m.timespan?.begin_of_the_begin,
+          m.timespan?.end_of_the_end,
+        ]),
+      ].map(parseLinkedArtYear).filter(year => year !== null);
+
+      const record = {
+        title: (doc.identified_by || []).find(i => i.type === 'Name')?.content || doc._label || 'Untitled listed building',
+        period: periodLabels,
+        country: 'England',
+      };
+      if (dateValues.length) {
+        record.objectBeginDate = Math.min(...dateValues);
+        record.objectEndDate = Math.max(...dateValues);
+      }
+
+      let periodDataset;
+      try {
+        periodDataset = await loadHistoricEnglandPeriodDataset();
+      } catch (error) {
+        card.innerHTML = '<p class="text-xs text-rose-500">Could not load the Historic England PeriodO authority.</p>';
+        return;
+      }
+
+      card.setAttribute('lod', 'compact');
+      card.removeAttribute('periodo-src');
+      card.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+      card.periodoData = periodDataset;
+      card.record = record;
+    }
+
     function renderTimeline(doc) {
       const track = document.getElementById('timelineTrack');
       const events = extractTimelineEvents(doc);
@@ -363,6 +463,7 @@
       renderMiniMap(doc);
       renderDossierCard(doc);
       renderTimeline(doc);
+      renderPeriodCard(doc);
       loadMissingPiecesForActive(activeId);
     }
 
@@ -436,4 +537,3 @@
         }
       } catch (e) {}
     }
-

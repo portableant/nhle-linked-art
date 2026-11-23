@@ -78,10 +78,13 @@
       if (provenanceInstance && typeof provenanceInstance.setTheme === 'function') {
         provenanceInstance.setTheme(isDark ? 'dark' : 'light');
       }
+      const periodCard = document.getElementById('periodCard');
+      if (periodCard && typeof periodCard.theme !== 'undefined') {
+        periodCard.theme = isDark ? 'dark' : 'light';
+      }
       if (mapInstance) {
         mapInstance.setStyle(isDark
           ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
           : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json');
       }
     });
-
